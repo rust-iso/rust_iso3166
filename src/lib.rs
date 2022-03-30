@@ -1,16 +1,19 @@
+
 use phf::phf_map;
 use phf::Map;
+pub mod iso3166_2;
+
 /// # Sample code
 /// ```
 /// let country = rust_iso3166::from_alpha2("AU");
-/// assert_eq!("AUS", country.unwrap().alpha3);
+/// assert_eq!("AUS", country.unwrap().alpha3); 
 /// let country = rust_iso3166::from_alpha3("AUS");
 /// assert_eq!("AU", country.unwrap().alpha2);  
 /// let country = rust_iso3166::from_numeric(036);
 /// assert_eq!("AUS", country.unwrap().alpha3);   
 /// let country = rust_iso3166::from_numeric_str("036");
-/// assert_eq!("AUS", country.unwrap().alpha3);
-///
+/// assert_eq!("AUS", country.unwrap().alpha3); 
+/// 
 /// println!("{:?}", country);   
 /// println!("{:?}", rust_iso3166::ALL);
 
@@ -40,8 +43,13 @@ pub struct CountryCode {
 
 impl CountryCode {
     ///Return len 3 String for CountryCode numeric
-    pub fn numeric_str(&self) -> String {
+    pub fn numeric_str (&self) -> String {
         format!("{:03}", self.numeric)
+    }
+
+    ///Return Subdivision for ISO 3166-2
+    pub fn subdivisions (&self) -> Option<&[iso3166_2::Subdivision]> {
+        iso3166_2::SUBDIVISION_COUNTRY_MAP.get(self.alpha2).cloned()
     }
 }
 /// Returns the CountryCode with the given Alpha2 code, if exists.
@@ -85,12 +93,15 @@ pub fn from_numeric_str(numeric: &str) -> Option<CountryCode> {
     NUMERIC_MAP.get(numeric).cloned()
 }
 
+
+
 pub const AF: CountryCode = CountryCode {
     name: "Afghanistan[b]",
     alpha2: "AF",
     alpha3: "AFG",
     numeric: 004,
 };
+
 
 pub const AX: CountryCode = CountryCode {
     name: "Åland Islands",
@@ -99,12 +110,14 @@ pub const AX: CountryCode = CountryCode {
     numeric: 248,
 };
 
+
 pub const AL: CountryCode = CountryCode {
     name: "Albania",
     alpha2: "AL",
     alpha3: "ALB",
     numeric: 008,
 };
+
 
 pub const DZ: CountryCode = CountryCode {
     name: "Algeria",
@@ -113,12 +126,14 @@ pub const DZ: CountryCode = CountryCode {
     numeric: 012,
 };
 
+
 pub const AS: CountryCode = CountryCode {
     name: "American Samoa",
     alpha2: "AS",
     alpha3: "ASM",
     numeric: 016,
 };
+
 
 pub const AD: CountryCode = CountryCode {
     name: "Andorra",
@@ -127,12 +142,14 @@ pub const AD: CountryCode = CountryCode {
     numeric: 020,
 };
 
+
 pub const AO: CountryCode = CountryCode {
     name: "Angola",
     alpha2: "AO",
     alpha3: "AGO",
     numeric: 024,
 };
+
 
 pub const AI: CountryCode = CountryCode {
     name: "Anguilla",
@@ -141,12 +158,14 @@ pub const AI: CountryCode = CountryCode {
     numeric: 660,
 };
 
+
 pub const AQ: CountryCode = CountryCode {
     name: "Antarctica",
     alpha2: "AQ",
     alpha3: "ATA",
     numeric: 010,
 };
+
 
 pub const AG: CountryCode = CountryCode {
     name: "Antigua and Barbuda",
@@ -155,12 +174,14 @@ pub const AG: CountryCode = CountryCode {
     numeric: 028,
 };
 
+
 pub const AR: CountryCode = CountryCode {
     name: "Argentina",
     alpha2: "AR",
     alpha3: "ARG",
     numeric: 032,
 };
+
 
 pub const AM: CountryCode = CountryCode {
     name: "Armenia",
@@ -169,12 +190,14 @@ pub const AM: CountryCode = CountryCode {
     numeric: 051,
 };
 
+
 pub const AW: CountryCode = CountryCode {
     name: "Aruba",
     alpha2: "AW",
     alpha3: "ABW",
     numeric: 533,
 };
+
 
 pub const AU: CountryCode = CountryCode {
     name: "Australia",
@@ -183,12 +206,14 @@ pub const AU: CountryCode = CountryCode {
     numeric: 036,
 };
 
+
 pub const AT: CountryCode = CountryCode {
     name: "Austria",
     alpha2: "AT",
     alpha3: "AUT",
     numeric: 040,
 };
+
 
 pub const AZ: CountryCode = CountryCode {
     name: "Azerbaijan",
@@ -197,12 +222,14 @@ pub const AZ: CountryCode = CountryCode {
     numeric: 031,
 };
 
+
 pub const BS: CountryCode = CountryCode {
     name: "Bahamas",
     alpha2: "BS",
     alpha3: "BHS",
     numeric: 044,
 };
+
 
 pub const BH: CountryCode = CountryCode {
     name: "Bahrain",
@@ -211,12 +238,14 @@ pub const BH: CountryCode = CountryCode {
     numeric: 048,
 };
 
+
 pub const BD: CountryCode = CountryCode {
     name: "Bangladesh",
     alpha2: "BD",
     alpha3: "BGD",
     numeric: 050,
 };
+
 
 pub const BB: CountryCode = CountryCode {
     name: "Barbados",
@@ -225,12 +254,14 @@ pub const BB: CountryCode = CountryCode {
     numeric: 052,
 };
 
+
 pub const BY: CountryCode = CountryCode {
     name: "Belarus",
     alpha2: "BY",
     alpha3: "BLR",
     numeric: 112,
 };
+
 
 pub const BE: CountryCode = CountryCode {
     name: "Belgium",
@@ -239,12 +270,14 @@ pub const BE: CountryCode = CountryCode {
     numeric: 056,
 };
 
+
 pub const BZ: CountryCode = CountryCode {
     name: "Belize",
     alpha2: "BZ",
     alpha3: "BLZ",
     numeric: 084,
 };
+
 
 pub const BJ: CountryCode = CountryCode {
     name: "Benin",
@@ -253,12 +286,14 @@ pub const BJ: CountryCode = CountryCode {
     numeric: 204,
 };
 
+
 pub const BM: CountryCode = CountryCode {
     name: "Bermuda",
     alpha2: "BM",
     alpha3: "BMU",
     numeric: 060,
 };
+
 
 pub const BT: CountryCode = CountryCode {
     name: "Bhutan",
@@ -267,12 +302,14 @@ pub const BT: CountryCode = CountryCode {
     numeric: 064,
 };
 
+
 pub const BO: CountryCode = CountryCode {
     name: "Bolivia (Plurinational State of)",
     alpha2: "BO",
     alpha3: "BOL",
     numeric: 068,
 };
+
 
 pub const BQ: CountryCode = CountryCode {
     name: "Bonaire, Sint Eustatius and Saba[c]",
@@ -281,12 +318,14 @@ pub const BQ: CountryCode = CountryCode {
     numeric: 535,
 };
 
+
 pub const BA: CountryCode = CountryCode {
     name: "Bosnia and Herzegovina",
     alpha2: "BA",
     alpha3: "BIH",
     numeric: 070,
 };
+
 
 pub const BW: CountryCode = CountryCode {
     name: "Botswana",
@@ -295,12 +334,14 @@ pub const BW: CountryCode = CountryCode {
     numeric: 072,
 };
 
+
 pub const BV: CountryCode = CountryCode {
     name: "Bouvet Island",
     alpha2: "BV",
     alpha3: "BVT",
     numeric: 074,
 };
+
 
 pub const BR: CountryCode = CountryCode {
     name: "Brazil",
@@ -309,12 +350,14 @@ pub const BR: CountryCode = CountryCode {
     numeric: 076,
 };
 
+
 pub const IO: CountryCode = CountryCode {
     name: "British Indian Ocean Territory",
     alpha2: "IO",
     alpha3: "IOT",
     numeric: 086,
 };
+
 
 pub const BN: CountryCode = CountryCode {
     name: "Brunei Darussalam",
@@ -323,12 +366,14 @@ pub const BN: CountryCode = CountryCode {
     numeric: 096,
 };
 
+
 pub const BG: CountryCode = CountryCode {
     name: "Bulgaria",
     alpha2: "BG",
     alpha3: "BGR",
     numeric: 100,
 };
+
 
 pub const BF: CountryCode = CountryCode {
     name: "Burkina Faso",
@@ -337,12 +382,14 @@ pub const BF: CountryCode = CountryCode {
     numeric: 854,
 };
 
+
 pub const BI: CountryCode = CountryCode {
     name: "Burundi",
     alpha2: "BI",
     alpha3: "BDI",
     numeric: 108,
 };
+
 
 pub const CV: CountryCode = CountryCode {
     name: "Cabo Verde",
@@ -351,12 +398,14 @@ pub const CV: CountryCode = CountryCode {
     numeric: 132,
 };
 
+
 pub const KH: CountryCode = CountryCode {
     name: "Cambodia",
     alpha2: "KH",
     alpha3: "KHM",
     numeric: 116,
 };
+
 
 pub const CM: CountryCode = CountryCode {
     name: "Cameroon",
@@ -365,12 +414,14 @@ pub const CM: CountryCode = CountryCode {
     numeric: 120,
 };
 
+
 pub const CA: CountryCode = CountryCode {
     name: "Canada",
     alpha2: "CA",
     alpha3: "CAN",
     numeric: 124,
 };
+
 
 pub const KY: CountryCode = CountryCode {
     name: "Cayman Islands",
@@ -379,12 +430,14 @@ pub const KY: CountryCode = CountryCode {
     numeric: 136,
 };
 
+
 pub const CF: CountryCode = CountryCode {
     name: "Central African Republic",
     alpha2: "CF",
     alpha3: "CAF",
     numeric: 140,
 };
+
 
 pub const TD: CountryCode = CountryCode {
     name: "Chad",
@@ -393,12 +446,14 @@ pub const TD: CountryCode = CountryCode {
     numeric: 148,
 };
 
+
 pub const CL: CountryCode = CountryCode {
     name: "Chile",
     alpha2: "CL",
     alpha3: "CHL",
     numeric: 152,
 };
+
 
 pub const CN: CountryCode = CountryCode {
     name: "China[b]",
@@ -407,12 +462,14 @@ pub const CN: CountryCode = CountryCode {
     numeric: 156,
 };
 
+
 pub const CX: CountryCode = CountryCode {
     name: "Christmas Island",
     alpha2: "CX",
     alpha3: "CXR",
     numeric: 162,
 };
+
 
 pub const CC: CountryCode = CountryCode {
     name: "Cocos (Keeling) Islands",
@@ -421,12 +478,14 @@ pub const CC: CountryCode = CountryCode {
     numeric: 166,
 };
 
+
 pub const CO: CountryCode = CountryCode {
     name: "Colombia",
     alpha2: "CO",
     alpha3: "COL",
     numeric: 170,
 };
+
 
 pub const KM: CountryCode = CountryCode {
     name: "Comoros",
@@ -435,12 +494,14 @@ pub const KM: CountryCode = CountryCode {
     numeric: 174,
 };
 
+
 pub const CG: CountryCode = CountryCode {
     name: "Congo",
     alpha2: "CG",
     alpha3: "COG",
     numeric: 178,
 };
+
 
 pub const CD: CountryCode = CountryCode {
     name: "Congo, Democratic Republic of the",
@@ -449,12 +510,14 @@ pub const CD: CountryCode = CountryCode {
     numeric: 180,
 };
 
+
 pub const CK: CountryCode = CountryCode {
     name: "Cook Islands",
     alpha2: "CK",
     alpha3: "COK",
     numeric: 184,
 };
+
 
 pub const CR: CountryCode = CountryCode {
     name: "Costa Rica",
@@ -463,12 +526,14 @@ pub const CR: CountryCode = CountryCode {
     numeric: 188,
 };
 
+
 pub const CI: CountryCode = CountryCode {
     name: "Côte d'Ivoire",
     alpha2: "CI",
     alpha3: "CIV",
     numeric: 384,
 };
+
 
 pub const HR: CountryCode = CountryCode {
     name: "Croatia",
@@ -477,12 +542,14 @@ pub const HR: CountryCode = CountryCode {
     numeric: 191,
 };
 
+
 pub const CU: CountryCode = CountryCode {
     name: "Cuba",
     alpha2: "CU",
     alpha3: "CUB",
     numeric: 192,
 };
+
 
 pub const CW: CountryCode = CountryCode {
     name: "Curaçao",
@@ -491,12 +558,14 @@ pub const CW: CountryCode = CountryCode {
     numeric: 531,
 };
 
+
 pub const CY: CountryCode = CountryCode {
     name: "Cyprus[b]",
     alpha2: "CY",
     alpha3: "CYP",
     numeric: 196,
 };
+
 
 pub const CZ: CountryCode = CountryCode {
     name: "Czechia",
@@ -505,12 +574,14 @@ pub const CZ: CountryCode = CountryCode {
     numeric: 203,
 };
 
+
 pub const DK: CountryCode = CountryCode {
     name: "Denmark",
     alpha2: "DK",
     alpha3: "DNK",
     numeric: 208,
 };
+
 
 pub const DJ: CountryCode = CountryCode {
     name: "Djibouti",
@@ -519,12 +590,14 @@ pub const DJ: CountryCode = CountryCode {
     numeric: 262,
 };
 
+
 pub const DM: CountryCode = CountryCode {
     name: "Dominica",
     alpha2: "DM",
     alpha3: "DMA",
     numeric: 212,
 };
+
 
 pub const DO: CountryCode = CountryCode {
     name: "Dominican Republic",
@@ -533,12 +606,14 @@ pub const DO: CountryCode = CountryCode {
     numeric: 214,
 };
 
+
 pub const EC: CountryCode = CountryCode {
     name: "Ecuador",
     alpha2: "EC",
     alpha3: "ECU",
     numeric: 218,
 };
+
 
 pub const EG: CountryCode = CountryCode {
     name: "Egypt",
@@ -547,12 +622,14 @@ pub const EG: CountryCode = CountryCode {
     numeric: 818,
 };
 
+
 pub const SV: CountryCode = CountryCode {
     name: "El Salvador",
     alpha2: "SV",
     alpha3: "SLV",
     numeric: 222,
 };
+
 
 pub const GQ: CountryCode = CountryCode {
     name: "Equatorial Guinea",
@@ -561,12 +638,14 @@ pub const GQ: CountryCode = CountryCode {
     numeric: 226,
 };
 
+
 pub const ER: CountryCode = CountryCode {
     name: "Eritrea",
     alpha2: "ER",
     alpha3: "ERI",
     numeric: 232,
 };
+
 
 pub const EE: CountryCode = CountryCode {
     name: "Estonia",
@@ -575,12 +654,14 @@ pub const EE: CountryCode = CountryCode {
     numeric: 233,
 };
 
+
 pub const SZ: CountryCode = CountryCode {
     name: "Eswatini",
     alpha2: "SZ",
     alpha3: "SWZ",
     numeric: 748,
 };
+
 
 pub const ET: CountryCode = CountryCode {
     name: "Ethiopia",
@@ -589,12 +670,14 @@ pub const ET: CountryCode = CountryCode {
     numeric: 231,
 };
 
+
 pub const FK: CountryCode = CountryCode {
     name: "Falkland Islands (Malvinas)[b]",
     alpha2: "FK",
     alpha3: "FLK",
     numeric: 238,
 };
+
 
 pub const FO: CountryCode = CountryCode {
     name: "Faroe Islands",
@@ -603,12 +686,14 @@ pub const FO: CountryCode = CountryCode {
     numeric: 234,
 };
 
+
 pub const FJ: CountryCode = CountryCode {
     name: "Fiji",
     alpha2: "FJ",
     alpha3: "FJI",
     numeric: 242,
 };
+
 
 pub const FI: CountryCode = CountryCode {
     name: "Finland",
@@ -617,12 +702,14 @@ pub const FI: CountryCode = CountryCode {
     numeric: 246,
 };
 
+
 pub const FR: CountryCode = CountryCode {
     name: "France",
     alpha2: "FR",
     alpha3: "FRA",
     numeric: 250,
 };
+
 
 pub const GF: CountryCode = CountryCode {
     name: "French Guiana",
@@ -631,12 +718,14 @@ pub const GF: CountryCode = CountryCode {
     numeric: 254,
 };
 
+
 pub const PF: CountryCode = CountryCode {
     name: "French Polynesia",
     alpha2: "PF",
     alpha3: "PYF",
     numeric: 258,
 };
+
 
 pub const TF: CountryCode = CountryCode {
     name: "French Southern Territories",
@@ -645,12 +734,14 @@ pub const TF: CountryCode = CountryCode {
     numeric: 260,
 };
 
+
 pub const GA: CountryCode = CountryCode {
     name: "Gabon",
     alpha2: "GA",
     alpha3: "GAB",
     numeric: 266,
 };
+
 
 pub const GM: CountryCode = CountryCode {
     name: "Gambia",
@@ -659,12 +750,14 @@ pub const GM: CountryCode = CountryCode {
     numeric: 270,
 };
 
+
 pub const GE: CountryCode = CountryCode {
     name: "Georgia",
     alpha2: "GE",
     alpha3: "GEO",
     numeric: 268,
 };
+
 
 pub const DE: CountryCode = CountryCode {
     name: "Germany",
@@ -673,12 +766,14 @@ pub const DE: CountryCode = CountryCode {
     numeric: 276,
 };
 
+
 pub const GH: CountryCode = CountryCode {
     name: "Ghana",
     alpha2: "GH",
     alpha3: "GHA",
     numeric: 288,
 };
+
 
 pub const GI: CountryCode = CountryCode {
     name: "Gibraltar",
@@ -687,12 +782,14 @@ pub const GI: CountryCode = CountryCode {
     numeric: 292,
 };
 
+
 pub const GR: CountryCode = CountryCode {
     name: "Greece",
     alpha2: "GR",
     alpha3: "GRC",
     numeric: 300,
 };
+
 
 pub const GL: CountryCode = CountryCode {
     name: "Greenland",
@@ -701,12 +798,14 @@ pub const GL: CountryCode = CountryCode {
     numeric: 304,
 };
 
+
 pub const GD: CountryCode = CountryCode {
     name: "Grenada",
     alpha2: "GD",
     alpha3: "GRD",
     numeric: 308,
 };
+
 
 pub const GP: CountryCode = CountryCode {
     name: "Guadeloupe",
@@ -715,12 +814,14 @@ pub const GP: CountryCode = CountryCode {
     numeric: 312,
 };
 
+
 pub const GU: CountryCode = CountryCode {
     name: "Guam",
     alpha2: "GU",
     alpha3: "GUM",
     numeric: 316,
 };
+
 
 pub const GT: CountryCode = CountryCode {
     name: "Guatemala",
@@ -729,12 +830,14 @@ pub const GT: CountryCode = CountryCode {
     numeric: 320,
 };
 
+
 pub const GG: CountryCode = CountryCode {
     name: "Guernsey",
     alpha2: "GG",
     alpha3: "GGY",
     numeric: 831,
 };
+
 
 pub const GN: CountryCode = CountryCode {
     name: "Guinea",
@@ -743,12 +846,14 @@ pub const GN: CountryCode = CountryCode {
     numeric: 324,
 };
 
+
 pub const GW: CountryCode = CountryCode {
     name: "Guinea-Bissau",
     alpha2: "GW",
     alpha3: "GNB",
     numeric: 624,
 };
+
 
 pub const GY: CountryCode = CountryCode {
     name: "Guyana",
@@ -757,12 +862,14 @@ pub const GY: CountryCode = CountryCode {
     numeric: 328,
 };
 
+
 pub const HT: CountryCode = CountryCode {
     name: "Haiti",
     alpha2: "HT",
     alpha3: "HTI",
     numeric: 332,
 };
+
 
 pub const HM: CountryCode = CountryCode {
     name: "Heard Island and McDonald Islands",
@@ -771,12 +878,14 @@ pub const HM: CountryCode = CountryCode {
     numeric: 334,
 };
 
+
 pub const VA: CountryCode = CountryCode {
     name: "Holy See",
     alpha2: "VA",
     alpha3: "VAT",
     numeric: 336,
 };
+
 
 pub const HN: CountryCode = CountryCode {
     name: "Honduras",
@@ -785,12 +894,14 @@ pub const HN: CountryCode = CountryCode {
     numeric: 340,
 };
 
+
 pub const HK: CountryCode = CountryCode {
     name: "Hong Kong",
     alpha2: "HK",
     alpha3: "HKG",
     numeric: 344,
 };
+
 
 pub const HU: CountryCode = CountryCode {
     name: "Hungary",
@@ -799,12 +910,14 @@ pub const HU: CountryCode = CountryCode {
     numeric: 348,
 };
 
+
 pub const IS: CountryCode = CountryCode {
     name: "Iceland",
     alpha2: "IS",
     alpha3: "ISL",
     numeric: 352,
 };
+
 
 pub const IN: CountryCode = CountryCode {
     name: "India",
@@ -813,12 +926,14 @@ pub const IN: CountryCode = CountryCode {
     numeric: 356,
 };
 
+
 pub const ID: CountryCode = CountryCode {
     name: "Indonesia",
     alpha2: "ID",
     alpha3: "IDN",
     numeric: 360,
 };
+
 
 pub const IR: CountryCode = CountryCode {
     name: "Iran (Islamic Republic of)",
@@ -827,12 +942,14 @@ pub const IR: CountryCode = CountryCode {
     numeric: 364,
 };
 
+
 pub const IQ: CountryCode = CountryCode {
     name: "Iraq",
     alpha2: "IQ",
     alpha3: "IRQ",
     numeric: 368,
 };
+
 
 pub const IE: CountryCode = CountryCode {
     name: "Ireland",
@@ -841,12 +958,14 @@ pub const IE: CountryCode = CountryCode {
     numeric: 372,
 };
 
+
 pub const IM: CountryCode = CountryCode {
     name: "Isle of Man",
     alpha2: "IM",
     alpha3: "IMN",
     numeric: 833,
 };
+
 
 pub const IL: CountryCode = CountryCode {
     name: "Israel",
@@ -855,12 +974,14 @@ pub const IL: CountryCode = CountryCode {
     numeric: 376,
 };
 
+
 pub const IT: CountryCode = CountryCode {
     name: "Italy",
     alpha2: "IT",
     alpha3: "ITA",
     numeric: 380,
 };
+
 
 pub const JM: CountryCode = CountryCode {
     name: "Jamaica",
@@ -869,12 +990,14 @@ pub const JM: CountryCode = CountryCode {
     numeric: 388,
 };
 
+
 pub const JP: CountryCode = CountryCode {
     name: "Japan",
     alpha2: "JP",
     alpha3: "JPN",
     numeric: 392,
 };
+
 
 pub const JE: CountryCode = CountryCode {
     name: "Jersey",
@@ -883,12 +1006,14 @@ pub const JE: CountryCode = CountryCode {
     numeric: 832,
 };
 
+
 pub const JO: CountryCode = CountryCode {
     name: "Jordan",
     alpha2: "JO",
     alpha3: "JOR",
     numeric: 400,
 };
+
 
 pub const KZ: CountryCode = CountryCode {
     name: "Kazakhstan",
@@ -897,12 +1022,14 @@ pub const KZ: CountryCode = CountryCode {
     numeric: 398,
 };
 
+
 pub const KE: CountryCode = CountryCode {
     name: "Kenya",
     alpha2: "KE",
     alpha3: "KEN",
     numeric: 404,
 };
+
 
 pub const KI: CountryCode = CountryCode {
     name: "Kiribati",
@@ -911,12 +1038,14 @@ pub const KI: CountryCode = CountryCode {
     numeric: 296,
 };
 
+
 pub const KP: CountryCode = CountryCode {
     name: "Korea (Democratic People's Republic of)",
     alpha2: "KP",
     alpha3: "PRK",
     numeric: 408,
 };
+
 
 pub const KR: CountryCode = CountryCode {
     name: "Korea, Republic of",
@@ -925,12 +1054,14 @@ pub const KR: CountryCode = CountryCode {
     numeric: 410,
 };
 
+
 pub const KW: CountryCode = CountryCode {
     name: "Kuwait",
     alpha2: "KW",
     alpha3: "KWT",
     numeric: 414,
 };
+
 
 pub const KG: CountryCode = CountryCode {
     name: "Kyrgyzstan",
@@ -939,12 +1070,14 @@ pub const KG: CountryCode = CountryCode {
     numeric: 417,
 };
 
+
 pub const LA: CountryCode = CountryCode {
     name: "Lao People's Democratic Republic",
     alpha2: "LA",
     alpha3: "LAO",
     numeric: 418,
 };
+
 
 pub const LV: CountryCode = CountryCode {
     name: "Latvia",
@@ -953,12 +1086,14 @@ pub const LV: CountryCode = CountryCode {
     numeric: 428,
 };
 
+
 pub const LB: CountryCode = CountryCode {
     name: "Lebanon",
     alpha2: "LB",
     alpha3: "LBN",
     numeric: 422,
 };
+
 
 pub const LS: CountryCode = CountryCode {
     name: "Lesotho",
@@ -967,12 +1102,14 @@ pub const LS: CountryCode = CountryCode {
     numeric: 426,
 };
 
+
 pub const LR: CountryCode = CountryCode {
     name: "Liberia",
     alpha2: "LR",
     alpha3: "LBR",
     numeric: 430,
 };
+
 
 pub const LY: CountryCode = CountryCode {
     name: "Libya",
@@ -981,12 +1118,14 @@ pub const LY: CountryCode = CountryCode {
     numeric: 434,
 };
 
+
 pub const LI: CountryCode = CountryCode {
     name: "Liechtenstein",
     alpha2: "LI",
     alpha3: "LIE",
     numeric: 438,
 };
+
 
 pub const LT: CountryCode = CountryCode {
     name: "Lithuania",
@@ -995,12 +1134,14 @@ pub const LT: CountryCode = CountryCode {
     numeric: 440,
 };
 
+
 pub const LU: CountryCode = CountryCode {
     name: "Luxembourg",
     alpha2: "LU",
     alpha3: "LUX",
     numeric: 442,
 };
+
 
 pub const MO: CountryCode = CountryCode {
     name: "Macao",
@@ -1009,12 +1150,14 @@ pub const MO: CountryCode = CountryCode {
     numeric: 446,
 };
 
+
 pub const MG: CountryCode = CountryCode {
     name: "Madagascar",
     alpha2: "MG",
     alpha3: "MDG",
     numeric: 450,
 };
+
 
 pub const MW: CountryCode = CountryCode {
     name: "Malawi",
@@ -1023,12 +1166,14 @@ pub const MW: CountryCode = CountryCode {
     numeric: 454,
 };
 
+
 pub const MY: CountryCode = CountryCode {
     name: "Malaysia",
     alpha2: "MY",
     alpha3: "MYS",
     numeric: 458,
 };
+
 
 pub const MV: CountryCode = CountryCode {
     name: "Maldives",
@@ -1037,12 +1182,14 @@ pub const MV: CountryCode = CountryCode {
     numeric: 462,
 };
 
+
 pub const ML: CountryCode = CountryCode {
     name: "Mali",
     alpha2: "ML",
     alpha3: "MLI",
     numeric: 466,
 };
+
 
 pub const MT: CountryCode = CountryCode {
     name: "Malta",
@@ -1051,12 +1198,14 @@ pub const MT: CountryCode = CountryCode {
     numeric: 470,
 };
 
+
 pub const MH: CountryCode = CountryCode {
     name: "Marshall Islands",
     alpha2: "MH",
     alpha3: "MHL",
     numeric: 584,
 };
+
 
 pub const MQ: CountryCode = CountryCode {
     name: "Martinique",
@@ -1065,12 +1214,14 @@ pub const MQ: CountryCode = CountryCode {
     numeric: 474,
 };
 
+
 pub const MR: CountryCode = CountryCode {
     name: "Mauritania",
     alpha2: "MR",
     alpha3: "MRT",
     numeric: 478,
 };
+
 
 pub const MU: CountryCode = CountryCode {
     name: "Mauritius",
@@ -1079,12 +1230,14 @@ pub const MU: CountryCode = CountryCode {
     numeric: 480,
 };
 
+
 pub const YT: CountryCode = CountryCode {
     name: "Mayotte",
     alpha2: "YT",
     alpha3: "MYT",
     numeric: 175,
 };
+
 
 pub const MX: CountryCode = CountryCode {
     name: "Mexico",
@@ -1093,12 +1246,14 @@ pub const MX: CountryCode = CountryCode {
     numeric: 484,
 };
 
+
 pub const FM: CountryCode = CountryCode {
     name: "Micronesia (Federated States of)",
     alpha2: "FM",
     alpha3: "FSM",
     numeric: 583,
 };
+
 
 pub const MD: CountryCode = CountryCode {
     name: "Moldova, Republic of",
@@ -1107,12 +1262,14 @@ pub const MD: CountryCode = CountryCode {
     numeric: 498,
 };
 
+
 pub const MC: CountryCode = CountryCode {
     name: "Monaco",
     alpha2: "MC",
     alpha3: "MCO",
     numeric: 492,
 };
+
 
 pub const MN: CountryCode = CountryCode {
     name: "Mongolia",
@@ -1121,12 +1278,14 @@ pub const MN: CountryCode = CountryCode {
     numeric: 496,
 };
 
+
 pub const ME: CountryCode = CountryCode {
     name: "Montenegro",
     alpha2: "ME",
     alpha3: "MNE",
     numeric: 499,
 };
+
 
 pub const MS: CountryCode = CountryCode {
     name: "Montserrat",
@@ -1135,12 +1294,14 @@ pub const MS: CountryCode = CountryCode {
     numeric: 500,
 };
 
+
 pub const MA: CountryCode = CountryCode {
     name: "Morocco",
     alpha2: "MA",
     alpha3: "MAR",
     numeric: 504,
 };
+
 
 pub const MZ: CountryCode = CountryCode {
     name: "Mozambique",
@@ -1149,12 +1310,14 @@ pub const MZ: CountryCode = CountryCode {
     numeric: 508,
 };
 
+
 pub const MM: CountryCode = CountryCode {
     name: "Myanmar",
     alpha2: "MM",
     alpha3: "MMR",
     numeric: 104,
 };
+
 
 pub const NA: CountryCode = CountryCode {
     name: "Namibia",
@@ -1163,12 +1326,14 @@ pub const NA: CountryCode = CountryCode {
     numeric: 516,
 };
 
+
 pub const NR: CountryCode = CountryCode {
     name: "Nauru",
     alpha2: "NR",
     alpha3: "NRU",
     numeric: 520,
 };
+
 
 pub const NP: CountryCode = CountryCode {
     name: "Nepal",
@@ -1177,12 +1342,14 @@ pub const NP: CountryCode = CountryCode {
     numeric: 524,
 };
 
+
 pub const NL: CountryCode = CountryCode {
     name: "Netherlands",
     alpha2: "NL",
     alpha3: "NLD",
     numeric: 528,
 };
+
 
 pub const NC: CountryCode = CountryCode {
     name: "New Caledonia",
@@ -1191,12 +1358,14 @@ pub const NC: CountryCode = CountryCode {
     numeric: 540,
 };
 
+
 pub const NZ: CountryCode = CountryCode {
     name: "New Zealand",
     alpha2: "NZ",
     alpha3: "NZL",
     numeric: 554,
 };
+
 
 pub const NI: CountryCode = CountryCode {
     name: "Nicaragua",
@@ -1205,12 +1374,14 @@ pub const NI: CountryCode = CountryCode {
     numeric: 558,
 };
 
+
 pub const NE: CountryCode = CountryCode {
     name: "Niger",
     alpha2: "NE",
     alpha3: "NER",
     numeric: 562,
 };
+
 
 pub const NG: CountryCode = CountryCode {
     name: "Nigeria",
@@ -1219,12 +1390,14 @@ pub const NG: CountryCode = CountryCode {
     numeric: 566,
 };
 
+
 pub const NU: CountryCode = CountryCode {
     name: "Niue",
     alpha2: "NU",
     alpha3: "NIU",
     numeric: 570,
 };
+
 
 pub const NF: CountryCode = CountryCode {
     name: "Norfolk Island",
@@ -1233,12 +1406,14 @@ pub const NF: CountryCode = CountryCode {
     numeric: 574,
 };
 
+
 pub const MK: CountryCode = CountryCode {
     name: "North Macedonia",
     alpha2: "MK",
     alpha3: "MKD",
     numeric: 807,
 };
+
 
 pub const MP: CountryCode = CountryCode {
     name: "Northern Mariana Islands",
@@ -1247,12 +1422,14 @@ pub const MP: CountryCode = CountryCode {
     numeric: 580,
 };
 
+
 pub const NO: CountryCode = CountryCode {
     name: "Norway",
     alpha2: "NO",
     alpha3: "NOR",
     numeric: 578,
 };
+
 
 pub const OM: CountryCode = CountryCode {
     name: "Oman",
@@ -1261,12 +1438,14 @@ pub const OM: CountryCode = CountryCode {
     numeric: 512,
 };
 
+
 pub const PK: CountryCode = CountryCode {
     name: "Pakistan",
     alpha2: "PK",
     alpha3: "PAK",
     numeric: 586,
 };
+
 
 pub const PW: CountryCode = CountryCode {
     name: "Palau",
@@ -1275,12 +1454,14 @@ pub const PW: CountryCode = CountryCode {
     numeric: 585,
 };
 
+
 pub const PS: CountryCode = CountryCode {
     name: "Palestine, State of[b]",
     alpha2: "PS",
     alpha3: "PSE",
     numeric: 275,
 };
+
 
 pub const PA: CountryCode = CountryCode {
     name: "Panama",
@@ -1289,12 +1470,14 @@ pub const PA: CountryCode = CountryCode {
     numeric: 591,
 };
 
+
 pub const PG: CountryCode = CountryCode {
     name: "Papua New Guinea",
     alpha2: "PG",
     alpha3: "PNG",
     numeric: 598,
 };
+
 
 pub const PY: CountryCode = CountryCode {
     name: "Paraguay",
@@ -1303,12 +1486,14 @@ pub const PY: CountryCode = CountryCode {
     numeric: 600,
 };
 
+
 pub const PE: CountryCode = CountryCode {
     name: "Peru",
     alpha2: "PE",
     alpha3: "PER",
     numeric: 604,
 };
+
 
 pub const PH: CountryCode = CountryCode {
     name: "Philippines",
@@ -1317,12 +1502,14 @@ pub const PH: CountryCode = CountryCode {
     numeric: 608,
 };
 
+
 pub const PN: CountryCode = CountryCode {
     name: "Pitcairn",
     alpha2: "PN",
     alpha3: "PCN",
     numeric: 612,
 };
+
 
 pub const PL: CountryCode = CountryCode {
     name: "Poland",
@@ -1331,12 +1518,14 @@ pub const PL: CountryCode = CountryCode {
     numeric: 616,
 };
 
+
 pub const PT: CountryCode = CountryCode {
     name: "Portugal",
     alpha2: "PT",
     alpha3: "PRT",
     numeric: 620,
 };
+
 
 pub const PR: CountryCode = CountryCode {
     name: "Puerto Rico",
@@ -1345,12 +1534,14 @@ pub const PR: CountryCode = CountryCode {
     numeric: 630,
 };
 
+
 pub const QA: CountryCode = CountryCode {
     name: "Qatar",
     alpha2: "QA",
     alpha3: "QAT",
     numeric: 634,
 };
+
 
 pub const RE: CountryCode = CountryCode {
     name: "Réunion",
@@ -1359,12 +1550,14 @@ pub const RE: CountryCode = CountryCode {
     numeric: 638,
 };
 
+
 pub const RO: CountryCode = CountryCode {
     name: "Romania",
     alpha2: "RO",
     alpha3: "ROU",
     numeric: 642,
 };
+
 
 pub const RU: CountryCode = CountryCode {
     name: "Russian Federation",
@@ -1373,12 +1566,14 @@ pub const RU: CountryCode = CountryCode {
     numeric: 643,
 };
 
+
 pub const RW: CountryCode = CountryCode {
     name: "Rwanda",
     alpha2: "RW",
     alpha3: "RWA",
     numeric: 646,
 };
+
 
 pub const BL: CountryCode = CountryCode {
     name: "Saint Barthélemy",
@@ -1387,12 +1582,14 @@ pub const BL: CountryCode = CountryCode {
     numeric: 652,
 };
 
+
 pub const SH: CountryCode = CountryCode {
     name: "Saint Helena, Ascension and Tristan da Cunha[d]",
     alpha2: "SH",
     alpha3: "SHN",
     numeric: 654,
 };
+
 
 pub const KN: CountryCode = CountryCode {
     name: "Saint Kitts and Nevis",
@@ -1401,12 +1598,14 @@ pub const KN: CountryCode = CountryCode {
     numeric: 659,
 };
 
+
 pub const LC: CountryCode = CountryCode {
     name: "Saint Lucia",
     alpha2: "LC",
     alpha3: "LCA",
     numeric: 662,
 };
+
 
 pub const MF: CountryCode = CountryCode {
     name: "Saint Martin (French part)",
@@ -1415,12 +1614,14 @@ pub const MF: CountryCode = CountryCode {
     numeric: 663,
 };
 
+
 pub const PM: CountryCode = CountryCode {
     name: "Saint Pierre and Miquelon",
     alpha2: "PM",
     alpha3: "SPM",
     numeric: 666,
 };
+
 
 pub const VC: CountryCode = CountryCode {
     name: "Saint Vincent and the Grenadines",
@@ -1429,12 +1630,14 @@ pub const VC: CountryCode = CountryCode {
     numeric: 670,
 };
 
+
 pub const WS: CountryCode = CountryCode {
     name: "Samoa",
     alpha2: "WS",
     alpha3: "WSM",
     numeric: 882,
 };
+
 
 pub const SM: CountryCode = CountryCode {
     name: "San Marino",
@@ -1443,12 +1646,14 @@ pub const SM: CountryCode = CountryCode {
     numeric: 674,
 };
 
+
 pub const ST: CountryCode = CountryCode {
     name: "Sao Tome and Principe",
     alpha2: "ST",
     alpha3: "STP",
     numeric: 678,
 };
+
 
 pub const SA: CountryCode = CountryCode {
     name: "Saudi Arabia",
@@ -1457,12 +1662,14 @@ pub const SA: CountryCode = CountryCode {
     numeric: 682,
 };
 
+
 pub const SN: CountryCode = CountryCode {
     name: "Senegal",
     alpha2: "SN",
     alpha3: "SEN",
     numeric: 686,
 };
+
 
 pub const RS: CountryCode = CountryCode {
     name: "Serbia",
@@ -1471,12 +1678,14 @@ pub const RS: CountryCode = CountryCode {
     numeric: 688,
 };
 
+
 pub const SC: CountryCode = CountryCode {
     name: "Seychelles",
     alpha2: "SC",
     alpha3: "SYC",
     numeric: 690,
 };
+
 
 pub const SL: CountryCode = CountryCode {
     name: "Sierra Leone",
@@ -1485,12 +1694,14 @@ pub const SL: CountryCode = CountryCode {
     numeric: 694,
 };
 
+
 pub const SG: CountryCode = CountryCode {
     name: "Singapore",
     alpha2: "SG",
     alpha3: "SGP",
     numeric: 702,
 };
+
 
 pub const SX: CountryCode = CountryCode {
     name: "Sint Maarten (Dutch part)",
@@ -1499,12 +1710,14 @@ pub const SX: CountryCode = CountryCode {
     numeric: 534,
 };
 
+
 pub const SK: CountryCode = CountryCode {
     name: "Slovakia",
     alpha2: "SK",
     alpha3: "SVK",
     numeric: 703,
 };
+
 
 pub const SI: CountryCode = CountryCode {
     name: "Slovenia",
@@ -1513,12 +1726,14 @@ pub const SI: CountryCode = CountryCode {
     numeric: 705,
 };
 
+
 pub const SB: CountryCode = CountryCode {
     name: "Solomon Islands",
     alpha2: "SB",
     alpha3: "SLB",
     numeric: 090,
 };
+
 
 pub const SO: CountryCode = CountryCode {
     name: "Somalia",
@@ -1527,12 +1742,14 @@ pub const SO: CountryCode = CountryCode {
     numeric: 706,
 };
 
+
 pub const ZA: CountryCode = CountryCode {
     name: "South Africa",
     alpha2: "ZA",
     alpha3: "ZAF",
     numeric: 710,
 };
+
 
 pub const GS: CountryCode = CountryCode {
     name: "South Georgia and the South Sandwich Islands",
@@ -1541,12 +1758,14 @@ pub const GS: CountryCode = CountryCode {
     numeric: 239,
 };
 
+
 pub const SS: CountryCode = CountryCode {
     name: "South Sudan",
     alpha2: "SS",
     alpha3: "SSD",
     numeric: 728,
 };
+
 
 pub const ES: CountryCode = CountryCode {
     name: "Spain",
@@ -1555,12 +1774,14 @@ pub const ES: CountryCode = CountryCode {
     numeric: 724,
 };
 
+
 pub const LK: CountryCode = CountryCode {
     name: "Sri Lanka",
     alpha2: "LK",
     alpha3: "LKA",
     numeric: 144,
 };
+
 
 pub const SD: CountryCode = CountryCode {
     name: "Sudan",
@@ -1569,12 +1790,14 @@ pub const SD: CountryCode = CountryCode {
     numeric: 729,
 };
 
+
 pub const SR: CountryCode = CountryCode {
     name: "Suriname",
     alpha2: "SR",
     alpha3: "SUR",
     numeric: 740,
 };
+
 
 pub const SJ: CountryCode = CountryCode {
     name: "Svalbard and Jan Mayen[e]",
@@ -1583,12 +1806,14 @@ pub const SJ: CountryCode = CountryCode {
     numeric: 744,
 };
 
+
 pub const SE: CountryCode = CountryCode {
     name: "Sweden",
     alpha2: "SE",
     alpha3: "SWE",
     numeric: 752,
 };
+
 
 pub const CH: CountryCode = CountryCode {
     name: "Switzerland",
@@ -1597,12 +1822,14 @@ pub const CH: CountryCode = CountryCode {
     numeric: 756,
 };
 
+
 pub const SY: CountryCode = CountryCode {
     name: "Syrian Arab Republic",
     alpha2: "SY",
     alpha3: "SYR",
     numeric: 760,
 };
+
 
 pub const TW: CountryCode = CountryCode {
     name: "Taiwan, Province of China[b]",
@@ -1611,12 +1838,14 @@ pub const TW: CountryCode = CountryCode {
     numeric: 158,
 };
 
+
 pub const TJ: CountryCode = CountryCode {
     name: "Tajikistan",
     alpha2: "TJ",
     alpha3: "TJK",
     numeric: 762,
 };
+
 
 pub const TZ: CountryCode = CountryCode {
     name: "Tanzania, United Republic of",
@@ -1625,12 +1854,14 @@ pub const TZ: CountryCode = CountryCode {
     numeric: 834,
 };
 
+
 pub const TH: CountryCode = CountryCode {
     name: "Thailand",
     alpha2: "TH",
     alpha3: "THA",
     numeric: 764,
 };
+
 
 pub const TL: CountryCode = CountryCode {
     name: "Timor-Leste",
@@ -1639,12 +1870,14 @@ pub const TL: CountryCode = CountryCode {
     numeric: 626,
 };
 
+
 pub const TG: CountryCode = CountryCode {
     name: "Togo",
     alpha2: "TG",
     alpha3: "TGO",
     numeric: 768,
 };
+
 
 pub const TK: CountryCode = CountryCode {
     name: "Tokelau",
@@ -1653,12 +1886,14 @@ pub const TK: CountryCode = CountryCode {
     numeric: 772,
 };
 
+
 pub const TO: CountryCode = CountryCode {
     name: "Tonga",
     alpha2: "TO",
     alpha3: "TON",
     numeric: 776,
 };
+
 
 pub const TT: CountryCode = CountryCode {
     name: "Trinidad and Tobago",
@@ -1667,12 +1902,14 @@ pub const TT: CountryCode = CountryCode {
     numeric: 780,
 };
 
+
 pub const TN: CountryCode = CountryCode {
     name: "Tunisia",
     alpha2: "TN",
     alpha3: "TUN",
     numeric: 788,
 };
+
 
 pub const TR: CountryCode = CountryCode {
     name: "Turkey",
@@ -1681,12 +1918,14 @@ pub const TR: CountryCode = CountryCode {
     numeric: 792,
 };
 
+
 pub const TM: CountryCode = CountryCode {
     name: "Turkmenistan",
     alpha2: "TM",
     alpha3: "TKM",
     numeric: 795,
 };
+
 
 pub const TC: CountryCode = CountryCode {
     name: "Turks and Caicos Islands",
@@ -1695,12 +1934,14 @@ pub const TC: CountryCode = CountryCode {
     numeric: 796,
 };
 
+
 pub const TV: CountryCode = CountryCode {
     name: "Tuvalu",
     alpha2: "TV",
     alpha3: "TUV",
     numeric: 798,
 };
+
 
 pub const UG: CountryCode = CountryCode {
     name: "Uganda",
@@ -1709,12 +1950,14 @@ pub const UG: CountryCode = CountryCode {
     numeric: 800,
 };
 
+
 pub const UA: CountryCode = CountryCode {
     name: "Ukraine",
     alpha2: "UA",
     alpha3: "UKR",
     numeric: 804,
 };
+
 
 pub const AE: CountryCode = CountryCode {
     name: "United Arab Emirates",
@@ -1723,12 +1966,14 @@ pub const AE: CountryCode = CountryCode {
     numeric: 784,
 };
 
+
 pub const GB: CountryCode = CountryCode {
     name: "United Kingdom of Great Britain and Northern Ireland",
     alpha2: "GB",
     alpha3: "GBR",
     numeric: 826,
 };
+
 
 pub const US: CountryCode = CountryCode {
     name: "United States of America",
@@ -1737,12 +1982,14 @@ pub const US: CountryCode = CountryCode {
     numeric: 840,
 };
 
+
 pub const UM: CountryCode = CountryCode {
     name: "United States Minor Outlying Islands[f]",
     alpha2: "UM",
     alpha3: "UMI",
     numeric: 581,
 };
+
 
 pub const UY: CountryCode = CountryCode {
     name: "Uruguay",
@@ -1751,12 +1998,14 @@ pub const UY: CountryCode = CountryCode {
     numeric: 858,
 };
 
+
 pub const UZ: CountryCode = CountryCode {
     name: "Uzbekistan",
     alpha2: "UZ",
     alpha3: "UZB",
     numeric: 860,
 };
+
 
 pub const VU: CountryCode = CountryCode {
     name: "Vanuatu",
@@ -1765,12 +2014,14 @@ pub const VU: CountryCode = CountryCode {
     numeric: 548,
 };
 
+
 pub const VE: CountryCode = CountryCode {
     name: "Venezuela (Bolivarian Republic of)",
     alpha2: "VE",
     alpha3: "VEN",
     numeric: 862,
 };
+
 
 pub const VN: CountryCode = CountryCode {
     name: "Viet Nam",
@@ -1779,12 +2030,14 @@ pub const VN: CountryCode = CountryCode {
     numeric: 704,
 };
 
+
 pub const VG: CountryCode = CountryCode {
     name: "Virgin Islands (British)",
     alpha2: "VG",
     alpha3: "VGB",
     numeric: 092,
 };
+
 
 pub const VI: CountryCode = CountryCode {
     name: "Virgin Islands (U.S.)",
@@ -1793,12 +2046,14 @@ pub const VI: CountryCode = CountryCode {
     numeric: 850,
 };
 
+
 pub const WF: CountryCode = CountryCode {
     name: "Wallis and Futuna",
     alpha2: "WF",
     alpha3: "WLF",
     numeric: 876,
 };
+
 
 pub const EH: CountryCode = CountryCode {
     name: "Western Sahara[b]",
@@ -1807,12 +2062,14 @@ pub const EH: CountryCode = CountryCode {
     numeric: 732,
 };
 
+
 pub const YE: CountryCode = CountryCode {
     name: "Yemen",
     alpha2: "YE",
     alpha3: "YEM",
     numeric: 887,
 };
+
 
 pub const ZM: CountryCode = CountryCode {
     name: "Zambia",
@@ -1821,6 +2078,7 @@ pub const ZM: CountryCode = CountryCode {
     numeric: 894,
 };
 
+
 pub const ZW: CountryCode = CountryCode {
     name: "Zimbabwe",
     alpha2: "ZW",
@@ -1828,7 +2086,9 @@ pub const ZW: CountryCode = CountryCode {
     numeric: 716,
 };
 
-///CountryCode map with  alpha2 Code key
+
+
+///CountryCode map with  alpha2 Code key 
 pub const ALPHA2_MAP: Map<&str, CountryCode> = phf_map! {
 
 
@@ -2085,7 +2345,8 @@ pub const ALPHA2_MAP: Map<&str, CountryCode> = phf_map! {
 
 };
 
-///CountryCode map with  alpha3 Code key
+
+///CountryCode map with  alpha3 Code key 
 pub const ALPHA3_MAP: Map<&str, CountryCode> = phf_map! {
 
 
@@ -2342,7 +2603,8 @@ pub const ALPHA3_MAP: Map<&str, CountryCode> = phf_map! {
 
 };
 
-///CountryCode map with  3 len numeric str Code key
+
+///CountryCode map with  3 len numeric str Code key 
 pub const NUMERIC_MAP: Map<&str, CountryCode> = phf_map! {
 
 
@@ -2599,356 +2861,1551 @@ pub const NUMERIC_MAP: Map<&str, CountryCode> = phf_map! {
 
 };
 
+
 ///ALL the names of Countrys
 pub const ALL_NAME: &'static [&str] = &[
-    "Afghanistan[b]",
-    "Åland Islands",
-    "Albania",
-    "Algeria",
-    "American Samoa",
-    "Andorra",
-    "Angola",
-    "Anguilla",
-    "Antarctica",
-    "Antigua and Barbuda",
-    "Argentina",
-    "Armenia",
-    "Aruba",
-    "Australia",
-    "Austria",
-    "Azerbaijan",
-    "Bahamas",
-    "Bahrain",
-    "Bangladesh",
-    "Barbados",
-    "Belarus",
-    "Belgium",
-    "Belize",
-    "Benin",
-    "Bermuda",
-    "Bhutan",
-    "Bolivia (Plurinational State of)",
-    "Bonaire, Sint Eustatius and Saba[c]",
-    "Bosnia and Herzegovina",
-    "Botswana",
-    "Bouvet Island",
-    "Brazil",
-    "British Indian Ocean Territory",
-    "Brunei Darussalam",
-    "Bulgaria",
-    "Burkina Faso",
-    "Burundi",
-    "Cabo Verde",
-    "Cambodia",
-    "Cameroon",
-    "Canada",
-    "Cayman Islands",
-    "Central African Republic",
-    "Chad",
-    "Chile",
-    "China[b]",
-    "Christmas Island",
-    "Cocos (Keeling) Islands",
-    "Colombia",
-    "Comoros",
-    "Congo",
-    "Congo, Democratic Republic of the",
-    "Cook Islands",
-    "Costa Rica",
-    "Côte d'Ivoire",
-    "Croatia",
-    "Cuba",
-    "Curaçao",
-    "Cyprus[b]",
-    "Czechia",
-    "Denmark",
-    "Djibouti",
-    "Dominica",
-    "Dominican Republic",
-    "Ecuador",
-    "Egypt",
-    "El Salvador",
-    "Equatorial Guinea",
-    "Eritrea",
-    "Estonia",
-    "Eswatini",
-    "Ethiopia",
-    "Falkland Islands (Malvinas)[b]",
-    "Faroe Islands",
-    "Fiji",
-    "Finland",
-    "France",
-    "French Guiana",
-    "French Polynesia",
-    "French Southern Territories",
-    "Gabon",
-    "Gambia",
-    "Georgia",
-    "Germany",
-    "Ghana",
-    "Gibraltar",
-    "Greece",
-    "Greenland",
-    "Grenada",
-    "Guadeloupe",
-    "Guam",
-    "Guatemala",
-    "Guernsey",
-    "Guinea",
-    "Guinea-Bissau",
-    "Guyana",
-    "Haiti",
-    "Heard Island and McDonald Islands",
-    "Holy See",
-    "Honduras",
-    "Hong Kong",
-    "Hungary",
-    "Iceland",
-    "India",
-    "Indonesia",
-    "Iran (Islamic Republic of)",
-    "Iraq",
-    "Ireland",
-    "Isle of Man",
-    "Israel",
-    "Italy",
-    "Jamaica",
-    "Japan",
-    "Jersey",
-    "Jordan",
-    "Kazakhstan",
-    "Kenya",
-    "Kiribati",
-    "Korea (Democratic People's Republic of)",
-    "Korea, Republic of",
-    "Kuwait",
-    "Kyrgyzstan",
-    "Lao People's Democratic Republic",
-    "Latvia",
-    "Lebanon",
-    "Lesotho",
-    "Liberia",
-    "Libya",
-    "Liechtenstein",
-    "Lithuania",
-    "Luxembourg",
-    "Macao",
-    "Madagascar",
-    "Malawi",
-    "Malaysia",
-    "Maldives",
-    "Mali",
-    "Malta",
-    "Marshall Islands",
-    "Martinique",
-    "Mauritania",
-    "Mauritius",
-    "Mayotte",
-    "Mexico",
-    "Micronesia (Federated States of)",
-    "Moldova, Republic of",
-    "Monaco",
-    "Mongolia",
-    "Montenegro",
-    "Montserrat",
-    "Morocco",
-    "Mozambique",
-    "Myanmar",
-    "Namibia",
-    "Nauru",
-    "Nepal",
-    "Netherlands",
-    "New Caledonia",
-    "New Zealand",
-    "Nicaragua",
-    "Niger",
-    "Nigeria",
-    "Niue",
-    "Norfolk Island",
-    "North Macedonia",
-    "Northern Mariana Islands",
-    "Norway",
-    "Oman",
-    "Pakistan",
-    "Palau",
-    "Palestine, State of[b]",
-    "Panama",
-    "Papua New Guinea",
-    "Paraguay",
-    "Peru",
-    "Philippines",
-    "Pitcairn",
-    "Poland",
-    "Portugal",
-    "Puerto Rico",
-    "Qatar",
-    "Réunion",
-    "Romania",
-    "Russian Federation",
-    "Rwanda",
-    "Saint Barthélemy",
-    "Saint Helena, Ascension and Tristan da Cunha[d]",
-    "Saint Kitts and Nevis",
-    "Saint Lucia",
-    "Saint Martin (French part)",
-    "Saint Pierre and Miquelon",
-    "Saint Vincent and the Grenadines",
-    "Samoa",
-    "San Marino",
-    "Sao Tome and Principe",
-    "Saudi Arabia",
-    "Senegal",
-    "Serbia",
-    "Seychelles",
-    "Sierra Leone",
-    "Singapore",
-    "Sint Maarten (Dutch part)",
-    "Slovakia",
-    "Slovenia",
-    "Solomon Islands",
-    "Somalia",
-    "South Africa",
-    "South Georgia and the South Sandwich Islands",
-    "South Sudan",
-    "Spain",
-    "Sri Lanka",
-    "Sudan",
-    "Suriname",
-    "Svalbard and Jan Mayen[e]",
-    "Sweden",
-    "Switzerland",
-    "Syrian Arab Republic",
-    "Taiwan, Province of China[b]",
-    "Tajikistan",
-    "Tanzania, United Republic of",
-    "Thailand",
-    "Timor-Leste",
-    "Togo",
-    "Tokelau",
-    "Tonga",
-    "Trinidad and Tobago",
-    "Tunisia",
-    "Turkey",
-    "Turkmenistan",
-    "Turks and Caicos Islands",
-    "Tuvalu",
-    "Uganda",
-    "Ukraine",
-    "United Arab Emirates",
-    "United Kingdom of Great Britain and Northern Ireland",
-    "United States of America",
-    "United States Minor Outlying Islands[f]",
-    "Uruguay",
-    "Uzbekistan",
-    "Vanuatu",
-    "Venezuela (Bolivarian Republic of)",
-    "Viet Nam",
-    "Virgin Islands (British)",
-    "Virgin Islands (U.S.)",
-    "Wallis and Futuna",
-    "Western Sahara[b]",
-    "Yemen",
-    "Zambia",
-    "Zimbabwe",
+
+
+"Afghanistan[b]",
+"Åland Islands",
+"Albania",
+"Algeria",
+"American Samoa",
+"Andorra",
+"Angola",
+"Anguilla",
+"Antarctica",
+"Antigua and Barbuda",
+"Argentina",
+"Armenia",
+"Aruba",
+"Australia",
+"Austria",
+"Azerbaijan",
+"Bahamas",
+"Bahrain",
+"Bangladesh",
+"Barbados",
+"Belarus",
+"Belgium",
+"Belize",
+"Benin",
+"Bermuda",
+"Bhutan",
+"Bolivia (Plurinational State of)",
+"Bonaire, Sint Eustatius and Saba[c]",
+"Bosnia and Herzegovina",
+"Botswana",
+"Bouvet Island",
+"Brazil",
+"British Indian Ocean Territory",
+"Brunei Darussalam",
+"Bulgaria",
+"Burkina Faso",
+"Burundi",
+"Cabo Verde",
+"Cambodia",
+"Cameroon",
+"Canada",
+"Cayman Islands",
+"Central African Republic",
+"Chad",
+"Chile",
+"China[b]",
+"Christmas Island",
+"Cocos (Keeling) Islands",
+"Colombia",
+"Comoros",
+"Congo",
+"Congo, Democratic Republic of the",
+"Cook Islands",
+"Costa Rica",
+"Côte d'Ivoire",
+"Croatia",
+"Cuba",
+"Curaçao",
+"Cyprus[b]",
+"Czechia",
+"Denmark",
+"Djibouti",
+"Dominica",
+"Dominican Republic",
+"Ecuador",
+"Egypt",
+"El Salvador",
+"Equatorial Guinea",
+"Eritrea",
+"Estonia",
+"Eswatini",
+"Ethiopia",
+"Falkland Islands (Malvinas)[b]",
+"Faroe Islands",
+"Fiji",
+"Finland",
+"France",
+"French Guiana",
+"French Polynesia",
+"French Southern Territories",
+"Gabon",
+"Gambia",
+"Georgia",
+"Germany",
+"Ghana",
+"Gibraltar",
+"Greece",
+"Greenland",
+"Grenada",
+"Guadeloupe",
+"Guam",
+"Guatemala",
+"Guernsey",
+"Guinea",
+"Guinea-Bissau",
+"Guyana",
+"Haiti",
+"Heard Island and McDonald Islands",
+"Holy See",
+"Honduras",
+"Hong Kong",
+"Hungary",
+"Iceland",
+"India",
+"Indonesia",
+"Iran (Islamic Republic of)",
+"Iraq",
+"Ireland",
+"Isle of Man",
+"Israel",
+"Italy",
+"Jamaica",
+"Japan",
+"Jersey",
+"Jordan",
+"Kazakhstan",
+"Kenya",
+"Kiribati",
+"Korea (Democratic People's Republic of)",
+"Korea, Republic of",
+"Kuwait",
+"Kyrgyzstan",
+"Lao People's Democratic Republic",
+"Latvia",
+"Lebanon",
+"Lesotho",
+"Liberia",
+"Libya",
+"Liechtenstein",
+"Lithuania",
+"Luxembourg",
+"Macao",
+"Madagascar",
+"Malawi",
+"Malaysia",
+"Maldives",
+"Mali",
+"Malta",
+"Marshall Islands",
+"Martinique",
+"Mauritania",
+"Mauritius",
+"Mayotte",
+"Mexico",
+"Micronesia (Federated States of)",
+"Moldova, Republic of",
+"Monaco",
+"Mongolia",
+"Montenegro",
+"Montserrat",
+"Morocco",
+"Mozambique",
+"Myanmar",
+"Namibia",
+"Nauru",
+"Nepal",
+"Netherlands",
+"New Caledonia",
+"New Zealand",
+"Nicaragua",
+"Niger",
+"Nigeria",
+"Niue",
+"Norfolk Island",
+"North Macedonia",
+"Northern Mariana Islands",
+"Norway",
+"Oman",
+"Pakistan",
+"Palau",
+"Palestine, State of[b]",
+"Panama",
+"Papua New Guinea",
+"Paraguay",
+"Peru",
+"Philippines",
+"Pitcairn",
+"Poland",
+"Portugal",
+"Puerto Rico",
+"Qatar",
+"Réunion",
+"Romania",
+"Russian Federation",
+"Rwanda",
+"Saint Barthélemy",
+"Saint Helena, Ascension and Tristan da Cunha[d]",
+"Saint Kitts and Nevis",
+"Saint Lucia",
+"Saint Martin (French part)",
+"Saint Pierre and Miquelon",
+"Saint Vincent and the Grenadines",
+"Samoa",
+"San Marino",
+"Sao Tome and Principe",
+"Saudi Arabia",
+"Senegal",
+"Serbia",
+"Seychelles",
+"Sierra Leone",
+"Singapore",
+"Sint Maarten (Dutch part)",
+"Slovakia",
+"Slovenia",
+"Solomon Islands",
+"Somalia",
+"South Africa",
+"South Georgia and the South Sandwich Islands",
+"South Sudan",
+"Spain",
+"Sri Lanka",
+"Sudan",
+"Suriname",
+"Svalbard and Jan Mayen[e]",
+"Sweden",
+"Switzerland",
+"Syrian Arab Republic",
+"Taiwan, Province of China[b]",
+"Tajikistan",
+"Tanzania, United Republic of",
+"Thailand",
+"Timor-Leste",
+"Togo",
+"Tokelau",
+"Tonga",
+"Trinidad and Tobago",
+"Tunisia",
+"Turkey",
+"Turkmenistan",
+"Turks and Caicos Islands",
+"Tuvalu",
+"Uganda",
+"Ukraine",
+"United Arab Emirates",
+"United Kingdom of Great Britain and Northern Ireland",
+"United States of America",
+"United States Minor Outlying Islands[f]",
+"Uruguay",
+"Uzbekistan",
+"Vanuatu",
+"Venezuela (Bolivarian Republic of)",
+"Viet Nam",
+"Virgin Islands (British)",
+"Virgin Islands (U.S.)",
+"Wallis and Futuna",
+"Western Sahara[b]",
+"Yemen",
+"Zambia",
+"Zimbabwe",
+
+
 ];
+
 
 ///ALL the alpha2 codes of Countrys
 pub const ALL_ALPHA2: &'static [&str] = &[
-    "AF", "AX", "AL", "DZ", "AS", "AD", "AO", "AI", "AQ", "AG", "AR", "AM", "AW", "AU", "AT", "AZ",
-    "BS", "BH", "BD", "BB", "BY", "BE", "BZ", "BJ", "BM", "BT", "BO", "BQ", "BA", "BW", "BV", "BR",
-    "IO", "BN", "BG", "BF", "BI", "CV", "KH", "CM", "CA", "KY", "CF", "TD", "CL", "CN", "CX", "CC",
-    "CO", "KM", "CG", "CD", "CK", "CR", "CI", "HR", "CU", "CW", "CY", "CZ", "DK", "DJ", "DM", "DO",
-    "EC", "EG", "SV", "GQ", "ER", "EE", "SZ", "ET", "FK", "FO", "FJ", "FI", "FR", "GF", "PF", "TF",
-    "GA", "GM", "GE", "DE", "GH", "GI", "GR", "GL", "GD", "GP", "GU", "GT", "GG", "GN", "GW", "GY",
-    "HT", "HM", "VA", "HN", "HK", "HU", "IS", "IN", "ID", "IR", "IQ", "IE", "IM", "IL", "IT", "JM",
-    "JP", "JE", "JO", "KZ", "KE", "KI", "KP", "KR", "KW", "KG", "LA", "LV", "LB", "LS", "LR", "LY",
-    "LI", "LT", "LU", "MO", "MG", "MW", "MY", "MV", "ML", "MT", "MH", "MQ", "MR", "MU", "YT", "MX",
-    "FM", "MD", "MC", "MN", "ME", "MS", "MA", "MZ", "MM", "NA", "NR", "NP", "NL", "NC", "NZ", "NI",
-    "NE", "NG", "NU", "NF", "MK", "MP", "NO", "OM", "PK", "PW", "PS", "PA", "PG", "PY", "PE", "PH",
-    "PN", "PL", "PT", "PR", "QA", "RE", "RO", "RU", "RW", "BL", "SH", "KN", "LC", "MF", "PM", "VC",
-    "WS", "SM", "ST", "SA", "SN", "RS", "SC", "SL", "SG", "SX", "SK", "SI", "SB", "SO", "ZA", "GS",
-    "SS", "ES", "LK", "SD", "SR", "SJ", "SE", "CH", "SY", "TW", "TJ", "TZ", "TH", "TL", "TG", "TK",
-    "TO", "TT", "TN", "TR", "TM", "TC", "TV", "UG", "UA", "AE", "GB", "US", "UM", "UY", "UZ", "VU",
-    "VE", "VN", "VG", "VI", "WF", "EH", "YE", "ZM", "ZW",
+
+
+"AF",
+"AX",
+"AL",
+"DZ",
+"AS",
+"AD",
+"AO",
+"AI",
+"AQ",
+"AG",
+"AR",
+"AM",
+"AW",
+"AU",
+"AT",
+"AZ",
+"BS",
+"BH",
+"BD",
+"BB",
+"BY",
+"BE",
+"BZ",
+"BJ",
+"BM",
+"BT",
+"BO",
+"BQ",
+"BA",
+"BW",
+"BV",
+"BR",
+"IO",
+"BN",
+"BG",
+"BF",
+"BI",
+"CV",
+"KH",
+"CM",
+"CA",
+"KY",
+"CF",
+"TD",
+"CL",
+"CN",
+"CX",
+"CC",
+"CO",
+"KM",
+"CG",
+"CD",
+"CK",
+"CR",
+"CI",
+"HR",
+"CU",
+"CW",
+"CY",
+"CZ",
+"DK",
+"DJ",
+"DM",
+"DO",
+"EC",
+"EG",
+"SV",
+"GQ",
+"ER",
+"EE",
+"SZ",
+"ET",
+"FK",
+"FO",
+"FJ",
+"FI",
+"FR",
+"GF",
+"PF",
+"TF",
+"GA",
+"GM",
+"GE",
+"DE",
+"GH",
+"GI",
+"GR",
+"GL",
+"GD",
+"GP",
+"GU",
+"GT",
+"GG",
+"GN",
+"GW",
+"GY",
+"HT",
+"HM",
+"VA",
+"HN",
+"HK",
+"HU",
+"IS",
+"IN",
+"ID",
+"IR",
+"IQ",
+"IE",
+"IM",
+"IL",
+"IT",
+"JM",
+"JP",
+"JE",
+"JO",
+"KZ",
+"KE",
+"KI",
+"KP",
+"KR",
+"KW",
+"KG",
+"LA",
+"LV",
+"LB",
+"LS",
+"LR",
+"LY",
+"LI",
+"LT",
+"LU",
+"MO",
+"MG",
+"MW",
+"MY",
+"MV",
+"ML",
+"MT",
+"MH",
+"MQ",
+"MR",
+"MU",
+"YT",
+"MX",
+"FM",
+"MD",
+"MC",
+"MN",
+"ME",
+"MS",
+"MA",
+"MZ",
+"MM",
+"NA",
+"NR",
+"NP",
+"NL",
+"NC",
+"NZ",
+"NI",
+"NE",
+"NG",
+"NU",
+"NF",
+"MK",
+"MP",
+"NO",
+"OM",
+"PK",
+"PW",
+"PS",
+"PA",
+"PG",
+"PY",
+"PE",
+"PH",
+"PN",
+"PL",
+"PT",
+"PR",
+"QA",
+"RE",
+"RO",
+"RU",
+"RW",
+"BL",
+"SH",
+"KN",
+"LC",
+"MF",
+"PM",
+"VC",
+"WS",
+"SM",
+"ST",
+"SA",
+"SN",
+"RS",
+"SC",
+"SL",
+"SG",
+"SX",
+"SK",
+"SI",
+"SB",
+"SO",
+"ZA",
+"GS",
+"SS",
+"ES",
+"LK",
+"SD",
+"SR",
+"SJ",
+"SE",
+"CH",
+"SY",
+"TW",
+"TJ",
+"TZ",
+"TH",
+"TL",
+"TG",
+"TK",
+"TO",
+"TT",
+"TN",
+"TR",
+"TM",
+"TC",
+"TV",
+"UG",
+"UA",
+"AE",
+"GB",
+"US",
+"UM",
+"UY",
+"UZ",
+"VU",
+"VE",
+"VN",
+"VG",
+"VI",
+"WF",
+"EH",
+"YE",
+"ZM",
+"ZW",
+
+
 ];
+
 
 ///ALL the alpha3 codes of Countrys
 pub const ALL_ALPHA3: &'static [&str] = &[
-    "AFG", "ALA", "ALB", "DZA", "ASM", "AND", "AGO", "AIA", "ATA", "ATG", "ARG", "ARM", "ABW",
-    "AUS", "AUT", "AZE", "BHS", "BHR", "BGD", "BRB", "BLR", "BEL", "BLZ", "BEN", "BMU", "BTN",
-    "BOL", "BES", "BIH", "BWA", "BVT", "BRA", "IOT", "BRN", "BGR", "BFA", "BDI", "CPV", "KHM",
-    "CMR", "CAN", "CYM", "CAF", "TCD", "CHL", "CHN", "CXR", "CCK", "COL", "COM", "COG", "COD",
-    "COK", "CRI", "CIV", "HRV", "CUB", "CUW", "CYP", "CZE", "DNK", "DJI", "DMA", "DOM", "ECU",
-    "EGY", "SLV", "GNQ", "ERI", "EST", "SWZ", "ETH", "FLK", "FRO", "FJI", "FIN", "FRA", "GUF",
-    "PYF", "ATF", "GAB", "GMB", "GEO", "DEU", "GHA", "GIB", "GRC", "GRL", "GRD", "GLP", "GUM",
-    "GTM", "GGY", "GIN", "GNB", "GUY", "HTI", "HMD", "VAT", "HND", "HKG", "HUN", "ISL", "IND",
-    "IDN", "IRN", "IRQ", "IRL", "IMN", "ISR", "ITA", "JAM", "JPN", "JEY", "JOR", "KAZ", "KEN",
-    "KIR", "PRK", "KOR", "KWT", "KGZ", "LAO", "LVA", "LBN", "LSO", "LBR", "LBY", "LIE", "LTU",
-    "LUX", "MAC", "MDG", "MWI", "MYS", "MDV", "MLI", "MLT", "MHL", "MTQ", "MRT", "MUS", "MYT",
-    "MEX", "FSM", "MDA", "MCO", "MNG", "MNE", "MSR", "MAR", "MOZ", "MMR", "NAM", "NRU", "NPL",
-    "NLD", "NCL", "NZL", "NIC", "NER", "NGA", "NIU", "NFK", "MKD", "MNP", "NOR", "OMN", "PAK",
-    "PLW", "PSE", "PAN", "PNG", "PRY", "PER", "PHL", "PCN", "POL", "PRT", "PRI", "QAT", "REU",
-    "ROU", "RUS", "RWA", "BLM", "SHN", "KNA", "LCA", "MAF", "SPM", "VCT", "WSM", "SMR", "STP",
-    "SAU", "SEN", "SRB", "SYC", "SLE", "SGP", "SXM", "SVK", "SVN", "SLB", "SOM", "ZAF", "SGS",
-    "SSD", "ESP", "LKA", "SDN", "SUR", "SJM", "SWE", "CHE", "SYR", "TWN", "TJK", "TZA", "THA",
-    "TLS", "TGO", "TKL", "TON", "TTO", "TUN", "TUR", "TKM", "TCA", "TUV", "UGA", "UKR", "ARE",
-    "GBR", "USA", "UMI", "URY", "UZB", "VUT", "VEN", "VNM", "VGB", "VIR", "WLF", "ESH", "YEM",
-    "ZMB", "ZWE",
+
+
+"AFG",
+"ALA",
+"ALB",
+"DZA",
+"ASM",
+"AND",
+"AGO",
+"AIA",
+"ATA",
+"ATG",
+"ARG",
+"ARM",
+"ABW",
+"AUS",
+"AUT",
+"AZE",
+"BHS",
+"BHR",
+"BGD",
+"BRB",
+"BLR",
+"BEL",
+"BLZ",
+"BEN",
+"BMU",
+"BTN",
+"BOL",
+"BES",
+"BIH",
+"BWA",
+"BVT",
+"BRA",
+"IOT",
+"BRN",
+"BGR",
+"BFA",
+"BDI",
+"CPV",
+"KHM",
+"CMR",
+"CAN",
+"CYM",
+"CAF",
+"TCD",
+"CHL",
+"CHN",
+"CXR",
+"CCK",
+"COL",
+"COM",
+"COG",
+"COD",
+"COK",
+"CRI",
+"CIV",
+"HRV",
+"CUB",
+"CUW",
+"CYP",
+"CZE",
+"DNK",
+"DJI",
+"DMA",
+"DOM",
+"ECU",
+"EGY",
+"SLV",
+"GNQ",
+"ERI",
+"EST",
+"SWZ",
+"ETH",
+"FLK",
+"FRO",
+"FJI",
+"FIN",
+"FRA",
+"GUF",
+"PYF",
+"ATF",
+"GAB",
+"GMB",
+"GEO",
+"DEU",
+"GHA",
+"GIB",
+"GRC",
+"GRL",
+"GRD",
+"GLP",
+"GUM",
+"GTM",
+"GGY",
+"GIN",
+"GNB",
+"GUY",
+"HTI",
+"HMD",
+"VAT",
+"HND",
+"HKG",
+"HUN",
+"ISL",
+"IND",
+"IDN",
+"IRN",
+"IRQ",
+"IRL",
+"IMN",
+"ISR",
+"ITA",
+"JAM",
+"JPN",
+"JEY",
+"JOR",
+"KAZ",
+"KEN",
+"KIR",
+"PRK",
+"KOR",
+"KWT",
+"KGZ",
+"LAO",
+"LVA",
+"LBN",
+"LSO",
+"LBR",
+"LBY",
+"LIE",
+"LTU",
+"LUX",
+"MAC",
+"MDG",
+"MWI",
+"MYS",
+"MDV",
+"MLI",
+"MLT",
+"MHL",
+"MTQ",
+"MRT",
+"MUS",
+"MYT",
+"MEX",
+"FSM",
+"MDA",
+"MCO",
+"MNG",
+"MNE",
+"MSR",
+"MAR",
+"MOZ",
+"MMR",
+"NAM",
+"NRU",
+"NPL",
+"NLD",
+"NCL",
+"NZL",
+"NIC",
+"NER",
+"NGA",
+"NIU",
+"NFK",
+"MKD",
+"MNP",
+"NOR",
+"OMN",
+"PAK",
+"PLW",
+"PSE",
+"PAN",
+"PNG",
+"PRY",
+"PER",
+"PHL",
+"PCN",
+"POL",
+"PRT",
+"PRI",
+"QAT",
+"REU",
+"ROU",
+"RUS",
+"RWA",
+"BLM",
+"SHN",
+"KNA",
+"LCA",
+"MAF",
+"SPM",
+"VCT",
+"WSM",
+"SMR",
+"STP",
+"SAU",
+"SEN",
+"SRB",
+"SYC",
+"SLE",
+"SGP",
+"SXM",
+"SVK",
+"SVN",
+"SLB",
+"SOM",
+"ZAF",
+"SGS",
+"SSD",
+"ESP",
+"LKA",
+"SDN",
+"SUR",
+"SJM",
+"SWE",
+"CHE",
+"SYR",
+"TWN",
+"TJK",
+"TZA",
+"THA",
+"TLS",
+"TGO",
+"TKL",
+"TON",
+"TTO",
+"TUN",
+"TUR",
+"TKM",
+"TCA",
+"TUV",
+"UGA",
+"UKR",
+"ARE",
+"GBR",
+"USA",
+"UMI",
+"URY",
+"UZB",
+"VUT",
+"VEN",
+"VNM",
+"VGB",
+"VIR",
+"WLF",
+"ESH",
+"YEM",
+"ZMB",
+"ZWE",
+
+
 ];
+
 
 ///ALL the 3 length numeric str codes of Countrys
 pub const ALL_NUMERIC_STR: &'static [&str] = &[
-    "004", "248", "008", "012", "016", "020", "024", "660", "010", "028", "032", "051", "533",
-    "036", "040", "031", "044", "048", "050", "052", "112", "056", "084", "204", "060", "064",
-    "068", "535", "070", "072", "074", "076", "086", "096", "100", "854", "108", "132", "116",
-    "120", "124", "136", "140", "148", "152", "156", "162", "166", "170", "174", "178", "180",
-    "184", "188", "384", "191", "192", "531", "196", "203", "208", "262", "212", "214", "218",
-    "818", "222", "226", "232", "233", "748", "231", "238", "234", "242", "246", "250", "254",
-    "258", "260", "266", "270", "268", "276", "288", "292", "300", "304", "308", "312", "316",
-    "320", "831", "324", "624", "328", "332", "334", "336", "340", "344", "348", "352", "356",
-    "360", "364", "368", "372", "833", "376", "380", "388", "392", "832", "400", "398", "404",
-    "296", "408", "410", "414", "417", "418", "428", "422", "426", "430", "434", "438", "440",
-    "442", "446", "450", "454", "458", "462", "466", "470", "584", "474", "478", "480", "175",
-    "484", "583", "498", "492", "496", "499", "500", "504", "508", "104", "516", "520", "524",
-    "528", "540", "554", "558", "562", "566", "570", "574", "807", "580", "578", "512", "586",
-    "585", "275", "591", "598", "600", "604", "608", "612", "616", "620", "630", "634", "638",
-    "642", "643", "646", "652", "654", "659", "662", "663", "666", "670", "882", "674", "678",
-    "682", "686", "688", "690", "694", "702", "534", "703", "705", "090", "706", "710", "239",
-    "728", "724", "144", "729", "740", "744", "752", "756", "760", "158", "762", "834", "764",
-    "626", "768", "772", "776", "780", "788", "792", "795", "796", "798", "800", "804", "784",
-    "826", "840", "581", "858", "860", "548", "862", "704", "092", "850", "876", "732", "887",
-    "894", "716",
+
+
+"004",
+"248",
+"008",
+"012",
+"016",
+"020",
+"024",
+"660",
+"010",
+"028",
+"032",
+"051",
+"533",
+"036",
+"040",
+"031",
+"044",
+"048",
+"050",
+"052",
+"112",
+"056",
+"084",
+"204",
+"060",
+"064",
+"068",
+"535",
+"070",
+"072",
+"074",
+"076",
+"086",
+"096",
+"100",
+"854",
+"108",
+"132",
+"116",
+"120",
+"124",
+"136",
+"140",
+"148",
+"152",
+"156",
+"162",
+"166",
+"170",
+"174",
+"178",
+"180",
+"184",
+"188",
+"384",
+"191",
+"192",
+"531",
+"196",
+"203",
+"208",
+"262",
+"212",
+"214",
+"218",
+"818",
+"222",
+"226",
+"232",
+"233",
+"748",
+"231",
+"238",
+"234",
+"242",
+"246",
+"250",
+"254",
+"258",
+"260",
+"266",
+"270",
+"268",
+"276",
+"288",
+"292",
+"300",
+"304",
+"308",
+"312",
+"316",
+"320",
+"831",
+"324",
+"624",
+"328",
+"332",
+"334",
+"336",
+"340",
+"344",
+"348",
+"352",
+"356",
+"360",
+"364",
+"368",
+"372",
+"833",
+"376",
+"380",
+"388",
+"392",
+"832",
+"400",
+"398",
+"404",
+"296",
+"408",
+"410",
+"414",
+"417",
+"418",
+"428",
+"422",
+"426",
+"430",
+"434",
+"438",
+"440",
+"442",
+"446",
+"450",
+"454",
+"458",
+"462",
+"466",
+"470",
+"584",
+"474",
+"478",
+"480",
+"175",
+"484",
+"583",
+"498",
+"492",
+"496",
+"499",
+"500",
+"504",
+"508",
+"104",
+"516",
+"520",
+"524",
+"528",
+"540",
+"554",
+"558",
+"562",
+"566",
+"570",
+"574",
+"807",
+"580",
+"578",
+"512",
+"586",
+"585",
+"275",
+"591",
+"598",
+"600",
+"604",
+"608",
+"612",
+"616",
+"620",
+"630",
+"634",
+"638",
+"642",
+"643",
+"646",
+"652",
+"654",
+"659",
+"662",
+"663",
+"666",
+"670",
+"882",
+"674",
+"678",
+"682",
+"686",
+"688",
+"690",
+"694",
+"702",
+"534",
+"703",
+"705",
+"090",
+"706",
+"710",
+"239",
+"728",
+"724",
+"144",
+"729",
+"740",
+"744",
+"752",
+"756",
+"760",
+"158",
+"762",
+"834",
+"764",
+"626",
+"768",
+"772",
+"776",
+"780",
+"788",
+"792",
+"795",
+"796",
+"798",
+"800",
+"804",
+"784",
+"826",
+"840",
+"581",
+"858",
+"860",
+"548",
+"862",
+"704",
+"092",
+"850",
+"876",
+"732",
+"887",
+"894",
+"716",
+
+
 ];
+
 
 ///ALL the  numeric  codes of Countrys
 pub const ALL_NUMERIC: &'static [i32] = &[
-    004, 248, 008, 012, 016, 020, 024, 660, 010, 028, 032, 051, 533, 036, 040, 031, 044, 048, 050,
-    052, 112, 056, 084, 204, 060, 064, 068, 535, 070, 072, 074, 076, 086, 096, 100, 854, 108, 132,
-    116, 120, 124, 136, 140, 148, 152, 156, 162, 166, 170, 174, 178, 180, 184, 188, 384, 191, 192,
-    531, 196, 203, 208, 262, 212, 214, 218, 818, 222, 226, 232, 233, 748, 231, 238, 234, 242, 246,
-    250, 254, 258, 260, 266, 270, 268, 276, 288, 292, 300, 304, 308, 312, 316, 320, 831, 324, 624,
-    328, 332, 334, 336, 340, 344, 348, 352, 356, 360, 364, 368, 372, 833, 376, 380, 388, 392, 832,
-    400, 398, 404, 296, 408, 410, 414, 417, 418, 428, 422, 426, 430, 434, 438, 440, 442, 446, 450,
-    454, 458, 462, 466, 470, 584, 474, 478, 480, 175, 484, 583, 498, 492, 496, 499, 500, 504, 508,
-    104, 516, 520, 524, 528, 540, 554, 558, 562, 566, 570, 574, 807, 580, 578, 512, 586, 585, 275,
-    591, 598, 600, 604, 608, 612, 616, 620, 630, 634, 638, 642, 643, 646, 652, 654, 659, 662, 663,
-    666, 670, 882, 674, 678, 682, 686, 688, 690, 694, 702, 534, 703, 705, 090, 706, 710, 239, 728,
-    724, 144, 729, 740, 744, 752, 756, 760, 158, 762, 834, 764, 626, 768, 772, 776, 780, 788, 792,
-    795, 796, 798, 800, 804, 784, 826, 840, 581, 858, 860, 548, 862, 704, 092, 850, 876, 732, 887,
-    894, 716,
+
+
+004,
+248,
+008,
+012,
+016,
+020,
+024,
+660,
+010,
+028,
+032,
+051,
+533,
+036,
+040,
+031,
+044,
+048,
+050,
+052,
+112,
+056,
+084,
+204,
+060,
+064,
+068,
+535,
+070,
+072,
+074,
+076,
+086,
+096,
+100,
+854,
+108,
+132,
+116,
+120,
+124,
+136,
+140,
+148,
+152,
+156,
+162,
+166,
+170,
+174,
+178,
+180,
+184,
+188,
+384,
+191,
+192,
+531,
+196,
+203,
+208,
+262,
+212,
+214,
+218,
+818,
+222,
+226,
+232,
+233,
+748,
+231,
+238,
+234,
+242,
+246,
+250,
+254,
+258,
+260,
+266,
+270,
+268,
+276,
+288,
+292,
+300,
+304,
+308,
+312,
+316,
+320,
+831,
+324,
+624,
+328,
+332,
+334,
+336,
+340,
+344,
+348,
+352,
+356,
+360,
+364,
+368,
+372,
+833,
+376,
+380,
+388,
+392,
+832,
+400,
+398,
+404,
+296,
+408,
+410,
+414,
+417,
+418,
+428,
+422,
+426,
+430,
+434,
+438,
+440,
+442,
+446,
+450,
+454,
+458,
+462,
+466,
+470,
+584,
+474,
+478,
+480,
+175,
+484,
+583,
+498,
+492,
+496,
+499,
+500,
+504,
+508,
+104,
+516,
+520,
+524,
+528,
+540,
+554,
+558,
+562,
+566,
+570,
+574,
+807,
+580,
+578,
+512,
+586,
+585,
+275,
+591,
+598,
+600,
+604,
+608,
+612,
+616,
+620,
+630,
+634,
+638,
+642,
+643,
+646,
+652,
+654,
+659,
+662,
+663,
+666,
+670,
+882,
+674,
+678,
+682,
+686,
+688,
+690,
+694,
+702,
+534,
+703,
+705,
+090,
+706,
+710,
+239,
+728,
+724,
+144,
+729,
+740,
+744,
+752,
+756,
+760,
+158,
+762,
+834,
+764,
+626,
+768,
+772,
+776,
+780,
+788,
+792,
+795,
+796,
+798,
+800,
+804,
+784,
+826,
+840,
+581,
+858,
+860,
+548,
+862,
+704,
+092,
+850,
+876,
+732,
+887,
+894,
+716,
+
+
 ];
+
 
 ///ALL the Countrys struct
 pub const ALL: &'static [CountryCode] = &[
-    AF, AX, AL, DZ, AS, AD, AO, AI, AQ, AG, AR, AM, AW, AU, AT, AZ, BS, BH, BD, BB, BY, BE, BZ, BJ,
-    BM, BT, BO, BQ, BA, BW, BV, BR, IO, BN, BG, BF, BI, CV, KH, CM, CA, KY, CF, TD, CL, CN, CX, CC,
-    CO, KM, CG, CD, CK, CR, CI, HR, CU, CW, CY, CZ, DK, DJ, DM, DO, EC, EG, SV, GQ, ER, EE, SZ, ET,
-    FK, FO, FJ, FI, FR, GF, PF, TF, GA, GM, GE, DE, GH, GI, GR, GL, GD, GP, GU, GT, GG, GN, GW, GY,
-    HT, HM, VA, HN, HK, HU, IS, IN, ID, IR, IQ, IE, IM, IL, IT, JM, JP, JE, JO, KZ, KE, KI, KP, KR,
-    KW, KG, LA, LV, LB, LS, LR, LY, LI, LT, LU, MO, MG, MW, MY, MV, ML, MT, MH, MQ, MR, MU, YT, MX,
-    FM, MD, MC, MN, ME, MS, MA, MZ, MM, NA, NR, NP, NL, NC, NZ, NI, NE, NG, NU, NF, MK, MP, NO, OM,
-    PK, PW, PS, PA, PG, PY, PE, PH, PN, PL, PT, PR, QA, RE, RO, RU, RW, BL, SH, KN, LC, MF, PM, VC,
-    WS, SM, ST, SA, SN, RS, SC, SL, SG, SX, SK, SI, SB, SO, ZA, GS, SS, ES, LK, SD, SR, SJ, SE, CH,
-    SY, TW, TJ, TZ, TH, TL, TG, TK, TO, TT, TN, TR, TM, TC, TV, UG, UA, AE, GB, US, UM, UY, UZ, VU,
-    VE, VN, VG, VI, WF, EH, YE, ZM, ZW,
+
+
+AF,
+AX,
+AL,
+DZ,
+AS,
+AD,
+AO,
+AI,
+AQ,
+AG,
+AR,
+AM,
+AW,
+AU,
+AT,
+AZ,
+BS,
+BH,
+BD,
+BB,
+BY,
+BE,
+BZ,
+BJ,
+BM,
+BT,
+BO,
+BQ,
+BA,
+BW,
+BV,
+BR,
+IO,
+BN,
+BG,
+BF,
+BI,
+CV,
+KH,
+CM,
+CA,
+KY,
+CF,
+TD,
+CL,
+CN,
+CX,
+CC,
+CO,
+KM,
+CG,
+CD,
+CK,
+CR,
+CI,
+HR,
+CU,
+CW,
+CY,
+CZ,
+DK,
+DJ,
+DM,
+DO,
+EC,
+EG,
+SV,
+GQ,
+ER,
+EE,
+SZ,
+ET,
+FK,
+FO,
+FJ,
+FI,
+FR,
+GF,
+PF,
+TF,
+GA,
+GM,
+GE,
+DE,
+GH,
+GI,
+GR,
+GL,
+GD,
+GP,
+GU,
+GT,
+GG,
+GN,
+GW,
+GY,
+HT,
+HM,
+VA,
+HN,
+HK,
+HU,
+IS,
+IN,
+ID,
+IR,
+IQ,
+IE,
+IM,
+IL,
+IT,
+JM,
+JP,
+JE,
+JO,
+KZ,
+KE,
+KI,
+KP,
+KR,
+KW,
+KG,
+LA,
+LV,
+LB,
+LS,
+LR,
+LY,
+LI,
+LT,
+LU,
+MO,
+MG,
+MW,
+MY,
+MV,
+ML,
+MT,
+MH,
+MQ,
+MR,
+MU,
+YT,
+MX,
+FM,
+MD,
+MC,
+MN,
+ME,
+MS,
+MA,
+MZ,
+MM,
+NA,
+NR,
+NP,
+NL,
+NC,
+NZ,
+NI,
+NE,
+NG,
+NU,
+NF,
+MK,
+MP,
+NO,
+OM,
+PK,
+PW,
+PS,
+PA,
+PG,
+PY,
+PE,
+PH,
+PN,
+PL,
+PT,
+PR,
+QA,
+RE,
+RO,
+RU,
+RW,
+BL,
+SH,
+KN,
+LC,
+MF,
+PM,
+VC,
+WS,
+SM,
+ST,
+SA,
+SN,
+RS,
+SC,
+SL,
+SG,
+SX,
+SK,
+SI,
+SB,
+SO,
+ZA,
+GS,
+SS,
+ES,
+LK,
+SD,
+SR,
+SJ,
+SE,
+CH,
+SY,
+TW,
+TJ,
+TZ,
+TH,
+TL,
+TG,
+TK,
+TO,
+TT,
+TN,
+TR,
+TM,
+TC,
+TV,
+UG,
+UA,
+AE,
+GB,
+US,
+UM,
+UY,
+UZ,
+VU,
+VE,
+VN,
+VG,
+VI,
+WF,
+EH,
+YE,
+ZM,
+ZW,
+
+
 ];
+

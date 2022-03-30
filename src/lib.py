@@ -4,6 +4,7 @@
 pre_code = """
 use phf::phf_map;
 use phf::Map;
+pub mod iso3166_2;
 
 /// # Sample code
 /// ```
@@ -47,6 +48,11 @@ impl CountryCode {
     ///Return len 3 String for CountryCode numeric
     pub fn numeric_str (&self) -> String {
         format!("{:03}", self.numeric)
+    }
+
+    ///Return Subdivision for ISO 3166-2
+    pub fn subdivisions (&self) -> Option<&[iso3166_2::Subdivision]> {
+        iso3166_2::SUBDIVISION_COUNTRY_MAP.get(self.alpha2).cloned()
     }
 }
 /// Returns the CountryCode with the given Alpha2 code, if exists.

@@ -11,6 +11,16 @@ A rust crate providing ISO 3166-1 support.
 >
 > *-- [Wikipedia](http://en.wikipedia.org/wiki/ISO_3166-1)*
 
+## What is ISO 3166-2
+
+> ISO 3166-2 is part of the ISO 3166 standard published by the International Organization for Standardization (ISO), and defines codes for identifying the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1. The official name of the standard is Codes for the representation of names of countries and their subdivisions – Part 2: Country subdivision code. It was first published in 1998.
+
+> * The purpose of ISO 3166-2 is to establish an international standard of short and unique alphanumeric codes to represent the relevant administrative divisions and dependent territories of all countries in a more convenient and less ambiguous form than their full names. Each complete ISO 3166-2 code consists of two parts, separated by a hyphen:[1]
+> * The first part is the ISO 3166-1 alpha-2 code of the country;
+> * The second part is a string of up to three alphanumeric characters, which is usually obtained from national sources and stems from coding systems already in use in the country concerned, but may also be developed by the ISO itself.
+>
+> *-- [Wikipedia](http://en.wikipedia.org/wiki/ISO_3166-2)*
+
 ## Installing
 
 ``` sh
@@ -41,6 +51,14 @@ println!("{:?}", rust_iso3166::ALL_NUMERIC_STR);
 println!("{:?}", rust_iso3166::NUMERIC_MAP);  
 println!("{:?}", rust_iso3166::ALPHA3_MAP);  
 println!("{:?}", rust_iso3166::ALPHA2_MAP);  
+
+// for ISO 3166-2
+let country = rust_iso3166::from_alpha2("GB").unwrap();
+let subdivisions = country.subdivisions();
+assert!(subdivisions.unwrap().len() > 0);
+let country = rust_iso3166::iso3166_2::from_code("GB-EDH");
+assert_eq!("Edinburgh, City of", country.unwrap().name); 
+
 
 ```
 

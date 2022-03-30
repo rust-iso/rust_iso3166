@@ -6,6 +6,7 @@ description="ISO 3166-1 (Codes for the representation of names of countries and 
 repository="https://github.com/rust-iso/rust_iso3166"
 license="Apache-2.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+exclude = ["src/*.py"]
 
 [dependencies]
 phf = { version = "0.10.1", features = ["macros"] }

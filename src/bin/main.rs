@@ -1,9 +1,10 @@
-use std::env;
 #[macro_use]
 extern crate prettytable;
 use prettytable::Table;
+use std::env;
 
 fn main() {
+
     let mut args = env::args();
     let script_name = match args.next() {
         Some(arg) => arg,
