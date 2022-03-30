@@ -21,6 +21,18 @@ A rust crate providing ISO 3166-1 support.
 >
 > *-- [Wikipedia](http://en.wikipedia.org/wiki/ISO_3166-2)*
 
+## What is ISO 3166-3
+
+> ISO 3166-3 is part of the ISO 3166 standard published by the International Organization for Standardization (ISO), and defines codes for country names which have been deleted from ISO 3166-1 since its first publication in 1974. The official name of the standard is Codes for the representation of names of countries and their subdivisions – Part 3: Code for formerly used names of countries.[1] It was first published in 1999.
+
+> * Each former country name in ISO 3166-3 is assigned a four-letter alphabetic code. The first two letters are the ISO 3166-1 alpha-2 code of the former country, while the last two letters are allocated according to the following rules:[2]
+
+> * If the country changed its name, the new ISO 3166-1 alpha-2 code is used (e.g., Burma changed its name to Myanmar, whose new alpha-2 code is MM), or the special code AA is used if its alpha-2 code was not changed (e.g., Byelorussian SSR changed its name to Belarus, which has kept the same alpha-2 code).
+> * If the country merged into an existing country, the ISO 3166-1 alpha-2 code of this country is used (e.g., the German Democratic Republic merged into Germany, whose alpha-2 code is DE).
+> * If the country was divided into several parts, the special code HH is used to indicate that there is no single successor country (e.g., Czechoslovakia was divided into the Czech Republic and Slovakia), with the exception of Serbia and Montenegro, for which XX is used to avoid duplicate use of the same ISO 3166-3 code, as the alpha-2 code CS had twice been deleted from ISO 3166-1, the first time due to the split of Czechoslovakia and the second time due to the split of Serbia and Montenegro.
+
+> *-- [Wikipedia](http://en.wikipedia.org/wiki/ISO_3166-3)*
+
 ## Installing
 
 ``` sh
@@ -108,6 +120,7 @@ iso3166_3::CountryCode3 {
 ## Contributing
 
 Feel free to submit a pull request or create an issue.
+or request to [rust-iso](https://github.com/rust-iso) 
 
 ## License
 
@@ -115,5 +128,8 @@ rust-iso/rust_iso3166 is licensed under the Apache-2.0 license.
 
 ## Source(s)
 
-* [ISO 3166-1](http://en.wikipedia.org/wiki/ISO_3166-1) by [Wikipedia](http://www.wikipedia.org) licensed under [CC BY-SA 3.0 Unported License](http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)
+* [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166) by [Wikipedia](http://www.wikipedia.org)
+* [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) by [Wikipedia](http://www.wikipedia.org)
+* [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) by [Wikipedia](http://www.wikipedia.org)
+* [ISO 3166-3](https://en.wikipedia.org/wiki/ISO_3166-3) by [Wikipedia](http://www.wikipedia.org)
 * [www.iso.org](http://www.iso.org)
