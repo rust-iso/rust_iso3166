@@ -25,7 +25,7 @@ A rust crate providing ISO 3166-1 support.
 
 ``` sh
 [dependencies]
-rust_iso3166 = "0.1.1"
+rust_iso3166 = "0.1.2"
 ```
 
 ## Using
@@ -59,7 +59,9 @@ assert!(subdivisions.unwrap().len() > 0);
 let country = rust_iso3166::iso3166_2::from_code("GB-EDH");
 assert_eq!("Edinburgh, City of", country.unwrap().name); 
 
-
+// for ISO 3166-3
+let sub = rust_iso3166::iso3166_3::from_code("PZPA");
+assert_eq!("Panama Canal Zone", sub.unwrap().name);
 ```
 
 Data sample:
@@ -79,6 +81,27 @@ CountryCode {
     country_name: "Afghanistan",
     country_code: "AF",
     region_code: "AF-BDG",
+}
+
+iso3166_3::CountryCode3 {
+    code: "BQAQ",
+    name: "British Antarctic Territory",
+    former: CountryCode { 
+        name: "British Antarctic Territory",
+        alpha2: "BQ", 
+        alpha3: "ATB", 
+        numeric: 0 
+    },
+    new_countries: [
+        CountryCode { 
+            name: "Antarctica",
+            alpha2: "AQ", 
+            alpha3: "ATA", 
+            numeric: 010
+        },    
+    ],
+    validity: [1974,1979],
+    desc: "Merged into Antarctica",
 }
 ```
 

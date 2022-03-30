@@ -37,7 +37,7 @@ pub struct Subdivision {
 /// Returns the Subdivision with the given code, if exists.
 /// #Sample
 /// ```
-/// let sub = rust_iso3166::rust_iso3166_2::from_code("SE-O");
+/// let sub = rust_iso3166::iso3166_2::from_code("SE-O");
 /// assert_eq!("Västra Götalands län", sub.unwrap().name);
 /// ```
 pub fn from_code(code: &str) -> Option<Subdivision> {

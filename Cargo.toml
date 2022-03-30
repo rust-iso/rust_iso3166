@@ -9,5 +9,5 @@ license="Apache-2.0"
 exclude = ["src/*.py"]
 
 [dependencies]
-phf = { version = "0.10.1", features = ["macros"] }
+phf = { version = "0.10.2", features = ["macros"] }
 prettytable-rs = "^0.8"

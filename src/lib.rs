@@ -2,7 +2,7 @@
 use phf::phf_map;
 use phf::Map;
 pub mod iso3166_2;
-
+pub mod iso3166_3;
 /// # Sample code
 /// ```
 /// let country = rust_iso3166::from_alpha2("AU");
@@ -29,7 +29,7 @@ pub mod iso3166_2;
 /// ```
 
 /// Data for each Country Code defined by ISO 3166-1
-#[derive(Debug, Copy, Clone)]
+#[derive(Debug,Copy, Clone)]
 pub struct CountryCode {
     ///English short name
     pub name: &'static str,
@@ -40,6 +40,7 @@ pub struct CountryCode {
     ///Numeric code
     pub numeric: i32,
 }
+
 
 impl CountryCode {
     ///Return len 3 String for CountryCode numeric

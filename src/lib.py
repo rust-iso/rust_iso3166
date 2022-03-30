@@ -5,6 +5,7 @@ pre_code = """
 use phf::phf_map;
 use phf::Map;
 pub mod iso3166_2;
+pub mod iso3166_3;
 
 /// # Sample code
 /// ```
