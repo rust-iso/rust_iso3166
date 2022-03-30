@@ -30,6 +30,18 @@ let country = rust_iso3166::from_alpha3("AUS");
 let country = rust_iso3166::from_numeric(036);
 let country = rust_iso3166::from_numeric_str("036");
 
+println!("{:?}", rust_iso3166::ALL);
+
+println!("{:?}", rust_iso3166::ALL_ALPHA2);   
+println!("{:?}", rust_iso3166::ALL_ALPHA3);   
+println!("{:?}", rust_iso3166::ALL_NAME);   
+println!("{:?}", rust_iso3166::ALL_NUMERIC);   
+println!("{:?}", rust_iso3166::ALL_NUMERIC_STR);   
+
+println!("{:?}", rust_iso3166::NUMERIC_MAP);  
+println!("{:?}", rust_iso3166::ALPHA3_MAP);  
+println!("{:?}", rust_iso3166::ALPHA2_MAP);  
+
 ```
 
 Data sample:

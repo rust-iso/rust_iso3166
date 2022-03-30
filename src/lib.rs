@@ -1,8 +1,32 @@
 use phf::phf_map;
 use phf::Map;
 
+/// ```
+/// let country = rust_iso3166::from_alpha2("AU");
+/// assert_eq!("AUS", country.unwrap().alpha3); 
+/// let country = rust_iso3166::from_alpha3("AUS");
+/// assert_eq!("AU", country.unwrap().alpha2);  
+/// let country = rust_iso3166::from_numeric(036);
+/// assert_eq!("AUS", country.unwrap().alpha3);   
+/// let country = rust_iso3166::from_numeric_str("036");
+/// assert_eq!("AUS", country.unwrap().alpha3); 
+/// 
+/// println!("{:?}", country);   
+/// println!("{:?}", rust_iso3166::ALL);
+
+/// println!("{:?}", rust_iso3166::ALL_ALPHA2);   
+/// println!("{:?}", rust_iso3166::ALL_ALPHA3);   
+/// println!("{:?}", rust_iso3166::ALL_NAME);   
+/// println!("{:?}", rust_iso3166::ALL_NUMERIC);   
+/// println!("{:?}", rust_iso3166::ALL_NUMERIC_STR);   
+
+/// println!("{:?}", rust_iso3166::NUMERIC_MAP);  
+/// println!("{:?}", rust_iso3166::ALPHA3_MAP);  
+/// println!("{:?}", rust_iso3166::ALPHA2_MAP);  
+/// ```
+
 /// Data for each Country Code defined by ISO 3166-1
-#[derive(Debug, Clone)]
+#[derive(Debug, Copy, Clone)]
 pub struct CountryCode {
     ///English short name
     pub name: &'static str,
