@@ -37,7 +37,7 @@ A rust crate providing ISO 3166-1 support.
 
 ``` sh
 [dependencies]
-rust_iso3166 = "0.1.2"
+rust_iso3166 = "0.1.3"
 ```
 
 ## Using
