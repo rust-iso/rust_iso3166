@@ -1,16 +1,16 @@
 use phf::phf_map;
 use phf::Map;
-
+/// # Sample code
 /// ```
 /// let country = rust_iso3166::from_alpha2("AU");
-/// assert_eq!("AUS", country.unwrap().alpha3); 
+/// assert_eq!("AUS", country.unwrap().alpha3);
 /// let country = rust_iso3166::from_alpha3("AUS");
 /// assert_eq!("AU", country.unwrap().alpha2);  
 /// let country = rust_iso3166::from_numeric(036);
 /// assert_eq!("AUS", country.unwrap().alpha3);   
 /// let country = rust_iso3166::from_numeric_str("036");
-/// assert_eq!("AUS", country.unwrap().alpha3); 
-/// 
+/// assert_eq!("AUS", country.unwrap().alpha3);
+///
 /// println!("{:?}", country);   
 /// println!("{:?}", rust_iso3166::ALL);
 

@@ -5,6 +5,7 @@ pre_code = """
 use phf::phf_map;
 use phf::Map;
 
+/// # Sample code
 /// ```
 /// let country = rust_iso3166::from_alpha2("AU");
 /// assert_eq!("AUS", country.unwrap().alpha3); 
