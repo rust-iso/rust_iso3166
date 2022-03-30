@@ -65,12 +65,20 @@ assert_eq!("Edinburgh, City of", country.unwrap().name);
 Data sample:
 
 ``` rust
-
 CountryCode { 
     name: "Australia",
     alpha2: "AU", 
     alpha3: "AUS", 
     numeric: 36 
+}
+
+ iso3166_2::Subdivision {
+    name: "Bādghīs",
+    code: "AF-BDG",
+    subdivision_type: "Province",
+    country_name: "Afghanistan",
+    country_code: "AF",
+    region_code: "AF-BDG",
 }
 ```
 
@@ -80,7 +88,7 @@ Feel free to submit a pull request or create an issue.
 
 ## License
 
-league/iso3166 is licensed under the MIT license.
+rust-iso/rust_iso3166 is licensed under the Apache-2.0 license.
 
 ## Source(s)
 
