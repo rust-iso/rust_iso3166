@@ -1,6 +1,6 @@
-# league/iso3166
+# rust_iso/iso3166
 
-A rust crate providing ISO 3166-1 support.
+A rust crate providing ISO 3166 1, ISO 3166 2, ISO 3166 3  support.
 
 ## What is ISO 3166-1
 
@@ -37,7 +37,7 @@ A rust crate providing ISO 3166-1 support.
 
 ``` sh
 [dependencies]
-rust_iso3166 = "0.1.3"
+rust_iso3166 = "0.1.4"
 ```
 
 ## Using
