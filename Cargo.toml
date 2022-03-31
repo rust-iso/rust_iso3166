@@ -7,6 +7,7 @@ repository="https://github.com/rust-iso/rust_iso3166"
 license="Apache-2.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 exclude = ["src/*.py"]
+keywords=["ISO3166","ISO 3166", "ISO 3166-1", "ISO 3166-2","ISO 3166-3", "ISO3166-1", "ISO3166-2","ISO3166-3"]
 
 [dependencies]
 phf = { version = "0.10.1", features = ["macros"] }
