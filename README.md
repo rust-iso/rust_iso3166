@@ -42,7 +42,7 @@ rust_iso3166 = "0.1.3"
 
 ## Using
 
-See [using](https://iso3166.thephpleague.com/using) section of the documentation.
+See [using](https://crates.io/crates/rust_iso3166) section of the documentation.
 
 Quick guide:
 

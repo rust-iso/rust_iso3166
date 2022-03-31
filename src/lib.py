@@ -363,7 +363,7 @@ pub const %s: CountryCode = CountryCode {
     alpha3: "%s",
     numeric: %s,
 };
-""" % (ts[1],ts[0],ts[1],ts[2],ts[3])
+""" % (ts[1],ts[0],ts[1],ts[2],int(ts[3]))
 
 
 print """
@@ -410,7 +410,7 @@ print """
 
 print """
 ///ALL the names of Countrys
-pub const ALL_NAME: &'static [&str] = &[
+pub const ALL_NAME: & [&str] = &[
 """
 for x in a.split("\n"):
     ts = x.split("\t")
@@ -424,7 +424,7 @@ print """
 
 print """
 ///ALL the alpha2 codes of Countrys
-pub const ALL_ALPHA2: &'static [&str] = &[
+pub const ALL_ALPHA2: & [&str] = &[
 """
 for x in a.split("\n"):
     ts = x.split("\t")
@@ -437,7 +437,7 @@ print """
 """
 print """
 ///ALL the alpha3 codes of Countrys
-pub const ALL_ALPHA3: &'static [&str] = &[
+pub const ALL_ALPHA3: & [&str] = &[
 """
 for x in a.split("\n"):
     ts = x.split("\t")
@@ -451,7 +451,7 @@ print """
 
 print """
 ///ALL the 3 length numeric str codes of Countrys
-pub const ALL_NUMERIC_STR: &'static [&str] = &[
+pub const ALL_NUMERIC_STR: & [&str] = &[
 """
 for x in a.split("\n"):
     ts = x.split("\t")
@@ -465,21 +465,21 @@ print """
 
 print """
 ///ALL the  numeric  codes of Countrys
-pub const ALL_NUMERIC: &'static [i32] = &[
+pub const ALL_NUMERIC: & [i32] = &[
 """
 for x in a.split("\n"):
     ts = x.split("\t")
     if len(ts)<2:
         print x
         continue
-    print "%s," % (ts[3])
+    print "%s," % (int(ts[3]))
 print """
 ];
 """
 
 print """
 ///ALL the Countrys struct
-pub const ALL: &'static [CountryCode] = &[
+pub const ALL: & [CountryCode] = &[
 """
 for x in a.split("\n"):
     ts = x.split("\t")

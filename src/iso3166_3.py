@@ -48,6 +48,9 @@ for x in f:
     former_numeric = re.sub(r"\[note.*?\]","",former_numeric).strip()
     if former_numeric == "-":
         former_numeric = "0"
+
+    former_numeric = str(int(former_numeric))
+    
     validity = x[2].split("\xe2\x80\x93")
     validity_from = re.sub(r"\[note.*?\]","",validity[0])
     validity_to = re.sub(r"\[note.*?\]","",validity[1])
@@ -77,6 +80,7 @@ pub const %s: CountryCode3 = CountryCode3 {
         c_alpha2 = c[1]
         c_alpha3 = c[2]
         c_numeric = c[3]
+        c_numeric = str(int(c_numeric))
         c_name = c_name.replace("Name changed to","").replace("Merged into","").replace("Divided into:","").strip()
         print """ CountryCode {
         name: "%s",
@@ -114,7 +118,7 @@ print """
 
 print """
 ///ALL the Countrys struct
-pub const ALL: &'static [CountryCode3] = &[
+pub const ALL: & [CountryCode3] = &[
 """
 for x in codes:
     print "%s," % (x)

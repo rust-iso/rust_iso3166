@@ -4,7 +4,6 @@ use prettytable::Table;
 use std::env;
 
 fn main() {
-
     let mut args = env::args();
     let script_name = match args.next() {
         Some(arg) => arg,
@@ -36,7 +35,7 @@ fn main() {
         }
     }
 
-    if found == false {
+    if !found {
         for country in rust_iso3166::ALL {
             if country.name.to_lowercase().contains(query) {
                 table.add_row(row![
