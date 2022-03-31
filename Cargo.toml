@@ -1,12 +1,13 @@
 [package]
 name = "rust_iso3166"
-version = "0.1.4"
-edition = "2021"
+version = "0.1.5"
+edition = "2022"
 description="ISO 3166-1 (Codes for the representation of names of countries and their subdivisions – Part 1: Country codes) is a standard defining codes for the names of countries, dependent territories, and special areas of geographical interest. It is the first part of the ISO 3166 standard published by the International Organization for Standardization."
 repository="https://github.com/rust-iso/rust_iso3166"
 license="Apache-2.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 exclude = ["src/*.py"]
+documentation = "https://docs.rs/rust_iso3166/"
 keywords=["ISO3166","ISO 3166", "ISO 3166-1", "ISO 3166-2","ISO 3166-3", "ISO3166-1", "ISO3166-2","ISO3166-3"]
 
 [dependencies]
