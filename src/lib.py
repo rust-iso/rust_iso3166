@@ -33,7 +33,7 @@ pub mod iso3166_3;
 /// ```
 
 /// Data for each Country Code defined by ISO 3166-1
-#[derive(Debug, Copy, Clone)]
+#[derive(Debug, Copy, Clone, PartialEq, Eq)]
 pub struct CountryCode {
     ///English short name
     pub name: &'static str,
