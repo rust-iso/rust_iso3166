@@ -2,6 +2,7 @@ use phf::phf_map;
 use phf::Map;
 pub mod iso3166_2;
 pub mod iso3166_3;
+use std::hash::Hash;
 
 /// # Sample code
 /// ```
@@ -29,7 +30,7 @@ pub mod iso3166_3;
 /// ```
 
 /// Data for each Country Code defined by ISO 3166-1
-#[derive(Debug, Copy, Clone, PartialEq, Eq)]
+#[derive(Debug, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct CountryCode {
     ///English short name
     pub name: &'static str,
