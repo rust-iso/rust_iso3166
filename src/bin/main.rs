@@ -1,6 +1,6 @@
 #[cfg(not(target_arch = "wasm32"))]
 fn main() {
-  use prettytable::{cell, row, Table};
+  use prettytable::{row, Table};
   use std::env;
 
   let mut args = env::args();
