@@ -1,6 +1,6 @@
 [package]
 name = "rust_iso3166"
-version = "0.1.7"
+version = "0.1.8"
 edition = "2021"
 description="ISO 3166-1 (Codes for the representation of names of countries and their subdivisions – Part 1: Country codes) is a standard defining codes for the names of countries, dependent territories, and special areas of geographical interest. It is the first part of the ISO 3166 standard published by the International Organization for Standardization."
 repository="https://github.com/rust-iso/rust_iso3166"
@@ -14,7 +14,7 @@ keywords=["ISO3166", "ISO3166-1", "ISO3166-2", "ISO3166-3"]
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-phf = { version = "0.11.1", features = ["macros"] }
+phf = { version = "^0.11.1", features = ["macros"] }
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
 prettytable-rs = "^0.10"
