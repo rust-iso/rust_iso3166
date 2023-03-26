@@ -1,6 +1,6 @@
 [package]
 name = "rust_iso3166"
-version = "0.1.9"
+version = "0.1.10"
 edition = "2021"
 description="ISO 3166-1 (Codes for the representation of names of countries and their subdivisions – Part 1: Country codes) is a standard defining codes for the names of countries, dependent territories, and special areas of geographical interest. It is the first part of the ISO 3166 standard published by the International Organization for Standardization."
 repository="https://github.com/rust-iso/rust_iso3166"

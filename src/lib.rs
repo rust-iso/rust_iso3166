@@ -166,7 +166,7 @@ pub fn from_numeric_str(numeric: &str) -> Option<CountryCode> {
 
 
 pub const AF: CountryCode = CountryCode {
-    name: "Afghanistan[b]",
+    name: "Afghanistan",
     alpha2: "AF",
     alpha3: "AFG",
     numeric: 4,
@@ -526,7 +526,7 @@ pub const CL: CountryCode = CountryCode {
 
 
 pub const CN: CountryCode = CountryCode {
-    name: "China[b]",
+    name: "China",
     alpha2: "CN",
     alpha3: "CHN",
     numeric: 156,
@@ -630,7 +630,7 @@ pub const CW: CountryCode = CountryCode {
 
 
 pub const CY: CountryCode = CountryCode {
-    name: "Cyprus[b]",
+    name: "Cyprus",
     alpha2: "CY",
     alpha3: "CYP",
     numeric: 196,
@@ -742,7 +742,7 @@ pub const ET: CountryCode = CountryCode {
 
 
 pub const FK: CountryCode = CountryCode {
-    name: "Falkland Islands (Malvinas)[b]",
+    name: "Falkland Islands (Malvinas)",
     alpha2: "FK",
     alpha3: "FLK",
     numeric: 238,
@@ -1526,7 +1526,7 @@ pub const PW: CountryCode = CountryCode {
 
 
 pub const PS: CountryCode = CountryCode {
-    name: "Palestine, State of[b]",
+    name: "Palestine, State of",
     alpha2: "PS",
     alpha3: "PSE",
     numeric: 275,
@@ -1902,7 +1902,7 @@ pub const SY: CountryCode = CountryCode {
 
 
 pub const TW: CountryCode = CountryCode {
-    name: "Taiwan, Province of China[b]",
+    name: "Taiwan, Province of China",
     alpha2: "TW",
     alpha3: "TWN",
     numeric: 158,
@@ -2126,7 +2126,7 @@ pub const WF: CountryCode = CountryCode {
 
 
 pub const EH: CountryCode = CountryCode {
-    name: "Western Sahara[b]",
+    name: "Western Sahara",
     alpha2: "EH",
     alpha3: "ESH",
     numeric: 732,
@@ -2936,7 +2936,7 @@ pub const NUMERIC_MAP: Map<&str, CountryCode> = phf_map! {
 pub const ALL_NAME: & [&str] = &[
 
 
-"Afghanistan[b]",
+"Afghanistan",
 "Åland Islands",
 "Albania",
 "Algeria",
@@ -2981,7 +2981,7 @@ pub const ALL_NAME: & [&str] = &[
 "Central African Republic",
 "Chad",
 "Chile",
-"China[b]",
+"China",
 "Christmas Island",
 "Cocos (Keeling) Islands",
 "Colombia",
@@ -2994,7 +2994,7 @@ pub const ALL_NAME: & [&str] = &[
 "Croatia",
 "Cuba",
 "Curaçao",
-"Cyprus[b]",
+"Cyprus",
 "Czechia",
 "Denmark",
 "Djibouti",
@@ -3008,7 +3008,7 @@ pub const ALL_NAME: & [&str] = &[
 "Estonia",
 "Eswatini",
 "Ethiopia",
-"Falkland Islands (Malvinas)[b]",
+"Falkland Islands (Malvinas)",
 "Faroe Islands",
 "Fiji",
 "Finland",
@@ -3106,7 +3106,7 @@ pub const ALL_NAME: & [&str] = &[
 "Oman",
 "Pakistan",
 "Palau",
-"Palestine, State of[b]",
+"Palestine, State of",
 "Panama",
 "Papua New Guinea",
 "Paraguay",
@@ -3153,7 +3153,7 @@ pub const ALL_NAME: & [&str] = &[
 "Sweden",
 "Switzerland",
 "Syrian Arab Republic",
-"Taiwan, Province of China[b]",
+"Taiwan, Province of China",
 "Tajikistan",
 "Tanzania, United Republic of",
 "Thailand",
@@ -3181,7 +3181,7 @@ pub const ALL_NAME: & [&str] = &[
 "Virgin Islands (British)",
 "Virgin Islands (U.S.)",
 "Wallis and Futuna",
-"Western Sahara[b]",
+"Western Sahara",
 "Yemen",
 "Zambia",
 "Zimbabwe",

@@ -168,7 +168,7 @@ pub fn from_numeric_str(numeric: &str) -> Option<CountryCode> {
 """
 
 a = """
-Afghanistan[b]	AF	AFG	004	ISO 3166-2:AF	Yes
+Afghanistan	AF	AFG	004	ISO 3166-2:AF	Yes
 Åland Islands	AX	ALA	248	ISO 3166-2:AX	No
 Albania	AL	ALB	008	ISO 3166-2:AL	Yes
 Algeria	DZ	DZA	012	ISO 3166-2:DZ	Yes
@@ -213,7 +213,7 @@ Cayman Islands	KY	CYM	136	ISO 3166-2:KY	No
 Central African Republic	CF	CAF	140	ISO 3166-2:CF	Yes
 Chad	TD	TCD	148	ISO 3166-2:TD	Yes
 Chile	CL	CHL	152	ISO 3166-2:CL	Yes
-China[b]	CN	CHN	156	ISO 3166-2:CN	Yes
+China	CN	CHN	156	ISO 3166-2:CN	Yes
 Christmas Island	CX	CXR	162	ISO 3166-2:CX	No
 Cocos (Keeling) Islands	CC	CCK	166	ISO 3166-2:CC	No
 Colombia	CO	COL	170	ISO 3166-2:CO	Yes
@@ -226,7 +226,7 @@ Côte d'Ivoire	CI	CIV	384	ISO 3166-2:CI	Yes
 Croatia	HR	HRV	191	ISO 3166-2:HR	Yes
 Cuba	CU	CUB	192	ISO 3166-2:CU	Yes
 Curaçao	CW	CUW	531	ISO 3166-2:CW	No
-Cyprus[b]	CY	CYP	196	ISO 3166-2:CY	Yes
+Cyprus	CY	CYP	196	ISO 3166-2:CY	Yes
 Czechia	CZ	CZE	203	ISO 3166-2:CZ	Yes
 Denmark	DK	DNK	208	ISO 3166-2:DK	Yes
 Djibouti	DJ	DJI	262	ISO 3166-2:DJ	Yes
@@ -240,7 +240,7 @@ Eritrea	ER	ERI	232	ISO 3166-2:ER	Yes
 Estonia	EE	EST	233	ISO 3166-2:EE	Yes
 Eswatini	SZ	SWZ	748	ISO 3166-2:SZ	Yes
 Ethiopia	ET	ETH	231	ISO 3166-2:ET	Yes
-Falkland Islands (Malvinas)[b]	FK	FLK	238	ISO 3166-2:FK	No
+Falkland Islands (Malvinas)	FK	FLK	238	ISO 3166-2:FK	No
 Faroe Islands	FO	FRO	234	ISO 3166-2:FO	No
 Fiji	FJ	FJI	242	ISO 3166-2:FJ	Yes
 Finland	FI	FIN	246	ISO 3166-2:FI	Yes
@@ -338,7 +338,7 @@ Norway	NO	NOR	578	ISO 3166-2:NO	Yes
 Oman	OM	OMN	512	ISO 3166-2:OM	Yes
 Pakistan	PK	PAK	586	ISO 3166-2:PK	Yes
 Palau	PW	PLW	585	ISO 3166-2:PW	Yes
-Palestine, State of[b]	PS	PSE	275	ISO 3166-2:PS	No
+Palestine, State of	PS	PSE	275	ISO 3166-2:PS	No
 Panama	PA	PAN	591	ISO 3166-2:PA	Yes
 Papua New Guinea	PG	PNG	598	ISO 3166-2:PG	Yes
 Paraguay	PY	PRY	600	ISO 3166-2:PY	Yes
@@ -385,7 +385,7 @@ Svalbard and Jan Mayen[e]	SJ	SJM	744	ISO 3166-2:SJ	No
 Sweden	SE	SWE	752	ISO 3166-2:SE	Yes
 Switzerland	CH	CHE	756	ISO 3166-2:CH	Yes
 Syrian Arab Republic	SY	SYR	760	ISO 3166-2:SY	Yes
-Taiwan, Province of China[b]	TW	TWN	158	ISO 3166-2:TW	No
+Taiwan, Province of China	TW	TWN	158	ISO 3166-2:TW	No
 Tajikistan	TJ	TJK	762	ISO 3166-2:TJ	Yes
 Tanzania, United Republic of	TZ	TZA	834	ISO 3166-2:TZ	Yes
 Thailand	TH	THA	764	ISO 3166-2:TH	Yes
@@ -413,7 +413,7 @@ Viet Nam	VN	VNM	704	ISO 3166-2:VN	Yes
 Virgin Islands (British)	VG	VGB	092	ISO 3166-2:VG	No
 Virgin Islands (U.S.)	VI	VIR	850	ISO 3166-2:VI	No
 Wallis and Futuna	WF	WLF	876	ISO 3166-2:WF	No
-Western Sahara[b]	EH	ESH	732	ISO 3166-2:EH	No
+Western Sahara	EH	ESH	732	ISO 3166-2:EH	No
 Yemen	YE	YEM	887	ISO 3166-2:YE	Yes
 Zambia	ZM	ZMB	894	ISO 3166-2:ZM	Yes
 Zimbabwe	ZW	ZWE	716	ISO 3166-2:ZW	Yes
