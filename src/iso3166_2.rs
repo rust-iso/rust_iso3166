@@ -12642,6 +12642,123 @@ pub const FR_YT: Subdivision = Subdivision {
     region_code: "FR-YT",
 };
 
+pub const FR_ARA: Subdivision = Subdivision {
+    name: "Auvergne-Rhône-Alpes",
+    code: "FR-ARA",
+    subdivision_type: "Metropolitan region",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "FR-ARA",
+};
+
+pub const FR_BFC: Subdivision = Subdivision {
+    name: "Bourgogne-Franche-Comté",
+    code: "FR-BFC",
+    subdivision_type: "Metropolitan region",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "FR-BFC",
+};
+
+pub const FR_BRE: Subdivision = Subdivision {
+    name: "Bretagne",
+    code: "FR-BRE",
+    subdivision_type: "Metropolitan region",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "FR-BRE",
+};
+
+pub const FR_CVL: Subdivision = Subdivision {
+    name: "Centre-Val de Loire",
+    code: "FR-CVL",
+    subdivision_type: "Metropolitan region",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "FR-CVL",
+};
+
+pub const FR_20R: Subdivision = Subdivision {
+    name: "Corse",
+    code: "FR-20R",
+    subdivision_type: "Metropolitan collectivity with special status",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "FR-20R",
+};
+
+pub const FR_GES: Subdivision = Subdivision {
+    name: "Grand-Est",
+    code: "FR-GES",
+    subdivision_type: "Metropolitan region",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "FR-GES",
+};
+
+pub const FR_HDF: Subdivision = Subdivision {
+    name: "Hauts-de-France",
+    code: "FR-HDF",
+    subdivision_type: "Metropolitan region",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "FR-HDF",
+};
+
+pub const FR_IDF: Subdivision = Subdivision {
+    name: "Île-de-France",
+    code: "FR-IDF",
+    subdivision_type: "Metropolitan region",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "FR-IDF",
+};
+
+pub const FR_NOR: Subdivision = Subdivision {
+    name: "Normandie",
+    code: "FR-NOR",
+    subdivision_type: "Metropolitan region",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "FR-NOR",
+};
+
+pub const FR_NAQ: Subdivision = Subdivision {
+    name: "Nouvelle-Aquitaine",
+    code: "FR-NAQ",
+    subdivision_type: "Metropolitan region",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "FR-NAQ",
+};
+
+pub const FR_OCC: Subdivision = Subdivision {
+    name: "Occitanie",
+    code: "FR-OCC",
+    subdivision_type: "Metropolitan region",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "FR-OCC",
+};
+
+pub const FR_PDL: Subdivision = Subdivision {
+    name: "Pays-de-la-Loire",
+    code: "FR-PDL",
+    subdivision_type: "Metropolitan region",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "FR-PDL",
+};
+
+pub const FR_PAC: Subdivision = Subdivision {
+    name: "Provence-Alpes-Côte-d’Azur",
+    code: "FR-PAC",
+    subdivision_type: "Metropolitan region",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "FR-PAC",
+};
+
 pub const GF_GF: Subdivision = Subdivision {
     name: "French Guiana",
     code: "GF-GF",
@@ -47421,6 +47538,19 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "FR-V" => FR_V,
 "FR-WF" => FR_WF,
 "FR-YT" => FR_YT,
+"FR-ARA" => FR_ARA,
+"FR-BFC" => FR_BFC,
+"FR-BRE" => FR_BRE,
+"FR-CVL" => FR_CVL,
+"FR-20R" => FR_20R,
+"FR-GES" => FR_GES,
+"FR-HDF" => FR_HDF,
+"FR-IDF" => FR_IDF,
+"FR-NOR" => FR_NOR,
+"FR-NAQ" => FR_NAQ,
+"FR-OCC" => FR_OCC,
+"FR-PDL" => FR_PDL,
+"FR-PAC" => FR_PAC,
 "GF-GF" => GF_GF,
 "PF-PF" => PF_PF,
 "TF-TF" => TF_TF,
@@ -52684,6 +52814,19 @@ FR_U,
 FR_V,
 FR_WF,
 FR_YT,
+FR_ARA,
+FR_BFC,
+FR_BRE,
+FR_CVL,
+FR_20R,
+FR_GES,
+FR_HDF,
+FR_IDF,
+FR_NOR,
+FR_NAQ,
+FR_OCC,
+FR_PDL,
+FR_PAC,
 ],
 "GF" => &[
 GF_GF,
