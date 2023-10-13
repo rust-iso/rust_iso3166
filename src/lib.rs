@@ -4,9 +4,9 @@ use phf::Map;
 pub mod iso3166_2;
 pub mod iso3166_3;
 use std::hash::Hash;
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 use wasm_bindgen::prelude::*;
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 use js_sys::Array;
 
 /// # Sample code
@@ -35,7 +35,7 @@ use js_sys::Array;
 /// ```
 
 /// Data for each Country Code defined by ISO 3166-1
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 #[wasm_bindgen]
 #[derive(Debug, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct CountryCode {
@@ -49,7 +49,7 @@ pub struct CountryCode {
     numeric: i32,
 }
 
-#[cfg(not(target_arch = "wasm32"))]
+#[cfg(any(not(direct_wasm),not(target_arch = "wasm32")))]
 #[derive(Debug, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct CountryCode {
     ///English short name
@@ -62,28 +62,28 @@ pub struct CountryCode {
     pub numeric: i32,
 }
 
-#[cfg_attr(target_arch = "wasm32", wasm_bindgen)]
+#[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen)]
 impl CountryCode {
 
-    #[cfg(target_arch = "wasm32")]
+    #[cfg(all(direct_wasm,target_arch = "wasm32"))]
     #[wasm_bindgen(getter)]
     pub fn name(&self) -> String {
         self.name.into()
     }
 
-    #[cfg(target_arch = "wasm32")]
+    #[cfg(all(direct_wasm,target_arch = "wasm32"))]
     #[wasm_bindgen(getter)]
     pub fn alpha2(&self) -> String {
         self.alpha2.into()
     }
     
-    #[cfg(target_arch = "wasm32")]
+    #[cfg(all(direct_wasm,target_arch = "wasm32"))]
     #[wasm_bindgen(getter)]
     pub fn alpha3(&self) -> String {
         self.alpha3.into()
     }
 
-    #[cfg(target_arch = "wasm32")]
+    #[cfg(all(direct_wasm,target_arch = "wasm32"))]
     #[wasm_bindgen(getter)]
     pub fn numeric(&self) -> i32 {
         self.numeric
@@ -95,12 +95,12 @@ impl CountryCode {
     }
 
     ///Return Subdivision for ISO 3166-2
-    #[cfg(not(target_arch = "wasm32"))]
+    #[cfg(any(not(direct_wasm),not(target_arch = "wasm32")))]
     pub fn subdivisions (&self) -> Option<&[iso3166_2::Subdivision]> {
         iso3166_2::SUBDIVISION_COUNTRY_MAP.get(self.alpha2).cloned()
     }
 
-    #[cfg(target_arch = "wasm32")]
+    #[cfg(all(direct_wasm,target_arch = "wasm32"))]
     pub fn subdivisions (&self) -> Array {
         let ps = iso3166_2::SUBDIVISION_COUNTRY_MAP.get(self.alpha2).cloned();
         let mut vector: Vec<iso3166_2::Subdivision> = Vec::new(); 
@@ -124,7 +124,7 @@ impl CountryCode {
 /// let country = rust_iso3166::from_alpha2("AU");
 /// assert_eq!("AUS", country.unwrap().alpha3);
 /// ```
-#[cfg_attr(target_arch = "wasm32", wasm_bindgen)]
+#[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen)]
 pub fn from_alpha2(alpha2: &str) -> Option<CountryCode> {
     ALPHA2_MAP.get(alpha2).cloned()
 }
@@ -135,7 +135,7 @@ pub fn from_alpha2(alpha2: &str) -> Option<CountryCode> {
 /// let country = rust_iso3166::from_alpha3("AUS");
 /// assert_eq!(036, country.unwrap().numeric);
 /// ```
-#[cfg_attr(target_arch = "wasm32", wasm_bindgen)]
+#[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen)]
 pub fn from_alpha3(alpha3: &str) -> Option<CountryCode> {
     ALPHA3_MAP.get(alpha3).cloned()
 }
@@ -146,7 +146,7 @@ pub fn from_alpha3(alpha3: &str) -> Option<CountryCode> {
 /// let country = rust_iso3166::from_numeric(036);
 /// assert_eq!("AUS", country.unwrap().alpha3);
 /// ```
-#[cfg_attr(target_arch = "wasm32", wasm_bindgen)]
+#[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen)]
 pub fn from_numeric(numeric: i32) -> Option<CountryCode> {
     let k = format!("{:03}", numeric);
     NUMERIC_MAP.get(&k).cloned()
@@ -158,7 +158,7 @@ pub fn from_numeric(numeric: i32) -> Option<CountryCode> {
 /// let country = rust_iso3166::from_numeric_str("036");
 /// assert_eq!("AUS", country.unwrap().alpha3);
 /// ```
-#[cfg_attr(target_arch = "wasm32", wasm_bindgen)]
+#[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen)]
 pub fn from_numeric_str(numeric: &str) -> Option<CountryCode> {
     NUMERIC_MAP.get(numeric).cloned()
 }
