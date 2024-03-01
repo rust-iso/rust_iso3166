@@ -11,7 +11,7 @@ use js_sys::Array;
 /// Data for each Country Code defined by ISO 3166-1
 #[cfg(target_arch = "wasm32")]
 #[wasm_bindgen]
-#[derive(Debug, Copy, Clone, PartialEq, Eq, Hash)]
+#[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct CountryCode3 {
     ///ISO 3166-3 code
     code: &'static str,
@@ -63,7 +63,7 @@ impl CountryCode3 {
 }
 
 #[cfg(not(target_arch = "wasm32"))]
-#[derive(Debug, Copy, Clone, PartialEq, Eq, Hash)]
+#[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct CountryCode3 {
     ///ISO 3166-3 code
     pub code: &'static str,

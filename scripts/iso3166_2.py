@@ -22,7 +22,7 @@ use wasm_bindgen::prelude::*;
 /// Data for each Country Code defined by ISO 3166-2
 #[cfg(target_arch = "wasm32")]
 #[wasm_bindgen]
-#[derive(Debug, Copy, Clone, PartialEq, Eq, Hash)]
+#[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct Subdivision {
     ///Name
     name: &'static str,
@@ -73,7 +73,7 @@ impl Subdivision {
 }
 
 #[cfg(not(target_arch = "wasm32"))]
-#[derive(Debug, Copy, Clone, PartialEq, Eq, Hash)]
+#[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct Subdivision {
     ///Name
     pub name: &'static str,

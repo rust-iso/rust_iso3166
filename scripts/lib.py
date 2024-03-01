@@ -40,7 +40,7 @@ use js_sys::Array;
 /// Data for each Country Code defined by ISO 3166-1
 #[cfg(target_arch = "wasm32")]
 #[wasm_bindgen]
-#[derive(Debug, Copy, Clone, PartialEq, Eq, Hash)]
+#[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct CountryCode {
     ///English short name
     name: &'static str,
@@ -53,7 +53,7 @@ pub struct CountryCode {
 }
 
 #[cfg(not(target_arch = "wasm32"))]
-#[derive(Debug, Copy, Clone, PartialEq, Eq, Hash)]
+#[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct CountryCode {
     ///English short name
     pub name: &'static str,
