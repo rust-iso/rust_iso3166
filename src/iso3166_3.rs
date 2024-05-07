@@ -2,14 +2,13 @@
 use phf::phf_map;
 use phf::Map;
 use crate::CountryCode;
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 use wasm_bindgen::prelude::*;
-
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 use js_sys::Array;
 
 /// Data for each Country Code defined by ISO 3166-1
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 #[wasm_bindgen]
 #[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct CountryCode3 {
@@ -28,7 +27,7 @@ pub struct CountryCode3 {
    
 }
 
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 #[wasm_bindgen]
 impl CountryCode3 {
     #[wasm_bindgen(getter)]
@@ -62,7 +61,7 @@ impl CountryCode3 {
     }
 }
 
-#[cfg(not(target_arch = "wasm32"))]
+#[cfg(any(not(direct_wasm),not(target_arch = "wasm32")))]
 #[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct CountryCode3 {
     ///ISO 3166-3 code
@@ -957,7 +956,7 @@ pub const ZRCD: CountryCode3 = CountryCode3 {
 /// let sub = rust_iso3166::iso3166_3::from_code("PZPA");
 /// assert_eq!("Panama Canal Zone", sub.unwrap().name);
 /// ```
-#[cfg_attr(target_arch = "wasm32", wasm_bindgen(js_name = from_code_iso_3166_3))]
+#[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen(js_name = from_code_iso_3166_3))]
 pub fn from_code(alpha4: &str) -> Option<CountryCode3> {
     ALPHA4_MAP.get(alpha4).cloned()
 }

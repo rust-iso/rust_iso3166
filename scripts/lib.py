@@ -7,9 +7,9 @@ use phf::Map;
 pub mod iso3166_2;
 pub mod iso3166_3;
 use std::hash::Hash;
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 use wasm_bindgen::prelude::*;
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 use js_sys::Array;
 
 /// # Sample code
@@ -38,7 +38,7 @@ use js_sys::Array;
 /// ```
 
 /// Data for each Country Code defined by ISO 3166-1
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 #[wasm_bindgen]
 #[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct CountryCode {
@@ -52,7 +52,7 @@ pub struct CountryCode {
     numeric: i32,
 }
 
-#[cfg(not(target_arch = "wasm32"))]
+#[cfg(any(not(direct_wasm),not(target_arch = "wasm32")))]
 #[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct CountryCode {
     ///English short name
@@ -65,28 +65,28 @@ pub struct CountryCode {
     pub numeric: i32,
 }
 
-#[cfg_attr(target_arch = "wasm32", wasm_bindgen)]
+#[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen)]
 impl CountryCode {
 
-    #[cfg(target_arch = "wasm32")]
+    #[cfg(all(direct_wasm,target_arch = "wasm32"))]
     #[wasm_bindgen(getter)]
     pub fn name(&self) -> String {
         self.name.into()
     }
 
-    #[cfg(target_arch = "wasm32")]
+    #[cfg(all(direct_wasm,target_arch = "wasm32"))]
     #[wasm_bindgen(getter)]
     pub fn alpha2(&self) -> String {
         self.alpha2.into()
     }
     
-    #[cfg(target_arch = "wasm32")]
+    #[cfg(all(direct_wasm,target_arch = "wasm32"))]
     #[wasm_bindgen(getter)]
     pub fn alpha3(&self) -> String {
         self.alpha3.into()
     }
 
-    #[cfg(target_arch = "wasm32")]
+    #[cfg(all(direct_wasm,target_arch = "wasm32"))]
     #[wasm_bindgen(getter)]
     pub fn numeric(&self) -> i32 {
         self.numeric
@@ -98,12 +98,12 @@ impl CountryCode {
     }
 
     ///Return Subdivision for ISO 3166-2
-    #[cfg(not(target_arch = "wasm32"))]
+    #[cfg(any(not(direct_wasm),not(target_arch = "wasm32")))]
     pub fn subdivisions (&self) -> Option<&[iso3166_2::Subdivision]> {
         iso3166_2::SUBDIVISION_COUNTRY_MAP.get(self.alpha2).cloned()
     }
 
-    #[cfg(target_arch = "wasm32")]
+    #[cfg(all(direct_wasm,target_arch = "wasm32"))]
     pub fn subdivisions (&self) -> Array {
         let ps = iso3166_2::SUBDIVISION_COUNTRY_MAP.get(self.alpha2).cloned();
         let mut vector: Vec<iso3166_2::Subdivision> = Vec::new(); 
@@ -127,7 +127,7 @@ impl CountryCode {
 /// let country = rust_iso3166::from_alpha2("AU");
 /// assert_eq!("AUS", country.unwrap().alpha3);
 /// ```
-#[cfg_attr(target_arch = "wasm32", wasm_bindgen)]
+#[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen)]
 pub fn from_alpha2(alpha2: &str) -> Option<CountryCode> {
     ALPHA2_MAP.get(alpha2).cloned()
 }
@@ -138,7 +138,7 @@ pub fn from_alpha2(alpha2: &str) -> Option<CountryCode> {
 /// let country = rust_iso3166::from_alpha3("AUS");
 /// assert_eq!(036, country.unwrap().numeric);
 /// ```
-#[cfg_attr(target_arch = "wasm32", wasm_bindgen)]
+#[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen)]
 pub fn from_alpha3(alpha3: &str) -> Option<CountryCode> {
     ALPHA3_MAP.get(alpha3).cloned()
 }
@@ -149,7 +149,7 @@ pub fn from_alpha3(alpha3: &str) -> Option<CountryCode> {
 /// let country = rust_iso3166::from_numeric(036);
 /// assert_eq!("AUS", country.unwrap().alpha3);
 /// ```
-#[cfg_attr(target_arch = "wasm32", wasm_bindgen)]
+#[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen)]
 pub fn from_numeric(numeric: i32) -> Option<CountryCode> {
     let k = format!("{:03}", numeric);
     NUMERIC_MAP.get(&k).cloned()
@@ -161,7 +161,7 @@ pub fn from_numeric(numeric: i32) -> Option<CountryCode> {
 /// let country = rust_iso3166::from_numeric_str("036");
 /// assert_eq!("AUS", country.unwrap().alpha3);
 /// ```
-#[cfg_attr(target_arch = "wasm32", wasm_bindgen)]
+#[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen)]
 pub fn from_numeric_str(numeric: &str) -> Option<CountryCode> {
     NUMERIC_MAP.get(numeric).cloned()
 }
@@ -425,137 +425,176 @@ for x in a.split("\n"):
     if len(ts) < 2:
         print(x)
         continue
-    print("""
+    print(
+        """
 pub const %s: CountryCode = CountryCode {
     name: "%s",
     alpha2: "%s",
     alpha3: "%s",
     numeric: %s,
 };
-""" % (ts[1], ts[0], ts[1], ts[2], int(ts[3])))
+"""
+        % (ts[1], ts[0], ts[1], ts[2], int(ts[3]))
+    )
 
 
-print("""
+print(
+    """
 ///CountryCode map with  alpha2 Code key 
 pub const ALPHA2_MAP: Map<&str, CountryCode> = phf_map! {
-""")
+"""
+)
 for x in a.split("\n"):
     ts = x.split("\t")
     if len(ts) < 2:
         print(x)
         continue
-    print("\"%s\" => %s," % (ts[1], ts[1]))
-print("""
+    print('"%s" => %s,' % (ts[1], ts[1]))
+print(
+    """
 };
-""")
+"""
+)
 
-print("""
+print(
+    """
 ///CountryCode map with  alpha3 Code key 
 pub const ALPHA3_MAP: Map<&str, CountryCode> = phf_map! {
-""")
+"""
+)
 for x in a.split("\n"):
     ts = x.split("\t")
     if len(ts) < 2:
         print(x)
         continue
-    print("\"%s\" => %s," % (ts[2], ts[1]))
-print("""
+    print('"%s" => %s,' % (ts[2], ts[1]))
+print(
+    """
 };
-""")
+"""
+)
 
-print("""
+print(
+    """
 ///CountryCode map with  3 len numeric str Code key 
 pub const NUMERIC_MAP: Map<&str, CountryCode> = phf_map! {
-""")
+"""
+)
 for x in a.split("\n"):
     ts = x.split("\t")
     if len(ts) < 2:
         print(x)
         continue
-    print("\"%s\" => %s," % (ts[3], ts[1]))
-print("""
+    print('"%s" => %s,' % (ts[3], ts[1]))
+print(
+    """
 };
-""")
+"""
+)
 
-print("""
+print(
+    """
 ///ALL the names of Countrys
 pub const ALL_NAME: & [&str] = &[
-""")
+"""
+)
 for x in a.split("\n"):
     ts = x.split("\t")
     if len(ts) < 2:
         print(x)
         continue
-    print("\"%s\"," % (ts[0]))
-print("""
+    print('"%s",' % (ts[0]))
+print(
+    """
 ];
-""")
+"""
+)
 
-print("""
+print(
+    """
 ///ALL the alpha2 codes of Countrys
 pub const ALL_ALPHA2: & [&str] = &[
-""")
+"""
+)
 for x in a.split("\n"):
     ts = x.split("\t")
     if len(ts) < 2:
         print(x)
         continue
-    print("\"%s\"," % (ts[1]))
-print("""
+    print('"%s",' % (ts[1]))
+print(
+    """
 ];
-""")
-print("""
+"""
+)
+print(
+    """
 ///ALL the alpha3 codes of Countrys
 pub const ALL_ALPHA3: & [&str] = &[
-""")
+"""
+)
 for x in a.split("\n"):
     ts = x.split("\t")
     if len(ts) < 2:
         print(x)
         continue
-    print("\"%s\"," % (ts[2]))
-print("""
+    print('"%s",' % (ts[2]))
+print(
+    """
 ];
-""")
+"""
+)
 
-print("""
+print(
+    """
 ///ALL the 3 length numeric str codes of Countrys
 pub const ALL_NUMERIC_STR: & [&str] = &[
-""")
+"""
+)
 for x in a.split("\n"):
     ts = x.split("\t")
     if len(ts) < 2:
         print(x)
         continue
-    print("\"%s\"," % (ts[3]))
-print("""
+    print('"%s",' % (ts[3]))
+print(
+    """
 ];
-""")
+"""
+)
 
-print("""
+print(
+    """
 ///ALL the  numeric  codes of Countrys
 pub const ALL_NUMERIC: & [i32] = &[
-""")
+"""
+)
 for x in a.split("\n"):
     ts = x.split("\t")
     if len(ts) < 2:
         print(x)
         continue
     print("%s," % (int(ts[3])))
-print("""
+print(
+    """
 ];
-""")
+"""
+)
 
-print("""
+print(
+    """
 ///ALL the Countrys struct
 pub const ALL: & [CountryCode] = &[
-""")
+"""
+)
 for x in a.split("\n"):
     ts = x.split("\t")
     if len(ts) < 2:
         print(x)
         continue
     print("%s," % (ts[1]))
-print("""
+print(
+    """
 ];
-""")
+"""
+)

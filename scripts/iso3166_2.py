@@ -5,7 +5,7 @@ import csv
 pre_code = """
 use phf::phf_map;
 use phf::Map;
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 use wasm_bindgen::prelude::*;
 
 /// # Sample code
@@ -20,7 +20,7 @@ use wasm_bindgen::prelude::*;
 /// ```
 
 /// Data for each Country Code defined by ISO 3166-2
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 #[wasm_bindgen]
 #[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct Subdivision {
@@ -38,7 +38,7 @@ pub struct Subdivision {
     region_code: &'static str,
 }
 
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 #[wasm_bindgen]
 impl Subdivision {
     #[wasm_bindgen(getter)]
@@ -72,7 +72,7 @@ impl Subdivision {
     }
 }
 
-#[cfg(not(target_arch = "wasm32"))]
+#[cfg(any(not(direct_wasm),not(target_arch = "wasm32")))]
 #[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct Subdivision {
     ///Name
@@ -95,16 +95,15 @@ pub struct Subdivision {
 /// let sub = rust_iso3166::iso3166_2::from_code("SE-O");
 /// assert_eq!("Västra Götalands län", sub.unwrap().name);
 /// ```
-#[cfg_attr(target_arch = "wasm32", wasm_bindgen(js_name = from_code_iso_3166_2))]
+#[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen(js_name = from_code_iso_3166_2))]
 pub fn from_code(code: &str) -> Option<Subdivision> {
     SUBDIVISION_MAP.get(code).cloned()
 }
 """
 print(pre_code)
-f = csv.reader(open('iso3166_2.data', 'r'), delimiter=',', quotechar='"')
+f = csv.reader(open("iso3166_2.data", "r"), delimiter=",", quotechar='"')
 subdivisions = {}
 for x in f:
-
     ts1 = x[1].split("-")
 
     region_code = x[1]
@@ -117,16 +116,19 @@ for x in f:
 
     if not country_code in subdivisions:
         subdivisions[country_code] = []
-    subdivisions[country_code].append({
-        "name": sub_name,
-        "var_name": var_name,
-        "code": sub_code,
-        "type": sub_type,
-        "country_name": country_name,
-        "country_code": country_code,
-        "region_code": region_code,
-    })
-    print("""pub const %s: Subdivision = Subdivision {
+    subdivisions[country_code].append(
+        {
+            "name": sub_name,
+            "var_name": var_name,
+            "code": sub_code,
+            "type": sub_type,
+            "country_name": country_name,
+            "country_code": country_code,
+            "region_code": region_code,
+        }
+    )
+    print(
+        """pub const %s: Subdivision = Subdivision {
     name: "%s",
     code: "%s",
     subdivision_type: "%s",
@@ -134,29 +136,47 @@ for x in f:
     country_code: "%s",
     region_code: "%s",
 };
-""" % (var_name, sub_name, sub_code, sub_type, country_name, country_code, region_code))
+"""
+        % (
+            var_name,
+            sub_name,
+            sub_code,
+            sub_type,
+            country_name,
+            country_code,
+            region_code,
+        )
+    )
 
 
-print("""
+print(
+    """
 ///Subdivision map with  Code key 
 pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
-""")
+"""
+)
 for key in subdivisions:
     for sub in subdivisions[key]:
-        print("\"%s\" => %s," % (sub["code"], sub["var_name"]))
-print("""
+        print('"%s" => %s,' % (sub["code"], sub["var_name"]))
+print(
+    """
 };
-""")
+"""
+)
 
-print("""
+print(
+    """
 ///Subdivision map with  Code key 
 pub const SUBDIVISION_COUNTRY_MAP: Map<&str, &[Subdivision]> = phf_map! {
-""")
+"""
+)
 for key in subdivisions:
-    print("\"%s\" => &[" % (key))
+    print('"%s" => &[' % (key))
     for sub in subdivisions[key]:
         print("%s," % (sub["var_name"]))
     print("],")
-print("""
+print(
+    """
 };
-""")
+"""
+)

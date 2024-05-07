@@ -7,14 +7,13 @@ pre_code = """
 use phf::phf_map;
 use phf::Map;
 use crate::CountryCode;
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 use wasm_bindgen::prelude::*;
-
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 use js_sys::Array;
 
 /// Data for each Country Code defined by ISO 3166-1
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 #[wasm_bindgen]
 #[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct CountryCode3 {
@@ -33,7 +32,7 @@ pub struct CountryCode3 {
    
 }
 
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 #[wasm_bindgen]
 impl CountryCode3 {
     #[wasm_bindgen(getter)]
@@ -67,7 +66,7 @@ impl CountryCode3 {
     }
 }
 
-#[cfg(not(target_arch = "wasm32"))]
+#[cfg(any(not(direct_wasm),not(target_arch = "wasm32")))]
 #[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct CountryCode3 {
     ///ISO 3166-3 code
@@ -86,7 +85,7 @@ pub struct CountryCode3 {
 }
 """
 
-f = csv.reader(open('iso3166_3.data', 'r'), delimiter=',', quotechar='"')
+f = csv.reader(open("iso3166_3.data", "r"), delimiter=",", quotechar='"')
 
 print(pre_code)
 
@@ -117,12 +116,13 @@ for x in f:
     validity_from = re.sub(r"\[note.*?\]", "", validity[0])
     validity_to = re.sub(r"\[note.*?\]", "", validity[1])
 
-    desc = re.sub(r'\(.*?\)', '', x[4])
+    desc = re.sub(r"\(.*?\)", "", x[4])
     desc = re.sub(r"\[note.*?\]", "", desc).replace("\n", "")
     # print x
     # print validity
     codes.append(code)
-    print("""
+    print(
+        """
 pub const %s: CountryCode3 = CountryCode3 {
     code: "%s",
     name: "%s",
@@ -135,57 +135,89 @@ pub const %s: CountryCode3 = CountryCode3 {
     validity: &[%s,%s],
     desc: "%s",
     new_countries: &[
-""" % (code, code, name, name, former_alpha2, former_alpha3, former_numeric, validity_from, validity_to, desc))
-    new_countries = re.findall(r'(.*?)\((\w+), (\w+), (\d+)\)', x[4])
+"""
+        % (
+            code,
+            code,
+            name,
+            name,
+            former_alpha2,
+            former_alpha3,
+            former_numeric,
+            validity_from,
+            validity_to,
+            desc,
+        )
+    )
+    new_countries = re.findall(r"(.*?)\((\w+), (\w+), (\d+)\)", x[4])
     for c in new_countries:
         c_name = c[0]
         c_alpha2 = c[1]
         c_alpha3 = c[2]
         c_numeric = c[3]
         c_numeric = str(int(c_numeric))
-        c_name = c_name.replace("Name changed to", "").replace(
-            "Merged into", "").replace("Divided into:", "").strip()
-        print(""" CountryCode {
+        c_name = (
+            c_name.replace("Name changed to", "")
+            .replace("Merged into", "")
+            .replace("Divided into:", "")
+            .strip()
+        )
+        print(
+            """ CountryCode {
         name: "%s",
         alpha2: "%s",
         alpha3: "%s",
         numeric: %s,
-},""" % (c_name, c_alpha2, c_alpha3, c_numeric))
-    print("""
+},"""
+            % (c_name, c_alpha2, c_alpha3, c_numeric)
+        )
+    print(
+        """
     ],
 };
-""")
+"""
+    )
 
-print("""
+print(
+    """
 /// Returns the CountryCode3 with the given Alpha4 code, if exists.
 /// #Sample
 /// ```
 /// let sub = rust_iso3166::iso3166_3::from_code("PZPA");
 /// assert_eq!("Panama Canal Zone", sub.unwrap().name);
 /// ```
-#[cfg_attr(target_arch = "wasm32", wasm_bindgen(js_name = from_code_iso_3166_3))]
+#[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen(js_name = from_code_iso_3166_3))]
 pub fn from_code(alpha4: &str) -> Option<CountryCode3> {
     ALPHA4_MAP.get(alpha4).cloned()
 }
-""")
+"""
+)
 
 
-print("""
+print(
+    """
 ///CountryCode map with  alpha4 Code key 
 pub const ALPHA4_MAP: Map<&str, CountryCode3> = phf_map! {
-""")
+"""
+)
 for x in codes:
-    print("\"%s\" => %s," % (x, x))
-print("""
+    print('"%s" => %s,' % (x, x))
+print(
+    """
 };
-""")
+"""
+)
 
-print("""
+print(
+    """
 ///ALL the Countrys struct
 pub const ALL: & [CountryCode3] = &[
-""")
+"""
+)
 for x in codes:
     print("%s," % (x))
-print("""
+print(
+    """
 ];
-""")
+"""
+)

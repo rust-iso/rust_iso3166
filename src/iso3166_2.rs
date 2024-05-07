@@ -1,7 +1,7 @@
 
 use phf::phf_map;
 use phf::Map;
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 use wasm_bindgen::prelude::*;
 
 /// # Sample code
@@ -16,7 +16,7 @@ use wasm_bindgen::prelude::*;
 /// ```
 
 /// Data for each Country Code defined by ISO 3166-2
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 #[wasm_bindgen]
 #[derive(Debug, Copy, Ord, PartialOrd, Clone, PartialEq, Eq, Hash)]
 pub struct Subdivision {
@@ -34,7 +34,7 @@ pub struct Subdivision {
     region_code: &'static str,
 }
 
-#[cfg(target_arch = "wasm32")]
+#[cfg(all(direct_wasm,target_arch = "wasm32"))]
 #[wasm_bindgen]
 impl Subdivision {
     #[wasm_bindgen(getter)]
@@ -68,7 +68,7 @@ impl Subdivision {
     }
 }
 
-#[cfg(not(target_arch = "wasm32"))]
+#[cfg(any(not(direct_wasm),not(target_arch = "wasm32")))]
 #[derive(Debug, Ord, PartialOrd, Copy, Clone, PartialEq, Eq, Hash)]
 pub struct Subdivision {
     ///Name
@@ -91,7 +91,7 @@ pub struct Subdivision {
 /// let sub = rust_iso3166::iso3166_2::from_code("SE-O");
 /// assert_eq!("Västra Götalands län", sub.unwrap().name);
 /// ```
-#[cfg_attr(target_arch = "wasm32", wasm_bindgen(js_name = from_code_iso_3166_2))]
+#[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen(js_name = from_code_iso_3166_2))]
 pub fn from_code(code: &str) -> Option<Subdivision> {
     SUBDIVISION_MAP.get(code).cloned()
 }
