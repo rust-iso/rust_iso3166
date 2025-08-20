@@ -440,7 +440,25 @@ pub const %s: CountryCode = CountryCode {
 
 print(
     """
-///CountryCode map with  alpha2 Code key 
+///CountryCode map with name key
+pub const NAME_MAP: Map<&str, CountryCode> = phf_map! {
+"""
+)
+for x in a.split("\n"):
+    ts = x.split("\t")
+    if len(ts) < 2:
+        print(x)
+        continue
+    print('"%s" => %s,' % (ts[0], ts[1]))
+print(
+    """
+};
+"""
+)
+
+print(
+    """
+///CountryCode map with alpha2 Code key
 pub const ALPHA2_MAP: Map<&str, CountryCode> = phf_map! {
 """
 )
@@ -458,7 +476,7 @@ print(
 
 print(
     """
-///CountryCode map with  alpha3 Code key 
+///CountryCode map with alpha3 Code key
 pub const ALPHA3_MAP: Map<&str, CountryCode> = phf_map! {
 """
 )
@@ -476,7 +494,7 @@ print(
 
 print(
     """
-///CountryCode map with  3 len numeric str Code key 
+///CountryCode map with 3 len numeric str Code key
 pub const NUMERIC_MAP: Map<&str, CountryCode> = phf_map! {
 """
 )
@@ -494,7 +512,7 @@ print(
 
 print(
     """
-///ALL the names of Countrys
+///ALL the names of Countries
 pub const ALL_NAME: & [&str] = &[
 """
 )
@@ -512,7 +530,7 @@ print(
 
 print(
     """
-///ALL the alpha2 codes of Countrys
+///ALL the alpha2 codes of Countries
 pub const ALL_ALPHA2: & [&str] = &[
 """
 )
@@ -529,7 +547,7 @@ print(
 )
 print(
     """
-///ALL the alpha3 codes of Countrys
+///ALL the alpha3 codes of Countries
 pub const ALL_ALPHA3: & [&str] = &[
 """
 )
@@ -547,7 +565,7 @@ print(
 
 print(
     """
-///ALL the 3 length numeric str codes of Countrys
+///ALL the 3 length numeric str codes of Countries
 pub const ALL_NUMERIC_STR: & [&str] = &[
 """
 )
@@ -565,7 +583,7 @@ print(
 
 print(
     """
-///ALL the  numeric  codes of Countrys
+///ALL the  numeric  codes of Countries
 pub const ALL_NUMERIC: & [i32] = &[
 """
 )
@@ -583,7 +601,7 @@ print(
 
 print(
     """
-///ALL the Countrys struct
+///ALL the Countries struct
 pub const ALL: & [CountryCode] = &[
 """
 )
