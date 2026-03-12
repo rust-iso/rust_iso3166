@@ -23,8 +23,6 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 phf = { version = "^0.13.1", features = ["macros"] }
-
-[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
 prettytable-rs = { version = "^0.10", optional = true }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
