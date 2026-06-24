@@ -402,7 +402,7 @@ pub const BT: CountryCode = CountryCode {
 
 
 pub const BO: CountryCode = CountryCode {
-    name: "Bolivia, Plurinational State of",
+    name: "Bolivia (Plurinational State of)",
     alpha2: "BO",
     alpha3: "BOL",
     numeric: 68,
@@ -1034,7 +1034,7 @@ pub const ID: CountryCode = CountryCode {
 
 
 pub const IR: CountryCode = CountryCode {
-    name: "Iran, Islamic Republic of",
+    name: "Iran (Islamic Republic of)",
     alpha2: "IR",
     alpha3: "IRN",
     numeric: 364,
@@ -1138,7 +1138,7 @@ pub const KI: CountryCode = CountryCode {
 
 
 pub const KP: CountryCode = CountryCode {
-    name: "Korea, Democratic People's Republic of",
+    name: "Korea (Democratic People's Republic of)",
     alpha2: "KP",
     alpha3: "PRK",
     numeric: 408,
@@ -1346,7 +1346,7 @@ pub const MX: CountryCode = CountryCode {
 
 
 pub const FM: CountryCode = CountryCode {
-    name: "Micronesia, Federated States of",
+    name: "Micronesia (Federated States of)",
     alpha2: "FM",
     alpha3: "FSM",
     numeric: 583,
@@ -1682,7 +1682,7 @@ pub const BL: CountryCode = CountryCode {
 
 
 pub const SH: CountryCode = CountryCode {
-    name: "Saint Helena, Ascension and Tristan da Cunha[e]",
+    name: "Saint Helena, Ascension and Tristan da Cunha",
     alpha2: "SH",
     alpha3: "SHN",
     numeric: 654,
@@ -1898,7 +1898,7 @@ pub const SR: CountryCode = CountryCode {
 
 
 pub const SJ: CountryCode = CountryCode {
-    name: "Svalbard and Jan Mayen[f]",
+    name: "Svalbard and Jan Mayen",
     alpha2: "SJ",
     alpha3: "SJM",
     numeric: 744,
@@ -2082,7 +2082,7 @@ pub const US: CountryCode = CountryCode {
 
 
 pub const UM: CountryCode = CountryCode {
-    name: "United States Minor Outlying Islands[g]",
+    name: "United States Minor Outlying Islands",
     alpha2: "UM",
     alpha3: "UMI",
     numeric: 581,
@@ -2114,7 +2114,7 @@ pub const VU: CountryCode = CountryCode {
 
 
 pub const VE: CountryCode = CountryCode {
-    name: "Venezuela, Bolivarian Republic of",
+    name: "Venezuela (Bolivarian Republic of)",
     alpha2: "VE",
     alpha3: "VEN",
     numeric: 862,
@@ -2990,7 +2990,7 @@ pub const ALL_NAME: & [&str] = &[
 "Benin",
 "Bermuda",
 "Bhutan",
-"Bolivia, Plurinational State of",
+"Bolivia (Plurinational State of)",
 "Bonaire, Sint Eustatius and Saba",
 "Bosnia and Herzegovina",
 "Botswana",
@@ -3069,7 +3069,7 @@ pub const ALL_NAME: & [&str] = &[
 "Iceland",
 "India",
 "Indonesia",
-"Iran, Islamic Republic of",
+"Iran (Islamic Republic of)",
 "Iraq",
 "Ireland",
 "Isle of Man",
@@ -3082,7 +3082,7 @@ pub const ALL_NAME: & [&str] = &[
 "Kazakhstan",
 "Kenya",
 "Kiribati",
-"Korea, Democratic People's Republic of",
+"Korea (Democratic People's Republic of)",
 "Korea, Republic of",
 "Kuwait",
 "Kyrgyzstan",
@@ -3108,7 +3108,7 @@ pub const ALL_NAME: & [&str] = &[
 "Mauritius",
 "Mayotte",
 "Mexico",
-"Micronesia, Federated States of",
+"Micronesia (Federated States of)",
 "Moldova, Republic of",
 "Monaco",
 "Mongolia",
@@ -3150,7 +3150,7 @@ pub const ALL_NAME: & [&str] = &[
 "Russian Federation",
 "Rwanda",
 "Saint Barthélemy",
-"Saint Helena, Ascension and Tristan da Cunha[e]",
+"Saint Helena, Ascension and Tristan da Cunha",
 "Saint Kitts and Nevis",
 "Saint Lucia",
 "Saint Martin (French part)",
@@ -3177,7 +3177,7 @@ pub const ALL_NAME: & [&str] = &[
 "Sri Lanka",
 "Sudan",
 "Suriname",
-"Svalbard and Jan Mayen[f]",
+"Svalbard and Jan Mayen",
 "Sweden",
 "Switzerland",
 "Syrian Arab Republic",
@@ -3200,11 +3200,11 @@ pub const ALL_NAME: & [&str] = &[
 "United Arab Emirates",
 "United Kingdom of Great Britain and Northern Ireland",
 "United States of America",
-"United States Minor Outlying Islands[g]",
+"United States Minor Outlying Islands",
 "Uruguay",
 "Uzbekistan",
 "Vanuatu",
-"Venezuela, Bolivarian Republic of",
+"Venezuela (Bolivarian Republic of)",
 "Viet Nam",
 "Virgin Islands (British)",
 "Virgin Islands (U.S.)",
