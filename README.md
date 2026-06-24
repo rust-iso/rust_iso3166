@@ -133,3 +133,17 @@ rust-iso/rust_iso3166 is licensed under the Apache-2.0 license.
 * [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) by [Wikipedia](http://www.wikipedia.org)
 * [ISO 3166-3](https://en.wikipedia.org/wiki/ISO_3166-3) by [Wikipedia](http://www.wikipedia.org)
 * [www.iso.org](http://www.iso.org)
+
+The country and subdivision data is sourced from / validated against the
+[iso-codes](https://salsa.debian.org/iso-codes-team/iso-codes) project
+(v4.20.1, released 2026-01-01):
+
+* ISO 3166-1 — the alpha-2, alpha-3 and numeric codes match
+  [`iso_3166-1.json`](https://salsa.debian.org/iso-codes-team/iso-codes/-/blob/v4.20.1/data/iso_3166-1.json)
+  exactly; country names follow the ISO OBP short-name style.
+* ISO 3166-2 — subdivision data is sourced from
+  [`iso_3166-2.json`](https://salsa.debian.org/iso-codes-team/iso-codes/-/blob/v4.20.1/data/iso_3166-2.json).
+* ISO 3166-3 — former-country codes and names match
+  [`iso_3166-3.json`](https://salsa.debian.org/iso-codes-team/iso-codes/-/blob/v4.20.1/data/iso_3166-3.json);
+  the successor-country and validity-period details are supplemented from the
+  [ISO 3166-3](https://en.wikipedia.org/wiki/ISO_3166-3) Wikipedia table.

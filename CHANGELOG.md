@@ -26,10 +26,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   `numeric()` getter, the `from_numeric` parameter, and the `ALL_NUMERIC`
   slice). ISO 3166-1 numeric codes are non-negative and at most `999`, so `u16`
   models the domain precisely. (#9)
-- Refreshed country short names to the current ISO 3166-1 values
-  (`Turkey` → `Türkiye`, `Netherlands` → `Netherlands, Kingdom of the`) and
-  removed stray Wikipedia footnote markers from several names (Bonaire…,
-  Saint Helena…, Svalbard and Jan Mayen, United States Minor Outlying Islands).
+- **Data refreshed against [iso-codes](https://salsa.debian.org/iso-codes-team/iso-codes)
+  v4.20.1 (2026-01-01):**
+  - ISO 3166-1: alpha-2/alpha-3/numeric codes match iso-codes exactly; country
+    names updated (`Turkey` → `Türkiye`, `Netherlands` → `Netherlands (Kingdom
+    of the)`) and the governmental-qualifier names unified to the ISO OBP
+    parenthesised form (e.g. `Korea, Republic of` → `Korea (Republic of)`).
+  - ISO 3166-2: subdivisions fully refreshed from `iso_3166-2.json`. Removed 50
+    non-standard self-referential entries (e.g. `HK-HK`, `PR-PR`, `XC-*`); 55
+    countries' subdivision sets changed (e.g. Latvia 119 → 43, Greece 65 → 14,
+    Estonia 15 → 94, Iceland 9 → 72).
+  - ISO 3166-3: former-country names aligned to `iso_3166-3.json` (e.g.
+    `Gilbert Islands` → `Gilbert and Ellice Islands`).
+  - Removed stray Wikipedia artifacts (footnote markers, language-variant and
+    code-transition brackets) from all names.
 - **Breaking:** upgraded `phf` from 0.11 to 0.14. As `phf::Map` appears in the
   public API (the `*_MAP` constants), this is a public-dependency major bump.
 - **Breaking:** the CLI is no longer built by default — build/install it with
