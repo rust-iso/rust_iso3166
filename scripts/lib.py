@@ -51,7 +51,7 @@ pub struct CountryCode {
     ///Alpha-3 code
     alpha3: &'static str,
     ///Numeric code
-    numeric: i32,
+    numeric: u16,
 }
 
 #[cfg(any(not(direct_wasm),not(target_arch = "wasm32")))]
@@ -64,7 +64,7 @@ pub struct CountryCode {
     ///Alpha-3 code
     pub alpha3: &'static str,
     ///Numeric code
-    pub numeric: i32,
+    pub numeric: u16,
 }
 
 #[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen)]
@@ -90,7 +90,7 @@ impl CountryCode {
 
     #[cfg(all(direct_wasm,target_arch = "wasm32"))]
     #[wasm_bindgen(getter)]
-    pub fn numeric(&self) -> i32 {
+    pub fn numeric(&self) -> u16 {
         self.numeric
     }
 
@@ -178,7 +178,7 @@ pub fn from_alpha3(alpha3: &str) -> Option<CountryCode> {
 /// assert_eq!("AUS", country.unwrap().alpha3);
 /// ```
 #[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen)]
-pub fn from_numeric(numeric: i32) -> Option<CountryCode> {
+pub fn from_numeric(numeric: u16) -> Option<CountryCode> {
     let k = format!("{:03}", numeric);
     NUMERIC_MAP.get(&k).cloned()
 }
@@ -222,8 +222,8 @@ Belize	BZ	BLZ	084	ISO 3166-2:BZ	Yes
 Benin	BJ	BEN	204	ISO 3166-2:BJ	Yes
 Bermuda	BM	BMU	060	ISO 3166-2:BM	No
 Bhutan	BT	BTN	064	ISO 3166-2:BT	Yes
-Bolivia (Plurinational State of)	BO	BOL	068	ISO 3166-2:BO	Yes
-Bonaire, Sint Eustatius and Saba[c]	BQ	BES	535	ISO 3166-2:BQ	No
+Bolivia, Plurinational State of	BO	BOL	068	ISO 3166-2:BO	Yes
+Bonaire, Sint Eustatius and Saba	BQ	BES	535	ISO 3166-2:BQ	No
 Bosnia and Herzegovina	BA	BIH	070	ISO 3166-2:BA	Yes
 Botswana	BW	BWA	072	ISO 3166-2:BW	Yes
 Bouvet Island	BV	BVT	074	ISO 3166-2:BV	No
@@ -301,7 +301,7 @@ Hungary	HU	HUN	348	ISO 3166-2:HU	Yes
 Iceland	IS	ISL	352	ISO 3166-2:IS	Yes
 India	IN	IND	356	ISO 3166-2:IN	Yes
 Indonesia	ID	IDN	360	ISO 3166-2:ID	Yes
-Iran (Islamic Republic of)	IR	IRN	364	ISO 3166-2:IR	Yes
+Iran, Islamic Republic of	IR	IRN	364	ISO 3166-2:IR	Yes
 Iraq	IQ	IRQ	368	ISO 3166-2:IQ	Yes
 Ireland	IE	IRL	372	ISO 3166-2:IE	Yes
 Isle of Man	IM	IMN	833	ISO 3166-2:IM	No
@@ -314,7 +314,7 @@ Jordan	JO	JOR	400	ISO 3166-2:JO	Yes
 Kazakhstan	KZ	KAZ	398	ISO 3166-2:KZ	Yes
 Kenya	KE	KEN	404	ISO 3166-2:KE	Yes
 Kiribati	KI	KIR	296	ISO 3166-2:KI	Yes
-Korea (Democratic People's Republic of)	KP	PRK	408	ISO 3166-2:KP	Yes
+Korea, Democratic People's Republic of	KP	PRK	408	ISO 3166-2:KP	Yes
 Korea, Republic of	KR	KOR	410	ISO 3166-2:KR	Yes
 Kuwait	KW	KWT	414	ISO 3166-2:KW	Yes
 Kyrgyzstan	KG	KGZ	417	ISO 3166-2:KG	Yes
@@ -340,7 +340,7 @@ Mauritania	MR	MRT	478	ISO 3166-2:MR	Yes
 Mauritius	MU	MUS	480	ISO 3166-2:MU	Yes
 Mayotte	YT	MYT	175	ISO 3166-2:YT	No
 Mexico	MX	MEX	484	ISO 3166-2:MX	Yes
-Micronesia (Federated States of)	FM	FSM	583	ISO 3166-2:FM	Yes
+Micronesia, Federated States of	FM	FSM	583	ISO 3166-2:FM	Yes
 Moldova, Republic of	MD	MDA	498	ISO 3166-2:MD	Yes
 Monaco	MC	MCO	492	ISO 3166-2:MC	Yes
 Mongolia	MN	MNG	496	ISO 3166-2:MN	Yes
@@ -352,7 +352,7 @@ Myanmar	MM	MMR	104	ISO 3166-2:MM	Yes
 Namibia	NA	NAM	516	ISO 3166-2:NA	Yes
 Nauru	NR	NRU	520	ISO 3166-2:NR	Yes
 Nepal	NP	NPL	524	ISO 3166-2:NP	Yes
-Netherlands	NL	NLD	528	ISO 3166-2:NL	Yes
+Netherlands, Kingdom of the	NL	NLD	528	ISO 3166-2:NL	Yes
 New Caledonia	NC	NCL	540	ISO 3166-2:NC	No
 New Zealand	NZ	NZL	554	ISO 3166-2:NZ	Yes
 Nicaragua	NI	NIC	558	ISO 3166-2:NI	Yes
@@ -382,7 +382,7 @@ Romania	RO	ROU	642	ISO 3166-2:RO	Yes
 Russian Federation	RU	RUS	643	ISO 3166-2:RU	Yes
 Rwanda	RW	RWA	646	ISO 3166-2:RW	Yes
 Saint Barthélemy	BL	BLM	652	ISO 3166-2:BL	No
-Saint Helena, Ascension and Tristan da Cunha[d]	SH	SHN	654	ISO 3166-2:SH	No
+Saint Helena, Ascension and Tristan da Cunha[e]	SH	SHN	654	ISO 3166-2:SH	No
 Saint Kitts and Nevis	KN	KNA	659	ISO 3166-2:KN	Yes
 Saint Lucia	LC	LCA	662	ISO 3166-2:LC	Yes
 Saint Martin (French part)	MF	MAF	663	ISO 3166-2:MF	No
@@ -409,7 +409,7 @@ Spain	ES	ESP	724	ISO 3166-2:ES	Yes
 Sri Lanka	LK	LKA	144	ISO 3166-2:LK	Yes
 Sudan	SD	SDN	729	ISO 3166-2:SD	Yes
 Suriname	SR	SUR	740	ISO 3166-2:SR	Yes
-Svalbard and Jan Mayen[e]	SJ	SJM	744	ISO 3166-2:SJ	No
+Svalbard and Jan Mayen[f]	SJ	SJM	744	ISO 3166-2:SJ	No
 Sweden	SE	SWE	752	ISO 3166-2:SE	Yes
 Switzerland	CH	CHE	756	ISO 3166-2:CH	Yes
 Syrian Arab Republic	SY	SYR	760	ISO 3166-2:SY	Yes
@@ -423,7 +423,7 @@ Tokelau	TK	TKL	772	ISO 3166-2:TK	No
 Tonga	TO	TON	776	ISO 3166-2:TO	Yes
 Trinidad and Tobago	TT	TTO	780	ISO 3166-2:TT	Yes
 Tunisia	TN	TUN	788	ISO 3166-2:TN	Yes
-Turkey	TR	TUR	792	ISO 3166-2:TR	Yes
+Türkiye	TR	TUR	792	ISO 3166-2:TR	Yes
 Turkmenistan	TM	TKM	795	ISO 3166-2:TM	Yes
 Turks and Caicos Islands	TC	TCA	796	ISO 3166-2:TC	No
 Tuvalu	TV	TUV	798	ISO 3166-2:TV	Yes
@@ -432,11 +432,11 @@ Ukraine	UA	UKR	804	ISO 3166-2:UA	Yes
 United Arab Emirates	AE	ARE	784	ISO 3166-2:AE	Yes
 United Kingdom of Great Britain and Northern Ireland	GB	GBR	826	ISO 3166-2:GB	Yes
 United States of America	US	USA	840	ISO 3166-2:US	Yes
-United States Minor Outlying Islands[f]	UM	UMI	581	ISO 3166-2:UM	No
+United States Minor Outlying Islands[g]	UM	UMI	581	ISO 3166-2:UM	No
 Uruguay	UY	URY	858	ISO 3166-2:UY	Yes
 Uzbekistan	UZ	UZB	860	ISO 3166-2:UZ	Yes
 Vanuatu	VU	VUT	548	ISO 3166-2:VU	Yes
-Venezuela (Bolivarian Republic of)	VE	VEN	862	ISO 3166-2:VE	Yes
+Venezuela, Bolivarian Republic of	VE	VEN	862	ISO 3166-2:VE	Yes
 Viet Nam	VN	VNM	704	ISO 3166-2:VN	Yes
 Virgin Islands (British)	VG	VGB	092	ISO 3166-2:VG	No
 Virgin Islands (U.S.)	VI	VIR	850	ISO 3166-2:VI	No
@@ -594,7 +594,7 @@ print(
 print(
     """
 ///ALL the  numeric  codes of Countrys
-pub const ALL_NUMERIC: & [i32] = &[
+pub const ALL_NUMERIC: & [u16] = &[
 """
 )
 for x in a.split("\n"):

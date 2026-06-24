@@ -48,7 +48,7 @@ pub struct CountryCode {
     ///Alpha-3 code
     alpha3: &'static str,
     ///Numeric code
-    numeric: i32,
+    numeric: u16,
 }
 
 #[cfg(any(not(direct_wasm),not(target_arch = "wasm32")))]
@@ -61,7 +61,7 @@ pub struct CountryCode {
     ///Alpha-3 code
     pub alpha3: &'static str,
     ///Numeric code
-    pub numeric: i32,
+    pub numeric: u16,
 }
 
 #[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen)]
@@ -87,7 +87,7 @@ impl CountryCode {
 
     #[cfg(all(direct_wasm,target_arch = "wasm32"))]
     #[wasm_bindgen(getter)]
-    pub fn numeric(&self) -> i32 {
+    pub fn numeric(&self) -> u16 {
         self.numeric
     }
 
@@ -175,7 +175,7 @@ pub fn from_alpha3(alpha3: &str) -> Option<CountryCode> {
 /// assert_eq!("AUS", country.unwrap().alpha3);
 /// ```
 #[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen)]
-pub fn from_numeric(numeric: i32) -> Option<CountryCode> {
+pub fn from_numeric(numeric: u16) -> Option<CountryCode> {
     let k = format!("{:03}", numeric);
     NUMERIC_MAP.get(&k).cloned()
 }
@@ -402,7 +402,7 @@ pub const BT: CountryCode = CountryCode {
 
 
 pub const BO: CountryCode = CountryCode {
-    name: "Bolivia (Plurinational State of)",
+    name: "Bolivia, Plurinational State of",
     alpha2: "BO",
     alpha3: "BOL",
     numeric: 68,
@@ -410,7 +410,7 @@ pub const BO: CountryCode = CountryCode {
 
 
 pub const BQ: CountryCode = CountryCode {
-    name: "Bonaire, Sint Eustatius and Saba[c]",
+    name: "Bonaire, Sint Eustatius and Saba",
     alpha2: "BQ",
     alpha3: "BES",
     numeric: 535,
@@ -1034,7 +1034,7 @@ pub const ID: CountryCode = CountryCode {
 
 
 pub const IR: CountryCode = CountryCode {
-    name: "Iran (Islamic Republic of)",
+    name: "Iran, Islamic Republic of",
     alpha2: "IR",
     alpha3: "IRN",
     numeric: 364,
@@ -1138,7 +1138,7 @@ pub const KI: CountryCode = CountryCode {
 
 
 pub const KP: CountryCode = CountryCode {
-    name: "Korea (Democratic People's Republic of)",
+    name: "Korea, Democratic People's Republic of",
     alpha2: "KP",
     alpha3: "PRK",
     numeric: 408,
@@ -1346,7 +1346,7 @@ pub const MX: CountryCode = CountryCode {
 
 
 pub const FM: CountryCode = CountryCode {
-    name: "Micronesia (Federated States of)",
+    name: "Micronesia, Federated States of",
     alpha2: "FM",
     alpha3: "FSM",
     numeric: 583,
@@ -1442,7 +1442,7 @@ pub const NP: CountryCode = CountryCode {
 
 
 pub const NL: CountryCode = CountryCode {
-    name: "Netherlands",
+    name: "Netherlands, Kingdom of the",
     alpha2: "NL",
     alpha3: "NLD",
     numeric: 528,
@@ -1682,7 +1682,7 @@ pub const BL: CountryCode = CountryCode {
 
 
 pub const SH: CountryCode = CountryCode {
-    name: "Saint Helena, Ascension and Tristan da Cunha[d]",
+    name: "Saint Helena, Ascension and Tristan da Cunha[e]",
     alpha2: "SH",
     alpha3: "SHN",
     numeric: 654,
@@ -1898,7 +1898,7 @@ pub const SR: CountryCode = CountryCode {
 
 
 pub const SJ: CountryCode = CountryCode {
-    name: "Svalbard and Jan Mayen[e]",
+    name: "Svalbard and Jan Mayen[f]",
     alpha2: "SJ",
     alpha3: "SJM",
     numeric: 744,
@@ -2010,7 +2010,7 @@ pub const TN: CountryCode = CountryCode {
 
 
 pub const TR: CountryCode = CountryCode {
-    name: "Turkey",
+    name: "Türkiye",
     alpha2: "TR",
     alpha3: "TUR",
     numeric: 792,
@@ -2082,7 +2082,7 @@ pub const US: CountryCode = CountryCode {
 
 
 pub const UM: CountryCode = CountryCode {
-    name: "United States Minor Outlying Islands[f]",
+    name: "United States Minor Outlying Islands[g]",
     alpha2: "UM",
     alpha3: "UMI",
     numeric: 581,
@@ -2114,7 +2114,7 @@ pub const VU: CountryCode = CountryCode {
 
 
 pub const VE: CountryCode = CountryCode {
-    name: "Venezuela (Bolivarian Republic of)",
+    name: "Venezuela, Bolivarian Republic of",
     alpha2: "VE",
     alpha3: "VEN",
     numeric: 862,
@@ -2990,8 +2990,8 @@ pub const ALL_NAME: & [&str] = &[
 "Benin",
 "Bermuda",
 "Bhutan",
-"Bolivia (Plurinational State of)",
-"Bonaire, Sint Eustatius and Saba[c]",
+"Bolivia, Plurinational State of",
+"Bonaire, Sint Eustatius and Saba",
 "Bosnia and Herzegovina",
 "Botswana",
 "Bouvet Island",
@@ -3069,7 +3069,7 @@ pub const ALL_NAME: & [&str] = &[
 "Iceland",
 "India",
 "Indonesia",
-"Iran (Islamic Republic of)",
+"Iran, Islamic Republic of",
 "Iraq",
 "Ireland",
 "Isle of Man",
@@ -3082,7 +3082,7 @@ pub const ALL_NAME: & [&str] = &[
 "Kazakhstan",
 "Kenya",
 "Kiribati",
-"Korea (Democratic People's Republic of)",
+"Korea, Democratic People's Republic of",
 "Korea, Republic of",
 "Kuwait",
 "Kyrgyzstan",
@@ -3108,7 +3108,7 @@ pub const ALL_NAME: & [&str] = &[
 "Mauritius",
 "Mayotte",
 "Mexico",
-"Micronesia (Federated States of)",
+"Micronesia, Federated States of",
 "Moldova, Republic of",
 "Monaco",
 "Mongolia",
@@ -3120,7 +3120,7 @@ pub const ALL_NAME: & [&str] = &[
 "Namibia",
 "Nauru",
 "Nepal",
-"Netherlands",
+"Netherlands, Kingdom of the",
 "New Caledonia",
 "New Zealand",
 "Nicaragua",
@@ -3150,7 +3150,7 @@ pub const ALL_NAME: & [&str] = &[
 "Russian Federation",
 "Rwanda",
 "Saint Barthélemy",
-"Saint Helena, Ascension and Tristan da Cunha[d]",
+"Saint Helena, Ascension and Tristan da Cunha[e]",
 "Saint Kitts and Nevis",
 "Saint Lucia",
 "Saint Martin (French part)",
@@ -3177,7 +3177,7 @@ pub const ALL_NAME: & [&str] = &[
 "Sri Lanka",
 "Sudan",
 "Suriname",
-"Svalbard and Jan Mayen[e]",
+"Svalbard and Jan Mayen[f]",
 "Sweden",
 "Switzerland",
 "Syrian Arab Republic",
@@ -3191,7 +3191,7 @@ pub const ALL_NAME: & [&str] = &[
 "Tonga",
 "Trinidad and Tobago",
 "Tunisia",
-"Turkey",
+"Türkiye",
 "Turkmenistan",
 "Turks and Caicos Islands",
 "Tuvalu",
@@ -3200,11 +3200,11 @@ pub const ALL_NAME: & [&str] = &[
 "United Arab Emirates",
 "United Kingdom of Great Britain and Northern Ireland",
 "United States of America",
-"United States Minor Outlying Islands[f]",
+"United States Minor Outlying Islands[g]",
 "Uruguay",
 "Uzbekistan",
 "Vanuatu",
-"Venezuela (Bolivarian Republic of)",
+"Venezuela, Bolivarian Republic of",
 "Viet Nam",
 "Virgin Islands (British)",
 "Virgin Islands (U.S.)",
@@ -3993,7 +3993,7 @@ pub const ALL_NUMERIC_STR: & [&str] = &[
 
 
 ///ALL the  numeric  codes of Countrys
-pub const ALL_NUMERIC: & [i32] = &[
+pub const ALL_NUMERIC: & [u16] = &[
 
 
 4,

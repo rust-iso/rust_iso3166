@@ -22,6 +22,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `LICENSE` file (Apache-2.0).
 
 ### Changed
+- **Breaking:** `CountryCode.numeric` is now `u16` instead of `i32` (also the
+  `numeric()` getter, the `from_numeric` parameter, and the `ALL_NUMERIC`
+  slice). ISO 3166-1 numeric codes are non-negative and at most `999`, so `u16`
+  models the domain precisely. (#9)
+- Refreshed country short names to the current ISO 3166-1 values, e.g.
+  `Turkey` → `Türkiye`, `Netherlands` → `Netherlands, Kingdom of the`,
+  `Bolivia (Plurinational State of)` → `Bolivia, Plurinational State of`, and
+  removed the Wikipedia footnote markers from the names.
 - **Breaking:** upgraded `phf` from 0.11 to 0.14. As `phf::Map` appears in the
   public API (the `*_MAP` constants), this is a public-dependency major bump.
 - **Breaking:** the CLI is no longer built by default — build/install it with
