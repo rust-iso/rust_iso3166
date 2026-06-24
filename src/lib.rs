@@ -602,7 +602,7 @@ pub const CG: CountryCode = CountryCode {
 
 
 pub const CD: CountryCode = CountryCode {
-    name: "Congo, Democratic Republic of the",
+    name: "Congo (Democratic Republic of the)",
     alpha2: "CD",
     alpha3: "COD",
     numeric: 180,
@@ -1146,7 +1146,7 @@ pub const KP: CountryCode = CountryCode {
 
 
 pub const KR: CountryCode = CountryCode {
-    name: "Korea, Republic of",
+    name: "Korea (Republic of)",
     alpha2: "KR",
     alpha3: "KOR",
     numeric: 410,
@@ -1354,7 +1354,7 @@ pub const FM: CountryCode = CountryCode {
 
 
 pub const MD: CountryCode = CountryCode {
-    name: "Moldova, Republic of",
+    name: "Moldova (Republic of)",
     alpha2: "MD",
     alpha3: "MDA",
     numeric: 498,
@@ -1442,7 +1442,7 @@ pub const NP: CountryCode = CountryCode {
 
 
 pub const NL: CountryCode = CountryCode {
-    name: "Netherlands, Kingdom of the",
+    name: "Netherlands (Kingdom of the)",
     alpha2: "NL",
     alpha3: "NLD",
     numeric: 528,
@@ -1554,7 +1554,7 @@ pub const PW: CountryCode = CountryCode {
 
 
 pub const PS: CountryCode = CountryCode {
-    name: "Palestine, State of",
+    name: "Palestine (State of)",
     alpha2: "PS",
     alpha3: "PSE",
     numeric: 275,
@@ -1930,7 +1930,7 @@ pub const SY: CountryCode = CountryCode {
 
 
 pub const TW: CountryCode = CountryCode {
-    name: "Taiwan, Province of China",
+    name: "Taiwan (Province of China)",
     alpha2: "TW",
     alpha3: "TWN",
     numeric: 158,
@@ -1946,7 +1946,7 @@ pub const TJ: CountryCode = CountryCode {
 
 
 pub const TZ: CountryCode = CountryCode {
-    name: "Tanzania, United Republic of",
+    name: "Tanzania (United Republic of)",
     alpha2: "TZ",
     alpha3: "TZA",
     numeric: 834,
@@ -3015,7 +3015,7 @@ pub const ALL_NAME: & [&str] = &[
 "Colombia",
 "Comoros",
 "Congo",
-"Congo, Democratic Republic of the",
+"Congo (Democratic Republic of the)",
 "Cook Islands",
 "Costa Rica",
 "Côte d'Ivoire",
@@ -3083,7 +3083,7 @@ pub const ALL_NAME: & [&str] = &[
 "Kenya",
 "Kiribati",
 "Korea (Democratic People's Republic of)",
-"Korea, Republic of",
+"Korea (Republic of)",
 "Kuwait",
 "Kyrgyzstan",
 "Lao People's Democratic Republic",
@@ -3109,7 +3109,7 @@ pub const ALL_NAME: & [&str] = &[
 "Mayotte",
 "Mexico",
 "Micronesia (Federated States of)",
-"Moldova, Republic of",
+"Moldova (Republic of)",
 "Monaco",
 "Mongolia",
 "Montenegro",
@@ -3120,7 +3120,7 @@ pub const ALL_NAME: & [&str] = &[
 "Namibia",
 "Nauru",
 "Nepal",
-"Netherlands, Kingdom of the",
+"Netherlands (Kingdom of the)",
 "New Caledonia",
 "New Zealand",
 "Nicaragua",
@@ -3134,7 +3134,7 @@ pub const ALL_NAME: & [&str] = &[
 "Oman",
 "Pakistan",
 "Palau",
-"Palestine, State of",
+"Palestine (State of)",
 "Panama",
 "Papua New Guinea",
 "Paraguay",
@@ -3181,9 +3181,9 @@ pub const ALL_NAME: & [&str] = &[
 "Sweden",
 "Switzerland",
 "Syrian Arab Republic",
-"Taiwan, Province of China",
+"Taiwan (Province of China)",
 "Tajikistan",
-"Tanzania, United Republic of",
+"Tanzania (United Republic of)",
 "Thailand",
 "Timor-Leste",
 "Togo",

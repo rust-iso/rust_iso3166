@@ -247,7 +247,7 @@ Cocos (Keeling) Islands	CC	CCK	166	ISO 3166-2:CC	No
 Colombia	CO	COL	170	ISO 3166-2:CO	Yes
 Comoros	KM	COM	174	ISO 3166-2:KM	Yes
 Congo	CG	COG	178	ISO 3166-2:CG	Yes
-Congo, Democratic Republic of the	CD	COD	180	ISO 3166-2:CD	Yes
+Congo (Democratic Republic of the)	CD	COD	180	ISO 3166-2:CD	Yes
 Cook Islands	CK	COK	184	ISO 3166-2:CK	No
 Costa Rica	CR	CRI	188	ISO 3166-2:CR	Yes
 Côte d'Ivoire	CI	CIV	384	ISO 3166-2:CI	Yes
@@ -315,7 +315,7 @@ Kazakhstan	KZ	KAZ	398	ISO 3166-2:KZ	Yes
 Kenya	KE	KEN	404	ISO 3166-2:KE	Yes
 Kiribati	KI	KIR	296	ISO 3166-2:KI	Yes
 Korea (Democratic People's Republic of)	KP	PRK	408	ISO 3166-2:KP	Yes
-Korea, Republic of	KR	KOR	410	ISO 3166-2:KR	Yes
+Korea (Republic of)	KR	KOR	410	ISO 3166-2:KR	Yes
 Kuwait	KW	KWT	414	ISO 3166-2:KW	Yes
 Kyrgyzstan	KG	KGZ	417	ISO 3166-2:KG	Yes
 Lao People's Democratic Republic	LA	LAO	418	ISO 3166-2:LA	Yes
@@ -341,7 +341,7 @@ Mauritius	MU	MUS	480	ISO 3166-2:MU	Yes
 Mayotte	YT	MYT	175	ISO 3166-2:YT	No
 Mexico	MX	MEX	484	ISO 3166-2:MX	Yes
 Micronesia (Federated States of)	FM	FSM	583	ISO 3166-2:FM	Yes
-Moldova, Republic of	MD	MDA	498	ISO 3166-2:MD	Yes
+Moldova (Republic of)	MD	MDA	498	ISO 3166-2:MD	Yes
 Monaco	MC	MCO	492	ISO 3166-2:MC	Yes
 Mongolia	MN	MNG	496	ISO 3166-2:MN	Yes
 Montenegro	ME	MNE	499	ISO 3166-2:ME	Yes
@@ -352,7 +352,7 @@ Myanmar	MM	MMR	104	ISO 3166-2:MM	Yes
 Namibia	NA	NAM	516	ISO 3166-2:NA	Yes
 Nauru	NR	NRU	520	ISO 3166-2:NR	Yes
 Nepal	NP	NPL	524	ISO 3166-2:NP	Yes
-Netherlands, Kingdom of the	NL	NLD	528	ISO 3166-2:NL	Yes
+Netherlands (Kingdom of the)	NL	NLD	528	ISO 3166-2:NL	Yes
 New Caledonia	NC	NCL	540	ISO 3166-2:NC	No
 New Zealand	NZ	NZL	554	ISO 3166-2:NZ	Yes
 Nicaragua	NI	NIC	558	ISO 3166-2:NI	Yes
@@ -366,7 +366,7 @@ Norway	NO	NOR	578	ISO 3166-2:NO	Yes
 Oman	OM	OMN	512	ISO 3166-2:OM	Yes
 Pakistan	PK	PAK	586	ISO 3166-2:PK	Yes
 Palau	PW	PLW	585	ISO 3166-2:PW	Yes
-Palestine, State of	PS	PSE	275	ISO 3166-2:PS	No
+Palestine (State of)	PS	PSE	275	ISO 3166-2:PS	No
 Panama	PA	PAN	591	ISO 3166-2:PA	Yes
 Papua New Guinea	PG	PNG	598	ISO 3166-2:PG	Yes
 Paraguay	PY	PRY	600	ISO 3166-2:PY	Yes
@@ -413,9 +413,9 @@ Svalbard and Jan Mayen	SJ	SJM	744	ISO 3166-2:SJ	No
 Sweden	SE	SWE	752	ISO 3166-2:SE	Yes
 Switzerland	CH	CHE	756	ISO 3166-2:CH	Yes
 Syrian Arab Republic	SY	SYR	760	ISO 3166-2:SY	Yes
-Taiwan, Province of China	TW	TWN	158	ISO 3166-2:TW	No
+Taiwan (Province of China)	TW	TWN	158	ISO 3166-2:TW	No
 Tajikistan	TJ	TJK	762	ISO 3166-2:TJ	Yes
-Tanzania, United Republic of	TZ	TZA	834	ISO 3166-2:TZ	Yes
+Tanzania (United Republic of)	TZ	TZA	834	ISO 3166-2:TZ	Yes
 Thailand	TH	THA	764	ISO 3166-2:TH	Yes
 Timor-Leste	TL	TLS	626	ISO 3166-2:TL	Yes
 Togo	TG	TGO	768	ISO 3166-2:TG	Yes
