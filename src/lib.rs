@@ -8,6 +8,8 @@ use std::hash::Hash;
 use wasm_bindgen::prelude::*;
 #[cfg(all(direct_wasm,target_arch = "wasm32"))]
 use js_sys::Array;
+#[cfg(feature = "serde")]
+use serde::{Deserialize, Deserializer, Serialize, Serializer};
 
 /// # Sample code
 /// ```
@@ -118,6 +120,32 @@ impl CountryCode {
         vector.into_iter().map(JsValue::from).collect()
     }
 }
+
+#[cfg(feature = "serde")]
+impl Serialize for CountryCode {
+    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
+    where
+        S: Serializer,
+    {
+        serializer.serialize_str(self.alpha2)
+    }
+}
+
+#[cfg(feature = "serde")]
+impl<'de> Deserialize<'de> for CountryCode {
+    fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
+    where
+        D: Deserializer<'de>,
+    {
+        use serde::de::Error;
+        let s = String::deserialize(deserializer)?;
+        let s_upper = s.to_uppercase();
+        from_alpha2(&s_upper)
+            .or_else(|| from_alpha3(&s_upper))
+            .ok_or_else(|| D::Error::custom(format!("Invalid country code: {}", s)))
+    }
+}
+
 /// Returns the CountryCode with the given Alpha2 code, if exists.
 /// #Sample
 /// ```

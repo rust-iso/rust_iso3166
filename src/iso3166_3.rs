@@ -2,6 +2,8 @@
 use phf::phf_map;
 use phf::Map;
 use crate::CountryCode;
+#[cfg(feature = "serde")]
+use serde::{Deserialize, Deserializer, Serialize, Serializer};
 #[cfg(all(direct_wasm,target_arch = "wasm32"))]
 use wasm_bindgen::prelude::*;
 #[cfg(all(direct_wasm,target_arch = "wasm32"))]
@@ -959,6 +961,30 @@ pub const ZRCD: CountryCode3 = CountryCode3 {
 #[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen(js_name = from_code_iso_3166_3))]
 pub fn from_code(alpha4: &str) -> Option<CountryCode3> {
     ALPHA4_MAP.get(alpha4).cloned()
+}
+
+#[cfg(feature = "serde")]
+impl Serialize for CountryCode3 {
+    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
+    where
+        S: Serializer,
+    {
+        serializer.serialize_str(self.code)
+    }
+}
+
+#[cfg(feature = "serde")]
+impl<'de> Deserialize<'de> for CountryCode3 {
+    fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
+    where
+        D: Deserializer<'de>,
+    {
+        use serde::de::Error;
+        let s = String::deserialize(deserializer)?;
+        let s_upper = s.to_uppercase();
+        from_code(&s_upper)
+            .ok_or_else(|| D::Error::custom(format!("Invalid ISO 3166-3 code: {}", s)))
+    }
 }
 
 

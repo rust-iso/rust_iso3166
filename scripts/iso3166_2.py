@@ -5,6 +5,8 @@ import csv
 pre_code = """
 use phf::phf_map;
 use phf::Map;
+#[cfg(feature = "serde")]
+use serde::{Deserialize, Deserializer, Serialize, Serializer};
 #[cfg(all(direct_wasm,target_arch = "wasm32"))]
 use wasm_bindgen::prelude::*;
 
@@ -98,6 +100,30 @@ pub struct Subdivision {
 #[cfg_attr(all(direct_wasm,target_arch = "wasm32"), wasm_bindgen(js_name = from_code_iso_3166_2))]
 pub fn from_code(code: &str) -> Option<Subdivision> {
     SUBDIVISION_MAP.get(code).cloned()
+}
+
+#[cfg(feature = "serde")]
+impl Serialize for Subdivision {
+    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
+    where
+        S: Serializer,
+    {
+        serializer.serialize_str(self.code)
+    }
+}
+
+#[cfg(feature = "serde")]
+impl<'de> Deserialize<'de> for Subdivision {
+    fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
+    where
+        D: Deserializer<'de>,
+    {
+        use serde::de::Error;
+        let s = String::deserialize(deserializer)?;
+        let s_upper = s.to_uppercase();
+        from_code(&s_upper)
+            .ok_or_else(|| D::Error::custom(format!("Invalid ISO 3166-2 code: {}", s)))
+    }
 }
 """
 print(pre_code)
