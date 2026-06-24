@@ -118,7 +118,9 @@ for x in f:
     validity_from = re.sub(r"\[note.*?\]", "", validity[0])
     validity_to = re.sub(r"\[note.*?\]", "", validity[1])
 
-    desc = re.sub(r"\(.*?\)", "", x[4])
+    # Strip only the "(alpha2, alpha3, numeric)" code annotations, keeping
+    # parenthesised name qualifiers such as "(Democratic Republic of the)".
+    desc = re.sub(r"\s*\(\w+, \w+, \d+\)", "", x[4])
     desc = re.sub(r"\[note.*?\]", "", desc).replace("\n", "")
     # print x
     # print validity

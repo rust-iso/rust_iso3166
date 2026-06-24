@@ -92,7 +92,7 @@ pub const BQAQ: CountryCode3 = CountryCode3 {
         numeric: 0,
     },
     validity: &[1974,1979],
-    desc: "Merged into Antarctica ",
+    desc: "Merged into Antarctica",
     new_countries: &[
 
  CountryCode {
@@ -108,15 +108,15 @@ pub const BQAQ: CountryCode3 = CountryCode3 {
 
 pub const BUMM: CountryCode3 = CountryCode3 {
     code: "BUMM",
-    name: "Burma",
+    name: "Burma, Socialist Republic of the Union of",
     former: CountryCode {
-        name: "Burma",
+        name: "Burma, Socialist Republic of the Union of",
         alpha2: "BU",
         alpha3: "BUR",
         numeric: 104,
     },
     validity: &[1974,1989],
-    desc: "Name changed to Myanmar ",
+    desc: "Name changed to Myanmar",
     new_countries: &[
 
  CountryCode {
@@ -132,15 +132,15 @@ pub const BUMM: CountryCode3 = CountryCode3 {
 
 pub const BYAA: CountryCode3 = CountryCode3 {
     code: "BYAA",
-    name: "Byelorussian SSR",
+    name: "Byelorussian SSR Soviet Socialist Republic",
     former: CountryCode {
-        name: "Byelorussian SSR",
+        name: "Byelorussian SSR Soviet Socialist Republic",
         alpha2: "BY",
         alpha3: "BYS",
         numeric: 112,
     },
     validity: &[1974,1992],
-    desc: "Name changed to Belarus ",
+    desc: "Name changed to Belarus",
     new_countries: &[
 
  CountryCode {
@@ -164,7 +164,7 @@ pub const CTKI: CountryCode3 = CountryCode3 {
         numeric: 128,
     },
     validity: &[1974,1984],
-    desc: "Merged into Kiribati ",
+    desc: "Merged into Kiribati",
     new_countries: &[
 
  CountryCode {
@@ -180,15 +180,15 @@ pub const CTKI: CountryCode3 = CountryCode3 {
 
 pub const CSHH: CountryCode3 = CountryCode3 {
     code: "CSHH",
-    name: "Czechoslovakia",
+    name: "Czechoslovakia, Czechoslovak Socialist Republic",
     former: CountryCode {
-        name: "Czechoslovakia",
+        name: "Czechoslovakia, Czechoslovak Socialist Republic",
         alpha2: "CS",
         alpha3: "CSK",
         numeric: 200,
     },
     validity: &[1974,1993],
-    desc: "Divided into: Czechia  Slovakia ",
+    desc: "Divided into: Czechia Slovakia",
     new_countries: &[
 
  CountryCode {
@@ -218,7 +218,7 @@ pub const DYBJ: CountryCode3 = CountryCode3 {
         numeric: 204,
     },
     validity: &[1974,1977],
-    desc: "Name changed to Benin ",
+    desc: "Name changed to Benin",
     new_countries: &[
 
  CountryCode {
@@ -242,7 +242,7 @@ pub const NQAQ: CountryCode3 = CountryCode3 {
         numeric: 216,
     },
     validity: &[1974,1983],
-    desc: "Merged into Antarctica ",
+    desc: "Merged into Antarctica",
     new_countries: &[
 
  CountryCode {
@@ -266,7 +266,7 @@ pub const TPTL: CountryCode3 = CountryCode3 {
         numeric: 626,
     },
     validity: &[1974,2002],
-    desc: "Name changed to Timor-Leste ",
+    desc: "Name changed to Timor-Leste",
     new_countries: &[
 
  CountryCode {
@@ -290,7 +290,7 @@ pub const FXFR: CountryCode3 = CountryCode3 {
         numeric: 249,
     },
     validity: &[1993,1997],
-    desc: "Merged into France ",
+    desc: "Merged into France",
     new_countries: &[
 
  CountryCode {
@@ -314,7 +314,7 @@ pub const AIDJ: CountryCode3 = CountryCode3 {
         numeric: 262,
     },
     validity: &[1974,1977],
-    desc: "Name changed to Djibouti ",
+    desc: "Name changed to Djibouti",
     new_countries: &[
 
  CountryCode {
@@ -338,7 +338,7 @@ pub const FQHH: CountryCode3 = CountryCode3 {
         numeric: 0,
     },
     validity: &[1974,1979],
-    desc: "Divided into: Part of Antarctica   French Southern Territories ",
+    desc: "Divided into: Part of Antarctica (i.e., Adélie Land) French Southern Territories",
     new_countries: &[
 
  CountryCode {
@@ -368,7 +368,7 @@ pub const DDDE: CountryCode3 = CountryCode3 {
         numeric: 278,
     },
     validity: &[1974,1990],
-    desc: "Merged into Germany ",
+    desc: "Merged into Germany",
     new_countries: &[
 
  CountryCode {
@@ -384,15 +384,15 @@ pub const DDDE: CountryCode3 = CountryCode3 {
 
 pub const GEHH: CountryCode3 = CountryCode3 {
     code: "GEHH",
-    name: "Gilbert Islands",
+    name: "Gilbert and Ellice Islands",
     former: CountryCode {
-        name: "Gilbert Islands",
+        name: "Gilbert and Ellice Islands",
         alpha2: "GE",
         alpha3: "GEL",
         numeric: 296,
     },
     validity: &[1974,1979],
-    desc: "Name changed to Kiribati ",
+    desc: "Name changed to Kiribati",
     new_countries: &[
 
  CountryCode {
@@ -416,7 +416,7 @@ pub const JTUM: CountryCode3 = CountryCode3 {
         numeric: 396,
     },
     validity: &[1974,1986],
-    desc: "Merged into United States Minor Outlying Islands ",
+    desc: "Merged into United States Minor Outlying Islands",
     new_countries: &[
 
  CountryCode {
@@ -440,7 +440,7 @@ pub const MIUM: CountryCode3 = CountryCode3 {
         numeric: 488,
     },
     validity: &[1974,1986],
-    desc: "Merged into United States Minor Outlying Islands ",
+    desc: "Merged into United States Minor Outlying Islands",
     new_countries: &[
 
  CountryCode {
@@ -463,8 +463,8 @@ pub const ANHH: CountryCode3 = CountryCode3 {
         alpha3: "ANT",
         numeric: 530,
     },
-    validity: &[1974,2010 ],
-    desc: "Divided into: Bonaire, Sint Eustatius and Saba   Curaçao  Sint Maarten  ",
+    validity: &[1974,2010],
+    desc: "Divided into: Bonaire, Sint Eustatius and Saba Curaçao Sint Maarten (Dutch part)",
     new_countries: &[
 
  CountryCode {
@@ -500,7 +500,7 @@ pub const NTHH: CountryCode3 = CountryCode3 {
         numeric: 536,
     },
     validity: &[1974,1993],
-    desc: "Divided into: Part of Iraq  Part of Saudi Arabia ",
+    desc: "Divided into: Part of Iraq Part of Saudi Arabia",
     new_countries: &[
 
  CountryCode {
@@ -530,7 +530,7 @@ pub const NHVU: CountryCode3 = CountryCode3 {
         numeric: 548,
     },
     validity: &[1974,1980],
-    desc: "Name changed to Vanuatu ",
+    desc: "Name changed to Vanuatu",
     new_countries: &[
 
  CountryCode {
@@ -546,15 +546,15 @@ pub const NHVU: CountryCode3 = CountryCode3 {
 
 pub const PCHH: CountryCode3 = CountryCode3 {
     code: "PCHH",
-    name: "Pacific Islands (Trust Territory)",
+    name: "Pacific Islands (trust territory)",
     former: CountryCode {
-        name: "Pacific Islands (Trust Territory)",
+        name: "Pacific Islands (trust territory)",
         alpha2: "PC",
         alpha3: "PCI",
         numeric: 582,
     },
     validity: &[1974,1986],
-    desc: "Divided into: Marshall Islands  Micronesia   Northern Mariana Islands  Palau ",
+    desc: "Divided into: Marshall Islands Micronesia (Federated States of) Northern Mariana Islands Palau",
     new_countries: &[
 
  CountryCode {
@@ -596,7 +596,7 @@ pub const PZPA: CountryCode3 = CountryCode3 {
         numeric: 0,
     },
     validity: &[1974,1980],
-    desc: "Merged into Panama ",
+    desc: "Merged into Panama",
     new_countries: &[
 
  CountryCode {
@@ -620,7 +620,7 @@ pub const CSXX: CountryCode3 = CountryCode3 {
         numeric: 891,
     },
     validity: &[2003,2006],
-    desc: "Divided into: Montenegro  Serbia ",
+    desc: "Divided into: Montenegro Serbia",
     new_countries: &[
 
  CountryCode {
@@ -650,7 +650,7 @@ pub const SKIN: CountryCode3 = CountryCode3 {
         numeric: 0,
     },
     validity: &[1974,1975],
-    desc: "Merged into India ",
+    desc: "Merged into India",
     new_countries: &[
 
  CountryCode {
@@ -674,7 +674,7 @@ pub const RHZW: CountryCode3 = CountryCode3 {
         numeric: 716,
     },
     validity: &[1974,1980],
-    desc: "Name changed to Zimbabwe ",
+    desc: "Name changed to Zimbabwe",
     new_countries: &[
 
  CountryCode {
@@ -690,15 +690,15 @@ pub const RHZW: CountryCode3 = CountryCode3 {
 
 pub const PUUM: CountryCode3 = CountryCode3 {
     code: "PUUM",
-    name: "United States Miscellaneous Pacific Islands",
+    name: "US Miscellaneous Pacific Islands",
     former: CountryCode {
-        name: "United States Miscellaneous Pacific Islands",
+        name: "US Miscellaneous Pacific Islands",
         alpha2: "PU",
         alpha3: "PUS",
         numeric: 849,
     },
     validity: &[1974,1986],
-    desc: "Merged into United States Minor Outlying Islands ",
+    desc: "Merged into United States Minor Outlying Islands",
     new_countries: &[
 
  CountryCode {
@@ -714,15 +714,15 @@ pub const PUUM: CountryCode3 = CountryCode3 {
 
 pub const HVBF: CountryCode3 = CountryCode3 {
     code: "HVBF",
-    name: "Upper Volta",
+    name: "Upper Volta, Republic of",
     former: CountryCode {
-        name: "Upper Volta",
+        name: "Upper Volta, Republic of",
         alpha2: "HV",
         alpha3: "HVO",
         numeric: 854,
     },
     validity: &[1974,1984],
-    desc: "Name changed to Burkina Faso ",
+    desc: "Name changed to Burkina Faso",
     new_countries: &[
 
  CountryCode {
@@ -738,15 +738,15 @@ pub const HVBF: CountryCode3 = CountryCode3 {
 
 pub const SUHH: CountryCode3 = CountryCode3 {
     code: "SUHH",
-    name: "USSR",
+    name: "USSR, Union of Soviet Socialist Republics",
     former: CountryCode {
-        name: "USSR",
+        name: "USSR, Union of Soviet Socialist Republics",
         alpha2: "SU",
         alpha3: "SUN",
         numeric: 810,
     },
     validity: &[1974,1992],
-    desc: "Divided into:  Armenia  Azerbaijan  Estonia  Georgia  Kazakhstan  Kyrgyzstan  Latvia  Lithuania  Moldova, Republic of  Russian Federation  Tajikistan  Turkmenistan  Uzbekistan ",
+    desc: "Divided into: Armenia Azerbaijan Estonia Georgia Kazakhstan Kyrgyzstan Latvia Lithuania Moldova (Republic of) Russian Federation Tajikistan Turkmenistan Uzbekistan",
     new_countries: &[
 
  CountryCode {
@@ -798,7 +798,7 @@ pub const SUHH: CountryCode3 = CountryCode3 {
         numeric: 440,
 },
  CountryCode {
-        name: "Moldova, Republic of",
+        name: "Moldova (Republic of)",
         alpha2: "MD",
         alpha3: "MDA",
         numeric: 498,
@@ -842,7 +842,7 @@ pub const VDVN: CountryCode3 = CountryCode3 {
         numeric: 0,
     },
     validity: &[1974,1977],
-    desc: "Merged into Viet Nam ",
+    desc: "Merged into Viet Nam",
     new_countries: &[
 
  CountryCode {
@@ -866,7 +866,7 @@ pub const WKUM: CountryCode3 = CountryCode3 {
         numeric: 872,
     },
     validity: &[1974,1986],
-    desc: "Merged into United States Minor Outlying Islands ",
+    desc: "Merged into United States Minor Outlying Islands",
     new_countries: &[
 
  CountryCode {
@@ -882,15 +882,15 @@ pub const WKUM: CountryCode3 = CountryCode3 {
 
 pub const YDYE: CountryCode3 = CountryCode3 {
     code: "YDYE",
-    name: "Yemen, Democratic",
+    name: "Yemen, Democratic, People's Democratic Republic of",
     former: CountryCode {
-        name: "Yemen, Democratic",
+        name: "Yemen, Democratic, People's Democratic Republic of",
         alpha2: "YD",
         alpha3: "YMD",
         numeric: 720,
     },
     validity: &[1974,1990],
-    desc: "Merged into Yemen ",
+    desc: "Merged into Yemen",
     new_countries: &[
 
  CountryCode {
@@ -906,15 +906,15 @@ pub const YDYE: CountryCode3 = CountryCode3 {
 
 pub const YUCS: CountryCode3 = CountryCode3 {
     code: "YUCS",
-    name: "Yugoslavia",
+    name: "Yugoslavia, (Socialist) Federal Republic of",
     former: CountryCode {
-        name: "Yugoslavia",
+        name: "Yugoslavia, (Socialist) Federal Republic of",
         alpha2: "YU",
         alpha3: "YUG",
         numeric: 891,
     },
     validity: &[1974,2003],
-    desc: "Name changed to Serbia and Montenegro ",
+    desc: "Name changed to Serbia and Montenegro",
     new_countries: &[
 
  CountryCode {
@@ -930,19 +930,19 @@ pub const YUCS: CountryCode3 = CountryCode3 {
 
 pub const ZRCD: CountryCode3 = CountryCode3 {
     code: "ZRCD",
-    name: "Zaire",
+    name: "Zaire, Republic of",
     former: CountryCode {
-        name: "Zaire",
+        name: "Zaire, Republic of",
         alpha2: "ZR",
         alpha3: "ZAR",
         numeric: 180,
     },
     validity: &[1974,1997],
-    desc: "Name changed to Congo, Democratic Republic of the ",
+    desc: "Name changed to Congo (Democratic Republic of the)",
     new_countries: &[
 
  CountryCode {
-        name: "Congo, Democratic Republic of the",
+        name: "Congo (Democratic Republic of the)",
         alpha2: "CD",
         alpha3: "COD",
         numeric: 180,
