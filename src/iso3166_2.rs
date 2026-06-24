@@ -285,7 +285,7 @@ pub const AF_KHO: Subdivision = Subdivision {
 };
 
 pub const AF_KNR: Subdivision = Subdivision {
-    name: "Kunar",
+    name: "Kunaṟ",
     code: "AF-KNR",
     subdivision_type: "Province",
     country_name: "Afghanistan",
@@ -428,15 +428,6 @@ pub const AF_ZAB: Subdivision = Subdivision {
     region_code: "ZAB",
 };
 
-pub const AX_AX: Subdivision = Subdivision {
-    name: "Åland Islands",
-    code: "AX-AX",
-    subdivision_type: "Country",
-    country_name: "Åland Islands",
-    country_code: "AX",
-    region_code: "AX",
-};
-
 pub const AL_01: Subdivision = Subdivision {
     name: "Berat",
     code: "AL-01",
@@ -543,330 +534,6 @@ pub const AL_12: Subdivision = Subdivision {
     country_name: "Albania",
     country_code: "AL",
     region_code: "12",
-};
-
-pub const AL_BR: Subdivision = Subdivision {
-    name: "Berat",
-    code: "AL-BR",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "BR",
-};
-
-pub const AL_BU: Subdivision = Subdivision {
-    name: "Bulqizë",
-    code: "AL-BU",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "BU",
-};
-
-pub const AL_DI: Subdivision = Subdivision {
-    name: "Dibër",
-    code: "AL-DI",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "DI",
-};
-
-pub const AL_DL: Subdivision = Subdivision {
-    name: "Delvinë",
-    code: "AL-DL",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "DL",
-};
-
-pub const AL_DR: Subdivision = Subdivision {
-    name: "Durrës",
-    code: "AL-DR",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "DR",
-};
-
-pub const AL_DV: Subdivision = Subdivision {
-    name: "Devoll",
-    code: "AL-DV",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "DV",
-};
-
-pub const AL_EL: Subdivision = Subdivision {
-    name: "Elbasan",
-    code: "AL-EL",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "EL",
-};
-
-pub const AL_ER: Subdivision = Subdivision {
-    name: "Kolonjë",
-    code: "AL-ER",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "ER",
-};
-
-pub const AL_FR: Subdivision = Subdivision {
-    name: "Fier",
-    code: "AL-FR",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "FR",
-};
-
-pub const AL_GJ: Subdivision = Subdivision {
-    name: "Gjirokastër",
-    code: "AL-GJ",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "GJ",
-};
-
-pub const AL_GR: Subdivision = Subdivision {
-    name: "Gramsh",
-    code: "AL-GR",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "GR",
-};
-
-pub const AL_HA: Subdivision = Subdivision {
-    name: "Has",
-    code: "AL-HA",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "HA",
-};
-
-pub const AL_KA: Subdivision = Subdivision {
-    name: "Kavajë",
-    code: "AL-KA",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "KA",
-};
-
-pub const AL_KB: Subdivision = Subdivision {
-    name: "Kurbin",
-    code: "AL-KB",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "KB",
-};
-
-pub const AL_KC: Subdivision = Subdivision {
-    name: "Kuçovë",
-    code: "AL-KC",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "KC",
-};
-
-pub const AL_KO: Subdivision = Subdivision {
-    name: "Korçë",
-    code: "AL-KO",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "KO",
-};
-
-pub const AL_KR: Subdivision = Subdivision {
-    name: "Krujë",
-    code: "AL-KR",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "KR",
-};
-
-pub const AL_KU: Subdivision = Subdivision {
-    name: "Kukës",
-    code: "AL-KU",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "KU",
-};
-
-pub const AL_LB: Subdivision = Subdivision {
-    name: "Librazhd",
-    code: "AL-LB",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "LB",
-};
-
-pub const AL_LE: Subdivision = Subdivision {
-    name: "Lezhë",
-    code: "AL-LE",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "LE",
-};
-
-pub const AL_LU: Subdivision = Subdivision {
-    name: "Lushnjë",
-    code: "AL-LU",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "LU",
-};
-
-pub const AL_MK: Subdivision = Subdivision {
-    name: "Mallakastër",
-    code: "AL-MK",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "MK",
-};
-
-pub const AL_MM: Subdivision = Subdivision {
-    name: "Malësi e Madhe",
-    code: "AL-MM",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "MM",
-};
-
-pub const AL_MR: Subdivision = Subdivision {
-    name: "Mirditë",
-    code: "AL-MR",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "MR",
-};
-
-pub const AL_MT: Subdivision = Subdivision {
-    name: "Mat",
-    code: "AL-MT",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "MT",
-};
-
-pub const AL_PG: Subdivision = Subdivision {
-    name: "Pogradec",
-    code: "AL-PG",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "PG",
-};
-
-pub const AL_PQ: Subdivision = Subdivision {
-    name: "Peqin",
-    code: "AL-PQ",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "PQ",
-};
-
-pub const AL_PR: Subdivision = Subdivision {
-    name: "Përmet",
-    code: "AL-PR",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "PR",
-};
-
-pub const AL_PU: Subdivision = Subdivision {
-    name: "Pukë",
-    code: "AL-PU",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "PU",
-};
-
-pub const AL_SH: Subdivision = Subdivision {
-    name: "Shkodër",
-    code: "AL-SH",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "SH",
-};
-
-pub const AL_SK: Subdivision = Subdivision {
-    name: "Skrapar",
-    code: "AL-SK",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "SK",
-};
-
-pub const AL_SR: Subdivision = Subdivision {
-    name: "Sarandë",
-    code: "AL-SR",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "SR",
-};
-
-pub const AL_TE: Subdivision = Subdivision {
-    name: "Tepelenë",
-    code: "AL-TE",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "TE",
-};
-
-pub const AL_TP: Subdivision = Subdivision {
-    name: "Tropojë",
-    code: "AL-TP",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "TP",
-};
-
-pub const AL_TR: Subdivision = Subdivision {
-    name: "Tiranë",
-    code: "AL-TR",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "TR",
-};
-
-pub const AL_VL: Subdivision = Subdivision {
-    name: "Vlorë",
-    code: "AL-VL",
-    subdivision_type: "District",
-    country_name: "Albania",
-    country_code: "AL",
-    region_code: "VL",
 };
 
 pub const DZ_01: Subdivision = Subdivision {
@@ -1113,7 +780,7 @@ pub const DZ_27: Subdivision = Subdivision {
 };
 
 pub const DZ_28: Subdivision = Subdivision {
-    name: "Msila",
+    name: "M'sila",
     code: "DZ-28",
     subdivision_type: "Province",
     country_name: "Algeria",
@@ -1301,13 +968,94 @@ pub const DZ_48: Subdivision = Subdivision {
     region_code: "48",
 };
 
-pub const AS_AS: Subdivision = Subdivision {
-    name: "American Samoa",
-    code: "AS-AS",
-    subdivision_type: "Country",
-    country_name: "American Samoa",
-    country_code: "AS",
-    region_code: "AS",
+pub const DZ_49: Subdivision = Subdivision {
+    name: "Timimoun",
+    code: "DZ-49",
+    subdivision_type: "Province",
+    country_name: "Algeria",
+    country_code: "DZ",
+    region_code: "49",
+};
+
+pub const DZ_50: Subdivision = Subdivision {
+    name: "Bordj Badji Mokhtar",
+    code: "DZ-50",
+    subdivision_type: "Province",
+    country_name: "Algeria",
+    country_code: "DZ",
+    region_code: "50",
+};
+
+pub const DZ_51: Subdivision = Subdivision {
+    name: "Ouled Djellal",
+    code: "DZ-51",
+    subdivision_type: "Province",
+    country_name: "Algeria",
+    country_code: "DZ",
+    region_code: "51",
+};
+
+pub const DZ_52: Subdivision = Subdivision {
+    name: "Béni Abbès",
+    code: "DZ-52",
+    subdivision_type: "Province",
+    country_name: "Algeria",
+    country_code: "DZ",
+    region_code: "52",
+};
+
+pub const DZ_53: Subdivision = Subdivision {
+    name: "In Salah",
+    code: "DZ-53",
+    subdivision_type: "Province",
+    country_name: "Algeria",
+    country_code: "DZ",
+    region_code: "53",
+};
+
+pub const DZ_54: Subdivision = Subdivision {
+    name: "In Guezzam",
+    code: "DZ-54",
+    subdivision_type: "Province",
+    country_name: "Algeria",
+    country_code: "DZ",
+    region_code: "54",
+};
+
+pub const DZ_55: Subdivision = Subdivision {
+    name: "Touggourt",
+    code: "DZ-55",
+    subdivision_type: "Province",
+    country_name: "Algeria",
+    country_code: "DZ",
+    region_code: "55",
+};
+
+pub const DZ_56: Subdivision = Subdivision {
+    name: "Djanet",
+    code: "DZ-56",
+    subdivision_type: "Province",
+    country_name: "Algeria",
+    country_code: "DZ",
+    region_code: "56",
+};
+
+pub const DZ_57: Subdivision = Subdivision {
+    name: "El Meghaier",
+    code: "DZ-57",
+    subdivision_type: "Province",
+    country_name: "Algeria",
+    country_code: "DZ",
+    region_code: "57",
+};
+
+pub const DZ_58: Subdivision = Subdivision {
+    name: "El Meniaa",
+    code: "DZ-58",
+    subdivision_type: "Province",
+    country_name: "Algeria",
+    country_code: "DZ",
+    region_code: "58",
 };
 
 pub const AD_02: Subdivision = Subdivision {
@@ -1410,7 +1158,7 @@ pub const AO_CAB: Subdivision = Subdivision {
 };
 
 pub const AO_CCU: Subdivision = Subdivision {
-    name: "Kuando Kubango",
+    name: "Cuando Cubango",
     code: "AO-CCU",
     subdivision_type: "Province",
     country_name: "Angola",
@@ -1428,7 +1176,7 @@ pub const AO_CNN: Subdivision = Subdivision {
 };
 
 pub const AO_CNO: Subdivision = Subdivision {
-    name: "Kwanza Norte",
+    name: "Cuanza-Norte",
     code: "AO-CNO",
     subdivision_type: "Province",
     country_name: "Angola",
@@ -1437,7 +1185,7 @@ pub const AO_CNO: Subdivision = Subdivision {
 };
 
 pub const AO_CUS: Subdivision = Subdivision {
-    name: "Kwanza Sul",
+    name: "Cuanza-Sul",
     code: "AO-CUS",
     subdivision_type: "Province",
     country_name: "Angola",
@@ -1464,7 +1212,7 @@ pub const AO_HUI: Subdivision = Subdivision {
 };
 
 pub const AO_LNO: Subdivision = Subdivision {
-    name: "Lunda Norte",
+    name: "Lunda-Norte",
     code: "AO-LNO",
     subdivision_type: "Province",
     country_name: "Angola",
@@ -1473,7 +1221,7 @@ pub const AO_LNO: Subdivision = Subdivision {
 };
 
 pub const AO_LSU: Subdivision = Subdivision {
-    name: "Lunda Sul",
+    name: "Lunda-Sul",
     code: "AO-LSU",
     subdivision_type: "Province",
     country_name: "Angola",
@@ -1533,24 +1281,6 @@ pub const AO_ZAI: Subdivision = Subdivision {
     country_name: "Angola",
     country_code: "AO",
     region_code: "ZAI",
-};
-
-pub const AI_AI: Subdivision = Subdivision {
-    name: "Anguilla",
-    code: "AI-AI",
-    subdivision_type: "Country",
-    country_name: "Anguilla",
-    country_code: "AI",
-    region_code: "AI",
-};
-
-pub const AQ_AQ: Subdivision = Subdivision {
-    name: "Antarctica",
-    code: "AQ-AQ",
-    subdivision_type: "Country",
-    country_name: "Antarctica",
-    country_code: "AQ",
-    region_code: "AQ",
 };
 
 pub const AG_03: Subdivision = Subdivision {
@@ -1940,15 +1670,6 @@ pub const AM_VD: Subdivision = Subdivision {
     region_code: "VD",
 };
 
-pub const AW_AW: Subdivision = Subdivision {
-    name: "Aruba",
-    code: "AW-AW",
-    subdivision_type: "Country",
-    country_name: "Aruba",
-    country_code: "AW",
-    region_code: "AW",
-};
-
 pub const AU_ACT: Subdivision = Subdivision {
     name: "Australian Capital Territory",
     code: "AU-ACT",
@@ -2024,7 +1745,7 @@ pub const AU_WA: Subdivision = Subdivision {
 pub const AT_1: Subdivision = Subdivision {
     name: "Burgenland",
     code: "AT-1",
-    subdivision_type: "Federal länder",
+    subdivision_type: "State",
     country_name: "Austria",
     country_code: "AT",
     region_code: "1",
@@ -2033,7 +1754,7 @@ pub const AT_1: Subdivision = Subdivision {
 pub const AT_2: Subdivision = Subdivision {
     name: "Kärnten",
     code: "AT-2",
-    subdivision_type: "Federal länder",
+    subdivision_type: "State",
     country_name: "Austria",
     country_code: "AT",
     region_code: "2",
@@ -2042,7 +1763,7 @@ pub const AT_2: Subdivision = Subdivision {
 pub const AT_3: Subdivision = Subdivision {
     name: "Niederösterreich",
     code: "AT-3",
-    subdivision_type: "Federal länder",
+    subdivision_type: "State",
     country_name: "Austria",
     country_code: "AT",
     region_code: "3",
@@ -2051,7 +1772,7 @@ pub const AT_3: Subdivision = Subdivision {
 pub const AT_4: Subdivision = Subdivision {
     name: "Oberösterreich",
     code: "AT-4",
-    subdivision_type: "Federal länder",
+    subdivision_type: "State",
     country_name: "Austria",
     country_code: "AT",
     region_code: "4",
@@ -2060,7 +1781,7 @@ pub const AT_4: Subdivision = Subdivision {
 pub const AT_5: Subdivision = Subdivision {
     name: "Salzburg",
     code: "AT-5",
-    subdivision_type: "Federal länder",
+    subdivision_type: "State",
     country_name: "Austria",
     country_code: "AT",
     region_code: "5",
@@ -2069,7 +1790,7 @@ pub const AT_5: Subdivision = Subdivision {
 pub const AT_6: Subdivision = Subdivision {
     name: "Steiermark",
     code: "AT-6",
-    subdivision_type: "Federal länder",
+    subdivision_type: "State",
     country_name: "Austria",
     country_code: "AT",
     region_code: "6",
@@ -2078,7 +1799,7 @@ pub const AT_6: Subdivision = Subdivision {
 pub const AT_7: Subdivision = Subdivision {
     name: "Tirol",
     code: "AT-7",
-    subdivision_type: "Federal länder",
+    subdivision_type: "State",
     country_name: "Austria",
     country_code: "AT",
     region_code: "7",
@@ -2087,7 +1808,7 @@ pub const AT_7: Subdivision = Subdivision {
 pub const AT_8: Subdivision = Subdivision {
     name: "Vorarlberg",
     code: "AT-8",
-    subdivision_type: "Federal länder",
+    subdivision_type: "State",
     country_name: "Austria",
     country_code: "AT",
     region_code: "8",
@@ -2096,7 +1817,7 @@ pub const AT_8: Subdivision = Subdivision {
 pub const AT_9: Subdivision = Subdivision {
     name: "Wien",
     code: "AT-9",
-    subdivision_type: "Federal länder",
+    subdivision_type: "State",
     country_name: "Austria",
     country_code: "AT",
     region_code: "9",
@@ -2121,7 +1842,7 @@ pub const AZ_AGA: Subdivision = Subdivision {
 };
 
 pub const AZ_AGC: Subdivision = Subdivision {
-    name: "Ağcabәdi",
+    name: "Ağcabədi",
     code: "AZ-AGC",
     subdivision_type: "Rayon",
     country_name: "Azerbaijan",
@@ -2264,6 +1985,15 @@ pub const AZ_FUZ: Subdivision = Subdivision {
     region_code: "FUZ",
 };
 
+pub const AZ_GA: Subdivision = Subdivision {
+    name: "Gəncə",
+    code: "AZ-GA",
+    subdivision_type: "Municipality",
+    country_name: "Azerbaijan",
+    country_code: "AZ",
+    region_code: "GA",
+};
+
 pub const AZ_GAD: Subdivision = Subdivision {
     name: "Gədəbəy",
     code: "AZ-GAD",
@@ -2271,15 +2001,6 @@ pub const AZ_GAD: Subdivision = Subdivision {
     country_name: "Azerbaijan",
     country_code: "AZ",
     region_code: "GAD",
-};
-
-pub const AZ_GA: Subdivision = Subdivision {
-    name: "Gәncә",
-    code: "AZ-GA",
-    subdivision_type: "Municipality",
-    country_name: "Azerbaijan",
-    country_code: "AZ",
-    region_code: "GA",
 };
 
 pub const AZ_GOR: Subdivision = Subdivision {
@@ -2363,6 +2084,15 @@ pub const AZ_KUR: Subdivision = Subdivision {
     region_code: "KUR",
 };
 
+pub const AZ_LA: Subdivision = Subdivision {
+    name: "Lənkəran",
+    code: "AZ-LA",
+    subdivision_type: "Municipality",
+    country_name: "Azerbaijan",
+    country_code: "AZ",
+    region_code: "LA",
+};
+
 pub const AZ_LAC: Subdivision = Subdivision {
     name: "Laçın",
     code: "AZ-LAC",
@@ -2370,15 +2100,6 @@ pub const AZ_LAC: Subdivision = Subdivision {
     country_name: "Azerbaijan",
     country_code: "AZ",
     region_code: "LAC",
-};
-
-pub const AZ_LA: Subdivision = Subdivision {
-    name: "Lәnkәran",
-    code: "AZ-LA",
-    subdivision_type: "Municipality",
-    country_name: "Azerbaijan",
-    country_code: "AZ",
-    region_code: "LA",
 };
 
 pub const AZ_LAN: Subdivision = Subdivision {
@@ -2409,7 +2130,7 @@ pub const AZ_MAS: Subdivision = Subdivision {
 };
 
 pub const AZ_MI: Subdivision = Subdivision {
-    name: "Mingәçevir",
+    name: "Mingəçevir",
     code: "AZ-MI",
     subdivision_type: "Municipality",
     country_name: "Azerbaijan",
@@ -2472,7 +2193,7 @@ pub const AZ_ORD: Subdivision = Subdivision {
 };
 
 pub const AZ_QAB: Subdivision = Subdivision {
-    name: "Qәbәlә",
+    name: "Qəbələ",
     code: "AZ-QAB",
     subdivision_type: "Rayon",
     country_name: "Azerbaijan",
@@ -2534,6 +2255,15 @@ pub const AZ_QUS: Subdivision = Subdivision {
     region_code: "QUS",
 };
 
+pub const AZ_SA: Subdivision = Subdivision {
+    name: "Şəki",
+    code: "AZ-SA",
+    subdivision_type: "Municipality",
+    country_name: "Azerbaijan",
+    country_code: "AZ",
+    region_code: "SA",
+};
+
 pub const AZ_SAB: Subdivision = Subdivision {
     name: "Sabirabad",
     code: "AZ-SAB",
@@ -2544,7 +2274,7 @@ pub const AZ_SAB: Subdivision = Subdivision {
 };
 
 pub const AZ_SAD: Subdivision = Subdivision {
-    name: "Sәdәrәk",
+    name: "Sədərək",
     code: "AZ-SAD",
     subdivision_type: "Rayon",
     country_name: "Azerbaijan",
@@ -2562,7 +2292,7 @@ pub const AZ_SAH: Subdivision = Subdivision {
 };
 
 pub const AZ_SAK: Subdivision = Subdivision {
-    name: "Şәki",
+    name: "Şəki",
     code: "AZ-SAK",
     subdivision_type: "Rayon",
     country_name: "Azerbaijan",
@@ -2580,21 +2310,12 @@ pub const AZ_SAL: Subdivision = Subdivision {
 };
 
 pub const AZ_SAR: Subdivision = Subdivision {
-    name: "Şәrur",
+    name: "Şərur",
     code: "AZ-SAR",
     subdivision_type: "Rayon",
     country_name: "Azerbaijan",
     country_code: "AZ",
     region_code: "SAR",
-};
-
-pub const AZ_SA: Subdivision = Subdivision {
-    name: "Şәki",
-    code: "AZ-SA",
-    subdivision_type: "Municipality",
-    country_name: "Azerbaijan",
-    country_code: "AZ",
-    region_code: "SA",
 };
 
 pub const AZ_SAT: Subdivision = Subdivision {
@@ -2616,7 +2337,7 @@ pub const AZ_SBN: Subdivision = Subdivision {
 };
 
 pub const AZ_SIY: Subdivision = Subdivision {
-    name: "Siyәzәn",
+    name: "Siyəzən",
     code: "AZ-SIY",
     subdivision_type: "Rayon",
     country_name: "Azerbaijan",
@@ -2625,21 +2346,12 @@ pub const AZ_SIY: Subdivision = Subdivision {
 };
 
 pub const AZ_SKR: Subdivision = Subdivision {
-    name: "Şәmkir",
+    name: "Şəmkir",
     code: "AZ-SKR",
     subdivision_type: "Rayon",
     country_name: "Azerbaijan",
     country_code: "AZ",
     region_code: "SKR",
-};
-
-pub const AZ_SMI: Subdivision = Subdivision {
-    name: "Şamaxı",
-    code: "AZ-SMI",
-    subdivision_type: "Rayon",
-    country_name: "Azerbaijan",
-    country_code: "AZ",
-    region_code: "SMI",
 };
 
 pub const AZ_SM: Subdivision = Subdivision {
@@ -2649,6 +2361,15 @@ pub const AZ_SM: Subdivision = Subdivision {
     country_name: "Azerbaijan",
     country_code: "AZ",
     region_code: "SM",
+};
+
+pub const AZ_SMI: Subdivision = Subdivision {
+    name: "Şamaxı",
+    code: "AZ-SMI",
+    subdivision_type: "Rayon",
+    country_name: "Azerbaijan",
+    country_code: "AZ",
+    region_code: "SMI",
 };
 
 pub const AZ_SMX: Subdivision = Subdivision {
@@ -2679,7 +2400,7 @@ pub const AZ_SUS: Subdivision = Subdivision {
 };
 
 pub const AZ_TAR: Subdivision = Subdivision {
-    name: "Tәrtәr",
+    name: "Tərtər",
     code: "AZ-TAR",
     subdivision_type: "Rayon",
     country_name: "Azerbaijan",
@@ -2705,6 +2426,15 @@ pub const AZ_UCA: Subdivision = Subdivision {
     region_code: "UCA",
 };
 
+pub const AZ_XA: Subdivision = Subdivision {
+    name: "Xankəndi",
+    code: "AZ-XA",
+    subdivision_type: "Municipality",
+    country_name: "Azerbaijan",
+    country_code: "AZ",
+    region_code: "XA",
+};
+
 pub const AZ_XAC: Subdivision = Subdivision {
     name: "Xaçmaz",
     code: "AZ-XAC",
@@ -2712,15 +2442,6 @@ pub const AZ_XAC: Subdivision = Subdivision {
     country_name: "Azerbaijan",
     country_code: "AZ",
     region_code: "XAC",
-};
-
-pub const AZ_XA: Subdivision = Subdivision {
-    name: "Xankәndi",
-    code: "AZ-XA",
-    subdivision_type: "Municipality",
-    country_name: "Azerbaijan",
-    country_code: "AZ",
-    region_code: "XA",
 };
 
 pub const AZ_XCI: Subdivision = Subdivision {
@@ -2742,7 +2463,7 @@ pub const AZ_XIZ: Subdivision = Subdivision {
 };
 
 pub const AZ_XVD: Subdivision = Subdivision {
-    name: "Xocavәnd",
+    name: "Xocavənd",
     code: "AZ-XVD",
     subdivision_type: "Rayon",
     country_name: "Azerbaijan",
@@ -2759,15 +2480,6 @@ pub const AZ_YAR: Subdivision = Subdivision {
     region_code: "YAR",
 };
 
-pub const AZ_YEV: Subdivision = Subdivision {
-    name: "Yevlax",
-    code: "AZ-YEV",
-    subdivision_type: "Rayon",
-    country_name: "Azerbaijan",
-    country_code: "AZ",
-    region_code: "YEV",
-};
-
 pub const AZ_YE: Subdivision = Subdivision {
     name: "Yevlax",
     code: "AZ-YE",
@@ -2777,8 +2489,17 @@ pub const AZ_YE: Subdivision = Subdivision {
     region_code: "YE",
 };
 
+pub const AZ_YEV: Subdivision = Subdivision {
+    name: "Yevlax",
+    code: "AZ-YEV",
+    subdivision_type: "Rayon",
+    country_name: "Azerbaijan",
+    country_code: "AZ",
+    region_code: "YEV",
+};
+
 pub const AZ_ZAN: Subdivision = Subdivision {
-    name: "Zәngilan",
+    name: "Zəngilan",
     code: "AZ-ZAN",
     subdivision_type: "Rayon",
     country_name: "Azerbaijan",
@@ -2796,7 +2517,7 @@ pub const AZ_ZAQ: Subdivision = Subdivision {
 };
 
 pub const AZ_ZAR: Subdivision = Subdivision {
-    name: "Zәrdab",
+    name: "Zərdab",
     code: "AZ-ZAR",
     subdivision_type: "Rayon",
     country_name: "Azerbaijan",
@@ -3002,6 +2723,15 @@ pub const BS_NO: Subdivision = Subdivision {
     region_code: "NO",
 };
 
+pub const BS_NP: Subdivision = Subdivision {
+    name: "New Providence",
+    code: "BS-NP",
+    subdivision_type: "Island",
+    country_name: "Bahamas",
+    country_code: "BS",
+    region_code: "NP",
+};
+
 pub const BS_NS: Subdivision = Subdivision {
     name: "North Andros",
     code: "BS-NS",
@@ -3084,7 +2814,7 @@ pub const BS_WG: Subdivision = Subdivision {
 };
 
 pub const BH_13: Subdivision = Subdivision {
-    name: "Al Manāmah",
+    name: "Al ‘Āşimah",
     code: "BH-13",
     subdivision_type: "Governorate",
     country_name: "Bahrain",
@@ -3108,15 +2838,6 @@ pub const BH_15: Subdivision = Subdivision {
     country_name: "Bahrain",
     country_code: "BH",
     region_code: "15",
-};
-
-pub const BH_16: Subdivision = Subdivision {
-    name: "Al Wusţá",
-    code: "BH-16",
-    subdivision_type: "Governorate",
-    country_name: "Bahrain",
-    country_code: "BH",
-    region_code: "16",
 };
 
 pub const BH_17: Subdivision = Subdivision {
@@ -3147,7 +2868,7 @@ pub const BD_02: Subdivision = Subdivision {
 };
 
 pub const BD_03: Subdivision = Subdivision {
-    name: "Bogra",
+    name: "Bogura",
     code: "BD-03",
     subdivision_type: "District",
     country_name: "Bangladesh",
@@ -3174,7 +2895,7 @@ pub const BD_05: Subdivision = Subdivision {
 };
 
 pub const BD_06: Subdivision = Subdivision {
-    name: "Barisal",
+    name: "Barishal",
     code: "BD-06",
     subdivision_type: "District",
     country_name: "Bangladesh",
@@ -3192,7 +2913,7 @@ pub const BD_07: Subdivision = Subdivision {
 };
 
 pub const BD_08: Subdivision = Subdivision {
-    name: "Comilla",
+    name: "Cumilla",
     code: "BD-08",
     subdivision_type: "District",
     country_name: "Bangladesh",
@@ -3210,7 +2931,7 @@ pub const BD_09: Subdivision = Subdivision {
 };
 
 pub const BD_10: Subdivision = Subdivision {
-    name: "Chittagong",
+    name: "Chattogram",
     code: "BD-10",
     subdivision_type: "District",
     country_name: "Bangladesh",
@@ -3318,7 +3039,7 @@ pub const BD_21: Subdivision = Subdivision {
 };
 
 pub const BD_22: Subdivision = Subdivision {
-    name: "Jessore",
+    name: "Jashore",
     code: "BD-22",
     subdivision_type: "District",
     country_name: "Bangladesh",
@@ -3336,7 +3057,7 @@ pub const BD_23: Subdivision = Subdivision {
 };
 
 pub const BD_24: Subdivision = Subdivision {
-    name: "Jaipurhat",
+    name: "Joypurhat",
     code: "BD-24",
     subdivision_type: "District",
     country_name: "Bangladesh",
@@ -3345,7 +3066,7 @@ pub const BD_24: Subdivision = Subdivision {
 };
 
 pub const BD_25: Subdivision = Subdivision {
-    name: "Jhalakati",
+    name: "Jhalakathi",
     code: "BD-25",
     subdivision_type: "District",
     country_name: "Bangladesh",
@@ -3381,7 +3102,7 @@ pub const BD_28: Subdivision = Subdivision {
 };
 
 pub const BD_29: Subdivision = Subdivision {
-    name: "Khagrachari",
+    name: "Khagrachhari",
     code: "BD-29",
     subdivision_type: "District",
     country_name: "Bangladesh",
@@ -3525,7 +3246,7 @@ pub const BD_44: Subdivision = Subdivision {
 };
 
 pub const BD_45: Subdivision = Subdivision {
-    name: "Nawabganj",
+    name: "Chapai Nawabganj",
     code: "BD-45",
     subdivision_type: "District",
     country_name: "Bangladesh",
@@ -3705,7 +3426,7 @@ pub const BD_64: Subdivision = Subdivision {
 };
 
 pub const BD_A: Subdivision = Subdivision {
-    name: "Barisal",
+    name: "Barishal",
     code: "BD-A",
     subdivision_type: "Division",
     country_name: "Bangladesh",
@@ -3714,7 +3435,7 @@ pub const BD_A: Subdivision = Subdivision {
 };
 
 pub const BD_B: Subdivision = Subdivision {
-    name: "Chittagong",
+    name: "Chattogram",
     code: "BD-B",
     subdivision_type: "Division",
     country_name: "Bangladesh",
@@ -3765,6 +3486,15 @@ pub const BD_G: Subdivision = Subdivision {
     country_name: "Bangladesh",
     country_code: "BD",
     region_code: "G",
+};
+
+pub const BD_H: Subdivision = Subdivision {
+    name: "Mymensingh",
+    code: "BD-H",
+    subdivision_type: "Division",
+    country_name: "Bangladesh",
+    country_code: "BD",
+    region_code: "H",
 };
 
 pub const BB_01: Subdivision = Subdivision {
@@ -3876,7 +3606,7 @@ pub const BY_BR: Subdivision = Subdivision {
 };
 
 pub const BY_HM: Subdivision = Subdivision {
-    name: "Gorod Minsk",
+    name: "Horad Minsk",
     code: "BY-HM",
     subdivision_type: "City",
     country_name: "Belarus",
@@ -3885,7 +3615,7 @@ pub const BY_HM: Subdivision = Subdivision {
 };
 
 pub const BY_HO: Subdivision = Subdivision {
-    name: "Gomel'skaja oblast'",
+    name: "Homieĺskaja voblasć",
     code: "BY-HO",
     subdivision_type: "Oblast",
     country_name: "Belarus",
@@ -3894,7 +3624,7 @@ pub const BY_HO: Subdivision = Subdivision {
 };
 
 pub const BY_HR: Subdivision = Subdivision {
-    name: "Grodnenskaja oblast'",
+    name: "Hrodzienskaja voblasć",
     code: "BY-HR",
     subdivision_type: "Oblast",
     country_name: "Belarus",
@@ -3912,7 +3642,7 @@ pub const BY_MA: Subdivision = Subdivision {
 };
 
 pub const BY_MI: Subdivision = Subdivision {
-    name: "Minskaja oblast'",
+    name: "Minskaja voblasć",
     code: "BY-MI",
     subdivision_type: "Oblast",
     country_name: "Belarus",
@@ -3930,7 +3660,7 @@ pub const BY_VI: Subdivision = Subdivision {
 };
 
 pub const BE_BRU: Subdivision = Subdivision {
-    name: "Brussels Hoofdstedelijk Gewest",
+    name: "Bruxelles-Capitale, Région de",
     code: "BE-BRU",
     subdivision_type: "Region",
     country_name: "Belgium",
@@ -4101,7 +3831,7 @@ pub const BZ_TOL: Subdivision = Subdivision {
 };
 
 pub const BJ_AK: Subdivision = Subdivision {
-    name: "Atakora",
+    name: "Atacora",
     code: "BJ-AK",
     subdivision_type: "Department",
     country_name: "Benin",
@@ -4155,7 +3885,7 @@ pub const BJ_DO: Subdivision = Subdivision {
 };
 
 pub const BJ_KO: Subdivision = Subdivision {
-    name: "Kouffo",
+    name: "Couffo",
     code: "BJ-KO",
     subdivision_type: "Department",
     country_name: "Benin",
@@ -4208,15 +3938,6 @@ pub const BJ_ZO: Subdivision = Subdivision {
     region_code: "ZO",
 };
 
-pub const BM_BM: Subdivision = Subdivision {
-    name: "Bermuda",
-    code: "BM-BM",
-    subdivision_type: "Country",
-    country_name: "Bermuda",
-    country_code: "BM",
-    region_code: "BM",
-};
-
 pub const BT_11: Subdivision = Subdivision {
     name: "Paro",
     code: "BT-11",
@@ -4236,7 +3957,7 @@ pub const BT_12: Subdivision = Subdivision {
 };
 
 pub const BT_13: Subdivision = Subdivision {
-    name: "Ha",
+    name: "Haa",
     code: "BT-13",
     subdivision_type: "District",
     country_name: "Bhutan",
@@ -4353,7 +4074,7 @@ pub const BT_42: Subdivision = Subdivision {
 };
 
 pub const BT_43: Subdivision = Subdivision {
-    name: "Pemagatshel",
+    name: "Pema Gatshel",
     code: "BT-43",
     subdivision_type: "District",
     country_name: "Bhutan",
@@ -4371,7 +4092,7 @@ pub const BT_44: Subdivision = Subdivision {
 };
 
 pub const BT_45: Subdivision = Subdivision {
-    name: "Samdrup Jongkha",
+    name: "Samdrup Jongkhar",
     code: "BT-45",
     subdivision_type: "District",
     country_name: "Bhutan",
@@ -4401,7 +4122,7 @@ pub const BO_B: Subdivision = Subdivision {
     name: "El Beni",
     code: "BO-B",
     subdivision_type: "Department",
-    country_name: "Bolivia",
+    country_name: "Bolivia (Plurinational State of)",
     country_code: "BO",
     region_code: "B",
 };
@@ -4410,7 +4131,7 @@ pub const BO_C: Subdivision = Subdivision {
     name: "Cochabamba",
     code: "BO-C",
     subdivision_type: "Department",
-    country_name: "Bolivia",
+    country_name: "Bolivia (Plurinational State of)",
     country_code: "BO",
     region_code: "C",
 };
@@ -4419,7 +4140,7 @@ pub const BO_H: Subdivision = Subdivision {
     name: "Chuquisaca",
     code: "BO-H",
     subdivision_type: "Department",
-    country_name: "Bolivia",
+    country_name: "Bolivia (Plurinational State of)",
     country_code: "BO",
     region_code: "H",
 };
@@ -4428,7 +4149,7 @@ pub const BO_L: Subdivision = Subdivision {
     name: "La Paz",
     code: "BO-L",
     subdivision_type: "Department",
-    country_name: "Bolivia",
+    country_name: "Bolivia (Plurinational State of)",
     country_code: "BO",
     region_code: "L",
 };
@@ -4437,7 +4158,7 @@ pub const BO_N: Subdivision = Subdivision {
     name: "Pando",
     code: "BO-N",
     subdivision_type: "Department",
-    country_name: "Bolivia",
+    country_name: "Bolivia (Plurinational State of)",
     country_code: "BO",
     region_code: "N",
 };
@@ -4446,7 +4167,7 @@ pub const BO_O: Subdivision = Subdivision {
     name: "Oruro",
     code: "BO-O",
     subdivision_type: "Department",
-    country_name: "Bolivia",
+    country_name: "Bolivia (Plurinational State of)",
     country_code: "BO",
     region_code: "O",
 };
@@ -4455,7 +4176,7 @@ pub const BO_P: Subdivision = Subdivision {
     name: "Potosí",
     code: "BO-P",
     subdivision_type: "Department",
-    country_name: "Bolivia",
+    country_name: "Bolivia (Plurinational State of)",
     country_code: "BO",
     region_code: "P",
 };
@@ -4464,7 +4185,7 @@ pub const BO_S: Subdivision = Subdivision {
     name: "Santa Cruz",
     code: "BO-S",
     subdivision_type: "Department",
-    country_name: "Bolivia",
+    country_name: "Bolivia (Plurinational State of)",
     country_code: "BO",
     region_code: "S",
 };
@@ -4473,7 +4194,7 @@ pub const BO_T: Subdivision = Subdivision {
     name: "Tarija",
     code: "BO-T",
     subdivision_type: "Department",
-    country_name: "Bolivia",
+    country_name: "Bolivia (Plurinational State of)",
     country_code: "BO",
     region_code: "T",
 };
@@ -4503,96 +4224,6 @@ pub const BQ_SE: Subdivision = Subdivision {
     country_name: "Bonaire, Sint Eustatius and Saba",
     country_code: "BQ",
     region_code: "SE",
-};
-
-pub const BA_01: Subdivision = Subdivision {
-    name: "Unsko-sanska županija",
-    code: "BA-01",
-    subdivision_type: "Canton",
-    country_name: "Bosnia and Herzegovina",
-    country_code: "BA",
-    region_code: "01",
-};
-
-pub const BA_02: Subdivision = Subdivision {
-    name: "Posavska županija",
-    code: "BA-02",
-    subdivision_type: "Canton",
-    country_name: "Bosnia and Herzegovina",
-    country_code: "BA",
-    region_code: "02",
-};
-
-pub const BA_03: Subdivision = Subdivision {
-    name: "Tuzlanska županija",
-    code: "BA-03",
-    subdivision_type: "Canton",
-    country_name: "Bosnia and Herzegovina",
-    country_code: "BA",
-    region_code: "03",
-};
-
-pub const BA_04: Subdivision = Subdivision {
-    name: "Zeničko-dobojska županija",
-    code: "BA-04",
-    subdivision_type: "Canton",
-    country_name: "Bosnia and Herzegovina",
-    country_code: "BA",
-    region_code: "04",
-};
-
-pub const BA_05: Subdivision = Subdivision {
-    name: "Bosansko-podrinjska županija",
-    code: "BA-05",
-    subdivision_type: "Canton",
-    country_name: "Bosnia and Herzegovina",
-    country_code: "BA",
-    region_code: "05",
-};
-
-pub const BA_06: Subdivision = Subdivision {
-    name: "Srednjobosanska županija",
-    code: "BA-06",
-    subdivision_type: "Canton",
-    country_name: "Bosnia and Herzegovina",
-    country_code: "BA",
-    region_code: "06",
-};
-
-pub const BA_07: Subdivision = Subdivision {
-    name: "Hercegovačko-neretvanska županija",
-    code: "BA-07",
-    subdivision_type: "Canton",
-    country_name: "Bosnia and Herzegovina",
-    country_code: "BA",
-    region_code: "07",
-};
-
-pub const BA_08: Subdivision = Subdivision {
-    name: "Zapadnohercegovačka županija",
-    code: "BA-08",
-    subdivision_type: "Canton",
-    country_name: "Bosnia and Herzegovina",
-    country_code: "BA",
-    region_code: "08",
-};
-
-pub const BA_09: Subdivision = Subdivision {
-    name: "Kanton Sarajevo",
-    code: "BA-09",
-    subdivision_type: "Canton",
-    country_name: "Bosnia and Herzegovina",
-    country_code: "BA",
-    region_code: "09",
-};
-
-pub const BA_10: Subdivision = Subdivision {
-    name: "Kanton br. 10",
-    code: "BA-10",
-    subdivision_type: "Canton",
-    country_name: "Bosnia and Herzegovina",
-    country_code: "BA",
-    region_code: "10",
 };
 
 pub const BA_BIH: Subdivision = Subdivision {
@@ -4764,15 +4395,6 @@ pub const BW_ST: Subdivision = Subdivision {
     country_name: "Botswana",
     country_code: "BW",
     region_code: "ST",
-};
-
-pub const BV_BV: Subdivision = Subdivision {
-    name: "Bouvet Island",
-    code: "BV-BV",
-    subdivision_type: "Country",
-    country_name: "Bouvet Island",
-    country_code: "BV",
-    region_code: "BV",
 };
 
 pub const BR_AC: Subdivision = Subdivision {
@@ -5018,15 +4640,6 @@ pub const BR_TO: Subdivision = Subdivision {
     region_code: "TO",
 };
 
-pub const IO_IO: Subdivision = Subdivision {
-    name: "British Indian Ocean Territory",
-    code: "IO-IO",
-    subdivision_type: "Country",
-    country_name: "British Indian Ocean Territory",
-    country_code: "IO",
-    region_code: "IO",
-};
-
 pub const BN_BE: Subdivision = Subdivision {
     name: "Belait",
     code: "BN-BE",
@@ -5066,7 +4679,7 @@ pub const BN_TU: Subdivision = Subdivision {
 pub const BG_01: Subdivision = Subdivision {
     name: "Blagoevgrad",
     code: "BG-01",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "01",
@@ -5075,7 +4688,7 @@ pub const BG_01: Subdivision = Subdivision {
 pub const BG_02: Subdivision = Subdivision {
     name: "Burgas",
     code: "BG-02",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "02",
@@ -5084,7 +4697,7 @@ pub const BG_02: Subdivision = Subdivision {
 pub const BG_03: Subdivision = Subdivision {
     name: "Varna",
     code: "BG-03",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "03",
@@ -5093,7 +4706,7 @@ pub const BG_03: Subdivision = Subdivision {
 pub const BG_04: Subdivision = Subdivision {
     name: "Veliko Tarnovo",
     code: "BG-04",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "04",
@@ -5102,7 +4715,7 @@ pub const BG_04: Subdivision = Subdivision {
 pub const BG_05: Subdivision = Subdivision {
     name: "Vidin",
     code: "BG-05",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "05",
@@ -5111,7 +4724,7 @@ pub const BG_05: Subdivision = Subdivision {
 pub const BG_06: Subdivision = Subdivision {
     name: "Vratsa",
     code: "BG-06",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "06",
@@ -5120,7 +4733,7 @@ pub const BG_06: Subdivision = Subdivision {
 pub const BG_07: Subdivision = Subdivision {
     name: "Gabrovo",
     code: "BG-07",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "07",
@@ -5129,7 +4742,7 @@ pub const BG_07: Subdivision = Subdivision {
 pub const BG_08: Subdivision = Subdivision {
     name: "Dobrich",
     code: "BG-08",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "08",
@@ -5138,7 +4751,7 @@ pub const BG_08: Subdivision = Subdivision {
 pub const BG_09: Subdivision = Subdivision {
     name: "Kardzhali",
     code: "BG-09",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "09",
@@ -5147,7 +4760,7 @@ pub const BG_09: Subdivision = Subdivision {
 pub const BG_10: Subdivision = Subdivision {
     name: "Kyustendil",
     code: "BG-10",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "10",
@@ -5156,7 +4769,7 @@ pub const BG_10: Subdivision = Subdivision {
 pub const BG_11: Subdivision = Subdivision {
     name: "Lovech",
     code: "BG-11",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "11",
@@ -5165,7 +4778,7 @@ pub const BG_11: Subdivision = Subdivision {
 pub const BG_12: Subdivision = Subdivision {
     name: "Montana",
     code: "BG-12",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "12",
@@ -5174,7 +4787,7 @@ pub const BG_12: Subdivision = Subdivision {
 pub const BG_13: Subdivision = Subdivision {
     name: "Pazardzhik",
     code: "BG-13",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "13",
@@ -5183,7 +4796,7 @@ pub const BG_13: Subdivision = Subdivision {
 pub const BG_14: Subdivision = Subdivision {
     name: "Pernik",
     code: "BG-14",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "14",
@@ -5192,7 +4805,7 @@ pub const BG_14: Subdivision = Subdivision {
 pub const BG_15: Subdivision = Subdivision {
     name: "Pleven",
     code: "BG-15",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "15",
@@ -5201,7 +4814,7 @@ pub const BG_15: Subdivision = Subdivision {
 pub const BG_16: Subdivision = Subdivision {
     name: "Plovdiv",
     code: "BG-16",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "16",
@@ -5210,7 +4823,7 @@ pub const BG_16: Subdivision = Subdivision {
 pub const BG_17: Subdivision = Subdivision {
     name: "Razgrad",
     code: "BG-17",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "17",
@@ -5219,7 +4832,7 @@ pub const BG_17: Subdivision = Subdivision {
 pub const BG_18: Subdivision = Subdivision {
     name: "Ruse",
     code: "BG-18",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "18",
@@ -5228,7 +4841,7 @@ pub const BG_18: Subdivision = Subdivision {
 pub const BG_19: Subdivision = Subdivision {
     name: "Silistra",
     code: "BG-19",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "19",
@@ -5237,7 +4850,7 @@ pub const BG_19: Subdivision = Subdivision {
 pub const BG_20: Subdivision = Subdivision {
     name: "Sliven",
     code: "BG-20",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "20",
@@ -5246,16 +4859,16 @@ pub const BG_20: Subdivision = Subdivision {
 pub const BG_21: Subdivision = Subdivision {
     name: "Smolyan",
     code: "BG-21",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "21",
 };
 
 pub const BG_22: Subdivision = Subdivision {
-    name: "Sofia",
+    name: "Sofia (stolitsa)",
     code: "BG-22",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "22",
@@ -5264,7 +4877,7 @@ pub const BG_22: Subdivision = Subdivision {
 pub const BG_23: Subdivision = Subdivision {
     name: "Sofia",
     code: "BG-23",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "23",
@@ -5273,7 +4886,7 @@ pub const BG_23: Subdivision = Subdivision {
 pub const BG_24: Subdivision = Subdivision {
     name: "Stara Zagora",
     code: "BG-24",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "24",
@@ -5282,7 +4895,7 @@ pub const BG_24: Subdivision = Subdivision {
 pub const BG_25: Subdivision = Subdivision {
     name: "Targovishte",
     code: "BG-25",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "25",
@@ -5291,7 +4904,7 @@ pub const BG_25: Subdivision = Subdivision {
 pub const BG_26: Subdivision = Subdivision {
     name: "Haskovo",
     code: "BG-26",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "26",
@@ -5300,7 +4913,7 @@ pub const BG_26: Subdivision = Subdivision {
 pub const BG_27: Subdivision = Subdivision {
     name: "Shumen",
     code: "BG-27",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "27",
@@ -5309,7 +4922,7 @@ pub const BG_27: Subdivision = Subdivision {
 pub const BG_28: Subdivision = Subdivision {
     name: "Yambol",
     code: "BG-28",
-    subdivision_type: "Region",
+    subdivision_type: "District",
     country_name: "Bulgaria",
     country_code: "BG",
     region_code: "28",
@@ -5784,7 +5397,7 @@ pub const BF_TAP: Subdivision = Subdivision {
 };
 
 pub const BF_TUI: Subdivision = Subdivision {
-    name: "Tui",
+    name: "Tuy",
     code: "BF-TUI",
     subdivision_type: "Province",
     country_name: "Burkina Faso",
@@ -5972,6 +5585,15 @@ pub const BI_NG: Subdivision = Subdivision {
     region_code: "NG",
 };
 
+pub const BI_RM: Subdivision = Subdivision {
+    name: "Rumonge",
+    code: "BI-RM",
+    subdivision_type: "Province",
+    country_name: "Burundi",
+    country_code: "BI",
+    region_code: "RM",
+};
+
 pub const BI_RT: Subdivision = Subdivision {
     name: "Rutana",
     code: "BI-RT",
@@ -5990,8 +5612,233 @@ pub const BI_RY: Subdivision = Subdivision {
     region_code: "RY",
 };
 
+pub const CV_B: Subdivision = Subdivision {
+    name: "Ilhas de Barlavento",
+    code: "CV-B",
+    subdivision_type: "Geographical region",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "B",
+};
+
+pub const CV_BR: Subdivision = Subdivision {
+    name: "Brava",
+    code: "CV-BR",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "BR",
+};
+
+pub const CV_BV: Subdivision = Subdivision {
+    name: "Boa Vista",
+    code: "CV-BV",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "BV",
+};
+
+pub const CV_CA: Subdivision = Subdivision {
+    name: "Santa Catarina",
+    code: "CV-CA",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "CA",
+};
+
+pub const CV_CF: Subdivision = Subdivision {
+    name: "Santa Catarina do Fogo",
+    code: "CV-CF",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "CF",
+};
+
+pub const CV_CR: Subdivision = Subdivision {
+    name: "Santa Cruz",
+    code: "CV-CR",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "CR",
+};
+
+pub const CV_MA: Subdivision = Subdivision {
+    name: "Maio",
+    code: "CV-MA",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "MA",
+};
+
+pub const CV_MO: Subdivision = Subdivision {
+    name: "Mosteiros",
+    code: "CV-MO",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "MO",
+};
+
+pub const CV_PA: Subdivision = Subdivision {
+    name: "Paul",
+    code: "CV-PA",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "PA",
+};
+
+pub const CV_PN: Subdivision = Subdivision {
+    name: "Porto Novo",
+    code: "CV-PN",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "PN",
+};
+
+pub const CV_PR: Subdivision = Subdivision {
+    name: "Praia",
+    code: "CV-PR",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "PR",
+};
+
+pub const CV_RB: Subdivision = Subdivision {
+    name: "Ribeira Brava",
+    code: "CV-RB",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "RB",
+};
+
+pub const CV_RG: Subdivision = Subdivision {
+    name: "Ribeira Grande",
+    code: "CV-RG",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "RG",
+};
+
+pub const CV_RS: Subdivision = Subdivision {
+    name: "Ribeira Grande de Santiago",
+    code: "CV-RS",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "RS",
+};
+
+pub const CV_S: Subdivision = Subdivision {
+    name: "Ilhas de Sotavento",
+    code: "CV-S",
+    subdivision_type: "Geographical region",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "S",
+};
+
+pub const CV_SD: Subdivision = Subdivision {
+    name: "São Domingos",
+    code: "CV-SD",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "SD",
+};
+
+pub const CV_SF: Subdivision = Subdivision {
+    name: "São Filipe",
+    code: "CV-SF",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "SF",
+};
+
+pub const CV_SL: Subdivision = Subdivision {
+    name: "Sal",
+    code: "CV-SL",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "SL",
+};
+
+pub const CV_SM: Subdivision = Subdivision {
+    name: "São Miguel",
+    code: "CV-SM",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "SM",
+};
+
+pub const CV_SO: Subdivision = Subdivision {
+    name: "São Lourenço dos Órgãos",
+    code: "CV-SO",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "SO",
+};
+
+pub const CV_SS: Subdivision = Subdivision {
+    name: "São Salvador do Mundo",
+    code: "CV-SS",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "SS",
+};
+
+pub const CV_SV: Subdivision = Subdivision {
+    name: "São Vicente",
+    code: "CV-SV",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "SV",
+};
+
+pub const CV_TA: Subdivision = Subdivision {
+    name: "Tarrafal",
+    code: "CV-TA",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "TA",
+};
+
+pub const CV_TS: Subdivision = Subdivision {
+    name: "Tarrafal de São Nicolau",
+    code: "CV-TS",
+    subdivision_type: "Municipality",
+    country_name: "Cabo Verde",
+    country_code: "CV",
+    region_code: "TS",
+};
+
+pub const KH_1: Subdivision = Subdivision {
+    name: "Banteay Mean Choăy",
+    code: "KH-1",
+    subdivision_type: "Province",
+    country_name: "Cambodia",
+    country_code: "KH",
+    region_code: "1",
+};
+
 pub const KH_10: Subdivision = Subdivision {
-    name: "Krâchéh",
+    name: "Kracheh",
     code: "KH-10",
     subdivision_type: "Province",
     country_name: "Cambodia",
@@ -6000,7 +5847,7 @@ pub const KH_10: Subdivision = Subdivision {
 };
 
 pub const KH_11: Subdivision = Subdivision {
-    name: "Môndól Kiri",
+    name: "Mondol Kiri",
     code: "KH-11",
     subdivision_type: "Province",
     country_name: "Cambodia",
@@ -6018,7 +5865,7 @@ pub const KH_12: Subdivision = Subdivision {
 };
 
 pub const KH_13: Subdivision = Subdivision {
-    name: "Preăh Vihéar",
+    name: "Preah Vihear",
     code: "KH-13",
     subdivision_type: "Province",
     country_name: "Cambodia",
@@ -6063,16 +5910,16 @@ pub const KH_17: Subdivision = Subdivision {
 };
 
 pub const KH_18: Subdivision = Subdivision {
-    name: "Krŏng Preăh Sihanouk",
+    name: "Preah Sihanouk",
     code: "KH-18",
-    subdivision_type: "Autonomous municipality",
+    subdivision_type: "Province",
     country_name: "Cambodia",
     country_code: "KH",
     region_code: "18",
 };
 
 pub const KH_19: Subdivision = Subdivision {
-    name: "Stoĕng Trêng",
+    name: "Stueng Traeng",
     code: "KH-19",
     subdivision_type: "Province",
     country_name: "Cambodia",
@@ -6080,13 +5927,13 @@ pub const KH_19: Subdivision = Subdivision {
     region_code: "19",
 };
 
-pub const KH_1: Subdivision = Subdivision {
-    name: "Bântéay Méanchey",
-    code: "KH-1",
+pub const KH_2: Subdivision = Subdivision {
+    name: "Baat Dambang",
+    code: "KH-2",
     subdivision_type: "Province",
     country_name: "Cambodia",
     country_code: "KH",
-    region_code: "1",
+    region_code: "2",
 };
 
 pub const KH_20: Subdivision = Subdivision {
@@ -6108,7 +5955,7 @@ pub const KH_21: Subdivision = Subdivision {
 };
 
 pub const KH_22: Subdivision = Subdivision {
-    name: "Ŏtdâr Méanchey",
+    name: "Otdar Mean Chey",
     code: "KH-22",
     subdivision_type: "Province",
     country_name: "Cambodia",
@@ -6117,30 +5964,30 @@ pub const KH_22: Subdivision = Subdivision {
 };
 
 pub const KH_23: Subdivision = Subdivision {
-    name: "Krong Kaeb",
+    name: "Kaeb",
     code: "KH-23",
-    subdivision_type: "Autonomous municipality",
+    subdivision_type: "Province",
     country_name: "Cambodia",
     country_code: "KH",
     region_code: "23",
 };
 
 pub const KH_24: Subdivision = Subdivision {
-    name: "Krŏng Pailĭn",
+    name: "Pailin",
     code: "KH-24",
-    subdivision_type: "Autonomous municipality",
+    subdivision_type: "Province",
     country_name: "Cambodia",
     country_code: "KH",
     region_code: "24",
 };
 
-pub const KH_2: Subdivision = Subdivision {
-    name: "Baat Dambang",
-    code: "KH-2",
+pub const KH_25: Subdivision = Subdivision {
+    name: "Tbong Khmum",
+    code: "KH-25",
     subdivision_type: "Province",
     country_name: "Cambodia",
     country_code: "KH",
-    region_code: "2",
+    region_code: "25",
 };
 
 pub const KH_3: Subdivision = Subdivision {
@@ -6162,7 +6009,7 @@ pub const KH_4: Subdivision = Subdivision {
 };
 
 pub const KH_5: Subdivision = Subdivision {
-    name: "Kâmpóng Spœ",
+    name: "Kampong Spueu",
     code: "KH-5",
     subdivision_type: "Province",
     country_name: "Cambodia",
@@ -6171,7 +6018,7 @@ pub const KH_5: Subdivision = Subdivision {
 };
 
 pub const KH_6: Subdivision = Subdivision {
-    name: "Kâmpóng Thum",
+    name: "Kampong Thum",
     code: "KH-6",
     subdivision_type: "Province",
     country_name: "Cambodia",
@@ -6225,7 +6072,7 @@ pub const CM_CE: Subdivision = Subdivision {
 };
 
 pub const CM_EN: Subdivision = Subdivision {
-    name: "Extrême-Nord",
+    name: "Far North",
     code: "CM-EN",
     subdivision_type: "Region",
     country_name: "Cameroon",
@@ -6252,7 +6099,7 @@ pub const CM_LT: Subdivision = Subdivision {
 };
 
 pub const CM_NO: Subdivision = Subdivision {
-    name: "Nord",
+    name: "North",
     code: "CM-NO",
     subdivision_type: "Region",
     country_name: "Cameroon",
@@ -6261,7 +6108,7 @@ pub const CM_NO: Subdivision = Subdivision {
 };
 
 pub const CM_NW: Subdivision = Subdivision {
-    name: "Nord-Ouest",
+    name: "North-West",
     code: "CM-NW",
     subdivision_type: "Region",
     country_name: "Cameroon",
@@ -6270,7 +6117,7 @@ pub const CM_NW: Subdivision = Subdivision {
 };
 
 pub const CM_OU: Subdivision = Subdivision {
-    name: "Ouest",
+    name: "West",
     code: "CM-OU",
     subdivision_type: "Region",
     country_name: "Cameroon",
@@ -6413,267 +6260,6 @@ pub const CA_YT: Subdivision = Subdivision {
     region_code: "YT",
 };
 
-pub const CV_B: Subdivision = Subdivision {
-    name: "Ilhas de Barlavento",
-    code: "CV-B",
-    subdivision_type: "Geographical region",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "B",
-};
-
-pub const CV_BR: Subdivision = Subdivision {
-    name: "Brava",
-    code: "CV-BR",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "BR",
-};
-
-pub const CV_BV: Subdivision = Subdivision {
-    name: "Boa Vista",
-    code: "CV-BV",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "BV",
-};
-
-pub const CV_CA: Subdivision = Subdivision {
-    name: "Santa Catarina",
-    code: "CV-CA",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "CA",
-};
-
-pub const CV_CF: Subdivision = Subdivision {
-    name: "Santa Catarina do Fogo",
-    code: "CV-CF",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "CF",
-};
-
-pub const CV_CR: Subdivision = Subdivision {
-    name: "Santa Cruz",
-    code: "CV-CR",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "CR",
-};
-
-pub const CV_MA: Subdivision = Subdivision {
-    name: "Maio",
-    code: "CV-MA",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "MA",
-};
-
-pub const CV_MO: Subdivision = Subdivision {
-    name: "Mosteiros",
-    code: "CV-MO",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "MO",
-};
-
-pub const CV_PA: Subdivision = Subdivision {
-    name: "Paul",
-    code: "CV-PA",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "PA",
-};
-
-pub const CV_PN: Subdivision = Subdivision {
-    name: "Porto Novo",
-    code: "CV-PN",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "PN",
-};
-
-pub const CV_PR: Subdivision = Subdivision {
-    name: "Praia",
-    code: "CV-PR",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "PR",
-};
-
-pub const CV_RB: Subdivision = Subdivision {
-    name: "Ribeira Brava",
-    code: "CV-RB",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "RB",
-};
-
-pub const CV_RG: Subdivision = Subdivision {
-    name: "Ribeira Grande",
-    code: "CV-RG",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "RG",
-};
-
-pub const CV_RS: Subdivision = Subdivision {
-    name: "Ribeira Grande de Santiago",
-    code: "CV-RS",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "RS",
-};
-
-pub const CV_SD: Subdivision = Subdivision {
-    name: "São Domingos",
-    code: "CV-SD",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "SD",
-};
-
-pub const CV_SF: Subdivision = Subdivision {
-    name: "São Filipe",
-    code: "CV-SF",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "SF",
-};
-
-pub const CV_S: Subdivision = Subdivision {
-    name: "Ilhas de Sotavento",
-    code: "CV-S",
-    subdivision_type: "Geographical region",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "S",
-};
-
-pub const CV_SL: Subdivision = Subdivision {
-    name: "Sal",
-    code: "CV-SL",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "SL",
-};
-
-pub const CV_SM: Subdivision = Subdivision {
-    name: "São Miguel",
-    code: "CV-SM",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "SM",
-};
-
-pub const CV_SO: Subdivision = Subdivision {
-    name: "São Lourenço dos Órgãos",
-    code: "CV-SO",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "SO",
-};
-
-pub const CV_SS: Subdivision = Subdivision {
-    name: "São Salvador do Mundo",
-    code: "CV-SS",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "SS",
-};
-
-pub const CV_SV: Subdivision = Subdivision {
-    name: "São Vicente",
-    code: "CV-SV",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "SV",
-};
-
-pub const CV_TA: Subdivision = Subdivision {
-    name: "Tarrafal",
-    code: "CV-TA",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "TA",
-};
-
-pub const CV_TS: Subdivision = Subdivision {
-    name: "Tarrafal de São Nicolau",
-    code: "CV-TS",
-    subdivision_type: "Municipality",
-    country_name: "Cape Verde",
-    country_code: "CV",
-    region_code: "TS",
-};
-
-pub const KY_KY: Subdivision = Subdivision {
-    name: "Cayman Islands",
-    code: "KY-KY",
-    subdivision_type: "Country",
-    country_name: "Cayman Islands",
-    country_code: "KY",
-    region_code: "KY",
-};
-
-pub const XC_BA: Subdivision = Subdivision {
-    name: "Barcelona",
-    code: "XC-BA",
-    subdivision_type: "Province",
-    country_name: "Catalonia",
-    country_code: "XC",
-    region_code: "BA",
-};
-
-pub const XC_GI: Subdivision = Subdivision {
-    name: "Girona",
-    code: "XC-GI",
-    subdivision_type: "Province",
-    country_name: "Catalonia",
-    country_code: "XC",
-    region_code: "GI",
-};
-
-pub const XC_LL: Subdivision = Subdivision {
-    name: "Lleida",
-    code: "XC-LL",
-    subdivision_type: "Province",
-    country_name: "Catalonia",
-    country_code: "XC",
-    region_code: "LL",
-};
-
-pub const XC_TA: Subdivision = Subdivision {
-    name: "Tarragona",
-    code: "XC-TA",
-    subdivision_type: "Province",
-    country_name: "Catalonia",
-    country_code: "XC",
-    region_code: "TA",
-};
-
 pub const CF_AC: Subdivision = Subdivision {
     name: "Ouham",
     code: "CF-AC",
@@ -6684,7 +6270,7 @@ pub const CF_AC: Subdivision = Subdivision {
 };
 
 pub const CF_BB: Subdivision = Subdivision {
-    name: "Bamïngï-Bangoran",
+    name: "Bamingui-Bangoran",
     code: "CF-BB",
     subdivision_type: "Prefecture",
     country_name: "Central African Republic",
@@ -6693,7 +6279,7 @@ pub const CF_BB: Subdivision = Subdivision {
 };
 
 pub const CF_BGF: Subdivision = Subdivision {
-    name: "Bangî",
+    name: "Bangui",
     code: "CF-BGF",
     subdivision_type: "Commune",
     country_name: "Central African Republic",
@@ -6738,7 +6324,7 @@ pub const CF_HS: Subdivision = Subdivision {
 };
 
 pub const CF_KB: Subdivision = Subdivision {
-    name: "Gïrïbïngï",
+    name: "Gribingui",
     code: "CF-KB",
     subdivision_type: "Economic prefecture",
     country_name: "Central African Republic",
@@ -6747,7 +6333,7 @@ pub const CF_KB: Subdivision = Subdivision {
 };
 
 pub const CF_KG: Subdivision = Subdivision {
-    name: "Kemö-Gïrïbïngï",
+    name: "Kémo-Gribingui",
     code: "CF-KG",
     subdivision_type: "Prefecture",
     country_name: "Central African Republic",
@@ -6774,7 +6360,7 @@ pub const CF_MB: Subdivision = Subdivision {
 };
 
 pub const CF_MP: Subdivision = Subdivision {
-    name: "Ömbëlä-Pökö",
+    name: "Ombella-Mpoko",
     code: "CF-MP",
     subdivision_type: "Prefecture",
     country_name: "Central African Republic",
@@ -6801,7 +6387,7 @@ pub const CF_OP: Subdivision = Subdivision {
 };
 
 pub const CF_SE: Subdivision = Subdivision {
-    name: "Sangä",
+    name: "Sangha",
     code: "CF-SE",
     subdivision_type: "Economic prefecture",
     country_name: "Central African Republic",
@@ -6828,18 +6414,18 @@ pub const CF_VK: Subdivision = Subdivision {
 };
 
 pub const TD_BA: Subdivision = Subdivision {
-    name: "Al Baţḩah",
+    name: "Batha",
     code: "TD-BA",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "BA",
 };
 
 pub const TD_BG: Subdivision = Subdivision {
-    name: "Baḩr al Ghazāl",
+    name: "Bahr el Ghazal",
     code: "TD-BG",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "BG",
@@ -6848,7 +6434,7 @@ pub const TD_BG: Subdivision = Subdivision {
 pub const TD_BO: Subdivision = Subdivision {
     name: "Borkou",
     code: "TD-BO",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "BO",
@@ -6857,7 +6443,7 @@ pub const TD_BO: Subdivision = Subdivision {
 pub const TD_CB: Subdivision = Subdivision {
     name: "Chari-Baguirmi",
     code: "TD-CB",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "CB",
@@ -6866,7 +6452,7 @@ pub const TD_CB: Subdivision = Subdivision {
 pub const TD_EE: Subdivision = Subdivision {
     name: "Ennedi-Est",
     code: "TD-EE",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "EE",
@@ -6875,7 +6461,7 @@ pub const TD_EE: Subdivision = Subdivision {
 pub const TD_EO: Subdivision = Subdivision {
     name: "Ennedi-Ouest",
     code: "TD-EO",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "EO",
@@ -6884,7 +6470,7 @@ pub const TD_EO: Subdivision = Subdivision {
 pub const TD_GR: Subdivision = Subdivision {
     name: "Guéra",
     code: "TD-GR",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "GR",
@@ -6893,7 +6479,7 @@ pub const TD_GR: Subdivision = Subdivision {
 pub const TD_HL: Subdivision = Subdivision {
     name: "Hadjer Lamis",
     code: "TD-HL",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "HL",
@@ -6902,16 +6488,16 @@ pub const TD_HL: Subdivision = Subdivision {
 pub const TD_KA: Subdivision = Subdivision {
     name: "Kanem",
     code: "TD-KA",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "KA",
 };
 
 pub const TD_LC: Subdivision = Subdivision {
-    name: "Al Buḩayrah",
+    name: "Lac",
     code: "TD-LC",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "LC",
@@ -6920,7 +6506,7 @@ pub const TD_LC: Subdivision = Subdivision {
 pub const TD_LO: Subdivision = Subdivision {
     name: "Logone-Occidental",
     code: "TD-LO",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "LO",
@@ -6929,7 +6515,7 @@ pub const TD_LO: Subdivision = Subdivision {
 pub const TD_LR: Subdivision = Subdivision {
     name: "Logone-Oriental",
     code: "TD-LR",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "LR",
@@ -6938,7 +6524,7 @@ pub const TD_LR: Subdivision = Subdivision {
 pub const TD_MA: Subdivision = Subdivision {
     name: "Mandoul",
     code: "TD-MA",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "MA",
@@ -6947,7 +6533,7 @@ pub const TD_MA: Subdivision = Subdivision {
 pub const TD_MC: Subdivision = Subdivision {
     name: "Moyen-Chari",
     code: "TD-MC",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "MC",
@@ -6956,7 +6542,7 @@ pub const TD_MC: Subdivision = Subdivision {
 pub const TD_ME: Subdivision = Subdivision {
     name: "Mayo-Kebbi-Est",
     code: "TD-ME",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "ME",
@@ -6965,16 +6551,16 @@ pub const TD_ME: Subdivision = Subdivision {
 pub const TD_MO: Subdivision = Subdivision {
     name: "Mayo-Kebbi-Ouest",
     code: "TD-MO",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "MO",
 };
 
 pub const TD_ND: Subdivision = Subdivision {
-    name: "Madīnat Injamīnā",
+    name: "Ville de Ndjamena",
     code: "TD-ND",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "ND",
@@ -6983,7 +6569,7 @@ pub const TD_ND: Subdivision = Subdivision {
 pub const TD_OD: Subdivision = Subdivision {
     name: "Ouaddaï",
     code: "TD-OD",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "OD",
@@ -6992,7 +6578,7 @@ pub const TD_OD: Subdivision = Subdivision {
 pub const TD_SA: Subdivision = Subdivision {
     name: "Salamat",
     code: "TD-SA",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "SA",
@@ -7001,7 +6587,7 @@ pub const TD_SA: Subdivision = Subdivision {
 pub const TD_SI: Subdivision = Subdivision {
     name: "Sila",
     code: "TD-SI",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "SI",
@@ -7010,16 +6596,16 @@ pub const TD_SI: Subdivision = Subdivision {
 pub const TD_TA: Subdivision = Subdivision {
     name: "Tandjilé",
     code: "TD-TA",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "TA",
 };
 
 pub const TD_TI: Subdivision = Subdivision {
-    name: "Tibastī",
+    name: "Tibesti",
     code: "TD-TI",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "TI",
@@ -7028,14 +6614,14 @@ pub const TD_TI: Subdivision = Subdivision {
 pub const TD_WF: Subdivision = Subdivision {
     name: "Wadi Fira",
     code: "TD-WF",
-    subdivision_type: "Region",
+    subdivision_type: "Province",
     country_name: "Chad",
     country_code: "TD",
     region_code: "WF",
 };
 
 pub const CL_AI: Subdivision = Subdivision {
-    name: "Aysén",
+    name: "Aisén del General Carlos Ibañez del Campo",
     code: "CL-AI",
     subdivision_type: "Region",
     country_name: "Chile",
@@ -7062,7 +6648,7 @@ pub const CL_AP: Subdivision = Subdivision {
 };
 
 pub const CL_AR: Subdivision = Subdivision {
-    name: "Araucanía",
+    name: "La Araucanía",
     code: "CL-AR",
     subdivision_type: "Region",
     country_name: "Chile",
@@ -7142,6 +6728,15 @@ pub const CL_ML: Subdivision = Subdivision {
     region_code: "ML",
 };
 
+pub const CL_NB: Subdivision = Subdivision {
+    name: "Ñuble",
+    code: "CL-NB",
+    subdivision_type: "Region",
+    country_name: "Chile",
+    country_code: "CL",
+    region_code: "NB",
+};
+
 pub const CL_RM: Subdivision = Subdivision {
     name: "Región Metropolitana de Santiago",
     code: "CL-RM",
@@ -7169,328 +6764,310 @@ pub const CL_VS: Subdivision = Subdivision {
     region_code: "VS",
 };
 
-pub const CN_11: Subdivision = Subdivision {
-    name: "Beijing",
-    code: "CN-11",
+pub const CN_AH: Subdivision = Subdivision {
+    name: "Anhui Sheng",
+    code: "CN-AH",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "AH",
+};
+
+pub const CN_BJ: Subdivision = Subdivision {
+    name: "Beijing Shi",
+    code: "CN-BJ",
     subdivision_type: "Municipality",
     country_name: "China",
     country_code: "CN",
-    region_code: "11",
+    region_code: "BJ",
 };
 
-pub const CN_12: Subdivision = Subdivision {
-    name: "Tianjin",
-    code: "CN-12",
+pub const CN_CQ: Subdivision = Subdivision {
+    name: "Chongqing Shi",
+    code: "CN-CQ",
     subdivision_type: "Municipality",
     country_name: "China",
     country_code: "CN",
-    region_code: "12",
+    region_code: "CQ",
 };
 
-pub const CN_13: Subdivision = Subdivision {
-    name: "Hebei",
-    code: "CN-13",
+pub const CN_FJ: Subdivision = Subdivision {
+    name: "Fujian Sheng",
+    code: "CN-FJ",
     subdivision_type: "Province",
     country_name: "China",
     country_code: "CN",
-    region_code: "13",
+    region_code: "FJ",
 };
 
-pub const CN_14: Subdivision = Subdivision {
-    name: "Shanxi",
-    code: "CN-14",
+pub const CN_GD: Subdivision = Subdivision {
+    name: "Guangdong Sheng",
+    code: "CN-GD",
     subdivision_type: "Province",
     country_name: "China",
     country_code: "CN",
-    region_code: "14",
+    region_code: "GD",
 };
 
-pub const CN_15: Subdivision = Subdivision {
-    name: "Nei Mongol",
-    code: "CN-15",
+pub const CN_GS: Subdivision = Subdivision {
+    name: "Gansu Sheng",
+    code: "CN-GS",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "GS",
+};
+
+pub const CN_GX: Subdivision = Subdivision {
+    name: "Guangxi Zhuangzu Zizhiqu",
+    code: "CN-GX",
     subdivision_type: "Autonomous region",
     country_name: "China",
     country_code: "CN",
-    region_code: "15",
+    region_code: "GX",
 };
 
-pub const CN_21: Subdivision = Subdivision {
-    name: "Liaoning",
-    code: "CN-21",
+pub const CN_GZ: Subdivision = Subdivision {
+    name: "Guizhou Sheng",
+    code: "CN-GZ",
     subdivision_type: "Province",
     country_name: "China",
     country_code: "CN",
-    region_code: "21",
+    region_code: "GZ",
 };
 
-pub const CN_22: Subdivision = Subdivision {
-    name: "Jilin",
-    code: "CN-22",
+pub const CN_HA: Subdivision = Subdivision {
+    name: "Henan Sheng",
+    code: "CN-HA",
     subdivision_type: "Province",
     country_name: "China",
     country_code: "CN",
-    region_code: "22",
+    region_code: "HA",
 };
 
-pub const CN_23: Subdivision = Subdivision {
-    name: "Heilongjiang",
-    code: "CN-23",
+pub const CN_HB: Subdivision = Subdivision {
+    name: "Hubei Sheng",
+    code: "CN-HB",
     subdivision_type: "Province",
     country_name: "China",
     country_code: "CN",
-    region_code: "23",
+    region_code: "HB",
 };
 
-pub const CN_31: Subdivision = Subdivision {
-    name: "Shanghai",
-    code: "CN-31",
-    subdivision_type: "Municipality",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "31",
-};
-
-pub const CN_32: Subdivision = Subdivision {
-    name: "Jiangsu",
-    code: "CN-32",
+pub const CN_HE: Subdivision = Subdivision {
+    name: "Hebei Sheng",
+    code: "CN-HE",
     subdivision_type: "Province",
     country_name: "China",
     country_code: "CN",
-    region_code: "32",
+    region_code: "HE",
 };
 
-pub const CN_33: Subdivision = Subdivision {
-    name: "Zhejiang",
-    code: "CN-33",
+pub const CN_HI: Subdivision = Subdivision {
+    name: "Hainan Sheng",
+    code: "CN-HI",
     subdivision_type: "Province",
     country_name: "China",
     country_code: "CN",
-    region_code: "33",
+    region_code: "HI",
 };
 
-pub const CN_34: Subdivision = Subdivision {
-    name: "Anhui",
-    code: "CN-34",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "34",
-};
-
-pub const CN_35: Subdivision = Subdivision {
-    name: "Fujian",
-    code: "CN-35",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "35",
-};
-
-pub const CN_36: Subdivision = Subdivision {
-    name: "Jiangxi",
-    code: "CN-36",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "36",
-};
-
-pub const CN_37: Subdivision = Subdivision {
-    name: "Shandong",
-    code: "CN-37",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "37",
-};
-
-pub const CN_41: Subdivision = Subdivision {
-    name: "Henan",
-    code: "CN-41",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "41",
-};
-
-pub const CN_42: Subdivision = Subdivision {
-    name: "Hubei",
-    code: "CN-42",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "42",
-};
-
-pub const CN_43: Subdivision = Subdivision {
-    name: "Hunan",
-    code: "CN-43",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "43",
-};
-
-pub const CN_44: Subdivision = Subdivision {
-    name: "Guangdong",
-    code: "CN-44",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "44",
-};
-
-pub const CN_45: Subdivision = Subdivision {
-    name: "Guangxi",
-    code: "CN-45",
-    subdivision_type: "Autonomous region",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "45",
-};
-
-pub const CN_46: Subdivision = Subdivision {
-    name: "Hainan",
-    code: "CN-46",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "46",
-};
-
-pub const CN_50: Subdivision = Subdivision {
-    name: "Chongqing",
-    code: "CN-50",
-    subdivision_type: "Municipality",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "50",
-};
-
-pub const CN_51: Subdivision = Subdivision {
-    name: "Sichuan",
-    code: "CN-51",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "51",
-};
-
-pub const CN_52: Subdivision = Subdivision {
-    name: "Guizhou",
-    code: "CN-52",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "52",
-};
-
-pub const CN_53: Subdivision = Subdivision {
-    name: "Yunnan",
-    code: "CN-53",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "53",
-};
-
-pub const CN_54: Subdivision = Subdivision {
-    name: "Xizang",
-    code: "CN-54",
-    subdivision_type: "Autonomous region",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "54",
-};
-
-pub const CN_61: Subdivision = Subdivision {
-    name: "Shaanxi",
-    code: "CN-61",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "61",
-};
-
-pub const CN_62: Subdivision = Subdivision {
-    name: "Gansu",
-    code: "CN-62",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "62",
-};
-
-pub const CN_63: Subdivision = Subdivision {
-    name: "Qinghai",
-    code: "CN-63",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "63",
-};
-
-pub const CN_64: Subdivision = Subdivision {
-    name: "Ningxia",
-    code: "CN-64",
-    subdivision_type: "Autonomous region",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "64",
-};
-
-pub const CN_65: Subdivision = Subdivision {
-    name: "Xinjiang",
-    code: "CN-65",
-    subdivision_type: "Autonomous region",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "65",
-};
-
-pub const CN_71: Subdivision = Subdivision {
-    name: "Taiwan",
-    code: "CN-71",
-    subdivision_type: "Province",
-    country_name: "China",
-    country_code: "CN",
-    region_code: "71",
-};
-
-pub const CN_91: Subdivision = Subdivision {
-    name: "Hong Kong",
-    code: "CN-91",
+pub const CN_HK: Subdivision = Subdivision {
+    name: "Hong Kong SAR",
+    code: "CN-HK",
     subdivision_type: "Special administrative region",
     country_name: "China",
     country_code: "CN",
-    region_code: "91",
+    region_code: "HK",
 };
 
-pub const CN_92: Subdivision = Subdivision {
-    name: "Aomen",
-    code: "CN-92",
+pub const CN_HL: Subdivision = Subdivision {
+    name: "Heilongjiang Sheng",
+    code: "CN-HL",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "HL",
+};
+
+pub const CN_HN: Subdivision = Subdivision {
+    name: "Hunan Sheng",
+    code: "CN-HN",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "HN",
+};
+
+pub const CN_JL: Subdivision = Subdivision {
+    name: "Jilin Sheng",
+    code: "CN-JL",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "JL",
+};
+
+pub const CN_JS: Subdivision = Subdivision {
+    name: "Jiangsu Sheng",
+    code: "CN-JS",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "JS",
+};
+
+pub const CN_JX: Subdivision = Subdivision {
+    name: "Jiangxi Sheng",
+    code: "CN-JX",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "JX",
+};
+
+pub const CN_LN: Subdivision = Subdivision {
+    name: "Liaoning Sheng",
+    code: "CN-LN",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "LN",
+};
+
+pub const CN_MO: Subdivision = Subdivision {
+    name: "Macao SAR",
+    code: "CN-MO",
     subdivision_type: "Special administrative region",
     country_name: "China",
     country_code: "CN",
-    region_code: "92",
+    region_code: "MO",
 };
 
-pub const CX_CX: Subdivision = Subdivision {
-    name: "Christmas Island",
-    code: "CX-CX",
-    subdivision_type: "Country",
-    country_name: "Christmas Island",
-    country_code: "CX",
-    region_code: "CX",
+pub const CN_NM: Subdivision = Subdivision {
+    name: "Nei Mongol Zizhiqu",
+    code: "CN-NM",
+    subdivision_type: "Autonomous region",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "NM",
 };
 
-pub const CC_CC: Subdivision = Subdivision {
-    name: "Cocos  Islands",
-    code: "CC-CC",
-    subdivision_type: "Country",
-    country_name: "Cocos  Islands",
-    country_code: "CC",
-    region_code: "CC",
+pub const CN_NX: Subdivision = Subdivision {
+    name: "Ningxia Huizu Zizhiqu",
+    code: "CN-NX",
+    subdivision_type: "Autonomous region",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "NX",
+};
+
+pub const CN_QH: Subdivision = Subdivision {
+    name: "Qinghai Sheng",
+    code: "CN-QH",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "QH",
+};
+
+pub const CN_SC: Subdivision = Subdivision {
+    name: "Sichuan Sheng",
+    code: "CN-SC",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "SC",
+};
+
+pub const CN_SD: Subdivision = Subdivision {
+    name: "Shandong Sheng",
+    code: "CN-SD",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "SD",
+};
+
+pub const CN_SH: Subdivision = Subdivision {
+    name: "Shanghai Shi",
+    code: "CN-SH",
+    subdivision_type: "Municipality",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "SH",
+};
+
+pub const CN_SN: Subdivision = Subdivision {
+    name: "Shaanxi Sheng",
+    code: "CN-SN",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "SN",
+};
+
+pub const CN_SX: Subdivision = Subdivision {
+    name: "Shanxi Sheng",
+    code: "CN-SX",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "SX",
+};
+
+pub const CN_TJ: Subdivision = Subdivision {
+    name: "Tianjin Shi",
+    code: "CN-TJ",
+    subdivision_type: "Municipality",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "TJ",
+};
+
+pub const CN_TW: Subdivision = Subdivision {
+    name: "Taiwan Sheng",
+    code: "CN-TW",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "TW",
+};
+
+pub const CN_XJ: Subdivision = Subdivision {
+    name: "Xinjiang Uygur Zizhiqu",
+    code: "CN-XJ",
+    subdivision_type: "Autonomous region",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "XJ",
+};
+
+pub const CN_XZ: Subdivision = Subdivision {
+    name: "Xizang Zizhiqu",
+    code: "CN-XZ",
+    subdivision_type: "Autonomous region",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "XZ",
+};
+
+pub const CN_YN: Subdivision = Subdivision {
+    name: "Yunnan Sheng",
+    code: "CN-YN",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "YN",
+};
+
+pub const CN_ZJ: Subdivision = Subdivision {
+    name: "Zhejiang Sheng",
+    code: "CN-ZJ",
+    subdivision_type: "Province",
+    country_name: "China",
+    country_code: "CN",
+    region_code: "ZJ",
 };
 
 pub const CO_AMA: Subdivision = Subdivision {
@@ -7791,7 +7368,7 @@ pub const CO_VID: Subdivision = Subdivision {
 };
 
 pub const KM_A: Subdivision = Subdivision {
-    name: "Andjouân",
+    name: "Anjouan",
     code: "KM-A",
     subdivision_type: "Island",
     country_name: "Comoros",
@@ -7800,7 +7377,7 @@ pub const KM_A: Subdivision = Subdivision {
 };
 
 pub const KM_G: Subdivision = Subdivision {
-    name: "Andjazîdja",
+    name: "Grande Comore",
     code: "KM-G",
     subdivision_type: "Island",
     country_name: "Comoros",
@@ -7926,111 +7503,237 @@ pub const CG_BZV: Subdivision = Subdivision {
 };
 
 pub const CD_BC: Subdivision = Subdivision {
-    name: "Bas-Congo",
+    name: "Kongo Central",
     code: "CD-BC",
     subdivision_type: "Province",
-    country_name: "Congo, The Democratic Republic Of The",
+    country_name: "Congo (Democratic Republic of the)",
     country_code: "CD",
     region_code: "BC",
 };
 
-pub const CD_BN: Subdivision = Subdivision {
-    name: "Bandundu",
-    code: "CD-BN",
+pub const CD_BU: Subdivision = Subdivision {
+    name: "Bas-Uélé",
+    code: "CD-BU",
     subdivision_type: "Province",
-    country_name: "Congo, The Democratic Republic Of The",
+    country_name: "Congo (Democratic Republic of the)",
     country_code: "CD",
-    region_code: "BN",
+    region_code: "BU",
 };
 
 pub const CD_EQ: Subdivision = Subdivision {
     name: "Équateur",
     code: "CD-EQ",
     subdivision_type: "Province",
-    country_name: "Congo, The Democratic Republic Of The",
+    country_name: "Congo (Democratic Republic of the)",
     country_code: "CD",
     region_code: "EQ",
 };
 
-pub const CD_KA: Subdivision = Subdivision {
-    name: "Katanga",
-    code: "CD-KA",
+pub const CD_HK: Subdivision = Subdivision {
+    name: "Haut-Katanga",
+    code: "CD-HK",
     subdivision_type: "Province",
-    country_name: "Congo, The Democratic Republic Of The",
+    country_name: "Congo (Democratic Republic of the)",
     country_code: "CD",
-    region_code: "KA",
+    region_code: "HK",
+};
+
+pub const CD_HL: Subdivision = Subdivision {
+    name: "Haut-Lomami",
+    code: "CD-HL",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "HL",
+};
+
+pub const CD_HU: Subdivision = Subdivision {
+    name: "Haut-Uélé",
+    code: "CD-HU",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "HU",
+};
+
+pub const CD_IT: Subdivision = Subdivision {
+    name: "Ituri",
+    code: "CD-IT",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "IT",
+};
+
+pub const CD_KC: Subdivision = Subdivision {
+    name: "Kasaï Central",
+    code: "CD-KC",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "KC",
 };
 
 pub const CD_KE: Subdivision = Subdivision {
-    name: "Kasai-Oriental",
+    name: "Kasaï Oriental",
     code: "CD-KE",
     subdivision_type: "Province",
-    country_name: "Congo, The Democratic Republic Of The",
+    country_name: "Congo (Democratic Republic of the)",
     country_code: "CD",
     region_code: "KE",
+};
+
+pub const CD_KG: Subdivision = Subdivision {
+    name: "Kwango",
+    code: "CD-KG",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "KG",
+};
+
+pub const CD_KL: Subdivision = Subdivision {
+    name: "Kwilu",
+    code: "CD-KL",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "KL",
 };
 
 pub const CD_KN: Subdivision = Subdivision {
     name: "Kinshasa",
     code: "CD-KN",
     subdivision_type: "City",
-    country_name: "Congo, The Democratic Republic Of The",
+    country_name: "Congo (Democratic Republic of the)",
     country_code: "CD",
     region_code: "KN",
 };
 
-pub const CD_KW: Subdivision = Subdivision {
-    name: "Kasai-Occidental",
-    code: "CD-KW",
+pub const CD_KS: Subdivision = Subdivision {
+    name: "Kasaï",
+    code: "CD-KS",
     subdivision_type: "Province",
-    country_name: "Congo, The Democratic Republic Of The",
+    country_name: "Congo (Democratic Republic of the)",
     country_code: "CD",
-    region_code: "KW",
+    region_code: "KS",
+};
+
+pub const CD_LO: Subdivision = Subdivision {
+    name: "Lomami",
+    code: "CD-LO",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "LO",
+};
+
+pub const CD_LU: Subdivision = Subdivision {
+    name: "Lualaba",
+    code: "CD-LU",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "LU",
 };
 
 pub const CD_MA: Subdivision = Subdivision {
     name: "Maniema",
     code: "CD-MA",
     subdivision_type: "Province",
-    country_name: "Congo, The Democratic Republic Of The",
+    country_name: "Congo (Democratic Republic of the)",
     country_code: "CD",
     region_code: "MA",
+};
+
+pub const CD_MN: Subdivision = Subdivision {
+    name: "Mai-Ndombe",
+    code: "CD-MN",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "MN",
+};
+
+pub const CD_MO: Subdivision = Subdivision {
+    name: "Mongala",
+    code: "CD-MO",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "MO",
 };
 
 pub const CD_NK: Subdivision = Subdivision {
     name: "Nord-Kivu",
     code: "CD-NK",
     subdivision_type: "Province",
-    country_name: "Congo, The Democratic Republic Of The",
+    country_name: "Congo (Democratic Republic of the)",
     country_code: "CD",
     region_code: "NK",
 };
 
-pub const CD_OR: Subdivision = Subdivision {
-    name: "Orientale",
-    code: "CD-OR",
+pub const CD_NU: Subdivision = Subdivision {
+    name: "Nord-Ubangi",
+    code: "CD-NU",
     subdivision_type: "Province",
-    country_name: "Congo, The Democratic Republic Of The",
+    country_name: "Congo (Democratic Republic of the)",
     country_code: "CD",
-    region_code: "OR",
+    region_code: "NU",
+};
+
+pub const CD_SA: Subdivision = Subdivision {
+    name: "Sankuru",
+    code: "CD-SA",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "SA",
 };
 
 pub const CD_SK: Subdivision = Subdivision {
     name: "Sud-Kivu",
     code: "CD-SK",
     subdivision_type: "Province",
-    country_name: "Congo, The Democratic Republic Of The",
+    country_name: "Congo (Democratic Republic of the)",
     country_code: "CD",
     region_code: "SK",
 };
 
-pub const CK_CK: Subdivision = Subdivision {
-    name: "Cook Islands",
-    code: "CK-CK",
-    subdivision_type: "Country",
-    country_name: "Cook Islands",
-    country_code: "CK",
-    region_code: "CK",
+pub const CD_SU: Subdivision = Subdivision {
+    name: "Sud-Ubangi",
+    code: "CD-SU",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "SU",
+};
+
+pub const CD_TA: Subdivision = Subdivision {
+    name: "Tanganyika",
+    code: "CD-TA",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "TA",
+};
+
+pub const CD_TO: Subdivision = Subdivision {
+    name: "Tshopo",
+    code: "CD-TO",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "TO",
+};
+
+pub const CD_TU: Subdivision = Subdivision {
+    name: "Tshuapa",
+    code: "CD-TU",
+    subdivision_type: "Province",
+    country_name: "Congo (Democratic Republic of the)",
+    country_code: "CD",
+    region_code: "TU",
 };
 
 pub const CR_A: Subdivision = Subdivision {
@@ -8096,175 +7799,130 @@ pub const CR_SJ: Subdivision = Subdivision {
     region_code: "SJ",
 };
 
-pub const CI_01: Subdivision = Subdivision {
-    name: "Lagunes",
-    code: "CI-01",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
+pub const CI_AB: Subdivision = Subdivision {
+    name: "Abidjan",
+    code: "CI-AB",
+    subdivision_type: "Autonomous district",
+    country_name: "Côte d'Ivoire",
     country_code: "CI",
-    region_code: "01",
+    region_code: "AB",
 };
 
-pub const CI_02: Subdivision = Subdivision {
-    name: "Haut-Sassandra",
-    code: "CI-02",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
-    country_code: "CI",
-    region_code: "02",
-};
-
-pub const CI_03: Subdivision = Subdivision {
-    name: "Savanes",
-    code: "CI-03",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
-    country_code: "CI",
-    region_code: "03",
-};
-
-pub const CI_04: Subdivision = Subdivision {
-    name: "Vallée du Bandama",
-    code: "CI-04",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
-    country_code: "CI",
-    region_code: "04",
-};
-
-pub const CI_05: Subdivision = Subdivision {
-    name: "Moyen-Comoé",
-    code: "CI-05",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
-    country_code: "CI",
-    region_code: "05",
-};
-
-pub const CI_06: Subdivision = Subdivision {
-    name: "18 Montagnes",
-    code: "CI-06",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
-    country_code: "CI",
-    region_code: "06",
-};
-
-pub const CI_07: Subdivision = Subdivision {
-    name: "Lacs",
-    code: "CI-07",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
-    country_code: "CI",
-    region_code: "07",
-};
-
-pub const CI_08: Subdivision = Subdivision {
-    name: "Zanzan",
-    code: "CI-08",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
-    country_code: "CI",
-    region_code: "08",
-};
-
-pub const CI_09: Subdivision = Subdivision {
+pub const CI_BS: Subdivision = Subdivision {
     name: "Bas-Sassandra",
-    code: "CI-09",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
+    code: "CI-BS",
+    subdivision_type: "District",
+    country_name: "Côte d'Ivoire",
     country_code: "CI",
-    region_code: "09",
+    region_code: "BS",
 };
 
-pub const CI_10: Subdivision = Subdivision {
+pub const CI_CM: Subdivision = Subdivision {
+    name: "Comoé",
+    code: "CI-CM",
+    subdivision_type: "District",
+    country_name: "Côte d'Ivoire",
+    country_code: "CI",
+    region_code: "CM",
+};
+
+pub const CI_DN: Subdivision = Subdivision {
     name: "Denguélé",
-    code: "CI-10",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
+    code: "CI-DN",
+    subdivision_type: "District",
+    country_name: "Côte d'Ivoire",
     country_code: "CI",
-    region_code: "10",
+    region_code: "DN",
 };
 
-pub const CI_11: Subdivision = Subdivision {
-    name: "Nzi-Comoé",
-    code: "CI-11",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
+pub const CI_GD: Subdivision = Subdivision {
+    name: "Gôh-Djiboua",
+    code: "CI-GD",
+    subdivision_type: "District",
+    country_name: "Côte d'Ivoire",
     country_code: "CI",
-    region_code: "11",
+    region_code: "GD",
 };
 
-pub const CI_12: Subdivision = Subdivision {
-    name: "Marahoué",
-    code: "CI-12",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
+pub const CI_LC: Subdivision = Subdivision {
+    name: "Lacs",
+    code: "CI-LC",
+    subdivision_type: "District",
+    country_name: "Côte d'Ivoire",
     country_code: "CI",
-    region_code: "12",
+    region_code: "LC",
 };
 
-pub const CI_13: Subdivision = Subdivision {
-    name: "Sud-Comoé",
-    code: "CI-13",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
+pub const CI_LG: Subdivision = Subdivision {
+    name: "Lagunes",
+    code: "CI-LG",
+    subdivision_type: "District",
+    country_name: "Côte d'Ivoire",
     country_code: "CI",
-    region_code: "13",
+    region_code: "LG",
 };
 
-pub const CI_14: Subdivision = Subdivision {
-    name: "Worodougou",
-    code: "CI-14",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
+pub const CI_MG: Subdivision = Subdivision {
+    name: "Montagnes",
+    code: "CI-MG",
+    subdivision_type: "District",
+    country_name: "Côte d'Ivoire",
     country_code: "CI",
-    region_code: "14",
+    region_code: "MG",
 };
 
-pub const CI_15: Subdivision = Subdivision {
-    name: "Sud-Bandama",
-    code: "CI-15",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
+pub const CI_SM: Subdivision = Subdivision {
+    name: "Sassandra-Marahoué",
+    code: "CI-SM",
+    subdivision_type: "District",
+    country_name: "Côte d'Ivoire",
     country_code: "CI",
-    region_code: "15",
+    region_code: "SM",
 };
 
-pub const CI_16: Subdivision = Subdivision {
-    name: "Agnébi",
-    code: "CI-16",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
+pub const CI_SV: Subdivision = Subdivision {
+    name: "Savanes",
+    code: "CI-SV",
+    subdivision_type: "District",
+    country_name: "Côte d'Ivoire",
     country_code: "CI",
-    region_code: "16",
+    region_code: "SV",
 };
 
-pub const CI_17: Subdivision = Subdivision {
-    name: "Bafing",
-    code: "CI-17",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
+pub const CI_VB: Subdivision = Subdivision {
+    name: "Vallée du Bandama",
+    code: "CI-VB",
+    subdivision_type: "District",
+    country_name: "Côte d'Ivoire",
     country_code: "CI",
-    region_code: "17",
+    region_code: "VB",
 };
 
-pub const CI_18: Subdivision = Subdivision {
-    name: "Fromager",
-    code: "CI-18",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
+pub const CI_WR: Subdivision = Subdivision {
+    name: "Woroba",
+    code: "CI-WR",
+    subdivision_type: "District",
+    country_name: "Côte d'Ivoire",
     country_code: "CI",
-    region_code: "18",
+    region_code: "WR",
 };
 
-pub const CI_19: Subdivision = Subdivision {
-    name: "Moyen-Cavally",
-    code: "CI-19",
-    subdivision_type: "Region",
-    country_name: "Côte D'Ivoire",
+pub const CI_YM: Subdivision = Subdivision {
+    name: "Yamoussoukro",
+    code: "CI-YM",
+    subdivision_type: "Autonomous district",
+    country_name: "Côte d'Ivoire",
     country_code: "CI",
-    region_code: "19",
+    region_code: "YM",
+};
+
+pub const CI_ZZ: Subdivision = Subdivision {
+    name: "Zanzan",
+    code: "CI-ZZ",
+    subdivision_type: "District",
+    country_name: "Côte d'Ivoire",
+    country_code: "CI",
+    region_code: "ZZ",
 };
 
 pub const HR_01: Subdivision = Subdivision {
@@ -8600,17 +8258,8 @@ pub const CU_99: Subdivision = Subdivision {
     region_code: "99",
 };
 
-pub const CW_CW: Subdivision = Subdivision {
-    name: "Curaçao",
-    code: "CW-CW",
-    subdivision_type: "Country",
-    country_name: "Curaçao",
-    country_code: "CW",
-    region_code: "CW",
-};
-
 pub const CY_01: Subdivision = Subdivision {
-    name: "Lefkoşa",
+    name: "Lefkosia",
     code: "CY-01",
     subdivision_type: "District",
     country_name: "Cyprus",
@@ -8646,7 +8295,7 @@ pub const CY_04: Subdivision = Subdivision {
 };
 
 pub const CY_05: Subdivision = Subdivision {
-    name: "Baf",
+    name: "Pafos",
     code: "CY-05",
     subdivision_type: "District",
     country_name: "Cyprus",
@@ -8655,7 +8304,7 @@ pub const CY_05: Subdivision = Subdivision {
 };
 
 pub const CY_06: Subdivision = Subdivision {
-    name: "Girne",
+    name: "Keryneia",
     code: "CY-06",
     subdivision_type: "District",
     country_name: "Cyprus",
@@ -8663,146 +8312,29 @@ pub const CY_06: Subdivision = Subdivision {
     region_code: "06",
 };
 
-pub const CZ_101: Subdivision = Subdivision {
-    name: "Praha 1",
-    code: "CZ-101",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
+pub const CZ_10: Subdivision = Subdivision {
+    name: "Praha, Hlavní město",
+    code: "CZ-10",
+    subdivision_type: "Capital city",
+    country_name: "Czechia",
     country_code: "CZ",
-    region_code: "101",
+    region_code: "10",
 };
 
-pub const CZ_102: Subdivision = Subdivision {
-    name: "Praha 2",
-    code: "CZ-102",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
+pub const CZ_20: Subdivision = Subdivision {
+    name: "Středočeský kraj",
+    code: "CZ-20",
+    subdivision_type: "Region",
+    country_name: "Czechia",
     country_code: "CZ",
-    region_code: "102",
-};
-
-pub const CZ_103: Subdivision = Subdivision {
-    name: "Praha 3",
-    code: "CZ-103",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "103",
-};
-
-pub const CZ_104: Subdivision = Subdivision {
-    name: "Praha 4",
-    code: "CZ-104",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "104",
-};
-
-pub const CZ_105: Subdivision = Subdivision {
-    name: "Praha 5",
-    code: "CZ-105",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "105",
-};
-
-pub const CZ_106: Subdivision = Subdivision {
-    name: "Praha 6",
-    code: "CZ-106",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "106",
-};
-
-pub const CZ_107: Subdivision = Subdivision {
-    name: "Praha 7",
-    code: "CZ-107",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "107",
-};
-
-pub const CZ_108: Subdivision = Subdivision {
-    name: "Praha 8",
-    code: "CZ-108",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "108",
-};
-
-pub const CZ_109: Subdivision = Subdivision {
-    name: "Praha 9",
-    code: "CZ-109",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "109",
-};
-
-pub const CZ_10A: Subdivision = Subdivision {
-    name: "Praha 10",
-    code: "CZ-10A",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "10A",
-};
-
-pub const CZ_10B: Subdivision = Subdivision {
-    name: "Praha 11",
-    code: "CZ-10B",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "10B",
-};
-
-pub const CZ_10C: Subdivision = Subdivision {
-    name: "Praha 12",
-    code: "CZ-10C",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "10C",
-};
-
-pub const CZ_10D: Subdivision = Subdivision {
-    name: "Praha 13",
-    code: "CZ-10D",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "10D",
-};
-
-pub const CZ_10E: Subdivision = Subdivision {
-    name: "Praha 14",
-    code: "CZ-10E",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "10E",
-};
-
-pub const CZ_10F: Subdivision = Subdivision {
-    name: "Praha 15",
-    code: "CZ-10F",
-    subdivision_type: "District",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "10F",
+    region_code: "20",
 };
 
 pub const CZ_201: Subdivision = Subdivision {
     name: "Benešov",
     code: "CZ-201",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "201",
 };
@@ -8811,7 +8343,7 @@ pub const CZ_202: Subdivision = Subdivision {
     name: "Beroun",
     code: "CZ-202",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "202",
 };
@@ -8820,7 +8352,7 @@ pub const CZ_203: Subdivision = Subdivision {
     name: "Kladno",
     code: "CZ-203",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "203",
 };
@@ -8829,7 +8361,7 @@ pub const CZ_204: Subdivision = Subdivision {
     name: "Kolín",
     code: "CZ-204",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "204",
 };
@@ -8838,7 +8370,7 @@ pub const CZ_205: Subdivision = Subdivision {
     name: "Kutná Hora",
     code: "CZ-205",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "205",
 };
@@ -8847,7 +8379,7 @@ pub const CZ_206: Subdivision = Subdivision {
     name: "Mělník",
     code: "CZ-206",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "206",
 };
@@ -8856,7 +8388,7 @@ pub const CZ_207: Subdivision = Subdivision {
     name: "Mladá Boleslav",
     code: "CZ-207",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "207",
 };
@@ -8865,7 +8397,7 @@ pub const CZ_208: Subdivision = Subdivision {
     name: "Nymburk",
     code: "CZ-208",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "208",
 };
@@ -8874,7 +8406,7 @@ pub const CZ_209: Subdivision = Subdivision {
     name: "Praha-východ",
     code: "CZ-209",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "209",
 };
@@ -8883,7 +8415,7 @@ pub const CZ_20A: Subdivision = Subdivision {
     name: "Praha-západ",
     code: "CZ-20A",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "20A",
 };
@@ -8892,7 +8424,7 @@ pub const CZ_20B: Subdivision = Subdivision {
     name: "Příbram",
     code: "CZ-20B",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "20B",
 };
@@ -8901,16 +8433,25 @@ pub const CZ_20C: Subdivision = Subdivision {
     name: "Rakovník",
     code: "CZ-20C",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "20C",
+};
+
+pub const CZ_31: Subdivision = Subdivision {
+    name: "Jihočeský kraj",
+    code: "CZ-31",
+    subdivision_type: "Region",
+    country_name: "Czechia",
+    country_code: "CZ",
+    region_code: "31",
 };
 
 pub const CZ_311: Subdivision = Subdivision {
     name: "České Budějovice",
     code: "CZ-311",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "311",
 };
@@ -8919,7 +8460,7 @@ pub const CZ_312: Subdivision = Subdivision {
     name: "Český Krumlov",
     code: "CZ-312",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "312",
 };
@@ -8928,7 +8469,7 @@ pub const CZ_313: Subdivision = Subdivision {
     name: "Jindřichův Hradec",
     code: "CZ-313",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "313",
 };
@@ -8937,7 +8478,7 @@ pub const CZ_314: Subdivision = Subdivision {
     name: "Písek",
     code: "CZ-314",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "314",
 };
@@ -8946,7 +8487,7 @@ pub const CZ_315: Subdivision = Subdivision {
     name: "Prachatice",
     code: "CZ-315",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "315",
 };
@@ -8955,7 +8496,7 @@ pub const CZ_316: Subdivision = Subdivision {
     name: "Strakonice",
     code: "CZ-316",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "316",
 };
@@ -8964,16 +8505,25 @@ pub const CZ_317: Subdivision = Subdivision {
     name: "Tábor",
     code: "CZ-317",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "317",
+};
+
+pub const CZ_32: Subdivision = Subdivision {
+    name: "Plzeňský kraj",
+    code: "CZ-32",
+    subdivision_type: "Region",
+    country_name: "Czechia",
+    country_code: "CZ",
+    region_code: "32",
 };
 
 pub const CZ_321: Subdivision = Subdivision {
     name: "Domažlice",
     code: "CZ-321",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "321",
 };
@@ -8982,7 +8532,7 @@ pub const CZ_322: Subdivision = Subdivision {
     name: "Klatovy",
     code: "CZ-322",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "322",
 };
@@ -8991,7 +8541,7 @@ pub const CZ_323: Subdivision = Subdivision {
     name: "Plzeň-město",
     code: "CZ-323",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "323",
 };
@@ -9000,7 +8550,7 @@ pub const CZ_324: Subdivision = Subdivision {
     name: "Plzeň-jih",
     code: "CZ-324",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "324",
 };
@@ -9009,7 +8559,7 @@ pub const CZ_325: Subdivision = Subdivision {
     name: "Plzeň-sever",
     code: "CZ-325",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "325",
 };
@@ -9018,7 +8568,7 @@ pub const CZ_326: Subdivision = Subdivision {
     name: "Rokycany",
     code: "CZ-326",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "326",
 };
@@ -9027,16 +8577,25 @@ pub const CZ_327: Subdivision = Subdivision {
     name: "Tachov",
     code: "CZ-327",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "327",
+};
+
+pub const CZ_41: Subdivision = Subdivision {
+    name: "Karlovarský kraj",
+    code: "CZ-41",
+    subdivision_type: "Region",
+    country_name: "Czechia",
+    country_code: "CZ",
+    region_code: "41",
 };
 
 pub const CZ_411: Subdivision = Subdivision {
     name: "Cheb",
     code: "CZ-411",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "411",
 };
@@ -9045,7 +8604,7 @@ pub const CZ_412: Subdivision = Subdivision {
     name: "Karlovy Vary",
     code: "CZ-412",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "412",
 };
@@ -9054,16 +8613,25 @@ pub const CZ_413: Subdivision = Subdivision {
     name: "Sokolov",
     code: "CZ-413",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "413",
+};
+
+pub const CZ_42: Subdivision = Subdivision {
+    name: "Ústecký kraj",
+    code: "CZ-42",
+    subdivision_type: "Region",
+    country_name: "Czechia",
+    country_code: "CZ",
+    region_code: "42",
 };
 
 pub const CZ_421: Subdivision = Subdivision {
     name: "Děčín",
     code: "CZ-421",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "421",
 };
@@ -9072,7 +8640,7 @@ pub const CZ_422: Subdivision = Subdivision {
     name: "Chomutov",
     code: "CZ-422",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "422",
 };
@@ -9081,7 +8649,7 @@ pub const CZ_423: Subdivision = Subdivision {
     name: "Litoměřice",
     code: "CZ-423",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "423",
 };
@@ -9090,7 +8658,7 @@ pub const CZ_424: Subdivision = Subdivision {
     name: "Louny",
     code: "CZ-424",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "424",
 };
@@ -9099,7 +8667,7 @@ pub const CZ_425: Subdivision = Subdivision {
     name: "Most",
     code: "CZ-425",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "425",
 };
@@ -9108,7 +8676,7 @@ pub const CZ_426: Subdivision = Subdivision {
     name: "Teplice",
     code: "CZ-426",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "426",
 };
@@ -9117,16 +8685,25 @@ pub const CZ_427: Subdivision = Subdivision {
     name: "Ústí nad Labem",
     code: "CZ-427",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "427",
+};
+
+pub const CZ_51: Subdivision = Subdivision {
+    name: "Liberecký kraj",
+    code: "CZ-51",
+    subdivision_type: "Region",
+    country_name: "Czechia",
+    country_code: "CZ",
+    region_code: "51",
 };
 
 pub const CZ_511: Subdivision = Subdivision {
     name: "Česká Lípa",
     code: "CZ-511",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "511",
 };
@@ -9135,7 +8712,7 @@ pub const CZ_512: Subdivision = Subdivision {
     name: "Jablonec nad Nisou",
     code: "CZ-512",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "512",
 };
@@ -9144,7 +8721,7 @@ pub const CZ_513: Subdivision = Subdivision {
     name: "Liberec",
     code: "CZ-513",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "513",
 };
@@ -9153,16 +8730,25 @@ pub const CZ_514: Subdivision = Subdivision {
     name: "Semily",
     code: "CZ-514",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "514",
+};
+
+pub const CZ_52: Subdivision = Subdivision {
+    name: "Královéhradecký kraj",
+    code: "CZ-52",
+    subdivision_type: "Region",
+    country_name: "Czechia",
+    country_code: "CZ",
+    region_code: "52",
 };
 
 pub const CZ_521: Subdivision = Subdivision {
     name: "Hradec Králové",
     code: "CZ-521",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "521",
 };
@@ -9171,7 +8757,7 @@ pub const CZ_522: Subdivision = Subdivision {
     name: "Jičín",
     code: "CZ-522",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "522",
 };
@@ -9180,7 +8766,7 @@ pub const CZ_523: Subdivision = Subdivision {
     name: "Náchod",
     code: "CZ-523",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "523",
 };
@@ -9189,7 +8775,7 @@ pub const CZ_524: Subdivision = Subdivision {
     name: "Rychnov nad Kněžnou",
     code: "CZ-524",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "524",
 };
@@ -9198,16 +8784,25 @@ pub const CZ_525: Subdivision = Subdivision {
     name: "Trutnov",
     code: "CZ-525",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "525",
+};
+
+pub const CZ_53: Subdivision = Subdivision {
+    name: "Pardubický kraj",
+    code: "CZ-53",
+    subdivision_type: "Region",
+    country_name: "Czechia",
+    country_code: "CZ",
+    region_code: "53",
 };
 
 pub const CZ_531: Subdivision = Subdivision {
     name: "Chrudim",
     code: "CZ-531",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "531",
 };
@@ -9216,7 +8811,7 @@ pub const CZ_532: Subdivision = Subdivision {
     name: "Pardubice",
     code: "CZ-532",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "532",
 };
@@ -9225,7 +8820,7 @@ pub const CZ_533: Subdivision = Subdivision {
     name: "Svitavy",
     code: "CZ-533",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "533",
 };
@@ -9234,124 +8829,151 @@ pub const CZ_534: Subdivision = Subdivision {
     name: "Ústí nad Orlicí",
     code: "CZ-534",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "534",
 };
 
-pub const CZ_611: Subdivision = Subdivision {
+pub const CZ_63: Subdivision = Subdivision {
+    name: "Kraj Vysočina",
+    code: "CZ-63",
+    subdivision_type: "Region",
+    country_name: "Czechia",
+    country_code: "CZ",
+    region_code: "63",
+};
+
+pub const CZ_631: Subdivision = Subdivision {
     name: "Havlíčkův Brod",
-    code: "CZ-611",
+    code: "CZ-631",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
-    region_code: "611",
+    region_code: "631",
 };
 
-pub const CZ_612: Subdivision = Subdivision {
+pub const CZ_632: Subdivision = Subdivision {
     name: "Jihlava",
-    code: "CZ-612",
+    code: "CZ-632",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
-    region_code: "612",
+    region_code: "632",
 };
 
-pub const CZ_613: Subdivision = Subdivision {
+pub const CZ_633: Subdivision = Subdivision {
     name: "Pelhřimov",
-    code: "CZ-613",
+    code: "CZ-633",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
-    region_code: "613",
+    region_code: "633",
 };
 
-pub const CZ_614: Subdivision = Subdivision {
+pub const CZ_634: Subdivision = Subdivision {
     name: "Třebíč",
-    code: "CZ-614",
+    code: "CZ-634",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
-    region_code: "614",
+    region_code: "634",
 };
 
-pub const CZ_615: Subdivision = Subdivision {
-    name: "Žd'ár nad Sázavou",
-    code: "CZ-615",
+pub const CZ_635: Subdivision = Subdivision {
+    name: "Žďár nad Sázavou",
+    code: "CZ-635",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
-    region_code: "615",
+    region_code: "635",
 };
 
-pub const CZ_621: Subdivision = Subdivision {
+pub const CZ_64: Subdivision = Subdivision {
+    name: "Jihomoravský kraj",
+    code: "CZ-64",
+    subdivision_type: "Region",
+    country_name: "Czechia",
+    country_code: "CZ",
+    region_code: "64",
+};
+
+pub const CZ_641: Subdivision = Subdivision {
     name: "Blansko",
-    code: "CZ-621",
+    code: "CZ-641",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
-    region_code: "621",
+    region_code: "641",
 };
 
-pub const CZ_622: Subdivision = Subdivision {
+pub const CZ_642: Subdivision = Subdivision {
     name: "Brno-město",
-    code: "CZ-622",
+    code: "CZ-642",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
-    region_code: "622",
+    region_code: "642",
 };
 
-pub const CZ_623: Subdivision = Subdivision {
+pub const CZ_643: Subdivision = Subdivision {
     name: "Brno-venkov",
-    code: "CZ-623",
+    code: "CZ-643",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
-    region_code: "623",
+    region_code: "643",
 };
 
-pub const CZ_624: Subdivision = Subdivision {
+pub const CZ_644: Subdivision = Subdivision {
     name: "Břeclav",
-    code: "CZ-624",
+    code: "CZ-644",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
-    region_code: "624",
+    region_code: "644",
 };
 
-pub const CZ_625: Subdivision = Subdivision {
+pub const CZ_645: Subdivision = Subdivision {
     name: "Hodonín",
-    code: "CZ-625",
+    code: "CZ-645",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
-    region_code: "625",
+    region_code: "645",
 };
 
-pub const CZ_626: Subdivision = Subdivision {
+pub const CZ_646: Subdivision = Subdivision {
     name: "Vyškov",
-    code: "CZ-626",
+    code: "CZ-646",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
-    region_code: "626",
+    region_code: "646",
 };
 
-pub const CZ_627: Subdivision = Subdivision {
+pub const CZ_647: Subdivision = Subdivision {
     name: "Znojmo",
-    code: "CZ-627",
+    code: "CZ-647",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
-    region_code: "627",
+    region_code: "647",
+};
+
+pub const CZ_71: Subdivision = Subdivision {
+    name: "Olomoucký kraj",
+    code: "CZ-71",
+    subdivision_type: "Region",
+    country_name: "Czechia",
+    country_code: "CZ",
+    region_code: "71",
 };
 
 pub const CZ_711: Subdivision = Subdivision {
     name: "Jeseník",
     code: "CZ-711",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "711",
 };
@@ -9360,16 +8982,16 @@ pub const CZ_712: Subdivision = Subdivision {
     name: "Olomouc",
     code: "CZ-712",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "712",
 };
 
 pub const CZ_713: Subdivision = Subdivision {
-    name: "Prostĕjov",
+    name: "Prostějov",
     code: "CZ-713",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "713",
 };
@@ -9378,7 +9000,7 @@ pub const CZ_714: Subdivision = Subdivision {
     name: "Přerov",
     code: "CZ-714",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "714",
 };
@@ -9387,25 +9009,34 @@ pub const CZ_715: Subdivision = Subdivision {
     name: "Šumperk",
     code: "CZ-715",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "715",
 };
 
+pub const CZ_72: Subdivision = Subdivision {
+    name: "Zlínský kraj",
+    code: "CZ-72",
+    subdivision_type: "Region",
+    country_name: "Czechia",
+    country_code: "CZ",
+    region_code: "72",
+};
+
 pub const CZ_721: Subdivision = Subdivision {
-    name: "Kromĕříž",
+    name: "Kroměříž",
     code: "CZ-721",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "721",
 };
 
 pub const CZ_722: Subdivision = Subdivision {
-    name: "Uherské Hradištĕ",
+    name: "Uherské Hradiště",
     code: "CZ-722",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "722",
 };
@@ -9414,7 +9045,7 @@ pub const CZ_723: Subdivision = Subdivision {
     name: "Vsetín",
     code: "CZ-723",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "723",
 };
@@ -9423,25 +9054,34 @@ pub const CZ_724: Subdivision = Subdivision {
     name: "Zlín",
     code: "CZ-724",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "724",
+};
+
+pub const CZ_80: Subdivision = Subdivision {
+    name: "Moravskoslezský kraj",
+    code: "CZ-80",
+    subdivision_type: "Region",
+    country_name: "Czechia",
+    country_code: "CZ",
+    region_code: "80",
 };
 
 pub const CZ_801: Subdivision = Subdivision {
     name: "Bruntál",
     code: "CZ-801",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "801",
 };
 
 pub const CZ_802: Subdivision = Subdivision {
-    name: "Frýdek Místek",
+    name: "Frýdek-Místek",
     code: "CZ-802",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "802",
 };
@@ -9450,7 +9090,7 @@ pub const CZ_803: Subdivision = Subdivision {
     name: "Karviná",
     code: "CZ-803",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "803",
 };
@@ -9459,7 +9099,7 @@ pub const CZ_804: Subdivision = Subdivision {
     name: "Nový Jičín",
     code: "CZ-804",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "804",
 };
@@ -9468,144 +9108,18 @@ pub const CZ_805: Subdivision = Subdivision {
     name: "Opava",
     code: "CZ-805",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "805",
 };
 
 pub const CZ_806: Subdivision = Subdivision {
-    name: "Ostrava město",
+    name: "Ostrava-město",
     code: "CZ-806",
     subdivision_type: "District",
-    country_name: "Czech Republic",
+    country_name: "Czechia",
     country_code: "CZ",
     region_code: "806",
-};
-
-pub const CZ_JC: Subdivision = Subdivision {
-    name: "Jihočeský kraj",
-    code: "CZ-JC",
-    subdivision_type: "Region",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "JC",
-};
-
-pub const CZ_JM: Subdivision = Subdivision {
-    name: "Jihomoravský kraj",
-    code: "CZ-JM",
-    subdivision_type: "Region",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "JM",
-};
-
-pub const CZ_KA: Subdivision = Subdivision {
-    name: "Karlovarský kraj",
-    code: "CZ-KA",
-    subdivision_type: "Region",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "KA",
-};
-
-pub const CZ_KR: Subdivision = Subdivision {
-    name: "Královéhradecký kraj",
-    code: "CZ-KR",
-    subdivision_type: "Region",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "KR",
-};
-
-pub const CZ_LI: Subdivision = Subdivision {
-    name: "Liberecký kraj",
-    code: "CZ-LI",
-    subdivision_type: "Region",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "LI",
-};
-
-pub const CZ_MO: Subdivision = Subdivision {
-    name: "Moravskoslezský kraj",
-    code: "CZ-MO",
-    subdivision_type: "Region",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "MO",
-};
-
-pub const CZ_OL: Subdivision = Subdivision {
-    name: "Olomoucký kraj",
-    code: "CZ-OL",
-    subdivision_type: "Region",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "OL",
-};
-
-pub const CZ_PA: Subdivision = Subdivision {
-    name: "Pardubický kraj",
-    code: "CZ-PA",
-    subdivision_type: "Region",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "PA",
-};
-
-pub const CZ_PL: Subdivision = Subdivision {
-    name: "Plzeňský kraj",
-    code: "CZ-PL",
-    subdivision_type: "Region",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "PL",
-};
-
-pub const CZ_PR: Subdivision = Subdivision {
-    name: "Praha, hlavní mešto",
-    code: "CZ-PR",
-    subdivision_type: "Region",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "PR",
-};
-
-pub const CZ_ST: Subdivision = Subdivision {
-    name: "Středočeský kraj",
-    code: "CZ-ST",
-    subdivision_type: "Region",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "ST",
-};
-
-pub const CZ_US: Subdivision = Subdivision {
-    name: "Ústecký kraj",
-    code: "CZ-US",
-    subdivision_type: "Region",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "US",
-};
-
-pub const CZ_VY: Subdivision = Subdivision {
-    name: "Vysočina",
-    code: "CZ-VY",
-    subdivision_type: "Region",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "VY",
-};
-
-pub const CZ_ZL: Subdivision = Subdivision {
-    name: "Zlínský kraj",
-    code: "CZ-ZL",
-    subdivision_type: "Region",
-    country_name: "Czech Republic",
-    country_code: "CZ",
-    region_code: "ZL",
 };
 
 pub const DK_81: Subdivision = Subdivision {
@@ -9672,7 +9186,7 @@ pub const DJ_AS: Subdivision = Subdivision {
 };
 
 pub const DJ_DI: Subdivision = Subdivision {
-    name: "Dikhīl",
+    name: "Dikhil",
     code: "DJ-DI",
     subdivision_type: "Region",
     country_name: "Djibouti",
@@ -9798,7 +9312,7 @@ pub const DM_11: Subdivision = Subdivision {
 };
 
 pub const DO_01: Subdivision = Subdivision {
-    name: "Distrito Nacional",
+    name: "Distrito Nacional (Santo Domingo)",
     code: "DO-01",
     subdivision_type: "District",
     country_name: "Dominican Republic",
@@ -9852,7 +9366,7 @@ pub const DO_06: Subdivision = Subdivision {
 };
 
 pub const DO_07: Subdivision = Subdivision {
-    name: "La Estrelleta",
+    name: "Elías Piña",
     code: "DO-07",
     subdivision_type: "Province",
     country_name: "Dominican Republic",
@@ -10310,6 +9824,15 @@ pub const EC_R: Subdivision = Subdivision {
     region_code: "R",
 };
 
+pub const EC_S: Subdivision = Subdivision {
+    name: "Morona Santiago",
+    code: "EC-S",
+    subdivision_type: "Province",
+    country_name: "Ecuador",
+    country_code: "EC",
+    region_code: "S",
+};
+
 pub const EC_SD: Subdivision = Subdivision {
     name: "Santo Domingo de los Tsáchilas",
     code: "EC-SD",
@@ -10326,15 +9849,6 @@ pub const EC_SE: Subdivision = Subdivision {
     country_name: "Ecuador",
     country_code: "EC",
     region_code: "SE",
-};
-
-pub const EC_S: Subdivision = Subdivision {
-    name: "Morona-Santiago",
-    code: "EC-S",
-    subdivision_type: "Province",
-    country_name: "Ecuador",
-    country_code: "EC",
-    region_code: "S",
 };
 
 pub const EC_T: Subdivision = Subdivision {
@@ -10383,7 +9897,7 @@ pub const EC_Y: Subdivision = Subdivision {
 };
 
 pub const EC_Z: Subdivision = Subdivision {
-    name: "Zamora-Chinchipe",
+    name: "Zamora Chinchipe",
     code: "EC-Z",
     subdivision_type: "Province",
     country_name: "Ecuador",
@@ -10761,7 +10275,7 @@ pub const SV_US: Subdivision = Subdivision {
 };
 
 pub const GQ_AN: Subdivision = Subdivision {
-    name: "Annobón",
+    name: "Annobon",
     code: "GQ-AN",
     subdivision_type: "Province",
     country_name: "Equatorial Guinea",
@@ -10788,7 +10302,7 @@ pub const GQ_BS: Subdivision = Subdivision {
 };
 
 pub const GQ_C: Subdivision = Subdivision {
-    name: "Região Continental",
+    name: "Région Continentale",
     code: "GQ-C",
     subdivision_type: "Region",
     country_name: "Equatorial Guinea",
@@ -10805,8 +10319,17 @@ pub const GQ_CS: Subdivision = Subdivision {
     region_code: "CS",
 };
 
+pub const GQ_DJ: Subdivision = Subdivision {
+    name: "Djibloho",
+    code: "GQ-DJ",
+    subdivision_type: "Province",
+    country_name: "Equatorial Guinea",
+    country_code: "GQ",
+    region_code: "DJ",
+};
+
 pub const GQ_I: Subdivision = Subdivision {
-    name: "Região Insular",
+    name: "Région Insulaire",
     code: "GQ-I",
     subdivision_type: "Region",
     country_name: "Equatorial Guinea",
@@ -10824,7 +10347,7 @@ pub const GQ_KN: Subdivision = Subdivision {
 };
 
 pub const GQ_LI: Subdivision = Subdivision {
-    name: "Litoral",
+    name: "Littoral",
     code: "GQ-LI",
     subdivision_type: "Province",
     country_name: "Equatorial Guinea",
@@ -10851,7 +10374,7 @@ pub const ER_AN: Subdivision = Subdivision {
 };
 
 pub const ER_DK: Subdivision = Subdivision {
-    name: "Debubawi K’eyyĭḥ Baḥri",
+    name: "Janūbī al Baḩrī al Aḩmar",
     code: "ER-DK",
     subdivision_type: "Region",
     country_name: "Eritrea",
@@ -10869,7 +10392,7 @@ pub const ER_DU: Subdivision = Subdivision {
 };
 
 pub const ER_GB: Subdivision = Subdivision {
-    name: "Gash-Barka",
+    name: "Qāsh-Barkah",
     code: "ER-GB",
     subdivision_type: "Region",
     country_name: "Eritrea",
@@ -10887,12 +10410,237 @@ pub const ER_MA: Subdivision = Subdivision {
 };
 
 pub const ER_SK: Subdivision = Subdivision {
-    name: "Semienawi K’eyyĭḥ Baḥri",
+    name: "Shimālī al Baḩrī al Aḩmar",
     code: "ER-SK",
     subdivision_type: "Region",
     country_name: "Eritrea",
     country_code: "ER",
     region_code: "SK",
+};
+
+pub const EE_130: Subdivision = Subdivision {
+    name: "Alutaguse",
+    code: "EE-130",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "130",
+};
+
+pub const EE_141: Subdivision = Subdivision {
+    name: "Anija",
+    code: "EE-141",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "141",
+};
+
+pub const EE_142: Subdivision = Subdivision {
+    name: "Antsla",
+    code: "EE-142",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "142",
+};
+
+pub const EE_171: Subdivision = Subdivision {
+    name: "Elva",
+    code: "EE-171",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "171",
+};
+
+pub const EE_184: Subdivision = Subdivision {
+    name: "Haapsalu",
+    code: "EE-184",
+    subdivision_type: "Urban municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "184",
+};
+
+pub const EE_191: Subdivision = Subdivision {
+    name: "Haljala",
+    code: "EE-191",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "191",
+};
+
+pub const EE_198: Subdivision = Subdivision {
+    name: "Harku",
+    code: "EE-198",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "198",
+};
+
+pub const EE_205: Subdivision = Subdivision {
+    name: "Hiiumaa",
+    code: "EE-205",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "205",
+};
+
+pub const EE_214: Subdivision = Subdivision {
+    name: "Häädemeeste",
+    code: "EE-214",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "214",
+};
+
+pub const EE_245: Subdivision = Subdivision {
+    name: "Jõelähtme",
+    code: "EE-245",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "245",
+};
+
+pub const EE_247: Subdivision = Subdivision {
+    name: "Jõgeva",
+    code: "EE-247",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "247",
+};
+
+pub const EE_251: Subdivision = Subdivision {
+    name: "Jõhvi",
+    code: "EE-251",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "251",
+};
+
+pub const EE_255: Subdivision = Subdivision {
+    name: "Järva",
+    code: "EE-255",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "255",
+};
+
+pub const EE_272: Subdivision = Subdivision {
+    name: "Kadrina",
+    code: "EE-272",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "272",
+};
+
+pub const EE_283: Subdivision = Subdivision {
+    name: "Kambja",
+    code: "EE-283",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "283",
+};
+
+pub const EE_284: Subdivision = Subdivision {
+    name: "Kanepi",
+    code: "EE-284",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "284",
+};
+
+pub const EE_291: Subdivision = Subdivision {
+    name: "Kastre",
+    code: "EE-291",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "291",
+};
+
+pub const EE_293: Subdivision = Subdivision {
+    name: "Kehtna",
+    code: "EE-293",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "293",
+};
+
+pub const EE_296: Subdivision = Subdivision {
+    name: "Keila",
+    code: "EE-296",
+    subdivision_type: "Urban municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "296",
+};
+
+pub const EE_303: Subdivision = Subdivision {
+    name: "Kihnu",
+    code: "EE-303",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "303",
+};
+
+pub const EE_305: Subdivision = Subdivision {
+    name: "Kiili",
+    code: "EE-305",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "305",
+};
+
+pub const EE_317: Subdivision = Subdivision {
+    name: "Kohila",
+    code: "EE-317",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "317",
+};
+
+pub const EE_321: Subdivision = Subdivision {
+    name: "Kohtla-Järve",
+    code: "EE-321",
+    subdivision_type: "Urban municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "321",
+};
+
+pub const EE_338: Subdivision = Subdivision {
+    name: "Kose",
+    code: "EE-338",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "338",
+};
+
+pub const EE_353: Subdivision = Subdivision {
+    name: "Kuusalu",
+    code: "EE-353",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "353",
 };
 
 pub const EE_37: Subdivision = Subdivision {
@@ -10913,76 +10661,400 @@ pub const EE_39: Subdivision = Subdivision {
     region_code: "39",
 };
 
-pub const EE_44: Subdivision = Subdivision {
+pub const EE_424: Subdivision = Subdivision {
+    name: "Loksa",
+    code: "EE-424",
+    subdivision_type: "Urban municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "424",
+};
+
+pub const EE_430: Subdivision = Subdivision {
+    name: "Lääneranna",
+    code: "EE-430",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "430",
+};
+
+pub const EE_431: Subdivision = Subdivision {
+    name: "Lääne-Harju",
+    code: "EE-431",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "431",
+};
+
+pub const EE_432: Subdivision = Subdivision {
+    name: "Luunja",
+    code: "EE-432",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "432",
+};
+
+pub const EE_441: Subdivision = Subdivision {
+    name: "Lääne-Nigula",
+    code: "EE-441",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "441",
+};
+
+pub const EE_442: Subdivision = Subdivision {
+    name: "Lüganuse",
+    code: "EE-442",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "442",
+};
+
+pub const EE_446: Subdivision = Subdivision {
+    name: "Maardu",
+    code: "EE-446",
+    subdivision_type: "Urban municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "446",
+};
+
+pub const EE_45: Subdivision = Subdivision {
     name: "Ida-Virumaa",
-    code: "EE-44",
+    code: "EE-45",
     subdivision_type: "County",
     country_name: "Estonia",
     country_code: "EE",
-    region_code: "44",
+    region_code: "45",
 };
 
-pub const EE_49: Subdivision = Subdivision {
+pub const EE_478: Subdivision = Subdivision {
+    name: "Muhu",
+    code: "EE-478",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "478",
+};
+
+pub const EE_480: Subdivision = Subdivision {
+    name: "Mulgi",
+    code: "EE-480",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "480",
+};
+
+pub const EE_486: Subdivision = Subdivision {
+    name: "Mustvee",
+    code: "EE-486",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "486",
+};
+
+pub const EE_50: Subdivision = Subdivision {
     name: "Jõgevamaa",
-    code: "EE-49",
+    code: "EE-50",
     subdivision_type: "County",
     country_name: "Estonia",
     country_code: "EE",
-    region_code: "49",
+    region_code: "50",
 };
 
-pub const EE_51: Subdivision = Subdivision {
+pub const EE_503: Subdivision = Subdivision {
+    name: "Märjamaa",
+    code: "EE-503",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "503",
+};
+
+pub const EE_511: Subdivision = Subdivision {
+    name: "Narva",
+    code: "EE-511",
+    subdivision_type: "Urban municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "511",
+};
+
+pub const EE_514: Subdivision = Subdivision {
+    name: "Narva-Jõesuu",
+    code: "EE-514",
+    subdivision_type: "Urban municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "514",
+};
+
+pub const EE_52: Subdivision = Subdivision {
     name: "Järvamaa",
-    code: "EE-51",
+    code: "EE-52",
     subdivision_type: "County",
     country_name: "Estonia",
     country_code: "EE",
-    region_code: "51",
+    region_code: "52",
 };
 
-pub const EE_57: Subdivision = Subdivision {
+pub const EE_528: Subdivision = Subdivision {
+    name: "Nõo",
+    code: "EE-528",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "528",
+};
+
+pub const EE_557: Subdivision = Subdivision {
+    name: "Otepää",
+    code: "EE-557",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "557",
+};
+
+pub const EE_56: Subdivision = Subdivision {
     name: "Läänemaa",
-    code: "EE-57",
+    code: "EE-56",
     subdivision_type: "County",
     country_name: "Estonia",
     country_code: "EE",
-    region_code: "57",
+    region_code: "56",
 };
 
-pub const EE_59: Subdivision = Subdivision {
+pub const EE_567: Subdivision = Subdivision {
+    name: "Paide",
+    code: "EE-567",
+    subdivision_type: "Urban municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "567",
+};
+
+pub const EE_586: Subdivision = Subdivision {
+    name: "Peipsiääre",
+    code: "EE-586",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "586",
+};
+
+pub const EE_60: Subdivision = Subdivision {
     name: "Lääne-Virumaa",
-    code: "EE-59",
+    code: "EE-60",
     subdivision_type: "County",
     country_name: "Estonia",
     country_code: "EE",
-    region_code: "59",
+    region_code: "60",
 };
 
-pub const EE_65: Subdivision = Subdivision {
+pub const EE_615: Subdivision = Subdivision {
+    name: "Põhja-Sakala",
+    code: "EE-615",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "615",
+};
+
+pub const EE_618: Subdivision = Subdivision {
+    name: "Põltsamaa",
+    code: "EE-618",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "618",
+};
+
+pub const EE_622: Subdivision = Subdivision {
+    name: "Põlva",
+    code: "EE-622",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "622",
+};
+
+pub const EE_624: Subdivision = Subdivision {
+    name: "Pärnu",
+    code: "EE-624",
+    subdivision_type: "Urban municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "624",
+};
+
+pub const EE_638: Subdivision = Subdivision {
+    name: "Põhja-Pärnumaa",
+    code: "EE-638",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "638",
+};
+
+pub const EE_64: Subdivision = Subdivision {
     name: "Põlvamaa",
-    code: "EE-65",
+    code: "EE-64",
     subdivision_type: "County",
     country_name: "Estonia",
     country_code: "EE",
-    region_code: "65",
+    region_code: "64",
 };
 
-pub const EE_67: Subdivision = Subdivision {
+pub const EE_651: Subdivision = Subdivision {
+    name: "Raasiku",
+    code: "EE-651",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "651",
+};
+
+pub const EE_653: Subdivision = Subdivision {
+    name: "Rae",
+    code: "EE-653",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "653",
+};
+
+pub const EE_661: Subdivision = Subdivision {
+    name: "Rakvere",
+    code: "EE-661",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "661",
+};
+
+pub const EE_663: Subdivision = Subdivision {
+    name: "Rakvere",
+    code: "EE-663",
+    subdivision_type: "Urban municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "663",
+};
+
+pub const EE_668: Subdivision = Subdivision {
+    name: "Rapla",
+    code: "EE-668",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "668",
+};
+
+pub const EE_68: Subdivision = Subdivision {
     name: "Pärnumaa",
-    code: "EE-67",
+    code: "EE-68",
     subdivision_type: "County",
     country_name: "Estonia",
     country_code: "EE",
-    region_code: "67",
+    region_code: "68",
 };
 
-pub const EE_70: Subdivision = Subdivision {
+pub const EE_689: Subdivision = Subdivision {
+    name: "Ruhnu",
+    code: "EE-689",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "689",
+};
+
+pub const EE_698: Subdivision = Subdivision {
+    name: "Rõuge",
+    code: "EE-698",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "698",
+};
+
+pub const EE_708: Subdivision = Subdivision {
+    name: "Räpina",
+    code: "EE-708",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "708",
+};
+
+pub const EE_71: Subdivision = Subdivision {
     name: "Raplamaa",
-    code: "EE-70",
+    code: "EE-71",
     subdivision_type: "County",
     country_name: "Estonia",
     country_code: "EE",
-    region_code: "70",
+    region_code: "71",
+};
+
+pub const EE_712: Subdivision = Subdivision {
+    name: "Saarde",
+    code: "EE-712",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "712",
+};
+
+pub const EE_714: Subdivision = Subdivision {
+    name: "Saaremaa",
+    code: "EE-714",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "714",
+};
+
+pub const EE_719: Subdivision = Subdivision {
+    name: "Saku",
+    code: "EE-719",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "719",
+};
+
+pub const EE_726: Subdivision = Subdivision {
+    name: "Saue",
+    code: "EE-726",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "726",
+};
+
+pub const EE_732: Subdivision = Subdivision {
+    name: "Setomaa",
+    code: "EE-732",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "732",
+};
+
+pub const EE_735: Subdivision = Subdivision {
+    name: "Sillamäe",
+    code: "EE-735",
+    subdivision_type: "Urban municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "735",
 };
 
 pub const EE_74: Subdivision = Subdivision {
@@ -10994,22 +11066,94 @@ pub const EE_74: Subdivision = Subdivision {
     region_code: "74",
 };
 
-pub const EE_78: Subdivision = Subdivision {
-    name: "Tartumaa",
-    code: "EE-78",
-    subdivision_type: "County",
+pub const EE_784: Subdivision = Subdivision {
+    name: "Tallinn",
+    code: "EE-784",
+    subdivision_type: "Urban municipality",
     country_name: "Estonia",
     country_code: "EE",
-    region_code: "78",
+    region_code: "784",
 };
 
-pub const EE_82: Subdivision = Subdivision {
-    name: "Valgamaa",
-    code: "EE-82",
+pub const EE_79: Subdivision = Subdivision {
+    name: "Tartumaa",
+    code: "EE-79",
     subdivision_type: "County",
     country_name: "Estonia",
     country_code: "EE",
-    region_code: "82",
+    region_code: "79",
+};
+
+pub const EE_792: Subdivision = Subdivision {
+    name: "Tapa",
+    code: "EE-792",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "792",
+};
+
+pub const EE_793: Subdivision = Subdivision {
+    name: "Tartu",
+    code: "EE-793",
+    subdivision_type: "Urban municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "793",
+};
+
+pub const EE_796: Subdivision = Subdivision {
+    name: "Tartu",
+    code: "EE-796",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "796",
+};
+
+pub const EE_803: Subdivision = Subdivision {
+    name: "Toila",
+    code: "EE-803",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "803",
+};
+
+pub const EE_809: Subdivision = Subdivision {
+    name: "Tori",
+    code: "EE-809",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "809",
+};
+
+pub const EE_81: Subdivision = Subdivision {
+    name: "Valgamaa",
+    code: "EE-81",
+    subdivision_type: "County",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "81",
+};
+
+pub const EE_824: Subdivision = Subdivision {
+    name: "Tõrva",
+    code: "EE-824",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "824",
+};
+
+pub const EE_834: Subdivision = Subdivision {
+    name: "Türi",
+    code: "EE-834",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "834",
 };
 
 pub const EE_84: Subdivision = Subdivision {
@@ -11021,13 +11165,139 @@ pub const EE_84: Subdivision = Subdivision {
     region_code: "84",
 };
 
-pub const EE_86: Subdivision = Subdivision {
+pub const EE_855: Subdivision = Subdivision {
+    name: "Valga",
+    code: "EE-855",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "855",
+};
+
+pub const EE_87: Subdivision = Subdivision {
     name: "Võrumaa",
-    code: "EE-86",
+    code: "EE-87",
     subdivision_type: "County",
     country_name: "Estonia",
     country_code: "EE",
-    region_code: "86",
+    region_code: "87",
+};
+
+pub const EE_890: Subdivision = Subdivision {
+    name: "Viimsi",
+    code: "EE-890",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "890",
+};
+
+pub const EE_897: Subdivision = Subdivision {
+    name: "Viljandi",
+    code: "EE-897",
+    subdivision_type: "Urban municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "897",
+};
+
+pub const EE_899: Subdivision = Subdivision {
+    name: "Viljandi",
+    code: "EE-899",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "899",
+};
+
+pub const EE_901: Subdivision = Subdivision {
+    name: "Vinni",
+    code: "EE-901",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "901",
+};
+
+pub const EE_903: Subdivision = Subdivision {
+    name: "Viru-Nigula",
+    code: "EE-903",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "903",
+};
+
+pub const EE_907: Subdivision = Subdivision {
+    name: "Vormsi",
+    code: "EE-907",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "907",
+};
+
+pub const EE_917: Subdivision = Subdivision {
+    name: "Võru",
+    code: "EE-917",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "917",
+};
+
+pub const EE_919: Subdivision = Subdivision {
+    name: "Võru",
+    code: "EE-919",
+    subdivision_type: "Urban municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "919",
+};
+
+pub const EE_928: Subdivision = Subdivision {
+    name: "Väike-Maarja",
+    code: "EE-928",
+    subdivision_type: "Rural municipality",
+    country_name: "Estonia",
+    country_code: "EE",
+    region_code: "928",
+};
+
+pub const SZ_HH: Subdivision = Subdivision {
+    name: "Hhohho",
+    code: "SZ-HH",
+    subdivision_type: "Region",
+    country_name: "Eswatini",
+    country_code: "SZ",
+    region_code: "HH",
+};
+
+pub const SZ_LU: Subdivision = Subdivision {
+    name: "Lubombo",
+    code: "SZ-LU",
+    subdivision_type: "Region",
+    country_name: "Eswatini",
+    country_code: "SZ",
+    region_code: "LU",
+};
+
+pub const SZ_MA: Subdivision = Subdivision {
+    name: "Manzini",
+    code: "SZ-MA",
+    subdivision_type: "Region",
+    country_name: "Eswatini",
+    country_code: "SZ",
+    region_code: "MA",
+};
+
+pub const SZ_SH: Subdivision = Subdivision {
+    name: "Shiselweni",
+    code: "SZ-SH",
+    subdivision_type: "Region",
+    country_name: "Eswatini",
+    country_code: "SZ",
+    region_code: "SH",
 };
 
 pub const ET_AA: Subdivision = Subdivision {
@@ -11042,7 +11312,7 @@ pub const ET_AA: Subdivision = Subdivision {
 pub const ET_AF: Subdivision = Subdivision {
     name: "Afar",
     code: "ET-AF",
-    subdivision_type: "State",
+    subdivision_type: "Regional state",
     country_name: "Ethiopia",
     country_code: "ET",
     region_code: "AF",
@@ -11051,7 +11321,7 @@ pub const ET_AF: Subdivision = Subdivision {
 pub const ET_AM: Subdivision = Subdivision {
     name: "Amara",
     code: "ET-AM",
-    subdivision_type: "State",
+    subdivision_type: "Regional state",
     country_name: "Ethiopia",
     country_code: "ET",
     region_code: "AM",
@@ -11060,7 +11330,7 @@ pub const ET_AM: Subdivision = Subdivision {
 pub const ET_BE: Subdivision = Subdivision {
     name: "Benshangul-Gumaz",
     code: "ET-BE",
-    subdivision_type: "State",
+    subdivision_type: "Regional state",
     country_name: "Ethiopia",
     country_code: "ET",
     region_code: "BE",
@@ -11076,9 +11346,9 @@ pub const ET_DD: Subdivision = Subdivision {
 };
 
 pub const ET_GA: Subdivision = Subdivision {
-    name: "Gambēla Hizboch",
+    name: "Gambela Peoples",
     code: "ET-GA",
-    subdivision_type: "State",
+    subdivision_type: "Regional state",
     country_name: "Ethiopia",
     country_code: "ET",
     region_code: "GA",
@@ -11087,7 +11357,7 @@ pub const ET_GA: Subdivision = Subdivision {
 pub const ET_HA: Subdivision = Subdivision {
     name: "Harari People",
     code: "ET-HA",
-    subdivision_type: "State",
+    subdivision_type: "Regional state",
     country_name: "Ethiopia",
     country_code: "ET",
     region_code: "HA",
@@ -11096,16 +11366,25 @@ pub const ET_HA: Subdivision = Subdivision {
 pub const ET_OR: Subdivision = Subdivision {
     name: "Oromia",
     code: "ET-OR",
-    subdivision_type: "State",
+    subdivision_type: "Regional state",
     country_name: "Ethiopia",
     country_code: "ET",
     region_code: "OR",
 };
 
+pub const ET_SI: Subdivision = Subdivision {
+    name: "Sidama",
+    code: "ET-SI",
+    subdivision_type: "Regional state",
+    country_name: "Ethiopia",
+    country_code: "ET",
+    region_code: "SI",
+};
+
 pub const ET_SN: Subdivision = Subdivision {
     name: "Southern Nations, Nationalities and Peoples",
     code: "ET-SN",
-    subdivision_type: "State",
+    subdivision_type: "Regional state",
     country_name: "Ethiopia",
     country_code: "ET",
     region_code: "SN",
@@ -11114,37 +11393,28 @@ pub const ET_SN: Subdivision = Subdivision {
 pub const ET_SO: Subdivision = Subdivision {
     name: "Somali",
     code: "ET-SO",
-    subdivision_type: "State",
+    subdivision_type: "Regional state",
     country_name: "Ethiopia",
     country_code: "ET",
     region_code: "SO",
 };
 
+pub const ET_SW: Subdivision = Subdivision {
+    name: "Southwest Ethiopia Peoples",
+    code: "ET-SW",
+    subdivision_type: "Regional state",
+    country_name: "Ethiopia",
+    country_code: "ET",
+    region_code: "SW",
+};
+
 pub const ET_TI: Subdivision = Subdivision {
     name: "Tigrai",
     code: "ET-TI",
-    subdivision_type: "State",
+    subdivision_type: "Regional state",
     country_name: "Ethiopia",
     country_code: "ET",
     region_code: "TI",
-};
-
-pub const FK_FK: Subdivision = Subdivision {
-    name: "Falkland Islands",
-    code: "FK-FK",
-    subdivision_type: "Country",
-    country_name: "Falkland Islands",
-    country_code: "FK",
-    region_code: "FK",
-};
-
-pub const FO_FO: Subdivision = Subdivision {
-    name: "Faroe Islands",
-    code: "FO-FO",
-    subdivision_type: "Country",
-    country_name: "Faroe Islands",
-    country_code: "FO",
-    region_code: "FO",
 };
 
 pub const FJ_01: Subdivision = Subdivision {
@@ -11319,7 +11589,7 @@ pub const FJ_W: Subdivision = Subdivision {
 };
 
 pub const FI_01: Subdivision = Subdivision {
-    name: "Ahvenanmaan maakunta",
+    name: "Landskapet Åland",
     code: "FI-01",
     subdivision_type: "Region",
     country_name: "Finland",
@@ -11364,7 +11634,7 @@ pub const FI_05: Subdivision = Subdivision {
 };
 
 pub const FI_06: Subdivision = Subdivision {
-    name: "Egentliga Tavastland",
+    name: "Kanta-Häme",
     code: "FI-06",
     subdivision_type: "Region",
     country_name: "Finland",
@@ -11409,7 +11679,7 @@ pub const FI_10: Subdivision = Subdivision {
 };
 
 pub const FI_11: Subdivision = Subdivision {
-    name: "Birkaland",
+    name: "Pirkanmaa",
     code: "FI-11",
     subdivision_type: "Region",
     country_name: "Finland",
@@ -11418,7 +11688,7 @@ pub const FI_11: Subdivision = Subdivision {
 };
 
 pub const FI_12: Subdivision = Subdivision {
-    name: "Österbotten",
+    name: "Pohjanmaa",
     code: "FI-12",
     subdivision_type: "Region",
     country_name: "Finland",
@@ -11427,7 +11697,7 @@ pub const FI_12: Subdivision = Subdivision {
 };
 
 pub const FI_13: Subdivision = Subdivision {
-    name: "Norra Karelen",
+    name: "Pohjois-Karjala",
     code: "FI-13",
     subdivision_type: "Region",
     country_name: "Finland",
@@ -11436,7 +11706,7 @@ pub const FI_13: Subdivision = Subdivision {
 };
 
 pub const FI_14: Subdivision = Subdivision {
-    name: "Norra Österbotten",
+    name: "Pohjois-Pohjanmaa",
     code: "FI-14",
     subdivision_type: "Region",
     country_name: "Finland",
@@ -11445,7 +11715,7 @@ pub const FI_14: Subdivision = Subdivision {
 };
 
 pub const FI_15: Subdivision = Subdivision {
-    name: "Norra Savolax",
+    name: "Pohjois-Savo",
     code: "FI-15",
     subdivision_type: "Region",
     country_name: "Finland",
@@ -11454,7 +11724,7 @@ pub const FI_15: Subdivision = Subdivision {
 };
 
 pub const FI_16: Subdivision = Subdivision {
-    name: "Päijänne-Tavastland",
+    name: "Päijät-Häme",
     code: "FI-16",
     subdivision_type: "Region",
     country_name: "Finland",
@@ -11463,7 +11733,7 @@ pub const FI_16: Subdivision = Subdivision {
 };
 
 pub const FI_17: Subdivision = Subdivision {
-    name: "Satakunda",
+    name: "Satakunta",
     code: "FI-17",
     subdivision_type: "Region",
     country_name: "Finland",
@@ -11472,7 +11742,7 @@ pub const FI_17: Subdivision = Subdivision {
 };
 
 pub const FI_18: Subdivision = Subdivision {
-    name: "Nyland",
+    name: "Uusimaa",
     code: "FI-18",
     subdivision_type: "Region",
     country_name: "Finland",
@@ -11481,7 +11751,7 @@ pub const FI_18: Subdivision = Subdivision {
 };
 
 pub const FI_19: Subdivision = Subdivision {
-    name: "Egentliga Finland",
+    name: "Varsinais-Suomi",
     code: "FI-19",
     subdivision_type: "Region",
     country_name: "Finland",
@@ -11658,6 +11928,15 @@ pub const FR_19: Subdivision = Subdivision {
     country_name: "France",
     country_code: "FR",
     region_code: "19",
+};
+
+pub const FR_20R: Subdivision = Subdivision {
+    name: "Corse",
+    code: "FR-20R",
+    subdivision_type: "Metropolitan collectivity with special status",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "20R",
 };
 
 pub const FR_21: Subdivision = Subdivision {
@@ -12119,6 +12398,24 @@ pub const FR_69: Subdivision = Subdivision {
     region_code: "69",
 };
 
+pub const FR_69M: Subdivision = Subdivision {
+    name: "Métropole de Lyon",
+    code: "FR-69M",
+    subdivision_type: "Metropolitan collectivity with special status",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "69M",
+};
+
+pub const FR_6AE: Subdivision = Subdivision {
+    name: "Alsace",
+    code: "FR-6AE",
+    subdivision_type: "European collectivity",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "6AE",
+};
+
 pub const FR_70: Subdivision = Subdivision {
     name: "Haute-Saône",
     code: "FR-70",
@@ -12164,13 +12461,13 @@ pub const FR_74: Subdivision = Subdivision {
     region_code: "74",
 };
 
-pub const FR_75: Subdivision = Subdivision {
+pub const FR_75C: Subdivision = Subdivision {
     name: "Paris",
-    code: "FR-75",
-    subdivision_type: "Metropolitan department",
+    code: "FR-75C",
+    subdivision_type: "Metropolitan collectivity with special status",
     country_name: "France",
     country_code: "FR",
-    region_code: "75",
+    region_code: "75C",
 };
 
 pub const FR_76: Subdivision = Subdivision {
@@ -12353,319 +12650,49 @@ pub const FR_95: Subdivision = Subdivision {
     region_code: "95",
 };
 
-pub const FR_A: Subdivision = Subdivision {
-    name: "Alsace",
-    code: "FR-A",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "A",
-};
-
-pub const FR_B: Subdivision = Subdivision {
-    name: "Aquitaine",
-    code: "FR-B",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "B",
-};
-
-pub const FR_BL: Subdivision = Subdivision {
-    name: "Saint-Barthélemy",
-    code: "FR-BL",
-    subdivision_type: "Overseas territorial collectivity",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "BL",
-};
-
-pub const FR_C: Subdivision = Subdivision {
-    name: "Auvergne",
-    code: "FR-C",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "C",
-};
-
-pub const FR_CP: Subdivision = Subdivision {
-    name: "Clipperton",
-    code: "FR-CP",
-    subdivision_type: "Dependency",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "CP",
-};
-
-pub const FR_D: Subdivision = Subdivision {
-    name: "Bourgogne",
-    code: "FR-D",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "D",
-};
-
-pub const FR_E: Subdivision = Subdivision {
-    name: "Bretagne",
-    code: "FR-E",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "E",
-};
-
-pub const FR_F: Subdivision = Subdivision {
-    name: "Centre",
-    code: "FR-F",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "F",
-};
-
-pub const FR_G: Subdivision = Subdivision {
-    name: "Champagne-Ardenne",
-    code: "FR-G",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "G",
-};
-
-pub const FR_GF: Subdivision = Subdivision {
-    name: "Guyane",
-    code: "FR-GF",
-    subdivision_type: "Overseas department",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "GF",
-};
-
-pub const FR_GP: Subdivision = Subdivision {
+pub const FR_971: Subdivision = Subdivision {
     name: "Guadeloupe",
-    code: "FR-GP",
-    subdivision_type: "Overseas department",
+    code: "FR-971",
+    subdivision_type: "Overseas departmental collectivity",
     country_name: "France",
     country_code: "FR",
-    region_code: "GP",
+    region_code: "971",
 };
 
-pub const FR_H: Subdivision = Subdivision {
-    name: "Corse",
-    code: "FR-H",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "H",
-};
-
-pub const FR_I: Subdivision = Subdivision {
-    name: "Franche-Comté",
-    code: "FR-I",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "I",
-};
-
-pub const FR_J: Subdivision = Subdivision {
-    name: "Île-de-France",
-    code: "FR-J",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "J",
-};
-
-pub const FR_K: Subdivision = Subdivision {
-    name: "Languedoc-Roussillon",
-    code: "FR-K",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "K",
-};
-
-pub const FR_L: Subdivision = Subdivision {
-    name: "Limousin",
-    code: "FR-L",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "L",
-};
-
-pub const FR_MF: Subdivision = Subdivision {
-    name: "Saint-Martin",
-    code: "FR-MF",
-    subdivision_type: "Overseas territorial collectivity",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "MF",
-};
-
-pub const FR_M: Subdivision = Subdivision {
-    name: "Lorraine",
-    code: "FR-M",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "M",
-};
-
-pub const FR_MQ: Subdivision = Subdivision {
+pub const FR_972: Subdivision = Subdivision {
     name: "Martinique",
-    code: "FR-MQ",
-    subdivision_type: "Overseas department",
+    code: "FR-972",
+    subdivision_type: "Overseas unique territorial collectivity",
     country_name: "France",
     country_code: "FR",
-    region_code: "MQ",
+    region_code: "972",
 };
 
-pub const FR_NC: Subdivision = Subdivision {
-    name: "Nouvelle-Calédonie",
-    code: "FR-NC",
-    subdivision_type: "Overseas territorial collectivity",
+pub const FR_973: Subdivision = Subdivision {
+    name: "Guyane (française)",
+    code: "FR-973",
+    subdivision_type: "Overseas unique territorial collectivity",
     country_name: "France",
     country_code: "FR",
-    region_code: "NC",
+    region_code: "973",
 };
 
-pub const FR_N: Subdivision = Subdivision {
-    name: "Midi-Pyrénées",
-    code: "FR-N",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "N",
-};
-
-pub const FR_O: Subdivision = Subdivision {
-    name: "Nord-Pas-de-Calais",
-    code: "FR-O",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "O",
-};
-
-pub const FR_P: Subdivision = Subdivision {
-    name: "Basse-Normandie",
-    code: "FR-P",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "P",
-};
-
-pub const FR_PF: Subdivision = Subdivision {
-    name: "Polynésie française",
-    code: "FR-PF",
-    subdivision_type: "Overseas territorial collectivity",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "PF",
-};
-
-pub const FR_PM: Subdivision = Subdivision {
-    name: "Saint-Pierre-et-Miquelon",
-    code: "FR-PM",
-    subdivision_type: "Overseas territorial collectivity",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "PM",
-};
-
-pub const FR_Q: Subdivision = Subdivision {
-    name: "Haute-Normandie",
-    code: "FR-Q",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "Q",
-};
-
-pub const FR_RE: Subdivision = Subdivision {
+pub const FR_974: Subdivision = Subdivision {
     name: "La Réunion",
-    code: "FR-RE",
-    subdivision_type: "Overseas department",
+    code: "FR-974",
+    subdivision_type: "Overseas departmental collectivity",
     country_name: "France",
     country_code: "FR",
-    region_code: "RE",
+    region_code: "974",
 };
 
-pub const FR_R: Subdivision = Subdivision {
-    name: "Pays-de-la-Loire",
-    code: "FR-R",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "R",
-};
-
-pub const FR_S: Subdivision = Subdivision {
-    name: "Picardie",
-    code: "FR-S",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "S",
-};
-
-pub const FR_TF: Subdivision = Subdivision {
-    name: "Terres australes françaises",
-    code: "FR-TF",
-    subdivision_type: "Overseas territorial collectivity",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "TF",
-};
-
-pub const FR_T: Subdivision = Subdivision {
-    name: "Poitou-Charentes",
-    code: "FR-T",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "T",
-};
-
-pub const FR_U: Subdivision = Subdivision {
-    name: "Provence-Alpes-Côte-d'Azur",
-    code: "FR-U",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "U",
-};
-
-pub const FR_V: Subdivision = Subdivision {
-    name: "Rhône-Alpes",
-    code: "FR-V",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "V",
-};
-
-pub const FR_WF: Subdivision = Subdivision {
-    name: "Wallis-et-Futuna",
-    code: "FR-WF",
-    subdivision_type: "Overseas territorial collectivity",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "WF",
-};
-
-pub const FR_YT: Subdivision = Subdivision {
+pub const FR_976: Subdivision = Subdivision {
     name: "Mayotte",
-    code: "FR-YT",
-    subdivision_type: "Overseas department",
+    code: "FR-976",
+    subdivision_type: "Overseas departmental collectivity",
     country_name: "France",
     country_code: "FR",
-    region_code: "YT",
+    region_code: "976",
 };
 
 pub const FR_ARA: Subdivision = Subdivision {
@@ -12686,6 +12713,15 @@ pub const FR_BFC: Subdivision = Subdivision {
     region_code: "BFC",
 };
 
+pub const FR_BL: Subdivision = Subdivision {
+    name: "Saint-Barthélemy",
+    code: "FR-BL",
+    subdivision_type: "Overseas collectivity",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "BL",
+};
+
 pub const FR_BRE: Subdivision = Subdivision {
     name: "Bretagne",
     code: "FR-BRE",
@@ -12695,6 +12731,15 @@ pub const FR_BRE: Subdivision = Subdivision {
     region_code: "BRE",
 };
 
+pub const FR_CP: Subdivision = Subdivision {
+    name: "Clipperton",
+    code: "FR-CP",
+    subdivision_type: "Dependency",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "CP",
+};
+
 pub const FR_CVL: Subdivision = Subdivision {
     name: "Centre-Val de Loire",
     code: "FR-CVL",
@@ -12702,15 +12747,6 @@ pub const FR_CVL: Subdivision = Subdivision {
     country_name: "France",
     country_code: "FR",
     region_code: "CVL",
-};
-
-pub const FR_20R: Subdivision = Subdivision {
-    name: "Corse",
-    code: "FR-20R",
-    subdivision_type: "Metropolitan collectivity with special status",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "20R",
 };
 
 pub const FR_GES: Subdivision = Subdivision {
@@ -12740,13 +12776,13 @@ pub const FR_IDF: Subdivision = Subdivision {
     region_code: "IDF",
 };
 
-pub const FR_NOR: Subdivision = Subdivision {
-    name: "Normandie",
-    code: "FR-NOR",
-    subdivision_type: "Metropolitan region",
+pub const FR_MF: Subdivision = Subdivision {
+    name: "Saint-Martin",
+    code: "FR-MF",
+    subdivision_type: "Overseas collectivity",
     country_name: "France",
     country_code: "FR",
-    region_code: "NOR",
+    region_code: "MF",
 };
 
 pub const FR_NAQ: Subdivision = Subdivision {
@@ -12758,6 +12794,24 @@ pub const FR_NAQ: Subdivision = Subdivision {
     region_code: "NAQ",
 };
 
+pub const FR_NC: Subdivision = Subdivision {
+    name: "Nouvelle-Calédonie",
+    code: "FR-NC",
+    subdivision_type: "Overseas collectivity with special status",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "NC",
+};
+
+pub const FR_NOR: Subdivision = Subdivision {
+    name: "Normandie",
+    code: "FR-NOR",
+    subdivision_type: "Metropolitan region",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "NOR",
+};
+
 pub const FR_OCC: Subdivision = Subdivision {
     name: "Occitanie",
     code: "FR-OCC",
@@ -12765,15 +12819,6 @@ pub const FR_OCC: Subdivision = Subdivision {
     country_name: "France",
     country_code: "FR",
     region_code: "OCC",
-};
-
-pub const FR_PDL: Subdivision = Subdivision {
-    name: "Pays-de-la-Loire",
-    code: "FR-PDL",
-    subdivision_type: "Metropolitan region",
-    country_name: "France",
-    country_code: "FR",
-    region_code: "PDL",
 };
 
 pub const FR_PAC: Subdivision = Subdivision {
@@ -12785,31 +12830,49 @@ pub const FR_PAC: Subdivision = Subdivision {
     region_code: "PAC",
 };
 
-pub const GF_GF: Subdivision = Subdivision {
-    name: "French Guiana",
-    code: "GF-GF",
-    subdivision_type: "Country",
-    country_name: "French Guiana",
-    country_code: "GF",
-    region_code: "GF",
+pub const FR_PDL: Subdivision = Subdivision {
+    name: "Pays-de-la-Loire",
+    code: "FR-PDL",
+    subdivision_type: "Metropolitan region",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "PDL",
 };
 
-pub const PF_PF: Subdivision = Subdivision {
-    name: "French Polynesia",
-    code: "PF-PF",
-    subdivision_type: "Country",
-    country_name: "French Polynesia",
-    country_code: "PF",
+pub const FR_PF: Subdivision = Subdivision {
+    name: "Polynésie française",
+    code: "FR-PF",
+    subdivision_type: "Overseas collectivity",
+    country_name: "France",
+    country_code: "FR",
     region_code: "PF",
 };
 
-pub const TF_TF: Subdivision = Subdivision {
-    name: "French Southern Territories",
-    code: "TF-TF",
-    subdivision_type: "Country",
-    country_name: "French Southern Territories",
-    country_code: "TF",
+pub const FR_PM: Subdivision = Subdivision {
+    name: "Saint-Pierre-et-Miquelon",
+    code: "FR-PM",
+    subdivision_type: "Overseas collectivity",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "PM",
+};
+
+pub const FR_TF: Subdivision = Subdivision {
+    name: "Terres australes françaises",
+    code: "FR-TF",
+    subdivision_type: "Overseas territory",
+    country_name: "France",
+    country_code: "FR",
     region_code: "TF",
+};
+
+pub const FR_WF: Subdivision = Subdivision {
+    name: "Wallis-et-Futuna",
+    code: "FR-WF",
+    subdivision_type: "Overseas collectivity",
+    country_name: "France",
+    country_code: "FR",
+    region_code: "WF",
 };
 
 pub const GA_1: Subdivision = Subdivision {
@@ -13058,7 +13121,7 @@ pub const GE_TB: Subdivision = Subdivision {
 pub const DE_BB: Subdivision = Subdivision {
     name: "Brandenburg",
     code: "DE-BB",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "BB",
@@ -13067,7 +13130,7 @@ pub const DE_BB: Subdivision = Subdivision {
 pub const DE_BE: Subdivision = Subdivision {
     name: "Berlin",
     code: "DE-BE",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "BE",
@@ -13076,7 +13139,7 @@ pub const DE_BE: Subdivision = Subdivision {
 pub const DE_BW: Subdivision = Subdivision {
     name: "Baden-Württemberg",
     code: "DE-BW",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "BW",
@@ -13085,7 +13148,7 @@ pub const DE_BW: Subdivision = Subdivision {
 pub const DE_BY: Subdivision = Subdivision {
     name: "Bayern",
     code: "DE-BY",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "BY",
@@ -13094,7 +13157,7 @@ pub const DE_BY: Subdivision = Subdivision {
 pub const DE_HB: Subdivision = Subdivision {
     name: "Bremen",
     code: "DE-HB",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "HB",
@@ -13103,7 +13166,7 @@ pub const DE_HB: Subdivision = Subdivision {
 pub const DE_HE: Subdivision = Subdivision {
     name: "Hessen",
     code: "DE-HE",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "HE",
@@ -13112,7 +13175,7 @@ pub const DE_HE: Subdivision = Subdivision {
 pub const DE_HH: Subdivision = Subdivision {
     name: "Hamburg",
     code: "DE-HH",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "HH",
@@ -13121,7 +13184,7 @@ pub const DE_HH: Subdivision = Subdivision {
 pub const DE_MV: Subdivision = Subdivision {
     name: "Mecklenburg-Vorpommern",
     code: "DE-MV",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "MV",
@@ -13130,7 +13193,7 @@ pub const DE_MV: Subdivision = Subdivision {
 pub const DE_NI: Subdivision = Subdivision {
     name: "Niedersachsen",
     code: "DE-NI",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "NI",
@@ -13139,7 +13202,7 @@ pub const DE_NI: Subdivision = Subdivision {
 pub const DE_NW: Subdivision = Subdivision {
     name: "Nordrhein-Westfalen",
     code: "DE-NW",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "NW",
@@ -13148,7 +13211,7 @@ pub const DE_NW: Subdivision = Subdivision {
 pub const DE_RP: Subdivision = Subdivision {
     name: "Rheinland-Pfalz",
     code: "DE-RP",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "RP",
@@ -13157,7 +13220,7 @@ pub const DE_RP: Subdivision = Subdivision {
 pub const DE_SH: Subdivision = Subdivision {
     name: "Schleswig-Holstein",
     code: "DE-SH",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "SH",
@@ -13166,7 +13229,7 @@ pub const DE_SH: Subdivision = Subdivision {
 pub const DE_SL: Subdivision = Subdivision {
     name: "Saarland",
     code: "DE-SL",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "SL",
@@ -13175,7 +13238,7 @@ pub const DE_SL: Subdivision = Subdivision {
 pub const DE_SN: Subdivision = Subdivision {
     name: "Sachsen",
     code: "DE-SN",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "SN",
@@ -13184,7 +13247,7 @@ pub const DE_SN: Subdivision = Subdivision {
 pub const DE_ST: Subdivision = Subdivision {
     name: "Sachsen-Anhalt",
     code: "DE-ST",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "ST",
@@ -13193,7 +13256,7 @@ pub const DE_ST: Subdivision = Subdivision {
 pub const DE_TH: Subdivision = Subdivision {
     name: "Thüringen",
     code: "DE-TH",
-    subdivision_type: "Länder",
+    subdivision_type: "Land",
     country_name: "Germany",
     country_code: "DE",
     region_code: "TH",
@@ -13208,6 +13271,15 @@ pub const GH_AA: Subdivision = Subdivision {
     region_code: "AA",
 };
 
+pub const GH_AF: Subdivision = Subdivision {
+    name: "Ahafo",
+    code: "GH-AF",
+    subdivision_type: "Region",
+    country_name: "Ghana",
+    country_code: "GH",
+    region_code: "AF",
+};
+
 pub const GH_AH: Subdivision = Subdivision {
     name: "Ashanti",
     code: "GH-AH",
@@ -13217,13 +13289,22 @@ pub const GH_AH: Subdivision = Subdivision {
     region_code: "AH",
 };
 
-pub const GH_BA: Subdivision = Subdivision {
-    name: "Brong-Ahafo",
-    code: "GH-BA",
+pub const GH_BE: Subdivision = Subdivision {
+    name: "Bono East",
+    code: "GH-BE",
     subdivision_type: "Region",
     country_name: "Ghana",
     country_code: "GH",
-    region_code: "BA",
+    region_code: "BE",
+};
+
+pub const GH_BO: Subdivision = Subdivision {
+    name: "Bono",
+    code: "GH-BO",
+    subdivision_type: "Region",
+    country_name: "Ghana",
+    country_code: "GH",
+    region_code: "BO",
 };
 
 pub const GH_CP: Subdivision = Subdivision {
@@ -13244,6 +13325,15 @@ pub const GH_EP: Subdivision = Subdivision {
     region_code: "EP",
 };
 
+pub const GH_NE: Subdivision = Subdivision {
+    name: "North East",
+    code: "GH-NE",
+    subdivision_type: "Region",
+    country_name: "Ghana",
+    country_code: "GH",
+    region_code: "NE",
+};
+
 pub const GH_NP: Subdivision = Subdivision {
     name: "Northern",
     code: "GH-NP",
@@ -13251,6 +13341,24 @@ pub const GH_NP: Subdivision = Subdivision {
     country_name: "Ghana",
     country_code: "GH",
     region_code: "NP",
+};
+
+pub const GH_OT: Subdivision = Subdivision {
+    name: "Oti",
+    code: "GH-OT",
+    subdivision_type: "Region",
+    country_name: "Ghana",
+    country_code: "GH",
+    region_code: "OT",
+};
+
+pub const GH_SV: Subdivision = Subdivision {
+    name: "Savannah",
+    code: "GH-SV",
+    subdivision_type: "Region",
+    country_name: "Ghana",
+    country_code: "GH",
+    region_code: "SV",
 };
 
 pub const GH_TV: Subdivision = Subdivision {
@@ -13280,6 +13388,15 @@ pub const GH_UW: Subdivision = Subdivision {
     region_code: "UW",
 };
 
+pub const GH_WN: Subdivision = Subdivision {
+    name: "Western North",
+    code: "GH-WN",
+    subdivision_type: "Region",
+    country_name: "Ghana",
+    country_code: "GH",
+    region_code: "WN",
+};
+
 pub const GH_WP: Subdivision = Subdivision {
     name: "Western",
     code: "GH-WP",
@@ -13289,357 +13406,6 @@ pub const GH_WP: Subdivision = Subdivision {
     region_code: "WP",
 };
 
-pub const GI_GI: Subdivision = Subdivision {
-    name: "Gibraltar",
-    code: "GI-GI",
-    subdivision_type: "Country",
-    country_name: "Gibraltar",
-    country_code: "GI",
-    region_code: "GI",
-};
-
-pub const GR_01: Subdivision = Subdivision {
-    name: "Aitoloakarnanía",
-    code: "GR-01",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "01",
-};
-
-pub const GR_03: Subdivision = Subdivision {
-    name: "Voiotía",
-    code: "GR-03",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "03",
-};
-
-pub const GR_04: Subdivision = Subdivision {
-    name: "Évvoia",
-    code: "GR-04",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "04",
-};
-
-pub const GR_05: Subdivision = Subdivision {
-    name: "Evrytanía",
-    code: "GR-05",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "05",
-};
-
-pub const GR_06: Subdivision = Subdivision {
-    name: "Fthiótida",
-    code: "GR-06",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "06",
-};
-
-pub const GR_07: Subdivision = Subdivision {
-    name: "Fokída",
-    code: "GR-07",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "07",
-};
-
-pub const GR_11: Subdivision = Subdivision {
-    name: "Argolída",
-    code: "GR-11",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "11",
-};
-
-pub const GR_12: Subdivision = Subdivision {
-    name: "Arkadía",
-    code: "GR-12",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "12",
-};
-
-pub const GR_13: Subdivision = Subdivision {
-    name: "Achaḯa",
-    code: "GR-13",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "13",
-};
-
-pub const GR_14: Subdivision = Subdivision {
-    name: "Ileía",
-    code: "GR-14",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "14",
-};
-
-pub const GR_15: Subdivision = Subdivision {
-    name: "Korinthía",
-    code: "GR-15",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "15",
-};
-
-pub const GR_16: Subdivision = Subdivision {
-    name: "Lakonía",
-    code: "GR-16",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "16",
-};
-
-pub const GR_17: Subdivision = Subdivision {
-    name: "Messinía",
-    code: "GR-17",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "17",
-};
-
-pub const GR_21: Subdivision = Subdivision {
-    name: "Zákynthos",
-    code: "GR-21",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "21",
-};
-
-pub const GR_22: Subdivision = Subdivision {
-    name: "Kérkyra",
-    code: "GR-22",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "22",
-};
-
-pub const GR_23: Subdivision = Subdivision {
-    name: "Kefallinía",
-    code: "GR-23",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "23",
-};
-
-pub const GR_24: Subdivision = Subdivision {
-    name: "Lefkáda",
-    code: "GR-24",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "24",
-};
-
-pub const GR_31: Subdivision = Subdivision {
-    name: "Árta",
-    code: "GR-31",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "31",
-};
-
-pub const GR_32: Subdivision = Subdivision {
-    name: "Thesprotía",
-    code: "GR-32",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "32",
-};
-
-pub const GR_33: Subdivision = Subdivision {
-    name: "Ioánnina",
-    code: "GR-33",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "33",
-};
-
-pub const GR_34: Subdivision = Subdivision {
-    name: "Préveza",
-    code: "GR-34",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "34",
-};
-
-pub const GR_41: Subdivision = Subdivision {
-    name: "Kardítsa",
-    code: "GR-41",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "41",
-};
-
-pub const GR_42: Subdivision = Subdivision {
-    name: "Lárisa",
-    code: "GR-42",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "42",
-};
-
-pub const GR_43: Subdivision = Subdivision {
-    name: "Magnisía",
-    code: "GR-43",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "43",
-};
-
-pub const GR_44: Subdivision = Subdivision {
-    name: "Tríkala",
-    code: "GR-44",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "44",
-};
-
-pub const GR_51: Subdivision = Subdivision {
-    name: "Grevená",
-    code: "GR-51",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "51",
-};
-
-pub const GR_52: Subdivision = Subdivision {
-    name: "Dráma",
-    code: "GR-52",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "52",
-};
-
-pub const GR_53: Subdivision = Subdivision {
-    name: "Imathía",
-    code: "GR-53",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "53",
-};
-
-pub const GR_54: Subdivision = Subdivision {
-    name: "Thessaloníki",
-    code: "GR-54",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "54",
-};
-
-pub const GR_55: Subdivision = Subdivision {
-    name: "Kavála",
-    code: "GR-55",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "55",
-};
-
-pub const GR_56: Subdivision = Subdivision {
-    name: "Kastoriá",
-    code: "GR-56",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "56",
-};
-
-pub const GR_57: Subdivision = Subdivision {
-    name: "Kilkís",
-    code: "GR-57",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "57",
-};
-
-pub const GR_58: Subdivision = Subdivision {
-    name: "Kozáni",
-    code: "GR-58",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "58",
-};
-
-pub const GR_59: Subdivision = Subdivision {
-    name: "Pélla",
-    code: "GR-59",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "59",
-};
-
-pub const GR_61: Subdivision = Subdivision {
-    name: "Piería",
-    code: "GR-61",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "61",
-};
-
-pub const GR_62: Subdivision = Subdivision {
-    name: "Sérres",
-    code: "GR-62",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "62",
-};
-
-pub const GR_63: Subdivision = Subdivision {
-    name: "Flórina",
-    code: "GR-63",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "63",
-};
-
-pub const GR_64: Subdivision = Subdivision {
-    name: "Chalkidikí",
-    code: "GR-64",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "64",
-};
-
 pub const GR_69: Subdivision = Subdivision {
     name: "Ágion Óros",
     code: "GR-69",
@@ -13647,123 +13413,6 @@ pub const GR_69: Subdivision = Subdivision {
     country_name: "Greece",
     country_code: "GR",
     region_code: "69",
-};
-
-pub const GR_71: Subdivision = Subdivision {
-    name: "Évros",
-    code: "GR-71",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "71",
-};
-
-pub const GR_72: Subdivision = Subdivision {
-    name: "Xánthi",
-    code: "GR-72",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "72",
-};
-
-pub const GR_73: Subdivision = Subdivision {
-    name: "Rodópi",
-    code: "GR-73",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "73",
-};
-
-pub const GR_81: Subdivision = Subdivision {
-    name: "Dodekánisa",
-    code: "GR-81",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "81",
-};
-
-pub const GR_82: Subdivision = Subdivision {
-    name: "Kykládes",
-    code: "GR-82",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "82",
-};
-
-pub const GR_83: Subdivision = Subdivision {
-    name: "Lésvos",
-    code: "GR-83",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "83",
-};
-
-pub const GR_84: Subdivision = Subdivision {
-    name: "Sámos",
-    code: "GR-84",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "84",
-};
-
-pub const GR_85: Subdivision = Subdivision {
-    name: "Chíos",
-    code: "GR-85",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "85",
-};
-
-pub const GR_91: Subdivision = Subdivision {
-    name: "Irakleío",
-    code: "GR-91",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "91",
-};
-
-pub const GR_92: Subdivision = Subdivision {
-    name: "Lasíthi",
-    code: "GR-92",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "92",
-};
-
-pub const GR_93: Subdivision = Subdivision {
-    name: "Rethýmnis",
-    code: "GR-93",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "93",
-};
-
-pub const GR_94: Subdivision = Subdivision {
-    name: "Chaniá",
-    code: "GR-94",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "94",
-};
-
-pub const GR_A1: Subdivision = Subdivision {
-    name: "Attikí",
-    code: "GR-A1",
-    subdivision_type: "Department",
-    country_name: "Greece",
-    country_code: "GR",
-    region_code: "A1",
 };
 
 pub const GR_A: Subdivision = Subdivision {
@@ -13848,7 +13497,7 @@ pub const GR_I: Subdivision = Subdivision {
 };
 
 pub const GR_J: Subdivision = Subdivision {
-    name: "Peloponnísos",
+    name: "Pelopónnisos",
     code: "GR-J",
     subdivision_type: "Administrative region",
     country_name: "Greece",
@@ -13857,7 +13506,7 @@ pub const GR_J: Subdivision = Subdivision {
 };
 
 pub const GR_K: Subdivision = Subdivision {
-    name: "Voreío Aigaío",
+    name: "Vóreio Aigaío",
     code: "GR-K",
     subdivision_type: "Administrative region",
     country_name: "Greece",
@@ -13866,7 +13515,7 @@ pub const GR_K: Subdivision = Subdivision {
 };
 
 pub const GR_L: Subdivision = Subdivision {
-    name: "Notío Aigaío",
+    name: "Nótio Aigaío",
     code: "GR-L",
     subdivision_type: "Administrative region",
     country_name: "Greece",
@@ -13875,12 +13524,21 @@ pub const GR_L: Subdivision = Subdivision {
 };
 
 pub const GR_M: Subdivision = Subdivision {
-    name: "Krítí",
+    name: "Kríti",
     code: "GR-M",
     subdivision_type: "Administrative region",
     country_name: "Greece",
     country_code: "GR",
     region_code: "M",
+};
+
+pub const GL_AV: Subdivision = Subdivision {
+    name: "Avannaata Kommunia",
+    code: "GL-AV",
+    subdivision_type: "Municipality",
+    country_name: "Greenland",
+    country_code: "GL",
+    region_code: "AV",
 };
 
 pub const GL_KU: Subdivision = Subdivision {
@@ -13892,15 +13550,6 @@ pub const GL_KU: Subdivision = Subdivision {
     region_code: "KU",
 };
 
-pub const GL_QA: Subdivision = Subdivision {
-    name: "Qaasuitsup Kommunia",
-    code: "GL-QA",
-    subdivision_type: "Municipality",
-    country_name: "Greenland",
-    country_code: "GL",
-    region_code: "QA",
-};
-
 pub const GL_QE: Subdivision = Subdivision {
     name: "Qeqqata Kommunia",
     code: "GL-QE",
@@ -13908,6 +13557,15 @@ pub const GL_QE: Subdivision = Subdivision {
     country_name: "Greenland",
     country_code: "GL",
     region_code: "QE",
+};
+
+pub const GL_QT: Subdivision = Subdivision {
+    name: "Kommune Qeqertalik",
+    code: "GL-QT",
+    subdivision_type: "Municipality",
+    country_name: "Greenland",
+    country_code: "GL",
+    region_code: "QT",
 };
 
 pub const GL_SM: Subdivision = Subdivision {
@@ -13982,229 +13640,571 @@ pub const GD_10: Subdivision = Subdivision {
     region_code: "10",
 };
 
-pub const GP_GP: Subdivision = Subdivision {
-    name: "Guadeloupe",
-    code: "GP-GP",
-    subdivision_type: "Country",
-    country_name: "Guadeloupe",
-    country_code: "GP",
-    region_code: "GP",
-};
-
-pub const GU_GU: Subdivision = Subdivision {
-    name: "Guam",
-    code: "GU-GU",
-    subdivision_type: "Country",
-    country_name: "Guam",
-    country_code: "GU",
-    region_code: "GU",
-};
-
-pub const GT_AV: Subdivision = Subdivision {
-    name: "Alta Verapaz",
-    code: "GT-AV",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "AV",
-};
-
-pub const GT_BV: Subdivision = Subdivision {
-    name: "Baja Verapaz",
-    code: "GT-BV",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "BV",
-};
-
-pub const GT_CM: Subdivision = Subdivision {
-    name: "Chimaltenango",
-    code: "GT-CM",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "CM",
-};
-
-pub const GT_CQ: Subdivision = Subdivision {
-    name: "Chiquimula",
-    code: "GT-CQ",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "CQ",
-};
-
-pub const GT_ES: Subdivision = Subdivision {
-    name: "Escuintla",
-    code: "GT-ES",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "ES",
-};
-
-pub const GT_GU: Subdivision = Subdivision {
+pub const GT_01: Subdivision = Subdivision {
     name: "Guatemala",
-    code: "GT-GU",
+    code: "GT-01",
     subdivision_type: "Department",
     country_name: "Guatemala",
     country_code: "GT",
+    region_code: "01",
+};
+
+pub const GT_02: Subdivision = Subdivision {
+    name: "El Progreso",
+    code: "GT-02",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "02",
+};
+
+pub const GT_03: Subdivision = Subdivision {
+    name: "Sacatepéquez",
+    code: "GT-03",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "03",
+};
+
+pub const GT_04: Subdivision = Subdivision {
+    name: "Chimaltenango",
+    code: "GT-04",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "04",
+};
+
+pub const GT_05: Subdivision = Subdivision {
+    name: "Escuintla",
+    code: "GT-05",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "05",
+};
+
+pub const GT_06: Subdivision = Subdivision {
+    name: "Santa Rosa",
+    code: "GT-06",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "06",
+};
+
+pub const GT_07: Subdivision = Subdivision {
+    name: "Sololá",
+    code: "GT-07",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "07",
+};
+
+pub const GT_08: Subdivision = Subdivision {
+    name: "Totonicapán",
+    code: "GT-08",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "08",
+};
+
+pub const GT_09: Subdivision = Subdivision {
+    name: "Quetzaltenango",
+    code: "GT-09",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "09",
+};
+
+pub const GT_10: Subdivision = Subdivision {
+    name: "Suchitepéquez",
+    code: "GT-10",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "10",
+};
+
+pub const GT_11: Subdivision = Subdivision {
+    name: "Retalhuleu",
+    code: "GT-11",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "11",
+};
+
+pub const GT_12: Subdivision = Subdivision {
+    name: "San Marcos",
+    code: "GT-12",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "12",
+};
+
+pub const GT_13: Subdivision = Subdivision {
+    name: "Huehuetenango",
+    code: "GT-13",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "13",
+};
+
+pub const GT_14: Subdivision = Subdivision {
+    name: "Quiché",
+    code: "GT-14",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "14",
+};
+
+pub const GT_15: Subdivision = Subdivision {
+    name: "Baja Verapaz",
+    code: "GT-15",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "15",
+};
+
+pub const GT_16: Subdivision = Subdivision {
+    name: "Alta Verapaz",
+    code: "GT-16",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "16",
+};
+
+pub const GT_17: Subdivision = Subdivision {
+    name: "Petén",
+    code: "GT-17",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "17",
+};
+
+pub const GT_18: Subdivision = Subdivision {
+    name: "Izabal",
+    code: "GT-18",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "18",
+};
+
+pub const GT_19: Subdivision = Subdivision {
+    name: "Zacapa",
+    code: "GT-19",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "19",
+};
+
+pub const GT_20: Subdivision = Subdivision {
+    name: "Chiquimula",
+    code: "GT-20",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "20",
+};
+
+pub const GT_21: Subdivision = Subdivision {
+    name: "Jalapa",
+    code: "GT-21",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "21",
+};
+
+pub const GT_22: Subdivision = Subdivision {
+    name: "Jutiapa",
+    code: "GT-22",
+    subdivision_type: "Department",
+    country_name: "Guatemala",
+    country_code: "GT",
+    region_code: "22",
+};
+
+pub const GN_B: Subdivision = Subdivision {
+    name: "Boké",
+    code: "GN-B",
+    subdivision_type: "Administrative region",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "B",
+};
+
+pub const GN_BE: Subdivision = Subdivision {
+    name: "Beyla",
+    code: "GN-BE",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "BE",
+};
+
+pub const GN_BF: Subdivision = Subdivision {
+    name: "Boffa",
+    code: "GN-BF",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "BF",
+};
+
+pub const GN_BK: Subdivision = Subdivision {
+    name: "Boké",
+    code: "GN-BK",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "BK",
+};
+
+pub const GN_C: Subdivision = Subdivision {
+    name: "Conakry",
+    code: "GN-C",
+    subdivision_type: "Governorate",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "C",
+};
+
+pub const GN_CO: Subdivision = Subdivision {
+    name: "Coyah",
+    code: "GN-CO",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "CO",
+};
+
+pub const GN_D: Subdivision = Subdivision {
+    name: "Kindia",
+    code: "GN-D",
+    subdivision_type: "Administrative region",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "D",
+};
+
+pub const GN_DB: Subdivision = Subdivision {
+    name: "Dabola",
+    code: "GN-DB",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "DB",
+};
+
+pub const GN_DI: Subdivision = Subdivision {
+    name: "Dinguiraye",
+    code: "GN-DI",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "DI",
+};
+
+pub const GN_DL: Subdivision = Subdivision {
+    name: "Dalaba",
+    code: "GN-DL",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "DL",
+};
+
+pub const GN_DU: Subdivision = Subdivision {
+    name: "Dubréka",
+    code: "GN-DU",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "DU",
+};
+
+pub const GN_F: Subdivision = Subdivision {
+    name: "Faranah",
+    code: "GN-F",
+    subdivision_type: "Administrative region",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "F",
+};
+
+pub const GN_FA: Subdivision = Subdivision {
+    name: "Faranah",
+    code: "GN-FA",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "FA",
+};
+
+pub const GN_FO: Subdivision = Subdivision {
+    name: "Forécariah",
+    code: "GN-FO",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "FO",
+};
+
+pub const GN_FR: Subdivision = Subdivision {
+    name: "Fria",
+    code: "GN-FR",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "FR",
+};
+
+pub const GN_GA: Subdivision = Subdivision {
+    name: "Gaoual",
+    code: "GN-GA",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "GA",
+};
+
+pub const GN_GU: Subdivision = Subdivision {
+    name: "Guékédou",
+    code: "GN-GU",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
     region_code: "GU",
 };
 
-pub const GT_HU: Subdivision = Subdivision {
-    name: "Huehuetenango",
-    code: "GT-HU",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "HU",
+pub const GN_K: Subdivision = Subdivision {
+    name: "Kankan",
+    code: "GN-K",
+    subdivision_type: "Administrative region",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "K",
 };
 
-pub const GT_IZ: Subdivision = Subdivision {
-    name: "Izabal",
-    code: "GT-IZ",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "IZ",
+pub const GN_KA: Subdivision = Subdivision {
+    name: "Kankan",
+    code: "GN-KA",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "KA",
 };
 
-pub const GT_JA: Subdivision = Subdivision {
-    name: "Jalapa",
-    code: "GT-JA",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "JA",
+pub const GN_KB: Subdivision = Subdivision {
+    name: "Koubia",
+    code: "GN-KB",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "KB",
 };
 
-pub const GT_JU: Subdivision = Subdivision {
-    name: "Jutiapa",
-    code: "GT-JU",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "JU",
+pub const GN_KD: Subdivision = Subdivision {
+    name: "Kindia",
+    code: "GN-KD",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "KD",
 };
 
-pub const GT_PE: Subdivision = Subdivision {
-    name: "Petén",
-    code: "GT-PE",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "PE",
+pub const GN_KE: Subdivision = Subdivision {
+    name: "Kérouané",
+    code: "GN-KE",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "KE",
 };
 
-pub const GT_PR: Subdivision = Subdivision {
-    name: "El Progreso",
-    code: "GT-PR",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "PR",
+pub const GN_KN: Subdivision = Subdivision {
+    name: "Koundara",
+    code: "GN-KN",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "KN",
 };
 
-pub const GT_QC: Subdivision = Subdivision {
-    name: "Quiché",
-    code: "GT-QC",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "QC",
+pub const GN_KO: Subdivision = Subdivision {
+    name: "Kouroussa",
+    code: "GN-KO",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "KO",
 };
 
-pub const GT_QZ: Subdivision = Subdivision {
-    name: "Quetzaltenango",
-    code: "GT-QZ",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "QZ",
+pub const GN_KS: Subdivision = Subdivision {
+    name: "Kissidougou",
+    code: "GN-KS",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "KS",
 };
 
-pub const GT_RE: Subdivision = Subdivision {
-    name: "Retalhuleu",
-    code: "GT-RE",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "RE",
+pub const GN_L: Subdivision = Subdivision {
+    name: "Labé",
+    code: "GN-L",
+    subdivision_type: "Administrative region",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "L",
 };
 
-pub const GT_SA: Subdivision = Subdivision {
-    name: "Sacatepéquez",
-    code: "GT-SA",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "SA",
+pub const GN_LA: Subdivision = Subdivision {
+    name: "Labé",
+    code: "GN-LA",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "LA",
 };
 
-pub const GT_SM: Subdivision = Subdivision {
-    name: "San Marcos",
-    code: "GT-SM",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "SM",
+pub const GN_LE: Subdivision = Subdivision {
+    name: "Lélouma",
+    code: "GN-LE",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "LE",
 };
 
-pub const GT_SO: Subdivision = Subdivision {
-    name: "Sololá",
-    code: "GT-SO",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "SO",
+pub const GN_LO: Subdivision = Subdivision {
+    name: "Lola",
+    code: "GN-LO",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "LO",
 };
 
-pub const GT_SR: Subdivision = Subdivision {
-    name: "Santa Rosa",
-    code: "GT-SR",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "SR",
+pub const GN_M: Subdivision = Subdivision {
+    name: "Mamou",
+    code: "GN-M",
+    subdivision_type: "Administrative region",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "M",
 };
 
-pub const GT_SU: Subdivision = Subdivision {
-    name: "Suchitepéquez",
-    code: "GT-SU",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "SU",
+pub const GN_MC: Subdivision = Subdivision {
+    name: "Macenta",
+    code: "GN-MC",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "MC",
 };
 
-pub const GT_TO: Subdivision = Subdivision {
-    name: "Totonicapán",
-    code: "GT-TO",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
+pub const GN_MD: Subdivision = Subdivision {
+    name: "Mandiana",
+    code: "GN-MD",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "MD",
+};
+
+pub const GN_ML: Subdivision = Subdivision {
+    name: "Mali",
+    code: "GN-ML",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "ML",
+};
+
+pub const GN_MM: Subdivision = Subdivision {
+    name: "Mamou",
+    code: "GN-MM",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "MM",
+};
+
+pub const GN_N: Subdivision = Subdivision {
+    name: "Nzérékoré",
+    code: "GN-N",
+    subdivision_type: "Administrative region",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "N",
+};
+
+pub const GN_NZ: Subdivision = Subdivision {
+    name: "Nzérékoré",
+    code: "GN-NZ",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "NZ",
+};
+
+pub const GN_PI: Subdivision = Subdivision {
+    name: "Pita",
+    code: "GN-PI",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "PI",
+};
+
+pub const GN_SI: Subdivision = Subdivision {
+    name: "Siguiri",
+    code: "GN-SI",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "SI",
+};
+
+pub const GN_TE: Subdivision = Subdivision {
+    name: "Télimélé",
+    code: "GN-TE",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "TE",
+};
+
+pub const GN_TO: Subdivision = Subdivision {
+    name: "Tougué",
+    code: "GN-TO",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
     region_code: "TO",
 };
 
-pub const GT_ZA: Subdivision = Subdivision {
-    name: "Zacapa",
-    code: "GT-ZA",
-    subdivision_type: "Department",
-    country_name: "Guatemala",
-    country_code: "GT",
-    region_code: "ZA",
-};
-
-pub const GG_GG: Subdivision = Subdivision {
-    name: "Guernsey",
-    code: "GG-GG",
-    subdivision_type: "Country",
-    country_name: "Guernsey",
-    country_code: "GG",
-    region_code: "GG",
+pub const GN_YO: Subdivision = Subdivision {
+    name: "Yomou",
+    code: "GN-YO",
+    subdivision_type: "Prefecture",
+    country_name: "Guinea",
+    country_code: "GN",
+    region_code: "YO",
 };
 
 pub const GW_BA: Subdivision = Subdivision {
@@ -14217,7 +14217,7 @@ pub const GW_BA: Subdivision = Subdivision {
 };
 
 pub const GW_BL: Subdivision = Subdivision {
-    name: "Bolama",
+    name: "Bolama / Bijagós",
     code: "GW-BL",
     subdivision_type: "Region",
     country_name: "Guinea-Bissau",
@@ -14313,375 +14313,6 @@ pub const GW_TO: Subdivision = Subdivision {
     country_name: "Guinea-Bissau",
     country_code: "GW",
     region_code: "TO",
-};
-
-pub const GN_B: Subdivision = Subdivision {
-    name: "Boké",
-    code: "GN-B",
-    subdivision_type: "Administrative region",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "B",
-};
-
-pub const GN_BE: Subdivision = Subdivision {
-    name: "Beyla",
-    code: "GN-BE",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "BE",
-};
-
-pub const GN_BF: Subdivision = Subdivision {
-    name: "Boffa",
-    code: "GN-BF",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "BF",
-};
-
-pub const GN_BK: Subdivision = Subdivision {
-    name: "Boké",
-    code: "GN-BK",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "BK",
-};
-
-pub const GN_C: Subdivision = Subdivision {
-    name: "Conakry",
-    code: "GN-C",
-    subdivision_type: "Governorate",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "C",
-};
-
-pub const GN_CO: Subdivision = Subdivision {
-    name: "Coyah",
-    code: "GN-CO",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "CO",
-};
-
-pub const GN_DB: Subdivision = Subdivision {
-    name: "Dabola",
-    code: "GN-DB",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "DB",
-};
-
-pub const GN_DI: Subdivision = Subdivision {
-    name: "Dinguiraye",
-    code: "GN-DI",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "DI",
-};
-
-pub const GN_D: Subdivision = Subdivision {
-    name: "Kindia",
-    code: "GN-D",
-    subdivision_type: "Administrative region",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "D",
-};
-
-pub const GN_DL: Subdivision = Subdivision {
-    name: "Dalaba",
-    code: "GN-DL",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "DL",
-};
-
-pub const GN_DU: Subdivision = Subdivision {
-    name: "Dubréka",
-    code: "GN-DU",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "DU",
-};
-
-pub const GN_FA: Subdivision = Subdivision {
-    name: "Faranah",
-    code: "GN-FA",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "FA",
-};
-
-pub const GN_F: Subdivision = Subdivision {
-    name: "Faranah",
-    code: "GN-F",
-    subdivision_type: "Administrative region",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "F",
-};
-
-pub const GN_FO: Subdivision = Subdivision {
-    name: "Forécariah",
-    code: "GN-FO",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "FO",
-};
-
-pub const GN_FR: Subdivision = Subdivision {
-    name: "Fria",
-    code: "GN-FR",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "FR",
-};
-
-pub const GN_GA: Subdivision = Subdivision {
-    name: "Gaoual",
-    code: "GN-GA",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "GA",
-};
-
-pub const GN_GU: Subdivision = Subdivision {
-    name: "Guékédou",
-    code: "GN-GU",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "GU",
-};
-
-pub const GN_KA: Subdivision = Subdivision {
-    name: "Kankan",
-    code: "GN-KA",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "KA",
-};
-
-pub const GN_KB: Subdivision = Subdivision {
-    name: "Koubia",
-    code: "GN-KB",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "KB",
-};
-
-pub const GN_KD: Subdivision = Subdivision {
-    name: "Kindia",
-    code: "GN-KD",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "KD",
-};
-
-pub const GN_KE: Subdivision = Subdivision {
-    name: "Kérouané",
-    code: "GN-KE",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "KE",
-};
-
-pub const GN_K: Subdivision = Subdivision {
-    name: "Kankan",
-    code: "GN-K",
-    subdivision_type: "Administrative region",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "K",
-};
-
-pub const GN_KN: Subdivision = Subdivision {
-    name: "Koundara",
-    code: "GN-KN",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "KN",
-};
-
-pub const GN_KO: Subdivision = Subdivision {
-    name: "Kouroussa",
-    code: "GN-KO",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "KO",
-};
-
-pub const GN_KS: Subdivision = Subdivision {
-    name: "Kissidougou",
-    code: "GN-KS",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "KS",
-};
-
-pub const GN_LA: Subdivision = Subdivision {
-    name: "Labé",
-    code: "GN-LA",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "LA",
-};
-
-pub const GN_LE: Subdivision = Subdivision {
-    name: "Lélouma",
-    code: "GN-LE",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "LE",
-};
-
-pub const GN_L: Subdivision = Subdivision {
-    name: "Labé",
-    code: "GN-L",
-    subdivision_type: "Administrative region",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "L",
-};
-
-pub const GN_LO: Subdivision = Subdivision {
-    name: "Lola",
-    code: "GN-LO",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "LO",
-};
-
-pub const GN_MC: Subdivision = Subdivision {
-    name: "Macenta",
-    code: "GN-MC",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "MC",
-};
-
-pub const GN_MD: Subdivision = Subdivision {
-    name: "Mandiana",
-    code: "GN-MD",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "MD",
-};
-
-pub const GN_ML: Subdivision = Subdivision {
-    name: "Mali",
-    code: "GN-ML",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "ML",
-};
-
-pub const GN_M: Subdivision = Subdivision {
-    name: "Mamou",
-    code: "GN-M",
-    subdivision_type: "Administrative region",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "M",
-};
-
-pub const GN_MM: Subdivision = Subdivision {
-    name: "Mamou",
-    code: "GN-MM",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "MM",
-};
-
-pub const GN_N: Subdivision = Subdivision {
-    name: "Nzérékoré",
-    code: "GN-N",
-    subdivision_type: "Administrative region",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "N",
-};
-
-pub const GN_NZ: Subdivision = Subdivision {
-    name: "Nzérékoré",
-    code: "GN-NZ",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "NZ",
-};
-
-pub const GN_PI: Subdivision = Subdivision {
-    name: "Pita",
-    code: "GN-PI",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "PI",
-};
-
-pub const GN_SI: Subdivision = Subdivision {
-    name: "Siguiri",
-    code: "GN-SI",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "SI",
-};
-
-pub const GN_TE: Subdivision = Subdivision {
-    name: "Télimélé",
-    code: "GN-TE",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "TE",
-};
-
-pub const GN_TO: Subdivision = Subdivision {
-    name: "Tougué",
-    code: "GN-TO",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "TO",
-};
-
-pub const GN_YO: Subdivision = Subdivision {
-    name: "Yomou",
-    code: "GN-YO",
-    subdivision_type: "Prefecture",
-    country_name: "Guinea",
-    country_code: "GN",
-    region_code: "YO",
 };
 
 pub const GY_BA: Subdivision = Subdivision {
@@ -14793,7 +14424,7 @@ pub const HT_CE: Subdivision = Subdivision {
 };
 
 pub const HT_GA: Subdivision = Subdivision {
-    name: "Grandans",
+    name: "Grande’Anse",
     code: "HT-GA",
     subdivision_type: "Department",
     country_name: "Haiti",
@@ -14802,7 +14433,7 @@ pub const HT_GA: Subdivision = Subdivision {
 };
 
 pub const HT_ND: Subdivision = Subdivision {
-    name: "Nò",
+    name: "Nord",
     code: "HT-ND",
     subdivision_type: "Department",
     country_name: "Haiti",
@@ -14811,7 +14442,7 @@ pub const HT_ND: Subdivision = Subdivision {
 };
 
 pub const HT_NE: Subdivision = Subdivision {
-    name: "Nòdès",
+    name: "Nord-Est",
     code: "HT-NE",
     subdivision_type: "Department",
     country_name: "Haiti",
@@ -14820,7 +14451,7 @@ pub const HT_NE: Subdivision = Subdivision {
 };
 
 pub const HT_NI: Subdivision = Subdivision {
-    name: "Nip",
+    name: "Nippes",
     code: "HT-NI",
     subdivision_type: "Department",
     country_name: "Haiti",
@@ -14829,7 +14460,7 @@ pub const HT_NI: Subdivision = Subdivision {
 };
 
 pub const HT_NO: Subdivision = Subdivision {
-    name: "Nòdwès",
+    name: "Nord-Ouest",
     code: "HT-NO",
     subdivision_type: "Department",
     country_name: "Haiti",
@@ -14838,7 +14469,7 @@ pub const HT_NO: Subdivision = Subdivision {
 };
 
 pub const HT_OU: Subdivision = Subdivision {
-    name: "Lwès",
+    name: "Ouest",
     code: "HT-OU",
     subdivision_type: "Department",
     country_name: "Haiti",
@@ -14847,7 +14478,7 @@ pub const HT_OU: Subdivision = Subdivision {
 };
 
 pub const HT_SD: Subdivision = Subdivision {
-    name: "Sid",
+    name: "Sud",
     code: "HT-SD",
     subdivision_type: "Department",
     country_name: "Haiti",
@@ -14856,21 +14487,12 @@ pub const HT_SD: Subdivision = Subdivision {
 };
 
 pub const HT_SE: Subdivision = Subdivision {
-    name: "Sidès",
+    name: "Sud-Est",
     code: "HT-SE",
     subdivision_type: "Department",
     country_name: "Haiti",
     country_code: "HT",
     region_code: "SE",
-};
-
-pub const HM_HM: Subdivision = Subdivision {
-    name: "Heard & McDonald Islands",
-    code: "HM-HM",
-    subdivision_type: "Country",
-    country_name: "Heard & McDonald Islands",
-    country_code: "HM",
-    region_code: "HM",
 };
 
 pub const HN_AT: Subdivision = Subdivision {
@@ -15035,15 +14657,6 @@ pub const HN_YO: Subdivision = Subdivision {
     region_code: "YO",
 };
 
-pub const HK_HK: Subdivision = Subdivision {
-    name: "Hong Kong",
-    code: "HK-HK",
-    subdivision_type: "Country",
-    country_name: "Hong Kong",
-    country_code: "HK",
-    region_code: "HK",
-};
-
 pub const HU_BA: Subdivision = Subdivision {
     name: "Baranya",
     code: "HU-BA",
@@ -15056,7 +14669,7 @@ pub const HU_BA: Subdivision = Subdivision {
 pub const HU_BC: Subdivision = Subdivision {
     name: "Békéscsaba",
     code: "HU-BC",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "BC",
@@ -15099,7 +14712,7 @@ pub const HU_BZ: Subdivision = Subdivision {
 };
 
 pub const HU_CS: Subdivision = Subdivision {
-    name: "Csongrád",
+    name: "Csongrád-Csanád",
     code: "HU-CS",
     subdivision_type: "County",
     country_name: "Hungary",
@@ -15110,7 +14723,7 @@ pub const HU_CS: Subdivision = Subdivision {
 pub const HU_DE: Subdivision = Subdivision {
     name: "Debrecen",
     code: "HU-DE",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "DE",
@@ -15119,7 +14732,7 @@ pub const HU_DE: Subdivision = Subdivision {
 pub const HU_DU: Subdivision = Subdivision {
     name: "Dunaújváros",
     code: "HU-DU",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "DU",
@@ -15128,7 +14741,7 @@ pub const HU_DU: Subdivision = Subdivision {
 pub const HU_EG: Subdivision = Subdivision {
     name: "Eger",
     code: "HU-EG",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "EG",
@@ -15137,7 +14750,7 @@ pub const HU_EG: Subdivision = Subdivision {
 pub const HU_ER: Subdivision = Subdivision {
     name: "Érd",
     code: "HU-ER",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "ER",
@@ -15164,7 +14777,7 @@ pub const HU_GS: Subdivision = Subdivision {
 pub const HU_GY: Subdivision = Subdivision {
     name: "Győr",
     code: "HU-GY",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "GY",
@@ -15191,7 +14804,7 @@ pub const HU_HE: Subdivision = Subdivision {
 pub const HU_HV: Subdivision = Subdivision {
     name: "Hódmezővásárhely",
     code: "HU-HV",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "HV",
@@ -15218,7 +14831,7 @@ pub const HU_KE: Subdivision = Subdivision {
 pub const HU_KM: Subdivision = Subdivision {
     name: "Kecskemét",
     code: "HU-KM",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "KM",
@@ -15227,7 +14840,7 @@ pub const HU_KM: Subdivision = Subdivision {
 pub const HU_KV: Subdivision = Subdivision {
     name: "Kaposvár",
     code: "HU-KV",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "KV",
@@ -15236,7 +14849,7 @@ pub const HU_KV: Subdivision = Subdivision {
 pub const HU_MI: Subdivision = Subdivision {
     name: "Miskolc",
     code: "HU-MI",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "MI",
@@ -15245,7 +14858,7 @@ pub const HU_MI: Subdivision = Subdivision {
 pub const HU_NK: Subdivision = Subdivision {
     name: "Nagykanizsa",
     code: "HU-NK",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "NK",
@@ -15263,7 +14876,7 @@ pub const HU_NO: Subdivision = Subdivision {
 pub const HU_NY: Subdivision = Subdivision {
     name: "Nyíregyháza",
     code: "HU-NY",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "NY",
@@ -15281,7 +14894,7 @@ pub const HU_PE: Subdivision = Subdivision {
 pub const HU_PS: Subdivision = Subdivision {
     name: "Pécs",
     code: "HU-PS",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "PS",
@@ -15290,7 +14903,7 @@ pub const HU_PS: Subdivision = Subdivision {
 pub const HU_SD: Subdivision = Subdivision {
     name: "Szeged",
     code: "HU-SD",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "SD",
@@ -15299,7 +14912,7 @@ pub const HU_SD: Subdivision = Subdivision {
 pub const HU_SF: Subdivision = Subdivision {
     name: "Székesfehérvár",
     code: "HU-SF",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "SF",
@@ -15308,7 +14921,7 @@ pub const HU_SF: Subdivision = Subdivision {
 pub const HU_SH: Subdivision = Subdivision {
     name: "Szombathely",
     code: "HU-SH",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "SH",
@@ -15317,7 +14930,7 @@ pub const HU_SH: Subdivision = Subdivision {
 pub const HU_SK: Subdivision = Subdivision {
     name: "Szolnok",
     code: "HU-SK",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "SK",
@@ -15326,7 +14939,7 @@ pub const HU_SK: Subdivision = Subdivision {
 pub const HU_SN: Subdivision = Subdivision {
     name: "Sopron",
     code: "HU-SN",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "SN",
@@ -15344,7 +14957,7 @@ pub const HU_SO: Subdivision = Subdivision {
 pub const HU_SS: Subdivision = Subdivision {
     name: "Szekszárd",
     code: "HU-SS",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "SS",
@@ -15353,7 +14966,7 @@ pub const HU_SS: Subdivision = Subdivision {
 pub const HU_ST: Subdivision = Subdivision {
     name: "Salgótarján",
     code: "HU-ST",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "ST",
@@ -15371,7 +14984,7 @@ pub const HU_SZ: Subdivision = Subdivision {
 pub const HU_TB: Subdivision = Subdivision {
     name: "Tatabánya",
     code: "HU-TB",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "TB",
@@ -15407,7 +15020,7 @@ pub const HU_VE: Subdivision = Subdivision {
 pub const HU_VM: Subdivision = Subdivision {
     name: "Veszprém",
     code: "HU-VM",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "VM",
@@ -15425,23 +15038,14 @@ pub const HU_ZA: Subdivision = Subdivision {
 pub const HU_ZE: Subdivision = Subdivision {
     name: "Zalaegerszeg",
     code: "HU-ZE",
-    subdivision_type: "City of county right",
+    subdivision_type: "City with county rights",
     country_name: "Hungary",
     country_code: "HU",
     region_code: "ZE",
 };
 
-pub const IS_0: Subdivision = Subdivision {
-    name: "Reykjavík",
-    code: "IS-0",
-    subdivision_type: "Region",
-    country_name: "Iceland",
-    country_code: "IS",
-    region_code: "0",
-};
-
 pub const IS_1: Subdivision = Subdivision {
-    name: "Höfuðborgarsvæði utan Reykjavíkur",
+    name: "Höfuðborgarsvæði",
     code: "IS-1",
     subdivision_type: "Region",
     country_name: "Iceland",
@@ -15512,6 +15116,582 @@ pub const IS_8: Subdivision = Subdivision {
     region_code: "8",
 };
 
+pub const IS_AKN: Subdivision = Subdivision {
+    name: "Akraneskaupstaður",
+    code: "IS-AKN",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "AKN",
+};
+
+pub const IS_AKU: Subdivision = Subdivision {
+    name: "Akureyrarbær",
+    code: "IS-AKU",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "AKU",
+};
+
+pub const IS_ARN: Subdivision = Subdivision {
+    name: "Árneshreppur",
+    code: "IS-ARN",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "ARN",
+};
+
+pub const IS_ASA: Subdivision = Subdivision {
+    name: "Ásahreppur",
+    code: "IS-ASA",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "ASA",
+};
+
+pub const IS_BLA: Subdivision = Subdivision {
+    name: "Bláskógabyggð",
+    code: "IS-BLA",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "BLA",
+};
+
+pub const IS_BOG: Subdivision = Subdivision {
+    name: "Borgarbyggð",
+    code: "IS-BOG",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "BOG",
+};
+
+pub const IS_BOL: Subdivision = Subdivision {
+    name: "Bolungarvíkurkaupstaður",
+    code: "IS-BOL",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "BOL",
+};
+
+pub const IS_DAB: Subdivision = Subdivision {
+    name: "Dalabyggð",
+    code: "IS-DAB",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "DAB",
+};
+
+pub const IS_DAV: Subdivision = Subdivision {
+    name: "Dalvíkurbyggð",
+    code: "IS-DAV",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "DAV",
+};
+
+pub const IS_EOM: Subdivision = Subdivision {
+    name: "Eyja- og Miklaholtshreppur",
+    code: "IS-EOM",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "EOM",
+};
+
+pub const IS_EYF: Subdivision = Subdivision {
+    name: "Eyjafjarðarsveit",
+    code: "IS-EYF",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "EYF",
+};
+
+pub const IS_FJD: Subdivision = Subdivision {
+    name: "Fjarðabyggð",
+    code: "IS-FJD",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "FJD",
+};
+
+pub const IS_FJL: Subdivision = Subdivision {
+    name: "Fjallabyggð",
+    code: "IS-FJL",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "FJL",
+};
+
+pub const IS_FLA: Subdivision = Subdivision {
+    name: "Flóahreppur",
+    code: "IS-FLA",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "FLA",
+};
+
+pub const IS_FLR: Subdivision = Subdivision {
+    name: "Fljótsdalshreppur",
+    code: "IS-FLR",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "FLR",
+};
+
+pub const IS_GAR: Subdivision = Subdivision {
+    name: "Garðabær",
+    code: "IS-GAR",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "GAR",
+};
+
+pub const IS_GOG: Subdivision = Subdivision {
+    name: "Grímsnes- og Grafningshreppur",
+    code: "IS-GOG",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "GOG",
+};
+
+pub const IS_GRN: Subdivision = Subdivision {
+    name: "Grindavíkurbær",
+    code: "IS-GRN",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "GRN",
+};
+
+pub const IS_GRU: Subdivision = Subdivision {
+    name: "Grundarfjarðarbær",
+    code: "IS-GRU",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "GRU",
+};
+
+pub const IS_GRY: Subdivision = Subdivision {
+    name: "Grýtubakkahreppur",
+    code: "IS-GRY",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "GRY",
+};
+
+pub const IS_HAF: Subdivision = Subdivision {
+    name: "Hafnarfjarðarkaupstaður",
+    code: "IS-HAF",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "HAF",
+};
+
+pub const IS_HRG: Subdivision = Subdivision {
+    name: "Hörgársveit",
+    code: "IS-HRG",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "HRG",
+};
+
+pub const IS_HRU: Subdivision = Subdivision {
+    name: "Hrunamannahreppur",
+    code: "IS-HRU",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "HRU",
+};
+
+pub const IS_HUG: Subdivision = Subdivision {
+    name: "Húnabyggð",
+    code: "IS-HUG",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "HUG",
+};
+
+pub const IS_HUV: Subdivision = Subdivision {
+    name: "Húnaþing vestra",
+    code: "IS-HUV",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "HUV",
+};
+
+pub const IS_HVA: Subdivision = Subdivision {
+    name: "Hvalfjarðarsveit",
+    code: "IS-HVA",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "HVA",
+};
+
+pub const IS_HVE: Subdivision = Subdivision {
+    name: "Hveragerðisbær",
+    code: "IS-HVE",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "HVE",
+};
+
+pub const IS_ISA: Subdivision = Subdivision {
+    name: "Ísafjarðarbær",
+    code: "IS-ISA",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "ISA",
+};
+
+pub const IS_KAL: Subdivision = Subdivision {
+    name: "Kaldrananeshreppur",
+    code: "IS-KAL",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "KAL",
+};
+
+pub const IS_KJO: Subdivision = Subdivision {
+    name: "Kjósarhreppur",
+    code: "IS-KJO",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "KJO",
+};
+
+pub const IS_KOP: Subdivision = Subdivision {
+    name: "Kópavogsbær",
+    code: "IS-KOP",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "KOP",
+};
+
+pub const IS_LAN: Subdivision = Subdivision {
+    name: "Langanesbyggð",
+    code: "IS-LAN",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "LAN",
+};
+
+pub const IS_MOS: Subdivision = Subdivision {
+    name: "Mosfellsbær",
+    code: "IS-MOS",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "MOS",
+};
+
+pub const IS_MUL: Subdivision = Subdivision {
+    name: "Múlaþing",
+    code: "IS-MUL",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "MUL",
+};
+
+pub const IS_MYR: Subdivision = Subdivision {
+    name: "Mýrdalshreppur",
+    code: "IS-MYR",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "MYR",
+};
+
+pub const IS_NOR: Subdivision = Subdivision {
+    name: "Norðurþing",
+    code: "IS-NOR",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "NOR",
+};
+
+pub const IS_RGE: Subdivision = Subdivision {
+    name: "Rangárþing eystra",
+    code: "IS-RGE",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "RGE",
+};
+
+pub const IS_RGY: Subdivision = Subdivision {
+    name: "Rangárþing ytra",
+    code: "IS-RGY",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "RGY",
+};
+
+pub const IS_RHH: Subdivision = Subdivision {
+    name: "Reykhólahreppur",
+    code: "IS-RHH",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "RHH",
+};
+
+pub const IS_RKN: Subdivision = Subdivision {
+    name: "Reykjanesbær",
+    code: "IS-RKN",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "RKN",
+};
+
+pub const IS_RKV: Subdivision = Subdivision {
+    name: "Reykjavíkurborg",
+    code: "IS-RKV",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "RKV",
+};
+
+pub const IS_SBT: Subdivision = Subdivision {
+    name: "Svalbarðsstrandarhreppur",
+    code: "IS-SBT",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SBT",
+};
+
+pub const IS_SDN: Subdivision = Subdivision {
+    name: "Suðurnesjabær",
+    code: "IS-SDN",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SDN",
+};
+
+pub const IS_SDV: Subdivision = Subdivision {
+    name: "Súðavíkurhreppur",
+    code: "IS-SDV",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SDV",
+};
+
+pub const IS_SEL: Subdivision = Subdivision {
+    name: "Seltjarnarnesbær",
+    code: "IS-SEL",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SEL",
+};
+
+pub const IS_SFA: Subdivision = Subdivision {
+    name: "Sveitarfélagið Árborg",
+    code: "IS-SFA",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SFA",
+};
+
+pub const IS_SHF: Subdivision = Subdivision {
+    name: "Sveitarfélagið Hornafjörður",
+    code: "IS-SHF",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SHF",
+};
+
+pub const IS_SKF: Subdivision = Subdivision {
+    name: "Skaftárhreppur",
+    code: "IS-SKF",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SKF",
+};
+
+pub const IS_SKG: Subdivision = Subdivision {
+    name: "Skagabyggð",
+    code: "IS-SKG",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SKG",
+};
+
+pub const IS_SKO: Subdivision = Subdivision {
+    name: "Skorradalshreppur",
+    code: "IS-SKO",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SKO",
+};
+
+pub const IS_SKR: Subdivision = Subdivision {
+    name: "Skagafjörður",
+    code: "IS-SKR",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SKR",
+};
+
+pub const IS_SNF: Subdivision = Subdivision {
+    name: "Snæfellsbær",
+    code: "IS-SNF",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SNF",
+};
+
+pub const IS_SOG: Subdivision = Subdivision {
+    name: "Skeiða- og Gnúpverjahreppur",
+    code: "IS-SOG",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SOG",
+};
+
+pub const IS_SOL: Subdivision = Subdivision {
+    name: "Sveitarfélagið Ölfus",
+    code: "IS-SOL",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SOL",
+};
+
+pub const IS_SSS: Subdivision = Subdivision {
+    name: "Sveitarfélagið Skagaströnd",
+    code: "IS-SSS",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SSS",
+};
+
+pub const IS_STR: Subdivision = Subdivision {
+    name: "Strandabyggð",
+    code: "IS-STR",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "STR",
+};
+
+pub const IS_STY: Subdivision = Subdivision {
+    name: "Stykkishólmsbær",
+    code: "IS-STY",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "STY",
+};
+
+pub const IS_SVG: Subdivision = Subdivision {
+    name: "Sveitarfélagið Vogar",
+    code: "IS-SVG",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "SVG",
+};
+
+pub const IS_TAL: Subdivision = Subdivision {
+    name: "Tálknafjarðarhreppur",
+    code: "IS-TAL",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "TAL",
+};
+
+pub const IS_THG: Subdivision = Subdivision {
+    name: "Þingeyjarsveit",
+    code: "IS-THG",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "THG",
+};
+
+pub const IS_TJO: Subdivision = Subdivision {
+    name: "Tjörneshreppur",
+    code: "IS-TJO",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "TJO",
+};
+
+pub const IS_VEM: Subdivision = Subdivision {
+    name: "Vestmannaeyjabær",
+    code: "IS-VEM",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "VEM",
+};
+
+pub const IS_VER: Subdivision = Subdivision {
+    name: "Vesturbyggð",
+    code: "IS-VER",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "VER",
+};
+
+pub const IS_VOP: Subdivision = Subdivision {
+    name: "Vopnafjarðarhreppur",
+    code: "IS-VOP",
+    subdivision_type: "Municipality",
+    country_name: "Iceland",
+    country_code: "IS",
+    region_code: "VOP",
+};
+
 pub const IN_AN: Subdivision = Subdivision {
     name: "Andaman and Nicobar Islands",
     code: "IN-AN",
@@ -15531,7 +15711,7 @@ pub const IN_AP: Subdivision = Subdivision {
 };
 
 pub const IN_AR: Subdivision = Subdivision {
-    name: "Arunachal Pradesh",
+    name: "Arunāchal Pradesh",
     code: "IN-AR",
     subdivision_type: "State",
     country_name: "India",
@@ -15549,7 +15729,7 @@ pub const IN_AS: Subdivision = Subdivision {
 };
 
 pub const IN_BR: Subdivision = Subdivision {
-    name: "Bihar",
+    name: "Bihār",
     code: "IN-BR",
     subdivision_type: "State",
     country_name: "India",
@@ -15557,8 +15737,17 @@ pub const IN_BR: Subdivision = Subdivision {
     region_code: "BR",
 };
 
+pub const IN_CG: Subdivision = Subdivision {
+    name: "Chhattīsgarh",
+    code: "IN-CG",
+    subdivision_type: "State",
+    country_name: "India",
+    country_code: "IN",
+    region_code: "CG",
+};
+
 pub const IN_CH: Subdivision = Subdivision {
-    name: "Chandigarh",
+    name: "Chandīgarh",
     code: "IN-CH",
     subdivision_type: "Union territory",
     country_name: "India",
@@ -15566,22 +15755,13 @@ pub const IN_CH: Subdivision = Subdivision {
     region_code: "CH",
 };
 
-pub const IN_CT: Subdivision = Subdivision {
-    name: "Chhattisgarh",
-    code: "IN-CT",
-    subdivision_type: "State",
-    country_name: "India",
-    country_code: "IN",
-    region_code: "CT",
-};
-
-pub const IN_DD: Subdivision = Subdivision {
-    name: "Daman and Diu",
-    code: "IN-DD",
+pub const IN_DH: Subdivision = Subdivision {
+    name: "Dādra and Nagar Haveli and Damān and Diu",
+    code: "IN-DH",
     subdivision_type: "Union territory",
     country_name: "India",
     country_code: "IN",
-    region_code: "DD",
+    region_code: "DH",
 };
 
 pub const IN_DL: Subdivision = Subdivision {
@@ -15591,15 +15771,6 @@ pub const IN_DL: Subdivision = Subdivision {
     country_name: "India",
     country_code: "IN",
     region_code: "DL",
-};
-
-pub const IN_DN: Subdivision = Subdivision {
-    name: "Dadra and Nagar Haveli",
-    code: "IN-DN",
-    subdivision_type: "Union territory",
-    country_name: "India",
-    country_code: "IN",
-    region_code: "DN",
 };
 
 pub const IN_GA: Subdivision = Subdivision {
@@ -15612,7 +15783,7 @@ pub const IN_GA: Subdivision = Subdivision {
 };
 
 pub const IN_GJ: Subdivision = Subdivision {
-    name: "Gujarat",
+    name: "Gujarāt",
     code: "IN-GJ",
     subdivision_type: "State",
     country_name: "India",
@@ -15621,7 +15792,7 @@ pub const IN_GJ: Subdivision = Subdivision {
 };
 
 pub const IN_HP: Subdivision = Subdivision {
-    name: "Himachal Pradesh",
+    name: "Himāchal Pradesh",
     code: "IN-HP",
     subdivision_type: "State",
     country_name: "India",
@@ -15630,7 +15801,7 @@ pub const IN_HP: Subdivision = Subdivision {
 };
 
 pub const IN_HR: Subdivision = Subdivision {
-    name: "Haryana",
+    name: "Haryāna",
     code: "IN-HR",
     subdivision_type: "State",
     country_name: "India",
@@ -15639,7 +15810,7 @@ pub const IN_HR: Subdivision = Subdivision {
 };
 
 pub const IN_JH: Subdivision = Subdivision {
-    name: "Jharkhand",
+    name: "Jhārkhand",
     code: "IN-JH",
     subdivision_type: "State",
     country_name: "India",
@@ -15648,16 +15819,16 @@ pub const IN_JH: Subdivision = Subdivision {
 };
 
 pub const IN_JK: Subdivision = Subdivision {
-    name: "Jammu and Kashmir",
+    name: "Jammu and Kashmīr",
     code: "IN-JK",
-    subdivision_type: "State",
+    subdivision_type: "Union territory",
     country_name: "India",
     country_code: "IN",
     region_code: "JK",
 };
 
 pub const IN_KA: Subdivision = Subdivision {
-    name: "Karnataka",
+    name: "Karnātaka",
     code: "IN-KA",
     subdivision_type: "State",
     country_name: "India",
@@ -15674,6 +15845,15 @@ pub const IN_KL: Subdivision = Subdivision {
     region_code: "KL",
 };
 
+pub const IN_LA: Subdivision = Subdivision {
+    name: "Ladākh",
+    code: "IN-LA",
+    subdivision_type: "Union territory",
+    country_name: "India",
+    country_code: "IN",
+    region_code: "LA",
+};
+
 pub const IN_LD: Subdivision = Subdivision {
     name: "Lakshadweep",
     code: "IN-LD",
@@ -15684,7 +15864,7 @@ pub const IN_LD: Subdivision = Subdivision {
 };
 
 pub const IN_MH: Subdivision = Subdivision {
-    name: "Maharashtra",
+    name: "Mahārāshtra",
     code: "IN-MH",
     subdivision_type: "State",
     country_name: "India",
@@ -15693,7 +15873,7 @@ pub const IN_MH: Subdivision = Subdivision {
 };
 
 pub const IN_ML: Subdivision = Subdivision {
-    name: "Meghalaya",
+    name: "Meghālaya",
     code: "IN-ML",
     subdivision_type: "State",
     country_name: "India",
@@ -15729,7 +15909,7 @@ pub const IN_MZ: Subdivision = Subdivision {
 };
 
 pub const IN_NL: Subdivision = Subdivision {
-    name: "Nagaland",
+    name: "Nāgāland",
     code: "IN-NL",
     subdivision_type: "State",
     country_name: "India",
@@ -15737,13 +15917,13 @@ pub const IN_NL: Subdivision = Subdivision {
     region_code: "NL",
 };
 
-pub const IN_OR: Subdivision = Subdivision {
+pub const IN_OD: Subdivision = Subdivision {
     name: "Odisha",
-    code: "IN-OR",
+    code: "IN-OD",
     subdivision_type: "State",
     country_name: "India",
     country_code: "IN",
-    region_code: "OR",
+    region_code: "OD",
 };
 
 pub const IN_PB: Subdivision = Subdivision {
@@ -15765,7 +15945,7 @@ pub const IN_PY: Subdivision = Subdivision {
 };
 
 pub const IN_RJ: Subdivision = Subdivision {
-    name: "Rajasthan",
+    name: "Rājasthān",
     code: "IN-RJ",
     subdivision_type: "State",
     country_name: "India",
@@ -15782,17 +15962,8 @@ pub const IN_SK: Subdivision = Subdivision {
     region_code: "SK",
 };
 
-pub const IN_TG: Subdivision = Subdivision {
-    name: "Telangana",
-    code: "IN-TG",
-    subdivision_type: "State",
-    country_name: "India",
-    country_code: "IN",
-    region_code: "TG",
-};
-
 pub const IN_TN: Subdivision = Subdivision {
-    name: "Tamil Nadu",
+    name: "Tamil Nādu",
     code: "IN-TN",
     subdivision_type: "State",
     country_name: "India",
@@ -15809,6 +15980,24 @@ pub const IN_TR: Subdivision = Subdivision {
     region_code: "TR",
 };
 
+pub const IN_TS: Subdivision = Subdivision {
+    name: "Telangāna",
+    code: "IN-TS",
+    subdivision_type: "State",
+    country_name: "India",
+    country_code: "IN",
+    region_code: "TS",
+};
+
+pub const IN_UK: Subdivision = Subdivision {
+    name: "Uttarākhand",
+    code: "IN-UK",
+    subdivision_type: "State",
+    country_name: "India",
+    country_code: "IN",
+    region_code: "UK",
+};
+
 pub const IN_UP: Subdivision = Subdivision {
     name: "Uttar Pradesh",
     code: "IN-UP",
@@ -15816,15 +16005,6 @@ pub const IN_UP: Subdivision = Subdivision {
     country_name: "India",
     country_code: "IN",
     region_code: "UP",
-};
-
-pub const IN_UT: Subdivision = Subdivision {
-    name: "Uttarakhand",
-    code: "IN-UT",
-    subdivision_type: "State",
-    country_name: "India",
-    country_code: "IN",
-    region_code: "UT",
 };
 
 pub const IN_WB: Subdivision = Subdivision {
@@ -15839,7 +16019,7 @@ pub const IN_WB: Subdivision = Subdivision {
 pub const ID_AC: Subdivision = Subdivision {
     name: "Aceh",
     code: "ID-AC",
-    subdivision_type: "Autonomous province",
+    subdivision_type: "Province",
     country_name: "Indonesia",
     country_code: "ID",
     region_code: "AC",
@@ -15855,7 +16035,7 @@ pub const ID_BA: Subdivision = Subdivision {
 };
 
 pub const ID_BB: Subdivision = Subdivision {
-    name: "Bangka Belitung",
+    name: "Kepulauan Bangka Belitung",
     code: "ID-BB",
     subdivision_type: "Province",
     country_name: "Indonesia",
@@ -15920,7 +16100,7 @@ pub const ID_JI: Subdivision = Subdivision {
 pub const ID_JK: Subdivision = Subdivision {
     name: "Jakarta Raya",
     code: "ID-JK",
-    subdivision_type: "Special district",
+    subdivision_type: "Capital district",
     country_name: "Indonesia",
     country_code: "ID",
     region_code: "JK",
@@ -16088,6 +16268,24 @@ pub const ID_PB: Subdivision = Subdivision {
     region_code: "PB",
 };
 
+pub const ID_PD: Subdivision = Subdivision {
+    name: "Papua Barat Daya",
+    code: "ID-PD",
+    subdivision_type: "Province",
+    country_name: "Indonesia",
+    country_code: "ID",
+    region_code: "PD",
+};
+
+pub const ID_PE: Subdivision = Subdivision {
+    name: "Papua Pengunungan",
+    code: "ID-PE",
+    subdivision_type: "Province",
+    country_name: "Indonesia",
+    country_code: "ID",
+    region_code: "PE",
+};
+
 pub const ID_PP: Subdivision = Subdivision {
     name: "Papua",
     code: "ID-PP",
@@ -16095,6 +16293,24 @@ pub const ID_PP: Subdivision = Subdivision {
     country_name: "Indonesia",
     country_code: "ID",
     region_code: "PP",
+};
+
+pub const ID_PS: Subdivision = Subdivision {
+    name: "Papua Selatan",
+    code: "ID-PS",
+    subdivision_type: "Province",
+    country_name: "Indonesia",
+    country_code: "ID",
+    region_code: "PS",
+};
+
+pub const ID_PT: Subdivision = Subdivision {
+    name: "Papua Tengah",
+    code: "ID-PT",
+    subdivision_type: "Province",
+    country_name: "Indonesia",
+    country_code: "ID",
+    region_code: "PT",
 };
 
 pub const ID_RI: Subdivision = Subdivision {
@@ -16205,227 +16421,245 @@ pub const ID_YO: Subdivision = Subdivision {
     region_code: "YO",
 };
 
+pub const IR_00: Subdivision = Subdivision {
+    name: "Markazī",
+    code: "IR-00",
+    subdivision_type: "Province",
+    country_name: "Iran (Islamic Republic of)",
+    country_code: "IR",
+    region_code: "00",
+};
+
 pub const IR_01: Subdivision = Subdivision {
-    name: "Āz̄arbāyjān-e Sharqī",
+    name: "Gīlān",
     code: "IR-01",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "01",
 };
 
 pub const IR_02: Subdivision = Subdivision {
-    name: "Āz̄arbāyjān-e Gharbī",
+    name: "Māzandarān",
     code: "IR-02",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "02",
 };
 
 pub const IR_03: Subdivision = Subdivision {
-    name: "Ardabīl",
+    name: "Āz̄ārbāyjān-e Shārqī",
     code: "IR-03",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "03",
 };
 
 pub const IR_04: Subdivision = Subdivision {
-    name: "Eşfahān",
+    name: "Āz̄ārbāyjān-e Ghārbī",
     code: "IR-04",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "04",
 };
 
 pub const IR_05: Subdivision = Subdivision {
-    name: "Īlām",
+    name: "Kermānshāh",
     code: "IR-05",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "05",
 };
 
 pub const IR_06: Subdivision = Subdivision {
-    name: "Būshehr",
+    name: "Khūzestān",
     code: "IR-06",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "06",
 };
 
 pub const IR_07: Subdivision = Subdivision {
-    name: "Tehrān",
+    name: "Fārs",
     code: "IR-07",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "07",
 };
 
 pub const IR_08: Subdivision = Subdivision {
-    name: "Chahār Maḩāll va Bakhtīārī",
+    name: "Kermān",
     code: "IR-08",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "08",
 };
 
+pub const IR_09: Subdivision = Subdivision {
+    name: "Khorāsān-e Raẕavī",
+    code: "IR-09",
+    subdivision_type: "Province",
+    country_name: "Iran (Islamic Republic of)",
+    country_code: "IR",
+    region_code: "09",
+};
+
 pub const IR_10: Subdivision = Subdivision {
-    name: "Khūzestān",
+    name: "Eşfahān",
     code: "IR-10",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "10",
 };
 
 pub const IR_11: Subdivision = Subdivision {
-    name: "Zanjān",
+    name: "Sīstān va Balūchestān",
     code: "IR-11",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "11",
 };
 
 pub const IR_12: Subdivision = Subdivision {
-    name: "Semnān",
+    name: "Kordestān",
     code: "IR-12",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "12",
 };
 
 pub const IR_13: Subdivision = Subdivision {
-    name: "Sīstān va Balūchestān",
+    name: "Hamadān",
     code: "IR-13",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "13",
 };
 
 pub const IR_14: Subdivision = Subdivision {
-    name: "Fārs",
+    name: "Chahār Maḩāl va Bakhtīārī",
     code: "IR-14",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "14",
 };
 
 pub const IR_15: Subdivision = Subdivision {
-    name: "Kermān",
+    name: "Lorestān",
     code: "IR-15",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "15",
 };
 
 pub const IR_16: Subdivision = Subdivision {
-    name: "Kordestān",
+    name: "Īlām",
     code: "IR-16",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "16",
 };
 
 pub const IR_17: Subdivision = Subdivision {
-    name: "Kermānshāh",
+    name: "Kohgīlūyeh va Bowyer Aḩmad",
     code: "IR-17",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "17",
 };
 
 pub const IR_18: Subdivision = Subdivision {
-    name: "Kohgīlūyeh va Būyer Aḩmad",
+    name: "Būshehr",
     code: "IR-18",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "18",
 };
 
 pub const IR_19: Subdivision = Subdivision {
-    name: "Gīlān",
+    name: "Zanjān",
     code: "IR-19",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "19",
 };
 
 pub const IR_20: Subdivision = Subdivision {
-    name: "Lorestān",
+    name: "Semnān",
     code: "IR-20",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "20",
 };
 
 pub const IR_21: Subdivision = Subdivision {
-    name: "Māzandarān",
+    name: "Yazd",
     code: "IR-21",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "21",
 };
 
 pub const IR_22: Subdivision = Subdivision {
-    name: "Markazī",
+    name: "Hormozgān",
     code: "IR-22",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "22",
 };
 
 pub const IR_23: Subdivision = Subdivision {
-    name: "Hormozgān",
+    name: "Tehrān",
     code: "IR-23",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "23",
 };
 
 pub const IR_24: Subdivision = Subdivision {
-    name: "Hamadān",
+    name: "Ardabīl",
     code: "IR-24",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "24",
 };
 
 pub const IR_25: Subdivision = Subdivision {
-    name: "Yazd",
+    name: "Qom",
     code: "IR-25",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "25",
 };
 
 pub const IR_26: Subdivision = Subdivision {
-    name: "Qom",
+    name: "Qazvīn",
     code: "IR-26",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "26",
 };
@@ -16434,54 +16668,36 @@ pub const IR_27: Subdivision = Subdivision {
     name: "Golestān",
     code: "IR-27",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "27",
 };
 
 pub const IR_28: Subdivision = Subdivision {
-    name: "Qazvīn",
+    name: "Khorāsān-e Shomālī",
     code: "IR-28",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "28",
 };
 
 pub const IR_29: Subdivision = Subdivision {
-    name: "Khorāsān-e Janūbī",
+    name: "Khorāsān-e Jonūbī",
     code: "IR-29",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "29",
 };
 
 pub const IR_30: Subdivision = Subdivision {
-    name: "Khorāsān-e Razavī",
+    name: "Alborz",
     code: "IR-30",
     subdivision_type: "Province",
-    country_name: "Iran",
+    country_name: "Iran (Islamic Republic of)",
     country_code: "IR",
     region_code: "30",
-};
-
-pub const IR_31: Subdivision = Subdivision {
-    name: "Khorāsān-e Shemālī",
-    code: "IR-31",
-    subdivision_type: "Province",
-    country_name: "Iran",
-    country_code: "IR",
-    region_code: "31",
-};
-
-pub const IR_32: Subdivision = Subdivision {
-    name: "Alborz",
-    code: "IR-32",
-    subdivision_type: "Province",
-    country_name: "Iran",
-    country_code: "IR",
-    region_code: "32",
 };
 
 pub const IQ_AN: Subdivision = Subdivision {
@@ -16557,7 +16773,7 @@ pub const IQ_DQ: Subdivision = Subdivision {
 };
 
 pub const IQ_KA: Subdivision = Subdivision {
-    name: "Karbalā'",
+    name: "Karbalā’",
     code: "IQ-KA",
     subdivision_type: "Governorate",
     country_name: "Iraq",
@@ -16572,6 +16788,15 @@ pub const IQ_KI: Subdivision = Subdivision {
     country_name: "Iraq",
     country_code: "IQ",
     region_code: "KI",
+};
+
+pub const IQ_KR: Subdivision = Subdivision {
+    name: "Iqlīm Kūrdistān",
+    code: "IQ-KR",
+    subdivision_type: "Region",
+    country_name: "Iraq",
+    country_code: "IQ",
+    region_code: "KR",
 };
 
 pub const IQ_MA: Subdivision = Subdivision {
@@ -16647,7 +16872,7 @@ pub const IQ_WA: Subdivision = Subdivision {
 };
 
 pub const IE_C: Subdivision = Subdivision {
-    name: "Connacht",
+    name: "Connaught",
     code: "IE-C",
     subdivision_type: "Province",
     country_name: "Ireland",
@@ -16656,7 +16881,7 @@ pub const IE_C: Subdivision = Subdivision {
 };
 
 pub const IE_CE: Subdivision = Subdivision {
-    name: "An Clár",
+    name: "Clare",
     code: "IE-CE",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16665,7 +16890,7 @@ pub const IE_CE: Subdivision = Subdivision {
 };
 
 pub const IE_CN: Subdivision = Subdivision {
-    name: "An Cabhán",
+    name: "Cavan",
     code: "IE-CN",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16674,7 +16899,7 @@ pub const IE_CN: Subdivision = Subdivision {
 };
 
 pub const IE_CO: Subdivision = Subdivision {
-    name: "Corcaigh",
+    name: "Cork",
     code: "IE-CO",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16692,7 +16917,7 @@ pub const IE_CW: Subdivision = Subdivision {
 };
 
 pub const IE_D: Subdivision = Subdivision {
-    name: "Baile Átha Cliath",
+    name: "Dublin",
     code: "IE-D",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16710,7 +16935,7 @@ pub const IE_DL: Subdivision = Subdivision {
 };
 
 pub const IE_G: Subdivision = Subdivision {
-    name: "Gaillimh",
+    name: "Galway",
     code: "IE-G",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16719,7 +16944,7 @@ pub const IE_G: Subdivision = Subdivision {
 };
 
 pub const IE_KE: Subdivision = Subdivision {
-    name: "Cill Dara",
+    name: "Kildare",
     code: "IE-KE",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16728,7 +16953,7 @@ pub const IE_KE: Subdivision = Subdivision {
 };
 
 pub const IE_KK: Subdivision = Subdivision {
-    name: "Cill Chainnigh",
+    name: "Kilkenny",
     code: "IE-KK",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16737,7 +16962,7 @@ pub const IE_KK: Subdivision = Subdivision {
 };
 
 pub const IE_KY: Subdivision = Subdivision {
-    name: "Ciarraí",
+    name: "Kerry",
     code: "IE-KY",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16745,8 +16970,17 @@ pub const IE_KY: Subdivision = Subdivision {
     region_code: "KY",
 };
 
+pub const IE_L: Subdivision = Subdivision {
+    name: "Leinster",
+    code: "IE-L",
+    subdivision_type: "Province",
+    country_name: "Ireland",
+    country_code: "IE",
+    region_code: "L",
+};
+
 pub const IE_LD: Subdivision = Subdivision {
-    name: "An Longfort",
+    name: "Longford",
     code: "IE-LD",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16772,15 +17006,6 @@ pub const IE_LK: Subdivision = Subdivision {
     region_code: "LK",
 };
 
-pub const IE_L: Subdivision = Subdivision {
-    name: "Laighin",
-    code: "IE-L",
-    subdivision_type: "Province",
-    country_name: "Ireland",
-    country_code: "IE",
-    region_code: "L",
-};
-
 pub const IE_LM: Subdivision = Subdivision {
     name: "Leitrim",
     code: "IE-LM",
@@ -16800,7 +17025,7 @@ pub const IE_LS: Subdivision = Subdivision {
 };
 
 pub const IE_M: Subdivision = Subdivision {
-    name: "An Mhumhain",
+    name: "Munster",
     code: "IE-M",
     subdivision_type: "Province",
     country_name: "Ireland",
@@ -16809,7 +17034,7 @@ pub const IE_M: Subdivision = Subdivision {
 };
 
 pub const IE_MH: Subdivision = Subdivision {
-    name: "An Mhí",
+    name: "Meath",
     code: "IE-MH",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16827,7 +17052,7 @@ pub const IE_MN: Subdivision = Subdivision {
 };
 
 pub const IE_MO: Subdivision = Subdivision {
-    name: "Maigh Eo",
+    name: "Mayo",
     code: "IE-MO",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16845,7 +17070,7 @@ pub const IE_OY: Subdivision = Subdivision {
 };
 
 pub const IE_RN: Subdivision = Subdivision {
-    name: "Ros Comáin",
+    name: "Roscommon",
     code: "IE-RN",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16854,7 +17079,7 @@ pub const IE_RN: Subdivision = Subdivision {
 };
 
 pub const IE_SO: Subdivision = Subdivision {
-    name: "Sligeach",
+    name: "Sligo",
     code: "IE-SO",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16863,7 +17088,7 @@ pub const IE_SO: Subdivision = Subdivision {
 };
 
 pub const IE_TA: Subdivision = Subdivision {
-    name: "Tiobraid Árann",
+    name: "Tipperary",
     code: "IE-TA",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16872,7 +17097,7 @@ pub const IE_TA: Subdivision = Subdivision {
 };
 
 pub const IE_U: Subdivision = Subdivision {
-    name: "Ulaidh",
+    name: "Ulster",
     code: "IE-U",
     subdivision_type: "Province",
     country_name: "Ireland",
@@ -16881,7 +17106,7 @@ pub const IE_U: Subdivision = Subdivision {
 };
 
 pub const IE_WD: Subdivision = Subdivision {
-    name: "Port Láirge",
+    name: "Waterford",
     code: "IE-WD",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16890,7 +17115,7 @@ pub const IE_WD: Subdivision = Subdivision {
 };
 
 pub const IE_WH: Subdivision = Subdivision {
-    name: "An Iarmhí",
+    name: "Westmeath",
     code: "IE-WH",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16899,7 +17124,7 @@ pub const IE_WH: Subdivision = Subdivision {
 };
 
 pub const IE_WW: Subdivision = Subdivision {
-    name: "Cill Mhantáin",
+    name: "Wicklow",
     code: "IE-WW",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16908,7 +17133,7 @@ pub const IE_WW: Subdivision = Subdivision {
 };
 
 pub const IE_WX: Subdivision = Subdivision {
-    name: "Loch Garman",
+    name: "Wexford",
     code: "IE-WX",
     subdivision_type: "County",
     country_name: "Ireland",
@@ -16916,17 +17141,8 @@ pub const IE_WX: Subdivision = Subdivision {
     region_code: "WX",
 };
 
-pub const IM_IM: Subdivision = Subdivision {
-    name: "Isle of Main",
-    code: "IM-IM",
-    subdivision_type: "Country",
-    country_name: "Isle of Man",
-    country_code: "IM",
-    region_code: "IM",
-};
-
 pub const IL_D: Subdivision = Subdivision {
-    name: "Southern District",
+    name: "Al Janūbī",
     code: "IL-D",
     subdivision_type: "District",
     country_name: "Israel",
@@ -16935,7 +17151,7 @@ pub const IL_D: Subdivision = Subdivision {
 };
 
 pub const IL_HA: Subdivision = Subdivision {
-    name: "Haifa",
+    name: "Ḩayfā",
     code: "IL-HA",
     subdivision_type: "District",
     country_name: "Israel",
@@ -16944,7 +17160,7 @@ pub const IL_HA: Subdivision = Subdivision {
 };
 
 pub const IL_JM: Subdivision = Subdivision {
-    name: "Jerusalem",
+    name: "Al Quds",
     code: "IL-JM",
     subdivision_type: "District",
     country_name: "Israel",
@@ -16953,7 +17169,7 @@ pub const IL_JM: Subdivision = Subdivision {
 };
 
 pub const IL_M: Subdivision = Subdivision {
-    name: "Central District",
+    name: "Al Awsaţ",
     code: "IL-M",
     subdivision_type: "District",
     country_name: "Israel",
@@ -16962,7 +17178,7 @@ pub const IL_M: Subdivision = Subdivision {
 };
 
 pub const IL_TA: Subdivision = Subdivision {
-    name: "Tel Aviv",
+    name: "Tall Abīb",
     code: "IL-TA",
     subdivision_type: "District",
     country_name: "Israel",
@@ -16971,7 +17187,7 @@ pub const IL_TA: Subdivision = Subdivision {
 };
 
 pub const IL_Z: Subdivision = Subdivision {
-    name: "Northern District",
+    name: "Ash Shamālī",
     code: "IL-Z",
     subdivision_type: "District",
     country_name: "Israel",
@@ -16989,9 +17205,9 @@ pub const IT_21: Subdivision = Subdivision {
 };
 
 pub const IT_23: Subdivision = Subdivision {
-    name: "Val d'Aoste",
+    name: "Valle d'Aosta",
     code: "IT-23",
-    subdivision_type: "Region",
+    subdivision_type: "Autonomous region",
     country_name: "Italy",
     country_code: "IT",
     region_code: "23",
@@ -17009,7 +17225,7 @@ pub const IT_25: Subdivision = Subdivision {
 pub const IT_32: Subdivision = Subdivision {
     name: "Trentino-Alto Adige",
     code: "IT-32",
-    subdivision_type: "Region",
+    subdivision_type: "Autonomous region",
     country_name: "Italy",
     country_code: "IT",
     region_code: "32",
@@ -17025,9 +17241,9 @@ pub const IT_34: Subdivision = Subdivision {
 };
 
 pub const IT_36: Subdivision = Subdivision {
-    name: "Friuli-Venezia Giulia",
+    name: "Friuli Venezia Giulia",
     code: "IT-36",
-    subdivision_type: "Region",
+    subdivision_type: "Autonomous region",
     country_name: "Italy",
     country_code: "IT",
     region_code: "36",
@@ -17144,7 +17360,7 @@ pub const IT_78: Subdivision = Subdivision {
 pub const IT_82: Subdivision = Subdivision {
     name: "Sicilia",
     code: "IT-82",
-    subdivision_type: "Region",
+    subdivision_type: "Autonomous region",
     country_name: "Italy",
     country_code: "IT",
     region_code: "82",
@@ -17153,7 +17369,7 @@ pub const IT_82: Subdivision = Subdivision {
 pub const IT_88: Subdivision = Subdivision {
     name: "Sardegna",
     code: "IT-88",
-    subdivision_type: "Region",
+    subdivision_type: "Autonomous region",
     country_name: "Italy",
     country_code: "IT",
     region_code: "88",
@@ -17162,7 +17378,7 @@ pub const IT_88: Subdivision = Subdivision {
 pub const IT_AG: Subdivision = Subdivision {
     name: "Agrigento",
     code: "IT-AG",
-    subdivision_type: "Province",
+    subdivision_type: "Free municipal consortium",
     country_name: "Italy",
     country_code: "IT",
     region_code: "AG",
@@ -17184,15 +17400,6 @@ pub const IT_AN: Subdivision = Subdivision {
     country_name: "Italy",
     country_code: "IT",
     region_code: "AN",
-};
-
-pub const IT_AO: Subdivision = Subdivision {
-    name: "Aosta",
-    code: "IT-AO",
-    subdivision_type: "Province",
-    country_name: "Italy",
-    country_code: "IT",
-    region_code: "AO",
 };
 
 pub const IT_AP: Subdivision = Subdivision {
@@ -17243,7 +17450,7 @@ pub const IT_AV: Subdivision = Subdivision {
 pub const IT_BA: Subdivision = Subdivision {
     name: "Bari",
     code: "IT-BA",
-    subdivision_type: "Province",
+    subdivision_type: "Metropolitan city",
     country_name: "Italy",
     country_code: "IT",
     region_code: "BA",
@@ -17288,7 +17495,7 @@ pub const IT_BN: Subdivision = Subdivision {
 pub const IT_BO: Subdivision = Subdivision {
     name: "Bologna",
     code: "IT-BO",
-    subdivision_type: "Province",
+    subdivision_type: "Metropolitan city",
     country_name: "Italy",
     country_code: "IT",
     region_code: "BO",
@@ -17324,7 +17531,7 @@ pub const IT_BT: Subdivision = Subdivision {
 pub const IT_BZ: Subdivision = Subdivision {
     name: "Bolzano",
     code: "IT-BZ",
-    subdivision_type: "Province",
+    subdivision_type: "Autonomous province",
     country_name: "Italy",
     country_code: "IT",
     region_code: "BZ",
@@ -17333,7 +17540,7 @@ pub const IT_BZ: Subdivision = Subdivision {
 pub const IT_CA: Subdivision = Subdivision {
     name: "Cagliari",
     code: "IT-CA",
-    subdivision_type: "Province",
+    subdivision_type: "Metropolitan city",
     country_name: "Italy",
     country_code: "IT",
     region_code: "CA",
@@ -17366,19 +17573,10 @@ pub const IT_CH: Subdivision = Subdivision {
     region_code: "CH",
 };
 
-pub const IT_CI: Subdivision = Subdivision {
-    name: "Carbonia-Iglesias",
-    code: "IT-CI",
-    subdivision_type: "Province",
-    country_name: "Italy",
-    country_code: "IT",
-    region_code: "CI",
-};
-
 pub const IT_CL: Subdivision = Subdivision {
     name: "Caltanissetta",
     code: "IT-CL",
-    subdivision_type: "Province",
+    subdivision_type: "Free municipal consortium",
     country_name: "Italy",
     country_code: "IT",
     region_code: "CL",
@@ -17423,7 +17621,7 @@ pub const IT_CS: Subdivision = Subdivision {
 pub const IT_CT: Subdivision = Subdivision {
     name: "Catania",
     code: "IT-CT",
-    subdivision_type: "Province",
+    subdivision_type: "Metropolitan city",
     country_name: "Italy",
     country_code: "IT",
     region_code: "CT",
@@ -17441,7 +17639,7 @@ pub const IT_CZ: Subdivision = Subdivision {
 pub const IT_EN: Subdivision = Subdivision {
     name: "Enna",
     code: "IT-EN",
-    subdivision_type: "Province",
+    subdivision_type: "Free municipal consortium",
     country_name: "Italy",
     country_code: "IT",
     region_code: "EN",
@@ -17477,7 +17675,7 @@ pub const IT_FG: Subdivision = Subdivision {
 pub const IT_FI: Subdivision = Subdivision {
     name: "Firenze",
     code: "IT-FI",
-    subdivision_type: "Province",
+    subdivision_type: "Metropolitan city",
     country_name: "Italy",
     country_code: "IT",
     region_code: "FI",
@@ -17504,7 +17702,7 @@ pub const IT_FR: Subdivision = Subdivision {
 pub const IT_GE: Subdivision = Subdivision {
     name: "Genova",
     code: "IT-GE",
-    subdivision_type: "Province",
+    subdivision_type: "Metropolitan city",
     country_name: "Italy",
     country_code: "IT",
     region_code: "GE",
@@ -17513,7 +17711,7 @@ pub const IT_GE: Subdivision = Subdivision {
 pub const IT_GO: Subdivision = Subdivision {
     name: "Gorizia",
     code: "IT-GO",
-    subdivision_type: "Province",
+    subdivision_type: "Decentralized regional entity",
     country_name: "Italy",
     country_code: "IT",
     region_code: "GO",
@@ -17630,7 +17828,7 @@ pub const IT_MC: Subdivision = Subdivision {
 pub const IT_ME: Subdivision = Subdivision {
     name: "Messina",
     code: "IT-ME",
-    subdivision_type: "Province",
+    subdivision_type: "Metropolitan city",
     country_name: "Italy",
     country_code: "IT",
     region_code: "ME",
@@ -17639,7 +17837,7 @@ pub const IT_ME: Subdivision = Subdivision {
 pub const IT_MI: Subdivision = Subdivision {
     name: "Milano",
     code: "IT-MI",
-    subdivision_type: "Province",
+    subdivision_type: "Metropolitan city",
     country_name: "Italy",
     country_code: "IT",
     region_code: "MI",
@@ -17684,7 +17882,7 @@ pub const IT_MT: Subdivision = Subdivision {
 pub const IT_NA: Subdivision = Subdivision {
     name: "Napoli",
     code: "IT-NA",
-    subdivision_type: "Province",
+    subdivision_type: "Metropolitan city",
     country_name: "Italy",
     country_code: "IT",
     region_code: "NA",
@@ -17708,15 +17906,6 @@ pub const IT_NU: Subdivision = Subdivision {
     region_code: "NU",
 };
 
-pub const IT_OG: Subdivision = Subdivision {
-    name: "Ogliastra",
-    code: "IT-OG",
-    subdivision_type: "Province",
-    country_name: "Italy",
-    country_code: "IT",
-    region_code: "OG",
-};
-
 pub const IT_OR: Subdivision = Subdivision {
     name: "Oristano",
     code: "IT-OR",
@@ -17726,19 +17915,10 @@ pub const IT_OR: Subdivision = Subdivision {
     region_code: "OR",
 };
 
-pub const IT_OT: Subdivision = Subdivision {
-    name: "Olbia-Tempio",
-    code: "IT-OT",
-    subdivision_type: "Province",
-    country_name: "Italy",
-    country_code: "IT",
-    region_code: "OT",
-};
-
 pub const IT_PA: Subdivision = Subdivision {
     name: "Palermo",
     code: "IT-PA",
-    subdivision_type: "Province",
+    subdivision_type: "Metropolitan city",
     country_name: "Italy",
     country_code: "IT",
     region_code: "PA",
@@ -17792,7 +17972,7 @@ pub const IT_PI: Subdivision = Subdivision {
 pub const IT_PN: Subdivision = Subdivision {
     name: "Pordenone",
     code: "IT-PN",
-    subdivision_type: "Province",
+    subdivision_type: "Decentralized regional entity",
     country_name: "Italy",
     country_code: "IT",
     region_code: "PN",
@@ -17864,7 +18044,7 @@ pub const IT_RA: Subdivision = Subdivision {
 pub const IT_RC: Subdivision = Subdivision {
     name: "Reggio Calabria",
     code: "IT-RC",
-    subdivision_type: "Province",
+    subdivision_type: "Metropolitan city",
     country_name: "Italy",
     country_code: "IT",
     region_code: "RC",
@@ -17882,7 +18062,7 @@ pub const IT_RE: Subdivision = Subdivision {
 pub const IT_RG: Subdivision = Subdivision {
     name: "Ragusa",
     code: "IT-RG",
-    subdivision_type: "Province",
+    subdivision_type: "Free municipal consortium",
     country_name: "Italy",
     country_code: "IT",
     region_code: "RG",
@@ -17900,7 +18080,7 @@ pub const IT_RI: Subdivision = Subdivision {
 pub const IT_RM: Subdivision = Subdivision {
     name: "Roma",
     code: "IT-RM",
-    subdivision_type: "Province",
+    subdivision_type: "Metropolitan city",
     country_name: "Italy",
     country_code: "IT",
     region_code: "RM",
@@ -17963,7 +18143,7 @@ pub const IT_SP: Subdivision = Subdivision {
 pub const IT_SR: Subdivision = Subdivision {
     name: "Siracusa",
     code: "IT-SR",
-    subdivision_type: "Province",
+    subdivision_type: "Free municipal consortium",
     country_name: "Italy",
     country_code: "IT",
     region_code: "SR",
@@ -17976,6 +18156,15 @@ pub const IT_SS: Subdivision = Subdivision {
     country_name: "Italy",
     country_code: "IT",
     region_code: "SS",
+};
+
+pub const IT_SU: Subdivision = Subdivision {
+    name: "Sud Sardegna",
+    code: "IT-SU",
+    subdivision_type: "Province",
+    country_name: "Italy",
+    country_code: "IT",
+    region_code: "SU",
 };
 
 pub const IT_SV: Subdivision = Subdivision {
@@ -18008,7 +18197,7 @@ pub const IT_TE: Subdivision = Subdivision {
 pub const IT_TN: Subdivision = Subdivision {
     name: "Trento",
     code: "IT-TN",
-    subdivision_type: "Province",
+    subdivision_type: "Autonomous province",
     country_name: "Italy",
     country_code: "IT",
     region_code: "TN",
@@ -18017,7 +18206,7 @@ pub const IT_TN: Subdivision = Subdivision {
 pub const IT_TO: Subdivision = Subdivision {
     name: "Torino",
     code: "IT-TO",
-    subdivision_type: "Province",
+    subdivision_type: "Metropolitan city",
     country_name: "Italy",
     country_code: "IT",
     region_code: "TO",
@@ -18026,7 +18215,7 @@ pub const IT_TO: Subdivision = Subdivision {
 pub const IT_TP: Subdivision = Subdivision {
     name: "Trapani",
     code: "IT-TP",
-    subdivision_type: "Province",
+    subdivision_type: "Free municipal consortium",
     country_name: "Italy",
     country_code: "IT",
     region_code: "TP",
@@ -18044,7 +18233,7 @@ pub const IT_TR: Subdivision = Subdivision {
 pub const IT_TS: Subdivision = Subdivision {
     name: "Trieste",
     code: "IT-TS",
-    subdivision_type: "Province",
+    subdivision_type: "Decentralized regional entity",
     country_name: "Italy",
     country_code: "IT",
     region_code: "TS",
@@ -18062,7 +18251,7 @@ pub const IT_TV: Subdivision = Subdivision {
 pub const IT_UD: Subdivision = Subdivision {
     name: "Udine",
     code: "IT-UD",
-    subdivision_type: "Province",
+    subdivision_type: "Decentralized regional entity",
     country_name: "Italy",
     country_code: "IT",
     region_code: "UD",
@@ -18098,7 +18287,7 @@ pub const IT_VC: Subdivision = Subdivision {
 pub const IT_VE: Subdivision = Subdivision {
     name: "Venezia",
     code: "IT-VE",
-    subdivision_type: "Province",
+    subdivision_type: "Metropolitan city",
     country_name: "Italy",
     country_code: "IT",
     region_code: "VE",
@@ -18120,15 +18309,6 @@ pub const IT_VR: Subdivision = Subdivision {
     country_name: "Italy",
     country_code: "IT",
     region_code: "VR",
-};
-
-pub const IT_VS: Subdivision = Subdivision {
-    name: "Medio Campidano",
-    code: "IT-VS",
-    subdivision_type: "Province",
-    country_name: "Italy",
-    country_code: "IT",
-    region_code: "VS",
 };
 
 pub const IT_VT: Subdivision = Subdivision {
@@ -18384,7 +18564,7 @@ pub const JP_12: Subdivision = Subdivision {
 };
 
 pub const JP_13: Subdivision = Subdivision {
-    name: "Tôkyô",
+    name: "Tokyo",
     code: "JP-13",
     subdivision_type: "Prefecture",
     country_name: "Japan",
@@ -18698,17 +18878,8 @@ pub const JP_47: Subdivision = Subdivision {
     region_code: "47",
 };
 
-pub const JE_JE: Subdivision = Subdivision {
-    name: "Jersey",
-    code: "JE-JE",
-    subdivision_type: "Country",
-    country_name: "Jersey",
-    country_code: "JE",
-    region_code: "JE",
-};
-
 pub const JO_AJ: Subdivision = Subdivision {
-    name: "ʽAjlūn",
+    name: "‘Ajlūn",
     code: "JO-AJ",
     subdivision_type: "Governorate",
     country_name: "Jordan",
@@ -18717,7 +18888,7 @@ pub const JO_AJ: Subdivision = Subdivision {
 };
 
 pub const JO_AM: Subdivision = Subdivision {
-    name: "‘Ammān",
+    name: "Al ‘A̅şimah",
     code: "JO-AM",
     subdivision_type: "Governorate",
     country_name: "Jordan",
@@ -18726,7 +18897,7 @@ pub const JO_AM: Subdivision = Subdivision {
 };
 
 pub const JO_AQ: Subdivision = Subdivision {
-    name: "Al ʽAqabah",
+    name: "Al ‘Aqabah",
     code: "JO-AQ",
     subdivision_type: "Governorate",
     country_name: "Jordan",
@@ -18744,7 +18915,7 @@ pub const JO_AT: Subdivision = Subdivision {
 };
 
 pub const JO_AZ: Subdivision = Subdivision {
-    name: "Az Zarqā'",
+    name: "Az Zarqā’",
     code: "JO-AZ",
     subdivision_type: "Governorate",
     country_name: "Jordan",
@@ -18753,7 +18924,7 @@ pub const JO_AZ: Subdivision = Subdivision {
 };
 
 pub const JO_BA: Subdivision = Subdivision {
-    name: "Al Balqā'",
+    name: "Al Balqā’",
     code: "JO-BA",
     subdivision_type: "Governorate",
     country_name: "Jordan",
@@ -18807,7 +18978,7 @@ pub const JO_MD: Subdivision = Subdivision {
 };
 
 pub const JO_MN: Subdivision = Subdivision {
-    name: "Ma'ān",
+    name: "Ma‘ān",
     code: "JO-MN",
     subdivision_type: "Governorate",
     country_name: "Jordan",
@@ -18815,148 +18986,184 @@ pub const JO_MN: Subdivision = Subdivision {
     region_code: "MN",
 };
 
-pub const KZ_AKM: Subdivision = Subdivision {
-    name: "Akmolinskaja oblast'",
-    code: "KZ-AKM",
+pub const KZ_10: Subdivision = Subdivision {
+    name: "Abay oblysy",
+    code: "KZ-10",
     subdivision_type: "Region",
     country_name: "Kazakhstan",
     country_code: "KZ",
-    region_code: "AKM",
+    region_code: "10",
 };
 
-pub const KZ_AKT: Subdivision = Subdivision {
-    name: "Aktjubinskaja oblast'",
-    code: "KZ-AKT",
+pub const KZ_11: Subdivision = Subdivision {
+    name: "Aqmola oblysy",
+    code: "KZ-11",
     subdivision_type: "Region",
     country_name: "Kazakhstan",
     country_code: "KZ",
-    region_code: "AKT",
+    region_code: "11",
 };
 
-pub const KZ_ALA: Subdivision = Subdivision {
-    name: "Almaty",
-    code: "KZ-ALA",
-    subdivision_type: "City",
-    country_name: "Kazakhstan",
-    country_code: "KZ",
-    region_code: "ALA",
-};
-
-pub const KZ_ALM: Subdivision = Subdivision {
-    name: "Almatinskaja oblast'",
-    code: "KZ-ALM",
+pub const KZ_15: Subdivision = Subdivision {
+    name: "Aqtöbe oblysy",
+    code: "KZ-15",
     subdivision_type: "Region",
     country_name: "Kazakhstan",
     country_code: "KZ",
-    region_code: "ALM",
+    region_code: "15",
 };
 
-pub const KZ_AST: Subdivision = Subdivision {
-    name: "Astana",
-    code: "KZ-AST",
-    subdivision_type: "City",
+pub const KZ_19: Subdivision = Subdivision {
+    name: "Almaty oblysy",
+    code: "KZ-19",
+    subdivision_type: "Region",
     country_name: "Kazakhstan",
     country_code: "KZ",
-    region_code: "AST",
+    region_code: "19",
 };
 
-pub const KZ_ATY: Subdivision = Subdivision {
+pub const KZ_23: Subdivision = Subdivision {
     name: "Atyraū oblysy",
-    code: "KZ-ATY",
+    code: "KZ-23",
     subdivision_type: "Region",
     country_name: "Kazakhstan",
     country_code: "KZ",
-    region_code: "ATY",
+    region_code: "23",
 };
 
-pub const KZ_KAR: Subdivision = Subdivision {
-    name: "Karagandinskaja oblast'",
-    code: "KZ-KAR",
-    subdivision_type: "Region",
-    country_name: "Kazakhstan",
-    country_code: "KZ",
-    region_code: "KAR",
-};
-
-pub const KZ_KUS: Subdivision = Subdivision {
-    name: "Kostanajskaja oblast'",
-    code: "KZ-KUS",
-    subdivision_type: "Region",
-    country_name: "Kazakhstan",
-    country_code: "KZ",
-    region_code: "KUS",
-};
-
-pub const KZ_KZY: Subdivision = Subdivision {
-    name: "Kyzylordinskaja oblast'",
-    code: "KZ-KZY",
-    subdivision_type: "Region",
-    country_name: "Kazakhstan",
-    country_code: "KZ",
-    region_code: "KZY",
-};
-
-pub const KZ_MAN: Subdivision = Subdivision {
-    name: "Mangghystaū oblysy",
-    code: "KZ-MAN",
-    subdivision_type: "Region",
-    country_name: "Kazakhstan",
-    country_code: "KZ",
-    region_code: "MAN",
-};
-
-pub const KZ_PAV: Subdivision = Subdivision {
-    name: "Pavlodar oblysy",
-    code: "KZ-PAV",
-    subdivision_type: "Region",
-    country_name: "Kazakhstan",
-    country_code: "KZ",
-    region_code: "PAV",
-};
-
-pub const KZ_SEV: Subdivision = Subdivision {
-    name: "Severo-Kazahstanskaja oblast'",
-    code: "KZ-SEV",
-    subdivision_type: "Region",
-    country_name: "Kazakhstan",
-    country_code: "KZ",
-    region_code: "SEV",
-};
-
-pub const KZ_VOS: Subdivision = Subdivision {
-    name: "Shyghys Qazaqstan oblysy",
-    code: "KZ-VOS",
-    subdivision_type: "Region",
-    country_name: "Kazakhstan",
-    country_code: "KZ",
-    region_code: "VOS",
-};
-
-pub const KZ_YUZ: Subdivision = Subdivision {
-    name: "Južno-Kazahstanskaja oblast'",
-    code: "KZ-YUZ",
-    subdivision_type: "Region",
-    country_name: "Kazakhstan",
-    country_code: "KZ",
-    region_code: "YUZ",
-};
-
-pub const KZ_ZAP: Subdivision = Subdivision {
+pub const KZ_27: Subdivision = Subdivision {
     name: "Batys Qazaqstan oblysy",
-    code: "KZ-ZAP",
+    code: "KZ-27",
     subdivision_type: "Region",
     country_name: "Kazakhstan",
     country_code: "KZ",
-    region_code: "ZAP",
+    region_code: "27",
 };
 
-pub const KZ_ZHA: Subdivision = Subdivision {
-    name: "Žambylskaja oblast'",
-    code: "KZ-ZHA",
+pub const KZ_31: Subdivision = Subdivision {
+    name: "Zhambyl oblysy",
+    code: "KZ-31",
     subdivision_type: "Region",
     country_name: "Kazakhstan",
     country_code: "KZ",
-    region_code: "ZHA",
+    region_code: "31",
+};
+
+pub const KZ_33: Subdivision = Subdivision {
+    name: "Zhetisū oblysy",
+    code: "KZ-33",
+    subdivision_type: "Region",
+    country_name: "Kazakhstan",
+    country_code: "KZ",
+    region_code: "33",
+};
+
+pub const KZ_35: Subdivision = Subdivision {
+    name: "Qaraghandy oblysy",
+    code: "KZ-35",
+    subdivision_type: "Region",
+    country_name: "Kazakhstan",
+    country_code: "KZ",
+    region_code: "35",
+};
+
+pub const KZ_39: Subdivision = Subdivision {
+    name: "Qostanay oblysy",
+    code: "KZ-39",
+    subdivision_type: "Region",
+    country_name: "Kazakhstan",
+    country_code: "KZ",
+    region_code: "39",
+};
+
+pub const KZ_43: Subdivision = Subdivision {
+    name: "Qyzylorda oblysy",
+    code: "KZ-43",
+    subdivision_type: "Region",
+    country_name: "Kazakhstan",
+    country_code: "KZ",
+    region_code: "43",
+};
+
+pub const KZ_47: Subdivision = Subdivision {
+    name: "Mangghystaū oblysy",
+    code: "KZ-47",
+    subdivision_type: "Region",
+    country_name: "Kazakhstan",
+    country_code: "KZ",
+    region_code: "47",
+};
+
+pub const KZ_55: Subdivision = Subdivision {
+    name: "Pavlodar oblysy",
+    code: "KZ-55",
+    subdivision_type: "Region",
+    country_name: "Kazakhstan",
+    country_code: "KZ",
+    region_code: "55",
+};
+
+pub const KZ_59: Subdivision = Subdivision {
+    name: "Soltüstik Qazaqstan oblysy",
+    code: "KZ-59",
+    subdivision_type: "Region",
+    country_name: "Kazakhstan",
+    country_code: "KZ",
+    region_code: "59",
+};
+
+pub const KZ_61: Subdivision = Subdivision {
+    name: "Türkistan oblysy",
+    code: "KZ-61",
+    subdivision_type: "Region",
+    country_name: "Kazakhstan",
+    country_code: "KZ",
+    region_code: "61",
+};
+
+pub const KZ_62: Subdivision = Subdivision {
+    name: "Ulytaū oblysy",
+    code: "KZ-62",
+    subdivision_type: "Region",
+    country_name: "Kazakhstan",
+    country_code: "KZ",
+    region_code: "62",
+};
+
+pub const KZ_63: Subdivision = Subdivision {
+    name: "Shyghys Qazaqstan oblysy",
+    code: "KZ-63",
+    subdivision_type: "Region",
+    country_name: "Kazakhstan",
+    country_code: "KZ",
+    region_code: "63",
+};
+
+pub const KZ_71: Subdivision = Subdivision {
+    name: "Astana",
+    code: "KZ-71",
+    subdivision_type: "City",
+    country_name: "Kazakhstan",
+    country_code: "KZ",
+    region_code: "71",
+};
+
+pub const KZ_75: Subdivision = Subdivision {
+    name: "Almaty",
+    code: "KZ-75",
+    subdivision_type: "City",
+    country_name: "Kazakhstan",
+    country_code: "KZ",
+    region_code: "75",
+};
+
+pub const KZ_79: Subdivision = Subdivision {
+    name: "Shymkent",
+    code: "KZ-79",
+    subdivision_type: "City",
+    country_name: "Kazakhstan",
+    country_code: "KZ",
+    region_code: "79",
 };
 
 pub const KE_01: Subdivision = Subdivision {
@@ -19385,7 +19592,7 @@ pub const KE_47: Subdivision = Subdivision {
 pub const KI_G: Subdivision = Subdivision {
     name: "Gilbert Islands",
     code: "KI-G",
-    subdivision_type: "Group of islands",
+    subdivision_type: "Group of islands (20 inhabited islands)",
     country_name: "Kiribati",
     country_code: "KI",
     region_code: "G",
@@ -19394,7 +19601,7 @@ pub const KI_G: Subdivision = Subdivision {
 pub const KI_L: Subdivision = Subdivision {
     name: "Line Islands",
     code: "KI-L",
-    subdivision_type: "Group of islands",
+    subdivision_type: "Group of islands (20 inhabited islands)",
     country_name: "Kiribati",
     country_code: "KI",
     region_code: "L",
@@ -19403,62 +19610,62 @@ pub const KI_L: Subdivision = Subdivision {
 pub const KI_P: Subdivision = Subdivision {
     name: "Phoenix Islands",
     code: "KI-P",
-    subdivision_type: "Group of islands",
+    subdivision_type: "Group of islands (20 inhabited islands)",
     country_name: "Kiribati",
     country_code: "KI",
     region_code: "P",
 };
 
 pub const KP_01: Subdivision = Subdivision {
-    name: "P'yǒngyang",
+    name: "Phyeongyang",
     code: "KP-01",
     subdivision_type: "Capital city",
-    country_name: "Korea, Democratic People's Republic Of",
+    country_name: "Korea (Democratic People's Republic of)",
     country_code: "KP",
     region_code: "01",
 };
 
 pub const KP_02: Subdivision = Subdivision {
-    name: "P'yǒngan-namdo",
+    name: "Phyeongannamto",
     code: "KP-02",
     subdivision_type: "Province",
-    country_name: "Korea, Democratic People's Republic Of",
+    country_name: "Korea (Democratic People's Republic of)",
     country_code: "KP",
     region_code: "02",
 };
 
 pub const KP_03: Subdivision = Subdivision {
-    name: "P'yǒngan-bukto",
+    name: "Phyeonganpukto",
     code: "KP-03",
     subdivision_type: "Province",
-    country_name: "Korea, Democratic People's Republic Of",
+    country_name: "Korea (Democratic People's Republic of)",
     country_code: "KP",
     region_code: "03",
 };
 
 pub const KP_04: Subdivision = Subdivision {
-    name: "Chagang-do",
+    name: "Jakangto",
     code: "KP-04",
     subdivision_type: "Province",
-    country_name: "Korea, Democratic People's Republic Of",
+    country_name: "Korea (Democratic People's Republic of)",
     country_code: "KP",
     region_code: "04",
 };
 
 pub const KP_05: Subdivision = Subdivision {
-    name: "Hwanghae-namdo",
+    name: "Hwanghainamto",
     code: "KP-05",
     subdivision_type: "Province",
-    country_name: "Korea, Democratic People's Republic Of",
+    country_name: "Korea (Democratic People's Republic of)",
     country_code: "KP",
     region_code: "05",
 };
 
 pub const KP_06: Subdivision = Subdivision {
-    name: "Hwanghae-bukto",
+    name: "Hwanghaipukto",
     code: "KP-06",
     subdivision_type: "Province",
-    country_name: "Korea, Democratic People's Republic Of",
+    country_name: "Korea (Democratic People's Republic of)",
     country_code: "KP",
     region_code: "06",
 };
@@ -19467,25 +19674,25 @@ pub const KP_07: Subdivision = Subdivision {
     name: "Kangweonto",
     code: "KP-07",
     subdivision_type: "Province",
-    country_name: "Korea, Democratic People's Republic Of",
+    country_name: "Korea (Democratic People's Republic of)",
     country_code: "KP",
     region_code: "07",
 };
 
 pub const KP_08: Subdivision = Subdivision {
-    name: "Hamgyǒng-namdo",
+    name: "Hamkyeongnamto",
     code: "KP-08",
     subdivision_type: "Province",
-    country_name: "Korea, Democratic People's Republic Of",
+    country_name: "Korea (Democratic People's Republic of)",
     country_code: "KP",
     region_code: "08",
 };
 
 pub const KP_09: Subdivision = Subdivision {
-    name: "Hamgyǒng-bukto",
+    name: "Hamkyeongpukto",
     code: "KP-09",
     subdivision_type: "Province",
-    country_name: "Korea, Democratic People's Republic Of",
+    country_name: "Korea (Democratic People's Republic of)",
     country_code: "KP",
     region_code: "09",
 };
@@ -19494,160 +19701,178 @@ pub const KP_10: Subdivision = Subdivision {
     name: "Ryangkangto",
     code: "KP-10",
     subdivision_type: "Province",
-    country_name: "Korea, Democratic People's Republic Of",
+    country_name: "Korea (Democratic People's Republic of)",
     country_code: "KP",
     region_code: "10",
 };
 
 pub const KP_13: Subdivision = Subdivision {
-    name: "Nasǒn",
+    name: "Raseon",
     code: "KP-13",
     subdivision_type: "Special city",
-    country_name: "Korea, Democratic People's Republic Of",
+    country_name: "Korea (Democratic People's Republic of)",
     country_code: "KP",
     region_code: "13",
 };
 
+pub const KP_14: Subdivision = Subdivision {
+    name: "Nampho",
+    code: "KP-14",
+    subdivision_type: "Metropolitan city",
+    country_name: "Korea (Democratic People's Republic of)",
+    country_code: "KP",
+    region_code: "14",
+};
+
+pub const KP_15: Subdivision = Subdivision {
+    name: "Kaeseong",
+    code: "KP-15",
+    subdivision_type: "Metropolitan city",
+    country_name: "Korea (Democratic People's Republic of)",
+    country_code: "KP",
+    region_code: "15",
+};
+
 pub const KR_11: Subdivision = Subdivision {
-    name: "Seoul-T'ǔkpyǒlshi",
+    name: "Seoul-teukbyeolsi",
     code: "KR-11",
     subdivision_type: "Special city",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "11",
 };
 
 pub const KR_26: Subdivision = Subdivision {
-    name: "Busan Gwang'yeogsi",
+    name: "Busan-gwangyeoksi",
     code: "KR-26",
     subdivision_type: "Metropolitan city",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "26",
 };
 
 pub const KR_27: Subdivision = Subdivision {
-    name: "Daegu Gwang'yeogsi",
+    name: "Daegu-gwangyeoksi",
     code: "KR-27",
     subdivision_type: "Metropolitan city",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "27",
 };
 
 pub const KR_28: Subdivision = Subdivision {
-    name: "Inch'ǒn-Kwangyǒkshi",
+    name: "Incheon-gwangyeoksi",
     code: "KR-28",
     subdivision_type: "Metropolitan city",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "28",
 };
 
 pub const KR_29: Subdivision = Subdivision {
-    name: "Gwangju Gwang'yeogsi",
+    name: "Gwangju-gwangyeoksi",
     code: "KR-29",
     subdivision_type: "Metropolitan city",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "29",
 };
 
 pub const KR_30: Subdivision = Subdivision {
-    name: "Daejeon Gwang'yeogsi",
+    name: "Daejeon-gwangyeoksi",
     code: "KR-30",
     subdivision_type: "Metropolitan city",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "30",
 };
 
 pub const KR_31: Subdivision = Subdivision {
-    name: "Ulsan Gwang'yeogsi",
+    name: "Ulsan-gwangyeoksi",
     code: "KR-31",
     subdivision_type: "Metropolitan city",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "31",
 };
 
 pub const KR_41: Subdivision = Subdivision {
-    name: "Gyeonggido",
+    name: "Gyeonggi-do",
     code: "KR-41",
     subdivision_type: "Province",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "41",
 };
 
 pub const KR_42: Subdivision = Subdivision {
-    name: "Gang'weondo",
+    name: "Gangwon-teukbyeoljachido",
     code: "KR-42",
-    subdivision_type: "Province",
-    country_name: "Korea, Republic of",
+    subdivision_type: "Special self-governing province",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "42",
 };
 
 pub const KR_43: Subdivision = Subdivision {
-    name: "Ch'ungch'ǒngbuk-do",
+    name: "Chungcheongbuk-do",
     code: "KR-43",
     subdivision_type: "Province",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "43",
 };
 
 pub const KR_44: Subdivision = Subdivision {
-    name: "Ch'ungch'ǒngnam-do",
+    name: "Chungcheongnam-do",
     code: "KR-44",
     subdivision_type: "Province",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "44",
 };
 
 pub const KR_45: Subdivision = Subdivision {
-    name: "Chǒllabuk-do",
+    name: "Jeollabuk-do",
     code: "KR-45",
     subdivision_type: "Province",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "45",
 };
 
 pub const KR_46: Subdivision = Subdivision {
-    name: "Chǒllanam-do",
+    name: "Jeollanam-do",
     code: "KR-46",
     subdivision_type: "Province",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "46",
 };
 
 pub const KR_47: Subdivision = Subdivision {
-    name: "Gyeongsangbugdo",
+    name: "Gyeongsangbuk-do",
     code: "KR-47",
     subdivision_type: "Province",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "47",
 };
 
 pub const KR_48: Subdivision = Subdivision {
-    name: "Gyeongsangnamdo",
+    name: "Gyeongsangnam-do",
     code: "KR-48",
     subdivision_type: "Province",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "48",
 };
 
 pub const KR_49: Subdivision = Subdivision {
-    name: "Cheju-do",
+    name: "Jeju-teukbyeoljachido",
     code: "KR-49",
     subdivision_type: "Special self-governing province",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "49",
 };
@@ -19656,7 +19881,7 @@ pub const KR_50: Subdivision = Subdivision {
     name: "Sejong",
     code: "KR-50",
     subdivision_type: "Special self-governing city",
-    country_name: "Korea, Republic of",
+    country_name: "Korea (Republic of)",
     country_code: "KR",
     region_code: "50",
 };
@@ -19698,7 +19923,7 @@ pub const KW_JA: Subdivision = Subdivision {
 };
 
 pub const KW_KU: Subdivision = Subdivision {
-    name: "Al Kuwayt",
+    name: "Al ‘Āşimah",
     code: "KW-KU",
     subdivision_type: "Governorate",
     country_name: "Kuwait",
@@ -19725,7 +19950,7 @@ pub const KG_B: Subdivision = Subdivision {
 };
 
 pub const KG_C: Subdivision = Subdivision {
-    name: "Chü",
+    name: "Chüy",
     code: "KG-C",
     subdivision_type: "Region",
     country_name: "Kyrgyzstan",
@@ -19734,7 +19959,7 @@ pub const KG_C: Subdivision = Subdivision {
 };
 
 pub const KG_GB: Subdivision = Subdivision {
-    name: "Bishkek",
+    name: "Bishkek Shaary",
     code: "KG-GB",
     subdivision_type: "City",
     country_name: "Kyrgyzstan",
@@ -19743,7 +19968,7 @@ pub const KG_GB: Subdivision = Subdivision {
 };
 
 pub const KG_GO: Subdivision = Subdivision {
-    name: "Gorod Oš",
+    name: "Osh Shaary",
     code: "KG-GO",
     subdivision_type: "City",
     country_name: "Kyrgyzstan",
@@ -19752,7 +19977,7 @@ pub const KG_GO: Subdivision = Subdivision {
 };
 
 pub const KG_J: Subdivision = Subdivision {
-    name: "Džalal-Abadskaja oblast'",
+    name: "Jalal-Abad",
     code: "KG-J",
     subdivision_type: "Region",
     country_name: "Kyrgyzstan",
@@ -19788,7 +20013,7 @@ pub const KG_T: Subdivision = Subdivision {
 };
 
 pub const KG_Y: Subdivision = Subdivision {
-    name: "Issyk-Kul'skaja oblast'",
+    name: "Ysyk-Köl",
     code: "KG-Y",
     subdivision_type: "Region",
     country_name: "Kyrgyzstan",
@@ -19800,7 +20025,7 @@ pub const LA_AT: Subdivision = Subdivision {
     name: "Attapu",
     code: "LA-AT",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "AT",
 };
@@ -19809,7 +20034,7 @@ pub const LA_BK: Subdivision = Subdivision {
     name: "Bokèo",
     code: "LA-BK",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "BK",
 };
@@ -19818,7 +20043,7 @@ pub const LA_BL: Subdivision = Subdivision {
     name: "Bolikhamxai",
     code: "LA-BL",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "BL",
 };
@@ -19827,7 +20052,7 @@ pub const LA_CH: Subdivision = Subdivision {
     name: "Champasak",
     code: "LA-CH",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "CH",
 };
@@ -19836,7 +20061,7 @@ pub const LA_HO: Subdivision = Subdivision {
     name: "Houaphan",
     code: "LA-HO",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "HO",
 };
@@ -19845,7 +20070,7 @@ pub const LA_KH: Subdivision = Subdivision {
     name: "Khammouan",
     code: "LA-KH",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "KH",
 };
@@ -19854,7 +20079,7 @@ pub const LA_LM: Subdivision = Subdivision {
     name: "Louang Namtha",
     code: "LA-LM",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "LM",
 };
@@ -19863,16 +20088,16 @@ pub const LA_LP: Subdivision = Subdivision {
     name: "Louangphabang",
     code: "LA-LP",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "LP",
 };
 
 pub const LA_OU: Subdivision = Subdivision {
-    name: "Oudomsai",
+    name: "Oudômxai",
     code: "LA-OU",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "OU",
 };
@@ -19881,7 +20106,7 @@ pub const LA_PH: Subdivision = Subdivision {
     name: "Phôngsali",
     code: "LA-PH",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "PH",
 };
@@ -19890,7 +20115,7 @@ pub const LA_SL: Subdivision = Subdivision {
     name: "Salavan",
     code: "LA-SL",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "SL",
 };
@@ -19899,43 +20124,43 @@ pub const LA_SV: Subdivision = Subdivision {
     name: "Savannakhét",
     code: "LA-SV",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "SV",
 };
 
 pub const LA_VI: Subdivision = Subdivision {
-    name: "Vientiane",
+    name: "Viangchan",
     code: "LA-VI",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "VI",
 };
 
 pub const LA_VT: Subdivision = Subdivision {
-    name: "Vientiane",
+    name: "Viangchan",
     code: "LA-VT",
     subdivision_type: "Prefecture",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "VT",
 };
 
 pub const LA_XA: Subdivision = Subdivision {
-    name: "Sayaboury",
+    name: "Xaignabouli",
     code: "LA-XA",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "XA",
 };
 
 pub const LA_XE: Subdivision = Subdivision {
-    name: "Sékong",
+    name: "Xékong",
     code: "LA-XE",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "XE",
 };
@@ -19944,27 +20169,18 @@ pub const LA_XI: Subdivision = Subdivision {
     name: "Xiangkhouang",
     code: "LA-XI",
     subdivision_type: "Province",
-    country_name: "Laos",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
     region_code: "XI",
 };
 
-pub const LA_XN: Subdivision = Subdivision {
+pub const LA_XS: Subdivision = Subdivision {
     name: "Xaisômboun",
-    code: "LA-XN",
-    subdivision_type: "Special zone",
-    country_name: "Laos",
+    code: "LA-XS",
+    subdivision_type: "Province",
+    country_name: "Lao People's Democratic Republic",
     country_code: "LA",
-    region_code: "XN",
-};
-
-pub const LV_001: Subdivision = Subdivision {
-    name: "Aglonas novads",
-    code: "LV-001",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "001",
+    region_code: "XS",
 };
 
 pub const LV_002: Subdivision = Subdivision {
@@ -19976,42 +20192,6 @@ pub const LV_002: Subdivision = Subdivision {
     region_code: "002",
 };
 
-pub const LV_003: Subdivision = Subdivision {
-    name: "Aizputes novads",
-    code: "LV-003",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "003",
-};
-
-pub const LV_004: Subdivision = Subdivision {
-    name: "Aknīstes novads",
-    code: "LV-004",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "004",
-};
-
-pub const LV_005: Subdivision = Subdivision {
-    name: "Alojas novads",
-    code: "LV-005",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "005",
-};
-
-pub const LV_006: Subdivision = Subdivision {
-    name: "Alsungas novads",
-    code: "LV-006",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "006",
-};
-
 pub const LV_007: Subdivision = Subdivision {
     name: "Alūksnes novads",
     code: "LV-007",
@@ -20021,33 +20201,6 @@ pub const LV_007: Subdivision = Subdivision {
     region_code: "007",
 };
 
-pub const LV_008: Subdivision = Subdivision {
-    name: "Amatas novads",
-    code: "LV-008",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "008",
-};
-
-pub const LV_009: Subdivision = Subdivision {
-    name: "Apes novads",
-    code: "LV-009",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "009",
-};
-
-pub const LV_010: Subdivision = Subdivision {
-    name: "Auces novads",
-    code: "LV-010",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "010",
-};
-
 pub const LV_011: Subdivision = Subdivision {
     name: "Ādažu novads",
     code: "LV-011",
@@ -20055,33 +20208,6 @@ pub const LV_011: Subdivision = Subdivision {
     country_name: "Latvia",
     country_code: "LV",
     region_code: "011",
-};
-
-pub const LV_012: Subdivision = Subdivision {
-    name: "Babītes novads",
-    code: "LV-012",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "012",
-};
-
-pub const LV_013: Subdivision = Subdivision {
-    name: "Baldones novads",
-    code: "LV-013",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "013",
-};
-
-pub const LV_014: Subdivision = Subdivision {
-    name: "Baltinavas novads",
-    code: "LV-014",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "014",
 };
 
 pub const LV_015: Subdivision = Subdivision {
@@ -20102,51 +20228,6 @@ pub const LV_016: Subdivision = Subdivision {
     region_code: "016",
 };
 
-pub const LV_017: Subdivision = Subdivision {
-    name: "Beverīnas novads",
-    code: "LV-017",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "017",
-};
-
-pub const LV_018: Subdivision = Subdivision {
-    name: "Brocēnu novads",
-    code: "LV-018",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "018",
-};
-
-pub const LV_019: Subdivision = Subdivision {
-    name: "Burtnieku novads",
-    code: "LV-019",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "019",
-};
-
-pub const LV_020: Subdivision = Subdivision {
-    name: "Carnikavas novads",
-    code: "LV-020",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "020",
-};
-
-pub const LV_021: Subdivision = Subdivision {
-    name: "Cesvaines novads",
-    code: "LV-021",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "021",
-};
-
 pub const LV_022: Subdivision = Subdivision {
     name: "Cēsu novads",
     code: "LV-022",
@@ -20154,33 +20235,6 @@ pub const LV_022: Subdivision = Subdivision {
     country_name: "Latvia",
     country_code: "LV",
     region_code: "022",
-};
-
-pub const LV_023: Subdivision = Subdivision {
-    name: "Ciblas novads",
-    code: "LV-023",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "023",
-};
-
-pub const LV_024: Subdivision = Subdivision {
-    name: "Dagdas novads",
-    code: "LV-024",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "024",
-};
-
-pub const LV_025: Subdivision = Subdivision {
-    name: "Daugavpils novads",
-    code: "LV-025",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "025",
 };
 
 pub const LV_026: Subdivision = Subdivision {
@@ -20192,60 +20246,6 @@ pub const LV_026: Subdivision = Subdivision {
     region_code: "026",
 };
 
-pub const LV_027: Subdivision = Subdivision {
-    name: "Dundagas novads",
-    code: "LV-027",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "027",
-};
-
-pub const LV_028: Subdivision = Subdivision {
-    name: "Durbes novads",
-    code: "LV-028",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "028",
-};
-
-pub const LV_029: Subdivision = Subdivision {
-    name: "Engures novads",
-    code: "LV-029",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "029",
-};
-
-pub const LV_030: Subdivision = Subdivision {
-    name: "Ērgļu novads",
-    code: "LV-030",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "030",
-};
-
-pub const LV_031: Subdivision = Subdivision {
-    name: "Garkalnes novads",
-    code: "LV-031",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "031",
-};
-
-pub const LV_032: Subdivision = Subdivision {
-    name: "Grobiņas novads",
-    code: "LV-032",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "032",
-};
-
 pub const LV_033: Subdivision = Subdivision {
     name: "Gulbenes novads",
     code: "LV-033",
@@ -20253,69 +20253,6 @@ pub const LV_033: Subdivision = Subdivision {
     country_name: "Latvia",
     country_code: "LV",
     region_code: "033",
-};
-
-pub const LV_034: Subdivision = Subdivision {
-    name: "Iecavas novads",
-    code: "LV-034",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "034",
-};
-
-pub const LV_035: Subdivision = Subdivision {
-    name: "Ikšķiles novads",
-    code: "LV-035",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "035",
-};
-
-pub const LV_036: Subdivision = Subdivision {
-    name: "Ilūkstes novads",
-    code: "LV-036",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "036",
-};
-
-pub const LV_037: Subdivision = Subdivision {
-    name: "Inčukalna novads",
-    code: "LV-037",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "037",
-};
-
-pub const LV_038: Subdivision = Subdivision {
-    name: "Jaunjelgavas novads",
-    code: "LV-038",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "038",
-};
-
-pub const LV_039: Subdivision = Subdivision {
-    name: "Jaunpiebalgas novads",
-    code: "LV-039",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "039",
-};
-
-pub const LV_040: Subdivision = Subdivision {
-    name: "Jaunpils novads",
-    code: "LV-040",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "040",
 };
 
 pub const LV_041: Subdivision = Subdivision {
@@ -20336,42 +20273,6 @@ pub const LV_042: Subdivision = Subdivision {
     region_code: "042",
 };
 
-pub const LV_043: Subdivision = Subdivision {
-    name: "Kandavas novads",
-    code: "LV-043",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "043",
-};
-
-pub const LV_044: Subdivision = Subdivision {
-    name: "Kārsavas novads",
-    code: "LV-044",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "044",
-};
-
-pub const LV_045: Subdivision = Subdivision {
-    name: "Kocēnu novads",
-    code: "LV-045",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "045",
-};
-
-pub const LV_046: Subdivision = Subdivision {
-    name: "Kokneses novads",
-    code: "LV-046",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "046",
-};
-
 pub const LV_047: Subdivision = Subdivision {
     name: "Krāslavas novads",
     code: "LV-047",
@@ -20379,24 +20280,6 @@ pub const LV_047: Subdivision = Subdivision {
     country_name: "Latvia",
     country_code: "LV",
     region_code: "047",
-};
-
-pub const LV_048: Subdivision = Subdivision {
-    name: "Krimuldas novads",
-    code: "LV-048",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "048",
-};
-
-pub const LV_049: Subdivision = Subdivision {
-    name: "Krustpils novads",
-    code: "LV-049",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "049",
 };
 
 pub const LV_050: Subdivision = Subdivision {
@@ -20408,15 +20291,6 @@ pub const LV_050: Subdivision = Subdivision {
     region_code: "050",
 };
 
-pub const LV_051: Subdivision = Subdivision {
-    name: "Ķeguma novads",
-    code: "LV-051",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "051",
-};
-
 pub const LV_052: Subdivision = Subdivision {
     name: "Ķekavas novads",
     code: "LV-052",
@@ -20424,15 +20298,6 @@ pub const LV_052: Subdivision = Subdivision {
     country_name: "Latvia",
     country_code: "LV",
     region_code: "052",
-};
-
-pub const LV_053: Subdivision = Subdivision {
-    name: "Lielvārdes novads",
-    code: "LV-053",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "053",
 };
 
 pub const LV_054: Subdivision = Subdivision {
@@ -20444,15 +20309,6 @@ pub const LV_054: Subdivision = Subdivision {
     region_code: "054",
 };
 
-pub const LV_055: Subdivision = Subdivision {
-    name: "Līgatnes novads",
-    code: "LV-055",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "055",
-};
-
 pub const LV_056: Subdivision = Subdivision {
     name: "Līvānu novads",
     code: "LV-056",
@@ -20460,15 +20316,6 @@ pub const LV_056: Subdivision = Subdivision {
     country_name: "Latvia",
     country_code: "LV",
     region_code: "056",
-};
-
-pub const LV_057: Subdivision = Subdivision {
-    name: "Lubānas novads",
-    code: "LV-057",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "057",
 };
 
 pub const LV_058: Subdivision = Subdivision {
@@ -20489,24 +20336,6 @@ pub const LV_059: Subdivision = Subdivision {
     region_code: "059",
 };
 
-pub const LV_060: Subdivision = Subdivision {
-    name: "Mazsalacas novads",
-    code: "LV-060",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "060",
-};
-
-pub const LV_061: Subdivision = Subdivision {
-    name: "Mālpils novads",
-    code: "LV-061",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "061",
-};
-
 pub const LV_062: Subdivision = Subdivision {
     name: "Mārupes novads",
     code: "LV-062",
@@ -20514,42 +20343,6 @@ pub const LV_062: Subdivision = Subdivision {
     country_name: "Latvia",
     country_code: "LV",
     region_code: "062",
-};
-
-pub const LV_063: Subdivision = Subdivision {
-    name: "Mērsraga novads",
-    code: "LV-063",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "063",
-};
-
-pub const LV_064: Subdivision = Subdivision {
-    name: "Naukšēnu novads",
-    code: "LV-064",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "064",
-};
-
-pub const LV_065: Subdivision = Subdivision {
-    name: "Neretas novads",
-    code: "LV-065",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "065",
-};
-
-pub const LV_066: Subdivision = Subdivision {
-    name: "Nīcas novads",
-    code: "LV-066",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "066",
 };
 
 pub const LV_067: Subdivision = Subdivision {
@@ -20570,42 +20363,6 @@ pub const LV_068: Subdivision = Subdivision {
     region_code: "068",
 };
 
-pub const LV_069: Subdivision = Subdivision {
-    name: "Ozolnieku novads",
-    code: "LV-069",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "069",
-};
-
-pub const LV_070: Subdivision = Subdivision {
-    name: "Pārgaujas novads",
-    code: "LV-070",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "070",
-};
-
-pub const LV_071: Subdivision = Subdivision {
-    name: "Pāvilostas novads",
-    code: "LV-071",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "071",
-};
-
-pub const LV_072: Subdivision = Subdivision {
-    name: "Pļaviņu novads",
-    code: "LV-072",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "072",
-};
-
 pub const LV_073: Subdivision = Subdivision {
     name: "Preiļu novads",
     code: "LV-073",
@@ -20613,33 +20370,6 @@ pub const LV_073: Subdivision = Subdivision {
     country_name: "Latvia",
     country_code: "LV",
     region_code: "073",
-};
-
-pub const LV_074: Subdivision = Subdivision {
-    name: "Priekules novads",
-    code: "LV-074",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "074",
-};
-
-pub const LV_075: Subdivision = Subdivision {
-    name: "Priekuļu novads",
-    code: "LV-075",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "075",
-};
-
-pub const LV_076: Subdivision = Subdivision {
-    name: "Raunas novads",
-    code: "LV-076",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "076",
 };
 
 pub const LV_077: Subdivision = Subdivision {
@@ -20651,24 +20381,6 @@ pub const LV_077: Subdivision = Subdivision {
     region_code: "077",
 };
 
-pub const LV_078: Subdivision = Subdivision {
-    name: "Riebiņu novads",
-    code: "LV-078",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "078",
-};
-
-pub const LV_079: Subdivision = Subdivision {
-    name: "Rojas novads",
-    code: "LV-079",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "079",
-};
-
 pub const LV_080: Subdivision = Subdivision {
     name: "Ropažu novads",
     code: "LV-080",
@@ -20676,60 +20388,6 @@ pub const LV_080: Subdivision = Subdivision {
     country_name: "Latvia",
     country_code: "LV",
     region_code: "080",
-};
-
-pub const LV_081: Subdivision = Subdivision {
-    name: "Rucavas novads",
-    code: "LV-081",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "081",
-};
-
-pub const LV_082: Subdivision = Subdivision {
-    name: "Rugāju novads",
-    code: "LV-082",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "082",
-};
-
-pub const LV_083: Subdivision = Subdivision {
-    name: "Rundāles novads",
-    code: "LV-083",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "083",
-};
-
-pub const LV_084: Subdivision = Subdivision {
-    name: "Rūjienas novads",
-    code: "LV-084",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "084",
-};
-
-pub const LV_085: Subdivision = Subdivision {
-    name: "Salas novads",
-    code: "LV-085",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "085",
-};
-
-pub const LV_086: Subdivision = Subdivision {
-    name: "Salacgrīvas novads",
-    code: "LV-086",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "086",
 };
 
 pub const LV_087: Subdivision = Subdivision {
@@ -20759,15 +20417,6 @@ pub const LV_089: Subdivision = Subdivision {
     region_code: "089",
 };
 
-pub const LV_090: Subdivision = Subdivision {
-    name: "Sējas novads",
-    code: "LV-090",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "090",
-};
-
 pub const LV_091: Subdivision = Subdivision {
     name: "Siguldas novads",
     code: "LV-091",
@@ -20775,24 +20424,6 @@ pub const LV_091: Subdivision = Subdivision {
     country_name: "Latvia",
     country_code: "LV",
     region_code: "091",
-};
-
-pub const LV_092: Subdivision = Subdivision {
-    name: "Skrīveru novads",
-    code: "LV-092",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "092",
-};
-
-pub const LV_093: Subdivision = Subdivision {
-    name: "Skrundas novads",
-    code: "LV-093",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "093",
 };
 
 pub const LV_094: Subdivision = Subdivision {
@@ -20804,24 +20435,6 @@ pub const LV_094: Subdivision = Subdivision {
     region_code: "094",
 };
 
-pub const LV_095: Subdivision = Subdivision {
-    name: "Stopiņu novads",
-    code: "LV-095",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "095",
-};
-
-pub const LV_096: Subdivision = Subdivision {
-    name: "Strenču novads",
-    code: "LV-096",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "096",
-};
-
 pub const LV_097: Subdivision = Subdivision {
     name: "Talsu novads",
     code: "LV-097",
@@ -20831,15 +20444,6 @@ pub const LV_097: Subdivision = Subdivision {
     region_code: "097",
 };
 
-pub const LV_098: Subdivision = Subdivision {
-    name: "Tērvetes novads",
-    code: "LV-098",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "098",
-};
-
 pub const LV_099: Subdivision = Subdivision {
     name: "Tukuma novads",
     code: "LV-099",
@@ -20847,15 +20451,6 @@ pub const LV_099: Subdivision = Subdivision {
     country_name: "Latvia",
     country_code: "LV",
     region_code: "099",
-};
-
-pub const LV_100: Subdivision = Subdivision {
-    name: "Vaiņodes novads",
-    code: "LV-100",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "100",
 };
 
 pub const LV_101: Subdivision = Subdivision {
@@ -20876,33 +20471,6 @@ pub const LV_102: Subdivision = Subdivision {
     region_code: "102",
 };
 
-pub const LV_103: Subdivision = Subdivision {
-    name: "Vārkavas novads",
-    code: "LV-103",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "103",
-};
-
-pub const LV_104: Subdivision = Subdivision {
-    name: "Vecpiebalgas novads",
-    code: "LV-104",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "104",
-};
-
-pub const LV_105: Subdivision = Subdivision {
-    name: "Vecumnieku novads",
-    code: "LV-105",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "105",
-};
-
 pub const LV_106: Subdivision = Subdivision {
     name: "Ventspils novads",
     code: "LV-106",
@@ -20912,46 +20480,37 @@ pub const LV_106: Subdivision = Subdivision {
     region_code: "106",
 };
 
-pub const LV_107: Subdivision = Subdivision {
-    name: "Viesītes novads",
-    code: "LV-107",
+pub const LV_111: Subdivision = Subdivision {
+    name: "Augšdaugavas novads",
+    code: "LV-111",
     subdivision_type: "Municipality",
     country_name: "Latvia",
     country_code: "LV",
-    region_code: "107",
+    region_code: "111",
 };
 
-pub const LV_108: Subdivision = Subdivision {
-    name: "Viļakas novads",
-    code: "LV-108",
+pub const LV_112: Subdivision = Subdivision {
+    name: "Dienvidkurzemes Novads",
+    code: "LV-112",
     subdivision_type: "Municipality",
     country_name: "Latvia",
     country_code: "LV",
-    region_code: "108",
+    region_code: "112",
 };
 
-pub const LV_109: Subdivision = Subdivision {
-    name: "Viļānu novads",
-    code: "LV-109",
+pub const LV_113: Subdivision = Subdivision {
+    name: "Valmieras Novads",
+    code: "LV-113",
     subdivision_type: "Municipality",
     country_name: "Latvia",
     country_code: "LV",
-    region_code: "109",
-};
-
-pub const LV_110: Subdivision = Subdivision {
-    name: "Zilupes novads",
-    code: "LV-110",
-    subdivision_type: "Municipality",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "110",
+    region_code: "113",
 };
 
 pub const LV_DGV: Subdivision = Subdivision {
     name: "Daugavpils",
     code: "LV-DGV",
-    subdivision_type: "Republican city",
+    subdivision_type: "State city",
     country_name: "Latvia",
     country_code: "LV",
     region_code: "DGV",
@@ -20960,25 +20519,16 @@ pub const LV_DGV: Subdivision = Subdivision {
 pub const LV_JEL: Subdivision = Subdivision {
     name: "Jelgava",
     code: "LV-JEL",
-    subdivision_type: "Republican city",
+    subdivision_type: "State city",
     country_name: "Latvia",
     country_code: "LV",
     region_code: "JEL",
 };
 
-pub const LV_JKB: Subdivision = Subdivision {
-    name: "Jēkabpils",
-    code: "LV-JKB",
-    subdivision_type: "Republican city",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "JKB",
-};
-
 pub const LV_JUR: Subdivision = Subdivision {
     name: "Jūrmala",
     code: "LV-JUR",
-    subdivision_type: "Republican city",
+    subdivision_type: "State city",
     country_name: "Latvia",
     country_code: "LV",
     region_code: "JUR",
@@ -20987,7 +20537,7 @@ pub const LV_JUR: Subdivision = Subdivision {
 pub const LV_LPX: Subdivision = Subdivision {
     name: "Liepāja",
     code: "LV-LPX",
-    subdivision_type: "Republican city",
+    subdivision_type: "State city",
     country_name: "Latvia",
     country_code: "LV",
     region_code: "LPX",
@@ -20996,7 +20546,7 @@ pub const LV_LPX: Subdivision = Subdivision {
 pub const LV_REZ: Subdivision = Subdivision {
     name: "Rēzekne",
     code: "LV-REZ",
-    subdivision_type: "Republican city",
+    subdivision_type: "State city",
     country_name: "Latvia",
     country_code: "LV",
     region_code: "REZ",
@@ -21005,7 +20555,7 @@ pub const LV_REZ: Subdivision = Subdivision {
 pub const LV_RIX: Subdivision = Subdivision {
     name: "Rīga",
     code: "LV-RIX",
-    subdivision_type: "Republican city",
+    subdivision_type: "State city",
     country_name: "Latvia",
     country_code: "LV",
     region_code: "RIX",
@@ -21014,23 +20564,14 @@ pub const LV_RIX: Subdivision = Subdivision {
 pub const LV_VEN: Subdivision = Subdivision {
     name: "Ventspils",
     code: "LV-VEN",
-    subdivision_type: "Republican city",
+    subdivision_type: "State city",
     country_name: "Latvia",
     country_code: "LV",
     region_code: "VEN",
 };
 
-pub const LV_VMR: Subdivision = Subdivision {
-    name: "Valmiera",
-    code: "LV-VMR",
-    subdivision_type: "Republican city",
-    country_name: "Latvia",
-    country_code: "LV",
-    region_code: "VMR",
-};
-
 pub const LB_AK: Subdivision = Subdivision {
-    name: "Aakkâr",
+    name: "‘Akkār",
     code: "LB-AK",
     subdivision_type: "Governorate",
     country_name: "Lebanon",
@@ -21057,7 +20598,7 @@ pub const LB_BA: Subdivision = Subdivision {
 };
 
 pub const LB_BH: Subdivision = Subdivision {
-    name: "Baalbek-Hermel",
+    name: "B‘alabak-Al Hirmil",
     code: "LB-BH",
     subdivision_type: "Governorate",
     country_name: "Lebanon",
@@ -21111,7 +20652,7 @@ pub const LS_A: Subdivision = Subdivision {
 };
 
 pub const LS_B: Subdivision = Subdivision {
-    name: "Butha-Buthe",
+    name: "Botha-Bothe",
     code: "LS-B",
     subdivision_type: "District",
     country_name: "Lesotho",
@@ -21309,7 +20850,7 @@ pub const LR_RG: Subdivision = Subdivision {
 };
 
 pub const LR_RI: Subdivision = Subdivision {
-    name: "Rivercess",
+    name: "River Cess",
     code: "LR-RI",
     subdivision_type: "County",
     country_name: "Liberia",
@@ -21381,7 +20922,7 @@ pub const LY_JG: Subdivision = Subdivision {
 };
 
 pub const LY_JI: Subdivision = Subdivision {
-    name: "Al Jifārah",
+    name: "Al Jafārah",
     code: "LY-JI",
     subdivision_type: "Popularate",
     country_name: "Libya",
@@ -21660,7 +21201,7 @@ pub const LT_04: Subdivision = Subdivision {
 };
 
 pub const LT_05: Subdivision = Subdivision {
-    name: "Birštono",
+    name: "Birštonas",
     code: "LT-05",
     subdivision_type: "Municipality",
     country_name: "Lithuania",
@@ -21687,7 +21228,7 @@ pub const LT_07: Subdivision = Subdivision {
 };
 
 pub const LT_08: Subdivision = Subdivision {
-    name: "Elektrénai",
+    name: "Elektrėnai",
     code: "LT-08",
     subdivision_type: "Municipality",
     country_name: "Lithuania",
@@ -21741,7 +21282,7 @@ pub const LT_13: Subdivision = Subdivision {
 };
 
 pub const LT_14: Subdivision = Subdivision {
-    name: "Kalvarijos",
+    name: "Kalvarija",
     code: "LT-14",
     subdivision_type: "Municipality",
     country_name: "Lithuania",
@@ -21876,7 +21417,7 @@ pub const LT_28: Subdivision = Subdivision {
 };
 
 pub const LT_29: Subdivision = Subdivision {
-    name: "Pagégiai",
+    name: "Pagėgiai",
     code: "LT-29",
     subdivision_type: "Municipality",
     country_name: "Lithuania",
@@ -21966,7 +21507,7 @@ pub const LT_38: Subdivision = Subdivision {
 };
 
 pub const LT_39: Subdivision = Subdivision {
-    name: "Rietavo",
+    name: "Rietavas",
     code: "LT-39",
     subdivision_type: "Municipality",
     country_name: "Lithuania",
@@ -22253,796 +21794,112 @@ pub const LT_VL: Subdivision = Subdivision {
     region_code: "VL",
 };
 
-pub const LU_D: Subdivision = Subdivision {
+pub const LU_CA: Subdivision = Subdivision {
+    name: "Capellen",
+    code: "LU-CA",
+    subdivision_type: "Canton",
+    country_name: "Luxembourg",
+    country_code: "LU",
+    region_code: "CA",
+};
+
+pub const LU_CL: Subdivision = Subdivision {
+    name: "Clervaux",
+    code: "LU-CL",
+    subdivision_type: "Canton",
+    country_name: "Luxembourg",
+    country_code: "LU",
+    region_code: "CL",
+};
+
+pub const LU_DI: Subdivision = Subdivision {
     name: "Diekirch",
-    code: "LU-D",
-    subdivision_type: "District",
+    code: "LU-DI",
+    subdivision_type: "Canton",
     country_name: "Luxembourg",
     country_code: "LU",
-    region_code: "D",
+    region_code: "DI",
 };
 
-pub const LU_G: Subdivision = Subdivision {
+pub const LU_EC: Subdivision = Subdivision {
+    name: "Echternach",
+    code: "LU-EC",
+    subdivision_type: "Canton",
+    country_name: "Luxembourg",
+    country_code: "LU",
+    region_code: "EC",
+};
+
+pub const LU_ES: Subdivision = Subdivision {
+    name: "Esch-sur-Alzette",
+    code: "LU-ES",
+    subdivision_type: "Canton",
+    country_name: "Luxembourg",
+    country_code: "LU",
+    region_code: "ES",
+};
+
+pub const LU_GR: Subdivision = Subdivision {
     name: "Grevenmacher",
-    code: "LU-G",
-    subdivision_type: "District",
+    code: "LU-GR",
+    subdivision_type: "Canton",
     country_name: "Luxembourg",
     country_code: "LU",
-    region_code: "G",
+    region_code: "GR",
 };
 
-pub const LU_L: Subdivision = Subdivision {
-    name: "Lëtzebuerg",
-    code: "LU-L",
-    subdivision_type: "District",
+pub const LU_LU: Subdivision = Subdivision {
+    name: "Luxembourg",
+    code: "LU-LU",
+    subdivision_type: "Canton",
     country_name: "Luxembourg",
     country_code: "LU",
-    region_code: "L",
-};
-
-pub const MO_MO: Subdivision = Subdivision {
-    name: "Macau",
-    code: "MO-MO",
-    subdivision_type: "Country",
-    country_name: "Macau",
-    country_code: "MO",
-    region_code: "MO",
-};
-
-pub const MK_01: Subdivision = Subdivision {
-    name: "Aerodrom †",
-    code: "MK-01",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "01",
-};
-
-pub const MK_02: Subdivision = Subdivision {
-    name: "Aračinovo",
-    code: "MK-02",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "02",
-};
-
-pub const MK_03: Subdivision = Subdivision {
-    name: "Berovo",
-    code: "MK-03",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "03",
-};
-
-pub const MK_04: Subdivision = Subdivision {
-    name: "Bitola",
-    code: "MK-04",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "04",
-};
-
-pub const MK_05: Subdivision = Subdivision {
-    name: "Bogdanci",
-    code: "MK-05",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "05",
-};
-
-pub const MK_06: Subdivision = Subdivision {
-    name: "Bogovinje",
-    code: "MK-06",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "06",
-};
-
-pub const MK_07: Subdivision = Subdivision {
-    name: "Bosilovo",
-    code: "MK-07",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "07",
-};
-
-pub const MK_08: Subdivision = Subdivision {
-    name: "Brvenica",
-    code: "MK-08",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "08",
-};
-
-pub const MK_09: Subdivision = Subdivision {
-    name: "Butel †",
-    code: "MK-09",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "09",
-};
-
-pub const MK_10: Subdivision = Subdivision {
-    name: "Valandovo",
-    code: "MK-10",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "10",
-};
-
-pub const MK_11: Subdivision = Subdivision {
-    name: "Vasilevo",
-    code: "MK-11",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "11",
-};
-
-pub const MK_12: Subdivision = Subdivision {
-    name: "Vevčani",
-    code: "MK-12",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "12",
-};
-
-pub const MK_13: Subdivision = Subdivision {
-    name: "Veles",
-    code: "MK-13",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "13",
-};
-
-pub const MK_14: Subdivision = Subdivision {
-    name: "Vinica",
-    code: "MK-14",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "14",
-};
-
-pub const MK_15: Subdivision = Subdivision {
-    name: "Vraneštica",
-    code: "MK-15",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "15",
-};
-
-pub const MK_16: Subdivision = Subdivision {
-    name: "Vrapčište",
-    code: "MK-16",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "16",
-};
-
-pub const MK_17: Subdivision = Subdivision {
-    name: "Gazi Baba †",
-    code: "MK-17",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "17",
-};
-
-pub const MK_18: Subdivision = Subdivision {
-    name: "Gevgelija",
-    code: "MK-18",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "18",
-};
-
-pub const MK_19: Subdivision = Subdivision {
-    name: "Gostivar",
-    code: "MK-19",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "19",
-};
-
-pub const MK_20: Subdivision = Subdivision {
-    name: "Gradsko",
-    code: "MK-20",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "20",
-};
-
-pub const MK_21: Subdivision = Subdivision {
-    name: "Debar",
-    code: "MK-21",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "21",
-};
-
-pub const MK_22: Subdivision = Subdivision {
-    name: "Debarca",
-    code: "MK-22",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "22",
-};
-
-pub const MK_23: Subdivision = Subdivision {
-    name: "Delčevo",
-    code: "MK-23",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "23",
-};
-
-pub const MK_24: Subdivision = Subdivision {
-    name: "Demir Kapija",
-    code: "MK-24",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "24",
-};
-
-pub const MK_25: Subdivision = Subdivision {
-    name: "Demir Hisar",
-    code: "MK-25",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "25",
-};
-
-pub const MK_26: Subdivision = Subdivision {
-    name: "Dojran",
-    code: "MK-26",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "26",
-};
-
-pub const MK_27: Subdivision = Subdivision {
-    name: "Dolneni",
-    code: "MK-27",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "27",
-};
-
-pub const MK_28: Subdivision = Subdivision {
-    name: "Drugovo",
-    code: "MK-28",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "28",
-};
-
-pub const MK_29: Subdivision = Subdivision {
-    name: "Gjorče Petrov †",
-    code: "MK-29",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "29",
-};
-
-pub const MK_30: Subdivision = Subdivision {
-    name: "Želino",
-    code: "MK-30",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "30",
-};
-
-pub const MK_31: Subdivision = Subdivision {
-    name: "Zajas",
-    code: "MK-31",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "31",
-};
-
-pub const MK_32: Subdivision = Subdivision {
-    name: "Zelenikovo",
-    code: "MK-32",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "32",
-};
-
-pub const MK_33: Subdivision = Subdivision {
-    name: "Zrnovci",
-    code: "MK-33",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "33",
-};
-
-pub const MK_34: Subdivision = Subdivision {
-    name: "Ilinden",
-    code: "MK-34",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "34",
-};
-
-pub const MK_35: Subdivision = Subdivision {
-    name: "Jegunovce",
-    code: "MK-35",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "35",
-};
-
-pub const MK_36: Subdivision = Subdivision {
-    name: "Kavadarci",
-    code: "MK-36",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "36",
-};
-
-pub const MK_37: Subdivision = Subdivision {
-    name: "Karbinci",
-    code: "MK-37",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "37",
-};
-
-pub const MK_38: Subdivision = Subdivision {
-    name: "Karpoš †",
-    code: "MK-38",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "38",
-};
-
-pub const MK_39: Subdivision = Subdivision {
-    name: "Kisela Voda †",
-    code: "MK-39",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "39",
-};
-
-pub const MK_40: Subdivision = Subdivision {
-    name: "Kičevo",
-    code: "MK-40",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "40",
-};
-
-pub const MK_41: Subdivision = Subdivision {
-    name: "Konče",
-    code: "MK-41",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "41",
-};
-
-pub const MK_42: Subdivision = Subdivision {
-    name: "Kočani",
-    code: "MK-42",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "42",
-};
-
-pub const MK_43: Subdivision = Subdivision {
-    name: "Kratovo",
-    code: "MK-43",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "43",
-};
-
-pub const MK_44: Subdivision = Subdivision {
-    name: "Kriva Palanka",
-    code: "MK-44",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "44",
-};
-
-pub const MK_45: Subdivision = Subdivision {
-    name: "Krivogaštani",
-    code: "MK-45",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "45",
-};
-
-pub const MK_46: Subdivision = Subdivision {
-    name: "Kruševo",
-    code: "MK-46",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "46",
-};
-
-pub const MK_47: Subdivision = Subdivision {
-    name: "Kumanovo",
-    code: "MK-47",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "47",
-};
-
-pub const MK_48: Subdivision = Subdivision {
-    name: "Lipkovo",
-    code: "MK-48",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "48",
-};
-
-pub const MK_49: Subdivision = Subdivision {
-    name: "Lozovo",
-    code: "MK-49",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "49",
-};
-
-pub const MK_50: Subdivision = Subdivision {
-    name: "Mavrovo i Rostuša",
-    code: "MK-50",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "50",
-};
-
-pub const MK_51: Subdivision = Subdivision {
-    name: "Makedonska Kamenica",
-    code: "MK-51",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "51",
-};
-
-pub const MK_52: Subdivision = Subdivision {
-    name: "Makedonski Brod",
-    code: "MK-52",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "52",
-};
-
-pub const MK_53: Subdivision = Subdivision {
-    name: "Mogila",
-    code: "MK-53",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "53",
-};
-
-pub const MK_54: Subdivision = Subdivision {
-    name: "Negotino",
-    code: "MK-54",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "54",
-};
-
-pub const MK_55: Subdivision = Subdivision {
-    name: "Novaci",
-    code: "MK-55",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "55",
-};
-
-pub const MK_56: Subdivision = Subdivision {
-    name: "Novo Selo",
-    code: "MK-56",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "56",
-};
-
-pub const MK_57: Subdivision = Subdivision {
-    name: "Oslomej",
-    code: "MK-57",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "57",
-};
-
-pub const MK_58: Subdivision = Subdivision {
-    name: "Ohrid",
-    code: "MK-58",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "58",
-};
-
-pub const MK_59: Subdivision = Subdivision {
-    name: "Petrovec",
-    code: "MK-59",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "59",
-};
-
-pub const MK_60: Subdivision = Subdivision {
-    name: "Pehčevo",
-    code: "MK-60",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "60",
-};
-
-pub const MK_61: Subdivision = Subdivision {
-    name: "Plasnica",
-    code: "MK-61",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "61",
-};
-
-pub const MK_62: Subdivision = Subdivision {
-    name: "Prilep",
-    code: "MK-62",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "62",
-};
-
-pub const MK_63: Subdivision = Subdivision {
-    name: "Probištip",
-    code: "MK-63",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "63",
-};
-
-pub const MK_64: Subdivision = Subdivision {
-    name: "Radoviš",
-    code: "MK-64",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "64",
-};
-
-pub const MK_65: Subdivision = Subdivision {
-    name: "Rankovce",
-    code: "MK-65",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "65",
-};
-
-pub const MK_66: Subdivision = Subdivision {
-    name: "Resen",
-    code: "MK-66",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "66",
-};
-
-pub const MK_67: Subdivision = Subdivision {
-    name: "Rosoman",
-    code: "MK-67",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "67",
-};
-
-pub const MK_68: Subdivision = Subdivision {
-    name: "Saraj †",
-    code: "MK-68",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "68",
-};
-
-pub const MK_69: Subdivision = Subdivision {
-    name: "Sveti Nikole",
-    code: "MK-69",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "69",
-};
-
-pub const MK_70: Subdivision = Subdivision {
-    name: "Sopište",
-    code: "MK-70",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "70",
-};
-
-pub const MK_71: Subdivision = Subdivision {
-    name: "Staro Nagoričane",
-    code: "MK-71",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "71",
-};
-
-pub const MK_72: Subdivision = Subdivision {
-    name: "Struga",
-    code: "MK-72",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "72",
-};
-
-pub const MK_73: Subdivision = Subdivision {
-    name: "Strumica",
-    code: "MK-73",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "73",
-};
-
-pub const MK_74: Subdivision = Subdivision {
-    name: "Studeničani",
-    code: "MK-74",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "74",
-};
-
-pub const MK_75: Subdivision = Subdivision {
-    name: "Tearce",
-    code: "MK-75",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "75",
-};
-
-pub const MK_76: Subdivision = Subdivision {
-    name: "Tetovo",
-    code: "MK-76",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "76",
-};
-
-pub const MK_77: Subdivision = Subdivision {
-    name: "Centar †",
-    code: "MK-77",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "77",
-};
-
-pub const MK_78: Subdivision = Subdivision {
-    name: "Centar Župa",
-    code: "MK-78",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "78",
-};
-
-pub const MK_79: Subdivision = Subdivision {
-    name: "Čair †",
-    code: "MK-79",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "79",
-};
-
-pub const MK_80: Subdivision = Subdivision {
-    name: "Čaška",
-    code: "MK-80",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "80",
-};
-
-pub const MK_81: Subdivision = Subdivision {
-    name: "Češinovo-Obleševo",
-    code: "MK-81",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "81",
-};
-
-pub const MK_82: Subdivision = Subdivision {
-    name: "Čučer Sandevo",
-    code: "MK-82",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "82",
-};
-
-pub const MK_83: Subdivision = Subdivision {
-    name: "Štip",
-    code: "MK-83",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "83",
-};
-
-pub const MK_84: Subdivision = Subdivision {
-    name: "Šuto Orizari †",
-    code: "MK-84",
-    subdivision_type: "Municipality",
-    country_name: "Macedonia, the Former Yugoslav Republic Of",
-    country_code: "MK",
-    region_code: "84",
+    region_code: "LU",
+};
+
+pub const LU_ME: Subdivision = Subdivision {
+    name: "Mersch",
+    code: "LU-ME",
+    subdivision_type: "Canton",
+    country_name: "Luxembourg",
+    country_code: "LU",
+    region_code: "ME",
+};
+
+pub const LU_RD: Subdivision = Subdivision {
+    name: "Redange",
+    code: "LU-RD",
+    subdivision_type: "Canton",
+    country_name: "Luxembourg",
+    country_code: "LU",
+    region_code: "RD",
+};
+
+pub const LU_RM: Subdivision = Subdivision {
+    name: "Remich",
+    code: "LU-RM",
+    subdivision_type: "Canton",
+    country_name: "Luxembourg",
+    country_code: "LU",
+    region_code: "RM",
+};
+
+pub const LU_VD: Subdivision = Subdivision {
+    name: "Vianden",
+    code: "LU-VD",
+    subdivision_type: "Canton",
+    country_name: "Luxembourg",
+    country_code: "LU",
+    region_code: "VD",
+};
+
+pub const LU_WI: Subdivision = Subdivision {
+    name: "Wiltz",
+    code: "LU-WI",
+    subdivision_type: "Canton",
+    country_name: "Luxembourg",
+    country_code: "LU",
+    region_code: "WI",
 };
 
 pub const MG_A: Subdivision = Subdivision {
@@ -23261,6 +22118,15 @@ pub const MW_MZ: Subdivision = Subdivision {
     region_code: "MZ",
 };
 
+pub const MW_N: Subdivision = Subdivision {
+    name: "Northern Region",
+    code: "MW-N",
+    subdivision_type: "Region",
+    country_name: "Malawi",
+    country_code: "MW",
+    region_code: "N",
+};
+
 pub const MW_NB: Subdivision = Subdivision {
     name: "Nkhata Bay",
     code: "MW-NB",
@@ -23268,15 +22134,6 @@ pub const MW_NB: Subdivision = Subdivision {
     country_name: "Malawi",
     country_code: "MW",
     region_code: "NB",
-};
-
-pub const MW_N: Subdivision = Subdivision {
-    name: "Chakumpoto",
-    code: "MW-N",
-    subdivision_type: "Region",
-    country_name: "Malawi",
-    country_code: "MW",
-    region_code: "N",
 };
 
 pub const MW_NE: Subdivision = Subdivision {
@@ -23342,6 +22199,15 @@ pub const MW_RU: Subdivision = Subdivision {
     region_code: "RU",
 };
 
+pub const MW_S: Subdivision = Subdivision {
+    name: "Southern Region",
+    code: "MW-S",
+    subdivision_type: "Region",
+    country_name: "Malawi",
+    country_code: "MW",
+    region_code: "S",
+};
+
 pub const MW_SA: Subdivision = Subdivision {
     name: "Salima",
     code: "MW-SA",
@@ -23349,15 +22215,6 @@ pub const MW_SA: Subdivision = Subdivision {
     country_name: "Malawi",
     country_code: "MW",
     region_code: "SA",
-};
-
-pub const MW_S: Subdivision = Subdivision {
-    name: "Chakumwera",
-    code: "MW-S",
-    subdivision_type: "Region",
-    country_name: "Malawi",
-    country_code: "MW",
-    region_code: "S",
 };
 
 pub const MW_TH: Subdivision = Subdivision {
@@ -23523,7 +22380,7 @@ pub const MY_16: Subdivision = Subdivision {
 };
 
 pub const MV_00: Subdivision = Subdivision {
-    name: "Alifu Dhaalu",
+    name: "South Ari Atoll",
     code: "MV-00",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23532,16 +22389,16 @@ pub const MV_00: Subdivision = Subdivision {
 };
 
 pub const MV_01: Subdivision = Subdivision {
-    name: "Addu Atholhu",
+    name: "Addu City",
     code: "MV-01",
-    subdivision_type: "Administrative atoll",
+    subdivision_type: "City",
     country_name: "Maldives",
     country_code: "MV",
     region_code: "01",
 };
 
 pub const MV_02: Subdivision = Subdivision {
-    name: "Alifu Alifu",
+    name: "North Ari Atoll",
     code: "MV-02",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23559,7 +22416,7 @@ pub const MV_03: Subdivision = Subdivision {
 };
 
 pub const MV_04: Subdivision = Subdivision {
-    name: "Felidhu Atholhu",
+    name: "Felidhu Atoll",
     code: "MV-04",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23568,7 +22425,7 @@ pub const MV_04: Subdivision = Subdivision {
 };
 
 pub const MV_05: Subdivision = Subdivision {
-    name: "Hadhdhunmathi",
+    name: "Hahdhunmathi",
     code: "MV-05",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23577,7 +22434,7 @@ pub const MV_05: Subdivision = Subdivision {
 };
 
 pub const MV_07: Subdivision = Subdivision {
-    name: "Haa Alifu",
+    name: "North Thiladhunmathi",
     code: "MV-07",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23595,7 +22452,7 @@ pub const MV_08: Subdivision = Subdivision {
 };
 
 pub const MV_12: Subdivision = Subdivision {
-    name: "Meemu",
+    name: "Mulaku Atoll",
     code: "MV-12",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23604,7 +22461,7 @@ pub const MV_12: Subdivision = Subdivision {
 };
 
 pub const MV_13: Subdivision = Subdivision {
-    name: "Maalhosmadulu Uthuruburi",
+    name: "North Maalhosmadulu",
     code: "MV-13",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23613,7 +22470,7 @@ pub const MV_13: Subdivision = Subdivision {
 };
 
 pub const MV_14: Subdivision = Subdivision {
-    name: "Faafu",
+    name: "North Nilandhe Atoll",
     code: "MV-14",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23622,7 +22479,7 @@ pub const MV_14: Subdivision = Subdivision {
 };
 
 pub const MV_17: Subdivision = Subdivision {
-    name: "Dhaalu",
+    name: "South Nilandhe Atoll",
     code: "MV-17",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23631,7 +22488,7 @@ pub const MV_17: Subdivision = Subdivision {
 };
 
 pub const MV_20: Subdivision = Subdivision {
-    name: "Baa",
+    name: "South Maalhosmadulu",
     code: "MV-20",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23640,7 +22497,7 @@ pub const MV_20: Subdivision = Subdivision {
 };
 
 pub const MV_23: Subdivision = Subdivision {
-    name: "Haa Dhaalu",
+    name: "South Thiladhunmathi",
     code: "MV-23",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23649,7 +22506,7 @@ pub const MV_23: Subdivision = Subdivision {
 };
 
 pub const MV_24: Subdivision = Subdivision {
-    name: "Miladhunmadulu Uthuruburi",
+    name: "North Miladhunmadulu",
     code: "MV-24",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23658,7 +22515,7 @@ pub const MV_24: Subdivision = Subdivision {
 };
 
 pub const MV_25: Subdivision = Subdivision {
-    name: "Miladhunmadulu Dhekunuburi",
+    name: "South Miladhunmadulu",
     code: "MV-25",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23667,7 +22524,7 @@ pub const MV_25: Subdivision = Subdivision {
 };
 
 pub const MV_26: Subdivision = Subdivision {
-    name: "Kaafu",
+    name: "Male Atoll",
     code: "MV-26",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23676,7 +22533,7 @@ pub const MV_26: Subdivision = Subdivision {
 };
 
 pub const MV_27: Subdivision = Subdivision {
-    name: "Gaafu Alifu",
+    name: "North Huvadhu Atoll",
     code: "MV-27",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23685,7 +22542,7 @@ pub const MV_27: Subdivision = Subdivision {
 };
 
 pub const MV_28: Subdivision = Subdivision {
-    name: "Gaafu Dhaalu",
+    name: "South Huvadhu Atoll",
     code: "MV-28",
     subdivision_type: "Administrative atoll",
     country_name: "Maldives",
@@ -23702,76 +22559,13 @@ pub const MV_29: Subdivision = Subdivision {
     region_code: "29",
 };
 
-pub const MV_CE: Subdivision = Subdivision {
-    name: "Central",
-    code: "MV-CE",
-    subdivision_type: "Province",
-    country_name: "Maldives",
-    country_code: "MV",
-    region_code: "CE",
-};
-
 pub const MV_MLE: Subdivision = Subdivision {
-    name: "Maale",
+    name: "Male",
     code: "MV-MLE",
-    subdivision_type: "Capital",
+    subdivision_type: "City",
     country_name: "Maldives",
     country_code: "MV",
     region_code: "MLE",
-};
-
-pub const MV_NC: Subdivision = Subdivision {
-    name: "Medhu-Uthuru",
-    code: "MV-NC",
-    subdivision_type: "Province",
-    country_name: "Maldives",
-    country_code: "MV",
-    region_code: "NC",
-};
-
-pub const MV_NO: Subdivision = Subdivision {
-    name: "North",
-    code: "MV-NO",
-    subdivision_type: "Province",
-    country_name: "Maldives",
-    country_code: "MV",
-    region_code: "NO",
-};
-
-pub const MV_SC: Subdivision = Subdivision {
-    name: "Medhu-Dhekunu",
-    code: "MV-SC",
-    subdivision_type: "Province",
-    country_name: "Maldives",
-    country_code: "MV",
-    region_code: "SC",
-};
-
-pub const MV_SU: Subdivision = Subdivision {
-    name: "Dhekunu",
-    code: "MV-SU",
-    subdivision_type: "Province",
-    country_name: "Maldives",
-    country_code: "MV",
-    region_code: "SU",
-};
-
-pub const MV_UN: Subdivision = Subdivision {
-    name: "Mathi-Uthuru",
-    code: "MV-UN",
-    subdivision_type: "Province",
-    country_name: "Maldives",
-    country_code: "MV",
-    region_code: "UN",
-};
-
-pub const MV_US: Subdivision = Subdivision {
-    name: "Mathi-Dhekunu",
-    code: "MV-US",
-    subdivision_type: "Province",
-    country_name: "Maldives",
-    country_code: "MV",
-    region_code: "US",
 };
 
 pub const ML_1: Subdivision = Subdivision {
@@ -23781,6 +22575,15 @@ pub const ML_1: Subdivision = Subdivision {
     country_name: "Mali",
     country_code: "ML",
     region_code: "1",
+};
+
+pub const ML_10: Subdivision = Subdivision {
+    name: "Taoudénit",
+    code: "ML-10",
+    subdivision_type: "Region",
+    country_name: "Mali",
+    country_code: "ML",
+    region_code: "10",
 };
 
 pub const ML_2: Subdivision = Subdivision {
@@ -23844,6 +22647,15 @@ pub const ML_8: Subdivision = Subdivision {
     country_name: "Mali",
     country_code: "ML",
     region_code: "8",
+};
+
+pub const ML_9: Subdivision = Subdivision {
+    name: "Ménaka",
+    code: "ML-9",
+    subdivision_type: "Region",
+    country_name: "Mali",
+    country_code: "ML",
+    region_code: "9",
 };
 
 pub const ML_BKO: Subdivision = Subdivision {
@@ -24279,7 +23091,7 @@ pub const MT_47: Subdivision = Subdivision {
 };
 
 pub const MT_48: Subdivision = Subdivision {
-    name: "Saint Julian’s",
+    name: "Saint Julian's",
     code: "MT-48",
     subdivision_type: "Local council",
     country_name: "Malta",
@@ -24306,7 +23118,7 @@ pub const MT_50: Subdivision = Subdivision {
 };
 
 pub const MT_51: Subdivision = Subdivision {
-    name: "Saint Paul’s Bay",
+    name: "Saint Paul's Bay",
     code: "MT-51",
     subdivision_type: "Local council",
     country_name: "Malta",
@@ -24324,7 +23136,7 @@ pub const MT_52: Subdivision = Subdivision {
 };
 
 pub const MT_53: Subdivision = Subdivision {
-    name: "Saint Lucia’s",
+    name: "Saint Lucia's",
     code: "MT-53",
     subdivision_type: "Local council",
     country_name: "Malta",
@@ -24369,7 +23181,7 @@ pub const MT_57: Subdivision = Subdivision {
 };
 
 pub const MT_58: Subdivision = Subdivision {
-    name: "Ta’ Xbiex",
+    name: "Ta' Xbiex",
     code: "MT-58",
     subdivision_type: "Local council",
     country_name: "Malta",
@@ -24513,7 +23325,7 @@ pub const MH_EBO: Subdivision = Subdivision {
 };
 
 pub const MH_ENI: Subdivision = Subdivision {
-    name: "Enewetak and Ujelang",
+    name: "Enewetak & Ujelang",
     code: "MH-ENI",
     subdivision_type: "Municipality",
     country_name: "Marshall Islands",
@@ -24540,7 +23352,7 @@ pub const MH_JAL: Subdivision = Subdivision {
 };
 
 pub const MH_KIL: Subdivision = Subdivision {
-    name: "Bikini and Kili",
+    name: "Bikini & Kili",
     code: "MH-KIL",
     subdivision_type: "Municipality",
     country_name: "Marshall Islands",
@@ -24555,6 +23367,15 @@ pub const MH_KWA: Subdivision = Subdivision {
     country_name: "Marshall Islands",
     country_code: "MH",
     region_code: "KWA",
+};
+
+pub const MH_L: Subdivision = Subdivision {
+    name: "Ralik chain",
+    code: "MH-L",
+    subdivision_type: "Chain (of islands)",
+    country_name: "Marshall Islands",
+    country_code: "MH",
+    region_code: "L",
 };
 
 pub const MH_LAE: Subdivision = Subdivision {
@@ -24582,15 +23403,6 @@ pub const MH_LIK: Subdivision = Subdivision {
     country_name: "Marshall Islands",
     country_code: "MH",
     region_code: "LIK",
-};
-
-pub const MH_L: Subdivision = Subdivision {
-    name: "Ralik chain",
-    code: "MH-L",
-    subdivision_type: "Chain",
-    country_name: "Marshall Islands",
-    country_code: "MH",
-    region_code: "L",
 };
 
 pub const MH_MAJ: Subdivision = Subdivision {
@@ -24659,7 +23471,7 @@ pub const MH_RON: Subdivision = Subdivision {
 pub const MH_T: Subdivision = Subdivision {
     name: "Ratak chain",
     code: "MH-T",
-    subdivision_type: "Chain",
+    subdivision_type: "Chain (of islands)",
     country_name: "Marshall Islands",
     country_code: "MH",
     region_code: "T",
@@ -24699,15 +23511,6 @@ pub const MH_WTJ: Subdivision = Subdivision {
     country_name: "Marshall Islands",
     country_code: "MH",
     region_code: "WTJ",
-};
-
-pub const MQ_MQ: Subdivision = Subdivision {
-    name: "Martinique",
-    code: "MQ-MQ",
-    subdivision_type: "Country",
-    country_name: "Martinique",
-    country_code: "MQ",
-    region_code: "MQ",
 };
 
 pub const MR_01: Subdivision = Subdivision {
@@ -24818,13 +23621,31 @@ pub const MR_12: Subdivision = Subdivision {
     region_code: "12",
 };
 
-pub const MR_NKC: Subdivision = Subdivision {
-    name: "Nouakchott",
-    code: "MR-NKC",
-    subdivision_type: "District",
+pub const MR_13: Subdivision = Subdivision {
+    name: "Nouakchott Ouest",
+    code: "MR-13",
+    subdivision_type: "Region",
     country_name: "Mauritania",
     country_code: "MR",
-    region_code: "NKC",
+    region_code: "13",
+};
+
+pub const MR_14: Subdivision = Subdivision {
+    name: "Nouakchott Nord",
+    code: "MR-14",
+    subdivision_type: "Region",
+    country_name: "Mauritania",
+    country_code: "MR",
+    region_code: "14",
+};
+
+pub const MR_15: Subdivision = Subdivision {
+    name: "Nouakchott Sud",
+    code: "MR-15",
+    subdivision_type: "Region",
+    country_name: "Mauritania",
+    country_code: "MR",
+    region_code: "15",
 };
 
 pub const MU_AG: Subdivision = Subdivision {
@@ -24845,15 +23666,6 @@ pub const MU_BL: Subdivision = Subdivision {
     region_code: "BL",
 };
 
-pub const MU_BR: Subdivision = Subdivision {
-    name: "Beau Bassin-Rose Hill",
-    code: "MU-BR",
-    subdivision_type: "City",
-    country_name: "Mauritius",
-    country_code: "MU",
-    region_code: "BR",
-};
-
 pub const MU_CC: Subdivision = Subdivision {
     name: "Cargados Carajos Shoals",
     code: "MU-CC",
@@ -24861,15 +23673,6 @@ pub const MU_CC: Subdivision = Subdivision {
     country_name: "Mauritius",
     country_code: "MU",
     region_code: "CC",
-};
-
-pub const MU_CU: Subdivision = Subdivision {
-    name: "Curepipe",
-    code: "MU-CU",
-    subdivision_type: "City",
-    country_name: "Mauritius",
-    country_code: "MU",
-    region_code: "CU",
 };
 
 pub const MU_FL: Subdivision = Subdivision {
@@ -24917,15 +23720,6 @@ pub const MU_PL: Subdivision = Subdivision {
     region_code: "PL",
 };
 
-pub const MU_PU: Subdivision = Subdivision {
-    name: "Port Louis",
-    code: "MU-PU",
-    subdivision_type: "City",
-    country_name: "Mauritius",
-    country_code: "MU",
-    region_code: "PU",
-};
-
 pub const MU_PW: Subdivision = Subdivision {
     name: "Plaines Wilhems",
     code: "MU-PW",
@@ -24933,15 +23727,6 @@ pub const MU_PW: Subdivision = Subdivision {
     country_name: "Mauritius",
     country_code: "MU",
     region_code: "PW",
-};
-
-pub const MU_QB: Subdivision = Subdivision {
-    name: "Quatre Bornes",
-    code: "MU-QB",
-    subdivision_type: "City",
-    country_name: "Mauritius",
-    country_code: "MU",
-    region_code: "QB",
 };
 
 pub const MU_RO: Subdivision = Subdivision {
@@ -24969,24 +23754,6 @@ pub const MU_SA: Subdivision = Subdivision {
     country_name: "Mauritius",
     country_code: "MU",
     region_code: "SA",
-};
-
-pub const MU_VP: Subdivision = Subdivision {
-    name: "Vacoas-Phoenix",
-    code: "MU-VP",
-    subdivision_type: "City",
-    country_name: "Mauritius",
-    country_code: "MU",
-    region_code: "VP",
-};
-
-pub const YT_YT: Subdivision = Subdivision {
-    name: "Mayotte",
-    code: "YT-YT",
-    subdivision_type: "Country",
-    country_name: "Mayotte",
-    country_code: "YT",
-    region_code: "YT",
 };
 
 pub const MX_AGU: Subdivision = Subdivision {
@@ -25043,6 +23810,15 @@ pub const MX_CHP: Subdivision = Subdivision {
     region_code: "CHP",
 };
 
+pub const MX_CMX: Subdivision = Subdivision {
+    name: "Ciudad de México",
+    code: "MX-CMX",
+    subdivision_type: "Federal entity",
+    country_name: "Mexico",
+    country_code: "MX",
+    region_code: "CMX",
+};
+
 pub const MX_COA: Subdivision = Subdivision {
     name: "Coahuila de Zaragoza",
     code: "MX-COA",
@@ -25059,15 +23835,6 @@ pub const MX_COL: Subdivision = Subdivision {
     country_name: "Mexico",
     country_code: "MX",
     region_code: "COL",
-};
-
-pub const MX_CMX: Subdivision = Subdivision {
-    name: "Ciudad de México",
-    code: "MX-CMX",
-    subdivision_type: "Federal District",
-    country_name: "Mexico",
-    country_code: "MX",
-    region_code: "CMX",
 };
 
 pub const MX_DUR: Subdivision = Subdivision {
@@ -25281,7 +24048,7 @@ pub const FM_KSA: Subdivision = Subdivision {
     name: "Kosrae",
     code: "FM-KSA",
     subdivision_type: "State",
-    country_name: "Micronesia, Federated States Of",
+    country_name: "Micronesia (Federated States of)",
     country_code: "FM",
     region_code: "KSA",
 };
@@ -25290,7 +24057,7 @@ pub const FM_PNI: Subdivision = Subdivision {
     name: "Pohnpei",
     code: "FM-PNI",
     subdivision_type: "State",
-    country_name: "Micronesia, Federated States Of",
+    country_name: "Micronesia (Federated States of)",
     country_code: "FM",
     region_code: "PNI",
 };
@@ -25299,7 +24066,7 @@ pub const FM_TRK: Subdivision = Subdivision {
     name: "Chuuk",
     code: "FM-TRK",
     subdivision_type: "State",
-    country_name: "Micronesia, Federated States Of",
+    country_name: "Micronesia (Federated States of)",
     country_code: "FM",
     region_code: "TRK",
 };
@@ -25308,7 +24075,7 @@ pub const FM_YAP: Subdivision = Subdivision {
     name: "Yap",
     code: "FM-YAP",
     subdivision_type: "State",
-    country_name: "Micronesia, Federated States Of",
+    country_name: "Micronesia (Federated States of)",
     country_code: "FM",
     region_code: "YAP",
 };
@@ -25317,16 +24084,16 @@ pub const MD_AN: Subdivision = Subdivision {
     name: "Anenii Noi",
     code: "MD-AN",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "AN",
 };
 
 pub const MD_BA: Subdivision = Subdivision {
-    name: "Bălţi",
+    name: "Bălți",
     code: "MD-BA",
     subdivision_type: "City",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "BA",
 };
@@ -25335,7 +24102,7 @@ pub const MD_BD: Subdivision = Subdivision {
     name: "Bender",
     code: "MD-BD",
     subdivision_type: "City",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "BD",
 };
@@ -25344,7 +24111,7 @@ pub const MD_BR: Subdivision = Subdivision {
     name: "Briceni",
     code: "MD-BR",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "BR",
 };
@@ -25353,7 +24120,7 @@ pub const MD_BS: Subdivision = Subdivision {
     name: "Basarabeasca",
     code: "MD-BS",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "BS",
 };
@@ -25362,25 +24129,25 @@ pub const MD_CA: Subdivision = Subdivision {
     name: "Cahul",
     code: "MD-CA",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "CA",
 };
 
 pub const MD_CL: Subdivision = Subdivision {
-    name: "Călăraşi",
+    name: "Călărași",
     code: "MD-CL",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "CL",
 };
 
 pub const MD_CM: Subdivision = Subdivision {
-    name: "Cimişlia",
+    name: "Cimișlia",
     code: "MD-CM",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "CM",
 };
@@ -25389,16 +24156,16 @@ pub const MD_CR: Subdivision = Subdivision {
     name: "Criuleni",
     code: "MD-CR",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "CR",
 };
 
 pub const MD_CS: Subdivision = Subdivision {
-    name: "Căuşeni",
+    name: "Căușeni",
     code: "MD-CS",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "CS",
 };
@@ -25407,25 +24174,25 @@ pub const MD_CT: Subdivision = Subdivision {
     name: "Cantemir",
     code: "MD-CT",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "CT",
 };
 
 pub const MD_CU: Subdivision = Subdivision {
-    name: "Chişinău",
+    name: "Chișinău",
     code: "MD-CU",
     subdivision_type: "City",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "CU",
 };
 
 pub const MD_DO: Subdivision = Subdivision {
-    name: "Donduşeni",
+    name: "Dondușeni",
     code: "MD-DO",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "DO",
 };
@@ -25434,7 +24201,7 @@ pub const MD_DR: Subdivision = Subdivision {
     name: "Drochia",
     code: "MD-DR",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "DR",
 };
@@ -25443,43 +24210,43 @@ pub const MD_DU: Subdivision = Subdivision {
     name: "Dubăsari",
     code: "MD-DU",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "DU",
 };
 
 pub const MD_ED: Subdivision = Subdivision {
-    name: "Edineţ",
+    name: "Edineț",
     code: "MD-ED",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "ED",
 };
 
 pub const MD_FA: Subdivision = Subdivision {
-    name: "Făleşti",
+    name: "Fălești",
     code: "MD-FA",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "FA",
 };
 
 pub const MD_FL: Subdivision = Subdivision {
-    name: "Floreşti",
+    name: "Florești",
     code: "MD-FL",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "FL",
 };
 
 pub const MD_GA: Subdivision = Subdivision {
-    name: "Găgăuzia, Unitatea teritorială autonomă",
+    name: "Găgăuzia, Unitatea teritorială autonomă (UTAG)",
     code: "MD-GA",
     subdivision_type: "Autonomous territorial unit",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "GA",
 };
@@ -25488,16 +24255,16 @@ pub const MD_GL: Subdivision = Subdivision {
     name: "Glodeni",
     code: "MD-GL",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "GL",
 };
 
 pub const MD_HI: Subdivision = Subdivision {
-    name: "Hînceşti",
+    name: "Hîncești",
     code: "MD-HI",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "HI",
 };
@@ -25506,7 +24273,7 @@ pub const MD_IA: Subdivision = Subdivision {
     name: "Ialoveni",
     code: "MD-IA",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "IA",
 };
@@ -25515,7 +24282,7 @@ pub const MD_LE: Subdivision = Subdivision {
     name: "Leova",
     code: "MD-LE",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "LE",
 };
@@ -25524,16 +24291,16 @@ pub const MD_NI: Subdivision = Subdivision {
     name: "Nisporeni",
     code: "MD-NI",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "NI",
 };
 
 pub const MD_OC: Subdivision = Subdivision {
-    name: "Ocniţa",
+    name: "Ocnița",
     code: "MD-OC",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "OC",
 };
@@ -25542,7 +24309,7 @@ pub const MD_OR: Subdivision = Subdivision {
     name: "Orhei",
     code: "MD-OR",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "OR",
 };
@@ -25551,25 +24318,25 @@ pub const MD_RE: Subdivision = Subdivision {
     name: "Rezina",
     code: "MD-RE",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "RE",
 };
 
 pub const MD_RI: Subdivision = Subdivision {
-    name: "Rîşcani",
+    name: "Rîșcani",
     code: "MD-RI",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "RI",
 };
 
 pub const MD_SD: Subdivision = Subdivision {
-    name: "Şoldăneşti",
+    name: "Șoldănești",
     code: "MD-SD",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "SD",
 };
@@ -25578,7 +24345,7 @@ pub const MD_SI: Subdivision = Subdivision {
     name: "Sîngerei",
     code: "MD-SI",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "SI",
 };
@@ -25587,7 +24354,7 @@ pub const MD_SN: Subdivision = Subdivision {
     name: "Stînga Nistrului, unitatea teritorială din",
     code: "MD-SN",
     subdivision_type: "Territorial unit",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "SN",
 };
@@ -25596,25 +24363,25 @@ pub const MD_SO: Subdivision = Subdivision {
     name: "Soroca",
     code: "MD-SO",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "SO",
 };
 
 pub const MD_ST: Subdivision = Subdivision {
-    name: "Străşeni",
+    name: "Strășeni",
     code: "MD-ST",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "ST",
 };
 
 pub const MD_SV: Subdivision = Subdivision {
-    name: "Ştefan Vodă",
+    name: "Ștefan Vodă",
     code: "MD-SV",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "SV",
 };
@@ -25623,16 +24390,16 @@ pub const MD_TA: Subdivision = Subdivision {
     name: "Taraclia",
     code: "MD-TA",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "TA",
 };
 
 pub const MD_TE: Subdivision = Subdivision {
-    name: "Teleneşti",
+    name: "Telenești",
     code: "MD-TE",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "TE",
 };
@@ -25641,7 +24408,7 @@ pub const MD_UN: Subdivision = Subdivision {
     name: "Ungheni",
     code: "MD-UN",
     subdivision_type: "District",
-    country_name: "Moldova",
+    country_name: "Moldova (Republic of)",
     country_code: "MD",
     region_code: "UN",
 };
@@ -26204,17 +24971,26 @@ pub const ME_23: Subdivision = Subdivision {
     region_code: "23",
 };
 
-pub const MS_MS: Subdivision = Subdivision {
-    name: "Montserrat",
-    code: "MS-MS",
-    subdivision_type: "Country",
-    country_name: "Montserrat",
-    country_code: "MS",
-    region_code: "MS",
+pub const ME_24: Subdivision = Subdivision {
+    name: "Tuzi",
+    code: "ME-24",
+    subdivision_type: "Municipality",
+    country_name: "Montenegro",
+    country_code: "ME",
+    region_code: "24",
+};
+
+pub const ME_25: Subdivision = Subdivision {
+    name: "Zeta",
+    code: "ME-25",
+    subdivision_type: "Municipality",
+    country_name: "Montenegro",
+    country_code: "ME",
+    region_code: "25",
 };
 
 pub const MA_01: Subdivision = Subdivision {
-    name: "Tanger-Tétouan",
+    name: "Tanger-Tétouan-Al Hoceïma",
     code: "MA-01",
     subdivision_type: "Region",
     country_name: "Morocco",
@@ -26223,7 +24999,7 @@ pub const MA_01: Subdivision = Subdivision {
 };
 
 pub const MA_02: Subdivision = Subdivision {
-    name: "Gharb-Chrarda-Beni Hssen",
+    name: "L'Oriental",
     code: "MA-02",
     subdivision_type: "Region",
     country_name: "Morocco",
@@ -26232,7 +25008,7 @@ pub const MA_02: Subdivision = Subdivision {
 };
 
 pub const MA_03: Subdivision = Subdivision {
-    name: "Taza-Al Hoceima-Taounate",
+    name: "Fès-Meknès",
     code: "MA-03",
     subdivision_type: "Region",
     country_name: "Morocco",
@@ -26241,7 +25017,7 @@ pub const MA_03: Subdivision = Subdivision {
 };
 
 pub const MA_04: Subdivision = Subdivision {
-    name: "L'Oriental",
+    name: "Rabat-Salé-Kénitra",
     code: "MA-04",
     subdivision_type: "Region",
     country_name: "Morocco",
@@ -26250,7 +25026,7 @@ pub const MA_04: Subdivision = Subdivision {
 };
 
 pub const MA_05: Subdivision = Subdivision {
-    name: "Fès-Boulemane",
+    name: "Béni Mellal-Khénifra",
     code: "MA-05",
     subdivision_type: "Region",
     country_name: "Morocco",
@@ -26259,7 +25035,7 @@ pub const MA_05: Subdivision = Subdivision {
 };
 
 pub const MA_06: Subdivision = Subdivision {
-    name: "Meknès-Tafilalet",
+    name: "Casablanca-Settat",
     code: "MA-06",
     subdivision_type: "Region",
     country_name: "Morocco",
@@ -26268,7 +25044,7 @@ pub const MA_06: Subdivision = Subdivision {
 };
 
 pub const MA_07: Subdivision = Subdivision {
-    name: "Rabat-Salé-Zemmour-Zaer",
+    name: "Marrakech-Safi",
     code: "MA-07",
     subdivision_type: "Region",
     country_name: "Morocco",
@@ -26277,7 +25053,7 @@ pub const MA_07: Subdivision = Subdivision {
 };
 
 pub const MA_08: Subdivision = Subdivision {
-    name: "Grand Casablanca",
+    name: "Drâa-Tafilalet",
     code: "MA-08",
     subdivision_type: "Region",
     country_name: "Morocco",
@@ -26286,7 +25062,7 @@ pub const MA_08: Subdivision = Subdivision {
 };
 
 pub const MA_09: Subdivision = Subdivision {
-    name: "Chaouia-Ouardigha",
+    name: "Souss-Massa",
     code: "MA-09",
     subdivision_type: "Region",
     country_name: "Morocco",
@@ -26295,7 +25071,7 @@ pub const MA_09: Subdivision = Subdivision {
 };
 
 pub const MA_10: Subdivision = Subdivision {
-    name: "Doukkala-Abda",
+    name: "Guelmim-Oued Noun (EH-partial)",
     code: "MA-10",
     subdivision_type: "Region",
     country_name: "Morocco",
@@ -26304,7 +25080,7 @@ pub const MA_10: Subdivision = Subdivision {
 };
 
 pub const MA_11: Subdivision = Subdivision {
-    name: "Marrakech-Tensift-Al Haouz",
+    name: "Laâyoune-Sakia El Hamra (EH-partial)",
     code: "MA-11",
     subdivision_type: "Region",
     country_name: "Morocco",
@@ -26313,7 +25089,7 @@ pub const MA_11: Subdivision = Subdivision {
 };
 
 pub const MA_12: Subdivision = Subdivision {
-    name: "Tadla-Azilal",
+    name: "Dakhla-Oued Ed-Dahab (EH)",
     code: "MA-12",
     subdivision_type: "Region",
     country_name: "Morocco",
@@ -26321,44 +25097,8 @@ pub const MA_12: Subdivision = Subdivision {
     region_code: "12",
 };
 
-pub const MA_13: Subdivision = Subdivision {
-    name: "Sous-Massa-Draa",
-    code: "MA-13",
-    subdivision_type: "Region",
-    country_name: "Morocco",
-    country_code: "MA",
-    region_code: "13",
-};
-
-pub const MA_14: Subdivision = Subdivision {
-    name: "Guelmim-Es Semara",
-    code: "MA-14",
-    subdivision_type: "Region",
-    country_name: "Morocco",
-    country_code: "MA",
-    region_code: "14",
-};
-
-pub const MA_15: Subdivision = Subdivision {
-    name: "Laâyoune-Boujdour-Sakia el Hamra",
-    code: "MA-15",
-    subdivision_type: "Region",
-    country_name: "Morocco",
-    country_code: "MA",
-    region_code: "15",
-};
-
-pub const MA_16: Subdivision = Subdivision {
-    name: "Oued ed Dahab-Lagouira",
-    code: "MA-16",
-    subdivision_type: "Region",
-    country_name: "Morocco",
-    country_code: "MA",
-    region_code: "16",
-};
-
 pub const MA_AGD: Subdivision = Subdivision {
-    name: "Agadir-Ida-Outanane",
+    name: "Agadir-Ida-Ou-Tanane",
     code: "MA-AGD",
     subdivision_type: "Prefecture",
     country_name: "Morocco",
@@ -26367,16 +25107,16 @@ pub const MA_AGD: Subdivision = Subdivision {
 };
 
 pub const MA_AOU: Subdivision = Subdivision {
-    name: "Aousserd",
+    name: "Aousserd (EH)",
     code: "MA-AOU",
-    subdivision_type: "Prefecture",
+    subdivision_type: "Province",
     country_name: "Morocco",
     country_code: "MA",
     region_code: "AOU",
 };
 
 pub const MA_ASZ: Subdivision = Subdivision {
-    name: "Assa-Zag",
+    name: "Assa-Zag (EH-partial)",
     code: "MA-ASZ",
     subdivision_type: "Province",
     country_name: "Morocco",
@@ -26394,7 +25134,7 @@ pub const MA_AZI: Subdivision = Subdivision {
 };
 
 pub const MA_BEM: Subdivision = Subdivision {
-    name: "Beni Mellal",
+    name: "Béni Mellal",
     code: "MA-BEM",
     subdivision_type: "Province",
     country_name: "Morocco",
@@ -26412,7 +25152,7 @@ pub const MA_BER: Subdivision = Subdivision {
 };
 
 pub const MA_BES: Subdivision = Subdivision {
-    name: "Ben Slimane",
+    name: "Benslimane",
     code: "MA-BES",
     subdivision_type: "Province",
     country_name: "Morocco",
@@ -26421,7 +25161,7 @@ pub const MA_BES: Subdivision = Subdivision {
 };
 
 pub const MA_BOD: Subdivision = Subdivision {
-    name: "Boujdour",
+    name: "Boujdour (EH)",
     code: "MA-BOD",
     subdivision_type: "Province",
     country_name: "Morocco",
@@ -26436,6 +25176,15 @@ pub const MA_BOM: Subdivision = Subdivision {
     country_name: "Morocco",
     country_code: "MA",
     region_code: "BOM",
+};
+
+pub const MA_BRR: Subdivision = Subdivision {
+    name: "Berrechid",
+    code: "MA-BRR",
+    subdivision_type: "Province",
+    country_name: "Morocco",
+    country_code: "MA",
+    region_code: "BRR",
 };
 
 pub const MA_CAS: Subdivision = Subdivision {
@@ -26474,6 +25223,15 @@ pub const MA_CHT: Subdivision = Subdivision {
     region_code: "CHT",
 };
 
+pub const MA_DRI: Subdivision = Subdivision {
+    name: "Driouch",
+    code: "MA-DRI",
+    subdivision_type: "Province",
+    country_name: "Morocco",
+    country_code: "MA",
+    region_code: "DRI",
+};
+
 pub const MA_ERR: Subdivision = Subdivision {
     name: "Errachidia",
     code: "MA-ERR",
@@ -26493,7 +25251,7 @@ pub const MA_ESI: Subdivision = Subdivision {
 };
 
 pub const MA_ESM: Subdivision = Subdivision {
-    name: "Es Smara",
+    name: "Es-Semara (EH-partial)",
     code: "MA-ESM",
     subdivision_type: "Province",
     country_name: "Morocco",
@@ -26502,16 +25260,16 @@ pub const MA_ESM: Subdivision = Subdivision {
 };
 
 pub const MA_FAH: Subdivision = Subdivision {
-    name: "Fahs-Beni Makada",
+    name: "Fahs-Anjra",
     code: "MA-FAH",
-    subdivision_type: "Prefecture",
+    subdivision_type: "Province",
     country_name: "Morocco",
     country_code: "MA",
     region_code: "FAH",
 };
 
 pub const MA_FES: Subdivision = Subdivision {
-    name: "Fès-Dar-Dbibegh",
+    name: "Fès",
     code: "MA-FES",
     subdivision_type: "Prefecture",
     country_name: "Morocco",
@@ -26528,6 +25286,15 @@ pub const MA_FIG: Subdivision = Subdivision {
     region_code: "FIG",
 };
 
+pub const MA_FQH: Subdivision = Subdivision {
+    name: "Fquih Ben Salah",
+    code: "MA-FQH",
+    subdivision_type: "Province",
+    country_name: "Morocco",
+    country_code: "MA",
+    region_code: "FQH",
+};
+
 pub const MA_GUE: Subdivision = Subdivision {
     name: "Guelmim",
     code: "MA-GUE",
@@ -26535,6 +25302,15 @@ pub const MA_GUE: Subdivision = Subdivision {
     country_name: "Morocco",
     country_code: "MA",
     region_code: "GUE",
+};
+
+pub const MA_GUF: Subdivision = Subdivision {
+    name: "Guercif",
+    code: "MA-GUF",
+    subdivision_type: "Province",
+    country_name: "Morocco",
+    country_code: "MA",
+    region_code: "GUF",
 };
 
 pub const MA_HAJ: Subdivision = Subdivision {
@@ -26592,7 +25368,7 @@ pub const MA_JDI: Subdivision = Subdivision {
 };
 
 pub const MA_JRA: Subdivision = Subdivision {
-    name: "Jrada",
+    name: "Jerada",
     code: "MA-JRA",
     subdivision_type: "Province",
     country_name: "Morocco",
@@ -26610,7 +25386,7 @@ pub const MA_KEN: Subdivision = Subdivision {
 };
 
 pub const MA_KES: Subdivision = Subdivision {
-    name: "Kelaat es Sraghna",
+    name: "El Kelâa des Sraghna",
     code: "MA-KES",
     subdivision_type: "Province",
     country_name: "Morocco",
@@ -26619,7 +25395,7 @@ pub const MA_KES: Subdivision = Subdivision {
 };
 
 pub const MA_KHE: Subdivision = Subdivision {
-    name: "Khemisset",
+    name: "Khémisset",
     code: "MA-KHE",
     subdivision_type: "Province",
     country_name: "Morocco",
@@ -26628,7 +25404,7 @@ pub const MA_KHE: Subdivision = Subdivision {
 };
 
 pub const MA_KHN: Subdivision = Subdivision {
-    name: "Khenifra",
+    name: "Khénifra",
     code: "MA-KHN",
     subdivision_type: "Province",
     country_name: "Morocco",
@@ -26646,7 +25422,7 @@ pub const MA_KHO: Subdivision = Subdivision {
 };
 
 pub const MA_LAA: Subdivision = Subdivision {
-    name: "Laâyoune",
+    name: "Laâyoune (EH)",
     code: "MA-LAA",
     subdivision_type: "Province",
     country_name: "Morocco",
@@ -26661,6 +25437,24 @@ pub const MA_LAR: Subdivision = Subdivision {
     country_name: "Morocco",
     country_code: "MA",
     region_code: "LAR",
+};
+
+pub const MA_MAR: Subdivision = Subdivision {
+    name: "Marrakech",
+    code: "MA-MAR",
+    subdivision_type: "Prefecture",
+    country_name: "Morocco",
+    country_code: "MA",
+    region_code: "MAR",
+};
+
+pub const MA_MDF: Subdivision = Subdivision {
+    name: "M’diq-Fnideq",
+    code: "MA-MDF",
+    subdivision_type: "Prefecture",
+    country_name: "Morocco",
+    country_code: "MA",
+    region_code: "MDF",
 };
 
 pub const MA_MED: Subdivision = Subdivision {
@@ -26681,22 +25475,13 @@ pub const MA_MEK: Subdivision = Subdivision {
     region_code: "MEK",
 };
 
-pub const MA_MMD: Subdivision = Subdivision {
-    name: "Marrakech-Medina",
-    code: "MA-MMD",
-    subdivision_type: "Prefecture",
+pub const MA_MID: Subdivision = Subdivision {
+    name: "Midelt",
+    code: "MA-MID",
+    subdivision_type: "Province",
     country_name: "Morocco",
     country_code: "MA",
-    region_code: "MMD",
-};
-
-pub const MA_MMN: Subdivision = Subdivision {
-    name: "Marrakech-Menara",
-    code: "MA-MMN",
-    subdivision_type: "Prefecture",
-    country_name: "Morocco",
-    country_code: "MA",
-    region_code: "MMN",
+    region_code: "MID",
 };
 
 pub const MA_MOH: Subdivision = Subdivision {
@@ -26745,7 +25530,7 @@ pub const MA_OUA: Subdivision = Subdivision {
 };
 
 pub const MA_OUD: Subdivision = Subdivision {
-    name: "Oued ed Dahab",
+    name: "Oued Ed-Dahab (EH)",
     code: "MA-OUD",
     subdivision_type: "Province",
     country_name: "Morocco",
@@ -26762,6 +25547,15 @@ pub const MA_OUJ: Subdivision = Subdivision {
     region_code: "OUJ",
 };
 
+pub const MA_OUZ: Subdivision = Subdivision {
+    name: "Ouezzane",
+    code: "MA-OUZ",
+    subdivision_type: "Province",
+    country_name: "Morocco",
+    country_code: "MA",
+    region_code: "OUZ",
+};
+
 pub const MA_RAB: Subdivision = Subdivision {
     name: "Rabat",
     code: "MA-RAB",
@@ -26769,6 +25563,15 @@ pub const MA_RAB: Subdivision = Subdivision {
     country_name: "Morocco",
     country_code: "MA",
     region_code: "RAB",
+};
+
+pub const MA_REH: Subdivision = Subdivision {
+    name: "Rehamna",
+    code: "MA-REH",
+    subdivision_type: "Province",
+    country_name: "Morocco",
+    country_code: "MA",
+    region_code: "REH",
 };
 
 pub const MA_SAF: Subdivision = Subdivision {
@@ -26807,6 +25610,24 @@ pub const MA_SET: Subdivision = Subdivision {
     region_code: "SET",
 };
 
+pub const MA_SIB: Subdivision = Subdivision {
+    name: "Sidi Bennour",
+    code: "MA-SIB",
+    subdivision_type: "Province",
+    country_name: "Morocco",
+    country_code: "MA",
+    region_code: "SIB",
+};
+
+pub const MA_SIF: Subdivision = Subdivision {
+    name: "Sidi Ifni",
+    code: "MA-SIF",
+    subdivision_type: "Province",
+    country_name: "Morocco",
+    country_code: "MA",
+    region_code: "SIF",
+};
+
 pub const MA_SIK: Subdivision = Subdivision {
     name: "Sidi Kacem",
     code: "MA-SIK",
@@ -26814,6 +25635,15 @@ pub const MA_SIK: Subdivision = Subdivision {
     country_name: "Morocco",
     country_code: "MA",
     region_code: "SIK",
+};
+
+pub const MA_SIL: Subdivision = Subdivision {
+    name: "Sidi Slimane",
+    code: "MA-SIL",
+    subdivision_type: "Province",
+    country_name: "Morocco",
+    country_code: "MA",
+    region_code: "SIL",
 };
 
 pub const MA_SKH: Subdivision = Subdivision {
@@ -26825,13 +25655,13 @@ pub const MA_SKH: Subdivision = Subdivision {
     region_code: "SKH",
 };
 
-pub const MA_SYB: Subdivision = Subdivision {
-    name: "Sidi Youssef Ben Ali",
-    code: "MA-SYB",
-    subdivision_type: "Prefecture",
+pub const MA_TAF: Subdivision = Subdivision {
+    name: "Tarfaya (EH-partial)",
+    code: "MA-TAF",
+    subdivision_type: "Province",
     country_name: "Morocco",
     country_code: "MA",
-    region_code: "SYB",
+    region_code: "TAF",
 };
 
 pub const MA_TAI: Subdivision = Subdivision {
@@ -26853,7 +25683,7 @@ pub const MA_TAO: Subdivision = Subdivision {
 };
 
 pub const MA_TAR: Subdivision = Subdivision {
-    name: "Taroudant",
+    name: "Taroudannt",
     code: "MA-TAR",
     subdivision_type: "Province",
     country_name: "Morocco",
@@ -26882,10 +25712,19 @@ pub const MA_TAZ: Subdivision = Subdivision {
 pub const MA_TET: Subdivision = Subdivision {
     name: "Tétouan",
     code: "MA-TET",
-    subdivision_type: "Prefecture",
+    subdivision_type: "Province",
     country_name: "Morocco",
     country_code: "MA",
     region_code: "TET",
+};
+
+pub const MA_TIN: Subdivision = Subdivision {
+    name: "Tinghir",
+    code: "MA-TIN",
+    subdivision_type: "Province",
+    country_name: "Morocco",
+    country_code: "MA",
+    region_code: "TIN",
 };
 
 pub const MA_TIZ: Subdivision = Subdivision {
@@ -26907,12 +25746,21 @@ pub const MA_TNG: Subdivision = Subdivision {
 };
 
 pub const MA_TNT: Subdivision = Subdivision {
-    name: "Tan-Tan",
+    name: "Tan-Tan (EH-partial)",
     code: "MA-TNT",
     subdivision_type: "Province",
     country_name: "Morocco",
     country_code: "MA",
     region_code: "TNT",
+};
+
+pub const MA_YUS: Subdivision = Subdivision {
+    name: "Youssoufia",
+    code: "MA-YUS",
+    subdivision_type: "Province",
+    country_name: "Morocco",
+    country_code: "MA",
+    region_code: "YUS",
 };
 
 pub const MA_ZAG: Subdivision = Subdivision {
@@ -27060,7 +25908,7 @@ pub const MM_04: Subdivision = Subdivision {
 };
 
 pub const MM_05: Subdivision = Subdivision {
-    name: "Taninthayi",
+    name: "Tanintharyi",
     code: "MM-05",
     subdivision_type: "Region",
     country_name: "Myanmar",
@@ -27078,7 +25926,7 @@ pub const MM_06: Subdivision = Subdivision {
 };
 
 pub const MM_07: Subdivision = Subdivision {
-    name: "Ayeyawady",
+    name: "Ayeyarwady",
     code: "MM-07",
     subdivision_type: "Region",
     country_name: "Myanmar",
@@ -27186,7 +26034,7 @@ pub const NA_HA: Subdivision = Subdivision {
 };
 
 pub const NA_KA: Subdivision = Subdivision {
-    name: "Karas",
+    name: "//Karas",
     code: "NA-KA",
     subdivision_type: "Region",
     country_name: "Namibia",
@@ -27321,7 +26169,7 @@ pub const NR_04: Subdivision = Subdivision {
 };
 
 pub const NR_05: Subdivision = Subdivision {
-    name: "Baiti",
+    name: "Baitsi",
     code: "NR-05",
     subdivision_type: "District",
     country_name: "Nauru",
@@ -27410,182 +26258,74 @@ pub const NR_14: Subdivision = Subdivision {
     region_code: "14",
 };
 
-pub const NP_1: Subdivision = Subdivision {
-    name: "Central",
-    code: "NP-1",
-    subdivision_type: "Development region",
+pub const NP_P1: Subdivision = Subdivision {
+    name: "Koshi",
+    code: "NP-P1",
+    subdivision_type: "Province",
     country_name: "Nepal",
     country_code: "NP",
-    region_code: "1",
+    region_code: "P1",
 };
 
-pub const NP_2: Subdivision = Subdivision {
-    name: "Madhya Pashchimanchal",
-    code: "NP-2",
-    subdivision_type: "Development region",
+pub const NP_P2: Subdivision = Subdivision {
+    name: "Madhesh",
+    code: "NP-P2",
+    subdivision_type: "Province",
     country_name: "Nepal",
     country_code: "NP",
-    region_code: "2",
+    region_code: "P2",
 };
 
-pub const NP_3: Subdivision = Subdivision {
-    name: "Pashchimanchal",
-    code: "NP-3",
-    subdivision_type: "Development region",
-    country_name: "Nepal",
-    country_code: "NP",
-    region_code: "3",
-};
-
-pub const NP_4: Subdivision = Subdivision {
-    name: "Eastern",
-    code: "NP-4",
-    subdivision_type: "Development region",
-    country_name: "Nepal",
-    country_code: "NP",
-    region_code: "4",
-};
-
-pub const NP_5: Subdivision = Subdivision {
-    name: "Far Western",
-    code: "NP-5",
-    subdivision_type: "Development region",
-    country_name: "Nepal",
-    country_code: "NP",
-    region_code: "5",
-};
-
-pub const NP_BA: Subdivision = Subdivision {
+pub const NP_P3: Subdivision = Subdivision {
     name: "Bagmati",
-    code: "NP-BA",
-    subdivision_type: "Zone",
+    code: "NP-P3",
+    subdivision_type: "Province",
     country_name: "Nepal",
     country_code: "NP",
-    region_code: "BA",
+    region_code: "P3",
 };
 
-pub const NP_BH: Subdivision = Subdivision {
-    name: "Bheri",
-    code: "NP-BH",
-    subdivision_type: "Zone",
-    country_name: "Nepal",
-    country_code: "NP",
-    region_code: "BH",
-};
-
-pub const NP_DH: Subdivision = Subdivision {
-    name: "Dhawalagiri",
-    code: "NP-DH",
-    subdivision_type: "Zone",
-    country_name: "Nepal",
-    country_code: "NP",
-    region_code: "DH",
-};
-
-pub const NP_GA: Subdivision = Subdivision {
+pub const NP_P4: Subdivision = Subdivision {
     name: "Gandaki",
-    code: "NP-GA",
-    subdivision_type: "Zone",
+    code: "NP-P4",
+    subdivision_type: "Province",
     country_name: "Nepal",
     country_code: "NP",
-    region_code: "GA",
+    region_code: "P4",
 };
 
-pub const NP_JA: Subdivision = Subdivision {
-    name: "Janakpur",
-    code: "NP-JA",
-    subdivision_type: "Zone",
-    country_name: "Nepal",
-    country_code: "NP",
-    region_code: "JA",
-};
-
-pub const NP_KA: Subdivision = Subdivision {
-    name: "Karnali",
-    code: "NP-KA",
-    subdivision_type: "Zone",
-    country_name: "Nepal",
-    country_code: "NP",
-    region_code: "KA",
-};
-
-pub const NP_KO: Subdivision = Subdivision {
-    name: "Kosi",
-    code: "NP-KO",
-    subdivision_type: "Zone",
-    country_name: "Nepal",
-    country_code: "NP",
-    region_code: "KO",
-};
-
-pub const NP_LU: Subdivision = Subdivision {
+pub const NP_P5: Subdivision = Subdivision {
     name: "Lumbini",
-    code: "NP-LU",
-    subdivision_type: "Zone",
+    code: "NP-P5",
+    subdivision_type: "Province",
     country_name: "Nepal",
     country_code: "NP",
-    region_code: "LU",
+    region_code: "P5",
 };
 
-pub const NP_MA: Subdivision = Subdivision {
-    name: "Mahakali",
-    code: "NP-MA",
-    subdivision_type: "Zone",
+pub const NP_P6: Subdivision = Subdivision {
+    name: "Karnali",
+    code: "NP-P6",
+    subdivision_type: "Province",
     country_name: "Nepal",
     country_code: "NP",
-    region_code: "MA",
+    region_code: "P6",
 };
 
-pub const NP_ME: Subdivision = Subdivision {
-    name: "Mechi",
-    code: "NP-ME",
-    subdivision_type: "Zone",
+pub const NP_P7: Subdivision = Subdivision {
+    name: "Sudurpashchim",
+    code: "NP-P7",
+    subdivision_type: "Province",
     country_name: "Nepal",
     country_code: "NP",
-    region_code: "ME",
-};
-
-pub const NP_NA: Subdivision = Subdivision {
-    name: "Narayani",
-    code: "NP-NA",
-    subdivision_type: "Zone",
-    country_name: "Nepal",
-    country_code: "NP",
-    region_code: "NA",
-};
-
-pub const NP_RA: Subdivision = Subdivision {
-    name: "Rapti",
-    code: "NP-RA",
-    subdivision_type: "Zone",
-    country_name: "Nepal",
-    country_code: "NP",
-    region_code: "RA",
-};
-
-pub const NP_SA: Subdivision = Subdivision {
-    name: "Sagarmatha",
-    code: "NP-SA",
-    subdivision_type: "Zone",
-    country_name: "Nepal",
-    country_code: "NP",
-    region_code: "SA",
-};
-
-pub const NP_SE: Subdivision = Subdivision {
-    name: "Seti",
-    code: "NP-SE",
-    subdivision_type: "Zone",
-    country_name: "Nepal",
-    country_code: "NP",
-    region_code: "SE",
+    region_code: "P7",
 };
 
 pub const NL_AW: Subdivision = Subdivision {
     name: "Aruba",
     code: "NL-AW",
     subdivision_type: "Country",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "AW",
 };
@@ -27594,7 +26334,7 @@ pub const NL_BQ1: Subdivision = Subdivision {
     name: "Bonaire",
     code: "NL-BQ1",
     subdivision_type: "Special municipality",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "BQ1",
 };
@@ -27603,7 +26343,7 @@ pub const NL_BQ2: Subdivision = Subdivision {
     name: "Saba",
     code: "NL-BQ2",
     subdivision_type: "Special municipality",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "BQ2",
 };
@@ -27612,7 +26352,7 @@ pub const NL_BQ3: Subdivision = Subdivision {
     name: "Sint Eustatius",
     code: "NL-BQ3",
     subdivision_type: "Special municipality",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "BQ3",
 };
@@ -27621,7 +26361,7 @@ pub const NL_CW: Subdivision = Subdivision {
     name: "Curaçao",
     code: "NL-CW",
     subdivision_type: "Country",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "CW",
 };
@@ -27630,7 +26370,7 @@ pub const NL_DR: Subdivision = Subdivision {
     name: "Drenthe",
     code: "NL-DR",
     subdivision_type: "Province",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "DR",
 };
@@ -27639,7 +26379,7 @@ pub const NL_FL: Subdivision = Subdivision {
     name: "Flevoland",
     code: "NL-FL",
     subdivision_type: "Province",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "FL",
 };
@@ -27648,7 +26388,7 @@ pub const NL_FR: Subdivision = Subdivision {
     name: "Fryslân",
     code: "NL-FR",
     subdivision_type: "Province",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "FR",
 };
@@ -27657,7 +26397,7 @@ pub const NL_GE: Subdivision = Subdivision {
     name: "Gelderland",
     code: "NL-GE",
     subdivision_type: "Province",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "GE",
 };
@@ -27666,7 +26406,7 @@ pub const NL_GR: Subdivision = Subdivision {
     name: "Groningen",
     code: "NL-GR",
     subdivision_type: "Province",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "GR",
 };
@@ -27675,7 +26415,7 @@ pub const NL_LI: Subdivision = Subdivision {
     name: "Limburg",
     code: "NL-LI",
     subdivision_type: "Province",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "LI",
 };
@@ -27684,7 +26424,7 @@ pub const NL_NB: Subdivision = Subdivision {
     name: "Noord-Brabant",
     code: "NL-NB",
     subdivision_type: "Province",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "NB",
 };
@@ -27693,7 +26433,7 @@ pub const NL_NH: Subdivision = Subdivision {
     name: "Noord-Holland",
     code: "NL-NH",
     subdivision_type: "Province",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "NH",
 };
@@ -27702,7 +26442,7 @@ pub const NL_OV: Subdivision = Subdivision {
     name: "Overijssel",
     code: "NL-OV",
     subdivision_type: "Province",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "OV",
 };
@@ -27711,7 +26451,7 @@ pub const NL_SX: Subdivision = Subdivision {
     name: "Sint Maarten",
     code: "NL-SX",
     subdivision_type: "Country",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "SX",
 };
@@ -27720,7 +26460,7 @@ pub const NL_UT: Subdivision = Subdivision {
     name: "Utrecht",
     code: "NL-UT",
     subdivision_type: "Province",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "UT",
 };
@@ -27729,7 +26469,7 @@ pub const NL_ZE: Subdivision = Subdivision {
     name: "Zeeland",
     code: "NL-ZE",
     subdivision_type: "Province",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "ZE",
 };
@@ -27738,24 +26478,15 @@ pub const NL_ZH: Subdivision = Subdivision {
     name: "Zuid-Holland",
     code: "NL-ZH",
     subdivision_type: "Province",
-    country_name: "Netherlands",
+    country_name: "Netherlands (Kingdom of the)",
     country_code: "NL",
     region_code: "ZH",
-};
-
-pub const NC_NC: Subdivision = Subdivision {
-    name: "New Caledonia",
-    code: "NC-NC",
-    subdivision_type: "Country",
-    country_name: "New Caledonia",
-    country_code: "NC",
-    region_code: "NC",
 };
 
 pub const NZ_AUK: Subdivision = Subdivision {
     name: "Auckland",
     code: "NZ-AUK",
-    subdivision_type: "Unitary authority",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "AUK",
@@ -27764,7 +26495,7 @@ pub const NZ_AUK: Subdivision = Subdivision {
 pub const NZ_BOP: Subdivision = Subdivision {
     name: "Bay of Plenty",
     code: "NZ-BOP",
-    subdivision_type: "Regional council",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "BOP",
@@ -27773,7 +26504,7 @@ pub const NZ_BOP: Subdivision = Subdivision {
 pub const NZ_CAN: Subdivision = Subdivision {
     name: "Canterbury",
     code: "NZ-CAN",
-    subdivision_type: "Regional council",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "CAN",
@@ -27789,9 +26520,9 @@ pub const NZ_CIT: Subdivision = Subdivision {
 };
 
 pub const NZ_GIS: Subdivision = Subdivision {
-    name: "Gisborne District",
+    name: "Gisborne",
     code: "NZ-GIS",
-    subdivision_type: "Unitary authority",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "GIS",
@@ -27800,43 +26531,34 @@ pub const NZ_GIS: Subdivision = Subdivision {
 pub const NZ_HKB: Subdivision = Subdivision {
     name: "Hawke's Bay",
     code: "NZ-HKB",
-    subdivision_type: "Regional council",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "HKB",
 };
 
 pub const NZ_MBH: Subdivision = Subdivision {
-    name: "Marlborough District",
+    name: "Marlborough",
     code: "NZ-MBH",
-    subdivision_type: "Unitary authority",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "MBH",
 };
 
 pub const NZ_MWT: Subdivision = Subdivision {
-    name: "Manawatu-Wanganui",
+    name: "Manawatū-Whanganui",
     code: "NZ-MWT",
-    subdivision_type: "Regional council",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "MWT",
 };
 
-pub const NZ_N: Subdivision = Subdivision {
-    name: "North Island",
-    code: "NZ-N",
-    subdivision_type: "Island",
-    country_name: "New Zealand",
-    country_code: "NZ",
-    region_code: "N",
-};
-
 pub const NZ_NSN: Subdivision = Subdivision {
-    name: "Nelson City",
+    name: "Nelson",
     code: "NZ-NSN",
-    subdivision_type: "Unitary authority",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "NSN",
@@ -27845,7 +26567,7 @@ pub const NZ_NSN: Subdivision = Subdivision {
 pub const NZ_NTL: Subdivision = Subdivision {
     name: "Northland",
     code: "NZ-NTL",
-    subdivision_type: "Regional council",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "NTL",
@@ -27854,34 +26576,25 @@ pub const NZ_NTL: Subdivision = Subdivision {
 pub const NZ_OTA: Subdivision = Subdivision {
     name: "Otago",
     code: "NZ-OTA",
-    subdivision_type: "Regional council",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "OTA",
 };
 
-pub const NZ_S: Subdivision = Subdivision {
-    name: "South Island",
-    code: "NZ-S",
-    subdivision_type: "Island",
-    country_name: "New Zealand",
-    country_code: "NZ",
-    region_code: "S",
-};
-
 pub const NZ_STL: Subdivision = Subdivision {
     name: "Southland",
     code: "NZ-STL",
-    subdivision_type: "Regional council",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "STL",
 };
 
 pub const NZ_TAS: Subdivision = Subdivision {
-    name: "Tasman District",
+    name: "Tasman",
     code: "NZ-TAS",
-    subdivision_type: "Unitary authority",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "TAS",
@@ -27890,16 +26603,16 @@ pub const NZ_TAS: Subdivision = Subdivision {
 pub const NZ_TKI: Subdivision = Subdivision {
     name: "Taranaki",
     code: "NZ-TKI",
-    subdivision_type: "Regional council",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "TKI",
 };
 
 pub const NZ_WGN: Subdivision = Subdivision {
-    name: "Wellington",
+    name: "Greater Wellington",
     code: "NZ-WGN",
-    subdivision_type: "Regional council",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "WGN",
@@ -27908,7 +26621,7 @@ pub const NZ_WGN: Subdivision = Subdivision {
 pub const NZ_WKO: Subdivision = Subdivision {
     name: "Waikato",
     code: "NZ-WKO",
-    subdivision_type: "Regional council",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "WKO",
@@ -27917,14 +26630,14 @@ pub const NZ_WKO: Subdivision = Subdivision {
 pub const NZ_WTC: Subdivision = Subdivision {
     name: "West Coast",
     code: "NZ-WTC",
-    subdivision_type: "Regional council",
+    subdivision_type: "Region",
     country_name: "New Zealand",
     country_code: "NZ",
     region_code: "WTC",
 };
 
 pub const NI_AN: Subdivision = Subdivision {
-    name: "Atlántico Norte",
+    name: "Costa Caribe Norte",
     code: "NI-AN",
     subdivision_type: "Autonomous region",
     country_name: "Nicaragua",
@@ -27933,7 +26646,7 @@ pub const NI_AN: Subdivision = Subdivision {
 };
 
 pub const NI_AS: Subdivision = Subdivision {
-    name: "Atlántico Sur",
+    name: "Costa Caribe Sur",
     code: "NI-AS",
     subdivision_type: "Autonomous region",
     country_name: "Nicaragua",
@@ -28074,6 +26787,78 @@ pub const NI_SJ: Subdivision = Subdivision {
     country_name: "Nicaragua",
     country_code: "NI",
     region_code: "SJ",
+};
+
+pub const NE_1: Subdivision = Subdivision {
+    name: "Agadez",
+    code: "NE-1",
+    subdivision_type: "Region",
+    country_name: "Niger",
+    country_code: "NE",
+    region_code: "1",
+};
+
+pub const NE_2: Subdivision = Subdivision {
+    name: "Diffa",
+    code: "NE-2",
+    subdivision_type: "Region",
+    country_name: "Niger",
+    country_code: "NE",
+    region_code: "2",
+};
+
+pub const NE_3: Subdivision = Subdivision {
+    name: "Dosso",
+    code: "NE-3",
+    subdivision_type: "Region",
+    country_name: "Niger",
+    country_code: "NE",
+    region_code: "3",
+};
+
+pub const NE_4: Subdivision = Subdivision {
+    name: "Maradi",
+    code: "NE-4",
+    subdivision_type: "Region",
+    country_name: "Niger",
+    country_code: "NE",
+    region_code: "4",
+};
+
+pub const NE_5: Subdivision = Subdivision {
+    name: "Tahoua",
+    code: "NE-5",
+    subdivision_type: "Region",
+    country_name: "Niger",
+    country_code: "NE",
+    region_code: "5",
+};
+
+pub const NE_6: Subdivision = Subdivision {
+    name: "Tillabéri",
+    code: "NE-6",
+    subdivision_type: "Region",
+    country_name: "Niger",
+    country_code: "NE",
+    region_code: "6",
+};
+
+pub const NE_7: Subdivision = Subdivision {
+    name: "Zinder",
+    code: "NE-7",
+    subdivision_type: "Region",
+    country_name: "Niger",
+    country_code: "NE",
+    region_code: "7",
+};
+
+pub const NE_8: Subdivision = Subdivision {
+    name: "Niamey",
+    code: "NE-8",
+    subdivision_type: "Urban community",
+    country_name: "Niger",
+    country_code: "NE",
+    region_code: "8",
 };
 
 pub const NG_AB: Subdivision = Subdivision {
@@ -28409,121 +27194,724 @@ pub const NG_ZA: Subdivision = Subdivision {
     region_code: "ZA",
 };
 
-pub const NE_1: Subdivision = Subdivision {
-    name: "Agadez",
-    code: "NE-1",
-    subdivision_type: "Region",
-    country_name: "Niger",
-    country_code: "NE",
-    region_code: "1",
+pub const MK_101: Subdivision = Subdivision {
+    name: "Veles",
+    code: "MK-101",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "101",
 };
 
-pub const NE_2: Subdivision = Subdivision {
-    name: "Diffa",
-    code: "NE-2",
-    subdivision_type: "Region",
-    country_name: "Niger",
-    country_code: "NE",
-    region_code: "2",
+pub const MK_102: Subdivision = Subdivision {
+    name: "Gradsko",
+    code: "MK-102",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "102",
 };
 
-pub const NE_3: Subdivision = Subdivision {
-    name: "Dosso",
-    code: "NE-3",
-    subdivision_type: "Region",
-    country_name: "Niger",
-    country_code: "NE",
-    region_code: "3",
+pub const MK_103: Subdivision = Subdivision {
+    name: "Demir Kapija",
+    code: "MK-103",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "103",
 };
 
-pub const NE_4: Subdivision = Subdivision {
-    name: "Maradi",
-    code: "NE-4",
-    subdivision_type: "Region",
-    country_name: "Niger",
-    country_code: "NE",
-    region_code: "4",
+pub const MK_104: Subdivision = Subdivision {
+    name: "Kavadarci",
+    code: "MK-104",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "104",
 };
 
-pub const NE_5: Subdivision = Subdivision {
-    name: "Tahoua",
-    code: "NE-5",
-    subdivision_type: "Region",
-    country_name: "Niger",
-    country_code: "NE",
-    region_code: "5",
+pub const MK_105: Subdivision = Subdivision {
+    name: "Lozovo",
+    code: "MK-105",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "105",
 };
 
-pub const NE_6: Subdivision = Subdivision {
-    name: "Tillabéri",
-    code: "NE-6",
-    subdivision_type: "Region",
-    country_name: "Niger",
-    country_code: "NE",
-    region_code: "6",
+pub const MK_106: Subdivision = Subdivision {
+    name: "Negotino",
+    code: "MK-106",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "106",
 };
 
-pub const NE_7: Subdivision = Subdivision {
-    name: "Zinder",
-    code: "NE-7",
-    subdivision_type: "Region",
-    country_name: "Niger",
-    country_code: "NE",
-    region_code: "7",
+pub const MK_107: Subdivision = Subdivision {
+    name: "Rosoman",
+    code: "MK-107",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "107",
 };
 
-pub const NE_8: Subdivision = Subdivision {
-    name: "Niamey",
-    code: "NE-8",
-    subdivision_type: "Urban community",
-    country_name: "Niger",
-    country_code: "NE",
-    region_code: "8",
+pub const MK_108: Subdivision = Subdivision {
+    name: "Sveti Nikole",
+    code: "MK-108",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "108",
 };
 
-pub const NU_NU: Subdivision = Subdivision {
-    name: "Niue",
-    code: "NU-NU",
-    subdivision_type: "Country",
-    country_name: "Niue",
-    country_code: "NU",
-    region_code: "NU",
+pub const MK_109: Subdivision = Subdivision {
+    name: "Čaška",
+    code: "MK-109",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "109",
 };
 
-pub const NF_NF: Subdivision = Subdivision {
-    name: "Norfolk Island",
-    code: "NF-NF",
-    subdivision_type: "Country",
-    country_name: "Norfolk Island",
-    country_code: "NF",
-    region_code: "NF",
+pub const MK_201: Subdivision = Subdivision {
+    name: "Berovo",
+    code: "MK-201",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "201",
 };
 
-pub const MP_MP: Subdivision = Subdivision {
-    name: "Northern Mariana Islands",
-    code: "MP-MP",
-    subdivision_type: "Country",
-    country_name: "Northern Mariana Islands",
-    country_code: "MP",
-    region_code: "MP",
+pub const MK_202: Subdivision = Subdivision {
+    name: "Vinica",
+    code: "MK-202",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "202",
 };
 
-pub const NO_01: Subdivision = Subdivision {
-    name: "Østfold",
-    code: "NO-01",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "01",
+pub const MK_203: Subdivision = Subdivision {
+    name: "Delčevo",
+    code: "MK-203",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "203",
 };
 
-pub const NO_02: Subdivision = Subdivision {
-    name: "Akershus",
-    code: "NO-02",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "02",
+pub const MK_204: Subdivision = Subdivision {
+    name: "Zrnovci",
+    code: "MK-204",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "204",
+};
+
+pub const MK_205: Subdivision = Subdivision {
+    name: "Karbinci",
+    code: "MK-205",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "205",
+};
+
+pub const MK_206: Subdivision = Subdivision {
+    name: "Kočani",
+    code: "MK-206",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "206",
+};
+
+pub const MK_207: Subdivision = Subdivision {
+    name: "Makedonska Kamenica",
+    code: "MK-207",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "207",
+};
+
+pub const MK_208: Subdivision = Subdivision {
+    name: "Pehčevo",
+    code: "MK-208",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "208",
+};
+
+pub const MK_209: Subdivision = Subdivision {
+    name: "Probištip",
+    code: "MK-209",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "209",
+};
+
+pub const MK_210: Subdivision = Subdivision {
+    name: "Češinovo-Obleševo",
+    code: "MK-210",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "210",
+};
+
+pub const MK_211: Subdivision = Subdivision {
+    name: "Štip",
+    code: "MK-211",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "211",
+};
+
+pub const MK_301: Subdivision = Subdivision {
+    name: "Vevčani",
+    code: "MK-301",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "301",
+};
+
+pub const MK_303: Subdivision = Subdivision {
+    name: "Debar",
+    code: "MK-303",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "303",
+};
+
+pub const MK_304: Subdivision = Subdivision {
+    name: "Debrca",
+    code: "MK-304",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "304",
+};
+
+pub const MK_307: Subdivision = Subdivision {
+    name: "Kičevo",
+    code: "MK-307",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "307",
+};
+
+pub const MK_308: Subdivision = Subdivision {
+    name: "Makedonski Brod",
+    code: "MK-308",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "308",
+};
+
+pub const MK_310: Subdivision = Subdivision {
+    name: "Ohrid",
+    code: "MK-310",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "310",
+};
+
+pub const MK_311: Subdivision = Subdivision {
+    name: "Plasnica",
+    code: "MK-311",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "311",
+};
+
+pub const MK_312: Subdivision = Subdivision {
+    name: "Struga",
+    code: "MK-312",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "312",
+};
+
+pub const MK_313: Subdivision = Subdivision {
+    name: "Centar Župa",
+    code: "MK-313",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "313",
+};
+
+pub const MK_401: Subdivision = Subdivision {
+    name: "Bogdanci",
+    code: "MK-401",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "401",
+};
+
+pub const MK_402: Subdivision = Subdivision {
+    name: "Bosilovo",
+    code: "MK-402",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "402",
+};
+
+pub const MK_403: Subdivision = Subdivision {
+    name: "Valandovo",
+    code: "MK-403",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "403",
+};
+
+pub const MK_404: Subdivision = Subdivision {
+    name: "Vasilevo",
+    code: "MK-404",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "404",
+};
+
+pub const MK_405: Subdivision = Subdivision {
+    name: "Gevgelija",
+    code: "MK-405",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "405",
+};
+
+pub const MK_406: Subdivision = Subdivision {
+    name: "Dojran",
+    code: "MK-406",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "406",
+};
+
+pub const MK_407: Subdivision = Subdivision {
+    name: "Konče",
+    code: "MK-407",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "407",
+};
+
+pub const MK_408: Subdivision = Subdivision {
+    name: "Novo Selo",
+    code: "MK-408",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "408",
+};
+
+pub const MK_409: Subdivision = Subdivision {
+    name: "Radoviš",
+    code: "MK-409",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "409",
+};
+
+pub const MK_410: Subdivision = Subdivision {
+    name: "Strumica",
+    code: "MK-410",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "410",
+};
+
+pub const MK_501: Subdivision = Subdivision {
+    name: "Bitola",
+    code: "MK-501",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "501",
+};
+
+pub const MK_502: Subdivision = Subdivision {
+    name: "Demir Hisar",
+    code: "MK-502",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "502",
+};
+
+pub const MK_503: Subdivision = Subdivision {
+    name: "Dolneni",
+    code: "MK-503",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "503",
+};
+
+pub const MK_504: Subdivision = Subdivision {
+    name: "Krivogaštani",
+    code: "MK-504",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "504",
+};
+
+pub const MK_505: Subdivision = Subdivision {
+    name: "Kruševo",
+    code: "MK-505",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "505",
+};
+
+pub const MK_506: Subdivision = Subdivision {
+    name: "Mogila",
+    code: "MK-506",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "506",
+};
+
+pub const MK_507: Subdivision = Subdivision {
+    name: "Novaci",
+    code: "MK-507",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "507",
+};
+
+pub const MK_508: Subdivision = Subdivision {
+    name: "Prilep",
+    code: "MK-508",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "508",
+};
+
+pub const MK_509: Subdivision = Subdivision {
+    name: "Resen",
+    code: "MK-509",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "509",
+};
+
+pub const MK_601: Subdivision = Subdivision {
+    name: "Bogovinje",
+    code: "MK-601",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "601",
+};
+
+pub const MK_602: Subdivision = Subdivision {
+    name: "Brvenica",
+    code: "MK-602",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "602",
+};
+
+pub const MK_603: Subdivision = Subdivision {
+    name: "Vrapčište",
+    code: "MK-603",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "603",
+};
+
+pub const MK_604: Subdivision = Subdivision {
+    name: "Gostivar",
+    code: "MK-604",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "604",
+};
+
+pub const MK_605: Subdivision = Subdivision {
+    name: "Želino",
+    code: "MK-605",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "605",
+};
+
+pub const MK_606: Subdivision = Subdivision {
+    name: "Jegunovce",
+    code: "MK-606",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "606",
+};
+
+pub const MK_607: Subdivision = Subdivision {
+    name: "Mavrovo i Rostuše",
+    code: "MK-607",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "607",
+};
+
+pub const MK_608: Subdivision = Subdivision {
+    name: "Tearce",
+    code: "MK-608",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "608",
+};
+
+pub const MK_609: Subdivision = Subdivision {
+    name: "Tetovo",
+    code: "MK-609",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "609",
+};
+
+pub const MK_701: Subdivision = Subdivision {
+    name: "Kratovo",
+    code: "MK-701",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "701",
+};
+
+pub const MK_702: Subdivision = Subdivision {
+    name: "Kriva Palanka",
+    code: "MK-702",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "702",
+};
+
+pub const MK_703: Subdivision = Subdivision {
+    name: "Kumanovo",
+    code: "MK-703",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "703",
+};
+
+pub const MK_704: Subdivision = Subdivision {
+    name: "Lipkovo",
+    code: "MK-704",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "704",
+};
+
+pub const MK_705: Subdivision = Subdivision {
+    name: "Rankovce",
+    code: "MK-705",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "705",
+};
+
+pub const MK_706: Subdivision = Subdivision {
+    name: "Staro Nagoričane",
+    code: "MK-706",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "706",
+};
+
+pub const MK_801: Subdivision = Subdivision {
+    name: "Aerodrom",
+    code: "MK-801",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "801",
+};
+
+pub const MK_802: Subdivision = Subdivision {
+    name: "Aračinovo",
+    code: "MK-802",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "802",
+};
+
+pub const MK_803: Subdivision = Subdivision {
+    name: "Butel",
+    code: "MK-803",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "803",
+};
+
+pub const MK_804: Subdivision = Subdivision {
+    name: "Gazi Baba",
+    code: "MK-804",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "804",
+};
+
+pub const MK_805: Subdivision = Subdivision {
+    name: "Gjorče Petrov",
+    code: "MK-805",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "805",
+};
+
+pub const MK_806: Subdivision = Subdivision {
+    name: "Zelenikovo",
+    code: "MK-806",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "806",
+};
+
+pub const MK_807: Subdivision = Subdivision {
+    name: "Ilinden",
+    code: "MK-807",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "807",
+};
+
+pub const MK_808: Subdivision = Subdivision {
+    name: "Karpoš",
+    code: "MK-808",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "808",
+};
+
+pub const MK_809: Subdivision = Subdivision {
+    name: "Kisela Voda",
+    code: "MK-809",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "809",
+};
+
+pub const MK_810: Subdivision = Subdivision {
+    name: "Petrovec",
+    code: "MK-810",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "810",
+};
+
+pub const MK_811: Subdivision = Subdivision {
+    name: "Saraj",
+    code: "MK-811",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "811",
+};
+
+pub const MK_812: Subdivision = Subdivision {
+    name: "Sopište",
+    code: "MK-812",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "812",
+};
+
+pub const MK_813: Subdivision = Subdivision {
+    name: "Studeničani",
+    code: "MK-813",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "813",
+};
+
+pub const MK_814: Subdivision = Subdivision {
+    name: "Centar",
+    code: "MK-814",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "814",
+};
+
+pub const MK_815: Subdivision = Subdivision {
+    name: "Čair",
+    code: "MK-815",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "815",
+};
+
+pub const MK_816: Subdivision = Subdivision {
+    name: "Čučer-Sandevo",
+    code: "MK-816",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "816",
+};
+
+pub const MK_817: Subdivision = Subdivision {
+    name: "Šuto Orizari",
+    code: "MK-817",
+    subdivision_type: "Municipality",
+    country_name: "North Macedonia",
+    country_code: "MK",
+    region_code: "817",
 };
 
 pub const NO_03: Subdivision = Subdivision {
@@ -28535,69 +27923,6 @@ pub const NO_03: Subdivision = Subdivision {
     region_code: "03",
 };
 
-pub const NO_04: Subdivision = Subdivision {
-    name: "Hedmark",
-    code: "NO-04",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "04",
-};
-
-pub const NO_05: Subdivision = Subdivision {
-    name: "Oppland",
-    code: "NO-05",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "05",
-};
-
-pub const NO_06: Subdivision = Subdivision {
-    name: "Buskerud",
-    code: "NO-06",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "06",
-};
-
-pub const NO_07: Subdivision = Subdivision {
-    name: "Vestfold",
-    code: "NO-07",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "07",
-};
-
-pub const NO_08: Subdivision = Subdivision {
-    name: "Telemark",
-    code: "NO-08",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "08",
-};
-
-pub const NO_09: Subdivision = Subdivision {
-    name: "Aust-Agder",
-    code: "NO-09",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "09",
-};
-
-pub const NO_10: Subdivision = Subdivision {
-    name: "Vest-Agder",
-    code: "NO-10",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "10",
-};
-
 pub const NO_11: Subdivision = Subdivision {
     name: "Rogaland",
     code: "NO-11",
@@ -28605,24 +27930,6 @@ pub const NO_11: Subdivision = Subdivision {
     country_name: "Norway",
     country_code: "NO",
     region_code: "11",
-};
-
-pub const NO_12: Subdivision = Subdivision {
-    name: "Hordaland",
-    code: "NO-12",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "12",
-};
-
-pub const NO_14: Subdivision = Subdivision {
-    name: "Sogn og Fjordane",
-    code: "NO-14",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "14",
 };
 
 pub const NO_15: Subdivision = Subdivision {
@@ -28634,24 +27941,6 @@ pub const NO_15: Subdivision = Subdivision {
     region_code: "15",
 };
 
-pub const NO_16: Subdivision = Subdivision {
-    name: "Sør-Trøndelag",
-    code: "NO-16",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "16",
-};
-
-pub const NO_17: Subdivision = Subdivision {
-    name: "Nord-Trøndelag",
-    code: "NO-17",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "17",
-};
-
 pub const NO_18: Subdivision = Subdivision {
     name: "Nordland",
     code: "NO-18",
@@ -28661,26 +27950,8 @@ pub const NO_18: Subdivision = Subdivision {
     region_code: "18",
 };
 
-pub const NO_19: Subdivision = Subdivision {
-    name: "Romsa",
-    code: "NO-19",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "19",
-};
-
-pub const NO_20: Subdivision = Subdivision {
-    name: "Finnmark",
-    code: "NO-20",
-    subdivision_type: "County",
-    country_name: "Norway",
-    country_code: "NO",
-    region_code: "20",
-};
-
 pub const NO_21: Subdivision = Subdivision {
-    name: "Svalbard",
+    name: "Svalbard (Arctic Region)",
     code: "NO-21",
     subdivision_type: "Arctic region",
     country_name: "Norway",
@@ -28689,7 +27960,7 @@ pub const NO_21: Subdivision = Subdivision {
 };
 
 pub const NO_22: Subdivision = Subdivision {
-    name: "Jan Mayen",
+    name: "Jan Mayen (Arctic Region)",
     code: "NO-22",
     subdivision_type: "Arctic region",
     country_name: "Norway",
@@ -28697,13 +27968,85 @@ pub const NO_22: Subdivision = Subdivision {
     region_code: "22",
 };
 
-pub const OM_BA: Subdivision = Subdivision {
-    name: "Al Bāţinah",
-    code: "OM-BA",
-    subdivision_type: "Region",
+pub const NO_30: Subdivision = Subdivision {
+    name: "Viken",
+    code: "NO-30",
+    subdivision_type: "County",
+    country_name: "Norway",
+    country_code: "NO",
+    region_code: "30",
+};
+
+pub const NO_34: Subdivision = Subdivision {
+    name: "Innlandet",
+    code: "NO-34",
+    subdivision_type: "County",
+    country_name: "Norway",
+    country_code: "NO",
+    region_code: "34",
+};
+
+pub const NO_38: Subdivision = Subdivision {
+    name: "Vestfold og Telemark",
+    code: "NO-38",
+    subdivision_type: "County",
+    country_name: "Norway",
+    country_code: "NO",
+    region_code: "38",
+};
+
+pub const NO_42: Subdivision = Subdivision {
+    name: "Agder",
+    code: "NO-42",
+    subdivision_type: "County",
+    country_name: "Norway",
+    country_code: "NO",
+    region_code: "42",
+};
+
+pub const NO_46: Subdivision = Subdivision {
+    name: "Vestland",
+    code: "NO-46",
+    subdivision_type: "County",
+    country_name: "Norway",
+    country_code: "NO",
+    region_code: "46",
+};
+
+pub const NO_50: Subdivision = Subdivision {
+    name: "Trøndelag",
+    code: "NO-50",
+    subdivision_type: "County",
+    country_name: "Norway",
+    country_code: "NO",
+    region_code: "50",
+};
+
+pub const NO_54: Subdivision = Subdivision {
+    name: "Troms og Finnmark",
+    code: "NO-54",
+    subdivision_type: "County",
+    country_name: "Norway",
+    country_code: "NO",
+    region_code: "54",
+};
+
+pub const OM_BJ: Subdivision = Subdivision {
+    name: "Janūb al Bāţinah",
+    code: "OM-BJ",
+    subdivision_type: "Governorate",
     country_name: "Oman",
     country_code: "OM",
-    region_code: "BA",
+    region_code: "BJ",
+};
+
+pub const OM_BS: Subdivision = Subdivision {
+    name: "Shamāl al Bāţinah",
+    code: "OM-BS",
+    subdivision_type: "Governorate",
+    country_name: "Oman",
+    country_code: "OM",
+    region_code: "BS",
 };
 
 pub const OM_BU: Subdivision = Subdivision {
@@ -28718,7 +28061,7 @@ pub const OM_BU: Subdivision = Subdivision {
 pub const OM_DA: Subdivision = Subdivision {
     name: "Ad Dākhilīyah",
     code: "OM-DA",
-    subdivision_type: "Region",
+    subdivision_type: "Governorate",
     country_name: "Oman",
     country_code: "OM",
     region_code: "DA",
@@ -28742,19 +28085,28 @@ pub const OM_MU: Subdivision = Subdivision {
     region_code: "MU",
 };
 
-pub const OM_SH: Subdivision = Subdivision {
-    name: "Ash Sharqīyah",
-    code: "OM-SH",
-    subdivision_type: "Region",
+pub const OM_SJ: Subdivision = Subdivision {
+    name: "Janūb ash Sharqīyah",
+    code: "OM-SJ",
+    subdivision_type: "Governorate",
     country_name: "Oman",
     country_code: "OM",
-    region_code: "SH",
+    region_code: "SJ",
+};
+
+pub const OM_SS: Subdivision = Subdivision {
+    name: "Shamāl ash Sharqīyah",
+    code: "OM-SS",
+    subdivision_type: "Governorate",
+    country_name: "Oman",
+    country_code: "OM",
+    region_code: "SS",
 };
 
 pub const OM_WU: Subdivision = Subdivision {
     name: "Al Wusţá",
     code: "OM-WU",
-    subdivision_type: "Region",
+    subdivision_type: "Governorate",
     country_name: "Oman",
     country_code: "OM",
     region_code: "WU",
@@ -28763,7 +28115,7 @@ pub const OM_WU: Subdivision = Subdivision {
 pub const OM_ZA: Subdivision = Subdivision {
     name: "Az̧ Z̧āhirah",
     code: "OM-ZA",
-    subdivision_type: "Region",
+    subdivision_type: "Governorate",
     country_name: "Oman",
     country_code: "OM",
     region_code: "ZA",
@@ -28788,7 +28140,7 @@ pub const PK_BA: Subdivision = Subdivision {
 };
 
 pub const PK_GB: Subdivision = Subdivision {
-    name: "Gilgit-Baltistān",
+    name: "Gilgit-Baltistan",
     code: "PK-GB",
     subdivision_type: "Pakistan administered area",
     country_name: "Pakistan",
@@ -28797,7 +28149,7 @@ pub const PK_GB: Subdivision = Subdivision {
 };
 
 pub const PK_IS: Subdivision = Subdivision {
-    name: "Islāmābād",
+    name: "Islamabad",
     code: "PK-IS",
     subdivision_type: "Federal capital territory",
     country_name: "Pakistan",
@@ -28806,7 +28158,7 @@ pub const PK_IS: Subdivision = Subdivision {
 };
 
 pub const PK_JK: Subdivision = Subdivision {
-    name: "Azad Kashmir",
+    name: "Azad Jammu and Kashmir",
     code: "PK-JK",
     subdivision_type: "Pakistan administered area",
     country_name: "Pakistan",
@@ -28815,7 +28167,7 @@ pub const PK_JK: Subdivision = Subdivision {
 };
 
 pub const PK_KP: Subdivision = Subdivision {
-    name: "Khaībar Pakhtūnkhwā",
+    name: "Khyber Pakhtunkhwa",
     code: "PK-KP",
     subdivision_type: "Province",
     country_name: "Pakistan",
@@ -28824,7 +28176,7 @@ pub const PK_KP: Subdivision = Subdivision {
 };
 
 pub const PK_PB: Subdivision = Subdivision {
-    name: "Panjāb",
+    name: "Punjab",
     code: "PK-PB",
     subdivision_type: "Province",
     country_name: "Pakistan",
@@ -28839,15 +28191,6 @@ pub const PK_SD: Subdivision = Subdivision {
     country_name: "Pakistan",
     country_code: "PK",
     region_code: "SD",
-};
-
-pub const PK_TA: Subdivision = Subdivision {
-    name: "Federally Administered Tribal Areas",
-    code: "PK-TA",
-    subdivision_type: "Territory",
-    country_name: "Pakistan",
-    country_code: "PK",
-    region_code: "TA",
 };
 
 pub const PW_002: Subdivision = Subdivision {
@@ -28878,7 +28221,7 @@ pub const PW_010: Subdivision = Subdivision {
 };
 
 pub const PW_050: Subdivision = Subdivision {
-    name: "Hatobohei",
+    name: "Hatohobei",
     code: "PW-050",
     subdivision_type: "State",
     country_name: "Palau",
@@ -28995,19 +28338,19 @@ pub const PW_370: Subdivision = Subdivision {
 };
 
 pub const PS_BTH: Subdivision = Subdivision {
-    name: "Bayt Laḩm",
+    name: "Bethlehem",
     code: "PS-BTH",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "BTH",
 };
 
 pub const PS_DEB: Subdivision = Subdivision {
-    name: "Dayr al Balaḩ",
+    name: "Deir El Balah",
     code: "PS-DEB",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "DEB",
 };
@@ -29016,43 +28359,43 @@ pub const PS_GZA: Subdivision = Subdivision {
     name: "Gaza",
     code: "PS-GZA",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "GZA",
 };
 
 pub const PS_HBN: Subdivision = Subdivision {
-    name: "Al Khalīl",
+    name: "Hebron",
     code: "PS-HBN",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "HBN",
 };
 
 pub const PS_JEM: Subdivision = Subdivision {
-    name: "Al Quds",
+    name: "Jerusalem",
     code: "PS-JEM",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "JEM",
 };
 
 pub const PS_JEN: Subdivision = Subdivision {
-    name: "Janīn",
+    name: "Jenin",
     code: "PS-JEN",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "JEN",
 };
 
 pub const PS_JRH: Subdivision = Subdivision {
-    name: "Arīḩā wa al Aghwār",
+    name: "Jericho and Al Aghwar",
     code: "PS-JRH",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "JRH",
 };
@@ -29061,7 +28404,7 @@ pub const PS_KYS: Subdivision = Subdivision {
     name: "Khan Yunis",
     code: "PS-KYS",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "KYS",
 };
@@ -29070,7 +28413,7 @@ pub const PS_NBS: Subdivision = Subdivision {
     name: "Nablus",
     code: "PS-NBS",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "NBS",
 };
@@ -29079,7 +28422,7 @@ pub const PS_NGZ: Subdivision = Subdivision {
     name: "North Gaza",
     code: "PS-NGZ",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "NGZ",
 };
@@ -29088,7 +28431,7 @@ pub const PS_QQA: Subdivision = Subdivision {
     name: "Qalqilya",
     code: "PS-QQA",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "QQA",
 };
@@ -29097,7 +28440,7 @@ pub const PS_RBH: Subdivision = Subdivision {
     name: "Ramallah",
     code: "PS-RBH",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "RBH",
 };
@@ -29106,7 +28449,7 @@ pub const PS_RFH: Subdivision = Subdivision {
     name: "Rafah",
     code: "PS-RFH",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "RFH",
 };
@@ -29115,7 +28458,7 @@ pub const PS_SLT: Subdivision = Subdivision {
     name: "Salfit",
     code: "PS-SLT",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "SLT",
 };
@@ -29124,7 +28467,7 @@ pub const PS_TBS: Subdivision = Subdivision {
     name: "Tubas",
     code: "PS-TBS",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "TBS",
 };
@@ -29133,18 +28476,9 @@ pub const PS_TKM: Subdivision = Subdivision {
     name: "Tulkarm",
     code: "PS-TKM",
     subdivision_type: "Governorate",
-    country_name: "Palestine",
+    country_name: "Palestine (State of)",
     country_code: "PS",
     region_code: "TKM",
-};
-
-pub const PA_10: Subdivision = Subdivision {
-    name: "Panamá Oeste",
-    code: "PA-10",
-    subdivision_type: "Province",
-    country_name: "Panama",
-    country_code: "PA",
-    region_code: "10",
 };
 
 pub const PA_1: Subdivision = Subdivision {
@@ -29154,6 +28488,15 @@ pub const PA_1: Subdivision = Subdivision {
     country_name: "Panama",
     country_code: "PA",
     region_code: "1",
+};
+
+pub const PA_10: Subdivision = Subdivision {
+    name: "Panamá Oeste",
+    code: "PA-10",
+    subdivision_type: "Province",
+    country_name: "Panama",
+    country_code: "PA",
+    region_code: "10",
 };
 
 pub const PA_2: Subdivision = Subdivision {
@@ -29238,7 +28581,7 @@ pub const PA_EM: Subdivision = Subdivision {
 };
 
 pub const PA_KY: Subdivision = Subdivision {
-    name: "Kuna Yala",
+    name: "Guna Yala",
     code: "PA-KY",
     subdivision_type: "Indigenous region",
     country_name: "Panama",
@@ -29247,12 +28590,21 @@ pub const PA_KY: Subdivision = Subdivision {
 };
 
 pub const PA_NB: Subdivision = Subdivision {
-    name: "Ngöbe-Buglé",
+    name: "Ngäbe-Buglé",
     code: "PA-NB",
     subdivision_type: "Indigenous region",
     country_name: "Panama",
     country_code: "PA",
     region_code: "NB",
+};
+
+pub const PA_NT: Subdivision = Subdivision {
+    name: "Naso Tjër Di",
+    code: "PA-NT",
+    subdivision_type: "Indigenous region",
+    country_name: "Panama",
+    country_code: "PA",
+    region_code: "NT",
 };
 
 pub const PG_CPK: Subdivision = Subdivision {
@@ -29373,7 +28725,7 @@ pub const PG_MRL: Subdivision = Subdivision {
 };
 
 pub const PG_NCD: Subdivision = Subdivision {
-    name: "National Capital District",
+    name: "National Capital District (Port Moresby)",
     code: "PG-NCD",
     subdivision_type: "District",
     country_name: "Papua New Guinea",
@@ -29453,6 +28805,15 @@ pub const PG_WPD: Subdivision = Subdivision {
     region_code: "WPD",
 };
 
+pub const PY_1: Subdivision = Subdivision {
+    name: "Concepción",
+    code: "PY-1",
+    subdivision_type: "Department",
+    country_name: "Paraguay",
+    country_code: "PY",
+    region_code: "1",
+};
+
 pub const PY_10: Subdivision = Subdivision {
     name: "Alto Paraná",
     code: "PY-10",
@@ -29523,15 +28884,6 @@ pub const PY_19: Subdivision = Subdivision {
     country_name: "Paraguay",
     country_code: "PY",
     region_code: "19",
-};
-
-pub const PY_1: Subdivision = Subdivision {
-    name: "Concepción",
-    code: "PY-1",
-    subdivision_type: "Department",
-    country_name: "Paraguay",
-    country_code: "PY",
-    region_code: "1",
 };
 
 pub const PY_2: Subdivision = Subdivision {
@@ -29616,7 +28968,7 @@ pub const PY_ASU: Subdivision = Subdivision {
 };
 
 pub const PE_AMA: Subdivision = Subdivision {
-    name: "Amarumayu",
+    name: "Amazonas",
     code: "PE-AMA",
     subdivision_type: "Region",
     country_name: "Peru",
@@ -29715,7 +29067,7 @@ pub const PE_ICA: Subdivision = Subdivision {
 };
 
 pub const PE_JUN: Subdivision = Subdivision {
-    name: "Hunin",
+    name: "Junín",
     code: "PE-JUN",
     subdivision_type: "Region",
     country_name: "Peru",
@@ -29751,7 +29103,7 @@ pub const PE_LIM: Subdivision = Subdivision {
 };
 
 pub const PE_LMA: Subdivision = Subdivision {
-    name: "Lima hatun llaqta",
+    name: "Municipalidad Metropolitana de Lima",
     code: "PE-LMA",
     subdivision_type: "Municipality",
     country_name: "Peru",
@@ -29814,7 +29166,7 @@ pub const PE_PUN: Subdivision = Subdivision {
 };
 
 pub const PE_SAM: Subdivision = Subdivision {
-    name: "San Martin",
+    name: "San Martín",
     code: "PE-SAM",
     subdivision_type: "Region",
     country_name: "Peru",
@@ -29859,7 +29211,7 @@ pub const PH_00: Subdivision = Subdivision {
 };
 
 pub const PH_01: Subdivision = Subdivision {
-    name: "Ilocos",
+    name: "Ilocos (Region I)",
     code: "PH-01",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29868,7 +29220,7 @@ pub const PH_01: Subdivision = Subdivision {
 };
 
 pub const PH_02: Subdivision = Subdivision {
-    name: "Cagayan Valley",
+    name: "Cagayan Valley (Region II)",
     code: "PH-02",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29877,7 +29229,7 @@ pub const PH_02: Subdivision = Subdivision {
 };
 
 pub const PH_03: Subdivision = Subdivision {
-    name: "Central Luzon",
+    name: "Central Luzon (Region III)",
     code: "PH-03",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29886,7 +29238,7 @@ pub const PH_03: Subdivision = Subdivision {
 };
 
 pub const PH_05: Subdivision = Subdivision {
-    name: "Bicol",
+    name: "Bicol (Region V)",
     code: "PH-05",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29895,7 +29247,7 @@ pub const PH_05: Subdivision = Subdivision {
 };
 
 pub const PH_06: Subdivision = Subdivision {
-    name: "Rehiyon ng Kanlurang Bisaya",
+    name: "Western Visayas (Region VI)",
     code: "PH-06",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29904,7 +29256,7 @@ pub const PH_06: Subdivision = Subdivision {
 };
 
 pub const PH_07: Subdivision = Subdivision {
-    name: "Central Visayas",
+    name: "Central Visayas (Region VII)",
     code: "PH-07",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29913,7 +29265,7 @@ pub const PH_07: Subdivision = Subdivision {
 };
 
 pub const PH_08: Subdivision = Subdivision {
-    name: "Eastern Visayas",
+    name: "Eastern Visayas (Region VIII)",
     code: "PH-08",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29922,7 +29274,7 @@ pub const PH_08: Subdivision = Subdivision {
 };
 
 pub const PH_09: Subdivision = Subdivision {
-    name: "Rehiyon ng Tangway ng Sambuwangga",
+    name: "Zamboanga Peninsula (Region IX)",
     code: "PH-09",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29931,7 +29283,7 @@ pub const PH_09: Subdivision = Subdivision {
 };
 
 pub const PH_10: Subdivision = Subdivision {
-    name: "Northern Mindanao",
+    name: "Northern Mindanao (Region X)",
     code: "PH-10",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29940,7 +29292,7 @@ pub const PH_10: Subdivision = Subdivision {
 };
 
 pub const PH_11: Subdivision = Subdivision {
-    name: "Davao",
+    name: "Davao (Region XI)",
     code: "PH-11",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29949,7 +29301,7 @@ pub const PH_11: Subdivision = Subdivision {
 };
 
 pub const PH_12: Subdivision = Subdivision {
-    name: "Rehiyon ng Soccsksargen",
+    name: "Soccsksargen (Region XII)",
     code: "PH-12",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29958,7 +29310,7 @@ pub const PH_12: Subdivision = Subdivision {
 };
 
 pub const PH_13: Subdivision = Subdivision {
-    name: "Caraga",
+    name: "Caraga (Region XIII)",
     code: "PH-13",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29967,7 +29319,7 @@ pub const PH_13: Subdivision = Subdivision {
 };
 
 pub const PH_14: Subdivision = Subdivision {
-    name: "Autonomous Region in Muslim Mindanao",
+    name: "Autonomous Region in Muslim Mindanao (ARMM)",
     code: "PH-14",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29976,7 +29328,7 @@ pub const PH_14: Subdivision = Subdivision {
 };
 
 pub const PH_15: Subdivision = Subdivision {
-    name: "Cordillera Administrative Region",
+    name: "Cordillera Administrative Region (CAR)",
     code: "PH-15",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29985,7 +29337,7 @@ pub const PH_15: Subdivision = Subdivision {
 };
 
 pub const PH_40: Subdivision = Subdivision {
-    name: "Calabarzon",
+    name: "Calabarzon (Region IV-A)",
     code: "PH-40",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -29994,7 +29346,7 @@ pub const PH_40: Subdivision = Subdivision {
 };
 
 pub const PH_41: Subdivision = Subdivision {
-    name: "Mimaropa",
+    name: "Mimaropa (Region IV-B)",
     code: "PH-41",
     subdivision_type: "Region",
     country_name: "Philippines",
@@ -30048,7 +29400,7 @@ pub const PH_ALB: Subdivision = Subdivision {
 };
 
 pub const PH_ANT: Subdivision = Subdivision {
-    name: "Antike",
+    name: "Antique",
     code: "PH-ANT",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30093,7 +29445,7 @@ pub const PH_BAS: Subdivision = Subdivision {
 };
 
 pub const PH_BEN: Subdivision = Subdivision {
-    name: "Benget",
+    name: "Benguet",
     code: "PH-BEN",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30228,7 +29580,7 @@ pub const PH_CEB: Subdivision = Subdivision {
 };
 
 pub const PH_COM: Subdivision = Subdivision {
-    name: "Compostela Valley",
+    name: "Davao de Oro",
     code: "PH-COM",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30272,6 +29624,15 @@ pub const PH_DIN: Subdivision = Subdivision {
     region_code: "DIN",
 };
 
+pub const PH_DVO: Subdivision = Subdivision {
+    name: "Davao Occidental",
+    code: "PH-DVO",
+    subdivision_type: "Province",
+    country_name: "Philippines",
+    country_code: "PH",
+    region_code: "DVO",
+};
+
 pub const PH_EAS: Subdivision = Subdivision {
     name: "Eastern Samar",
     code: "PH-EAS",
@@ -30282,7 +29643,7 @@ pub const PH_EAS: Subdivision = Subdivision {
 };
 
 pub const PH_GUI: Subdivision = Subdivision {
-    name: "Gimaras",
+    name: "Guimaras",
     code: "PH-GUI",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30309,7 +29670,7 @@ pub const PH_ILI: Subdivision = Subdivision {
 };
 
 pub const PH_ILN: Subdivision = Subdivision {
-    name: "Hilagang Iloko",
+    name: "Ilocos Norte",
     code: "PH-ILN",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30354,7 +29715,7 @@ pub const PH_LAG: Subdivision = Subdivision {
 };
 
 pub const PH_LAN: Subdivision = Subdivision {
-    name: "Hilagang Lanaw",
+    name: "Lanao del Norte",
     code: "PH-LAN",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30390,21 +29751,12 @@ pub const PH_LUN: Subdivision = Subdivision {
 };
 
 pub const PH_MAD: Subdivision = Subdivision {
-    name: "Marinduke",
+    name: "Marinduque",
     code: "PH-MAD",
     subdivision_type: "Province",
     country_name: "Philippines",
     country_code: "PH",
     region_code: "MAD",
-};
-
-pub const PH_MAG: Subdivision = Subdivision {
-    name: "Magindanaw",
-    code: "PH-MAG",
-    subdivision_type: "Province",
-    country_name: "Philippines",
-    country_code: "PH",
-    region_code: "MAG",
 };
 
 pub const PH_MAS: Subdivision = Subdivision {
@@ -30417,7 +29769,7 @@ pub const PH_MAS: Subdivision = Subdivision {
 };
 
 pub const PH_MDC: Subdivision = Subdivision {
-    name: "Kanlurang Mindoro",
+    name: "Mindoro Occidental",
     code: "PH-MDC",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30434,8 +29786,26 @@ pub const PH_MDR: Subdivision = Subdivision {
     region_code: "MDR",
 };
 
+pub const PH_MGN: Subdivision = Subdivision {
+    name: "Maguindanao del Norte",
+    code: "PH-MGN",
+    subdivision_type: "Province",
+    country_name: "Philippines",
+    country_code: "PH",
+    region_code: "MGN",
+};
+
+pub const PH_MGS: Subdivision = Subdivision {
+    name: "Maguindanao del Sur",
+    code: "PH-MGS",
+    subdivision_type: "Province",
+    country_name: "Philippines",
+    country_code: "PH",
+    region_code: "MGS",
+};
+
 pub const PH_MOU: Subdivision = Subdivision {
-    name: "Lalawigang Bulubundukin",
+    name: "Mountain Province",
     code: "PH-MOU",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30444,7 +29814,7 @@ pub const PH_MOU: Subdivision = Subdivision {
 };
 
 pub const PH_MSC: Subdivision = Subdivision {
-    name: "Kanlurang Misamis",
+    name: "Misamis Occidental",
     code: "PH-MSC",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30471,7 +29841,7 @@ pub const PH_NCO: Subdivision = Subdivision {
 };
 
 pub const PH_NEC: Subdivision = Subdivision {
-    name: "Kanlurang Negros",
+    name: "Negros Occidental",
     code: "PH-NEC",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30489,7 +29859,7 @@ pub const PH_NER: Subdivision = Subdivision {
 };
 
 pub const PH_NSA: Subdivision = Subdivision {
-    name: "Hilagang Samar",
+    name: "Northern Samar",
     code: "PH-NSA",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30543,7 +29913,7 @@ pub const PH_PLW: Subdivision = Subdivision {
 };
 
 pub const PH_QUE: Subdivision = Subdivision {
-    name: "Keson",
+    name: "Quezon",
     code: "PH-QUE",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30552,7 +29922,7 @@ pub const PH_QUE: Subdivision = Subdivision {
 };
 
 pub const PH_QUI: Subdivision = Subdivision {
-    name: "Kirino",
+    name: "Quirino",
     code: "PH-QUI",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30561,7 +29931,7 @@ pub const PH_QUI: Subdivision = Subdivision {
 };
 
 pub const PH_RIZ: Subdivision = Subdivision {
-    name: "Risal",
+    name: "Rizal",
     code: "PH-RIZ",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30597,7 +29967,7 @@ pub const PH_SCO: Subdivision = Subdivision {
 };
 
 pub const PH_SIG: Subdivision = Subdivision {
-    name: "Sikihor",
+    name: "Siquijor",
     code: "PH-SIG",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30606,7 +29976,7 @@ pub const PH_SIG: Subdivision = Subdivision {
 };
 
 pub const PH_SLE: Subdivision = Subdivision {
-    name: "Katimogang Leyte",
+    name: "Southern Leyte",
     code: "PH-SLE",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30642,7 +30012,7 @@ pub const PH_SUK: Subdivision = Subdivision {
 };
 
 pub const PH_SUN: Subdivision = Subdivision {
-    name: "Hilagang Surigaw",
+    name: "Surigao del Norte",
     code: "PH-SUN",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30687,7 +30057,7 @@ pub const PH_WSA: Subdivision = Subdivision {
 };
 
 pub const PH_ZAN: Subdivision = Subdivision {
-    name: "Hilagang Sambuwangga",
+    name: "Zamboanga del Norte",
     code: "PH-ZAN",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30696,7 +30066,7 @@ pub const PH_ZAN: Subdivision = Subdivision {
 };
 
 pub const PH_ZAS: Subdivision = Subdivision {
-    name: "Timog Sambuwangga",
+    name: "Zamboanga del Sur",
     code: "PH-ZAS",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30705,7 +30075,7 @@ pub const PH_ZAS: Subdivision = Subdivision {
 };
 
 pub const PH_ZMB: Subdivision = Subdivision {
-    name: "Sambales",
+    name: "Zambales",
     code: "PH-ZMB",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30714,7 +30084,7 @@ pub const PH_ZMB: Subdivision = Subdivision {
 };
 
 pub const PH_ZSI: Subdivision = Subdivision {
-    name: "Sambuwangga Sibugay",
+    name: "Zamboanga Sibugay",
     code: "PH-ZSI",
     subdivision_type: "Province",
     country_name: "Philippines",
@@ -30722,157 +30092,148 @@ pub const PH_ZSI: Subdivision = Subdivision {
     region_code: "ZSI",
 };
 
-pub const PN_PN: Subdivision = Subdivision {
-    name: "Pitcairn",
-    code: "PN-PN",
-    subdivision_type: "Country",
-    country_name: "Pitcairn",
-    country_code: "PN",
-    region_code: "PN",
-};
-
-pub const PL_DS: Subdivision = Subdivision {
+pub const PL_02: Subdivision = Subdivision {
     name: "Dolnośląskie",
-    code: "PL-DS",
-    subdivision_type: "Province",
+    code: "PL-02",
+    subdivision_type: "Voivodship",
     country_name: "Poland",
     country_code: "PL",
-    region_code: "DS",
+    region_code: "02",
 };
 
-pub const PL_KP: Subdivision = Subdivision {
-    name: "Kujawsko-pomorskie",
-    code: "PL-KP",
-    subdivision_type: "Province",
+pub const PL_04: Subdivision = Subdivision {
+    name: "Kujawsko-Pomorskie",
+    code: "PL-04",
+    subdivision_type: "Voivodship",
     country_name: "Poland",
     country_code: "PL",
-    region_code: "KP",
+    region_code: "04",
 };
 
-pub const PL_LB: Subdivision = Subdivision {
-    name: "Lubuskie",
-    code: "PL-LB",
-    subdivision_type: "Province",
-    country_name: "Poland",
-    country_code: "PL",
-    region_code: "LB",
-};
-
-pub const PL_LD: Subdivision = Subdivision {
-    name: "Łódzkie",
-    code: "PL-LD",
-    subdivision_type: "Province",
-    country_name: "Poland",
-    country_code: "PL",
-    region_code: "LD",
-};
-
-pub const PL_LU: Subdivision = Subdivision {
+pub const PL_06: Subdivision = Subdivision {
     name: "Lubelskie",
-    code: "PL-LU",
-    subdivision_type: "Province",
+    code: "PL-06",
+    subdivision_type: "Voivodship",
     country_name: "Poland",
     country_code: "PL",
-    region_code: "LU",
+    region_code: "06",
 };
 
-pub const PL_MA: Subdivision = Subdivision {
+pub const PL_08: Subdivision = Subdivision {
+    name: "Lubuskie",
+    code: "PL-08",
+    subdivision_type: "Voivodship",
+    country_name: "Poland",
+    country_code: "PL",
+    region_code: "08",
+};
+
+pub const PL_10: Subdivision = Subdivision {
+    name: "Łódzkie",
+    code: "PL-10",
+    subdivision_type: "Voivodship",
+    country_name: "Poland",
+    country_code: "PL",
+    region_code: "10",
+};
+
+pub const PL_12: Subdivision = Subdivision {
     name: "Małopolskie",
-    code: "PL-MA",
-    subdivision_type: "Province",
+    code: "PL-12",
+    subdivision_type: "Voivodship",
     country_name: "Poland",
     country_code: "PL",
-    region_code: "MA",
+    region_code: "12",
 };
 
-pub const PL_MZ: Subdivision = Subdivision {
+pub const PL_14: Subdivision = Subdivision {
     name: "Mazowieckie",
-    code: "PL-MZ",
-    subdivision_type: "Province",
+    code: "PL-14",
+    subdivision_type: "Voivodship",
     country_name: "Poland",
     country_code: "PL",
-    region_code: "MZ",
+    region_code: "14",
 };
 
-pub const PL_OP: Subdivision = Subdivision {
+pub const PL_16: Subdivision = Subdivision {
     name: "Opolskie",
-    code: "PL-OP",
-    subdivision_type: "Province",
+    code: "PL-16",
+    subdivision_type: "Voivodship",
     country_name: "Poland",
     country_code: "PL",
-    region_code: "OP",
+    region_code: "16",
 };
 
-pub const PL_PD: Subdivision = Subdivision {
-    name: "Podlaskie",
-    code: "PL-PD",
-    subdivision_type: "Province",
-    country_name: "Poland",
-    country_code: "PL",
-    region_code: "PD",
-};
-
-pub const PL_PK: Subdivision = Subdivision {
+pub const PL_18: Subdivision = Subdivision {
     name: "Podkarpackie",
-    code: "PL-PK",
-    subdivision_type: "Province",
+    code: "PL-18",
+    subdivision_type: "Voivodship",
     country_name: "Poland",
     country_code: "PL",
-    region_code: "PK",
+    region_code: "18",
 };
 
-pub const PL_PM: Subdivision = Subdivision {
+pub const PL_20: Subdivision = Subdivision {
+    name: "Podlaskie",
+    code: "PL-20",
+    subdivision_type: "Voivodship",
+    country_name: "Poland",
+    country_code: "PL",
+    region_code: "20",
+};
+
+pub const PL_22: Subdivision = Subdivision {
     name: "Pomorskie",
-    code: "PL-PM",
-    subdivision_type: "Province",
+    code: "PL-22",
+    subdivision_type: "Voivodship",
     country_name: "Poland",
     country_code: "PL",
-    region_code: "PM",
+    region_code: "22",
 };
 
-pub const PL_SK: Subdivision = Subdivision {
-    name: "Świętokrzyskie",
-    code: "PL-SK",
-    subdivision_type: "Province",
-    country_name: "Poland",
-    country_code: "PL",
-    region_code: "SK",
-};
-
-pub const PL_SL: Subdivision = Subdivision {
+pub const PL_24: Subdivision = Subdivision {
     name: "Śląskie",
-    code: "PL-SL",
-    subdivision_type: "Province",
+    code: "PL-24",
+    subdivision_type: "Voivodship",
     country_name: "Poland",
     country_code: "PL",
-    region_code: "SL",
+    region_code: "24",
 };
 
-pub const PL_WN: Subdivision = Subdivision {
-    name: "Warmińsko-mazurskie",
-    code: "PL-WN",
-    subdivision_type: "Province",
+pub const PL_26: Subdivision = Subdivision {
+    name: "Świętokrzyskie",
+    code: "PL-26",
+    subdivision_type: "Voivodship",
     country_name: "Poland",
     country_code: "PL",
-    region_code: "WN",
+    region_code: "26",
 };
 
-pub const PL_WP: Subdivision = Subdivision {
+pub const PL_28: Subdivision = Subdivision {
+    name: "Warmińsko-Mazurskie",
+    code: "PL-28",
+    subdivision_type: "Voivodship",
+    country_name: "Poland",
+    country_code: "PL",
+    region_code: "28",
+};
+
+pub const PL_30: Subdivision = Subdivision {
     name: "Wielkopolskie",
-    code: "PL-WP",
-    subdivision_type: "Province",
+    code: "PL-30",
+    subdivision_type: "Voivodship",
     country_name: "Poland",
     country_code: "PL",
-    region_code: "WP",
+    region_code: "30",
 };
 
-pub const PL_ZP: Subdivision = Subdivision {
+pub const PL_32: Subdivision = Subdivision {
     name: "Zachodniopomorskie",
-    code: "PL-ZP",
-    subdivision_type: "Province",
+    code: "PL-32",
+    subdivision_type: "Voivodship",
     country_name: "Poland",
     country_code: "PL",
-    region_code: "ZP",
+    region_code: "32",
 };
 
 pub const PT_01: Subdivision = Subdivision {
@@ -31055,15 +30416,6 @@ pub const PT_30: Subdivision = Subdivision {
     region_code: "30",
 };
 
-pub const PR_PR: Subdivision = Subdivision {
-    name: "Puerto Rico",
-    code: "PR-PR",
-    subdivision_type: "Country",
-    country_name: "Puerto Rico",
-    country_code: "PR",
-    region_code: "PR",
-};
-
 pub const QA_DA: Subdivision = Subdivision {
     name: "Ad Dawḩah",
     code: "QA-DA",
@@ -31100,6 +30452,15 @@ pub const QA_RA: Subdivision = Subdivision {
     region_code: "RA",
 };
 
+pub const QA_SH: Subdivision = Subdivision {
+    name: "Ash Shīḩānīyah",
+    code: "QA-SH",
+    subdivision_type: "Municipality",
+    country_name: "Qatar",
+    country_code: "QA",
+    region_code: "SH",
+};
+
 pub const QA_US: Subdivision = Subdivision {
     name: "Umm Şalāl",
     code: "QA-US",
@@ -31127,15 +30488,6 @@ pub const QA_ZA: Subdivision = Subdivision {
     region_code: "ZA",
 };
 
-pub const RE_RE: Subdivision = Subdivision {
-    name: "Reunion",
-    code: "RE-RE",
-    subdivision_type: "Country",
-    country_name: "Reunion",
-    country_code: "RE",
-    region_code: "RE",
-};
-
 pub const RO_AB: Subdivision = Subdivision {
     name: "Alba",
     code: "RO-AB",
@@ -31146,7 +30498,7 @@ pub const RO_AB: Subdivision = Subdivision {
 };
 
 pub const RO_AG: Subdivision = Subdivision {
-    name: "Argeş",
+    name: "Argeș",
     code: "RO-AG",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31164,7 +30516,7 @@ pub const RO_AR: Subdivision = Subdivision {
 };
 
 pub const RO_B: Subdivision = Subdivision {
-    name: "Bucureşti",
+    name: "București",
     code: "RO-B",
     subdivision_type: "Municipality",
     country_name: "Romania",
@@ -31191,7 +30543,7 @@ pub const RO_BH: Subdivision = Subdivision {
 };
 
 pub const RO_BN: Subdivision = Subdivision {
-    name: "Bistriţa-Năsăud",
+    name: "Bistrița-Năsăud",
     code: "RO-BN",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31209,7 +30561,7 @@ pub const RO_BR: Subdivision = Subdivision {
 };
 
 pub const RO_BT: Subdivision = Subdivision {
-    name: "Botoşani",
+    name: "Botoșani",
     code: "RO-BT",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31218,7 +30570,7 @@ pub const RO_BT: Subdivision = Subdivision {
 };
 
 pub const RO_BV: Subdivision = Subdivision {
-    name: "Braşov",
+    name: "Brașov",
     code: "RO-BV",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31245,7 +30597,7 @@ pub const RO_CJ: Subdivision = Subdivision {
 };
 
 pub const RO_CL: Subdivision = Subdivision {
-    name: "Călăraşi",
+    name: "Călărași",
     code: "RO-CL",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31254,7 +30606,7 @@ pub const RO_CL: Subdivision = Subdivision {
 };
 
 pub const RO_CS: Subdivision = Subdivision {
-    name: "Caraş-Severin",
+    name: "Caraș-Severin",
     code: "RO-CS",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31263,7 +30615,7 @@ pub const RO_CS: Subdivision = Subdivision {
 };
 
 pub const RO_CT: Subdivision = Subdivision {
-    name: "Constanţa",
+    name: "Constanța",
     code: "RO-CT",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31281,7 +30633,7 @@ pub const RO_CV: Subdivision = Subdivision {
 };
 
 pub const RO_DB: Subdivision = Subdivision {
-    name: "Dâmboviţa",
+    name: "Dâmbovița",
     code: "RO-DB",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31308,7 +30660,7 @@ pub const RO_GJ: Subdivision = Subdivision {
 };
 
 pub const RO_GL: Subdivision = Subdivision {
-    name: "Galaţi",
+    name: "Galați",
     code: "RO-GL",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31353,7 +30705,7 @@ pub const RO_IF: Subdivision = Subdivision {
 };
 
 pub const RO_IL: Subdivision = Subdivision {
-    name: "Ialomiţa",
+    name: "Ialomița",
     code: "RO-IL",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31362,7 +30714,7 @@ pub const RO_IL: Subdivision = Subdivision {
 };
 
 pub const RO_IS: Subdivision = Subdivision {
-    name: "Iaşi",
+    name: "Iași",
     code: "RO-IS",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31371,7 +30723,7 @@ pub const RO_IS: Subdivision = Subdivision {
 };
 
 pub const RO_MH: Subdivision = Subdivision {
-    name: "Mehedinţi",
+    name: "Mehedinți",
     code: "RO-MH",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31380,7 +30732,7 @@ pub const RO_MH: Subdivision = Subdivision {
 };
 
 pub const RO_MM: Subdivision = Subdivision {
-    name: "Maramureş",
+    name: "Maramureș",
     code: "RO-MM",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31389,7 +30741,7 @@ pub const RO_MM: Subdivision = Subdivision {
 };
 
 pub const RO_MS: Subdivision = Subdivision {
-    name: "Mureş",
+    name: "Mureș",
     code: "RO-MS",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31398,7 +30750,7 @@ pub const RO_MS: Subdivision = Subdivision {
 };
 
 pub const RO_NT: Subdivision = Subdivision {
-    name: "Neamţ",
+    name: "Neamț",
     code: "RO-NT",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31470,7 +30822,7 @@ pub const RO_TL: Subdivision = Subdivision {
 };
 
 pub const RO_TM: Subdivision = Subdivision {
-    name: "Timiş",
+    name: "Timiș",
     code: "RO-TM",
     subdivision_type: "Department",
     country_name: "Romania",
@@ -31515,55 +30867,55 @@ pub const RO_VS: Subdivision = Subdivision {
 };
 
 pub const RU_AD: Subdivision = Subdivision {
-    name: "Adygeja, Respublika",
+    name: "Adygeya, Respublika",
     code: "RU-AD",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "AD",
 };
 
 pub const RU_AL: Subdivision = Subdivision {
-    name: "Altaj, Respublika",
+    name: "Altay, Respublika",
     code: "RU-AL",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "AL",
 };
 
 pub const RU_ALT: Subdivision = Subdivision {
-    name: "Altajskij kraj",
+    name: "Altayskiy kray",
     code: "RU-ALT",
     subdivision_type: "Administrative territory",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "ALT",
 };
 
 pub const RU_AMU: Subdivision = Subdivision {
-    name: "Amurskaja oblast'",
+    name: "Amurskaya oblast'",
     code: "RU-AMU",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "AMU",
 };
 
 pub const RU_ARK: Subdivision = Subdivision {
-    name: "Arhangel'skaja oblast'",
+    name: "Arkhangel'skaya oblast'",
     code: "RU-ARK",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "ARK",
 };
 
 pub const RU_AST: Subdivision = Subdivision {
-    name: "Astrahanskaja oblast'",
+    name: "Astrakhanskaya oblast'",
     code: "RU-AST",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "AST",
 };
@@ -31572,52 +30924,52 @@ pub const RU_BA: Subdivision = Subdivision {
     name: "Bashkortostan, Respublika",
     code: "RU-BA",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "BA",
 };
 
 pub const RU_BEL: Subdivision = Subdivision {
-    name: "Belgorodskaja oblast'",
+    name: "Belgorodskaya oblast'",
     code: "RU-BEL",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "BEL",
 };
 
 pub const RU_BRY: Subdivision = Subdivision {
-    name: "Brjanskaja oblast'",
+    name: "Bryanskaya oblast'",
     code: "RU-BRY",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "BRY",
 };
 
 pub const RU_BU: Subdivision = Subdivision {
-    name: "Burjatija, Respublika",
+    name: "Buryatiya, Respublika",
     code: "RU-BU",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "BU",
 };
 
 pub const RU_CE: Subdivision = Subdivision {
-    name: "Čečenskaja Respublika",
+    name: "Chechenskaya Respublika",
     code: "RU-CE",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "CE",
 };
 
 pub const RU_CHE: Subdivision = Subdivision {
-    name: "Čeljabinskaja oblast'",
+    name: "Chelyabinskaya oblast'",
     code: "RU-CHE",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "CHE",
 };
@@ -31626,7 +30978,7 @@ pub const RU_CHU: Subdivision = Subdivision {
     name: "Chukotskiy avtonomnyy okrug",
     code: "RU-CHU",
     subdivision_type: "Autonomous district",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "CHU",
 };
@@ -31635,7 +30987,7 @@ pub const RU_CU: Subdivision = Subdivision {
     name: "Chuvashskaya Respublika",
     code: "RU-CU",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "CU",
 };
@@ -31644,142 +30996,142 @@ pub const RU_DA: Subdivision = Subdivision {
     name: "Dagestan, Respublika",
     code: "RU-DA",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "DA",
 };
 
 pub const RU_IN: Subdivision = Subdivision {
-    name: "Ingušetija, Respublika",
+    name: "Ingushetiya, Respublika",
     code: "RU-IN",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "IN",
 };
 
 pub const RU_IRK: Subdivision = Subdivision {
-    name: "Irkutskaja oblast'",
+    name: "Irkutskaya oblast'",
     code: "RU-IRK",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "IRK",
 };
 
 pub const RU_IVA: Subdivision = Subdivision {
-    name: "Ivanovskaja oblast'",
+    name: "Ivanovskaya oblast'",
     code: "RU-IVA",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "IVA",
 };
 
 pub const RU_KAM: Subdivision = Subdivision {
-    name: "Kamčatskij kraj",
+    name: "Kamchatskiy kray",
     code: "RU-KAM",
     subdivision_type: "Administrative territory",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KAM",
 };
 
 pub const RU_KB: Subdivision = Subdivision {
-    name: "Kabardino-Balkarskaja Respublika",
+    name: "Kabardino-Balkarskaya Respublika",
     code: "RU-KB",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KB",
 };
 
 pub const RU_KC: Subdivision = Subdivision {
-    name: "Karačaevo-Čerkesskaja Respublika",
+    name: "Karachayevo-Cherkesskaya Respublika",
     code: "RU-KC",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KC",
 };
 
 pub const RU_KDA: Subdivision = Subdivision {
-    name: "Krasnodarskij kraj",
+    name: "Krasnodarskiy kray",
     code: "RU-KDA",
     subdivision_type: "Administrative territory",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KDA",
 };
 
 pub const RU_KEM: Subdivision = Subdivision {
-    name: "Kemerovskaja oblast'",
+    name: "Kemerovskaya oblast'",
     code: "RU-KEM",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KEM",
 };
 
 pub const RU_KGD: Subdivision = Subdivision {
-    name: "Kaliningradskaja oblast'",
+    name: "Kaliningradskaya oblast'",
     code: "RU-KGD",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KGD",
 };
 
 pub const RU_KGN: Subdivision = Subdivision {
-    name: "Kurganskaja oblast'",
+    name: "Kurganskaya oblast'",
     code: "RU-KGN",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KGN",
 };
 
 pub const RU_KHA: Subdivision = Subdivision {
-    name: "Habarovskij kraj",
+    name: "Khabarovskiy kray",
     code: "RU-KHA",
     subdivision_type: "Administrative territory",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KHA",
 };
 
 pub const RU_KHM: Subdivision = Subdivision {
-    name: "Hanty-Mansijskij avtonomnyj okrug",
+    name: "Khanty-Mansiyskiy avtonomnyy okrug",
     code: "RU-KHM",
     subdivision_type: "Autonomous district",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KHM",
 };
 
 pub const RU_KIR: Subdivision = Subdivision {
-    name: "Kirovskaja oblast'",
+    name: "Kirovskaya oblast'",
     code: "RU-KIR",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KIR",
 };
 
 pub const RU_KK: Subdivision = Subdivision {
-    name: "Hakasija, Respublika",
+    name: "Khakasiya, Respublika",
     code: "RU-KK",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KK",
 };
 
 pub const RU_KL: Subdivision = Subdivision {
-    name: "Kalmykija, Respublika",
+    name: "Kalmykiya, Respublika",
     code: "RU-KL",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KL",
 };
@@ -31788,7 +31140,7 @@ pub const RU_KLU: Subdivision = Subdivision {
     name: "Kaluzhskaya oblast'",
     code: "RU-KLU",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KLU",
 };
@@ -31797,97 +31149,97 @@ pub const RU_KO: Subdivision = Subdivision {
     name: "Komi, Respublika",
     code: "RU-KO",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KO",
 };
 
 pub const RU_KOS: Subdivision = Subdivision {
-    name: "Kostromskaja oblast'",
+    name: "Kostromskaya oblast'",
     code: "RU-KOS",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KOS",
 };
 
 pub const RU_KR: Subdivision = Subdivision {
-    name: "Karelija, Respublika",
+    name: "Kareliya, Respublika",
     code: "RU-KR",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KR",
 };
 
 pub const RU_KRS: Subdivision = Subdivision {
-    name: "Kurskaja oblast'",
+    name: "Kurskaya oblast'",
     code: "RU-KRS",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KRS",
 };
 
 pub const RU_KYA: Subdivision = Subdivision {
-    name: "Krasnojarskij kraj",
+    name: "Krasnoyarskiy kray",
     code: "RU-KYA",
     subdivision_type: "Administrative territory",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "KYA",
 };
 
 pub const RU_LEN: Subdivision = Subdivision {
-    name: "Leningradskaja oblast'",
+    name: "Leningradskaya oblast'",
     code: "RU-LEN",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "LEN",
 };
 
 pub const RU_LIP: Subdivision = Subdivision {
-    name: "Lipeckaja oblast'",
+    name: "Lipetskaya oblast'",
     code: "RU-LIP",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "LIP",
 };
 
 pub const RU_MAG: Subdivision = Subdivision {
-    name: "Magadanskaja oblast'",
+    name: "Magadanskaya oblast'",
     code: "RU-MAG",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "MAG",
 };
 
 pub const RU_ME: Subdivision = Subdivision {
-    name: "Marij Èl, Respublika",
+    name: "Mariy El, Respublika",
     code: "RU-ME",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "ME",
 };
 
 pub const RU_MO: Subdivision = Subdivision {
-    name: "Mordovija, Respublika",
+    name: "Mordoviya, Respublika",
     code: "RU-MO",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "MO",
 };
 
 pub const RU_MOS: Subdivision = Subdivision {
-    name: "Moskovskaja oblast'",
+    name: "Moskovskaya oblast'",
     code: "RU-MOS",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "MOS",
 };
@@ -31896,187 +31248,187 @@ pub const RU_MOW: Subdivision = Subdivision {
     name: "Moskva",
     code: "RU-MOW",
     subdivision_type: "Autonomous city",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "MOW",
 };
 
 pub const RU_MUR: Subdivision = Subdivision {
-    name: "Murmanskaja oblast'",
+    name: "Murmanskaya oblast'",
     code: "RU-MUR",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "MUR",
 };
 
 pub const RU_NEN: Subdivision = Subdivision {
-    name: "Neneckij avtonomnyj okrug",
+    name: "Nenetskiy avtonomnyy okrug",
     code: "RU-NEN",
     subdivision_type: "Autonomous district",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "NEN",
 };
 
 pub const RU_NGR: Subdivision = Subdivision {
-    name: "Novgorodskaja oblast'",
+    name: "Novgorodskaya oblast'",
     code: "RU-NGR",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "NGR",
 };
 
 pub const RU_NIZ: Subdivision = Subdivision {
-    name: "Nižegorodskaja oblast'",
+    name: "Nizhegorodskaya oblast'",
     code: "RU-NIZ",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "NIZ",
 };
 
 pub const RU_NVS: Subdivision = Subdivision {
-    name: "Novosibirskaja oblast'",
+    name: "Novosibirskaya oblast'",
     code: "RU-NVS",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "NVS",
 };
 
 pub const RU_OMS: Subdivision = Subdivision {
-    name: "Omskaja oblast'",
+    name: "Omskaya oblast'",
     code: "RU-OMS",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "OMS",
 };
 
 pub const RU_ORE: Subdivision = Subdivision {
-    name: "Orenburgskaja oblast'",
+    name: "Orenburgskaya oblast'",
     code: "RU-ORE",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "ORE",
 };
 
 pub const RU_ORL: Subdivision = Subdivision {
-    name: "Orlovskaja oblast'",
+    name: "Orlovskaya oblast'",
     code: "RU-ORL",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "ORL",
 };
 
 pub const RU_PER: Subdivision = Subdivision {
-    name: "Permskij kraj",
+    name: "Permskiy kray",
     code: "RU-PER",
     subdivision_type: "Administrative territory",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "PER",
 };
 
 pub const RU_PNZ: Subdivision = Subdivision {
-    name: "Penzenskaja oblast'",
+    name: "Penzenskaya oblast'",
     code: "RU-PNZ",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "PNZ",
 };
 
 pub const RU_PRI: Subdivision = Subdivision {
-    name: "Primorskij kraj",
+    name: "Primorskiy kray",
     code: "RU-PRI",
     subdivision_type: "Administrative territory",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "PRI",
 };
 
 pub const RU_PSK: Subdivision = Subdivision {
-    name: "Pskovskaja oblast'",
+    name: "Pskovskaya oblast'",
     code: "RU-PSK",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "PSK",
 };
 
 pub const RU_ROS: Subdivision = Subdivision {
-    name: "Rostovskaja oblast'",
+    name: "Rostovskaya oblast'",
     code: "RU-ROS",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "ROS",
 };
 
 pub const RU_RYA: Subdivision = Subdivision {
-    name: "Rjazanskaja oblast'",
+    name: "Ryazanskaya oblast'",
     code: "RU-RYA",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "RYA",
-};
-
-pub const RU_SAK: Subdivision = Subdivision {
-    name: "Sahalinskaja oblast'",
-    code: "RU-SAK",
-    subdivision_type: "Administrative region",
-    country_name: "Russia",
-    country_code: "RU",
-    region_code: "SAK",
-};
-
-pub const RU_SAM: Subdivision = Subdivision {
-    name: "Samarskaja oblast'",
-    code: "RU-SAM",
-    subdivision_type: "Administrative region",
-    country_name: "Russia",
-    country_code: "RU",
-    region_code: "SAM",
-};
-
-pub const RU_SAR: Subdivision = Subdivision {
-    name: "Saratovskaja oblast'",
-    code: "RU-SAR",
-    subdivision_type: "Administrative region",
-    country_name: "Russia",
-    country_code: "RU",
-    region_code: "SAR",
 };
 
 pub const RU_SA: Subdivision = Subdivision {
     name: "Saha, Respublika",
     code: "RU-SA",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "SA",
 };
 
+pub const RU_SAK: Subdivision = Subdivision {
+    name: "Sakhalinskaya oblast'",
+    code: "RU-SAK",
+    subdivision_type: "Administrative region",
+    country_name: "Russian Federation",
+    country_code: "RU",
+    region_code: "SAK",
+};
+
+pub const RU_SAM: Subdivision = Subdivision {
+    name: "Samarskaya oblast'",
+    code: "RU-SAM",
+    subdivision_type: "Administrative region",
+    country_name: "Russian Federation",
+    country_code: "RU",
+    region_code: "SAM",
+};
+
+pub const RU_SAR: Subdivision = Subdivision {
+    name: "Saratovskaya oblast'",
+    code: "RU-SAR",
+    subdivision_type: "Administrative region",
+    country_name: "Russian Federation",
+    country_code: "RU",
+    region_code: "SAR",
+};
+
 pub const RU_SE: Subdivision = Subdivision {
-    name: "Severnaja Osetija, Respublika",
+    name: "Severnaya Osetiya, Respublika",
     code: "RU-SE",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "SE",
 };
 
 pub const RU_SMO: Subdivision = Subdivision {
-    name: "Smolenskaja oblast'",
+    name: "Smolenskaya oblast'",
     code: "RU-SMO",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "SMO",
 };
@@ -32085,70 +31437,70 @@ pub const RU_SPE: Subdivision = Subdivision {
     name: "Sankt-Peterburg",
     code: "RU-SPE",
     subdivision_type: "Autonomous city",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "SPE",
 };
 
 pub const RU_STA: Subdivision = Subdivision {
-    name: "Stavropol'skij kraj",
+    name: "Stavropol'skiy kray",
     code: "RU-STA",
     subdivision_type: "Administrative territory",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "STA",
 };
 
 pub const RU_SVE: Subdivision = Subdivision {
-    name: "Sverdlovskaja oblast'",
+    name: "Sverdlovskaya oblast'",
     code: "RU-SVE",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "SVE",
-};
-
-pub const RU_TAM: Subdivision = Subdivision {
-    name: "Tambovskaja oblast'",
-    code: "RU-TAM",
-    subdivision_type: "Administrative region",
-    country_name: "Russia",
-    country_code: "RU",
-    region_code: "TAM",
 };
 
 pub const RU_TA: Subdivision = Subdivision {
     name: "Tatarstan, Respublika",
     code: "RU-TA",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "TA",
 };
 
+pub const RU_TAM: Subdivision = Subdivision {
+    name: "Tambovskaya oblast'",
+    code: "RU-TAM",
+    subdivision_type: "Administrative region",
+    country_name: "Russian Federation",
+    country_code: "RU",
+    region_code: "TAM",
+};
+
 pub const RU_TOM: Subdivision = Subdivision {
-    name: "Tomskaja oblast'",
+    name: "Tomskaya oblast'",
     code: "RU-TOM",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "TOM",
 };
 
 pub const RU_TUL: Subdivision = Subdivision {
-    name: "Tul'skaja oblast'",
+    name: "Tul'skaya oblast'",
     code: "RU-TUL",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "TUL",
 };
 
 pub const RU_TVE: Subdivision = Subdivision {
-    name: "Tverskaja oblast'",
+    name: "Tverskaya oblast'",
     code: "RU-TVE",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "TVE",
 };
@@ -32157,61 +31509,61 @@ pub const RU_TY: Subdivision = Subdivision {
     name: "Tyva, Respublika",
     code: "RU-TY",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "TY",
 };
 
 pub const RU_TYU: Subdivision = Subdivision {
-    name: "Tjumenskaja oblast'",
+    name: "Tyumenskaya oblast'",
     code: "RU-TYU",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "TYU",
 };
 
 pub const RU_UD: Subdivision = Subdivision {
-    name: "Udmurtskaja Respublika",
+    name: "Udmurtskaya Respublika",
     code: "RU-UD",
     subdivision_type: "Republic",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "UD",
 };
 
 pub const RU_ULY: Subdivision = Subdivision {
-    name: "Ul'janovskaja oblast'",
+    name: "Ul'yanovskaya oblast'",
     code: "RU-ULY",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "ULY",
 };
 
 pub const RU_VGG: Subdivision = Subdivision {
-    name: "Volgogradskaja oblast'",
+    name: "Volgogradskaya oblast'",
     code: "RU-VGG",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "VGG",
 };
 
 pub const RU_VLA: Subdivision = Subdivision {
-    name: "Vladimirskaja oblast'",
+    name: "Vladimirskaya oblast'",
     code: "RU-VLA",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "VLA",
 };
 
 pub const RU_VLG: Subdivision = Subdivision {
-    name: "Vologodskaja oblast'",
+    name: "Vologodskaya oblast'",
     code: "RU-VLG",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "VLG",
 };
@@ -32220,58 +31572,58 @@ pub const RU_VOR: Subdivision = Subdivision {
     name: "Voronezhskaya oblast'",
     code: "RU-VOR",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "VOR",
 };
 
 pub const RU_YAN: Subdivision = Subdivision {
-    name: "Jamalo-Neneckij avtonomnyj okrug",
+    name: "Yamalo-Nenetskiy avtonomnyy okrug",
     code: "RU-YAN",
     subdivision_type: "Autonomous district",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "YAN",
 };
 
 pub const RU_YAR: Subdivision = Subdivision {
-    name: "Jaroslavskaja oblast'",
+    name: "Yaroslavskaya oblast'",
     code: "RU-YAR",
     subdivision_type: "Administrative region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "YAR",
 };
 
 pub const RU_YEV: Subdivision = Subdivision {
-    name: "Evrejskaja avtonomnaja oblast'",
+    name: "Yevreyskaya avtonomnaya oblast'",
     code: "RU-YEV",
     subdivision_type: "Autonomous region",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "YEV",
 };
 
 pub const RU_ZAB: Subdivision = Subdivision {
-    name: "Zabajkal'skij kraj",
+    name: "Zabaykal'skiy kray",
     code: "RU-ZAB",
     subdivision_type: "Administrative territory",
-    country_name: "Russia",
+    country_name: "Russian Federation",
     country_code: "RU",
     region_code: "ZAB",
 };
 
 pub const RW_01: Subdivision = Subdivision {
-    name: "Ville de Kigal",
+    name: "City of Kigali",
     code: "RW-01",
-    subdivision_type: "Town council",
+    subdivision_type: "City",
     country_name: "Rwanda",
     country_code: "RW",
     region_code: "01",
 };
 
 pub const RW_02: Subdivision = Subdivision {
-    name: "Est",
+    name: "Eastern",
     code: "RW-02",
     subdivision_type: "Province",
     country_name: "Rwanda",
@@ -32280,7 +31632,7 @@ pub const RW_02: Subdivision = Subdivision {
 };
 
 pub const RW_03: Subdivision = Subdivision {
-    name: "Nord",
+    name: "Northern",
     code: "RW-03",
     subdivision_type: "Province",
     country_name: "Rwanda",
@@ -32289,7 +31641,7 @@ pub const RW_03: Subdivision = Subdivision {
 };
 
 pub const RW_04: Subdivision = Subdivision {
-    name: "Ouest",
+    name: "Western",
     code: "RW-04",
     subdivision_type: "Province",
     country_name: "Rwanda",
@@ -32298,7 +31650,7 @@ pub const RW_04: Subdivision = Subdivision {
 };
 
 pub const RW_05: Subdivision = Subdivision {
-    name: "Sud",
+    name: "Southern",
     code: "RW-05",
     subdivision_type: "Province",
     country_name: "Rwanda",
@@ -32310,7 +31662,7 @@ pub const SH_AC: Subdivision = Subdivision {
     name: "Ascension",
     code: "SH-AC",
     subdivision_type: "Geographical entity",
-    country_name: "Saint Helena, Ascension and Tristan Da Cunha",
+    country_name: "Saint Helena, Ascension and Tristan da Cunha",
     country_code: "SH",
     region_code: "AC",
 };
@@ -32319,7 +31671,7 @@ pub const SH_HL: Subdivision = Subdivision {
     name: "Saint Helena",
     code: "SH-HL",
     subdivision_type: "Geographical entity",
-    country_name: "Saint Helena, Ascension and Tristan Da Cunha",
+    country_name: "Saint Helena, Ascension and Tristan da Cunha",
     country_code: "SH",
     region_code: "HL",
 };
@@ -32328,7 +31680,7 @@ pub const SH_TA: Subdivision = Subdivision {
     name: "Tristan da Cunha",
     code: "SH-TA",
     subdivision_type: "Geographical entity",
-    country_name: "Saint Helena, Ascension and Tristan Da Cunha",
+    country_name: "Saint Helena, Ascension and Tristan da Cunha",
     country_code: "SH",
     region_code: "TA",
 };
@@ -32337,7 +31689,7 @@ pub const KN_01: Subdivision = Subdivision {
     name: "Christ Church Nichola Town",
     code: "KN-01",
     subdivision_type: "Parish",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "01",
 };
@@ -32346,7 +31698,7 @@ pub const KN_02: Subdivision = Subdivision {
     name: "Saint Anne Sandy Point",
     code: "KN-02",
     subdivision_type: "Parish",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "02",
 };
@@ -32355,7 +31707,7 @@ pub const KN_03: Subdivision = Subdivision {
     name: "Saint George Basseterre",
     code: "KN-03",
     subdivision_type: "Parish",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "03",
 };
@@ -32364,7 +31716,7 @@ pub const KN_04: Subdivision = Subdivision {
     name: "Saint George Gingerland",
     code: "KN-04",
     subdivision_type: "Parish",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "04",
 };
@@ -32373,7 +31725,7 @@ pub const KN_05: Subdivision = Subdivision {
     name: "Saint James Windward",
     code: "KN-05",
     subdivision_type: "Parish",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "05",
 };
@@ -32382,7 +31734,7 @@ pub const KN_06: Subdivision = Subdivision {
     name: "Saint John Capisterre",
     code: "KN-06",
     subdivision_type: "Parish",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "06",
 };
@@ -32391,7 +31743,7 @@ pub const KN_07: Subdivision = Subdivision {
     name: "Saint John Figtree",
     code: "KN-07",
     subdivision_type: "Parish",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "07",
 };
@@ -32400,7 +31752,7 @@ pub const KN_08: Subdivision = Subdivision {
     name: "Saint Mary Cayon",
     code: "KN-08",
     subdivision_type: "Parish",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "08",
 };
@@ -32409,7 +31761,7 @@ pub const KN_09: Subdivision = Subdivision {
     name: "Saint Paul Capisterre",
     code: "KN-09",
     subdivision_type: "Parish",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "09",
 };
@@ -32418,7 +31770,7 @@ pub const KN_10: Subdivision = Subdivision {
     name: "Saint Paul Charlestown",
     code: "KN-10",
     subdivision_type: "Parish",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "10",
 };
@@ -32427,7 +31779,7 @@ pub const KN_11: Subdivision = Subdivision {
     name: "Saint Peter Basseterre",
     code: "KN-11",
     subdivision_type: "Parish",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "11",
 };
@@ -32436,7 +31788,7 @@ pub const KN_12: Subdivision = Subdivision {
     name: "Saint Thomas Lowland",
     code: "KN-12",
     subdivision_type: "Parish",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "12",
 };
@@ -32445,7 +31797,7 @@ pub const KN_13: Subdivision = Subdivision {
     name: "Saint Thomas Middle Island",
     code: "KN-13",
     subdivision_type: "Parish",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "13",
 };
@@ -32454,7 +31806,7 @@ pub const KN_15: Subdivision = Subdivision {
     name: "Trinity Palmetto Point",
     code: "KN-15",
     subdivision_type: "Parish",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "15",
 };
@@ -32463,7 +31815,7 @@ pub const KN_K: Subdivision = Subdivision {
     name: "Saint Kitts",
     code: "KN-K",
     subdivision_type: "State",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "K",
 };
@@ -32472,7 +31824,7 @@ pub const KN_N: Subdivision = Subdivision {
     name: "Nevis",
     code: "KN-N",
     subdivision_type: "State",
-    country_name: "Saint Kitts And Nevis",
+    country_name: "Saint Kitts and Nevis",
     country_code: "KN",
     region_code: "N",
 };
@@ -32571,7 +31923,7 @@ pub const VC_01: Subdivision = Subdivision {
     name: "Charlotte",
     code: "VC-01",
     subdivision_type: "Parish",
-    country_name: "Saint Vincent And The Grenadines",
+    country_name: "Saint Vincent and the Grenadines",
     country_code: "VC",
     region_code: "01",
 };
@@ -32580,7 +31932,7 @@ pub const VC_02: Subdivision = Subdivision {
     name: "Saint Andrew",
     code: "VC-02",
     subdivision_type: "Parish",
-    country_name: "Saint Vincent And The Grenadines",
+    country_name: "Saint Vincent and the Grenadines",
     country_code: "VC",
     region_code: "02",
 };
@@ -32589,7 +31941,7 @@ pub const VC_03: Subdivision = Subdivision {
     name: "Saint David",
     code: "VC-03",
     subdivision_type: "Parish",
-    country_name: "Saint Vincent And The Grenadines",
+    country_name: "Saint Vincent and the Grenadines",
     country_code: "VC",
     region_code: "03",
 };
@@ -32598,7 +31950,7 @@ pub const VC_04: Subdivision = Subdivision {
     name: "Saint George",
     code: "VC-04",
     subdivision_type: "Parish",
-    country_name: "Saint Vincent And The Grenadines",
+    country_name: "Saint Vincent and the Grenadines",
     country_code: "VC",
     region_code: "04",
 };
@@ -32607,7 +31959,7 @@ pub const VC_05: Subdivision = Subdivision {
     name: "Saint Patrick",
     code: "VC-05",
     subdivision_type: "Parish",
-    country_name: "Saint Vincent And The Grenadines",
+    country_name: "Saint Vincent and the Grenadines",
     country_code: "VC",
     region_code: "05",
 };
@@ -32616,7 +31968,7 @@ pub const VC_06: Subdivision = Subdivision {
     name: "Grenadines",
     code: "VC-06",
     subdivision_type: "Parish",
-    country_name: "Saint Vincent And The Grenadines",
+    country_name: "Saint Vincent and the Grenadines",
     country_code: "VC",
     region_code: "06",
 };
@@ -32775,7 +32127,7 @@ pub const SM_06: Subdivision = Subdivision {
 };
 
 pub const SM_07: Subdivision = Subdivision {
-    name: "San Marino",
+    name: "Città di San Marino",
     code: "SM-07",
     subdivision_type: "Municipality",
     country_name: "San Marino",
@@ -32801,28 +32153,73 @@ pub const SM_09: Subdivision = Subdivision {
     region_code: "09",
 };
 
+pub const ST_01: Subdivision = Subdivision {
+    name: "Água Grande",
+    code: "ST-01",
+    subdivision_type: "District",
+    country_name: "Sao Tome and Principe",
+    country_code: "ST",
+    region_code: "01",
+};
+
+pub const ST_02: Subdivision = Subdivision {
+    name: "Cantagalo",
+    code: "ST-02",
+    subdivision_type: "District",
+    country_name: "Sao Tome and Principe",
+    country_code: "ST",
+    region_code: "02",
+};
+
+pub const ST_03: Subdivision = Subdivision {
+    name: "Caué",
+    code: "ST-03",
+    subdivision_type: "District",
+    country_name: "Sao Tome and Principe",
+    country_code: "ST",
+    region_code: "03",
+};
+
+pub const ST_04: Subdivision = Subdivision {
+    name: "Lembá",
+    code: "ST-04",
+    subdivision_type: "District",
+    country_name: "Sao Tome and Principe",
+    country_code: "ST",
+    region_code: "04",
+};
+
+pub const ST_05: Subdivision = Subdivision {
+    name: "Lobata",
+    code: "ST-05",
+    subdivision_type: "District",
+    country_name: "Sao Tome and Principe",
+    country_code: "ST",
+    region_code: "05",
+};
+
+pub const ST_06: Subdivision = Subdivision {
+    name: "Mé-Zóchi",
+    code: "ST-06",
+    subdivision_type: "District",
+    country_name: "Sao Tome and Principe",
+    country_code: "ST",
+    region_code: "06",
+};
+
 pub const ST_P: Subdivision = Subdivision {
     name: "Príncipe",
     code: "ST-P",
-    subdivision_type: "Province",
+    subdivision_type: "Autonomous region",
     country_name: "Sao Tome and Principe",
     country_code: "ST",
     region_code: "P",
 };
 
-pub const ST_S: Subdivision = Subdivision {
-    name: "São Tomé",
-    code: "ST-S",
-    subdivision_type: "Province",
-    country_name: "Sao Tome and Principe",
-    country_code: "ST",
-    region_code: "S",
-};
-
 pub const SA_01: Subdivision = Subdivision {
     name: "Ar Riyāḑ",
     code: "SA-01",
-    subdivision_type: "Province",
+    subdivision_type: "Region",
     country_name: "Saudi Arabia",
     country_code: "SA",
     region_code: "01",
@@ -32831,7 +32228,7 @@ pub const SA_01: Subdivision = Subdivision {
 pub const SA_02: Subdivision = Subdivision {
     name: "Makkah al Mukarramah",
     code: "SA-02",
-    subdivision_type: "Province",
+    subdivision_type: "Region",
     country_name: "Saudi Arabia",
     country_code: "SA",
     region_code: "02",
@@ -32840,7 +32237,7 @@ pub const SA_02: Subdivision = Subdivision {
 pub const SA_03: Subdivision = Subdivision {
     name: "Al Madīnah al Munawwarah",
     code: "SA-03",
-    subdivision_type: "Province",
+    subdivision_type: "Region",
     country_name: "Saudi Arabia",
     country_code: "SA",
     region_code: "03",
@@ -32849,7 +32246,7 @@ pub const SA_03: Subdivision = Subdivision {
 pub const SA_04: Subdivision = Subdivision {
     name: "Ash Sharqīyah",
     code: "SA-04",
-    subdivision_type: "Province",
+    subdivision_type: "Region",
     country_name: "Saudi Arabia",
     country_code: "SA",
     region_code: "04",
@@ -32858,7 +32255,7 @@ pub const SA_04: Subdivision = Subdivision {
 pub const SA_05: Subdivision = Subdivision {
     name: "Al Qaşīm",
     code: "SA-05",
-    subdivision_type: "Province",
+    subdivision_type: "Region",
     country_name: "Saudi Arabia",
     country_code: "SA",
     region_code: "05",
@@ -32867,7 +32264,7 @@ pub const SA_05: Subdivision = Subdivision {
 pub const SA_06: Subdivision = Subdivision {
     name: "Ḩā'il",
     code: "SA-06",
-    subdivision_type: "Province",
+    subdivision_type: "Region",
     country_name: "Saudi Arabia",
     country_code: "SA",
     region_code: "06",
@@ -32876,7 +32273,7 @@ pub const SA_06: Subdivision = Subdivision {
 pub const SA_07: Subdivision = Subdivision {
     name: "Tabūk",
     code: "SA-07",
-    subdivision_type: "Province",
+    subdivision_type: "Region",
     country_name: "Saudi Arabia",
     country_code: "SA",
     region_code: "07",
@@ -32885,7 +32282,7 @@ pub const SA_07: Subdivision = Subdivision {
 pub const SA_08: Subdivision = Subdivision {
     name: "Al Ḩudūd ash Shamālīyah",
     code: "SA-08",
-    subdivision_type: "Province",
+    subdivision_type: "Region",
     country_name: "Saudi Arabia",
     country_code: "SA",
     region_code: "08",
@@ -32894,7 +32291,7 @@ pub const SA_08: Subdivision = Subdivision {
 pub const SA_09: Subdivision = Subdivision {
     name: "Jāzān",
     code: "SA-09",
-    subdivision_type: "Province",
+    subdivision_type: "Region",
     country_name: "Saudi Arabia",
     country_code: "SA",
     region_code: "09",
@@ -32903,7 +32300,7 @@ pub const SA_09: Subdivision = Subdivision {
 pub const SA_10: Subdivision = Subdivision {
     name: "Najrān",
     code: "SA-10",
-    subdivision_type: "Province",
+    subdivision_type: "Region",
     country_name: "Saudi Arabia",
     country_code: "SA",
     region_code: "10",
@@ -32912,7 +32309,7 @@ pub const SA_10: Subdivision = Subdivision {
 pub const SA_11: Subdivision = Subdivision {
     name: "Al Bāḩah",
     code: "SA-11",
-    subdivision_type: "Province",
+    subdivision_type: "Region",
     country_name: "Saudi Arabia",
     country_code: "SA",
     region_code: "11",
@@ -32921,7 +32318,7 @@ pub const SA_11: Subdivision = Subdivision {
 pub const SA_12: Subdivision = Subdivision {
     name: "Al Jawf",
     code: "SA-12",
-    subdivision_type: "Province",
+    subdivision_type: "Region",
     country_name: "Saudi Arabia",
     country_code: "SA",
     region_code: "12",
@@ -32930,7 +32327,7 @@ pub const SA_12: Subdivision = Subdivision {
 pub const SA_14: Subdivision = Subdivision {
     name: "'Asīr",
     code: "SA-14",
-    subdivision_type: "Province",
+    subdivision_type: "Region",
     country_name: "Saudi Arabia",
     country_code: "SA",
     region_code: "14",
@@ -33360,7 +32757,7 @@ pub const SC_01: Subdivision = Subdivision {
 };
 
 pub const SC_02: Subdivision = Subdivision {
-    name: "Ans Bwalo",
+    name: "Anse Boileau",
     code: "SC-02",
     subdivision_type: "District",
     country_name: "Seychelles",
@@ -33405,7 +32802,7 @@ pub const SC_06: Subdivision = Subdivision {
 };
 
 pub const SC_07: Subdivision = Subdivision {
-    name: "Baie Sainte-Anne",
+    name: "Baie Sainte Anne",
     code: "SC-07",
     subdivision_type: "District",
     country_name: "Seychelles",
@@ -33459,7 +32856,7 @@ pub const SC_12: Subdivision = Subdivision {
 };
 
 pub const SC_13: Subdivision = Subdivision {
-    name: "Grand'Anse Mahé",
+    name: "Grand Anse Mahe",
     code: "SC-13",
     subdivision_type: "District",
     country_name: "Seychelles",
@@ -33468,7 +32865,7 @@ pub const SC_13: Subdivision = Subdivision {
 };
 
 pub const SC_14: Subdivision = Subdivision {
-    name: "Grand'Anse Praslin",
+    name: "Grand Anse Praslin",
     code: "SC-14",
     subdivision_type: "District",
     country_name: "Seychelles",
@@ -33477,7 +32874,7 @@ pub const SC_14: Subdivision = Subdivision {
 };
 
 pub const SC_15: Subdivision = Subdivision {
-    name: "Ladig",
+    name: "La Digue",
     code: "SC-15",
     subdivision_type: "District",
     country_name: "Seychelles",
@@ -33495,7 +32892,7 @@ pub const SC_16: Subdivision = Subdivision {
 };
 
 pub const SC_17: Subdivision = Subdivision {
-    name: "Mon Bikston",
+    name: "Mont Buxton",
     code: "SC-17",
     subdivision_type: "District",
     country_name: "Seychelles",
@@ -33504,7 +32901,7 @@ pub const SC_17: Subdivision = Subdivision {
 };
 
 pub const SC_18: Subdivision = Subdivision {
-    name: "Mon Fleri",
+    name: "Mont Fleuri",
     code: "SC-18",
     subdivision_type: "District",
     country_name: "Seychelles",
@@ -33522,7 +32919,7 @@ pub const SC_19: Subdivision = Subdivision {
 };
 
 pub const SC_20: Subdivision = Subdivision {
-    name: "Pointe La Rue",
+    name: "Pointe Larue",
     code: "SC-20",
     subdivision_type: "District",
     country_name: "Seychelles",
@@ -33531,7 +32928,7 @@ pub const SC_20: Subdivision = Subdivision {
 };
 
 pub const SC_21: Subdivision = Subdivision {
-    name: "Porglo",
+    name: "Port Glaud",
     code: "SC-21",
     subdivision_type: "District",
     country_name: "Seychelles",
@@ -33558,7 +32955,7 @@ pub const SC_23: Subdivision = Subdivision {
 };
 
 pub const SC_24: Subdivision = Subdivision {
-    name: "Lemamel",
+    name: "Les Mamelles",
     code: "SC-24",
     subdivision_type: "District",
     country_name: "Seychelles",
@@ -33567,7 +32964,7 @@ pub const SC_24: Subdivision = Subdivision {
 };
 
 pub const SC_25: Subdivision = Subdivision {
-    name: "Roche Caïman",
+    name: "Roche Caiman",
     code: "SC-25",
     subdivision_type: "District",
     country_name: "Seychelles",
@@ -33575,13 +32972,22 @@ pub const SC_25: Subdivision = Subdivision {
     region_code: "25",
 };
 
-pub const GS_GS: Subdivision = Subdivision {
-    name: "S.Georgia & S.Sandwich Islands",
-    code: "GS-GS",
-    subdivision_type: "Country",
-    country_name: "S.Georgia & S.Sandwich Islands",
-    country_code: "GS",
-    region_code: "GS",
+pub const SC_26: Subdivision = Subdivision {
+    name: "Ile Perseverance I",
+    code: "SC-26",
+    subdivision_type: "District",
+    country_name: "Seychelles",
+    country_code: "SC",
+    region_code: "26",
+};
+
+pub const SC_27: Subdivision = Subdivision {
+    name: "Ile Perseverance II",
+    code: "SC-27",
+    subdivision_type: "District",
+    country_name: "Seychelles",
+    country_code: "SC",
+    region_code: "27",
 };
 
 pub const SL_E: Subdivision = Subdivision {
@@ -33602,6 +33008,15 @@ pub const SL_N: Subdivision = Subdivision {
     region_code: "N",
 };
 
+pub const SL_NW: Subdivision = Subdivision {
+    name: "North Western",
+    code: "SL-NW",
+    subdivision_type: "Province",
+    country_name: "Sierra Leone",
+    country_code: "SL",
+    region_code: "NW",
+};
+
 pub const SL_S: Subdivision = Subdivision {
     name: "Southern",
     code: "SL-S",
@@ -33612,7 +33027,7 @@ pub const SL_S: Subdivision = Subdivision {
 };
 
 pub const SL_W: Subdivision = Subdivision {
-    name: "Western Area",
+    name: "Western Area (Freetown)",
     code: "SL-W",
     subdivision_type: "Area",
     country_name: "Sierra Leone",
@@ -33740,7 +33155,7 @@ pub const SK_ZI: Subdivision = Subdivision {
 pub const SI_001: Subdivision = Subdivision {
     name: "Ajdovščina",
     code: "SI-001",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "001",
@@ -33749,7 +33164,7 @@ pub const SI_001: Subdivision = Subdivision {
 pub const SI_002: Subdivision = Subdivision {
     name: "Beltinci",
     code: "SI-002",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "002",
@@ -33758,7 +33173,7 @@ pub const SI_002: Subdivision = Subdivision {
 pub const SI_003: Subdivision = Subdivision {
     name: "Bled",
     code: "SI-003",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "003",
@@ -33767,7 +33182,7 @@ pub const SI_003: Subdivision = Subdivision {
 pub const SI_004: Subdivision = Subdivision {
     name: "Bohinj",
     code: "SI-004",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "004",
@@ -33776,7 +33191,7 @@ pub const SI_004: Subdivision = Subdivision {
 pub const SI_005: Subdivision = Subdivision {
     name: "Borovnica",
     code: "SI-005",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "005",
@@ -33785,7 +33200,7 @@ pub const SI_005: Subdivision = Subdivision {
 pub const SI_006: Subdivision = Subdivision {
     name: "Bovec",
     code: "SI-006",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "006",
@@ -33794,7 +33209,7 @@ pub const SI_006: Subdivision = Subdivision {
 pub const SI_007: Subdivision = Subdivision {
     name: "Brda",
     code: "SI-007",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "007",
@@ -33803,7 +33218,7 @@ pub const SI_007: Subdivision = Subdivision {
 pub const SI_008: Subdivision = Subdivision {
     name: "Brezovica",
     code: "SI-008",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "008",
@@ -33812,7 +33227,7 @@ pub const SI_008: Subdivision = Subdivision {
 pub const SI_009: Subdivision = Subdivision {
     name: "Brežice",
     code: "SI-009",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "009",
@@ -33821,7 +33236,7 @@ pub const SI_009: Subdivision = Subdivision {
 pub const SI_010: Subdivision = Subdivision {
     name: "Tišina",
     code: "SI-010",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "010",
@@ -33830,7 +33245,7 @@ pub const SI_010: Subdivision = Subdivision {
 pub const SI_011: Subdivision = Subdivision {
     name: "Celje",
     code: "SI-011",
-    subdivision_type: "Commune",
+    subdivision_type: "Urban municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "011",
@@ -33839,7 +33254,7 @@ pub const SI_011: Subdivision = Subdivision {
 pub const SI_012: Subdivision = Subdivision {
     name: "Cerklje na Gorenjskem",
     code: "SI-012",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "012",
@@ -33848,7 +33263,7 @@ pub const SI_012: Subdivision = Subdivision {
 pub const SI_013: Subdivision = Subdivision {
     name: "Cerknica",
     code: "SI-013",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "013",
@@ -33857,7 +33272,7 @@ pub const SI_013: Subdivision = Subdivision {
 pub const SI_014: Subdivision = Subdivision {
     name: "Cerkno",
     code: "SI-014",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "014",
@@ -33866,7 +33281,7 @@ pub const SI_014: Subdivision = Subdivision {
 pub const SI_015: Subdivision = Subdivision {
     name: "Črenšovci",
     code: "SI-015",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "015",
@@ -33875,7 +33290,7 @@ pub const SI_015: Subdivision = Subdivision {
 pub const SI_016: Subdivision = Subdivision {
     name: "Črna na Koroškem",
     code: "SI-016",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "016",
@@ -33884,7 +33299,7 @@ pub const SI_016: Subdivision = Subdivision {
 pub const SI_017: Subdivision = Subdivision {
     name: "Črnomelj",
     code: "SI-017",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "017",
@@ -33893,7 +33308,7 @@ pub const SI_017: Subdivision = Subdivision {
 pub const SI_018: Subdivision = Subdivision {
     name: "Destrnik",
     code: "SI-018",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "018",
@@ -33902,7 +33317,7 @@ pub const SI_018: Subdivision = Subdivision {
 pub const SI_019: Subdivision = Subdivision {
     name: "Divača",
     code: "SI-019",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "019",
@@ -33911,7 +33326,7 @@ pub const SI_019: Subdivision = Subdivision {
 pub const SI_020: Subdivision = Subdivision {
     name: "Dobrepolje",
     code: "SI-020",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "020",
@@ -33920,7 +33335,7 @@ pub const SI_020: Subdivision = Subdivision {
 pub const SI_021: Subdivision = Subdivision {
     name: "Dobrova-Polhov Gradec",
     code: "SI-021",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "021",
@@ -33929,7 +33344,7 @@ pub const SI_021: Subdivision = Subdivision {
 pub const SI_022: Subdivision = Subdivision {
     name: "Dol pri Ljubljani",
     code: "SI-022",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "022",
@@ -33938,7 +33353,7 @@ pub const SI_022: Subdivision = Subdivision {
 pub const SI_023: Subdivision = Subdivision {
     name: "Domžale",
     code: "SI-023",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "023",
@@ -33947,7 +33362,7 @@ pub const SI_023: Subdivision = Subdivision {
 pub const SI_024: Subdivision = Subdivision {
     name: "Dornava",
     code: "SI-024",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "024",
@@ -33956,7 +33371,7 @@ pub const SI_024: Subdivision = Subdivision {
 pub const SI_025: Subdivision = Subdivision {
     name: "Dravograd",
     code: "SI-025",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "025",
@@ -33965,7 +33380,7 @@ pub const SI_025: Subdivision = Subdivision {
 pub const SI_026: Subdivision = Subdivision {
     name: "Duplek",
     code: "SI-026",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "026",
@@ -33974,7 +33389,7 @@ pub const SI_026: Subdivision = Subdivision {
 pub const SI_027: Subdivision = Subdivision {
     name: "Gorenja vas-Poljane",
     code: "SI-027",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "027",
@@ -33983,7 +33398,7 @@ pub const SI_027: Subdivision = Subdivision {
 pub const SI_028: Subdivision = Subdivision {
     name: "Gorišnica",
     code: "SI-028",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "028",
@@ -33992,7 +33407,7 @@ pub const SI_028: Subdivision = Subdivision {
 pub const SI_029: Subdivision = Subdivision {
     name: "Gornja Radgona",
     code: "SI-029",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "029",
@@ -34001,7 +33416,7 @@ pub const SI_029: Subdivision = Subdivision {
 pub const SI_030: Subdivision = Subdivision {
     name: "Gornji Grad",
     code: "SI-030",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "030",
@@ -34010,7 +33425,7 @@ pub const SI_030: Subdivision = Subdivision {
 pub const SI_031: Subdivision = Subdivision {
     name: "Gornji Petrovci",
     code: "SI-031",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "031",
@@ -34019,7 +33434,7 @@ pub const SI_031: Subdivision = Subdivision {
 pub const SI_032: Subdivision = Subdivision {
     name: "Grosuplje",
     code: "SI-032",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "032",
@@ -34028,7 +33443,7 @@ pub const SI_032: Subdivision = Subdivision {
 pub const SI_033: Subdivision = Subdivision {
     name: "Šalovci",
     code: "SI-033",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "033",
@@ -34037,7 +33452,7 @@ pub const SI_033: Subdivision = Subdivision {
 pub const SI_034: Subdivision = Subdivision {
     name: "Hrastnik",
     code: "SI-034",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "034",
@@ -34046,7 +33461,7 @@ pub const SI_034: Subdivision = Subdivision {
 pub const SI_035: Subdivision = Subdivision {
     name: "Hrpelje-Kozina",
     code: "SI-035",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "035",
@@ -34055,7 +33470,7 @@ pub const SI_035: Subdivision = Subdivision {
 pub const SI_036: Subdivision = Subdivision {
     name: "Idrija",
     code: "SI-036",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "036",
@@ -34064,7 +33479,7 @@ pub const SI_036: Subdivision = Subdivision {
 pub const SI_037: Subdivision = Subdivision {
     name: "Ig",
     code: "SI-037",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "037",
@@ -34073,7 +33488,7 @@ pub const SI_037: Subdivision = Subdivision {
 pub const SI_038: Subdivision = Subdivision {
     name: "Ilirska Bistrica",
     code: "SI-038",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "038",
@@ -34082,7 +33497,7 @@ pub const SI_038: Subdivision = Subdivision {
 pub const SI_039: Subdivision = Subdivision {
     name: "Ivančna Gorica",
     code: "SI-039",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "039",
@@ -34091,7 +33506,7 @@ pub const SI_039: Subdivision = Subdivision {
 pub const SI_040: Subdivision = Subdivision {
     name: "Izola",
     code: "SI-040",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "040",
@@ -34100,7 +33515,7 @@ pub const SI_040: Subdivision = Subdivision {
 pub const SI_041: Subdivision = Subdivision {
     name: "Jesenice",
     code: "SI-041",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "041",
@@ -34109,7 +33524,7 @@ pub const SI_041: Subdivision = Subdivision {
 pub const SI_042: Subdivision = Subdivision {
     name: "Juršinci",
     code: "SI-042",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "042",
@@ -34118,16 +33533,16 @@ pub const SI_042: Subdivision = Subdivision {
 pub const SI_043: Subdivision = Subdivision {
     name: "Kamnik",
     code: "SI-043",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "043",
 };
 
 pub const SI_044: Subdivision = Subdivision {
-    name: "Kanal",
+    name: "Kanal ob Soči",
     code: "SI-044",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "044",
@@ -34136,7 +33551,7 @@ pub const SI_044: Subdivision = Subdivision {
 pub const SI_045: Subdivision = Subdivision {
     name: "Kidričevo",
     code: "SI-045",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "045",
@@ -34145,7 +33560,7 @@ pub const SI_045: Subdivision = Subdivision {
 pub const SI_046: Subdivision = Subdivision {
     name: "Kobarid",
     code: "SI-046",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "046",
@@ -34154,7 +33569,7 @@ pub const SI_046: Subdivision = Subdivision {
 pub const SI_047: Subdivision = Subdivision {
     name: "Kobilje",
     code: "SI-047",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "047",
@@ -34163,7 +33578,7 @@ pub const SI_047: Subdivision = Subdivision {
 pub const SI_048: Subdivision = Subdivision {
     name: "Kočevje",
     code: "SI-048",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "048",
@@ -34172,7 +33587,7 @@ pub const SI_048: Subdivision = Subdivision {
 pub const SI_049: Subdivision = Subdivision {
     name: "Komen",
     code: "SI-049",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "049",
@@ -34181,7 +33596,7 @@ pub const SI_049: Subdivision = Subdivision {
 pub const SI_050: Subdivision = Subdivision {
     name: "Koper",
     code: "SI-050",
-    subdivision_type: "Commune",
+    subdivision_type: "Urban municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "050",
@@ -34190,7 +33605,7 @@ pub const SI_050: Subdivision = Subdivision {
 pub const SI_051: Subdivision = Subdivision {
     name: "Kozje",
     code: "SI-051",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "051",
@@ -34199,7 +33614,7 @@ pub const SI_051: Subdivision = Subdivision {
 pub const SI_052: Subdivision = Subdivision {
     name: "Kranj",
     code: "SI-052",
-    subdivision_type: "Commune",
+    subdivision_type: "Urban municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "052",
@@ -34208,7 +33623,7 @@ pub const SI_052: Subdivision = Subdivision {
 pub const SI_053: Subdivision = Subdivision {
     name: "Kranjska Gora",
     code: "SI-053",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "053",
@@ -34217,7 +33632,7 @@ pub const SI_053: Subdivision = Subdivision {
 pub const SI_054: Subdivision = Subdivision {
     name: "Krško",
     code: "SI-054",
-    subdivision_type: "Commune",
+    subdivision_type: "Urban municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "054",
@@ -34226,7 +33641,7 @@ pub const SI_054: Subdivision = Subdivision {
 pub const SI_055: Subdivision = Subdivision {
     name: "Kungota",
     code: "SI-055",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "055",
@@ -34235,7 +33650,7 @@ pub const SI_055: Subdivision = Subdivision {
 pub const SI_056: Subdivision = Subdivision {
     name: "Kuzma",
     code: "SI-056",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "056",
@@ -34244,7 +33659,7 @@ pub const SI_056: Subdivision = Subdivision {
 pub const SI_057: Subdivision = Subdivision {
     name: "Laško",
     code: "SI-057",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "057",
@@ -34253,7 +33668,7 @@ pub const SI_057: Subdivision = Subdivision {
 pub const SI_058: Subdivision = Subdivision {
     name: "Lenart",
     code: "SI-058",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "058",
@@ -34262,7 +33677,7 @@ pub const SI_058: Subdivision = Subdivision {
 pub const SI_059: Subdivision = Subdivision {
     name: "Lendava",
     code: "SI-059",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "059",
@@ -34271,7 +33686,7 @@ pub const SI_059: Subdivision = Subdivision {
 pub const SI_060: Subdivision = Subdivision {
     name: "Litija",
     code: "SI-060",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "060",
@@ -34280,7 +33695,7 @@ pub const SI_060: Subdivision = Subdivision {
 pub const SI_061: Subdivision = Subdivision {
     name: "Ljubljana",
     code: "SI-061",
-    subdivision_type: "Commune",
+    subdivision_type: "Urban municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "061",
@@ -34289,7 +33704,7 @@ pub const SI_061: Subdivision = Subdivision {
 pub const SI_062: Subdivision = Subdivision {
     name: "Ljubno",
     code: "SI-062",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "062",
@@ -34298,7 +33713,7 @@ pub const SI_062: Subdivision = Subdivision {
 pub const SI_063: Subdivision = Subdivision {
     name: "Ljutomer",
     code: "SI-063",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "063",
@@ -34307,16 +33722,16 @@ pub const SI_063: Subdivision = Subdivision {
 pub const SI_064: Subdivision = Subdivision {
     name: "Logatec",
     code: "SI-064",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "064",
 };
 
 pub const SI_065: Subdivision = Subdivision {
-    name: "Loška Dolina",
+    name: "Loška dolina",
     code: "SI-065",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "065",
@@ -34325,7 +33740,7 @@ pub const SI_065: Subdivision = Subdivision {
 pub const SI_066: Subdivision = Subdivision {
     name: "Loški Potok",
     code: "SI-066",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "066",
@@ -34334,7 +33749,7 @@ pub const SI_066: Subdivision = Subdivision {
 pub const SI_067: Subdivision = Subdivision {
     name: "Luče",
     code: "SI-067",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "067",
@@ -34343,7 +33758,7 @@ pub const SI_067: Subdivision = Subdivision {
 pub const SI_068: Subdivision = Subdivision {
     name: "Lukovica",
     code: "SI-068",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "068",
@@ -34352,7 +33767,7 @@ pub const SI_068: Subdivision = Subdivision {
 pub const SI_069: Subdivision = Subdivision {
     name: "Majšperk",
     code: "SI-069",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "069",
@@ -34361,7 +33776,7 @@ pub const SI_069: Subdivision = Subdivision {
 pub const SI_070: Subdivision = Subdivision {
     name: "Maribor",
     code: "SI-070",
-    subdivision_type: "Commune",
+    subdivision_type: "Urban municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "070",
@@ -34370,7 +33785,7 @@ pub const SI_070: Subdivision = Subdivision {
 pub const SI_071: Subdivision = Subdivision {
     name: "Medvode",
     code: "SI-071",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "071",
@@ -34379,7 +33794,7 @@ pub const SI_071: Subdivision = Subdivision {
 pub const SI_072: Subdivision = Subdivision {
     name: "Mengeš",
     code: "SI-072",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "072",
@@ -34388,7 +33803,7 @@ pub const SI_072: Subdivision = Subdivision {
 pub const SI_073: Subdivision = Subdivision {
     name: "Metlika",
     code: "SI-073",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "073",
@@ -34397,7 +33812,7 @@ pub const SI_073: Subdivision = Subdivision {
 pub const SI_074: Subdivision = Subdivision {
     name: "Mežica",
     code: "SI-074",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "074",
@@ -34406,7 +33821,7 @@ pub const SI_074: Subdivision = Subdivision {
 pub const SI_075: Subdivision = Subdivision {
     name: "Miren-Kostanjevica",
     code: "SI-075",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "075",
@@ -34415,7 +33830,7 @@ pub const SI_075: Subdivision = Subdivision {
 pub const SI_076: Subdivision = Subdivision {
     name: "Mislinja",
     code: "SI-076",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "076",
@@ -34424,7 +33839,7 @@ pub const SI_076: Subdivision = Subdivision {
 pub const SI_077: Subdivision = Subdivision {
     name: "Moravče",
     code: "SI-077",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "077",
@@ -34433,7 +33848,7 @@ pub const SI_077: Subdivision = Subdivision {
 pub const SI_078: Subdivision = Subdivision {
     name: "Moravske Toplice",
     code: "SI-078",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "078",
@@ -34442,7 +33857,7 @@ pub const SI_078: Subdivision = Subdivision {
 pub const SI_079: Subdivision = Subdivision {
     name: "Mozirje",
     code: "SI-079",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "079",
@@ -34451,7 +33866,7 @@ pub const SI_079: Subdivision = Subdivision {
 pub const SI_080: Subdivision = Subdivision {
     name: "Murska Sobota",
     code: "SI-080",
-    subdivision_type: "Commune",
+    subdivision_type: "Urban municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "080",
@@ -34460,7 +33875,7 @@ pub const SI_080: Subdivision = Subdivision {
 pub const SI_081: Subdivision = Subdivision {
     name: "Muta",
     code: "SI-081",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "081",
@@ -34469,7 +33884,7 @@ pub const SI_081: Subdivision = Subdivision {
 pub const SI_082: Subdivision = Subdivision {
     name: "Naklo",
     code: "SI-082",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "082",
@@ -34478,7 +33893,7 @@ pub const SI_082: Subdivision = Subdivision {
 pub const SI_083: Subdivision = Subdivision {
     name: "Nazarje",
     code: "SI-083",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "083",
@@ -34487,7 +33902,7 @@ pub const SI_083: Subdivision = Subdivision {
 pub const SI_084: Subdivision = Subdivision {
     name: "Nova Gorica",
     code: "SI-084",
-    subdivision_type: "Commune",
+    subdivision_type: "Urban municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "084",
@@ -34496,7 +33911,7 @@ pub const SI_084: Subdivision = Subdivision {
 pub const SI_085: Subdivision = Subdivision {
     name: "Novo Mesto",
     code: "SI-085",
-    subdivision_type: "Commune",
+    subdivision_type: "Urban municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "085",
@@ -34505,7 +33920,7 @@ pub const SI_085: Subdivision = Subdivision {
 pub const SI_086: Subdivision = Subdivision {
     name: "Odranci",
     code: "SI-086",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "086",
@@ -34514,7 +33929,7 @@ pub const SI_086: Subdivision = Subdivision {
 pub const SI_087: Subdivision = Subdivision {
     name: "Ormož",
     code: "SI-087",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "087",
@@ -34523,7 +33938,7 @@ pub const SI_087: Subdivision = Subdivision {
 pub const SI_088: Subdivision = Subdivision {
     name: "Osilnica",
     code: "SI-088",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "088",
@@ -34532,7 +33947,7 @@ pub const SI_088: Subdivision = Subdivision {
 pub const SI_089: Subdivision = Subdivision {
     name: "Pesnica",
     code: "SI-089",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "089",
@@ -34541,7 +33956,7 @@ pub const SI_089: Subdivision = Subdivision {
 pub const SI_090: Subdivision = Subdivision {
     name: "Piran",
     code: "SI-090",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "090",
@@ -34550,7 +33965,7 @@ pub const SI_090: Subdivision = Subdivision {
 pub const SI_091: Subdivision = Subdivision {
     name: "Pivka",
     code: "SI-091",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "091",
@@ -34559,7 +33974,7 @@ pub const SI_091: Subdivision = Subdivision {
 pub const SI_092: Subdivision = Subdivision {
     name: "Podčetrtek",
     code: "SI-092",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "092",
@@ -34568,7 +33983,7 @@ pub const SI_092: Subdivision = Subdivision {
 pub const SI_093: Subdivision = Subdivision {
     name: "Podvelka",
     code: "SI-093",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "093",
@@ -34577,7 +33992,7 @@ pub const SI_093: Subdivision = Subdivision {
 pub const SI_094: Subdivision = Subdivision {
     name: "Postojna",
     code: "SI-094",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "094",
@@ -34586,7 +34001,7 @@ pub const SI_094: Subdivision = Subdivision {
 pub const SI_095: Subdivision = Subdivision {
     name: "Preddvor",
     code: "SI-095",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "095",
@@ -34595,7 +34010,7 @@ pub const SI_095: Subdivision = Subdivision {
 pub const SI_096: Subdivision = Subdivision {
     name: "Ptuj",
     code: "SI-096",
-    subdivision_type: "Commune",
+    subdivision_type: "Urban municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "096",
@@ -34604,7 +34019,7 @@ pub const SI_096: Subdivision = Subdivision {
 pub const SI_097: Subdivision = Subdivision {
     name: "Puconci",
     code: "SI-097",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "097",
@@ -34613,7 +34028,7 @@ pub const SI_097: Subdivision = Subdivision {
 pub const SI_098: Subdivision = Subdivision {
     name: "Rače-Fram",
     code: "SI-098",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "098",
@@ -34622,7 +34037,7 @@ pub const SI_098: Subdivision = Subdivision {
 pub const SI_099: Subdivision = Subdivision {
     name: "Radeče",
     code: "SI-099",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "099",
@@ -34631,7 +34046,7 @@ pub const SI_099: Subdivision = Subdivision {
 pub const SI_100: Subdivision = Subdivision {
     name: "Radenci",
     code: "SI-100",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "100",
@@ -34640,7 +34055,7 @@ pub const SI_100: Subdivision = Subdivision {
 pub const SI_101: Subdivision = Subdivision {
     name: "Radlje ob Dravi",
     code: "SI-101",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "101",
@@ -34649,7 +34064,7 @@ pub const SI_101: Subdivision = Subdivision {
 pub const SI_102: Subdivision = Subdivision {
     name: "Radovljica",
     code: "SI-102",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "102",
@@ -34658,7 +34073,7 @@ pub const SI_102: Subdivision = Subdivision {
 pub const SI_103: Subdivision = Subdivision {
     name: "Ravne na Koroškem",
     code: "SI-103",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "103",
@@ -34667,7 +34082,7 @@ pub const SI_103: Subdivision = Subdivision {
 pub const SI_104: Subdivision = Subdivision {
     name: "Ribnica",
     code: "SI-104",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "104",
@@ -34676,7 +34091,7 @@ pub const SI_104: Subdivision = Subdivision {
 pub const SI_105: Subdivision = Subdivision {
     name: "Rogašovci",
     code: "SI-105",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "105",
@@ -34685,7 +34100,7 @@ pub const SI_105: Subdivision = Subdivision {
 pub const SI_106: Subdivision = Subdivision {
     name: "Rogaška Slatina",
     code: "SI-106",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "106",
@@ -34694,7 +34109,7 @@ pub const SI_106: Subdivision = Subdivision {
 pub const SI_107: Subdivision = Subdivision {
     name: "Rogatec",
     code: "SI-107",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "107",
@@ -34703,7 +34118,7 @@ pub const SI_107: Subdivision = Subdivision {
 pub const SI_108: Subdivision = Subdivision {
     name: "Ruše",
     code: "SI-108",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "108",
@@ -34712,7 +34127,7 @@ pub const SI_108: Subdivision = Subdivision {
 pub const SI_109: Subdivision = Subdivision {
     name: "Semič",
     code: "SI-109",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "109",
@@ -34721,7 +34136,7 @@ pub const SI_109: Subdivision = Subdivision {
 pub const SI_110: Subdivision = Subdivision {
     name: "Sevnica",
     code: "SI-110",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "110",
@@ -34730,7 +34145,7 @@ pub const SI_110: Subdivision = Subdivision {
 pub const SI_111: Subdivision = Subdivision {
     name: "Sežana",
     code: "SI-111",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "111",
@@ -34739,7 +34154,7 @@ pub const SI_111: Subdivision = Subdivision {
 pub const SI_112: Subdivision = Subdivision {
     name: "Slovenj Gradec",
     code: "SI-112",
-    subdivision_type: "Commune",
+    subdivision_type: "Urban municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "112",
@@ -34748,7 +34163,7 @@ pub const SI_112: Subdivision = Subdivision {
 pub const SI_113: Subdivision = Subdivision {
     name: "Slovenska Bistrica",
     code: "SI-113",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "113",
@@ -34757,7 +34172,7 @@ pub const SI_113: Subdivision = Subdivision {
 pub const SI_114: Subdivision = Subdivision {
     name: "Slovenske Konjice",
     code: "SI-114",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "114",
@@ -34766,16 +34181,16 @@ pub const SI_114: Subdivision = Subdivision {
 pub const SI_115: Subdivision = Subdivision {
     name: "Starše",
     code: "SI-115",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "115",
 };
 
 pub const SI_116: Subdivision = Subdivision {
-    name: "Sveti Jurij",
+    name: "Sveti Jurij ob Ščavnici",
     code: "SI-116",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "116",
@@ -34784,7 +34199,7 @@ pub const SI_116: Subdivision = Subdivision {
 pub const SI_117: Subdivision = Subdivision {
     name: "Šenčur",
     code: "SI-117",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "117",
@@ -34793,7 +34208,7 @@ pub const SI_117: Subdivision = Subdivision {
 pub const SI_118: Subdivision = Subdivision {
     name: "Šentilj",
     code: "SI-118",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "118",
@@ -34802,7 +34217,7 @@ pub const SI_118: Subdivision = Subdivision {
 pub const SI_119: Subdivision = Subdivision {
     name: "Šentjernej",
     code: "SI-119",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "119",
@@ -34811,7 +34226,7 @@ pub const SI_119: Subdivision = Subdivision {
 pub const SI_120: Subdivision = Subdivision {
     name: "Šentjur",
     code: "SI-120",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "120",
@@ -34820,7 +34235,7 @@ pub const SI_120: Subdivision = Subdivision {
 pub const SI_121: Subdivision = Subdivision {
     name: "Škocjan",
     code: "SI-121",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "121",
@@ -34829,7 +34244,7 @@ pub const SI_121: Subdivision = Subdivision {
 pub const SI_122: Subdivision = Subdivision {
     name: "Škofja Loka",
     code: "SI-122",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "122",
@@ -34838,7 +34253,7 @@ pub const SI_122: Subdivision = Subdivision {
 pub const SI_123: Subdivision = Subdivision {
     name: "Škofljica",
     code: "SI-123",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "123",
@@ -34847,7 +34262,7 @@ pub const SI_123: Subdivision = Subdivision {
 pub const SI_124: Subdivision = Subdivision {
     name: "Šmarje pri Jelšah",
     code: "SI-124",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "124",
@@ -34856,7 +34271,7 @@ pub const SI_124: Subdivision = Subdivision {
 pub const SI_125: Subdivision = Subdivision {
     name: "Šmartno ob Paki",
     code: "SI-125",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "125",
@@ -34865,7 +34280,7 @@ pub const SI_125: Subdivision = Subdivision {
 pub const SI_126: Subdivision = Subdivision {
     name: "Šoštanj",
     code: "SI-126",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "126",
@@ -34874,7 +34289,7 @@ pub const SI_126: Subdivision = Subdivision {
 pub const SI_127: Subdivision = Subdivision {
     name: "Štore",
     code: "SI-127",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "127",
@@ -34883,7 +34298,7 @@ pub const SI_127: Subdivision = Subdivision {
 pub const SI_128: Subdivision = Subdivision {
     name: "Tolmin",
     code: "SI-128",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "128",
@@ -34892,7 +34307,7 @@ pub const SI_128: Subdivision = Subdivision {
 pub const SI_129: Subdivision = Subdivision {
     name: "Trbovlje",
     code: "SI-129",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "129",
@@ -34901,7 +34316,7 @@ pub const SI_129: Subdivision = Subdivision {
 pub const SI_130: Subdivision = Subdivision {
     name: "Trebnje",
     code: "SI-130",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "130",
@@ -34910,7 +34325,7 @@ pub const SI_130: Subdivision = Subdivision {
 pub const SI_131: Subdivision = Subdivision {
     name: "Tržič",
     code: "SI-131",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "131",
@@ -34919,7 +34334,7 @@ pub const SI_131: Subdivision = Subdivision {
 pub const SI_132: Subdivision = Subdivision {
     name: "Turnišče",
     code: "SI-132",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "132",
@@ -34928,7 +34343,7 @@ pub const SI_132: Subdivision = Subdivision {
 pub const SI_133: Subdivision = Subdivision {
     name: "Velenje",
     code: "SI-133",
-    subdivision_type: "Commune",
+    subdivision_type: "Urban municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "133",
@@ -34937,7 +34352,7 @@ pub const SI_133: Subdivision = Subdivision {
 pub const SI_134: Subdivision = Subdivision {
     name: "Velike Lašče",
     code: "SI-134",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "134",
@@ -34946,7 +34361,7 @@ pub const SI_134: Subdivision = Subdivision {
 pub const SI_135: Subdivision = Subdivision {
     name: "Videm",
     code: "SI-135",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "135",
@@ -34955,7 +34370,7 @@ pub const SI_135: Subdivision = Subdivision {
 pub const SI_136: Subdivision = Subdivision {
     name: "Vipava",
     code: "SI-136",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "136",
@@ -34964,7 +34379,7 @@ pub const SI_136: Subdivision = Subdivision {
 pub const SI_137: Subdivision = Subdivision {
     name: "Vitanje",
     code: "SI-137",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "137",
@@ -34973,7 +34388,7 @@ pub const SI_137: Subdivision = Subdivision {
 pub const SI_138: Subdivision = Subdivision {
     name: "Vodice",
     code: "SI-138",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "138",
@@ -34982,7 +34397,7 @@ pub const SI_138: Subdivision = Subdivision {
 pub const SI_139: Subdivision = Subdivision {
     name: "Vojnik",
     code: "SI-139",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "139",
@@ -34991,7 +34406,7 @@ pub const SI_139: Subdivision = Subdivision {
 pub const SI_140: Subdivision = Subdivision {
     name: "Vrhnika",
     code: "SI-140",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "140",
@@ -35000,7 +34415,7 @@ pub const SI_140: Subdivision = Subdivision {
 pub const SI_141: Subdivision = Subdivision {
     name: "Vuzenica",
     code: "SI-141",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "141",
@@ -35009,7 +34424,7 @@ pub const SI_141: Subdivision = Subdivision {
 pub const SI_142: Subdivision = Subdivision {
     name: "Zagorje ob Savi",
     code: "SI-142",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "142",
@@ -35018,7 +34433,7 @@ pub const SI_142: Subdivision = Subdivision {
 pub const SI_143: Subdivision = Subdivision {
     name: "Zavrč",
     code: "SI-143",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "143",
@@ -35027,7 +34442,7 @@ pub const SI_143: Subdivision = Subdivision {
 pub const SI_144: Subdivision = Subdivision {
     name: "Zreče",
     code: "SI-144",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "144",
@@ -35036,7 +34451,7 @@ pub const SI_144: Subdivision = Subdivision {
 pub const SI_146: Subdivision = Subdivision {
     name: "Železniki",
     code: "SI-146",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "146",
@@ -35045,7 +34460,7 @@ pub const SI_146: Subdivision = Subdivision {
 pub const SI_147: Subdivision = Subdivision {
     name: "Žiri",
     code: "SI-147",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "147",
@@ -35054,7 +34469,7 @@ pub const SI_147: Subdivision = Subdivision {
 pub const SI_148: Subdivision = Subdivision {
     name: "Benedikt",
     code: "SI-148",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "148",
@@ -35063,7 +34478,7 @@ pub const SI_148: Subdivision = Subdivision {
 pub const SI_149: Subdivision = Subdivision {
     name: "Bistrica ob Sotli",
     code: "SI-149",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "149",
@@ -35072,7 +34487,7 @@ pub const SI_149: Subdivision = Subdivision {
 pub const SI_150: Subdivision = Subdivision {
     name: "Bloke",
     code: "SI-150",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "150",
@@ -35081,7 +34496,7 @@ pub const SI_150: Subdivision = Subdivision {
 pub const SI_151: Subdivision = Subdivision {
     name: "Braslovče",
     code: "SI-151",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "151",
@@ -35090,7 +34505,7 @@ pub const SI_151: Subdivision = Subdivision {
 pub const SI_152: Subdivision = Subdivision {
     name: "Cankova",
     code: "SI-152",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "152",
@@ -35099,7 +34514,7 @@ pub const SI_152: Subdivision = Subdivision {
 pub const SI_153: Subdivision = Subdivision {
     name: "Cerkvenjak",
     code: "SI-153",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "153",
@@ -35108,7 +34523,7 @@ pub const SI_153: Subdivision = Subdivision {
 pub const SI_154: Subdivision = Subdivision {
     name: "Dobje",
     code: "SI-154",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "154",
@@ -35117,7 +34532,7 @@ pub const SI_154: Subdivision = Subdivision {
 pub const SI_155: Subdivision = Subdivision {
     name: "Dobrna",
     code: "SI-155",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "155",
@@ -35126,7 +34541,7 @@ pub const SI_155: Subdivision = Subdivision {
 pub const SI_156: Subdivision = Subdivision {
     name: "Dobrovnik",
     code: "SI-156",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "156",
@@ -35135,7 +34550,7 @@ pub const SI_156: Subdivision = Subdivision {
 pub const SI_157: Subdivision = Subdivision {
     name: "Dolenjske Toplice",
     code: "SI-157",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "157",
@@ -35144,7 +34559,7 @@ pub const SI_157: Subdivision = Subdivision {
 pub const SI_158: Subdivision = Subdivision {
     name: "Grad",
     code: "SI-158",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "158",
@@ -35153,7 +34568,7 @@ pub const SI_158: Subdivision = Subdivision {
 pub const SI_159: Subdivision = Subdivision {
     name: "Hajdina",
     code: "SI-159",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "159",
@@ -35162,7 +34577,7 @@ pub const SI_159: Subdivision = Subdivision {
 pub const SI_160: Subdivision = Subdivision {
     name: "Hoče-Slivnica",
     code: "SI-160",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "160",
@@ -35171,7 +34586,7 @@ pub const SI_160: Subdivision = Subdivision {
 pub const SI_161: Subdivision = Subdivision {
     name: "Hodoš",
     code: "SI-161",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "161",
@@ -35180,7 +34595,7 @@ pub const SI_161: Subdivision = Subdivision {
 pub const SI_162: Subdivision = Subdivision {
     name: "Horjul",
     code: "SI-162",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "162",
@@ -35189,7 +34604,7 @@ pub const SI_162: Subdivision = Subdivision {
 pub const SI_163: Subdivision = Subdivision {
     name: "Jezersko",
     code: "SI-163",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "163",
@@ -35198,7 +34613,7 @@ pub const SI_163: Subdivision = Subdivision {
 pub const SI_164: Subdivision = Subdivision {
     name: "Komenda",
     code: "SI-164",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "164",
@@ -35207,7 +34622,7 @@ pub const SI_164: Subdivision = Subdivision {
 pub const SI_165: Subdivision = Subdivision {
     name: "Kostel",
     code: "SI-165",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "165",
@@ -35216,7 +34631,7 @@ pub const SI_165: Subdivision = Subdivision {
 pub const SI_166: Subdivision = Subdivision {
     name: "Križevci",
     code: "SI-166",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "166",
@@ -35225,7 +34640,7 @@ pub const SI_166: Subdivision = Subdivision {
 pub const SI_167: Subdivision = Subdivision {
     name: "Lovrenc na Pohorju",
     code: "SI-167",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "167",
@@ -35234,16 +34649,16 @@ pub const SI_167: Subdivision = Subdivision {
 pub const SI_168: Subdivision = Subdivision {
     name: "Markovci",
     code: "SI-168",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "168",
 };
 
 pub const SI_169: Subdivision = Subdivision {
-    name: "Miklavž na Dravskem Polju",
+    name: "Miklavž na Dravskem polju",
     code: "SI-169",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "169",
@@ -35252,7 +34667,7 @@ pub const SI_169: Subdivision = Subdivision {
 pub const SI_170: Subdivision = Subdivision {
     name: "Mirna Peč",
     code: "SI-170",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "170",
@@ -35261,7 +34676,7 @@ pub const SI_170: Subdivision = Subdivision {
 pub const SI_171: Subdivision = Subdivision {
     name: "Oplotnica",
     code: "SI-171",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "171",
@@ -35270,7 +34685,7 @@ pub const SI_171: Subdivision = Subdivision {
 pub const SI_172: Subdivision = Subdivision {
     name: "Podlehnik",
     code: "SI-172",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "172",
@@ -35279,7 +34694,7 @@ pub const SI_172: Subdivision = Subdivision {
 pub const SI_173: Subdivision = Subdivision {
     name: "Polzela",
     code: "SI-173",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "173",
@@ -35288,7 +34703,7 @@ pub const SI_173: Subdivision = Subdivision {
 pub const SI_174: Subdivision = Subdivision {
     name: "Prebold",
     code: "SI-174",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "174",
@@ -35297,7 +34712,7 @@ pub const SI_174: Subdivision = Subdivision {
 pub const SI_175: Subdivision = Subdivision {
     name: "Prevalje",
     code: "SI-175",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "175",
@@ -35306,7 +34721,7 @@ pub const SI_175: Subdivision = Subdivision {
 pub const SI_176: Subdivision = Subdivision {
     name: "Razkrižje",
     code: "SI-176",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "176",
@@ -35315,7 +34730,7 @@ pub const SI_176: Subdivision = Subdivision {
 pub const SI_177: Subdivision = Subdivision {
     name: "Ribnica na Pohorju",
     code: "SI-177",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "177",
@@ -35324,7 +34739,7 @@ pub const SI_177: Subdivision = Subdivision {
 pub const SI_178: Subdivision = Subdivision {
     name: "Selnica ob Dravi",
     code: "SI-178",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "178",
@@ -35333,7 +34748,7 @@ pub const SI_178: Subdivision = Subdivision {
 pub const SI_179: Subdivision = Subdivision {
     name: "Sodražica",
     code: "SI-179",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "179",
@@ -35342,7 +34757,7 @@ pub const SI_179: Subdivision = Subdivision {
 pub const SI_180: Subdivision = Subdivision {
     name: "Solčava",
     code: "SI-180",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "180",
@@ -35351,16 +34766,16 @@ pub const SI_180: Subdivision = Subdivision {
 pub const SI_181: Subdivision = Subdivision {
     name: "Sveta Ana",
     code: "SI-181",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "181",
 };
 
 pub const SI_182: Subdivision = Subdivision {
-    name: "Sveti Andraž v Slovenskih Goricah",
+    name: "Sveti Andraž v Slovenskih goricah",
     code: "SI-182",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "182",
@@ -35369,7 +34784,7 @@ pub const SI_182: Subdivision = Subdivision {
 pub const SI_183: Subdivision = Subdivision {
     name: "Šempeter-Vrtojba",
     code: "SI-183",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "183",
@@ -35378,7 +34793,7 @@ pub const SI_183: Subdivision = Subdivision {
 pub const SI_184: Subdivision = Subdivision {
     name: "Tabor",
     code: "SI-184",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "184",
@@ -35387,7 +34802,7 @@ pub const SI_184: Subdivision = Subdivision {
 pub const SI_185: Subdivision = Subdivision {
     name: "Trnovska Vas",
     code: "SI-185",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "185",
@@ -35396,7 +34811,7 @@ pub const SI_185: Subdivision = Subdivision {
 pub const SI_186: Subdivision = Subdivision {
     name: "Trzin",
     code: "SI-186",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "186",
@@ -35405,7 +34820,7 @@ pub const SI_186: Subdivision = Subdivision {
 pub const SI_187: Subdivision = Subdivision {
     name: "Velika Polana",
     code: "SI-187",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "187",
@@ -35414,7 +34829,7 @@ pub const SI_187: Subdivision = Subdivision {
 pub const SI_188: Subdivision = Subdivision {
     name: "Veržej",
     code: "SI-188",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "188",
@@ -35423,7 +34838,7 @@ pub const SI_188: Subdivision = Subdivision {
 pub const SI_189: Subdivision = Subdivision {
     name: "Vransko",
     code: "SI-189",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "189",
@@ -35432,7 +34847,7 @@ pub const SI_189: Subdivision = Subdivision {
 pub const SI_190: Subdivision = Subdivision {
     name: "Žalec",
     code: "SI-190",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "190",
@@ -35441,7 +34856,7 @@ pub const SI_190: Subdivision = Subdivision {
 pub const SI_191: Subdivision = Subdivision {
     name: "Žetale",
     code: "SI-191",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "191",
@@ -35450,7 +34865,7 @@ pub const SI_191: Subdivision = Subdivision {
 pub const SI_192: Subdivision = Subdivision {
     name: "Žirovnica",
     code: "SI-192",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "192",
@@ -35459,7 +34874,7 @@ pub const SI_192: Subdivision = Subdivision {
 pub const SI_193: Subdivision = Subdivision {
     name: "Žužemberk",
     code: "SI-193",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "193",
@@ -35468,7 +34883,7 @@ pub const SI_193: Subdivision = Subdivision {
 pub const SI_194: Subdivision = Subdivision {
     name: "Šmartno pri Litiji",
     code: "SI-194",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "194",
@@ -35477,7 +34892,7 @@ pub const SI_194: Subdivision = Subdivision {
 pub const SI_195: Subdivision = Subdivision {
     name: "Apače",
     code: "SI-195",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "195",
@@ -35486,16 +34901,16 @@ pub const SI_195: Subdivision = Subdivision {
 pub const SI_196: Subdivision = Subdivision {
     name: "Cirkulane",
     code: "SI-196",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "196",
 };
 
 pub const SI_197: Subdivision = Subdivision {
-    name: "Kosanjevica na Krki",
+    name: "Kostanjevica na Krki",
     code: "SI-197",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "197",
@@ -35504,7 +34919,7 @@ pub const SI_197: Subdivision = Subdivision {
 pub const SI_198: Subdivision = Subdivision {
     name: "Makole",
     code: "SI-198",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "198",
@@ -35513,7 +34928,7 @@ pub const SI_198: Subdivision = Subdivision {
 pub const SI_199: Subdivision = Subdivision {
     name: "Mokronog-Trebelno",
     code: "SI-199",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "199",
@@ -35522,7 +34937,7 @@ pub const SI_199: Subdivision = Subdivision {
 pub const SI_200: Subdivision = Subdivision {
     name: "Poljčane",
     code: "SI-200",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "200",
@@ -35531,7 +34946,7 @@ pub const SI_200: Subdivision = Subdivision {
 pub const SI_201: Subdivision = Subdivision {
     name: "Renče-Vogrsko",
     code: "SI-201",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "201",
@@ -35540,7 +34955,7 @@ pub const SI_201: Subdivision = Subdivision {
 pub const SI_202: Subdivision = Subdivision {
     name: "Središče ob Dravi",
     code: "SI-202",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "202",
@@ -35549,16 +34964,16 @@ pub const SI_202: Subdivision = Subdivision {
 pub const SI_203: Subdivision = Subdivision {
     name: "Straža",
     code: "SI-203",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "203",
 };
 
 pub const SI_204: Subdivision = Subdivision {
-    name: "Sveta Trojica v Slovenskih Goricah",
+    name: "Sveta Trojica v Slovenskih goricah",
     code: "SI-204",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "204",
@@ -35567,7 +34982,7 @@ pub const SI_204: Subdivision = Subdivision {
 pub const SI_205: Subdivision = Subdivision {
     name: "Sveti Tomaž",
     code: "SI-205",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "205",
@@ -35576,7 +34991,7 @@ pub const SI_205: Subdivision = Subdivision {
 pub const SI_206: Subdivision = Subdivision {
     name: "Šmarješke Toplice",
     code: "SI-206",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "206",
@@ -35585,7 +35000,7 @@ pub const SI_206: Subdivision = Subdivision {
 pub const SI_207: Subdivision = Subdivision {
     name: "Gorje",
     code: "SI-207",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "207",
@@ -35594,7 +35009,7 @@ pub const SI_207: Subdivision = Subdivision {
 pub const SI_208: Subdivision = Subdivision {
     name: "Log-Dragomer",
     code: "SI-208",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "208",
@@ -35603,16 +35018,16 @@ pub const SI_208: Subdivision = Subdivision {
 pub const SI_209: Subdivision = Subdivision {
     name: "Rečica ob Savinji",
     code: "SI-209",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "209",
 };
 
 pub const SI_210: Subdivision = Subdivision {
-    name: "Sveti Jurij v Slovenskih Goricah",
+    name: "Sveti Jurij v Slovenskih goricah",
     code: "SI-210",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "210",
@@ -35621,7 +35036,7 @@ pub const SI_210: Subdivision = Subdivision {
 pub const SI_211: Subdivision = Subdivision {
     name: "Šentrupert",
     code: "SI-211",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "211",
@@ -35630,10 +35045,19 @@ pub const SI_211: Subdivision = Subdivision {
 pub const SI_212: Subdivision = Subdivision {
     name: "Mirna",
     code: "SI-212",
-    subdivision_type: "Commune",
+    subdivision_type: "Municipality",
     country_name: "Slovenia",
     country_code: "SI",
     region_code: "212",
+};
+
+pub const SI_213: Subdivision = Subdivision {
+    name: "Ankaran",
+    code: "SI-213",
+    subdivision_type: "Municipality",
+    country_name: "Slovenia",
+    country_code: "SI",
+    region_code: "213",
 };
 
 pub const SB_CE: Subdivision = Subdivision {
@@ -35655,7 +35079,7 @@ pub const SB_CH: Subdivision = Subdivision {
 };
 
 pub const SB_CT: Subdivision = Subdivision {
-    name: "Capital Territory",
+    name: "Capital Territory (Honiara)",
     code: "SB-CT",
     subdivision_type: "Capital territory",
     country_name: "Solomon Islands",
@@ -35898,7 +35322,7 @@ pub const ZA_EC: Subdivision = Subdivision {
 };
 
 pub const ZA_FS: Subdivision = Subdivision {
-    name: "Foreisetata",
+    name: "Free State",
     code: "ZA-FS",
     subdivision_type: "Province",
     country_name: "South Africa",
@@ -35906,13 +35330,22 @@ pub const ZA_FS: Subdivision = Subdivision {
     region_code: "FS",
 };
 
-pub const ZA_GT: Subdivision = Subdivision {
+pub const ZA_GP: Subdivision = Subdivision {
     name: "Gauteng",
-    code: "ZA-GT",
+    code: "ZA-GP",
     subdivision_type: "Province",
     country_name: "South Africa",
     country_code: "ZA",
-    region_code: "GT",
+    region_code: "GP",
+};
+
+pub const ZA_KZN: Subdivision = Subdivision {
+    name: "Kwazulu-Natal",
+    code: "ZA-KZN",
+    subdivision_type: "Province",
+    country_name: "South Africa",
+    country_code: "ZA",
+    region_code: "KZN",
 };
 
 pub const ZA_LP: Subdivision = Subdivision {
@@ -35925,7 +35358,7 @@ pub const ZA_LP: Subdivision = Subdivision {
 };
 
 pub const ZA_MP: Subdivision = Subdivision {
-    name: "iMpumalanga",
+    name: "Mpumalanga",
     code: "ZA-MP",
     subdivision_type: "Province",
     country_name: "South Africa",
@@ -35934,7 +35367,7 @@ pub const ZA_MP: Subdivision = Subdivision {
 };
 
 pub const ZA_NC: Subdivision = Subdivision {
-    name: "iTlhagwini-Kapa",
+    name: "Northern Cape",
     code: "ZA-NC",
     subdivision_type: "Province",
     country_name: "South Africa",
@@ -35942,17 +35375,8 @@ pub const ZA_NC: Subdivision = Subdivision {
     region_code: "NC",
 };
 
-pub const ZA_NL: Subdivision = Subdivision {
-    name: "GaZulu-Natala",
-    code: "ZA-NL",
-    subdivision_type: "Province",
-    country_name: "South Africa",
-    country_code: "ZA",
-    region_code: "NL",
-};
-
 pub const ZA_NW: Subdivision = Subdivision {
-    name: "Bokone Bophirima",
+    name: "North-West",
     code: "ZA-NW",
     subdivision_type: "Province",
     country_name: "South Africa",
@@ -35961,7 +35385,7 @@ pub const ZA_NW: Subdivision = Subdivision {
 };
 
 pub const ZA_WC: Subdivision = Subdivision {
-    name: "iTjhingalanga-Kapa",
+    name: "Western Cape",
     code: "ZA-WC",
     subdivision_type: "Province",
     country_name: "South Africa",
@@ -36060,7 +35484,7 @@ pub const SS_WR: Subdivision = Subdivision {
 };
 
 pub const ES_A: Subdivision = Subdivision {
-    name: "Alacant*",
+    name: "Alicante",
     code: "ES-A",
     subdivision_type: "Province",
     country_name: "Spain",
@@ -36122,15 +35546,6 @@ pub const ES_AV: Subdivision = Subdivision {
     region_code: "AV",
 };
 
-pub const ES_BA: Subdivision = Subdivision {
-    name: "Badajoz",
-    code: "ES-BA",
-    subdivision_type: "Province",
-    country_name: "Spain",
-    country_code: "ES",
-    region_code: "BA",
-};
-
 pub const ES_B: Subdivision = Subdivision {
     name: "Barcelona",
     code: "ES-B",
@@ -36140,8 +35555,17 @@ pub const ES_B: Subdivision = Subdivision {
     region_code: "B",
 };
 
+pub const ES_BA: Subdivision = Subdivision {
+    name: "Badajoz",
+    code: "ES-BA",
+    subdivision_type: "Province",
+    country_name: "Spain",
+    country_code: "ES",
+    region_code: "BA",
+};
+
 pub const ES_BI: Subdivision = Subdivision {
-    name: "Bizkaia*",
+    name: "Bizkaia",
     code: "ES-BI",
     subdivision_type: "Province",
     country_name: "Spain",
@@ -36158,15 +35582,6 @@ pub const ES_BU: Subdivision = Subdivision {
     region_code: "BU",
 };
 
-pub const ES_CA: Subdivision = Subdivision {
-    name: "Cádiz",
-    code: "ES-CA",
-    subdivision_type: "Province",
-    country_name: "Spain",
-    country_code: "ES",
-    region_code: "CA",
-};
-
 pub const ES_C: Subdivision = Subdivision {
     name: "A Coruña",
     code: "ES-C",
@@ -36174,6 +35589,15 @@ pub const ES_C: Subdivision = Subdivision {
     country_name: "Spain",
     country_code: "ES",
     region_code: "C",
+};
+
+pub const ES_CA: Subdivision = Subdivision {
+    name: "Cádiz",
+    code: "ES-CA",
+    subdivision_type: "Province",
+    country_name: "Spain",
+    country_code: "ES",
+    region_code: "CA",
 };
 
 pub const ES_CB: Subdivision = Subdivision {
@@ -36249,7 +35673,7 @@ pub const ES_CR: Subdivision = Subdivision {
 };
 
 pub const ES_CS: Subdivision = Subdivision {
-    name: "Castelló*",
+    name: "Castellón",
     code: "ES-CS",
     subdivision_type: "Province",
     country_name: "Spain",
@@ -36365,15 +35789,6 @@ pub const ES_J: Subdivision = Subdivision {
     region_code: "J",
 };
 
-pub const ES_LE: Subdivision = Subdivision {
-    name: "León",
-    code: "ES-LE",
-    subdivision_type: "Province",
-    country_name: "Spain",
-    country_code: "ES",
-    region_code: "LE",
-};
-
 pub const ES_L: Subdivision = Subdivision {
     name: "Lleida",
     code: "ES-L",
@@ -36381,6 +35796,15 @@ pub const ES_L: Subdivision = Subdivision {
     country_name: "Spain",
     country_code: "ES",
     region_code: "L",
+};
+
+pub const ES_LE: Subdivision = Subdivision {
+    name: "León",
+    code: "ES-LE",
+    subdivision_type: "Province",
+    country_name: "Spain",
+    country_code: "ES",
+    region_code: "LE",
 };
 
 pub const ES_LO: Subdivision = Subdivision {
@@ -36399,6 +35823,15 @@ pub const ES_LU: Subdivision = Subdivision {
     country_name: "Spain",
     country_code: "ES",
     region_code: "LU",
+};
+
+pub const ES_M: Subdivision = Subdivision {
+    name: "Madrid",
+    code: "ES-M",
+    subdivision_type: "Province",
+    country_name: "Spain",
+    country_code: "ES",
+    region_code: "M",
 };
 
 pub const ES_MA: Subdivision = Subdivision {
@@ -36437,15 +35870,6 @@ pub const ES_ML: Subdivision = Subdivision {
     region_code: "ML",
 };
 
-pub const ES_M: Subdivision = Subdivision {
-    name: "Madrid",
-    code: "ES-M",
-    subdivision_type: "Province",
-    country_name: "Spain",
-    country_code: "ES",
-    region_code: "M",
-};
-
 pub const ES_MU: Subdivision = Subdivision {
     name: "Murcia",
     code: "ES-MU",
@@ -36456,7 +35880,7 @@ pub const ES_MU: Subdivision = Subdivision {
 };
 
 pub const ES_NA: Subdivision = Subdivision {
-    name: "Nafarroa*",
+    name: "Navarra",
     code: "ES-NA",
     subdivision_type: "Province",
     country_name: "Spain",
@@ -36465,7 +35889,7 @@ pub const ES_NA: Subdivision = Subdivision {
 };
 
 pub const ES_NC: Subdivision = Subdivision {
-    name: "Nafarroako Foru Komunitatea*",
+    name: "Navarra, Comunidad Foral de",
     code: "ES-NC",
     subdivision_type: "Autonomous community",
     country_name: "Spain",
@@ -36491,8 +35915,17 @@ pub const ES_OR: Subdivision = Subdivision {
     region_code: "OR",
 };
 
+pub const ES_P: Subdivision = Subdivision {
+    name: "Palencia",
+    code: "ES-P",
+    subdivision_type: "Province",
+    country_name: "Spain",
+    country_code: "ES",
+    region_code: "P",
+};
+
 pub const ES_PM: Subdivision = Subdivision {
-    name: "Balears",
+    name: "Illes Balears",
     code: "ES-PM",
     subdivision_type: "Province",
     country_name: "Spain",
@@ -36509,17 +35942,8 @@ pub const ES_PO: Subdivision = Subdivision {
     region_code: "PO",
 };
 
-pub const ES_P: Subdivision = Subdivision {
-    name: "Palencia",
-    code: "ES-P",
-    subdivision_type: "Province",
-    country_name: "Spain",
-    country_code: "ES",
-    region_code: "P",
-};
-
 pub const ES_PV: Subdivision = Subdivision {
-    name: "Euskal Herria",
+    name: "País Vasco",
     code: "ES-PV",
     subdivision_type: "Autonomous community",
     country_name: "Spain",
@@ -36536,15 +35960,6 @@ pub const ES_RI: Subdivision = Subdivision {
     region_code: "RI",
 };
 
-pub const ES_SA: Subdivision = Subdivision {
-    name: "Salamanca",
-    code: "ES-SA",
-    subdivision_type: "Province",
-    country_name: "Spain",
-    country_code: "ES",
-    region_code: "SA",
-};
-
 pub const ES_S: Subdivision = Subdivision {
     name: "Cantabria",
     code: "ES-S",
@@ -36552,6 +35967,15 @@ pub const ES_S: Subdivision = Subdivision {
     country_name: "Spain",
     country_code: "ES",
     region_code: "S",
+};
+
+pub const ES_SA: Subdivision = Subdivision {
+    name: "Salamanca",
+    code: "ES-SA",
+    subdivision_type: "Province",
+    country_name: "Spain",
+    country_code: "ES",
+    region_code: "SA",
 };
 
 pub const ES_SE: Subdivision = Subdivision {
@@ -36582,12 +36006,21 @@ pub const ES_SO: Subdivision = Subdivision {
 };
 
 pub const ES_SS: Subdivision = Subdivision {
-    name: "Gipuzkoa*",
+    name: "Gipuzkoa",
     code: "ES-SS",
     subdivision_type: "Province",
     country_name: "Spain",
     country_code: "ES",
     region_code: "SS",
+};
+
+pub const ES_T: Subdivision = Subdivision {
+    name: "Tarragona",
+    code: "ES-T",
+    subdivision_type: "Province",
+    country_name: "Spain",
+    country_code: "ES",
+    region_code: "T",
 };
 
 pub const ES_TE: Subdivision = Subdivision {
@@ -36617,13 +36050,13 @@ pub const ES_TO: Subdivision = Subdivision {
     region_code: "TO",
 };
 
-pub const ES_T: Subdivision = Subdivision {
-    name: "Tarragona",
-    code: "ES-T",
+pub const ES_V: Subdivision = Subdivision {
+    name: "Valencia",
+    code: "ES-V",
     subdivision_type: "Province",
     country_name: "Spain",
     country_code: "ES",
-    region_code: "T",
+    region_code: "V",
 };
 
 pub const ES_VA: Subdivision = Subdivision {
@@ -36653,13 +36086,13 @@ pub const ES_VI: Subdivision = Subdivision {
     region_code: "VI",
 };
 
-pub const ES_V: Subdivision = Subdivision {
-    name: "Valencia",
-    code: "ES-V",
+pub const ES_Z: Subdivision = Subdivision {
+    name: "Zaragoza",
+    code: "ES-Z",
     subdivision_type: "Province",
     country_name: "Spain",
     country_code: "ES",
-    region_code: "V",
+    region_code: "Z",
 };
 
 pub const ES_ZA: Subdivision = Subdivision {
@@ -36671,13 +36104,13 @@ pub const ES_ZA: Subdivision = Subdivision {
     region_code: "ZA",
 };
 
-pub const ES_Z: Subdivision = Subdivision {
-    name: "Zaragoza",
-    code: "ES-Z",
+pub const LK_1: Subdivision = Subdivision {
+    name: "Western Province",
+    code: "LK-1",
     subdivision_type: "Province",
-    country_name: "Spain",
-    country_code: "ES",
-    region_code: "Z",
+    country_name: "Sri Lanka",
+    country_code: "LK",
+    region_code: "1",
 };
 
 pub const LK_11: Subdivision = Subdivision {
@@ -36707,13 +36140,13 @@ pub const LK_13: Subdivision = Subdivision {
     region_code: "13",
 };
 
-pub const LK_1: Subdivision = Subdivision {
-    name: "Basnāhira paḷāta",
-    code: "LK-1",
+pub const LK_2: Subdivision = Subdivision {
+    name: "Central Province",
+    code: "LK-2",
     subdivision_type: "Province",
     country_name: "Sri Lanka",
     country_code: "LK",
-    region_code: "1",
+    region_code: "2",
 };
 
 pub const LK_21: Subdivision = Subdivision {
@@ -36735,7 +36168,7 @@ pub const LK_22: Subdivision = Subdivision {
 };
 
 pub const LK_23: Subdivision = Subdivision {
-    name: "Nuvara Ĕliya",
+    name: "Nuwara Eliya",
     code: "LK-23",
     subdivision_type: "District",
     country_name: "Sri Lanka",
@@ -36743,17 +36176,17 @@ pub const LK_23: Subdivision = Subdivision {
     region_code: "23",
 };
 
-pub const LK_2: Subdivision = Subdivision {
-    name: "Central Province",
-    code: "LK-2",
+pub const LK_3: Subdivision = Subdivision {
+    name: "Southern Province",
+    code: "LK-3",
     subdivision_type: "Province",
     country_name: "Sri Lanka",
     country_code: "LK",
-    region_code: "2",
+    region_code: "3",
 };
 
 pub const LK_31: Subdivision = Subdivision {
-    name: "Gālla",
+    name: "Galle",
     code: "LK-31",
     subdivision_type: "District",
     country_name: "Sri Lanka",
@@ -36771,7 +36204,7 @@ pub const LK_32: Subdivision = Subdivision {
 };
 
 pub const LK_33: Subdivision = Subdivision {
-    name: "Ampāntōṭṭai",
+    name: "Hambantota",
     code: "LK-33",
     subdivision_type: "District",
     country_name: "Sri Lanka",
@@ -36779,13 +36212,13 @@ pub const LK_33: Subdivision = Subdivision {
     region_code: "33",
 };
 
-pub const LK_3: Subdivision = Subdivision {
-    name: "Dakuṇu paḷāta",
-    code: "LK-3",
+pub const LK_4: Subdivision = Subdivision {
+    name: "Northern Province",
+    code: "LK-4",
     subdivision_type: "Province",
     country_name: "Sri Lanka",
     country_code: "LK",
-    region_code: "3",
+    region_code: "4",
 };
 
 pub const LK_41: Subdivision = Subdivision {
@@ -36825,7 +36258,7 @@ pub const LK_44: Subdivision = Subdivision {
 };
 
 pub const LK_45: Subdivision = Subdivision {
-    name: "Mulativ",
+    name: "Mullaittivu",
     code: "LK-45",
     subdivision_type: "District",
     country_name: "Sri Lanka",
@@ -36833,13 +36266,13 @@ pub const LK_45: Subdivision = Subdivision {
     region_code: "45",
 };
 
-pub const LK_4: Subdivision = Subdivision {
-    name: "Northern Province",
-    code: "LK-4",
+pub const LK_5: Subdivision = Subdivision {
+    name: "Eastern Province",
+    code: "LK-5",
     subdivision_type: "Province",
     country_name: "Sri Lanka",
     country_code: "LK",
-    region_code: "4",
+    region_code: "5",
 };
 
 pub const LK_51: Subdivision = Subdivision {
@@ -36861,7 +36294,7 @@ pub const LK_52: Subdivision = Subdivision {
 };
 
 pub const LK_53: Subdivision = Subdivision {
-    name: "Tirukŏṇamalai",
+    name: "Trincomalee",
     code: "LK-53",
     subdivision_type: "District",
     country_name: "Sri Lanka",
@@ -36869,17 +36302,17 @@ pub const LK_53: Subdivision = Subdivision {
     region_code: "53",
 };
 
-pub const LK_5: Subdivision = Subdivision {
-    name: "Eastern Province",
-    code: "LK-5",
+pub const LK_6: Subdivision = Subdivision {
+    name: "North Western Province",
+    code: "LK-6",
     subdivision_type: "Province",
     country_name: "Sri Lanka",
     country_code: "LK",
-    region_code: "5",
+    region_code: "6",
 };
 
 pub const LK_61: Subdivision = Subdivision {
-    name: "Kuruṇægala",
+    name: "Kurunegala",
     code: "LK-61",
     subdivision_type: "District",
     country_name: "Sri Lanka",
@@ -36896,13 +36329,13 @@ pub const LK_62: Subdivision = Subdivision {
     region_code: "62",
 };
 
-pub const LK_6: Subdivision = Subdivision {
-    name: "North Western Province",
-    code: "LK-6",
+pub const LK_7: Subdivision = Subdivision {
+    name: "North Central Province",
+    code: "LK-7",
     subdivision_type: "Province",
     country_name: "Sri Lanka",
     country_code: "LK",
-    region_code: "6",
+    region_code: "7",
 };
 
 pub const LK_71: Subdivision = Subdivision {
@@ -36915,7 +36348,7 @@ pub const LK_71: Subdivision = Subdivision {
 };
 
 pub const LK_72: Subdivision = Subdivision {
-    name: "Pŏlaṉṉaṛuvai",
+    name: "Polonnaruwa",
     code: "LK-72",
     subdivision_type: "District",
     country_name: "Sri Lanka",
@@ -36923,13 +36356,13 @@ pub const LK_72: Subdivision = Subdivision {
     region_code: "72",
 };
 
-pub const LK_7: Subdivision = Subdivision {
-    name: "North Central Province",
-    code: "LK-7",
+pub const LK_8: Subdivision = Subdivision {
+    name: "Uva Province",
+    code: "LK-8",
     subdivision_type: "Province",
     country_name: "Sri Lanka",
     country_code: "LK",
-    region_code: "7",
+    region_code: "8",
 };
 
 pub const LK_81: Subdivision = Subdivision {
@@ -36950,17 +36383,17 @@ pub const LK_82: Subdivision = Subdivision {
     region_code: "82",
 };
 
-pub const LK_8: Subdivision = Subdivision {
-    name: "Ūvā mākāṇam",
-    code: "LK-8",
+pub const LK_9: Subdivision = Subdivision {
+    name: "Sabaragamuwa Province",
+    code: "LK-9",
     subdivision_type: "Province",
     country_name: "Sri Lanka",
     country_code: "LK",
-    region_code: "8",
+    region_code: "9",
 };
 
 pub const LK_91: Subdivision = Subdivision {
-    name: "Irattiṉapuri",
+    name: "Ratnapura",
     code: "LK-91",
     subdivision_type: "District",
     country_name: "Sri Lanka",
@@ -36969,57 +36402,12 @@ pub const LK_91: Subdivision = Subdivision {
 };
 
 pub const LK_92: Subdivision = Subdivision {
-    name: "Kægalla",
+    name: "Kegalla",
     code: "LK-92",
     subdivision_type: "District",
     country_name: "Sri Lanka",
     country_code: "LK",
     region_code: "92",
-};
-
-pub const LK_9: Subdivision = Subdivision {
-    name: "Chappirakamuva mākāṇam",
-    code: "LK-9",
-    subdivision_type: "Province",
-    country_name: "Sri Lanka",
-    country_code: "LK",
-    region_code: "9",
-};
-
-pub const BL_BL: Subdivision = Subdivision {
-    name: "St. Barthélemy",
-    code: "BL-BL",
-    subdivision_type: "Country",
-    country_name: "St. Barthélemy",
-    country_code: "BL",
-    region_code: "BL",
-};
-
-pub const SX_SX: Subdivision = Subdivision {
-    name: "St. Maarten",
-    code: "SX-SX",
-    subdivision_type: "Country",
-    country_name: "St. Maarten",
-    country_code: "SX",
-    region_code: "SX",
-};
-
-pub const MF_MF: Subdivision = Subdivision {
-    name: "St. Martin",
-    code: "MF-MF",
-    subdivision_type: "Country",
-    country_name: "St. Martin",
-    country_code: "MF",
-    region_code: "MF",
-};
-
-pub const PM_PM: Subdivision = Subdivision {
-    name: "St. Pierre & Miquelon",
-    code: "PM-PM",
-    subdivision_type: "Country",
-    country_name: "St. Pierre & Miquelon",
-    country_code: "PM",
-    region_code: "PM",
 };
 
 pub const SD_DC: Subdivision = Subdivision {
@@ -37050,7 +36438,7 @@ pub const SD_DN: Subdivision = Subdivision {
 };
 
 pub const SD_DS: Subdivision = Subdivision {
-    name: "Janūb Dārfūr",
+    name: "South Darfur",
     code: "SD-DS",
     subdivision_type: "State",
     country_name: "Sudan",
@@ -37059,7 +36447,7 @@ pub const SD_DS: Subdivision = Subdivision {
 };
 
 pub const SD_DW: Subdivision = Subdivision {
-    name: "Gharb Dārfūr",
+    name: "West Darfur",
     code: "SD-DW",
     subdivision_type: "State",
     country_name: "Sudan",
@@ -37068,7 +36456,7 @@ pub const SD_DW: Subdivision = Subdivision {
 };
 
 pub const SD_GD: Subdivision = Subdivision {
-    name: "Al Qaḑārif",
+    name: "Gedaref",
     code: "SD-GD",
     subdivision_type: "State",
     country_name: "Sudan",
@@ -37076,8 +36464,17 @@ pub const SD_GD: Subdivision = Subdivision {
     region_code: "GD",
 };
 
+pub const SD_GK: Subdivision = Subdivision {
+    name: "West Kordofan",
+    code: "SD-GK",
+    subdivision_type: "State",
+    country_name: "Sudan",
+    country_code: "SD",
+    region_code: "GK",
+};
+
 pub const SD_GZ: Subdivision = Subdivision {
-    name: "Al Jazīrah",
+    name: "Gezira",
     code: "SD-GZ",
     subdivision_type: "State",
     country_name: "Sudan",
@@ -37095,7 +36492,7 @@ pub const SD_KA: Subdivision = Subdivision {
 };
 
 pub const SD_KH: Subdivision = Subdivision {
-    name: "Al Kharţūm",
+    name: "Khartoum",
     code: "SD-KH",
     subdivision_type: "State",
     country_name: "Sudan",
@@ -37113,7 +36510,7 @@ pub const SD_KN: Subdivision = Subdivision {
 };
 
 pub const SD_KS: Subdivision = Subdivision {
-    name: "Janūb Kurdufān",
+    name: "South Kordofan",
     code: "SD-KS",
     subdivision_type: "State",
     country_name: "Sudan",
@@ -37122,7 +36519,7 @@ pub const SD_KS: Subdivision = Subdivision {
 };
 
 pub const SD_NB: Subdivision = Subdivision {
-    name: "An Nīl al Azraq",
+    name: "Blue Nile",
     code: "SD-NB",
     subdivision_type: "State",
     country_name: "Sudan",
@@ -37131,7 +36528,7 @@ pub const SD_NB: Subdivision = Subdivision {
 };
 
 pub const SD_NO: Subdivision = Subdivision {
-    name: "Ash Shamālīyah",
+    name: "Northern",
     code: "SD-NO",
     subdivision_type: "State",
     country_name: "Sudan",
@@ -37140,7 +36537,7 @@ pub const SD_NO: Subdivision = Subdivision {
 };
 
 pub const SD_NR: Subdivision = Subdivision {
-    name: "An Nīl",
+    name: "River Nile",
     code: "SD-NR",
     subdivision_type: "State",
     country_name: "Sudan",
@@ -37149,7 +36546,7 @@ pub const SD_NR: Subdivision = Subdivision {
 };
 
 pub const SD_NW: Subdivision = Subdivision {
-    name: "An Nīl al Abyaḑ",
+    name: "White Nile",
     code: "SD-NW",
     subdivision_type: "State",
     country_name: "Sudan",
@@ -37158,7 +36555,7 @@ pub const SD_NW: Subdivision = Subdivision {
 };
 
 pub const SD_RS: Subdivision = Subdivision {
-    name: "Al Baḩr al Aḩmar",
+    name: "Red Sea",
     code: "SD-RS",
     subdivision_type: "State",
     country_name: "Sudan",
@@ -37263,51 +36660,6 @@ pub const SR_WA: Subdivision = Subdivision {
     country_name: "Suriname",
     country_code: "SR",
     region_code: "WA",
-};
-
-pub const SJ_SJ: Subdivision = Subdivision {
-    name: "Svalbard & Jan Mayen Islands",
-    code: "SJ-SJ",
-    subdivision_type: "Country",
-    country_name: "Svalbard & Jan Mayen Islands",
-    country_code: "SJ",
-    region_code: "SJ",
-};
-
-pub const SZ_HH: Subdivision = Subdivision {
-    name: "Hhohho",
-    code: "SZ-HH",
-    subdivision_type: "District",
-    country_name: "Swaziland",
-    country_code: "SZ",
-    region_code: "HH",
-};
-
-pub const SZ_LU: Subdivision = Subdivision {
-    name: "Lubombo",
-    code: "SZ-LU",
-    subdivision_type: "District",
-    country_name: "Swaziland",
-    country_code: "SZ",
-    region_code: "LU",
-};
-
-pub const SZ_MA: Subdivision = Subdivision {
-    name: "Manzini",
-    code: "SZ-MA",
-    subdivision_type: "District",
-    country_name: "Swaziland",
-    country_code: "SZ",
-    region_code: "MA",
-};
-
-pub const SZ_SH: Subdivision = Subdivision {
-    name: "Shiselweni",
-    code: "SZ-SH",
-    subdivision_type: "District",
-    country_name: "Swaziland",
-    country_code: "SZ",
-    region_code: "SH",
 };
 
 pub const SE_AB: Subdivision = Subdivision {
@@ -37527,7 +36879,7 @@ pub const CH_AR: Subdivision = Subdivision {
 };
 
 pub const CH_BE: Subdivision = Subdivision {
-    name: "Bern",
+    name: "Berne",
     code: "CH-BE",
     subdivision_type: "Canton",
     country_name: "Switzerland",
@@ -37554,7 +36906,7 @@ pub const CH_BS: Subdivision = Subdivision {
 };
 
 pub const CH_FR: Subdivision = Subdivision {
-    name: "Freiburg",
+    name: "Fribourg",
     code: "CH-FR",
     subdivision_type: "Canton",
     country_name: "Switzerland",
@@ -37737,7 +37089,7 @@ pub const SY_DI: Subdivision = Subdivision {
     name: "Dimashq",
     code: "SY-DI",
     subdivision_type: "Province",
-    country_name: "Syria",
+    country_name: "Syrian Arab Republic",
     country_code: "SY",
     region_code: "DI",
 };
@@ -37746,7 +37098,7 @@ pub const SY_DR: Subdivision = Subdivision {
     name: "Dar'ā",
     code: "SY-DR",
     subdivision_type: "Province",
-    country_name: "Syria",
+    country_name: "Syrian Arab Republic",
     country_code: "SY",
     region_code: "DR",
 };
@@ -37755,7 +37107,7 @@ pub const SY_DY: Subdivision = Subdivision {
     name: "Dayr az Zawr",
     code: "SY-DY",
     subdivision_type: "Province",
-    country_name: "Syria",
+    country_name: "Syrian Arab Republic",
     country_code: "SY",
     region_code: "DY",
 };
@@ -37764,7 +37116,7 @@ pub const SY_HA: Subdivision = Subdivision {
     name: "Al Ḩasakah",
     code: "SY-HA",
     subdivision_type: "Province",
-    country_name: "Syria",
+    country_name: "Syrian Arab Republic",
     country_code: "SY",
     region_code: "HA",
 };
@@ -37773,7 +37125,7 @@ pub const SY_HI: Subdivision = Subdivision {
     name: "Ḩimş",
     code: "SY-HI",
     subdivision_type: "Province",
-    country_name: "Syria",
+    country_name: "Syrian Arab Republic",
     country_code: "SY",
     region_code: "HI",
 };
@@ -37782,7 +37134,7 @@ pub const SY_HL: Subdivision = Subdivision {
     name: "Ḩalab",
     code: "SY-HL",
     subdivision_type: "Province",
-    country_name: "Syria",
+    country_name: "Syrian Arab Republic",
     country_code: "SY",
     region_code: "HL",
 };
@@ -37791,7 +37143,7 @@ pub const SY_HM: Subdivision = Subdivision {
     name: "Ḩamāh",
     code: "SY-HM",
     subdivision_type: "Province",
-    country_name: "Syria",
+    country_name: "Syrian Arab Republic",
     country_code: "SY",
     region_code: "HM",
 };
@@ -37800,7 +37152,7 @@ pub const SY_ID: Subdivision = Subdivision {
     name: "Idlib",
     code: "SY-ID",
     subdivision_type: "Province",
-    country_name: "Syria",
+    country_name: "Syrian Arab Republic",
     country_code: "SY",
     region_code: "ID",
 };
@@ -37809,7 +37161,7 @@ pub const SY_LA: Subdivision = Subdivision {
     name: "Al Lādhiqīyah",
     code: "SY-LA",
     subdivision_type: "Province",
-    country_name: "Syria",
+    country_name: "Syrian Arab Republic",
     country_code: "SY",
     region_code: "LA",
 };
@@ -37818,7 +37170,7 @@ pub const SY_QU: Subdivision = Subdivision {
     name: "Al Qunayţirah",
     code: "SY-QU",
     subdivision_type: "Province",
-    country_name: "Syria",
+    country_name: "Syrian Arab Republic",
     country_code: "SY",
     region_code: "QU",
 };
@@ -37827,7 +37179,7 @@ pub const SY_RA: Subdivision = Subdivision {
     name: "Ar Raqqah",
     code: "SY-RA",
     subdivision_type: "Province",
-    country_name: "Syria",
+    country_name: "Syrian Arab Republic",
     country_code: "SY",
     region_code: "RA",
 };
@@ -37836,7 +37188,7 @@ pub const SY_RD: Subdivision = Subdivision {
     name: "Rīf Dimashq",
     code: "SY-RD",
     subdivision_type: "Province",
-    country_name: "Syria",
+    country_name: "Syrian Arab Republic",
     country_code: "SY",
     region_code: "RD",
 };
@@ -37845,7 +37197,7 @@ pub const SY_SU: Subdivision = Subdivision {
     name: "As Suwaydā'",
     code: "SY-SU",
     subdivision_type: "Province",
-    country_name: "Syria",
+    country_name: "Syrian Arab Republic",
     country_code: "SY",
     region_code: "SU",
 };
@@ -37854,7 +37206,7 @@ pub const SY_TA: Subdivision = Subdivision {
     name: "Ţarţūs",
     code: "SY-TA",
     subdivision_type: "Province",
-    country_name: "Syria",
+    country_name: "Syrian Arab Republic",
     country_code: "SY",
     region_code: "TA",
 };
@@ -37862,8 +37214,8 @@ pub const SY_TA: Subdivision = Subdivision {
 pub const TW_CHA: Subdivision = Subdivision {
     name: "Changhua",
     code: "TW-CHA",
-    subdivision_type: "District",
-    country_name: "Taiwan",
+    subdivision_type: "County",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "CHA",
 };
@@ -37871,8 +37223,8 @@ pub const TW_CHA: Subdivision = Subdivision {
 pub const TW_CYI: Subdivision = Subdivision {
     name: "Chiayi",
     code: "TW-CYI",
-    subdivision_type: "Municipality",
-    country_name: "Taiwan",
+    subdivision_type: "City",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "CYI",
 };
@@ -37880,8 +37232,8 @@ pub const TW_CYI: Subdivision = Subdivision {
 pub const TW_CYQ: Subdivision = Subdivision {
     name: "Chiayi",
     code: "TW-CYQ",
-    subdivision_type: "District",
-    country_name: "Taiwan",
+    subdivision_type: "County",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "CYQ",
 };
@@ -37889,8 +37241,8 @@ pub const TW_CYQ: Subdivision = Subdivision {
 pub const TW_HSQ: Subdivision = Subdivision {
     name: "Hsinchu",
     code: "TW-HSQ",
-    subdivision_type: "District",
-    country_name: "Taiwan",
+    subdivision_type: "County",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "HSQ",
 };
@@ -37898,8 +37250,8 @@ pub const TW_HSQ: Subdivision = Subdivision {
 pub const TW_HSZ: Subdivision = Subdivision {
     name: "Hsinchu",
     code: "TW-HSZ",
-    subdivision_type: "Municipality",
-    country_name: "Taiwan",
+    subdivision_type: "City",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "HSZ",
 };
@@ -37907,17 +37259,17 @@ pub const TW_HSZ: Subdivision = Subdivision {
 pub const TW_HUA: Subdivision = Subdivision {
     name: "Hualien",
     code: "TW-HUA",
-    subdivision_type: "District",
-    country_name: "Taiwan",
+    subdivision_type: "County",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "HUA",
 };
 
 pub const TW_ILA: Subdivision = Subdivision {
-    name: "Ilan",
+    name: "Yilan",
     code: "TW-ILA",
-    subdivision_type: "District",
-    country_name: "Taiwan",
+    subdivision_type: "County",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "ILA",
 };
@@ -37925,8 +37277,8 @@ pub const TW_ILA: Subdivision = Subdivision {
 pub const TW_KEE: Subdivision = Subdivision {
     name: "Keelung",
     code: "TW-KEE",
-    subdivision_type: "Municipality",
-    country_name: "Taiwan",
+    subdivision_type: "City",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "KEE",
 };
@@ -37935,25 +37287,34 @@ pub const TW_KHH: Subdivision = Subdivision {
     name: "Kaohsiung",
     code: "TW-KHH",
     subdivision_type: "Special municipality",
-    country_name: "Taiwan",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "KHH",
 };
 
-pub const TW_KHQ: Subdivision = Subdivision {
-    name: "Kaohsiung",
-    code: "TW-KHQ",
-    subdivision_type: "District",
-    country_name: "Taiwan",
+pub const TW_KIN: Subdivision = Subdivision {
+    name: "Kinmen",
+    code: "TW-KIN",
+    subdivision_type: "County",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
-    region_code: "KHQ",
+    region_code: "KIN",
+};
+
+pub const TW_LIE: Subdivision = Subdivision {
+    name: "Lienchiang",
+    code: "TW-LIE",
+    subdivision_type: "County",
+    country_name: "Taiwan (Province of China)",
+    country_code: "TW",
+    region_code: "LIE",
 };
 
 pub const TW_MIA: Subdivision = Subdivision {
     name: "Miaoli",
     code: "TW-MIA",
-    subdivision_type: "District",
-    country_name: "Taiwan",
+    subdivision_type: "County",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "MIA",
 };
@@ -37961,17 +37322,26 @@ pub const TW_MIA: Subdivision = Subdivision {
 pub const TW_NAN: Subdivision = Subdivision {
     name: "Nantou",
     code: "TW-NAN",
-    subdivision_type: "District",
-    country_name: "Taiwan",
+    subdivision_type: "County",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "NAN",
+};
+
+pub const TW_NWT: Subdivision = Subdivision {
+    name: "New Taipei",
+    code: "TW-NWT",
+    subdivision_type: "Special municipality",
+    country_name: "Taiwan (Province of China)",
+    country_code: "TW",
+    region_code: "NWT",
 };
 
 pub const TW_PEN: Subdivision = Subdivision {
     name: "Penghu",
     code: "TW-PEN",
-    subdivision_type: "District",
-    country_name: "Taiwan",
+    subdivision_type: "County",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "PEN",
 };
@@ -37979,8 +37349,8 @@ pub const TW_PEN: Subdivision = Subdivision {
 pub const TW_PIF: Subdivision = Subdivision {
     name: "Pingtung",
     code: "TW-PIF",
-    subdivision_type: "District",
-    country_name: "Taiwan",
+    subdivision_type: "County",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "PIF",
 };
@@ -37988,8 +37358,8 @@ pub const TW_PIF: Subdivision = Subdivision {
 pub const TW_TAO: Subdivision = Subdivision {
     name: "Taoyuan",
     code: "TW-TAO",
-    subdivision_type: "District",
-    country_name: "Taiwan",
+    subdivision_type: "Special municipality",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "TAO",
 };
@@ -37997,44 +37367,26 @@ pub const TW_TAO: Subdivision = Subdivision {
 pub const TW_TNN: Subdivision = Subdivision {
     name: "Tainan",
     code: "TW-TNN",
-    subdivision_type: "Municipality",
-    country_name: "Taiwan",
+    subdivision_type: "Special municipality",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "TNN",
-};
-
-pub const TW_TNQ: Subdivision = Subdivision {
-    name: "Tainan",
-    code: "TW-TNQ",
-    subdivision_type: "District",
-    country_name: "Taiwan",
-    country_code: "TW",
-    region_code: "TNQ",
 };
 
 pub const TW_TPE: Subdivision = Subdivision {
     name: "Taipei",
     code: "TW-TPE",
     subdivision_type: "Special municipality",
-    country_name: "Taiwan",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "TPE",
-};
-
-pub const TW_TPQ: Subdivision = Subdivision {
-    name: "Taipei",
-    code: "TW-TPQ",
-    subdivision_type: "District",
-    country_name: "Taiwan",
-    country_code: "TW",
-    region_code: "TPQ",
 };
 
 pub const TW_TTT: Subdivision = Subdivision {
     name: "Taitung",
     code: "TW-TTT",
-    subdivision_type: "District",
-    country_name: "Taiwan",
+    subdivision_type: "County",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "TTT",
 };
@@ -38042,26 +37394,17 @@ pub const TW_TTT: Subdivision = Subdivision {
 pub const TW_TXG: Subdivision = Subdivision {
     name: "Taichung",
     code: "TW-TXG",
-    subdivision_type: "Municipality",
-    country_name: "Taiwan",
+    subdivision_type: "Special municipality",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "TXG",
-};
-
-pub const TW_TXQ: Subdivision = Subdivision {
-    name: "Taichung",
-    code: "TW-TXQ",
-    subdivision_type: "District",
-    country_name: "Taiwan",
-    country_code: "TW",
-    region_code: "TXQ",
 };
 
 pub const TW_YUN: Subdivision = Subdivision {
     name: "Yunlin",
     code: "TW-YUN",
-    subdivision_type: "District",
-    country_name: "Taiwan",
+    subdivision_type: "County",
+    country_name: "Taiwan (Province of China)",
     country_code: "TW",
     region_code: "YUN",
 };
@@ -38093,6 +37436,15 @@ pub const TJ_KT: Subdivision = Subdivision {
     region_code: "KT",
 };
 
+pub const TJ_RA: Subdivision = Subdivision {
+    name: "nohiyahoi tobei jumhurí",
+    code: "TJ-RA",
+    subdivision_type: "Districts under republic administration",
+    country_name: "Tajikistan",
+    country_code: "TJ",
+    region_code: "RA",
+};
+
 pub const TJ_SU: Subdivision = Subdivision {
     name: "Sughd",
     code: "TJ-SU",
@@ -38106,7 +37458,7 @@ pub const TZ_01: Subdivision = Subdivision {
     name: "Arusha",
     code: "TZ-01",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "01",
 };
@@ -38115,7 +37467,7 @@ pub const TZ_02: Subdivision = Subdivision {
     name: "Dar es Salaam",
     code: "TZ-02",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "02",
 };
@@ -38124,7 +37476,7 @@ pub const TZ_03: Subdivision = Subdivision {
     name: "Dodoma",
     code: "TZ-03",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "03",
 };
@@ -38133,7 +37485,7 @@ pub const TZ_04: Subdivision = Subdivision {
     name: "Iringa",
     code: "TZ-04",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "04",
 };
@@ -38142,25 +37494,25 @@ pub const TZ_05: Subdivision = Subdivision {
     name: "Kagera",
     code: "TZ-05",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "05",
 };
 
 pub const TZ_06: Subdivision = Subdivision {
-    name: "Kaskazini Pemba",
+    name: "Pemba North",
     code: "TZ-06",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "06",
 };
 
 pub const TZ_07: Subdivision = Subdivision {
-    name: "Kaskazini Unguja",
+    name: "Zanzibar North",
     code: "TZ-07",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "07",
 };
@@ -38169,7 +37521,7 @@ pub const TZ_08: Subdivision = Subdivision {
     name: "Kigoma",
     code: "TZ-08",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "08",
 };
@@ -38178,25 +37530,25 @@ pub const TZ_09: Subdivision = Subdivision {
     name: "Kilimanjaro",
     code: "TZ-09",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "09",
 };
 
 pub const TZ_10: Subdivision = Subdivision {
-    name: "Kusini Pemba",
+    name: "Pemba South",
     code: "TZ-10",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "10",
 };
 
 pub const TZ_11: Subdivision = Subdivision {
-    name: "Kusini Unguja",
+    name: "Zanzibar South",
     code: "TZ-11",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "11",
 };
@@ -38205,7 +37557,7 @@ pub const TZ_12: Subdivision = Subdivision {
     name: "Lindi",
     code: "TZ-12",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "12",
 };
@@ -38214,7 +37566,7 @@ pub const TZ_13: Subdivision = Subdivision {
     name: "Mara",
     code: "TZ-13",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "13",
 };
@@ -38223,16 +37575,16 @@ pub const TZ_14: Subdivision = Subdivision {
     name: "Mbeya",
     code: "TZ-14",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "14",
 };
 
 pub const TZ_15: Subdivision = Subdivision {
-    name: "Mjini Magharibi",
+    name: "Zanzibar West",
     code: "TZ-15",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "15",
 };
@@ -38241,7 +37593,7 @@ pub const TZ_16: Subdivision = Subdivision {
     name: "Morogoro",
     code: "TZ-16",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "16",
 };
@@ -38250,7 +37602,7 @@ pub const TZ_17: Subdivision = Subdivision {
     name: "Mtwara",
     code: "TZ-17",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "17",
 };
@@ -38259,7 +37611,7 @@ pub const TZ_18: Subdivision = Subdivision {
     name: "Mwanza",
     code: "TZ-18",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "18",
 };
@@ -38268,7 +37620,7 @@ pub const TZ_19: Subdivision = Subdivision {
     name: "Coast",
     code: "TZ-19",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "19",
 };
@@ -38277,7 +37629,7 @@ pub const TZ_20: Subdivision = Subdivision {
     name: "Rukwa",
     code: "TZ-20",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "20",
 };
@@ -38286,7 +37638,7 @@ pub const TZ_21: Subdivision = Subdivision {
     name: "Ruvuma",
     code: "TZ-21",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "21",
 };
@@ -38295,7 +37647,7 @@ pub const TZ_22: Subdivision = Subdivision {
     name: "Shinyanga",
     code: "TZ-22",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "22",
 };
@@ -38304,7 +37656,7 @@ pub const TZ_23: Subdivision = Subdivision {
     name: "Singida",
     code: "TZ-23",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "23",
 };
@@ -38313,7 +37665,7 @@ pub const TZ_24: Subdivision = Subdivision {
     name: "Tabora",
     code: "TZ-24",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "24",
 };
@@ -38322,7 +37674,7 @@ pub const TZ_25: Subdivision = Subdivision {
     name: "Tanga",
     code: "TZ-25",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "25",
 };
@@ -38331,7 +37683,7 @@ pub const TZ_26: Subdivision = Subdivision {
     name: "Manyara",
     code: "TZ-26",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "26",
 };
@@ -38340,7 +37692,7 @@ pub const TZ_27: Subdivision = Subdivision {
     name: "Geita",
     code: "TZ-27",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "27",
 };
@@ -38349,7 +37701,7 @@ pub const TZ_28: Subdivision = Subdivision {
     name: "Katavi",
     code: "TZ-28",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "28",
 };
@@ -38358,7 +37710,7 @@ pub const TZ_29: Subdivision = Subdivision {
     name: "Njombe",
     code: "TZ-29",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "29",
 };
@@ -38367,9 +37719,18 @@ pub const TZ_30: Subdivision = Subdivision {
     name: "Simiyu",
     code: "TZ-30",
     subdivision_type: "Region",
-    country_name: "Tanzania",
+    country_name: "Tanzania (United Republic of)",
     country_code: "TZ",
     region_code: "30",
+};
+
+pub const TZ_31: Subdivision = Subdivision {
+    name: "Songwe",
+    code: "TZ-31",
+    subdivision_type: "Region",
+    country_name: "Tanzania (United Republic of)",
+    country_code: "TZ",
+    region_code: "31",
 };
 
 pub const TH_10: Subdivision = Subdivision {
@@ -39077,8 +38438,8 @@ pub const TH_S: Subdivision = Subdivision {
 pub const TL_AL: Subdivision = Subdivision {
     name: "Aileu",
     code: "TL-AL",
-    subdivision_type: "District",
-    country_name: "East Timor",
+    subdivision_type: "Municipality",
+    country_name: "Timor-Leste",
     country_code: "TL",
     region_code: "AL",
 };
@@ -39086,8 +38447,8 @@ pub const TL_AL: Subdivision = Subdivision {
 pub const TL_AN: Subdivision = Subdivision {
     name: "Ainaro",
     code: "TL-AN",
-    subdivision_type: "District",
-    country_name: "East Timor",
+    subdivision_type: "Municipality",
+    country_name: "Timor-Leste",
     country_code: "TL",
     region_code: "AN",
 };
@@ -39095,8 +38456,8 @@ pub const TL_AN: Subdivision = Subdivision {
 pub const TL_BA: Subdivision = Subdivision {
     name: "Baucau",
     code: "TL-BA",
-    subdivision_type: "District",
-    country_name: "East Timor",
+    subdivision_type: "Municipality",
+    country_name: "Timor-Leste",
     country_code: "TL",
     region_code: "BA",
 };
@@ -39104,8 +38465,8 @@ pub const TL_BA: Subdivision = Subdivision {
 pub const TL_BO: Subdivision = Subdivision {
     name: "Bobonaro",
     code: "TL-BO",
-    subdivision_type: "District",
-    country_name: "East Timor",
+    subdivision_type: "Municipality",
+    country_name: "Timor-Leste",
     country_code: "TL",
     region_code: "BO",
 };
@@ -39113,8 +38474,8 @@ pub const TL_BO: Subdivision = Subdivision {
 pub const TL_CO: Subdivision = Subdivision {
     name: "Cova Lima",
     code: "TL-CO",
-    subdivision_type: "District",
-    country_name: "East Timor",
+    subdivision_type: "Municipality",
+    country_name: "Timor-Leste",
     country_code: "TL",
     region_code: "CO",
 };
@@ -39122,8 +38483,8 @@ pub const TL_CO: Subdivision = Subdivision {
 pub const TL_DI: Subdivision = Subdivision {
     name: "Díli",
     code: "TL-DI",
-    subdivision_type: "District",
-    country_name: "East Timor",
+    subdivision_type: "Municipality",
+    country_name: "Timor-Leste",
     country_code: "TL",
     region_code: "DI",
 };
@@ -39131,8 +38492,8 @@ pub const TL_DI: Subdivision = Subdivision {
 pub const TL_ER: Subdivision = Subdivision {
     name: "Ermera",
     code: "TL-ER",
-    subdivision_type: "District",
-    country_name: "East Timor",
+    subdivision_type: "Municipality",
+    country_name: "Timor-Leste",
     country_code: "TL",
     region_code: "ER",
 };
@@ -39140,17 +38501,17 @@ pub const TL_ER: Subdivision = Subdivision {
 pub const TL_LA: Subdivision = Subdivision {
     name: "Lautém",
     code: "TL-LA",
-    subdivision_type: "District",
-    country_name: "East Timor",
+    subdivision_type: "Municipality",
+    country_name: "Timor-Leste",
     country_code: "TL",
     region_code: "LA",
 };
 
 pub const TL_LI: Subdivision = Subdivision {
-    name: "Likisá",
+    name: "Liquiça",
     code: "TL-LI",
-    subdivision_type: "District",
-    country_name: "East Timor",
+    subdivision_type: "Municipality",
+    country_name: "Timor-Leste",
     country_code: "TL",
     region_code: "LI",
 };
@@ -39158,8 +38519,8 @@ pub const TL_LI: Subdivision = Subdivision {
 pub const TL_MF: Subdivision = Subdivision {
     name: "Manufahi",
     code: "TL-MF",
-    subdivision_type: "District",
-    country_name: "East Timor",
+    subdivision_type: "Municipality",
+    country_name: "Timor-Leste",
     country_code: "TL",
     region_code: "MF",
 };
@@ -39167,32 +38528,32 @@ pub const TL_MF: Subdivision = Subdivision {
 pub const TL_MT: Subdivision = Subdivision {
     name: "Manatuto",
     code: "TL-MT",
-    subdivision_type: "District",
-    country_name: "East Timor",
+    subdivision_type: "Municipality",
+    country_name: "Timor-Leste",
     country_code: "TL",
     region_code: "MT",
 };
 
 pub const TL_OE: Subdivision = Subdivision {
-    name: "Oecussi",
+    name: "Oé-Cusse Ambeno",
     code: "TL-OE",
-    subdivision_type: "District",
-    country_name: "East Timor",
+    subdivision_type: "Special administrative region",
+    country_name: "Timor-Leste",
     country_code: "TL",
     region_code: "OE",
 };
 
 pub const TL_VI: Subdivision = Subdivision {
-    name: "Vikeke",
+    name: "Viqueque",
     code: "TL-VI",
-    subdivision_type: "District",
-    country_name: "East Timor",
+    subdivision_type: "Municipality",
+    country_name: "Timor-Leste",
     country_code: "TL",
     region_code: "VI",
 };
 
 pub const TG_C: Subdivision = Subdivision {
-    name: "Centre",
+    name: "Centrale",
     code: "TG-C",
     subdivision_type: "Region",
     country_name: "Togo",
@@ -39210,7 +38571,7 @@ pub const TG_K: Subdivision = Subdivision {
 };
 
 pub const TG_M: Subdivision = Subdivision {
-    name: "Maritime",
+    name: "Maritime (Région)",
     code: "TG-M",
     subdivision_type: "Region",
     country_name: "Togo",
@@ -39228,21 +38589,12 @@ pub const TG_P: Subdivision = Subdivision {
 };
 
 pub const TG_S: Subdivision = Subdivision {
-    name: "Savannes",
+    name: "Savanes",
     code: "TG-S",
     subdivision_type: "Region",
     country_name: "Togo",
     country_code: "TG",
     region_code: "S",
-};
-
-pub const TK_TK: Subdivision = Subdivision {
-    name: "Tokelau",
-    code: "TK-TK",
-    subdivision_type: "Country",
-    country_name: "Tokelau",
-    country_code: "TK",
-    region_code: "TK",
 };
 
 pub const TO_01: Subdivision = Subdivision {
@@ -39293,7 +38645,7 @@ pub const TO_05: Subdivision = Subdivision {
 pub const TT_ARI: Subdivision = Subdivision {
     name: "Arima",
     code: "TT-ARI",
-    subdivision_type: "Municipality",
+    subdivision_type: "Borough",
     country_name: "Trinidad and Tobago",
     country_code: "TT",
     region_code: "ARI",
@@ -39302,7 +38654,7 @@ pub const TT_ARI: Subdivision = Subdivision {
 pub const TT_CHA: Subdivision = Subdivision {
     name: "Chaguanas",
     code: "TT-CHA",
-    subdivision_type: "Municipality",
+    subdivision_type: "Borough",
     country_name: "Trinidad and Tobago",
     country_code: "TT",
     region_code: "CHA",
@@ -39326,13 +38678,13 @@ pub const TT_DMN: Subdivision = Subdivision {
     region_code: "DMN",
 };
 
-pub const TT_ETO: Subdivision = Subdivision {
-    name: "Eastern Tobago",
-    code: "TT-ETO",
+pub const TT_MRC: Subdivision = Subdivision {
+    name: "Mayaro-Rio Claro",
+    code: "TT-MRC",
     subdivision_type: "Region",
     country_name: "Trinidad and Tobago",
     country_code: "TT",
-    region_code: "ETO",
+    region_code: "MRC",
 };
 
 pub const TT_PED: Subdivision = Subdivision {
@@ -39347,7 +38699,7 @@ pub const TT_PED: Subdivision = Subdivision {
 pub const TT_POS: Subdivision = Subdivision {
     name: "Port of Spain",
     code: "TT-POS",
-    subdivision_type: "Municipality",
+    subdivision_type: "City",
     country_name: "Trinidad and Tobago",
     country_code: "TT",
     region_code: "POS",
@@ -39365,25 +38717,16 @@ pub const TT_PRT: Subdivision = Subdivision {
 pub const TT_PTF: Subdivision = Subdivision {
     name: "Point Fortin",
     code: "TT-PTF",
-    subdivision_type: "Municipality",
+    subdivision_type: "Borough",
     country_name: "Trinidad and Tobago",
     country_code: "TT",
     region_code: "PTF",
 };
 
-pub const TT_RCM: Subdivision = Subdivision {
-    name: "Rio Claro-Mayaro",
-    code: "TT-RCM",
-    subdivision_type: "Region",
-    country_name: "Trinidad and Tobago",
-    country_code: "TT",
-    region_code: "RCM",
-};
-
 pub const TT_SFO: Subdivision = Subdivision {
     name: "San Fernando",
     code: "TT-SFO",
-    subdivision_type: "Municipality",
+    subdivision_type: "City",
     country_name: "Trinidad and Tobago",
     country_code: "TT",
     region_code: "SFO",
@@ -39416,6 +38759,15 @@ pub const TT_SJL: Subdivision = Subdivision {
     region_code: "SJL",
 };
 
+pub const TT_TOB: Subdivision = Subdivision {
+    name: "Tobago",
+    code: "TT-TOB",
+    subdivision_type: "Ward",
+    country_name: "Trinidad and Tobago",
+    country_code: "TT",
+    region_code: "TOB",
+};
+
 pub const TT_TUP: Subdivision = Subdivision {
     name: "Tunapuna-Piarco",
     code: "TT-TUP",
@@ -39423,15 +38775,6 @@ pub const TT_TUP: Subdivision = Subdivision {
     country_name: "Trinidad and Tobago",
     country_code: "TT",
     region_code: "TUP",
-};
-
-pub const TT_WTO: Subdivision = Subdivision {
-    name: "Western Tobago",
-    code: "TT-WTO",
-    subdivision_type: "Region",
-    country_name: "Trinidad and Tobago",
-    country_code: "TT",
-    region_code: "WTO",
 };
 
 pub const TN_11: Subdivision = Subdivision {
@@ -39444,7 +38787,7 @@ pub const TN_11: Subdivision = Subdivision {
 };
 
 pub const TN_12: Subdivision = Subdivision {
-    name: "Ariana",
+    name: "L'Ariana",
     code: "TN-12",
     subdivision_type: "Governorate",
     country_name: "Tunisia",
@@ -39615,7 +38958,7 @@ pub const TN_72: Subdivision = Subdivision {
 };
 
 pub const TN_73: Subdivision = Subdivision {
-    name: "Kebili",
+    name: "Kébili",
     code: "TN-73",
     subdivision_type: "Governorate",
     country_name: "Tunisia",
@@ -39633,7 +38976,7 @@ pub const TN_81: Subdivision = Subdivision {
 };
 
 pub const TN_82: Subdivision = Subdivision {
-    name: "Medenine",
+    name: "Médenine",
     code: "TN-82",
     subdivision_type: "Governorate",
     country_name: "Tunisia",
@@ -39654,7 +38997,7 @@ pub const TR_01: Subdivision = Subdivision {
     name: "Adana",
     code: "TR-01",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "01",
 };
@@ -39663,7 +39006,7 @@ pub const TR_02: Subdivision = Subdivision {
     name: "Adıyaman",
     code: "TR-02",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "02",
 };
@@ -39672,7 +39015,7 @@ pub const TR_03: Subdivision = Subdivision {
     name: "Afyonkarahisar",
     code: "TR-03",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "03",
 };
@@ -39681,7 +39024,7 @@ pub const TR_04: Subdivision = Subdivision {
     name: "Ağrı",
     code: "TR-04",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "04",
 };
@@ -39690,7 +39033,7 @@ pub const TR_05: Subdivision = Subdivision {
     name: "Amasya",
     code: "TR-05",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "05",
 };
@@ -39699,7 +39042,7 @@ pub const TR_06: Subdivision = Subdivision {
     name: "Ankara",
     code: "TR-06",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "06",
 };
@@ -39708,7 +39051,7 @@ pub const TR_07: Subdivision = Subdivision {
     name: "Antalya",
     code: "TR-07",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "07",
 };
@@ -39717,7 +39060,7 @@ pub const TR_08: Subdivision = Subdivision {
     name: "Artvin",
     code: "TR-08",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "08",
 };
@@ -39726,7 +39069,7 @@ pub const TR_09: Subdivision = Subdivision {
     name: "Aydın",
     code: "TR-09",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "09",
 };
@@ -39735,7 +39078,7 @@ pub const TR_10: Subdivision = Subdivision {
     name: "Balıkesir",
     code: "TR-10",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "10",
 };
@@ -39744,7 +39087,7 @@ pub const TR_11: Subdivision = Subdivision {
     name: "Bilecik",
     code: "TR-11",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "11",
 };
@@ -39753,7 +39096,7 @@ pub const TR_12: Subdivision = Subdivision {
     name: "Bingöl",
     code: "TR-12",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "12",
 };
@@ -39762,7 +39105,7 @@ pub const TR_13: Subdivision = Subdivision {
     name: "Bitlis",
     code: "TR-13",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "13",
 };
@@ -39771,7 +39114,7 @@ pub const TR_14: Subdivision = Subdivision {
     name: "Bolu",
     code: "TR-14",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "14",
 };
@@ -39780,7 +39123,7 @@ pub const TR_15: Subdivision = Subdivision {
     name: "Burdur",
     code: "TR-15",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "15",
 };
@@ -39789,7 +39132,7 @@ pub const TR_16: Subdivision = Subdivision {
     name: "Bursa",
     code: "TR-16",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "16",
 };
@@ -39798,7 +39141,7 @@ pub const TR_17: Subdivision = Subdivision {
     name: "Çanakkale",
     code: "TR-17",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "17",
 };
@@ -39807,7 +39150,7 @@ pub const TR_18: Subdivision = Subdivision {
     name: "Çankırı",
     code: "TR-18",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "18",
 };
@@ -39816,7 +39159,7 @@ pub const TR_19: Subdivision = Subdivision {
     name: "Çorum",
     code: "TR-19",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "19",
 };
@@ -39825,7 +39168,7 @@ pub const TR_20: Subdivision = Subdivision {
     name: "Denizli",
     code: "TR-20",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "20",
 };
@@ -39834,7 +39177,7 @@ pub const TR_21: Subdivision = Subdivision {
     name: "Diyarbakır",
     code: "TR-21",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "21",
 };
@@ -39843,7 +39186,7 @@ pub const TR_22: Subdivision = Subdivision {
     name: "Edirne",
     code: "TR-22",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "22",
 };
@@ -39852,7 +39195,7 @@ pub const TR_23: Subdivision = Subdivision {
     name: "Elazığ",
     code: "TR-23",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "23",
 };
@@ -39861,7 +39204,7 @@ pub const TR_24: Subdivision = Subdivision {
     name: "Erzincan",
     code: "TR-24",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "24",
 };
@@ -39870,7 +39213,7 @@ pub const TR_25: Subdivision = Subdivision {
     name: "Erzurum",
     code: "TR-25",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "25",
 };
@@ -39879,7 +39222,7 @@ pub const TR_26: Subdivision = Subdivision {
     name: "Eskişehir",
     code: "TR-26",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "26",
 };
@@ -39888,7 +39231,7 @@ pub const TR_27: Subdivision = Subdivision {
     name: "Gaziantep",
     code: "TR-27",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "27",
 };
@@ -39897,7 +39240,7 @@ pub const TR_28: Subdivision = Subdivision {
     name: "Giresun",
     code: "TR-28",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "28",
 };
@@ -39906,7 +39249,7 @@ pub const TR_29: Subdivision = Subdivision {
     name: "Gümüşhane",
     code: "TR-29",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "29",
 };
@@ -39915,7 +39258,7 @@ pub const TR_30: Subdivision = Subdivision {
     name: "Hakkâri",
     code: "TR-30",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "30",
 };
@@ -39924,7 +39267,7 @@ pub const TR_31: Subdivision = Subdivision {
     name: "Hatay",
     code: "TR-31",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "31",
 };
@@ -39933,7 +39276,7 @@ pub const TR_32: Subdivision = Subdivision {
     name: "Isparta",
     code: "TR-32",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "32",
 };
@@ -39942,7 +39285,7 @@ pub const TR_33: Subdivision = Subdivision {
     name: "Mersin",
     code: "TR-33",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "33",
 };
@@ -39951,7 +39294,7 @@ pub const TR_34: Subdivision = Subdivision {
     name: "İstanbul",
     code: "TR-34",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "34",
 };
@@ -39960,7 +39303,7 @@ pub const TR_35: Subdivision = Subdivision {
     name: "İzmir",
     code: "TR-35",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "35",
 };
@@ -39969,7 +39312,7 @@ pub const TR_36: Subdivision = Subdivision {
     name: "Kars",
     code: "TR-36",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "36",
 };
@@ -39978,7 +39321,7 @@ pub const TR_37: Subdivision = Subdivision {
     name: "Kastamonu",
     code: "TR-37",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "37",
 };
@@ -39987,7 +39330,7 @@ pub const TR_38: Subdivision = Subdivision {
     name: "Kayseri",
     code: "TR-38",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "38",
 };
@@ -39996,7 +39339,7 @@ pub const TR_39: Subdivision = Subdivision {
     name: "Kırklareli",
     code: "TR-39",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "39",
 };
@@ -40005,7 +39348,7 @@ pub const TR_40: Subdivision = Subdivision {
     name: "Kırşehir",
     code: "TR-40",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "40",
 };
@@ -40014,7 +39357,7 @@ pub const TR_41: Subdivision = Subdivision {
     name: "Kocaeli",
     code: "TR-41",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "41",
 };
@@ -40023,7 +39366,7 @@ pub const TR_42: Subdivision = Subdivision {
     name: "Konya",
     code: "TR-42",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "42",
 };
@@ -40032,7 +39375,7 @@ pub const TR_43: Subdivision = Subdivision {
     name: "Kütahya",
     code: "TR-43",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "43",
 };
@@ -40041,7 +39384,7 @@ pub const TR_44: Subdivision = Subdivision {
     name: "Malatya",
     code: "TR-44",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "44",
 };
@@ -40050,7 +39393,7 @@ pub const TR_45: Subdivision = Subdivision {
     name: "Manisa",
     code: "TR-45",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "45",
 };
@@ -40059,7 +39402,7 @@ pub const TR_46: Subdivision = Subdivision {
     name: "Kahramanmaraş",
     code: "TR-46",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "46",
 };
@@ -40068,7 +39411,7 @@ pub const TR_47: Subdivision = Subdivision {
     name: "Mardin",
     code: "TR-47",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "47",
 };
@@ -40077,7 +39420,7 @@ pub const TR_48: Subdivision = Subdivision {
     name: "Muğla",
     code: "TR-48",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "48",
 };
@@ -40086,7 +39429,7 @@ pub const TR_49: Subdivision = Subdivision {
     name: "Muş",
     code: "TR-49",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "49",
 };
@@ -40095,7 +39438,7 @@ pub const TR_50: Subdivision = Subdivision {
     name: "Nevşehir",
     code: "TR-50",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "50",
 };
@@ -40104,7 +39447,7 @@ pub const TR_51: Subdivision = Subdivision {
     name: "Niğde",
     code: "TR-51",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "51",
 };
@@ -40113,7 +39456,7 @@ pub const TR_52: Subdivision = Subdivision {
     name: "Ordu",
     code: "TR-52",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "52",
 };
@@ -40122,7 +39465,7 @@ pub const TR_53: Subdivision = Subdivision {
     name: "Rize",
     code: "TR-53",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "53",
 };
@@ -40131,7 +39474,7 @@ pub const TR_54: Subdivision = Subdivision {
     name: "Sakarya",
     code: "TR-54",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "54",
 };
@@ -40140,7 +39483,7 @@ pub const TR_55: Subdivision = Subdivision {
     name: "Samsun",
     code: "TR-55",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "55",
 };
@@ -40149,7 +39492,7 @@ pub const TR_56: Subdivision = Subdivision {
     name: "Siirt",
     code: "TR-56",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "56",
 };
@@ -40158,7 +39501,7 @@ pub const TR_57: Subdivision = Subdivision {
     name: "Sinop",
     code: "TR-57",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "57",
 };
@@ -40167,7 +39510,7 @@ pub const TR_58: Subdivision = Subdivision {
     name: "Sivas",
     code: "TR-58",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "58",
 };
@@ -40176,7 +39519,7 @@ pub const TR_59: Subdivision = Subdivision {
     name: "Tekirdağ",
     code: "TR-59",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "59",
 };
@@ -40185,7 +39528,7 @@ pub const TR_60: Subdivision = Subdivision {
     name: "Tokat",
     code: "TR-60",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "60",
 };
@@ -40194,7 +39537,7 @@ pub const TR_61: Subdivision = Subdivision {
     name: "Trabzon",
     code: "TR-61",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "61",
 };
@@ -40203,7 +39546,7 @@ pub const TR_62: Subdivision = Subdivision {
     name: "Tunceli",
     code: "TR-62",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "62",
 };
@@ -40212,7 +39555,7 @@ pub const TR_63: Subdivision = Subdivision {
     name: "Şanlıurfa",
     code: "TR-63",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "63",
 };
@@ -40221,7 +39564,7 @@ pub const TR_64: Subdivision = Subdivision {
     name: "Uşak",
     code: "TR-64",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "64",
 };
@@ -40230,7 +39573,7 @@ pub const TR_65: Subdivision = Subdivision {
     name: "Van",
     code: "TR-65",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "65",
 };
@@ -40239,7 +39582,7 @@ pub const TR_66: Subdivision = Subdivision {
     name: "Yozgat",
     code: "TR-66",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "66",
 };
@@ -40248,7 +39591,7 @@ pub const TR_67: Subdivision = Subdivision {
     name: "Zonguldak",
     code: "TR-67",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "67",
 };
@@ -40257,7 +39600,7 @@ pub const TR_68: Subdivision = Subdivision {
     name: "Aksaray",
     code: "TR-68",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "68",
 };
@@ -40266,7 +39609,7 @@ pub const TR_69: Subdivision = Subdivision {
     name: "Bayburt",
     code: "TR-69",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "69",
 };
@@ -40275,7 +39618,7 @@ pub const TR_70: Subdivision = Subdivision {
     name: "Karaman",
     code: "TR-70",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "70",
 };
@@ -40284,7 +39627,7 @@ pub const TR_71: Subdivision = Subdivision {
     name: "Kırıkkale",
     code: "TR-71",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "71",
 };
@@ -40293,7 +39636,7 @@ pub const TR_72: Subdivision = Subdivision {
     name: "Batman",
     code: "TR-72",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "72",
 };
@@ -40302,7 +39645,7 @@ pub const TR_73: Subdivision = Subdivision {
     name: "Şırnak",
     code: "TR-73",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "73",
 };
@@ -40311,7 +39654,7 @@ pub const TR_74: Subdivision = Subdivision {
     name: "Bartın",
     code: "TR-74",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "74",
 };
@@ -40320,7 +39663,7 @@ pub const TR_75: Subdivision = Subdivision {
     name: "Ardahan",
     code: "TR-75",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "75",
 };
@@ -40329,7 +39672,7 @@ pub const TR_76: Subdivision = Subdivision {
     name: "Iğdır",
     code: "TR-76",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "76",
 };
@@ -40338,7 +39681,7 @@ pub const TR_77: Subdivision = Subdivision {
     name: "Yalova",
     code: "TR-77",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "77",
 };
@@ -40347,7 +39690,7 @@ pub const TR_78: Subdivision = Subdivision {
     name: "Karabük",
     code: "TR-78",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "78",
 };
@@ -40356,7 +39699,7 @@ pub const TR_79: Subdivision = Subdivision {
     name: "Kilis",
     code: "TR-79",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "79",
 };
@@ -40365,7 +39708,7 @@ pub const TR_80: Subdivision = Subdivision {
     name: "Osmaniye",
     code: "TR-80",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "80",
 };
@@ -40374,7 +39717,7 @@ pub const TR_81: Subdivision = Subdivision {
     name: "Düzce",
     code: "TR-81",
     subdivision_type: "Province",
-    country_name: "Turkey",
+    country_name: "Türkiye",
     country_code: "TR",
     region_code: "81",
 };
@@ -40433,15 +39776,6 @@ pub const TM_S: Subdivision = Subdivision {
     region_code: "S",
 };
 
-pub const TC_TC: Subdivision = Subdivision {
-    name: "Turks & Caicos Islands",
-    code: "TC-TC",
-    subdivision_type: "Country",
-    country_name: "Turks & Caicos Islands",
-    country_code: "TC",
-    region_code: "TC",
-};
-
 pub const TV_FUN: Subdivision = Subdivision {
     name: "Funafuti",
     code: "TV-FUN",
@@ -40488,7 +39822,7 @@ pub const TV_NMA: Subdivision = Subdivision {
 };
 
 pub const TV_NMG: Subdivision = Subdivision {
-    name: "Nanumanga",
+    name: "Nanumaga",
     code: "TV-NMG",
     subdivision_type: "Island council",
     country_name: "Tuvalu",
@@ -40632,7 +39966,7 @@ pub const UG_113: Subdivision = Subdivision {
 };
 
 pub const UG_114: Subdivision = Subdivision {
-    name: "Mityana",
+    name: "Lyantonde",
     code: "UG-114",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -40641,7 +39975,7 @@ pub const UG_114: Subdivision = Subdivision {
 };
 
 pub const UG_115: Subdivision = Subdivision {
-    name: "Nakaseke",
+    name: "Mityana",
     code: "UG-115",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -40650,7 +39984,7 @@ pub const UG_115: Subdivision = Subdivision {
 };
 
 pub const UG_116: Subdivision = Subdivision {
-    name: "Lyantonde",
+    name: "Nakaseke",
     code: "UG-116",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -40728,6 +40062,24 @@ pub const UG_124: Subdivision = Subdivision {
     country_name: "Uganda",
     country_code: "UG",
     region_code: "124",
+};
+
+pub const UG_125: Subdivision = Subdivision {
+    name: "Kyotera",
+    code: "UG-125",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "125",
+};
+
+pub const UG_126: Subdivision = Subdivision {
+    name: "Kasanda",
+    code: "UG-126",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "126",
 };
 
 pub const UG_201: Subdivision = Subdivision {
@@ -40884,7 +40236,7 @@ pub const UG_217: Subdivision = Subdivision {
 };
 
 pub const UG_218: Subdivision = Subdivision {
-    name: "Bukwa",
+    name: "Bududa",
     code: "UG-218",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -40893,7 +40245,7 @@ pub const UG_218: Subdivision = Subdivision {
 };
 
 pub const UG_219: Subdivision = Subdivision {
-    name: "Butaleja",
+    name: "Bukedea",
     code: "UG-219",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -40902,7 +40254,7 @@ pub const UG_219: Subdivision = Subdivision {
 };
 
 pub const UG_220: Subdivision = Subdivision {
-    name: "Kaliro",
+    name: "Bukwo",
     code: "UG-220",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -40911,7 +40263,7 @@ pub const UG_220: Subdivision = Subdivision {
 };
 
 pub const UG_221: Subdivision = Subdivision {
-    name: "Manafwa",
+    name: "Butaleja",
     code: "UG-221",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -40920,7 +40272,7 @@ pub const UG_221: Subdivision = Subdivision {
 };
 
 pub const UG_222: Subdivision = Subdivision {
-    name: "Namutumba",
+    name: "Kaliro",
     code: "UG-222",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -40929,7 +40281,7 @@ pub const UG_222: Subdivision = Subdivision {
 };
 
 pub const UG_223: Subdivision = Subdivision {
-    name: "Bududa",
+    name: "Manafwa",
     code: "UG-223",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -40938,7 +40290,7 @@ pub const UG_223: Subdivision = Subdivision {
 };
 
 pub const UG_224: Subdivision = Subdivision {
-    name: "Bukedea",
+    name: "Namutumba",
     code: "UG-224",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41016,6 +40368,51 @@ pub const UG_232: Subdivision = Subdivision {
     country_name: "Uganda",
     country_code: "UG",
     region_code: "232",
+};
+
+pub const UG_233: Subdivision = Subdivision {
+    name: "Butebo",
+    code: "UG-233",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "233",
+};
+
+pub const UG_234: Subdivision = Subdivision {
+    name: "Namisindwa",
+    code: "UG-234",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "234",
+};
+
+pub const UG_235: Subdivision = Subdivision {
+    name: "Bugweri",
+    code: "UG-235",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "235",
+};
+
+pub const UG_236: Subdivision = Subdivision {
+    name: "Kapelebyong",
+    code: "UG-236",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "236",
+};
+
+pub const UG_237: Subdivision = Subdivision {
+    name: "Kalaki",
+    code: "UG-237",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "237",
 };
 
 pub const UG_301: Subdivision = Subdivision {
@@ -41136,7 +40533,7 @@ pub const UG_313: Subdivision = Subdivision {
 };
 
 pub const UG_314: Subdivision = Subdivision {
-    name: "Amolatar",
+    name: "Abim",
     code: "UG-314",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41145,7 +40542,7 @@ pub const UG_314: Subdivision = Subdivision {
 };
 
 pub const UG_315: Subdivision = Subdivision {
-    name: "Kaabong",
+    name: "Amolatar",
     code: "UG-315",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41154,7 +40551,7 @@ pub const UG_315: Subdivision = Subdivision {
 };
 
 pub const UG_316: Subdivision = Subdivision {
-    name: "Koboko",
+    name: "Amuru",
     code: "UG-316",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41163,7 +40560,7 @@ pub const UG_316: Subdivision = Subdivision {
 };
 
 pub const UG_317: Subdivision = Subdivision {
-    name: "Abim",
+    name: "Dokolo",
     code: "UG-317",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41172,7 +40569,7 @@ pub const UG_317: Subdivision = Subdivision {
 };
 
 pub const UG_318: Subdivision = Subdivision {
-    name: "Dokolo",
+    name: "Kaabong",
     code: "UG-318",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41181,7 +40578,7 @@ pub const UG_318: Subdivision = Subdivision {
 };
 
 pub const UG_319: Subdivision = Subdivision {
-    name: "Amuru",
+    name: "Koboko",
     code: "UG-319",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41235,7 +40632,7 @@ pub const UG_324: Subdivision = Subdivision {
 };
 
 pub const UG_325: Subdivision = Subdivision {
-    name: "Buhweju",
+    name: "Kole",
     code: "UG-325",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41244,7 +40641,7 @@ pub const UG_325: Subdivision = Subdivision {
 };
 
 pub const UG_326: Subdivision = Subdivision {
-    name: "Kole",
+    name: "Lamwo",
     code: "UG-326",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41253,7 +40650,7 @@ pub const UG_326: Subdivision = Subdivision {
 };
 
 pub const UG_327: Subdivision = Subdivision {
-    name: "Lamwo",
+    name: "Napak",
     code: "UG-327",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41262,7 +40659,7 @@ pub const UG_327: Subdivision = Subdivision {
 };
 
 pub const UG_328: Subdivision = Subdivision {
-    name: "Napak",
+    name: "Nwoya",
     code: "UG-328",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41271,7 +40668,7 @@ pub const UG_328: Subdivision = Subdivision {
 };
 
 pub const UG_329: Subdivision = Subdivision {
-    name: "Nwoya",
+    name: "Otuke",
     code: "UG-329",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41280,7 +40677,7 @@ pub const UG_329: Subdivision = Subdivision {
 };
 
 pub const UG_330: Subdivision = Subdivision {
-    name: "Otuke",
+    name: "Zombo",
     code: "UG-330",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41289,12 +40686,66 @@ pub const UG_330: Subdivision = Subdivision {
 };
 
 pub const UG_331: Subdivision = Subdivision {
-    name: "Zombo",
+    name: "Omoro",
     code: "UG-331",
     subdivision_type: "District",
     country_name: "Uganda",
     country_code: "UG",
     region_code: "331",
+};
+
+pub const UG_332: Subdivision = Subdivision {
+    name: "Pakwach",
+    code: "UG-332",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "332",
+};
+
+pub const UG_333: Subdivision = Subdivision {
+    name: "Kwania",
+    code: "UG-333",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "333",
+};
+
+pub const UG_334: Subdivision = Subdivision {
+    name: "Nabilatuk",
+    code: "UG-334",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "334",
+};
+
+pub const UG_335: Subdivision = Subdivision {
+    name: "Karenga",
+    code: "UG-335",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "335",
+};
+
+pub const UG_336: Subdivision = Subdivision {
+    name: "Madi-Okollo",
+    code: "UG-336",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "336",
+};
+
+pub const UG_337: Subdivision = Subdivision {
+    name: "Obongi",
+    code: "UG-337",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "337",
 };
 
 pub const UG_401: Subdivision = Subdivision {
@@ -41433,7 +40884,7 @@ pub const UG_415: Subdivision = Subdivision {
 };
 
 pub const UG_416: Subdivision = Subdivision {
-    name: "Ibanda",
+    name: "Buliisa",
     code: "UG-416",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41442,7 +40893,7 @@ pub const UG_416: Subdivision = Subdivision {
 };
 
 pub const UG_417: Subdivision = Subdivision {
-    name: "Isingiro",
+    name: "Ibanda",
     code: "UG-417",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41451,7 +40902,7 @@ pub const UG_417: Subdivision = Subdivision {
 };
 
 pub const UG_418: Subdivision = Subdivision {
-    name: "Kiruhura",
+    name: "Isingiro",
     code: "UG-418",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41460,7 +40911,7 @@ pub const UG_418: Subdivision = Subdivision {
 };
 
 pub const UG_419: Subdivision = Subdivision {
-    name: "Buliisa",
+    name: "Kiruhura",
     code: "UG-419",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41469,7 +40920,7 @@ pub const UG_419: Subdivision = Subdivision {
 };
 
 pub const UG_420: Subdivision = Subdivision {
-    name: "Kiryandongo",
+    name: "Buhweju",
     code: "UG-420",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41478,7 +40929,7 @@ pub const UG_420: Subdivision = Subdivision {
 };
 
 pub const UG_421: Subdivision = Subdivision {
-    name: "Kyegegwa",
+    name: "Kiryandongo",
     code: "UG-421",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41487,7 +40938,7 @@ pub const UG_421: Subdivision = Subdivision {
 };
 
 pub const UG_422: Subdivision = Subdivision {
-    name: "Mitooma",
+    name: "Kyegegwa",
     code: "UG-422",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41496,7 +40947,7 @@ pub const UG_422: Subdivision = Subdivision {
 };
 
 pub const UG_423: Subdivision = Subdivision {
-    name: "Ntoroko",
+    name: "Mitooma",
     code: "UG-423",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41505,7 +40956,7 @@ pub const UG_423: Subdivision = Subdivision {
 };
 
 pub const UG_424: Subdivision = Subdivision {
-    name: "Rubirizi",
+    name: "Ntoroko",
     code: "UG-424",
     subdivision_type: "District",
     country_name: "Uganda",
@@ -41514,12 +40965,102 @@ pub const UG_424: Subdivision = Subdivision {
 };
 
 pub const UG_425: Subdivision = Subdivision {
-    name: "Sheema",
+    name: "Rubirizi",
     code: "UG-425",
     subdivision_type: "District",
     country_name: "Uganda",
     country_code: "UG",
     region_code: "425",
+};
+
+pub const UG_426: Subdivision = Subdivision {
+    name: "Sheema",
+    code: "UG-426",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "426",
+};
+
+pub const UG_427: Subdivision = Subdivision {
+    name: "Kagadi",
+    code: "UG-427",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "427",
+};
+
+pub const UG_428: Subdivision = Subdivision {
+    name: "Kakumiro",
+    code: "UG-428",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "428",
+};
+
+pub const UG_429: Subdivision = Subdivision {
+    name: "Rubanda",
+    code: "UG-429",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "429",
+};
+
+pub const UG_430: Subdivision = Subdivision {
+    name: "Bunyangabu",
+    code: "UG-430",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "430",
+};
+
+pub const UG_431: Subdivision = Subdivision {
+    name: "Rukiga",
+    code: "UG-431",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "431",
+};
+
+pub const UG_432: Subdivision = Subdivision {
+    name: "Kikuube",
+    code: "UG-432",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "432",
+};
+
+pub const UG_433: Subdivision = Subdivision {
+    name: "Kazo",
+    code: "UG-433",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "433",
+};
+
+pub const UG_434: Subdivision = Subdivision {
+    name: "Kitagwenda",
+    code: "UG-434",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "434",
+};
+
+pub const UG_435: Subdivision = Subdivision {
+    name: "Rwampara",
+    code: "UG-435",
+    subdivision_type: "District",
+    country_name: "Uganda",
+    country_code: "UG",
+    region_code: "435",
 };
 
 pub const UG_C: Subdivision = Subdivision {
@@ -41802,7 +41343,7 @@ pub const UA_77: Subdivision = Subdivision {
 };
 
 pub const AE_AJ: Subdivision = Subdivision {
-    name: "'Ajmān",
+    name: "‘Ajmān",
     code: "AE-AJ",
     subdivision_type: "Emirate",
     country_name: "United Arab Emirates",
@@ -41838,7 +41379,7 @@ pub const AE_FU: Subdivision = Subdivision {
 };
 
 pub const AE_RK: Subdivision = Subdivision {
-    name: "Ra's al Khaymah",
+    name: "Ra’s al Khaymah",
     code: "AE-RK",
     subdivision_type: "Emirate",
     country_name: "United Arab Emirates",
@@ -41864,11 +41405,20 @@ pub const AE_UQ: Subdivision = Subdivision {
     region_code: "UQ",
 };
 
+pub const GB_ABC: Subdivision = Subdivision {
+    name: "Armagh City, Banbridge and Craigavon",
+    code: "GB-ABC",
+    subdivision_type: "District",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
+    country_code: "GB",
+    region_code: "ABC",
+};
+
 pub const GB_ABD: Subdivision = Subdivision {
     name: "Aberdeenshire",
     code: "GB-ABD",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ABD",
 };
@@ -41877,7 +41427,7 @@ pub const GB_ABE: Subdivision = Subdivision {
     name: "Aberdeen City",
     code: "GB-ABE",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ABE",
 };
@@ -41886,7 +41436,7 @@ pub const GB_AGB: Subdivision = Subdivision {
     name: "Argyll and Bute",
     code: "GB-AGB",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "AGB",
 };
@@ -41895,52 +41445,43 @@ pub const GB_AGY: Subdivision = Subdivision {
     name: "Isle of Anglesey",
     code: "GB-AGY",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "AGY",
+};
+
+pub const GB_AND: Subdivision = Subdivision {
+    name: "Ards and North Down",
+    code: "GB-AND",
+    subdivision_type: "District",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
+    country_code: "GB",
+    region_code: "AND",
+};
+
+pub const GB_ANN: Subdivision = Subdivision {
+    name: "Antrim and Newtownabbey",
+    code: "GB-ANN",
+    subdivision_type: "District",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
+    country_code: "GB",
+    region_code: "ANN",
 };
 
 pub const GB_ANS: Subdivision = Subdivision {
     name: "Angus",
     code: "GB-ANS",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ANS",
-};
-
-pub const GB_ANT: Subdivision = Subdivision {
-    name: "Antrim",
-    code: "GB-ANT",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "ANT",
-};
-
-pub const GB_ARD: Subdivision = Subdivision {
-    name: "Ards",
-    code: "GB-ARD",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "ARD",
-};
-
-pub const GB_ARM: Subdivision = Subdivision {
-    name: "Armagh",
-    code: "GB-ARM",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "ARM",
 };
 
 pub const GB_BAS: Subdivision = Subdivision {
     name: "Bath and North East Somerset",
     code: "GB-BAS",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BAS",
 };
@@ -41949,16 +41490,25 @@ pub const GB_BBD: Subdivision = Subdivision {
     name: "Blackburn with Darwen",
     code: "GB-BBD",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BBD",
+};
+
+pub const GB_BCP: Subdivision = Subdivision {
+    name: "Bournemouth, Christchurch and Poole",
+    code: "GB-BCP",
+    subdivision_type: "Unitary authority",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
+    country_code: "GB",
+    region_code: "BCP",
 };
 
 pub const GB_BDF: Subdivision = Subdivision {
     name: "Bedford",
     code: "GB-BDF",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BDF",
 };
@@ -41967,7 +41517,7 @@ pub const GB_BDG: Subdivision = Subdivision {
     name: "Barking and Dagenham",
     code: "GB-BDG",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BDG",
 };
@@ -41976,7 +41526,7 @@ pub const GB_BEN: Subdivision = Subdivision {
     name: "Brent",
     code: "GB-BEN",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BEN",
 };
@@ -41985,16 +41535,16 @@ pub const GB_BEX: Subdivision = Subdivision {
     name: "Bexley",
     code: "GB-BEX",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BEX",
 };
 
 pub const GB_BFS: Subdivision = Subdivision {
-    name: "Belfast",
+    name: "Belfast City",
     code: "GB-BFS",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
+    subdivision_type: "District",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BFS",
 };
@@ -42003,7 +41553,7 @@ pub const GB_BGE: Subdivision = Subdivision {
     name: "Bridgend",
     code: "GB-BGE",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BGE",
 };
@@ -42012,7 +41562,7 @@ pub const GB_BGW: Subdivision = Subdivision {
     name: "Blaenau Gwent",
     code: "GB-BGW",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BGW",
 };
@@ -42021,7 +41571,7 @@ pub const GB_BIR: Subdivision = Subdivision {
     name: "Birmingham",
     code: "GB-BIR",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BIR",
 };
@@ -42029,53 +41579,17 @@ pub const GB_BIR: Subdivision = Subdivision {
 pub const GB_BKM: Subdivision = Subdivision {
     name: "Buckinghamshire",
     code: "GB-BKM",
-    subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    subdivision_type: "Unitary authority",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BKM",
-};
-
-pub const GB_BLA: Subdivision = Subdivision {
-    name: "Ballymena",
-    code: "GB-BLA",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "BLA",
-};
-
-pub const GB_BLY: Subdivision = Subdivision {
-    name: "Ballymoney",
-    code: "GB-BLY",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "BLY",
-};
-
-pub const GB_BMH: Subdivision = Subdivision {
-    name: "Bournemouth",
-    code: "GB-BMH",
-    subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "BMH",
-};
-
-pub const GB_BNB: Subdivision = Subdivision {
-    name: "Banbridge",
-    code: "GB-BNB",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "BNB",
 };
 
 pub const GB_BNE: Subdivision = Subdivision {
     name: "Barnet",
     code: "GB-BNE",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BNE",
 };
@@ -42084,7 +41598,7 @@ pub const GB_BNH: Subdivision = Subdivision {
     name: "Brighton and Hove",
     code: "GB-BNH",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BNH",
 };
@@ -42093,7 +41607,7 @@ pub const GB_BNS: Subdivision = Subdivision {
     name: "Barnsley",
     code: "GB-BNS",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BNS",
 };
@@ -42102,7 +41616,7 @@ pub const GB_BOL: Subdivision = Subdivision {
     name: "Bolton",
     code: "GB-BOL",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BOL",
 };
@@ -42111,7 +41625,7 @@ pub const GB_BPL: Subdivision = Subdivision {
     name: "Blackpool",
     code: "GB-BPL",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BPL",
 };
@@ -42120,7 +41634,7 @@ pub const GB_BRC: Subdivision = Subdivision {
     name: "Bracknell Forest",
     code: "GB-BRC",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BRC",
 };
@@ -42129,7 +41643,7 @@ pub const GB_BRD: Subdivision = Subdivision {
     name: "Bradford",
     code: "GB-BRD",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BRD",
 };
@@ -42138,7 +41652,7 @@ pub const GB_BRY: Subdivision = Subdivision {
     name: "Bromley",
     code: "GB-BRY",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BRY",
 };
@@ -42147,7 +41661,7 @@ pub const GB_BST: Subdivision = Subdivision {
     name: "Bristol, City of",
     code: "GB-BST",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BST",
 };
@@ -42156,7 +41670,7 @@ pub const GB_BUR: Subdivision = Subdivision {
     name: "Bury",
     code: "GB-BUR",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "BUR",
 };
@@ -42165,7 +41679,7 @@ pub const GB_CAM: Subdivision = Subdivision {
     name: "Cambridgeshire",
     code: "GB-CAM",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CAM",
 };
@@ -42174,7 +41688,7 @@ pub const GB_CAY: Subdivision = Subdivision {
     name: "Caerphilly",
     code: "GB-CAY",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CAY",
 };
@@ -42183,34 +41697,34 @@ pub const GB_CBF: Subdivision = Subdivision {
     name: "Central Bedfordshire",
     code: "GB-CBF",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CBF",
+};
+
+pub const GB_CCG: Subdivision = Subdivision {
+    name: "Causeway Coast and Glens",
+    code: "GB-CCG",
+    subdivision_type: "District",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
+    country_code: "GB",
+    region_code: "CCG",
 };
 
 pub const GB_CGN: Subdivision = Subdivision {
     name: "Ceredigion",
     code: "GB-CGN",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CGN",
-};
-
-pub const GB_CGV: Subdivision = Subdivision {
-    name: "Craigavon",
-    code: "GB-CGV",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "CGV",
 };
 
 pub const GB_CHE: Subdivision = Subdivision {
     name: "Cheshire East",
     code: "GB-CHE",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CHE",
 };
@@ -42219,34 +41733,16 @@ pub const GB_CHW: Subdivision = Subdivision {
     name: "Cheshire West and Chester",
     code: "GB-CHW",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CHW",
-};
-
-pub const GB_CKF: Subdivision = Subdivision {
-    name: "Carrickfergus",
-    code: "GB-CKF",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "CKF",
-};
-
-pub const GB_CKT: Subdivision = Subdivision {
-    name: "Cookstown",
-    code: "GB-CKT",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "CKT",
 };
 
 pub const GB_CLD: Subdivision = Subdivision {
     name: "Calderdale",
     code: "GB-CLD",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CLD",
 };
@@ -42255,25 +41751,16 @@ pub const GB_CLK: Subdivision = Subdivision {
     name: "Clackmannanshire",
     code: "GB-CLK",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CLK",
-};
-
-pub const GB_CLR: Subdivision = Subdivision {
-    name: "Coleraine",
-    code: "GB-CLR",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "CLR",
 };
 
 pub const GB_CMA: Subdivision = Subdivision {
     name: "Cumbria",
     code: "GB-CMA",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CMA",
 };
@@ -42282,7 +41769,7 @@ pub const GB_CMD: Subdivision = Subdivision {
     name: "Camden",
     code: "GB-CMD",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CMD",
 };
@@ -42291,7 +41778,7 @@ pub const GB_CMN: Subdivision = Subdivision {
     name: "Carmarthenshire",
     code: "GB-CMN",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CMN",
 };
@@ -42300,7 +41787,7 @@ pub const GB_CON: Subdivision = Subdivision {
     name: "Cornwall",
     code: "GB-CON",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CON",
 };
@@ -42309,7 +41796,7 @@ pub const GB_COV: Subdivision = Subdivision {
     name: "Coventry",
     code: "GB-COV",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "COV",
 };
@@ -42318,7 +41805,7 @@ pub const GB_CRF: Subdivision = Subdivision {
     name: "Cardiff",
     code: "GB-CRF",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CRF",
 };
@@ -42327,25 +41814,16 @@ pub const GB_CRY: Subdivision = Subdivision {
     name: "Croydon",
     code: "GB-CRY",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CRY",
-};
-
-pub const GB_CSR: Subdivision = Subdivision {
-    name: "Castlereagh",
-    code: "GB-CSR",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "CSR",
 };
 
 pub const GB_CWY: Subdivision = Subdivision {
     name: "Conwy",
     code: "GB-CWY",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "CWY",
 };
@@ -42354,7 +41832,7 @@ pub const GB_DAL: Subdivision = Subdivision {
     name: "Darlington",
     code: "GB-DAL",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "DAL",
 };
@@ -42363,7 +41841,7 @@ pub const GB_DBY: Subdivision = Subdivision {
     name: "Derbyshire",
     code: "GB-DBY",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "DBY",
 };
@@ -42372,7 +41850,7 @@ pub const GB_DEN: Subdivision = Subdivision {
     name: "Denbighshire",
     code: "GB-DEN",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "DEN",
 };
@@ -42381,7 +41859,7 @@ pub const GB_DER: Subdivision = Subdivision {
     name: "Derby",
     code: "GB-DER",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "DER",
 };
@@ -42390,25 +41868,16 @@ pub const GB_DEV: Subdivision = Subdivision {
     name: "Devon",
     code: "GB-DEV",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "DEV",
-};
-
-pub const GB_DGN: Subdivision = Subdivision {
-    name: "Dungannon and South Tyrone",
-    code: "GB-DGN",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "DGN",
 };
 
 pub const GB_DGY: Subdivision = Subdivision {
     name: "Dumfries and Galloway",
     code: "GB-DGY",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "DGY",
 };
@@ -42417,7 +41886,7 @@ pub const GB_DNC: Subdivision = Subdivision {
     name: "Doncaster",
     code: "GB-DNC",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "DNC",
 };
@@ -42426,7 +41895,7 @@ pub const GB_DND: Subdivision = Subdivision {
     name: "Dundee City",
     code: "GB-DND",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "DND",
 };
@@ -42435,43 +41904,34 @@ pub const GB_DOR: Subdivision = Subdivision {
     name: "Dorset",
     code: "GB-DOR",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "DOR",
 };
 
-pub const GB_DOW: Subdivision = Subdivision {
-    name: "Down",
-    code: "GB-DOW",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
+pub const GB_DRS: Subdivision = Subdivision {
+    name: "Derry and Strabane",
+    code: "GB-DRS",
+    subdivision_type: "District",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
-    region_code: "DOW",
-};
-
-pub const GB_DRY: Subdivision = Subdivision {
-    name: "Derry",
-    code: "GB-DRY",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "DRY",
+    region_code: "DRS",
 };
 
 pub const GB_DUD: Subdivision = Subdivision {
     name: "Dudley",
     code: "GB-DUD",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "DUD",
 };
 
 pub const GB_DUR: Subdivision = Subdivision {
-    name: "Durham County",
+    name: "Durham, County",
     code: "GB-DUR",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "DUR",
 };
@@ -42480,25 +41940,16 @@ pub const GB_EAL: Subdivision = Subdivision {
     name: "Ealing",
     code: "GB-EAL",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "EAL",
-};
-
-pub const GB_EAW: Subdivision = Subdivision {
-    name: "England and Wales",
-    code: "GB-EAW",
-    subdivision_type: "Nation",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "EAW",
 };
 
 pub const GB_EAY: Subdivision = Subdivision {
     name: "East Ayrshire",
     code: "GB-EAY",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "EAY",
 };
@@ -42507,7 +41958,7 @@ pub const GB_EDH: Subdivision = Subdivision {
     name: "Edinburgh, City of",
     code: "GB-EDH",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "EDH",
 };
@@ -42516,7 +41967,7 @@ pub const GB_EDU: Subdivision = Subdivision {
     name: "East Dunbartonshire",
     code: "GB-EDU",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "EDU",
 };
@@ -42525,7 +41976,7 @@ pub const GB_ELN: Subdivision = Subdivision {
     name: "East Lothian",
     code: "GB-ELN",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ELN",
 };
@@ -42534,7 +41985,7 @@ pub const GB_ELS: Subdivision = Subdivision {
     name: "Eilean Siar",
     code: "GB-ELS",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ELS",
 };
@@ -42543,7 +41994,7 @@ pub const GB_ENF: Subdivision = Subdivision {
     name: "Enfield",
     code: "GB-ENF",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ENF",
 };
@@ -42552,7 +42003,7 @@ pub const GB_ENG: Subdivision = Subdivision {
     name: "England",
     code: "GB-ENG",
     subdivision_type: "Country",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ENG",
 };
@@ -42561,7 +42012,7 @@ pub const GB_ERW: Subdivision = Subdivision {
     name: "East Renfrewshire",
     code: "GB-ERW",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ERW",
 };
@@ -42570,7 +42021,7 @@ pub const GB_ERY: Subdivision = Subdivision {
     name: "East Riding of Yorkshire",
     code: "GB-ERY",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ERY",
 };
@@ -42579,7 +42030,7 @@ pub const GB_ESS: Subdivision = Subdivision {
     name: "Essex",
     code: "GB-ESS",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ESS",
 };
@@ -42588,7 +42039,7 @@ pub const GB_ESX: Subdivision = Subdivision {
     name: "East Sussex",
     code: "GB-ESX",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ESX",
 };
@@ -42597,25 +42048,16 @@ pub const GB_FAL: Subdivision = Subdivision {
     name: "Falkirk",
     code: "GB-FAL",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "FAL",
-};
-
-pub const GB_FER: Subdivision = Subdivision {
-    name: "Fermanagh",
-    code: "GB-FER",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "FER",
 };
 
 pub const GB_FIF: Subdivision = Subdivision {
     name: "Fife",
     code: "GB-FIF",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "FIF",
 };
@@ -42624,34 +42066,34 @@ pub const GB_FLN: Subdivision = Subdivision {
     name: "Flintshire",
     code: "GB-FLN",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "FLN",
+};
+
+pub const GB_FMO: Subdivision = Subdivision {
+    name: "Fermanagh and Omagh",
+    code: "GB-FMO",
+    subdivision_type: "District",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
+    country_code: "GB",
+    region_code: "FMO",
 };
 
 pub const GB_GAT: Subdivision = Subdivision {
     name: "Gateshead",
     code: "GB-GAT",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "GAT",
-};
-
-pub const GB_GBN: Subdivision = Subdivision {
-    name: "Great Britain",
-    code: "GB-GBN",
-    subdivision_type: "Nation",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "GBN",
 };
 
 pub const GB_GLG: Subdivision = Subdivision {
     name: "Glasgow City",
     code: "GB-GLG",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "GLG",
 };
@@ -42660,7 +42102,7 @@ pub const GB_GLS: Subdivision = Subdivision {
     name: "Gloucestershire",
     code: "GB-GLS",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "GLS",
 };
@@ -42669,7 +42111,7 @@ pub const GB_GRE: Subdivision = Subdivision {
     name: "Greenwich",
     code: "GB-GRE",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "GRE",
 };
@@ -42678,7 +42120,7 @@ pub const GB_GWN: Subdivision = Subdivision {
     name: "Gwynedd",
     code: "GB-GWN",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "GWN",
 };
@@ -42687,7 +42129,7 @@ pub const GB_HAL: Subdivision = Subdivision {
     name: "Halton",
     code: "GB-HAL",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "HAL",
 };
@@ -42696,7 +42138,7 @@ pub const GB_HAM: Subdivision = Subdivision {
     name: "Hampshire",
     code: "GB-HAM",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "HAM",
 };
@@ -42705,7 +42147,7 @@ pub const GB_HAV: Subdivision = Subdivision {
     name: "Havering",
     code: "GB-HAV",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "HAV",
 };
@@ -42714,7 +42156,7 @@ pub const GB_HCK: Subdivision = Subdivision {
     name: "Hackney",
     code: "GB-HCK",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "HCK",
 };
@@ -42723,7 +42165,7 @@ pub const GB_HEF: Subdivision = Subdivision {
     name: "Herefordshire",
     code: "GB-HEF",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "HEF",
 };
@@ -42732,7 +42174,7 @@ pub const GB_HIL: Subdivision = Subdivision {
     name: "Hillingdon",
     code: "GB-HIL",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "HIL",
 };
@@ -42741,7 +42183,7 @@ pub const GB_HLD: Subdivision = Subdivision {
     name: "Highland",
     code: "GB-HLD",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "HLD",
 };
@@ -42750,7 +42192,7 @@ pub const GB_HMF: Subdivision = Subdivision {
     name: "Hammersmith and Fulham",
     code: "GB-HMF",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "HMF",
 };
@@ -42759,7 +42201,7 @@ pub const GB_HNS: Subdivision = Subdivision {
     name: "Hounslow",
     code: "GB-HNS",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "HNS",
 };
@@ -42768,7 +42210,7 @@ pub const GB_HPL: Subdivision = Subdivision {
     name: "Hartlepool",
     code: "GB-HPL",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "HPL",
 };
@@ -42777,7 +42219,7 @@ pub const GB_HRT: Subdivision = Subdivision {
     name: "Hertfordshire",
     code: "GB-HRT",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "HRT",
 };
@@ -42786,7 +42228,7 @@ pub const GB_HRW: Subdivision = Subdivision {
     name: "Harrow",
     code: "GB-HRW",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "HRW",
 };
@@ -42795,7 +42237,7 @@ pub const GB_HRY: Subdivision = Subdivision {
     name: "Haringey",
     code: "GB-HRY",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "HRY",
 };
@@ -42804,7 +42246,7 @@ pub const GB_IOS: Subdivision = Subdivision {
     name: "Isles of Scilly",
     code: "GB-IOS",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "IOS",
 };
@@ -42813,7 +42255,7 @@ pub const GB_IOW: Subdivision = Subdivision {
     name: "Isle of Wight",
     code: "GB-IOW",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "IOW",
 };
@@ -42822,7 +42264,7 @@ pub const GB_ISL: Subdivision = Subdivision {
     name: "Islington",
     code: "GB-ISL",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ISL",
 };
@@ -42831,7 +42273,7 @@ pub const GB_IVC: Subdivision = Subdivision {
     name: "Inverclyde",
     code: "GB-IVC",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "IVC",
 };
@@ -42840,7 +42282,7 @@ pub const GB_KEC: Subdivision = Subdivision {
     name: "Kensington and Chelsea",
     code: "GB-KEC",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "KEC",
 };
@@ -42849,7 +42291,7 @@ pub const GB_KEN: Subdivision = Subdivision {
     name: "Kent",
     code: "GB-KEN",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "KEN",
 };
@@ -42858,7 +42300,7 @@ pub const GB_KHL: Subdivision = Subdivision {
     name: "Kingston upon Hull",
     code: "GB-KHL",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "KHL",
 };
@@ -42867,7 +42309,7 @@ pub const GB_KIR: Subdivision = Subdivision {
     name: "Kirklees",
     code: "GB-KIR",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "KIR",
 };
@@ -42876,7 +42318,7 @@ pub const GB_KTT: Subdivision = Subdivision {
     name: "Kingston upon Thames",
     code: "GB-KTT",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "KTT",
 };
@@ -42885,7 +42327,7 @@ pub const GB_KWL: Subdivision = Subdivision {
     name: "Knowsley",
     code: "GB-KWL",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "KWL",
 };
@@ -42894,16 +42336,25 @@ pub const GB_LAN: Subdivision = Subdivision {
     name: "Lancashire",
     code: "GB-LAN",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "LAN",
+};
+
+pub const GB_LBC: Subdivision = Subdivision {
+    name: "Lisburn and Castlereagh",
+    code: "GB-LBC",
+    subdivision_type: "District",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
+    country_code: "GB",
+    region_code: "LBC",
 };
 
 pub const GB_LBH: Subdivision = Subdivision {
     name: "Lambeth",
     code: "GB-LBH",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "LBH",
 };
@@ -42912,7 +42363,7 @@ pub const GB_LCE: Subdivision = Subdivision {
     name: "Leicester",
     code: "GB-LCE",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "LCE",
 };
@@ -42921,7 +42372,7 @@ pub const GB_LDS: Subdivision = Subdivision {
     name: "Leeds",
     code: "GB-LDS",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "LDS",
 };
@@ -42930,7 +42381,7 @@ pub const GB_LEC: Subdivision = Subdivision {
     name: "Leicestershire",
     code: "GB-LEC",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "LEC",
 };
@@ -42939,7 +42390,7 @@ pub const GB_LEW: Subdivision = Subdivision {
     name: "Lewisham",
     code: "GB-LEW",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "LEW",
 };
@@ -42948,7 +42399,7 @@ pub const GB_LIN: Subdivision = Subdivision {
     name: "Lincolnshire",
     code: "GB-LIN",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "LIN",
 };
@@ -42957,52 +42408,25 @@ pub const GB_LIV: Subdivision = Subdivision {
     name: "Liverpool",
     code: "GB-LIV",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "LIV",
-};
-
-pub const GB_LMV: Subdivision = Subdivision {
-    name: "Limavady",
-    code: "GB-LMV",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "LMV",
 };
 
 pub const GB_LND: Subdivision = Subdivision {
     name: "London, City of",
     code: "GB-LND",
     subdivision_type: "City corporation",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "LND",
-};
-
-pub const GB_LRN: Subdivision = Subdivision {
-    name: "Larne",
-    code: "GB-LRN",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "LRN",
-};
-
-pub const GB_LSB: Subdivision = Subdivision {
-    name: "Lisburn",
-    code: "GB-LSB",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "LSB",
 };
 
 pub const GB_LUT: Subdivision = Subdivision {
     name: "Luton",
     code: "GB-LUT",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "LUT",
 };
@@ -43011,7 +42435,7 @@ pub const GB_MAN: Subdivision = Subdivision {
     name: "Manchester",
     code: "GB-MAN",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "MAN",
 };
@@ -43020,7 +42444,7 @@ pub const GB_MDB: Subdivision = Subdivision {
     name: "Middlesbrough",
     code: "GB-MDB",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "MDB",
 };
@@ -43029,25 +42453,25 @@ pub const GB_MDW: Subdivision = Subdivision {
     name: "Medway",
     code: "GB-MDW",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "MDW",
 };
 
-pub const GB_MFT: Subdivision = Subdivision {
-    name: "Magherafelt",
-    code: "GB-MFT",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
+pub const GB_MEA: Subdivision = Subdivision {
+    name: "Mid and East Antrim",
+    code: "GB-MEA",
+    subdivision_type: "District",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
-    region_code: "MFT",
+    region_code: "MEA",
 };
 
 pub const GB_MIK: Subdivision = Subdivision {
     name: "Milton Keynes",
     code: "GB-MIK",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "MIK",
 };
@@ -43056,7 +42480,7 @@ pub const GB_MLN: Subdivision = Subdivision {
     name: "Midlothian",
     code: "GB-MLN",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "MLN",
 };
@@ -43065,7 +42489,7 @@ pub const GB_MON: Subdivision = Subdivision {
     name: "Monmouthshire",
     code: "GB-MON",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "MON",
 };
@@ -43074,7 +42498,7 @@ pub const GB_MRT: Subdivision = Subdivision {
     name: "Merton",
     code: "GB-MRT",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "MRT",
 };
@@ -43083,7 +42507,7 @@ pub const GB_MRY: Subdivision = Subdivision {
     name: "Moray",
     code: "GB-MRY",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "MRY",
 };
@@ -43092,25 +42516,25 @@ pub const GB_MTY: Subdivision = Subdivision {
     name: "Merthyr Tydfil",
     code: "GB-MTY",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "MTY",
 };
 
-pub const GB_MYL: Subdivision = Subdivision {
-    name: "Moyle",
-    code: "GB-MYL",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
+pub const GB_MUL: Subdivision = Subdivision {
+    name: "Mid-Ulster",
+    code: "GB-MUL",
+    subdivision_type: "District",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
-    region_code: "MYL",
+    region_code: "MUL",
 };
 
 pub const GB_NAY: Subdivision = Subdivision {
     name: "North Ayrshire",
     code: "GB-NAY",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NAY",
 };
@@ -43119,25 +42543,16 @@ pub const GB_NBL: Subdivision = Subdivision {
     name: "Northumberland",
     code: "GB-NBL",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NBL",
-};
-
-pub const GB_NDN: Subdivision = Subdivision {
-    name: "North Down",
-    code: "GB-NDN",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "NDN",
 };
 
 pub const GB_NEL: Subdivision = Subdivision {
     name: "North East Lincolnshire",
     code: "GB-NEL",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NEL",
 };
@@ -43146,7 +42561,7 @@ pub const GB_NET: Subdivision = Subdivision {
     name: "Newcastle upon Tyne",
     code: "GB-NET",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NET",
 };
@@ -43155,7 +42570,7 @@ pub const GB_NFK: Subdivision = Subdivision {
     name: "Norfolk",
     code: "GB-NFK",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NFK",
 };
@@ -43164,7 +42579,7 @@ pub const GB_NGM: Subdivision = Subdivision {
     name: "Nottingham",
     code: "GB-NGM",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NGM",
 };
@@ -43173,7 +42588,7 @@ pub const GB_NIR: Subdivision = Subdivision {
     name: "Northern Ireland",
     code: "GB-NIR",
     subdivision_type: "Province",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NIR",
 };
@@ -43182,7 +42597,7 @@ pub const GB_NLK: Subdivision = Subdivision {
     name: "North Lanarkshire",
     code: "GB-NLK",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NLK",
 };
@@ -43191,43 +42606,43 @@ pub const GB_NLN: Subdivision = Subdivision {
     name: "North Lincolnshire",
     code: "GB-NLN",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NLN",
+};
+
+pub const GB_NMD: Subdivision = Subdivision {
+    name: "Newry, Mourne and Down",
+    code: "GB-NMD",
+    subdivision_type: "District",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
+    country_code: "GB",
+    region_code: "NMD",
+};
+
+pub const GB_NNH: Subdivision = Subdivision {
+    name: "North Northamptonshire",
+    code: "GB-NNH",
+    subdivision_type: "Unitary authority",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
+    country_code: "GB",
+    region_code: "NNH",
 };
 
 pub const GB_NSM: Subdivision = Subdivision {
     name: "North Somerset",
     code: "GB-NSM",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NSM",
-};
-
-pub const GB_NTA: Subdivision = Subdivision {
-    name: "Newtownabbey",
-    code: "GB-NTA",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "NTA",
-};
-
-pub const GB_NTH: Subdivision = Subdivision {
-    name: "Northamptonshire",
-    code: "GB-NTH",
-    subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "NTH",
 };
 
 pub const GB_NTL: Subdivision = Subdivision {
     name: "Neath Port Talbot",
     code: "GB-NTL",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NTL",
 };
@@ -43236,7 +42651,7 @@ pub const GB_NTT: Subdivision = Subdivision {
     name: "Nottinghamshire",
     code: "GB-NTT",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NTT",
 };
@@ -43245,7 +42660,7 @@ pub const GB_NTY: Subdivision = Subdivision {
     name: "North Tyneside",
     code: "GB-NTY",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NTY",
 };
@@ -43254,7 +42669,7 @@ pub const GB_NWM: Subdivision = Subdivision {
     name: "Newham",
     code: "GB-NWM",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NWM",
 };
@@ -43263,7 +42678,7 @@ pub const GB_NWP: Subdivision = Subdivision {
     name: "Newport",
     code: "GB-NWP",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NWP",
 };
@@ -43272,43 +42687,25 @@ pub const GB_NYK: Subdivision = Subdivision {
     name: "North Yorkshire",
     code: "GB-NYK",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "NYK",
-};
-
-pub const GB_NYM: Subdivision = Subdivision {
-    name: "Newry and Mourne",
-    code: "GB-NYM",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "NYM",
 };
 
 pub const GB_OLD: Subdivision = Subdivision {
     name: "Oldham",
     code: "GB-OLD",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "OLD",
-};
-
-pub const GB_OMH: Subdivision = Subdivision {
-    name: "Omagh",
-    code: "GB-OMH",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "OMH",
 };
 
 pub const GB_ORK: Subdivision = Subdivision {
     name: "Orkney Islands",
     code: "GB-ORK",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ORK",
 };
@@ -43317,7 +42714,7 @@ pub const GB_OXF: Subdivision = Subdivision {
     name: "Oxfordshire",
     code: "GB-OXF",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "OXF",
 };
@@ -43326,7 +42723,7 @@ pub const GB_PEM: Subdivision = Subdivision {
     name: "Pembrokeshire",
     code: "GB-PEM",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "PEM",
 };
@@ -43335,7 +42732,7 @@ pub const GB_PKN: Subdivision = Subdivision {
     name: "Perth and Kinross",
     code: "GB-PKN",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "PKN",
 };
@@ -43344,25 +42741,16 @@ pub const GB_PLY: Subdivision = Subdivision {
     name: "Plymouth",
     code: "GB-PLY",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "PLY",
-};
-
-pub const GB_POL: Subdivision = Subdivision {
-    name: "Poole",
-    code: "GB-POL",
-    subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "POL",
 };
 
 pub const GB_POR: Subdivision = Subdivision {
     name: "Portsmouth",
     code: "GB-POR",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "POR",
 };
@@ -43371,7 +42759,7 @@ pub const GB_POW: Subdivision = Subdivision {
     name: "Powys",
     code: "GB-POW",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "POW",
 };
@@ -43380,7 +42768,7 @@ pub const GB_PTE: Subdivision = Subdivision {
     name: "Peterborough",
     code: "GB-PTE",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "PTE",
 };
@@ -43389,7 +42777,7 @@ pub const GB_RCC: Subdivision = Subdivision {
     name: "Redcar and Cleveland",
     code: "GB-RCC",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "RCC",
 };
@@ -43398,16 +42786,16 @@ pub const GB_RCH: Subdivision = Subdivision {
     name: "Rochdale",
     code: "GB-RCH",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "RCH",
 };
 
 pub const GB_RCT: Subdivision = Subdivision {
-    name: "Rhondda, Cynon, Taff",
+    name: "Rhondda Cynon Taff",
     code: "GB-RCT",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "RCT",
 };
@@ -43416,7 +42804,7 @@ pub const GB_RDB: Subdivision = Subdivision {
     name: "Redbridge",
     code: "GB-RDB",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "RDB",
 };
@@ -43425,7 +42813,7 @@ pub const GB_RDG: Subdivision = Subdivision {
     name: "Reading",
     code: "GB-RDG",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "RDG",
 };
@@ -43434,7 +42822,7 @@ pub const GB_RFW: Subdivision = Subdivision {
     name: "Renfrewshire",
     code: "GB-RFW",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "RFW",
 };
@@ -43443,7 +42831,7 @@ pub const GB_RIC: Subdivision = Subdivision {
     name: "Richmond upon Thames",
     code: "GB-RIC",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "RIC",
 };
@@ -43452,7 +42840,7 @@ pub const GB_ROT: Subdivision = Subdivision {
     name: "Rotherham",
     code: "GB-ROT",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ROT",
 };
@@ -43461,7 +42849,7 @@ pub const GB_RUT: Subdivision = Subdivision {
     name: "Rutland",
     code: "GB-RUT",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "RUT",
 };
@@ -43470,7 +42858,7 @@ pub const GB_SAW: Subdivision = Subdivision {
     name: "Sandwell",
     code: "GB-SAW",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SAW",
 };
@@ -43479,16 +42867,16 @@ pub const GB_SAY: Subdivision = Subdivision {
     name: "South Ayrshire",
     code: "GB-SAY",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SAY",
 };
 
 pub const GB_SCB: Subdivision = Subdivision {
-    name: "Scottish Borders, The",
+    name: "Scottish Borders",
     code: "GB-SCB",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SCB",
 };
@@ -43497,7 +42885,7 @@ pub const GB_SCT: Subdivision = Subdivision {
     name: "Scotland",
     code: "GB-SCT",
     subdivision_type: "Country",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SCT",
 };
@@ -43506,7 +42894,7 @@ pub const GB_SFK: Subdivision = Subdivision {
     name: "Suffolk",
     code: "GB-SFK",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SFK",
 };
@@ -43515,7 +42903,7 @@ pub const GB_SFT: Subdivision = Subdivision {
     name: "Sefton",
     code: "GB-SFT",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SFT",
 };
@@ -43524,7 +42912,7 @@ pub const GB_SGC: Subdivision = Subdivision {
     name: "South Gloucestershire",
     code: "GB-SGC",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SGC",
 };
@@ -43533,7 +42921,7 @@ pub const GB_SHF: Subdivision = Subdivision {
     name: "Sheffield",
     code: "GB-SHF",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SHF",
 };
@@ -43542,7 +42930,7 @@ pub const GB_SHN: Subdivision = Subdivision {
     name: "St. Helens",
     code: "GB-SHN",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SHN",
 };
@@ -43551,7 +42939,7 @@ pub const GB_SHR: Subdivision = Subdivision {
     name: "Shropshire",
     code: "GB-SHR",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SHR",
 };
@@ -43560,7 +42948,7 @@ pub const GB_SKP: Subdivision = Subdivision {
     name: "Stockport",
     code: "GB-SKP",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SKP",
 };
@@ -43569,7 +42957,7 @@ pub const GB_SLF: Subdivision = Subdivision {
     name: "Salford",
     code: "GB-SLF",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SLF",
 };
@@ -43578,7 +42966,7 @@ pub const GB_SLG: Subdivision = Subdivision {
     name: "Slough",
     code: "GB-SLG",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SLG",
 };
@@ -43587,7 +42975,7 @@ pub const GB_SLK: Subdivision = Subdivision {
     name: "South Lanarkshire",
     code: "GB-SLK",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SLK",
 };
@@ -43596,7 +42984,7 @@ pub const GB_SND: Subdivision = Subdivision {
     name: "Sunderland",
     code: "GB-SND",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SND",
 };
@@ -43605,7 +42993,7 @@ pub const GB_SOL: Subdivision = Subdivision {
     name: "Solihull",
     code: "GB-SOL",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SOL",
 };
@@ -43614,7 +43002,7 @@ pub const GB_SOM: Subdivision = Subdivision {
     name: "Somerset",
     code: "GB-SOM",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SOM",
 };
@@ -43623,7 +43011,7 @@ pub const GB_SOS: Subdivision = Subdivision {
     name: "Southend-on-Sea",
     code: "GB-SOS",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SOS",
 };
@@ -43632,25 +43020,16 @@ pub const GB_SRY: Subdivision = Subdivision {
     name: "Surrey",
     code: "GB-SRY",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SRY",
-};
-
-pub const GB_STB: Subdivision = Subdivision {
-    name: "Strabane",
-    code: "GB-STB",
-    subdivision_type: "District council area",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "STB",
 };
 
 pub const GB_STE: Subdivision = Subdivision {
     name: "Stoke-on-Trent",
     code: "GB-STE",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "STE",
 };
@@ -43659,7 +43038,7 @@ pub const GB_STG: Subdivision = Subdivision {
     name: "Stirling",
     code: "GB-STG",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "STG",
 };
@@ -43668,7 +43047,7 @@ pub const GB_STH: Subdivision = Subdivision {
     name: "Southampton",
     code: "GB-STH",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "STH",
 };
@@ -43677,7 +43056,7 @@ pub const GB_STN: Subdivision = Subdivision {
     name: "Sutton",
     code: "GB-STN",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "STN",
 };
@@ -43686,7 +43065,7 @@ pub const GB_STS: Subdivision = Subdivision {
     name: "Staffordshire",
     code: "GB-STS",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "STS",
 };
@@ -43695,7 +43074,7 @@ pub const GB_STT: Subdivision = Subdivision {
     name: "Stockton-on-Tees",
     code: "GB-STT",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "STT",
 };
@@ -43704,7 +43083,7 @@ pub const GB_STY: Subdivision = Subdivision {
     name: "South Tyneside",
     code: "GB-STY",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "STY",
 };
@@ -43713,7 +43092,7 @@ pub const GB_SWA: Subdivision = Subdivision {
     name: "Swansea",
     code: "GB-SWA",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SWA",
 };
@@ -43722,7 +43101,7 @@ pub const GB_SWD: Subdivision = Subdivision {
     name: "Swindon",
     code: "GB-SWD",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SWD",
 };
@@ -43731,7 +43110,7 @@ pub const GB_SWK: Subdivision = Subdivision {
     name: "Southwark",
     code: "GB-SWK",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "SWK",
 };
@@ -43740,7 +43119,7 @@ pub const GB_TAM: Subdivision = Subdivision {
     name: "Tameside",
     code: "GB-TAM",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "TAM",
 };
@@ -43749,7 +43128,7 @@ pub const GB_TFW: Subdivision = Subdivision {
     name: "Telford and Wrekin",
     code: "GB-TFW",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "TFW",
 };
@@ -43758,7 +43137,7 @@ pub const GB_THR: Subdivision = Subdivision {
     name: "Thurrock",
     code: "GB-THR",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "THR",
 };
@@ -43767,7 +43146,7 @@ pub const GB_TOB: Subdivision = Subdivision {
     name: "Torbay",
     code: "GB-TOB",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "TOB",
 };
@@ -43776,7 +43155,7 @@ pub const GB_TOF: Subdivision = Subdivision {
     name: "Torfaen",
     code: "GB-TOF",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "TOF",
 };
@@ -43785,7 +43164,7 @@ pub const GB_TRF: Subdivision = Subdivision {
     name: "Trafford",
     code: "GB-TRF",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "TRF",
 };
@@ -43794,25 +43173,16 @@ pub const GB_TWH: Subdivision = Subdivision {
     name: "Tower Hamlets",
     code: "GB-TWH",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "TWH",
-};
-
-pub const GB_UKM: Subdivision = Subdivision {
-    name: "United Kingdom",
-    code: "GB-UKM",
-    subdivision_type: "Nation",
-    country_name: "United Kingdom",
-    country_code: "GB",
-    region_code: "UKM",
 };
 
 pub const GB_VGL: Subdivision = Subdivision {
     name: "Vale of Glamorgan, The",
     code: "GB-VGL",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "VGL",
 };
@@ -43821,7 +43191,7 @@ pub const GB_WAR: Subdivision = Subdivision {
     name: "Warwickshire",
     code: "GB-WAR",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WAR",
 };
@@ -43830,7 +43200,7 @@ pub const GB_WBK: Subdivision = Subdivision {
     name: "West Berkshire",
     code: "GB-WBK",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WBK",
 };
@@ -43839,7 +43209,7 @@ pub const GB_WDU: Subdivision = Subdivision {
     name: "West Dunbartonshire",
     code: "GB-WDU",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WDU",
 };
@@ -43848,7 +43218,7 @@ pub const GB_WFT: Subdivision = Subdivision {
     name: "Waltham Forest",
     code: "GB-WFT",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WFT",
 };
@@ -43857,7 +43227,7 @@ pub const GB_WGN: Subdivision = Subdivision {
     name: "Wigan",
     code: "GB-WGN",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WGN",
 };
@@ -43866,7 +43236,7 @@ pub const GB_WIL: Subdivision = Subdivision {
     name: "Wiltshire",
     code: "GB-WIL",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WIL",
 };
@@ -43875,7 +43245,7 @@ pub const GB_WKF: Subdivision = Subdivision {
     name: "Wakefield",
     code: "GB-WKF",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WKF",
 };
@@ -43884,7 +43254,7 @@ pub const GB_WLL: Subdivision = Subdivision {
     name: "Walsall",
     code: "GB-WLL",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WLL",
 };
@@ -43893,7 +43263,7 @@ pub const GB_WLN: Subdivision = Subdivision {
     name: "West Lothian",
     code: "GB-WLN",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WLN",
 };
@@ -43902,7 +43272,7 @@ pub const GB_WLS: Subdivision = Subdivision {
     name: "Wales",
     code: "GB-WLS",
     subdivision_type: "Country",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WLS",
 };
@@ -43911,7 +43281,7 @@ pub const GB_WLV: Subdivision = Subdivision {
     name: "Wolverhampton",
     code: "GB-WLV",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WLV",
 };
@@ -43920,16 +43290,25 @@ pub const GB_WND: Subdivision = Subdivision {
     name: "Wandsworth",
     code: "GB-WND",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WND",
+};
+
+pub const GB_WNH: Subdivision = Subdivision {
+    name: "West Northamptonshire",
+    code: "GB-WNH",
+    subdivision_type: "Unitary authority",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
+    country_code: "GB",
+    region_code: "WNH",
 };
 
 pub const GB_WNM: Subdivision = Subdivision {
     name: "Windsor and Maidenhead",
     code: "GB-WNM",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WNM",
 };
@@ -43938,7 +43317,7 @@ pub const GB_WOK: Subdivision = Subdivision {
     name: "Wokingham",
     code: "GB-WOK",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WOK",
 };
@@ -43947,7 +43326,7 @@ pub const GB_WOR: Subdivision = Subdivision {
     name: "Worcestershire",
     code: "GB-WOR",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WOR",
 };
@@ -43956,7 +43335,7 @@ pub const GB_WRL: Subdivision = Subdivision {
     name: "Wirral",
     code: "GB-WRL",
     subdivision_type: "Metropolitan district",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WRL",
 };
@@ -43965,7 +43344,7 @@ pub const GB_WRT: Subdivision = Subdivision {
     name: "Warrington",
     code: "GB-WRT",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WRT",
 };
@@ -43974,7 +43353,7 @@ pub const GB_WRX: Subdivision = Subdivision {
     name: "Wrexham",
     code: "GB-WRX",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WRX",
 };
@@ -43983,7 +43362,7 @@ pub const GB_WSM: Subdivision = Subdivision {
     name: "Westminster",
     code: "GB-WSM",
     subdivision_type: "London borough",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WSM",
 };
@@ -43992,7 +43371,7 @@ pub const GB_WSX: Subdivision = Subdivision {
     name: "West Sussex",
     code: "GB-WSX",
     subdivision_type: "Two-tier county",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "WSX",
 };
@@ -44001,7 +43380,7 @@ pub const GB_YOR: Subdivision = Subdivision {
     name: "York",
     code: "GB-YOR",
     subdivision_type: "Unitary authority",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "YOR",
 };
@@ -44010,9 +43389,522 @@ pub const GB_ZET: Subdivision = Subdivision {
     name: "Shetland Islands",
     code: "GB-ZET",
     subdivision_type: "Council area",
-    country_name: "United Kingdom",
+    country_name: "United Kingdom of Great Britain and Northern Ireland",
     country_code: "GB",
     region_code: "ZET",
+};
+
+pub const US_AK: Subdivision = Subdivision {
+    name: "Alaska",
+    code: "US-AK",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "AK",
+};
+
+pub const US_AL: Subdivision = Subdivision {
+    name: "Alabama",
+    code: "US-AL",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "AL",
+};
+
+pub const US_AR: Subdivision = Subdivision {
+    name: "Arkansas",
+    code: "US-AR",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "AR",
+};
+
+pub const US_AS: Subdivision = Subdivision {
+    name: "American Samoa",
+    code: "US-AS",
+    subdivision_type: "Outlying area",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "AS",
+};
+
+pub const US_AZ: Subdivision = Subdivision {
+    name: "Arizona",
+    code: "US-AZ",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "AZ",
+};
+
+pub const US_CA: Subdivision = Subdivision {
+    name: "California",
+    code: "US-CA",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "CA",
+};
+
+pub const US_CO: Subdivision = Subdivision {
+    name: "Colorado",
+    code: "US-CO",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "CO",
+};
+
+pub const US_CT: Subdivision = Subdivision {
+    name: "Connecticut",
+    code: "US-CT",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "CT",
+};
+
+pub const US_DC: Subdivision = Subdivision {
+    name: "District of Columbia",
+    code: "US-DC",
+    subdivision_type: "District",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "DC",
+};
+
+pub const US_DE: Subdivision = Subdivision {
+    name: "Delaware",
+    code: "US-DE",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "DE",
+};
+
+pub const US_FL: Subdivision = Subdivision {
+    name: "Florida",
+    code: "US-FL",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "FL",
+};
+
+pub const US_GA: Subdivision = Subdivision {
+    name: "Georgia",
+    code: "US-GA",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "GA",
+};
+
+pub const US_GU: Subdivision = Subdivision {
+    name: "Guam",
+    code: "US-GU",
+    subdivision_type: "Outlying area",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "GU",
+};
+
+pub const US_HI: Subdivision = Subdivision {
+    name: "Hawaii",
+    code: "US-HI",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "HI",
+};
+
+pub const US_IA: Subdivision = Subdivision {
+    name: "Iowa",
+    code: "US-IA",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "IA",
+};
+
+pub const US_ID: Subdivision = Subdivision {
+    name: "Idaho",
+    code: "US-ID",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "ID",
+};
+
+pub const US_IL: Subdivision = Subdivision {
+    name: "Illinois",
+    code: "US-IL",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "IL",
+};
+
+pub const US_IN: Subdivision = Subdivision {
+    name: "Indiana",
+    code: "US-IN",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "IN",
+};
+
+pub const US_KS: Subdivision = Subdivision {
+    name: "Kansas",
+    code: "US-KS",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "KS",
+};
+
+pub const US_KY: Subdivision = Subdivision {
+    name: "Kentucky",
+    code: "US-KY",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "KY",
+};
+
+pub const US_LA: Subdivision = Subdivision {
+    name: "Louisiana",
+    code: "US-LA",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "LA",
+};
+
+pub const US_MA: Subdivision = Subdivision {
+    name: "Massachusetts",
+    code: "US-MA",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "MA",
+};
+
+pub const US_MD: Subdivision = Subdivision {
+    name: "Maryland",
+    code: "US-MD",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "MD",
+};
+
+pub const US_ME: Subdivision = Subdivision {
+    name: "Maine",
+    code: "US-ME",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "ME",
+};
+
+pub const US_MI: Subdivision = Subdivision {
+    name: "Michigan",
+    code: "US-MI",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "MI",
+};
+
+pub const US_MN: Subdivision = Subdivision {
+    name: "Minnesota",
+    code: "US-MN",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "MN",
+};
+
+pub const US_MO: Subdivision = Subdivision {
+    name: "Missouri",
+    code: "US-MO",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "MO",
+};
+
+pub const US_MP: Subdivision = Subdivision {
+    name: "Northern Mariana Islands",
+    code: "US-MP",
+    subdivision_type: "Outlying area",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "MP",
+};
+
+pub const US_MS: Subdivision = Subdivision {
+    name: "Mississippi",
+    code: "US-MS",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "MS",
+};
+
+pub const US_MT: Subdivision = Subdivision {
+    name: "Montana",
+    code: "US-MT",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "MT",
+};
+
+pub const US_NC: Subdivision = Subdivision {
+    name: "North Carolina",
+    code: "US-NC",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "NC",
+};
+
+pub const US_ND: Subdivision = Subdivision {
+    name: "North Dakota",
+    code: "US-ND",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "ND",
+};
+
+pub const US_NE: Subdivision = Subdivision {
+    name: "Nebraska",
+    code: "US-NE",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "NE",
+};
+
+pub const US_NH: Subdivision = Subdivision {
+    name: "New Hampshire",
+    code: "US-NH",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "NH",
+};
+
+pub const US_NJ: Subdivision = Subdivision {
+    name: "New Jersey",
+    code: "US-NJ",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "NJ",
+};
+
+pub const US_NM: Subdivision = Subdivision {
+    name: "New Mexico",
+    code: "US-NM",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "NM",
+};
+
+pub const US_NV: Subdivision = Subdivision {
+    name: "Nevada",
+    code: "US-NV",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "NV",
+};
+
+pub const US_NY: Subdivision = Subdivision {
+    name: "New York",
+    code: "US-NY",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "NY",
+};
+
+pub const US_OH: Subdivision = Subdivision {
+    name: "Ohio",
+    code: "US-OH",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "OH",
+};
+
+pub const US_OK: Subdivision = Subdivision {
+    name: "Oklahoma",
+    code: "US-OK",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "OK",
+};
+
+pub const US_OR: Subdivision = Subdivision {
+    name: "Oregon",
+    code: "US-OR",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "OR",
+};
+
+pub const US_PA: Subdivision = Subdivision {
+    name: "Pennsylvania",
+    code: "US-PA",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "PA",
+};
+
+pub const US_PR: Subdivision = Subdivision {
+    name: "Puerto Rico",
+    code: "US-PR",
+    subdivision_type: "Outlying area",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "PR",
+};
+
+pub const US_RI: Subdivision = Subdivision {
+    name: "Rhode Island",
+    code: "US-RI",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "RI",
+};
+
+pub const US_SC: Subdivision = Subdivision {
+    name: "South Carolina",
+    code: "US-SC",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "SC",
+};
+
+pub const US_SD: Subdivision = Subdivision {
+    name: "South Dakota",
+    code: "US-SD",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "SD",
+};
+
+pub const US_TN: Subdivision = Subdivision {
+    name: "Tennessee",
+    code: "US-TN",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "TN",
+};
+
+pub const US_TX: Subdivision = Subdivision {
+    name: "Texas",
+    code: "US-TX",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "TX",
+};
+
+pub const US_UM: Subdivision = Subdivision {
+    name: "United States Minor Outlying Islands",
+    code: "US-UM",
+    subdivision_type: "Outlying area",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "UM",
+};
+
+pub const US_UT: Subdivision = Subdivision {
+    name: "Utah",
+    code: "US-UT",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "UT",
+};
+
+pub const US_VA: Subdivision = Subdivision {
+    name: "Virginia",
+    code: "US-VA",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "VA",
+};
+
+pub const US_VI: Subdivision = Subdivision {
+    name: "Virgin Islands, U.S.",
+    code: "US-VI",
+    subdivision_type: "Outlying area",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "VI",
+};
+
+pub const US_VT: Subdivision = Subdivision {
+    name: "Vermont",
+    code: "US-VT",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "VT",
+};
+
+pub const US_WA: Subdivision = Subdivision {
+    name: "Washington",
+    code: "US-WA",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "WA",
+};
+
+pub const US_WI: Subdivision = Subdivision {
+    name: "Wisconsin",
+    code: "US-WI",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "WI",
+};
+
+pub const US_WV: Subdivision = Subdivision {
+    name: "West Virginia",
+    code: "US-WV",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "WV",
+};
+
+pub const US_WY: Subdivision = Subdivision {
+    name: "Wyoming",
+    code: "US-WY",
+    subdivision_type: "State",
+    country_name: "United States of America",
+    country_code: "US",
+    region_code: "WY",
 };
 
 pub const UM_67: Subdivision = Subdivision {
@@ -44094,519 +43986,6 @@ pub const UM_95: Subdivision = Subdivision {
     country_name: "United States Minor Outlying Islands",
     country_code: "UM",
     region_code: "95",
-};
-
-pub const US_AK: Subdivision = Subdivision {
-    name: "Alaska",
-    code: "US-AK",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "AK",
-};
-
-pub const US_AL: Subdivision = Subdivision {
-    name: "Alabama",
-    code: "US-AL",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "AL",
-};
-
-pub const US_AR: Subdivision = Subdivision {
-    name: "Arkansas",
-    code: "US-AR",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "AR",
-};
-
-pub const US_AS: Subdivision = Subdivision {
-    name: "American Samoa",
-    code: "US-AS",
-    subdivision_type: "Outlying area",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "AS",
-};
-
-pub const US_AZ: Subdivision = Subdivision {
-    name: "Arizona",
-    code: "US-AZ",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "AZ",
-};
-
-pub const US_CA: Subdivision = Subdivision {
-    name: "California",
-    code: "US-CA",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "CA",
-};
-
-pub const US_CO: Subdivision = Subdivision {
-    name: "Colorado",
-    code: "US-CO",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "CO",
-};
-
-pub const US_CT: Subdivision = Subdivision {
-    name: "Connecticut",
-    code: "US-CT",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "CT",
-};
-
-pub const US_DC: Subdivision = Subdivision {
-    name: "District of Columbia",
-    code: "US-DC",
-    subdivision_type: "District",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "DC",
-};
-
-pub const US_DE: Subdivision = Subdivision {
-    name: "Delaware",
-    code: "US-DE",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "DE",
-};
-
-pub const US_FL: Subdivision = Subdivision {
-    name: "Florida",
-    code: "US-FL",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "FL",
-};
-
-pub const US_GA: Subdivision = Subdivision {
-    name: "Georgia",
-    code: "US-GA",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "GA",
-};
-
-pub const US_GU: Subdivision = Subdivision {
-    name: "Guam",
-    code: "US-GU",
-    subdivision_type: "Outlying area",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "GU",
-};
-
-pub const US_HI: Subdivision = Subdivision {
-    name: "Hawaii",
-    code: "US-HI",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "HI",
-};
-
-pub const US_IA: Subdivision = Subdivision {
-    name: "Iowa",
-    code: "US-IA",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "IA",
-};
-
-pub const US_ID: Subdivision = Subdivision {
-    name: "Idaho",
-    code: "US-ID",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "ID",
-};
-
-pub const US_IL: Subdivision = Subdivision {
-    name: "Illinois",
-    code: "US-IL",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "IL",
-};
-
-pub const US_IN: Subdivision = Subdivision {
-    name: "Indiana",
-    code: "US-IN",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "IN",
-};
-
-pub const US_KS: Subdivision = Subdivision {
-    name: "Kansas",
-    code: "US-KS",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "KS",
-};
-
-pub const US_KY: Subdivision = Subdivision {
-    name: "Kentucky",
-    code: "US-KY",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "KY",
-};
-
-pub const US_LA: Subdivision = Subdivision {
-    name: "Louisiana",
-    code: "US-LA",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "LA",
-};
-
-pub const US_MA: Subdivision = Subdivision {
-    name: "Massachusetts",
-    code: "US-MA",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "MA",
-};
-
-pub const US_MD: Subdivision = Subdivision {
-    name: "Maryland",
-    code: "US-MD",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "MD",
-};
-
-pub const US_ME: Subdivision = Subdivision {
-    name: "Maine",
-    code: "US-ME",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "ME",
-};
-
-pub const US_MI: Subdivision = Subdivision {
-    name: "Michigan",
-    code: "US-MI",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "MI",
-};
-
-pub const US_MN: Subdivision = Subdivision {
-    name: "Minnesota",
-    code: "US-MN",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "MN",
-};
-
-pub const US_MO: Subdivision = Subdivision {
-    name: "Missouri",
-    code: "US-MO",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "MO",
-};
-
-pub const US_MP: Subdivision = Subdivision {
-    name: "Northern Mariana Islands",
-    code: "US-MP",
-    subdivision_type: "Outlying area",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "MP",
-};
-
-pub const US_MS: Subdivision = Subdivision {
-    name: "Mississippi",
-    code: "US-MS",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "MS",
-};
-
-pub const US_MT: Subdivision = Subdivision {
-    name: "Montana",
-    code: "US-MT",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "MT",
-};
-
-pub const US_NC: Subdivision = Subdivision {
-    name: "North Carolina",
-    code: "US-NC",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "NC",
-};
-
-pub const US_ND: Subdivision = Subdivision {
-    name: "North Dakota",
-    code: "US-ND",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "ND",
-};
-
-pub const US_NE: Subdivision = Subdivision {
-    name: "Nebraska",
-    code: "US-NE",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "NE",
-};
-
-pub const US_NH: Subdivision = Subdivision {
-    name: "New Hampshire",
-    code: "US-NH",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "NH",
-};
-
-pub const US_NJ: Subdivision = Subdivision {
-    name: "New Jersey",
-    code: "US-NJ",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "NJ",
-};
-
-pub const US_NM: Subdivision = Subdivision {
-    name: "New Mexico",
-    code: "US-NM",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "NM",
-};
-
-pub const US_NV: Subdivision = Subdivision {
-    name: "Nevada",
-    code: "US-NV",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "NV",
-};
-
-pub const US_NY: Subdivision = Subdivision {
-    name: "New York",
-    code: "US-NY",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "NY",
-};
-
-pub const US_OH: Subdivision = Subdivision {
-    name: "Ohio",
-    code: "US-OH",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "OH",
-};
-
-pub const US_OK: Subdivision = Subdivision {
-    name: "Oklahoma",
-    code: "US-OK",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "OK",
-};
-
-pub const US_OR: Subdivision = Subdivision {
-    name: "Oregon",
-    code: "US-OR",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "OR",
-};
-
-pub const US_PA: Subdivision = Subdivision {
-    name: "Pennsylvania",
-    code: "US-PA",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "PA",
-};
-
-pub const US_PR: Subdivision = Subdivision {
-    name: "Puerto Rico",
-    code: "US-PR",
-    subdivision_type: "Outlying area",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "PR",
-};
-
-pub const US_RI: Subdivision = Subdivision {
-    name: "Rhode Island",
-    code: "US-RI",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "RI",
-};
-
-pub const US_SC: Subdivision = Subdivision {
-    name: "South Carolina",
-    code: "US-SC",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "SC",
-};
-
-pub const US_SD: Subdivision = Subdivision {
-    name: "South Dakota",
-    code: "US-SD",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "SD",
-};
-
-pub const US_TN: Subdivision = Subdivision {
-    name: "Tennessee",
-    code: "US-TN",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "TN",
-};
-
-pub const US_TX: Subdivision = Subdivision {
-    name: "Texas",
-    code: "US-TX",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "TX",
-};
-
-pub const US_UM: Subdivision = Subdivision {
-    name: "United States Minor Outlying Islands",
-    code: "US-UM",
-    subdivision_type: "Outlying area",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "UM",
-};
-
-pub const US_UT: Subdivision = Subdivision {
-    name: "Utah",
-    code: "US-UT",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "UT",
-};
-
-pub const US_VA: Subdivision = Subdivision {
-    name: "Virginia",
-    code: "US-VA",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "VA",
-};
-
-pub const US_VI: Subdivision = Subdivision {
-    name: "Virgin Islands, U.S.",
-    code: "US-VI",
-    subdivision_type: "Outlying area",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "VI",
-};
-
-pub const US_VT: Subdivision = Subdivision {
-    name: "Vermont",
-    code: "US-VT",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "VT",
-};
-
-pub const US_WA: Subdivision = Subdivision {
-    name: "Washington",
-    code: "US-WA",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "WA",
-};
-
-pub const US_WI: Subdivision = Subdivision {
-    name: "Wisconsin",
-    code: "US-WI",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "WI",
-};
-
-pub const US_WV: Subdivision = Subdivision {
-    name: "West Virginia",
-    code: "US-WV",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "WV",
-};
-
-pub const US_WY: Subdivision = Subdivision {
-    name: "Wyoming",
-    code: "US-WY",
-    subdivision_type: "State",
-    country_name: "United States",
-    country_code: "US",
-    region_code: "WY",
 };
 
 pub const UY_AR: Subdivision = Subdivision {
@@ -44960,20 +44339,11 @@ pub const VU_TOB: Subdivision = Subdivision {
     region_code: "TOB",
 };
 
-pub const VA_VA: Subdivision = Subdivision {
-    name: "Vatican City",
-    code: "VA-VA",
-    subdivision_type: "Country",
-    country_name: "Vatican City",
-    country_code: "VA",
-    region_code: "VA",
-};
-
 pub const VE_A: Subdivision = Subdivision {
     name: "Distrito Capital",
     code: "VE-A",
     subdivision_type: "Capital district",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "A",
 };
@@ -44982,7 +44352,7 @@ pub const VE_B: Subdivision = Subdivision {
     name: "Anzoátegui",
     code: "VE-B",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "B",
 };
@@ -44991,7 +44361,7 @@ pub const VE_C: Subdivision = Subdivision {
     name: "Apure",
     code: "VE-C",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "C",
 };
@@ -45000,7 +44370,7 @@ pub const VE_D: Subdivision = Subdivision {
     name: "Aragua",
     code: "VE-D",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "D",
 };
@@ -45009,7 +44379,7 @@ pub const VE_E: Subdivision = Subdivision {
     name: "Barinas",
     code: "VE-E",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "E",
 };
@@ -45018,7 +44388,7 @@ pub const VE_F: Subdivision = Subdivision {
     name: "Bolívar",
     code: "VE-F",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "F",
 };
@@ -45027,7 +44397,7 @@ pub const VE_G: Subdivision = Subdivision {
     name: "Carabobo",
     code: "VE-G",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "G",
 };
@@ -45036,7 +44406,7 @@ pub const VE_H: Subdivision = Subdivision {
     name: "Cojedes",
     code: "VE-H",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "H",
 };
@@ -45045,7 +44415,7 @@ pub const VE_I: Subdivision = Subdivision {
     name: "Falcón",
     code: "VE-I",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "I",
 };
@@ -45054,7 +44424,7 @@ pub const VE_J: Subdivision = Subdivision {
     name: "Guárico",
     code: "VE-J",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "J",
 };
@@ -45063,7 +44433,7 @@ pub const VE_K: Subdivision = Subdivision {
     name: "Lara",
     code: "VE-K",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "K",
 };
@@ -45072,7 +44442,7 @@ pub const VE_L: Subdivision = Subdivision {
     name: "Mérida",
     code: "VE-L",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "L",
 };
@@ -45081,7 +44451,7 @@ pub const VE_M: Subdivision = Subdivision {
     name: "Miranda",
     code: "VE-M",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "M",
 };
@@ -45090,7 +44460,7 @@ pub const VE_N: Subdivision = Subdivision {
     name: "Monagas",
     code: "VE-N",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "N",
 };
@@ -45099,7 +44469,7 @@ pub const VE_O: Subdivision = Subdivision {
     name: "Nueva Esparta",
     code: "VE-O",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "O",
 };
@@ -45108,7 +44478,7 @@ pub const VE_P: Subdivision = Subdivision {
     name: "Portuguesa",
     code: "VE-P",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "P",
 };
@@ -45117,7 +44487,7 @@ pub const VE_R: Subdivision = Subdivision {
     name: "Sucre",
     code: "VE-R",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "R",
 };
@@ -45126,7 +44496,7 @@ pub const VE_S: Subdivision = Subdivision {
     name: "Táchira",
     code: "VE-S",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "S",
 };
@@ -45135,7 +44505,7 @@ pub const VE_T: Subdivision = Subdivision {
     name: "Trujillo",
     code: "VE-T",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "T",
 };
@@ -45144,7 +44514,7 @@ pub const VE_U: Subdivision = Subdivision {
     name: "Yaracuy",
     code: "VE-U",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "U",
 };
@@ -45153,7 +44523,7 @@ pub const VE_V: Subdivision = Subdivision {
     name: "Zulia",
     code: "VE-V",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "V",
 };
@@ -45162,16 +44532,16 @@ pub const VE_W: Subdivision = Subdivision {
     name: "Dependencias Federales",
     code: "VE-W",
     subdivision_type: "Federal dependency",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "W",
 };
 
 pub const VE_X: Subdivision = Subdivision {
-    name: "Vargas",
+    name: "La Guaira",
     code: "VE-X",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "X",
 };
@@ -45180,7 +44550,7 @@ pub const VE_Y: Subdivision = Subdivision {
     name: "Delta Amacuro",
     code: "VE-Y",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "Y",
 };
@@ -45189,7 +44559,7 @@ pub const VE_Z: Subdivision = Subdivision {
     name: "Amazonas",
     code: "VE-Z",
     subdivision_type: "State",
-    country_name: "Venezuela",
+    country_name: "Venezuela (Bolivarian Republic of)",
     country_code: "VE",
     region_code: "Z",
 };
@@ -45429,7 +44799,7 @@ pub const VN_34: Subdivision = Subdivision {
 };
 
 pub const VN_35: Subdivision = Subdivision {
-    name: "Lâm Ðồng",
+    name: "Lâm Đồng",
     code: "VN-35",
     subdivision_type: "Province",
     country_name: "Viet Nam",
@@ -45456,7 +44826,7 @@ pub const VN_37: Subdivision = Subdivision {
 };
 
 pub const VN_39: Subdivision = Subdivision {
-    name: "Ðồng Nai",
+    name: "Đồng Nai",
     code: "VN-39",
     subdivision_type: "Province",
     country_name: "Viet Nam",
@@ -45501,7 +44871,7 @@ pub const VN_44: Subdivision = Subdivision {
 };
 
 pub const VN_45: Subdivision = Subdivision {
-    name: "Ðồng Tháp",
+    name: "Đồng Tháp",
     code: "VN-45",
     subdivision_type: "Province",
     country_name: "Viet Nam",
@@ -45654,7 +45024,7 @@ pub const VN_66: Subdivision = Subdivision {
 };
 
 pub const VN_67: Subdivision = Subdivision {
-    name: "Nam Ðịnh",
+    name: "Nam Định",
     code: "VN-67",
     subdivision_type: "Province",
     country_name: "Viet Nam",
@@ -45717,7 +45087,7 @@ pub const VN_73: Subdivision = Subdivision {
 };
 
 pub const VN_CT: Subdivision = Subdivision {
-    name: "Can Tho",
+    name: "Cần Thơ",
     code: "VN-CT",
     subdivision_type: "Municipality",
     country_name: "Viet Nam",
@@ -45726,7 +45096,7 @@ pub const VN_CT: Subdivision = Subdivision {
 };
 
 pub const VN_DN: Subdivision = Subdivision {
-    name: "Da Nang",
+    name: "Đà Nẵng",
     code: "VN-DN",
     subdivision_type: "Municipality",
     country_name: "Viet Nam",
@@ -45735,7 +45105,7 @@ pub const VN_DN: Subdivision = Subdivision {
 };
 
 pub const VN_HN: Subdivision = Subdivision {
-    name: "Ha Noi",
+    name: "Hà Nội",
     code: "VN-HN",
     subdivision_type: "Municipality",
     country_name: "Viet Nam",
@@ -45744,7 +45114,7 @@ pub const VN_HN: Subdivision = Subdivision {
 };
 
 pub const VN_HP: Subdivision = Subdivision {
-    name: "Hai Phong",
+    name: "Hải Phòng",
     code: "VN-HP",
     subdivision_type: "Municipality",
     country_name: "Viet Nam",
@@ -45753,7 +45123,7 @@ pub const VN_HP: Subdivision = Subdivision {
 };
 
 pub const VN_SG: Subdivision = Subdivision {
-    name: "Ho Chi Minh",
+    name: "Hồ Chí Minh",
     code: "VN-SG",
     subdivision_type: "Municipality",
     country_name: "Viet Nam",
@@ -45761,44 +45131,35 @@ pub const VN_SG: Subdivision = Subdivision {
     region_code: "SG",
 };
 
-pub const VG_VG: Subdivision = Subdivision {
-    name: "Virgin Islands",
-    code: "VG-VG",
-    subdivision_type: "Country",
-    country_name: "Virgin Islands",
-    country_code: "VG",
-    region_code: "VG",
-};
-
-pub const VI_VI: Subdivision = Subdivision {
-    name: "Virgin Islands",
-    code: "VI-VI",
-    subdivision_type: "Country",
-    country_name: "Virgin Islands",
-    country_code: "VI",
-    region_code: "VI",
-};
-
-pub const WF_WF: Subdivision = Subdivision {
-    name: "Wallis & Futuna Islands",
-    code: "WF-WF",
-    subdivision_type: "Country",
-    country_name: "Wallis & Futuna Islands",
+pub const WF_AL: Subdivision = Subdivision {
+    name: "Alo",
+    code: "WF-AL",
+    subdivision_type: "Administrative precinct",
+    country_name: "Wallis and Futuna",
     country_code: "WF",
-    region_code: "WF",
+    region_code: "AL",
 };
 
-pub const EH_EH: Subdivision = Subdivision {
-    name: "Western Sahara",
-    code: "EH-EH",
-    subdivision_type: "Country",
-    country_name: "Western Sahara",
-    country_code: "EH",
-    region_code: "EH",
+pub const WF_SG: Subdivision = Subdivision {
+    name: "Sigave",
+    code: "WF-SG",
+    subdivision_type: "Administrative precinct",
+    country_name: "Wallis and Futuna",
+    country_code: "WF",
+    region_code: "SG",
+};
+
+pub const WF_UV: Subdivision = Subdivision {
+    name: "Uvea",
+    code: "WF-UV",
+    subdivision_type: "Administrative precinct",
+    country_name: "Wallis and Futuna",
+    country_code: "WF",
+    region_code: "UV",
 };
 
 pub const YE_AB: Subdivision = Subdivision {
-    name: "Abyān",
+    name: "Abyan",
     code: "YE-AB",
     subdivision_type: "Governorate",
     country_name: "Yemen",
@@ -45807,7 +45168,7 @@ pub const YE_AB: Subdivision = Subdivision {
 };
 
 pub const YE_AD: Subdivision = Subdivision {
-    name: "'Adan",
+    name: "‘Adan",
     code: "YE-AD",
     subdivision_type: "Governorate",
     country_name: "Yemen",
@@ -45816,7 +45177,7 @@ pub const YE_AD: Subdivision = Subdivision {
 };
 
 pub const YE_AM: Subdivision = Subdivision {
-    name: "'Amrān",
+    name: "‘Amrān",
     code: "YE-AM",
     subdivision_type: "Governorate",
     country_name: "Yemen",
@@ -45825,7 +45186,7 @@ pub const YE_AM: Subdivision = Subdivision {
 };
 
 pub const YE_BA: Subdivision = Subdivision {
-    name: "Al Bayḑā'",
+    name: "Al Bayḑā’",
     code: "YE-BA",
     subdivision_type: "Governorate",
     country_name: "Yemen",
@@ -45834,7 +45195,7 @@ pub const YE_BA: Subdivision = Subdivision {
 };
 
 pub const YE_DA: Subdivision = Subdivision {
-    name: "Aḑ Ḑāli'",
+    name: "Aḑ Ḑāli‘",
     code: "YE-DA",
     subdivision_type: "Governorate",
     country_name: "Yemen",
@@ -45906,7 +45267,7 @@ pub const YE_LA: Subdivision = Subdivision {
 };
 
 pub const YE_MA: Subdivision = Subdivision {
-    name: "Ma'rib",
+    name: "Ma’rib",
     code: "YE-MA",
     subdivision_type: "Governorate",
     country_name: "Yemen",
@@ -45969,12 +45330,21 @@ pub const YE_SH: Subdivision = Subdivision {
 };
 
 pub const YE_SN: Subdivision = Subdivision {
-    name: "Şanʻā'",
+    name: "Şanʻā’",
     code: "YE-SN",
     subdivision_type: "Governorate",
     country_name: "Yemen",
     country_code: "YE",
     region_code: "SN",
+};
+
+pub const YE_SU: Subdivision = Subdivision {
+    name: "Arkhabīl Suquţrá",
+    code: "YE-SU",
+    subdivision_type: "Governorate",
+    country_name: "Yemen",
+    country_code: "YE",
+    region_code: "SU",
 };
 
 pub const YE_TA: Subdivision = Subdivision {
@@ -46204,7 +45574,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "AF-URU" => AF_URU,
 "AF-WAR" => AF_WAR,
 "AF-ZAB" => AF_ZAB,
-"AX-AX" => AX_AX,
 "AL-01" => AL_01,
 "AL-02" => AL_02,
 "AL-03" => AL_03,
@@ -46217,42 +45586,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "AL-10" => AL_10,
 "AL-11" => AL_11,
 "AL-12" => AL_12,
-"AL-BR" => AL_BR,
-"AL-BU" => AL_BU,
-"AL-DI" => AL_DI,
-"AL-DL" => AL_DL,
-"AL-DR" => AL_DR,
-"AL-DV" => AL_DV,
-"AL-EL" => AL_EL,
-"AL-ER" => AL_ER,
-"AL-FR" => AL_FR,
-"AL-GJ" => AL_GJ,
-"AL-GR" => AL_GR,
-"AL-HA" => AL_HA,
-"AL-KA" => AL_KA,
-"AL-KB" => AL_KB,
-"AL-KC" => AL_KC,
-"AL-KO" => AL_KO,
-"AL-KR" => AL_KR,
-"AL-KU" => AL_KU,
-"AL-LB" => AL_LB,
-"AL-LE" => AL_LE,
-"AL-LU" => AL_LU,
-"AL-MK" => AL_MK,
-"AL-MM" => AL_MM,
-"AL-MR" => AL_MR,
-"AL-MT" => AL_MT,
-"AL-PG" => AL_PG,
-"AL-PQ" => AL_PQ,
-"AL-PR" => AL_PR,
-"AL-PU" => AL_PU,
-"AL-SH" => AL_SH,
-"AL-SK" => AL_SK,
-"AL-SR" => AL_SR,
-"AL-TE" => AL_TE,
-"AL-TP" => AL_TP,
-"AL-TR" => AL_TR,
-"AL-VL" => AL_VL,
 "DZ-01" => DZ_01,
 "DZ-02" => DZ_02,
 "DZ-03" => DZ_03,
@@ -46301,7 +45634,16 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "DZ-46" => DZ_46,
 "DZ-47" => DZ_47,
 "DZ-48" => DZ_48,
-"AS-AS" => AS_AS,
+"DZ-49" => DZ_49,
+"DZ-50" => DZ_50,
+"DZ-51" => DZ_51,
+"DZ-52" => DZ_52,
+"DZ-53" => DZ_53,
+"DZ-54" => DZ_54,
+"DZ-55" => DZ_55,
+"DZ-56" => DZ_56,
+"DZ-57" => DZ_57,
+"DZ-58" => DZ_58,
 "AD-02" => AD_02,
 "AD-03" => AD_03,
 "AD-04" => AD_04,
@@ -46327,8 +45669,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "AO-NAM" => AO_NAM,
 "AO-UIG" => AO_UIG,
 "AO-ZAI" => AO_ZAI,
-"AI-AI" => AI_AI,
-"AQ-AQ" => AQ_AQ,
 "AG-03" => AG_03,
 "AG-04" => AG_04,
 "AG-05" => AG_05,
@@ -46372,7 +45712,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "AM-SU" => AM_SU,
 "AM-TV" => AM_TV,
 "AM-VD" => AM_VD,
-"AW-AW" => AW_AW,
 "AU-ACT" => AU_ACT,
 "AU-NSW" => AU_NSW,
 "AU-NT" => AU_NT,
@@ -46408,8 +45747,8 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "AZ-CUL" => AZ_CUL,
 "AZ-DAS" => AZ_DAS,
 "AZ-FUZ" => AZ_FUZ,
-"AZ-GAD" => AZ_GAD,
 "AZ-GA" => AZ_GA,
+"AZ-GAD" => AZ_GAD,
 "AZ-GOR" => AZ_GOR,
 "AZ-GOY" => AZ_GOY,
 "AZ-GYG" => AZ_GYG,
@@ -46419,8 +45758,8 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "AZ-KAL" => AZ_KAL,
 "AZ-KAN" => AZ_KAN,
 "AZ-KUR" => AZ_KUR,
-"AZ-LAC" => AZ_LAC,
 "AZ-LA" => AZ_LA,
+"AZ-LAC" => AZ_LAC,
 "AZ-LAN" => AZ_LAN,
 "AZ-LER" => AZ_LER,
 "AZ-MAS" => AZ_MAS,
@@ -46438,33 +45777,33 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "AZ-QBI" => AZ_QBI,
 "AZ-QOB" => AZ_QOB,
 "AZ-QUS" => AZ_QUS,
+"AZ-SA" => AZ_SA,
 "AZ-SAB" => AZ_SAB,
 "AZ-SAD" => AZ_SAD,
 "AZ-SAH" => AZ_SAH,
 "AZ-SAK" => AZ_SAK,
 "AZ-SAL" => AZ_SAL,
 "AZ-SAR" => AZ_SAR,
-"AZ-SA" => AZ_SA,
 "AZ-SAT" => AZ_SAT,
 "AZ-SBN" => AZ_SBN,
 "AZ-SIY" => AZ_SIY,
 "AZ-SKR" => AZ_SKR,
-"AZ-SMI" => AZ_SMI,
 "AZ-SM" => AZ_SM,
+"AZ-SMI" => AZ_SMI,
 "AZ-SMX" => AZ_SMX,
 "AZ-SR" => AZ_SR,
 "AZ-SUS" => AZ_SUS,
 "AZ-TAR" => AZ_TAR,
 "AZ-TOV" => AZ_TOV,
 "AZ-UCA" => AZ_UCA,
-"AZ-XAC" => AZ_XAC,
 "AZ-XA" => AZ_XA,
+"AZ-XAC" => AZ_XAC,
 "AZ-XCI" => AZ_XCI,
 "AZ-XIZ" => AZ_XIZ,
 "AZ-XVD" => AZ_XVD,
 "AZ-YAR" => AZ_YAR,
-"AZ-YEV" => AZ_YEV,
 "AZ-YE" => AZ_YE,
+"AZ-YEV" => AZ_YEV,
 "AZ-ZAN" => AZ_ZAN,
 "AZ-ZAQ" => AZ_ZAQ,
 "AZ-ZAR" => AZ_ZAR,
@@ -46490,6 +45829,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "BS-MI" => BS_MI,
 "BS-NE" => BS_NE,
 "BS-NO" => BS_NO,
+"BS-NP" => BS_NP,
 "BS-NS" => BS_NS,
 "BS-RC" => BS_RC,
 "BS-RI" => BS_RI,
@@ -46502,7 +45842,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "BH-13" => BH_13,
 "BH-14" => BH_14,
 "BH-15" => BH_15,
-"BH-16" => BH_16,
 "BH-17" => BH_17,
 "BD-01" => BD_01,
 "BD-02" => BD_02,
@@ -46575,6 +45914,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "BD-E" => BD_E,
 "BD-F" => BD_F,
 "BD-G" => BD_G,
+"BD-H" => BD_H,
 "BB-01" => BB_01,
 "BB-02" => BB_02,
 "BB-03" => BB_03,
@@ -46624,7 +45964,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "BJ-OU" => BJ_OU,
 "BJ-PL" => BJ_PL,
 "BJ-ZO" => BJ_ZO,
-"BM-BM" => BM_BM,
 "BT-11" => BT_11,
 "BT-12" => BT_12,
 "BT-13" => BT_13,
@@ -46657,16 +45996,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "BQ-BO" => BQ_BO,
 "BQ-SA" => BQ_SA,
 "BQ-SE" => BQ_SE,
-"BA-01" => BA_01,
-"BA-02" => BA_02,
-"BA-03" => BA_03,
-"BA-04" => BA_04,
-"BA-05" => BA_05,
-"BA-06" => BA_06,
-"BA-07" => BA_07,
-"BA-08" => BA_08,
-"BA-09" => BA_09,
-"BA-10" => BA_10,
 "BA-BIH" => BA_BIH,
 "BA-BRC" => BA_BRC,
 "BA-SRP" => BA_SRP,
@@ -46686,7 +46015,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "BW-SO" => BW_SO,
 "BW-SP" => BW_SP,
 "BW-ST" => BW_ST,
-"BV-BV" => BV_BV,
 "BR-AC" => BR_AC,
 "BR-AL" => BR_AL,
 "BR-AM" => BR_AM,
@@ -46714,7 +46042,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "BR-SE" => BR_SE,
 "BR-SP" => BR_SP,
 "BR-TO" => BR_TO,
-"IO-IO" => IO_IO,
 "BN-BE" => BN_BE,
 "BN-BM" => BN_BM,
 "BN-TE" => BN_TE,
@@ -46820,8 +46147,34 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "BI-MW" => BI_MW,
 "BI-MY" => BI_MY,
 "BI-NG" => BI_NG,
+"BI-RM" => BI_RM,
 "BI-RT" => BI_RT,
 "BI-RY" => BI_RY,
+"CV-B" => CV_B,
+"CV-BR" => CV_BR,
+"CV-BV" => CV_BV,
+"CV-CA" => CV_CA,
+"CV-CF" => CV_CF,
+"CV-CR" => CV_CR,
+"CV-MA" => CV_MA,
+"CV-MO" => CV_MO,
+"CV-PA" => CV_PA,
+"CV-PN" => CV_PN,
+"CV-PR" => CV_PR,
+"CV-RB" => CV_RB,
+"CV-RG" => CV_RG,
+"CV-RS" => CV_RS,
+"CV-S" => CV_S,
+"CV-SD" => CV_SD,
+"CV-SF" => CV_SF,
+"CV-SL" => CV_SL,
+"CV-SM" => CV_SM,
+"CV-SO" => CV_SO,
+"CV-SS" => CV_SS,
+"CV-SV" => CV_SV,
+"CV-TA" => CV_TA,
+"CV-TS" => CV_TS,
+"KH-1" => KH_1,
 "KH-10" => KH_10,
 "KH-11" => KH_11,
 "KH-12" => KH_12,
@@ -46832,13 +46185,13 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "KH-17" => KH_17,
 "KH-18" => KH_18,
 "KH-19" => KH_19,
-"KH-1" => KH_1,
+"KH-2" => KH_2,
 "KH-20" => KH_20,
 "KH-21" => KH_21,
 "KH-22" => KH_22,
 "KH-23" => KH_23,
 "KH-24" => KH_24,
-"KH-2" => KH_2,
+"KH-25" => KH_25,
 "KH-3" => KH_3,
 "KH-4" => KH_4,
 "KH-5" => KH_5,
@@ -46869,35 +46222,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "CA-QC" => CA_QC,
 "CA-SK" => CA_SK,
 "CA-YT" => CA_YT,
-"CV-B" => CV_B,
-"CV-BR" => CV_BR,
-"CV-BV" => CV_BV,
-"CV-CA" => CV_CA,
-"CV-CF" => CV_CF,
-"CV-CR" => CV_CR,
-"CV-MA" => CV_MA,
-"CV-MO" => CV_MO,
-"CV-PA" => CV_PA,
-"CV-PN" => CV_PN,
-"CV-PR" => CV_PR,
-"CV-RB" => CV_RB,
-"CV-RG" => CV_RG,
-"CV-RS" => CV_RS,
-"CV-SD" => CV_SD,
-"CV-SF" => CV_SF,
-"CV-S" => CV_S,
-"CV-SL" => CV_SL,
-"CV-SM" => CV_SM,
-"CV-SO" => CV_SO,
-"CV-SS" => CV_SS,
-"CV-SV" => CV_SV,
-"CV-TA" => CV_TA,
-"CV-TS" => CV_TS,
-"KY-KY" => KY_KY,
-"XC-BA" => XC_BA,
-"XC-GI" => XC_GI,
-"XC-LL" => XC_LL,
-"XC-TA" => XC_TA,
 "CF-AC" => CF_AC,
 "CF-BB" => CF_BB,
 "CF-BGF" => CF_BGF,
@@ -46950,45 +46274,44 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "CL-LR" => CL_LR,
 "CL-MA" => CL_MA,
 "CL-ML" => CL_ML,
+"CL-NB" => CL_NB,
 "CL-RM" => CL_RM,
 "CL-TA" => CL_TA,
 "CL-VS" => CL_VS,
-"CN-11" => CN_11,
-"CN-12" => CN_12,
-"CN-13" => CN_13,
-"CN-14" => CN_14,
-"CN-15" => CN_15,
-"CN-21" => CN_21,
-"CN-22" => CN_22,
-"CN-23" => CN_23,
-"CN-31" => CN_31,
-"CN-32" => CN_32,
-"CN-33" => CN_33,
-"CN-34" => CN_34,
-"CN-35" => CN_35,
-"CN-36" => CN_36,
-"CN-37" => CN_37,
-"CN-41" => CN_41,
-"CN-42" => CN_42,
-"CN-43" => CN_43,
-"CN-44" => CN_44,
-"CN-45" => CN_45,
-"CN-46" => CN_46,
-"CN-50" => CN_50,
-"CN-51" => CN_51,
-"CN-52" => CN_52,
-"CN-53" => CN_53,
-"CN-54" => CN_54,
-"CN-61" => CN_61,
-"CN-62" => CN_62,
-"CN-63" => CN_63,
-"CN-64" => CN_64,
-"CN-65" => CN_65,
-"CN-71" => CN_71,
-"CN-91" => CN_91,
-"CN-92" => CN_92,
-"CX-CX" => CX_CX,
-"CC-CC" => CC_CC,
+"CN-AH" => CN_AH,
+"CN-BJ" => CN_BJ,
+"CN-CQ" => CN_CQ,
+"CN-FJ" => CN_FJ,
+"CN-GD" => CN_GD,
+"CN-GS" => CN_GS,
+"CN-GX" => CN_GX,
+"CN-GZ" => CN_GZ,
+"CN-HA" => CN_HA,
+"CN-HB" => CN_HB,
+"CN-HE" => CN_HE,
+"CN-HI" => CN_HI,
+"CN-HK" => CN_HK,
+"CN-HL" => CN_HL,
+"CN-HN" => CN_HN,
+"CN-JL" => CN_JL,
+"CN-JS" => CN_JS,
+"CN-JX" => CN_JX,
+"CN-LN" => CN_LN,
+"CN-MO" => CN_MO,
+"CN-NM" => CN_NM,
+"CN-NX" => CN_NX,
+"CN-QH" => CN_QH,
+"CN-SC" => CN_SC,
+"CN-SD" => CN_SD,
+"CN-SH" => CN_SH,
+"CN-SN" => CN_SN,
+"CN-SX" => CN_SX,
+"CN-TJ" => CN_TJ,
+"CN-TW" => CN_TW,
+"CN-XJ" => CN_XJ,
+"CN-XZ" => CN_XZ,
+"CN-YN" => CN_YN,
+"CN-ZJ" => CN_ZJ,
 "CO-AMA" => CO_AMA,
 "CO-ANT" => CO_ANT,
 "CO-ARA" => CO_ARA,
@@ -47038,17 +46361,31 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "CG-9" => CG_9,
 "CG-BZV" => CG_BZV,
 "CD-BC" => CD_BC,
-"CD-BN" => CD_BN,
+"CD-BU" => CD_BU,
 "CD-EQ" => CD_EQ,
-"CD-KA" => CD_KA,
+"CD-HK" => CD_HK,
+"CD-HL" => CD_HL,
+"CD-HU" => CD_HU,
+"CD-IT" => CD_IT,
+"CD-KC" => CD_KC,
 "CD-KE" => CD_KE,
+"CD-KG" => CD_KG,
+"CD-KL" => CD_KL,
 "CD-KN" => CD_KN,
-"CD-KW" => CD_KW,
+"CD-KS" => CD_KS,
+"CD-LO" => CD_LO,
+"CD-LU" => CD_LU,
 "CD-MA" => CD_MA,
+"CD-MN" => CD_MN,
+"CD-MO" => CD_MO,
 "CD-NK" => CD_NK,
-"CD-OR" => CD_OR,
+"CD-NU" => CD_NU,
+"CD-SA" => CD_SA,
 "CD-SK" => CD_SK,
-"CK-CK" => CK_CK,
+"CD-SU" => CD_SU,
+"CD-TA" => CD_TA,
+"CD-TO" => CD_TO,
+"CD-TU" => CD_TU,
 "CR-A" => CR_A,
 "CR-C" => CR_C,
 "CR-G" => CR_G,
@@ -47056,25 +46393,20 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "CR-L" => CR_L,
 "CR-P" => CR_P,
 "CR-SJ" => CR_SJ,
-"CI-01" => CI_01,
-"CI-02" => CI_02,
-"CI-03" => CI_03,
-"CI-04" => CI_04,
-"CI-05" => CI_05,
-"CI-06" => CI_06,
-"CI-07" => CI_07,
-"CI-08" => CI_08,
-"CI-09" => CI_09,
-"CI-10" => CI_10,
-"CI-11" => CI_11,
-"CI-12" => CI_12,
-"CI-13" => CI_13,
-"CI-14" => CI_14,
-"CI-15" => CI_15,
-"CI-16" => CI_16,
-"CI-17" => CI_17,
-"CI-18" => CI_18,
-"CI-19" => CI_19,
+"CI-AB" => CI_AB,
+"CI-BS" => CI_BS,
+"CI-CM" => CI_CM,
+"CI-DN" => CI_DN,
+"CI-GD" => CI_GD,
+"CI-LC" => CI_LC,
+"CI-LG" => CI_LG,
+"CI-MG" => CI_MG,
+"CI-SM" => CI_SM,
+"CI-SV" => CI_SV,
+"CI-VB" => CI_VB,
+"CI-WR" => CI_WR,
+"CI-YM" => CI_YM,
+"CI-ZZ" => CI_ZZ,
 "HR-01" => HR_01,
 "HR-02" => HR_02,
 "HR-03" => HR_03,
@@ -47112,28 +46444,14 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "CU-15" => CU_15,
 "CU-16" => CU_16,
 "CU-99" => CU_99,
-"CW-CW" => CW_CW,
 "CY-01" => CY_01,
 "CY-02" => CY_02,
 "CY-03" => CY_03,
 "CY-04" => CY_04,
 "CY-05" => CY_05,
 "CY-06" => CY_06,
-"CZ-101" => CZ_101,
-"CZ-102" => CZ_102,
-"CZ-103" => CZ_103,
-"CZ-104" => CZ_104,
-"CZ-105" => CZ_105,
-"CZ-106" => CZ_106,
-"CZ-107" => CZ_107,
-"CZ-108" => CZ_108,
-"CZ-109" => CZ_109,
-"CZ-10A" => CZ_10A,
-"CZ-10B" => CZ_10B,
-"CZ-10C" => CZ_10C,
-"CZ-10D" => CZ_10D,
-"CZ-10E" => CZ_10E,
-"CZ-10F" => CZ_10F,
+"CZ-10" => CZ_10,
+"CZ-20" => CZ_20,
 "CZ-201" => CZ_201,
 "CZ-202" => CZ_202,
 "CZ-203" => CZ_203,
@@ -47146,6 +46464,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "CZ-20A" => CZ_20A,
 "CZ-20B" => CZ_20B,
 "CZ-20C" => CZ_20C,
+"CZ-31" => CZ_31,
 "CZ-311" => CZ_311,
 "CZ-312" => CZ_312,
 "CZ-313" => CZ_313,
@@ -47153,6 +46472,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "CZ-315" => CZ_315,
 "CZ-316" => CZ_316,
 "CZ-317" => CZ_317,
+"CZ-32" => CZ_32,
 "CZ-321" => CZ_321,
 "CZ-322" => CZ_322,
 "CZ-323" => CZ_323,
@@ -47160,9 +46480,11 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "CZ-325" => CZ_325,
 "CZ-326" => CZ_326,
 "CZ-327" => CZ_327,
+"CZ-41" => CZ_41,
 "CZ-411" => CZ_411,
 "CZ-412" => CZ_412,
 "CZ-413" => CZ_413,
+"CZ-42" => CZ_42,
 "CZ-421" => CZ_421,
 "CZ-422" => CZ_422,
 "CZ-423" => CZ_423,
@@ -47170,60 +46492,54 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "CZ-425" => CZ_425,
 "CZ-426" => CZ_426,
 "CZ-427" => CZ_427,
+"CZ-51" => CZ_51,
 "CZ-511" => CZ_511,
 "CZ-512" => CZ_512,
 "CZ-513" => CZ_513,
 "CZ-514" => CZ_514,
+"CZ-52" => CZ_52,
 "CZ-521" => CZ_521,
 "CZ-522" => CZ_522,
 "CZ-523" => CZ_523,
 "CZ-524" => CZ_524,
 "CZ-525" => CZ_525,
+"CZ-53" => CZ_53,
 "CZ-531" => CZ_531,
 "CZ-532" => CZ_532,
 "CZ-533" => CZ_533,
 "CZ-534" => CZ_534,
-"CZ-611" => CZ_611,
-"CZ-612" => CZ_612,
-"CZ-613" => CZ_613,
-"CZ-614" => CZ_614,
-"CZ-615" => CZ_615,
-"CZ-621" => CZ_621,
-"CZ-622" => CZ_622,
-"CZ-623" => CZ_623,
-"CZ-624" => CZ_624,
-"CZ-625" => CZ_625,
-"CZ-626" => CZ_626,
-"CZ-627" => CZ_627,
+"CZ-63" => CZ_63,
+"CZ-631" => CZ_631,
+"CZ-632" => CZ_632,
+"CZ-633" => CZ_633,
+"CZ-634" => CZ_634,
+"CZ-635" => CZ_635,
+"CZ-64" => CZ_64,
+"CZ-641" => CZ_641,
+"CZ-642" => CZ_642,
+"CZ-643" => CZ_643,
+"CZ-644" => CZ_644,
+"CZ-645" => CZ_645,
+"CZ-646" => CZ_646,
+"CZ-647" => CZ_647,
+"CZ-71" => CZ_71,
 "CZ-711" => CZ_711,
 "CZ-712" => CZ_712,
 "CZ-713" => CZ_713,
 "CZ-714" => CZ_714,
 "CZ-715" => CZ_715,
+"CZ-72" => CZ_72,
 "CZ-721" => CZ_721,
 "CZ-722" => CZ_722,
 "CZ-723" => CZ_723,
 "CZ-724" => CZ_724,
+"CZ-80" => CZ_80,
 "CZ-801" => CZ_801,
 "CZ-802" => CZ_802,
 "CZ-803" => CZ_803,
 "CZ-804" => CZ_804,
 "CZ-805" => CZ_805,
 "CZ-806" => CZ_806,
-"CZ-JC" => CZ_JC,
-"CZ-JM" => CZ_JM,
-"CZ-KA" => CZ_KA,
-"CZ-KR" => CZ_KR,
-"CZ-LI" => CZ_LI,
-"CZ-MO" => CZ_MO,
-"CZ-OL" => CZ_OL,
-"CZ-PA" => CZ_PA,
-"CZ-PL" => CZ_PL,
-"CZ-PR" => CZ_PR,
-"CZ-ST" => CZ_ST,
-"CZ-US" => CZ_US,
-"CZ-VY" => CZ_VY,
-"CZ-ZL" => CZ_ZL,
 "DK-81" => DK_81,
 "DK-82" => DK_82,
 "DK-83" => DK_83,
@@ -47302,9 +46618,9 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "EC-O" => EC_O,
 "EC-P" => EC_P,
 "EC-R" => EC_R,
+"EC-S" => EC_S,
 "EC-SD" => EC_SD,
 "EC-SE" => EC_SE,
-"EC-S" => EC_S,
 "EC-T" => EC_T,
 "EC-U" => EC_U,
 "EC-W" => EC_W,
@@ -47357,6 +46673,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GQ-BS" => GQ_BS,
 "GQ-C" => GQ_C,
 "GQ-CS" => GQ_CS,
+"GQ-DJ" => GQ_DJ,
 "GQ-I" => GQ_I,
 "GQ-KN" => GQ_KN,
 "GQ-LI" => GQ_LI,
@@ -47367,21 +46684,104 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "ER-GB" => ER_GB,
 "ER-MA" => ER_MA,
 "ER-SK" => ER_SK,
+"EE-130" => EE_130,
+"EE-141" => EE_141,
+"EE-142" => EE_142,
+"EE-171" => EE_171,
+"EE-184" => EE_184,
+"EE-191" => EE_191,
+"EE-198" => EE_198,
+"EE-205" => EE_205,
+"EE-214" => EE_214,
+"EE-245" => EE_245,
+"EE-247" => EE_247,
+"EE-251" => EE_251,
+"EE-255" => EE_255,
+"EE-272" => EE_272,
+"EE-283" => EE_283,
+"EE-284" => EE_284,
+"EE-291" => EE_291,
+"EE-293" => EE_293,
+"EE-296" => EE_296,
+"EE-303" => EE_303,
+"EE-305" => EE_305,
+"EE-317" => EE_317,
+"EE-321" => EE_321,
+"EE-338" => EE_338,
+"EE-353" => EE_353,
 "EE-37" => EE_37,
 "EE-39" => EE_39,
-"EE-44" => EE_44,
-"EE-49" => EE_49,
-"EE-51" => EE_51,
-"EE-57" => EE_57,
-"EE-59" => EE_59,
-"EE-65" => EE_65,
-"EE-67" => EE_67,
-"EE-70" => EE_70,
+"EE-424" => EE_424,
+"EE-430" => EE_430,
+"EE-431" => EE_431,
+"EE-432" => EE_432,
+"EE-441" => EE_441,
+"EE-442" => EE_442,
+"EE-446" => EE_446,
+"EE-45" => EE_45,
+"EE-478" => EE_478,
+"EE-480" => EE_480,
+"EE-486" => EE_486,
+"EE-50" => EE_50,
+"EE-503" => EE_503,
+"EE-511" => EE_511,
+"EE-514" => EE_514,
+"EE-52" => EE_52,
+"EE-528" => EE_528,
+"EE-557" => EE_557,
+"EE-56" => EE_56,
+"EE-567" => EE_567,
+"EE-586" => EE_586,
+"EE-60" => EE_60,
+"EE-615" => EE_615,
+"EE-618" => EE_618,
+"EE-622" => EE_622,
+"EE-624" => EE_624,
+"EE-638" => EE_638,
+"EE-64" => EE_64,
+"EE-651" => EE_651,
+"EE-653" => EE_653,
+"EE-661" => EE_661,
+"EE-663" => EE_663,
+"EE-668" => EE_668,
+"EE-68" => EE_68,
+"EE-689" => EE_689,
+"EE-698" => EE_698,
+"EE-708" => EE_708,
+"EE-71" => EE_71,
+"EE-712" => EE_712,
+"EE-714" => EE_714,
+"EE-719" => EE_719,
+"EE-726" => EE_726,
+"EE-732" => EE_732,
+"EE-735" => EE_735,
 "EE-74" => EE_74,
-"EE-78" => EE_78,
-"EE-82" => EE_82,
+"EE-784" => EE_784,
+"EE-79" => EE_79,
+"EE-792" => EE_792,
+"EE-793" => EE_793,
+"EE-796" => EE_796,
+"EE-803" => EE_803,
+"EE-809" => EE_809,
+"EE-81" => EE_81,
+"EE-824" => EE_824,
+"EE-834" => EE_834,
 "EE-84" => EE_84,
-"EE-86" => EE_86,
+"EE-855" => EE_855,
+"EE-87" => EE_87,
+"EE-890" => EE_890,
+"EE-897" => EE_897,
+"EE-899" => EE_899,
+"EE-901" => EE_901,
+"EE-903" => EE_903,
+"EE-907" => EE_907,
+"EE-917" => EE_917,
+"EE-919" => EE_919,
+"EE-928" => EE_928,
+"SZ-HH" => SZ_HH,
+"SZ-LU" => SZ_LU,
+"SZ-MA" => SZ_MA,
+"SZ-SH" => SZ_SH,
 "ET-AA" => ET_AA,
 "ET-AF" => ET_AF,
 "ET-AM" => ET_AM,
@@ -47390,11 +46790,11 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "ET-GA" => ET_GA,
 "ET-HA" => ET_HA,
 "ET-OR" => ET_OR,
+"ET-SI" => ET_SI,
 "ET-SN" => ET_SN,
 "ET-SO" => ET_SO,
+"ET-SW" => ET_SW,
 "ET-TI" => ET_TI,
-"FK-FK" => FK_FK,
-"FO-FO" => FO_FO,
 "FJ-01" => FJ_01,
 "FJ-02" => FJ_02,
 "FJ-03" => FJ_03,
@@ -47452,6 +46852,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "FR-17" => FR_17,
 "FR-18" => FR_18,
 "FR-19" => FR_19,
+"FR-20R" => FR_20R,
 "FR-21" => FR_21,
 "FR-22" => FR_22,
 "FR-23" => FR_23,
@@ -47503,12 +46904,14 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "FR-67" => FR_67,
 "FR-68" => FR_68,
 "FR-69" => FR_69,
+"FR-69M" => FR_69M,
+"FR-6AE" => FR_6AE,
 "FR-70" => FR_70,
 "FR-71" => FR_71,
 "FR-72" => FR_72,
 "FR-73" => FR_73,
 "FR-74" => FR_74,
-"FR-75" => FR_75,
+"FR-75C" => FR_75C,
 "FR-76" => FR_76,
 "FR-77" => FR_77,
 "FR-78" => FR_78,
@@ -47529,57 +46932,31 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "FR-93" => FR_93,
 "FR-94" => FR_94,
 "FR-95" => FR_95,
-"FR-A" => FR_A,
-"FR-B" => FR_B,
-"FR-BL" => FR_BL,
-"FR-C" => FR_C,
-"FR-CP" => FR_CP,
-"FR-D" => FR_D,
-"FR-E" => FR_E,
-"FR-F" => FR_F,
-"FR-G" => FR_G,
-"FR-GF" => FR_GF,
-"FR-GP" => FR_GP,
-"FR-H" => FR_H,
-"FR-I" => FR_I,
-"FR-J" => FR_J,
-"FR-K" => FR_K,
-"FR-L" => FR_L,
-"FR-MF" => FR_MF,
-"FR-M" => FR_M,
-"FR-MQ" => FR_MQ,
-"FR-NC" => FR_NC,
-"FR-N" => FR_N,
-"FR-O" => FR_O,
-"FR-P" => FR_P,
-"FR-PF" => FR_PF,
-"FR-PM" => FR_PM,
-"FR-Q" => FR_Q,
-"FR-RE" => FR_RE,
-"FR-R" => FR_R,
-"FR-S" => FR_S,
-"FR-TF" => FR_TF,
-"FR-T" => FR_T,
-"FR-U" => FR_U,
-"FR-V" => FR_V,
-"FR-WF" => FR_WF,
-"FR-YT" => FR_YT,
+"FR-971" => FR_971,
+"FR-972" => FR_972,
+"FR-973" => FR_973,
+"FR-974" => FR_974,
+"FR-976" => FR_976,
 "FR-ARA" => FR_ARA,
 "FR-BFC" => FR_BFC,
+"FR-BL" => FR_BL,
 "FR-BRE" => FR_BRE,
+"FR-CP" => FR_CP,
 "FR-CVL" => FR_CVL,
-"FR-20R" => FR_20R,
 "FR-GES" => FR_GES,
 "FR-HDF" => FR_HDF,
 "FR-IDF" => FR_IDF,
-"FR-NOR" => FR_NOR,
+"FR-MF" => FR_MF,
 "FR-NAQ" => FR_NAQ,
+"FR-NC" => FR_NC,
+"FR-NOR" => FR_NOR,
 "FR-OCC" => FR_OCC,
-"FR-PDL" => FR_PDL,
 "FR-PAC" => FR_PAC,
-"GF-GF" => GF_GF,
-"PF-PF" => PF_PF,
-"TF-TF" => TF_TF,
+"FR-PDL" => FR_PDL,
+"FR-PF" => FR_PF,
+"FR-PM" => FR_PM,
+"FR-TF" => FR_TF,
+"FR-WF" => FR_WF,
 "GA-1" => GA_1,
 "GA-2" => GA_2,
 "GA-3" => GA_3,
@@ -47624,68 +47001,22 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "DE-ST" => DE_ST,
 "DE-TH" => DE_TH,
 "GH-AA" => GH_AA,
+"GH-AF" => GH_AF,
 "GH-AH" => GH_AH,
-"GH-BA" => GH_BA,
+"GH-BE" => GH_BE,
+"GH-BO" => GH_BO,
 "GH-CP" => GH_CP,
 "GH-EP" => GH_EP,
+"GH-NE" => GH_NE,
 "GH-NP" => GH_NP,
+"GH-OT" => GH_OT,
+"GH-SV" => GH_SV,
 "GH-TV" => GH_TV,
 "GH-UE" => GH_UE,
 "GH-UW" => GH_UW,
+"GH-WN" => GH_WN,
 "GH-WP" => GH_WP,
-"GI-GI" => GI_GI,
-"GR-01" => GR_01,
-"GR-03" => GR_03,
-"GR-04" => GR_04,
-"GR-05" => GR_05,
-"GR-06" => GR_06,
-"GR-07" => GR_07,
-"GR-11" => GR_11,
-"GR-12" => GR_12,
-"GR-13" => GR_13,
-"GR-14" => GR_14,
-"GR-15" => GR_15,
-"GR-16" => GR_16,
-"GR-17" => GR_17,
-"GR-21" => GR_21,
-"GR-22" => GR_22,
-"GR-23" => GR_23,
-"GR-24" => GR_24,
-"GR-31" => GR_31,
-"GR-32" => GR_32,
-"GR-33" => GR_33,
-"GR-34" => GR_34,
-"GR-41" => GR_41,
-"GR-42" => GR_42,
-"GR-43" => GR_43,
-"GR-44" => GR_44,
-"GR-51" => GR_51,
-"GR-52" => GR_52,
-"GR-53" => GR_53,
-"GR-54" => GR_54,
-"GR-55" => GR_55,
-"GR-56" => GR_56,
-"GR-57" => GR_57,
-"GR-58" => GR_58,
-"GR-59" => GR_59,
-"GR-61" => GR_61,
-"GR-62" => GR_62,
-"GR-63" => GR_63,
-"GR-64" => GR_64,
 "GR-69" => GR_69,
-"GR-71" => GR_71,
-"GR-72" => GR_72,
-"GR-73" => GR_73,
-"GR-81" => GR_81,
-"GR-82" => GR_82,
-"GR-83" => GR_83,
-"GR-84" => GR_84,
-"GR-85" => GR_85,
-"GR-91" => GR_91,
-"GR-92" => GR_92,
-"GR-93" => GR_93,
-"GR-94" => GR_94,
-"GR-A1" => GR_A1,
 "GR-A" => GR_A,
 "GR-B" => GR_B,
 "GR-C" => GR_C,
@@ -47699,9 +47030,10 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GR-K" => GR_K,
 "GR-L" => GR_L,
 "GR-M" => GR_M,
+"GL-AV" => GL_AV,
 "GL-KU" => GL_KU,
-"GL-QA" => GL_QA,
 "GL-QE" => GL_QE,
+"GL-QT" => GL_QT,
 "GL-SM" => GL_SM,
 "GD-01" => GD_01,
 "GD-02" => GD_02,
@@ -47710,31 +47042,69 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GD-05" => GD_05,
 "GD-06" => GD_06,
 "GD-10" => GD_10,
-"GP-GP" => GP_GP,
-"GU-GU" => GU_GU,
-"GT-AV" => GT_AV,
-"GT-BV" => GT_BV,
-"GT-CM" => GT_CM,
-"GT-CQ" => GT_CQ,
-"GT-ES" => GT_ES,
-"GT-GU" => GT_GU,
-"GT-HU" => GT_HU,
-"GT-IZ" => GT_IZ,
-"GT-JA" => GT_JA,
-"GT-JU" => GT_JU,
-"GT-PE" => GT_PE,
-"GT-PR" => GT_PR,
-"GT-QC" => GT_QC,
-"GT-QZ" => GT_QZ,
-"GT-RE" => GT_RE,
-"GT-SA" => GT_SA,
-"GT-SM" => GT_SM,
-"GT-SO" => GT_SO,
-"GT-SR" => GT_SR,
-"GT-SU" => GT_SU,
-"GT-TO" => GT_TO,
-"GT-ZA" => GT_ZA,
-"GG-GG" => GG_GG,
+"GT-01" => GT_01,
+"GT-02" => GT_02,
+"GT-03" => GT_03,
+"GT-04" => GT_04,
+"GT-05" => GT_05,
+"GT-06" => GT_06,
+"GT-07" => GT_07,
+"GT-08" => GT_08,
+"GT-09" => GT_09,
+"GT-10" => GT_10,
+"GT-11" => GT_11,
+"GT-12" => GT_12,
+"GT-13" => GT_13,
+"GT-14" => GT_14,
+"GT-15" => GT_15,
+"GT-16" => GT_16,
+"GT-17" => GT_17,
+"GT-18" => GT_18,
+"GT-19" => GT_19,
+"GT-20" => GT_20,
+"GT-21" => GT_21,
+"GT-22" => GT_22,
+"GN-B" => GN_B,
+"GN-BE" => GN_BE,
+"GN-BF" => GN_BF,
+"GN-BK" => GN_BK,
+"GN-C" => GN_C,
+"GN-CO" => GN_CO,
+"GN-D" => GN_D,
+"GN-DB" => GN_DB,
+"GN-DI" => GN_DI,
+"GN-DL" => GN_DL,
+"GN-DU" => GN_DU,
+"GN-F" => GN_F,
+"GN-FA" => GN_FA,
+"GN-FO" => GN_FO,
+"GN-FR" => GN_FR,
+"GN-GA" => GN_GA,
+"GN-GU" => GN_GU,
+"GN-K" => GN_K,
+"GN-KA" => GN_KA,
+"GN-KB" => GN_KB,
+"GN-KD" => GN_KD,
+"GN-KE" => GN_KE,
+"GN-KN" => GN_KN,
+"GN-KO" => GN_KO,
+"GN-KS" => GN_KS,
+"GN-L" => GN_L,
+"GN-LA" => GN_LA,
+"GN-LE" => GN_LE,
+"GN-LO" => GN_LO,
+"GN-M" => GN_M,
+"GN-MC" => GN_MC,
+"GN-MD" => GN_MD,
+"GN-ML" => GN_ML,
+"GN-MM" => GN_MM,
+"GN-N" => GN_N,
+"GN-NZ" => GN_NZ,
+"GN-PI" => GN_PI,
+"GN-SI" => GN_SI,
+"GN-TE" => GN_TE,
+"GN-TO" => GN_TO,
+"GN-YO" => GN_YO,
 "GW-BA" => GW_BA,
 "GW-BL" => GW_BL,
 "GW-BM" => GW_BM,
@@ -47747,47 +47117,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GW-QU" => GW_QU,
 "GW-S" => GW_S,
 "GW-TO" => GW_TO,
-"GN-B" => GN_B,
-"GN-BE" => GN_BE,
-"GN-BF" => GN_BF,
-"GN-BK" => GN_BK,
-"GN-C" => GN_C,
-"GN-CO" => GN_CO,
-"GN-DB" => GN_DB,
-"GN-DI" => GN_DI,
-"GN-D" => GN_D,
-"GN-DL" => GN_DL,
-"GN-DU" => GN_DU,
-"GN-FA" => GN_FA,
-"GN-F" => GN_F,
-"GN-FO" => GN_FO,
-"GN-FR" => GN_FR,
-"GN-GA" => GN_GA,
-"GN-GU" => GN_GU,
-"GN-KA" => GN_KA,
-"GN-KB" => GN_KB,
-"GN-KD" => GN_KD,
-"GN-KE" => GN_KE,
-"GN-K" => GN_K,
-"GN-KN" => GN_KN,
-"GN-KO" => GN_KO,
-"GN-KS" => GN_KS,
-"GN-LA" => GN_LA,
-"GN-LE" => GN_LE,
-"GN-L" => GN_L,
-"GN-LO" => GN_LO,
-"GN-MC" => GN_MC,
-"GN-MD" => GN_MD,
-"GN-ML" => GN_ML,
-"GN-M" => GN_M,
-"GN-MM" => GN_MM,
-"GN-N" => GN_N,
-"GN-NZ" => GN_NZ,
-"GN-PI" => GN_PI,
-"GN-SI" => GN_SI,
-"GN-TE" => GN_TE,
-"GN-TO" => GN_TO,
-"GN-YO" => GN_YO,
 "GY-BA" => GY_BA,
 "GY-CU" => GY_CU,
 "GY-DE" => GY_DE,
@@ -47808,7 +47137,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "HT-OU" => HT_OU,
 "HT-SD" => HT_SD,
 "HT-SE" => HT_SE,
-"HM-HM" => HM_HM,
 "HN-AT" => HN_AT,
 "HN-CH" => HN_CH,
 "HN-CL" => HN_CL,
@@ -47827,7 +47155,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "HN-SB" => HN_SB,
 "HN-VA" => HN_VA,
 "HN-YO" => HN_YO,
-"HK-HK" => HK_HK,
 "HU-BA" => HU_BA,
 "HU-BC" => HU_BC,
 "HU-BE" => HU_BE,
@@ -47871,7 +47198,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "HU-VM" => HU_VM,
 "HU-ZA" => HU_ZA,
 "HU-ZE" => HU_ZE,
-"IS-0" => IS_0,
 "IS-1" => IS_1,
 "IS-2" => IS_2,
 "IS-3" => IS_3,
@@ -47880,16 +47206,79 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "IS-6" => IS_6,
 "IS-7" => IS_7,
 "IS-8" => IS_8,
+"IS-AKN" => IS_AKN,
+"IS-AKU" => IS_AKU,
+"IS-ARN" => IS_ARN,
+"IS-ASA" => IS_ASA,
+"IS-BLA" => IS_BLA,
+"IS-BOG" => IS_BOG,
+"IS-BOL" => IS_BOL,
+"IS-DAB" => IS_DAB,
+"IS-DAV" => IS_DAV,
+"IS-EOM" => IS_EOM,
+"IS-EYF" => IS_EYF,
+"IS-FJD" => IS_FJD,
+"IS-FJL" => IS_FJL,
+"IS-FLA" => IS_FLA,
+"IS-FLR" => IS_FLR,
+"IS-GAR" => IS_GAR,
+"IS-GOG" => IS_GOG,
+"IS-GRN" => IS_GRN,
+"IS-GRU" => IS_GRU,
+"IS-GRY" => IS_GRY,
+"IS-HAF" => IS_HAF,
+"IS-HRG" => IS_HRG,
+"IS-HRU" => IS_HRU,
+"IS-HUG" => IS_HUG,
+"IS-HUV" => IS_HUV,
+"IS-HVA" => IS_HVA,
+"IS-HVE" => IS_HVE,
+"IS-ISA" => IS_ISA,
+"IS-KAL" => IS_KAL,
+"IS-KJO" => IS_KJO,
+"IS-KOP" => IS_KOP,
+"IS-LAN" => IS_LAN,
+"IS-MOS" => IS_MOS,
+"IS-MUL" => IS_MUL,
+"IS-MYR" => IS_MYR,
+"IS-NOR" => IS_NOR,
+"IS-RGE" => IS_RGE,
+"IS-RGY" => IS_RGY,
+"IS-RHH" => IS_RHH,
+"IS-RKN" => IS_RKN,
+"IS-RKV" => IS_RKV,
+"IS-SBT" => IS_SBT,
+"IS-SDN" => IS_SDN,
+"IS-SDV" => IS_SDV,
+"IS-SEL" => IS_SEL,
+"IS-SFA" => IS_SFA,
+"IS-SHF" => IS_SHF,
+"IS-SKF" => IS_SKF,
+"IS-SKG" => IS_SKG,
+"IS-SKO" => IS_SKO,
+"IS-SKR" => IS_SKR,
+"IS-SNF" => IS_SNF,
+"IS-SOG" => IS_SOG,
+"IS-SOL" => IS_SOL,
+"IS-SSS" => IS_SSS,
+"IS-STR" => IS_STR,
+"IS-STY" => IS_STY,
+"IS-SVG" => IS_SVG,
+"IS-TAL" => IS_TAL,
+"IS-THG" => IS_THG,
+"IS-TJO" => IS_TJO,
+"IS-VEM" => IS_VEM,
+"IS-VER" => IS_VER,
+"IS-VOP" => IS_VOP,
 "IN-AN" => IN_AN,
 "IN-AP" => IN_AP,
 "IN-AR" => IN_AR,
 "IN-AS" => IN_AS,
 "IN-BR" => IN_BR,
+"IN-CG" => IN_CG,
 "IN-CH" => IN_CH,
-"IN-CT" => IN_CT,
-"IN-DD" => IN_DD,
+"IN-DH" => IN_DH,
 "IN-DL" => IN_DL,
-"IN-DN" => IN_DN,
 "IN-GA" => IN_GA,
 "IN-GJ" => IN_GJ,
 "IN-HP" => IN_HP,
@@ -47898,6 +47287,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "IN-JK" => IN_JK,
 "IN-KA" => IN_KA,
 "IN-KL" => IN_KL,
+"IN-LA" => IN_LA,
 "IN-LD" => IN_LD,
 "IN-MH" => IN_MH,
 "IN-ML" => IN_ML,
@@ -47905,16 +47295,16 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "IN-MP" => IN_MP,
 "IN-MZ" => IN_MZ,
 "IN-NL" => IN_NL,
-"IN-OR" => IN_OR,
+"IN-OD" => IN_OD,
 "IN-PB" => IN_PB,
 "IN-PY" => IN_PY,
 "IN-RJ" => IN_RJ,
 "IN-SK" => IN_SK,
-"IN-TG" => IN_TG,
 "IN-TN" => IN_TN,
 "IN-TR" => IN_TR,
+"IN-TS" => IN_TS,
+"IN-UK" => IN_UK,
 "IN-UP" => IN_UP,
-"IN-UT" => IN_UT,
 "IN-WB" => IN_WB,
 "ID-AC" => ID_AC,
 "ID-BA" => ID_BA,
@@ -47944,7 +47334,11 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "ID-NU" => ID_NU,
 "ID-PA" => ID_PA,
 "ID-PB" => ID_PB,
+"ID-PD" => ID_PD,
+"ID-PE" => ID_PE,
 "ID-PP" => ID_PP,
+"ID-PS" => ID_PS,
+"ID-PT" => ID_PT,
 "ID-RI" => ID_RI,
 "ID-SA" => ID_SA,
 "ID-SB" => ID_SB,
@@ -47957,6 +47351,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "ID-ST" => ID_ST,
 "ID-SU" => ID_SU,
 "ID-YO" => ID_YO,
+"IR-00" => IR_00,
 "IR-01" => IR_01,
 "IR-02" => IR_02,
 "IR-03" => IR_03,
@@ -47965,6 +47360,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "IR-06" => IR_06,
 "IR-07" => IR_07,
 "IR-08" => IR_08,
+"IR-09" => IR_09,
 "IR-10" => IR_10,
 "IR-11" => IR_11,
 "IR-12" => IR_12,
@@ -47986,8 +47382,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "IR-28" => IR_28,
 "IR-29" => IR_29,
 "IR-30" => IR_30,
-"IR-31" => IR_31,
-"IR-32" => IR_32,
 "IQ-AN" => IQ_AN,
 "IQ-AR" => IQ_AR,
 "IQ-BA" => IQ_BA,
@@ -47998,6 +47392,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "IQ-DQ" => IQ_DQ,
 "IQ-KA" => IQ_KA,
 "IQ-KI" => IQ_KI,
+"IQ-KR" => IQ_KR,
 "IQ-MA" => IQ_MA,
 "IQ-MU" => IQ_MU,
 "IQ-NA" => IQ_NA,
@@ -48017,10 +47412,10 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "IE-KE" => IE_KE,
 "IE-KK" => IE_KK,
 "IE-KY" => IE_KY,
+"IE-L" => IE_L,
 "IE-LD" => IE_LD,
 "IE-LH" => IE_LH,
 "IE-LK" => IE_LK,
-"IE-L" => IE_L,
 "IE-LM" => IE_LM,
 "IE-LS" => IE_LS,
 "IE-M" => IE_M,
@@ -48036,7 +47431,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "IE-WH" => IE_WH,
 "IE-WW" => IE_WW,
 "IE-WX" => IE_WX,
-"IM-IM" => IM_IM,
 "IL-D" => IL_D,
 "IL-HA" => IL_HA,
 "IL-JM" => IL_JM,
@@ -48066,7 +47460,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "IT-AG" => IT_AG,
 "IT-AL" => IT_AL,
 "IT-AN" => IT_AN,
-"IT-AO" => IT_AO,
 "IT-AP" => IT_AP,
 "IT-AQ" => IT_AQ,
 "IT-AR" => IT_AR,
@@ -48086,7 +47479,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "IT-CB" => IT_CB,
 "IT-CE" => IT_CE,
 "IT-CH" => IT_CH,
-"IT-CI" => IT_CI,
 "IT-CL" => IT_CL,
 "IT-CN" => IT_CN,
 "IT-CO" => IT_CO,
@@ -48124,9 +47516,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "IT-NA" => IT_NA,
 "IT-NO" => IT_NO,
 "IT-NU" => IT_NU,
-"IT-OG" => IT_OG,
 "IT-OR" => IT_OR,
-"IT-OT" => IT_OT,
 "IT-PA" => IT_PA,
 "IT-PC" => IT_PC,
 "IT-PD" => IT_PD,
@@ -48154,6 +47544,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "IT-SP" => IT_SP,
 "IT-SR" => IT_SR,
 "IT-SS" => IT_SS,
+"IT-SU" => IT_SU,
 "IT-SV" => IT_SV,
 "IT-TA" => IT_TA,
 "IT-TE" => IT_TE,
@@ -48170,7 +47561,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "IT-VE" => IT_VE,
 "IT-VI" => IT_VI,
 "IT-VR" => IT_VR,
-"IT-VS" => IT_VS,
 "IT-VT" => IT_VT,
 "IT-VV" => IT_VV,
 "JM-01" => JM_01,
@@ -48234,7 +47624,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "JP-45" => JP_45,
 "JP-46" => JP_46,
 "JP-47" => JP_47,
-"JE-JE" => JE_JE,
 "JO-AJ" => JO_AJ,
 "JO-AM" => JO_AM,
 "JO-AQ" => JO_AQ,
@@ -48247,22 +47636,26 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "JO-MA" => JO_MA,
 "JO-MD" => JO_MD,
 "JO-MN" => JO_MN,
-"KZ-AKM" => KZ_AKM,
-"KZ-AKT" => KZ_AKT,
-"KZ-ALA" => KZ_ALA,
-"KZ-ALM" => KZ_ALM,
-"KZ-AST" => KZ_AST,
-"KZ-ATY" => KZ_ATY,
-"KZ-KAR" => KZ_KAR,
-"KZ-KUS" => KZ_KUS,
-"KZ-KZY" => KZ_KZY,
-"KZ-MAN" => KZ_MAN,
-"KZ-PAV" => KZ_PAV,
-"KZ-SEV" => KZ_SEV,
-"KZ-VOS" => KZ_VOS,
-"KZ-YUZ" => KZ_YUZ,
-"KZ-ZAP" => KZ_ZAP,
-"KZ-ZHA" => KZ_ZHA,
+"KZ-10" => KZ_10,
+"KZ-11" => KZ_11,
+"KZ-15" => KZ_15,
+"KZ-19" => KZ_19,
+"KZ-23" => KZ_23,
+"KZ-27" => KZ_27,
+"KZ-31" => KZ_31,
+"KZ-33" => KZ_33,
+"KZ-35" => KZ_35,
+"KZ-39" => KZ_39,
+"KZ-43" => KZ_43,
+"KZ-47" => KZ_47,
+"KZ-55" => KZ_55,
+"KZ-59" => KZ_59,
+"KZ-61" => KZ_61,
+"KZ-62" => KZ_62,
+"KZ-63" => KZ_63,
+"KZ-71" => KZ_71,
+"KZ-75" => KZ_75,
+"KZ-79" => KZ_79,
 "KE-01" => KE_01,
 "KE-02" => KE_02,
 "KE-03" => KE_03,
@@ -48324,6 +47717,8 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "KP-09" => KP_09,
 "KP-10" => KP_10,
 "KP-13" => KP_13,
+"KP-14" => KP_14,
+"KP-15" => KP_15,
 "KR-11" => KR_11,
 "KR-26" => KR_26,
 "KR-27" => KR_27,
@@ -48373,126 +47768,50 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "LA-XA" => LA_XA,
 "LA-XE" => LA_XE,
 "LA-XI" => LA_XI,
-"LA-XN" => LA_XN,
-"LV-001" => LV_001,
+"LA-XS" => LA_XS,
 "LV-002" => LV_002,
-"LV-003" => LV_003,
-"LV-004" => LV_004,
-"LV-005" => LV_005,
-"LV-006" => LV_006,
 "LV-007" => LV_007,
-"LV-008" => LV_008,
-"LV-009" => LV_009,
-"LV-010" => LV_010,
 "LV-011" => LV_011,
-"LV-012" => LV_012,
-"LV-013" => LV_013,
-"LV-014" => LV_014,
 "LV-015" => LV_015,
 "LV-016" => LV_016,
-"LV-017" => LV_017,
-"LV-018" => LV_018,
-"LV-019" => LV_019,
-"LV-020" => LV_020,
-"LV-021" => LV_021,
 "LV-022" => LV_022,
-"LV-023" => LV_023,
-"LV-024" => LV_024,
-"LV-025" => LV_025,
 "LV-026" => LV_026,
-"LV-027" => LV_027,
-"LV-028" => LV_028,
-"LV-029" => LV_029,
-"LV-030" => LV_030,
-"LV-031" => LV_031,
-"LV-032" => LV_032,
 "LV-033" => LV_033,
-"LV-034" => LV_034,
-"LV-035" => LV_035,
-"LV-036" => LV_036,
-"LV-037" => LV_037,
-"LV-038" => LV_038,
-"LV-039" => LV_039,
-"LV-040" => LV_040,
 "LV-041" => LV_041,
 "LV-042" => LV_042,
-"LV-043" => LV_043,
-"LV-044" => LV_044,
-"LV-045" => LV_045,
-"LV-046" => LV_046,
 "LV-047" => LV_047,
-"LV-048" => LV_048,
-"LV-049" => LV_049,
 "LV-050" => LV_050,
-"LV-051" => LV_051,
 "LV-052" => LV_052,
-"LV-053" => LV_053,
 "LV-054" => LV_054,
-"LV-055" => LV_055,
 "LV-056" => LV_056,
-"LV-057" => LV_057,
 "LV-058" => LV_058,
 "LV-059" => LV_059,
-"LV-060" => LV_060,
-"LV-061" => LV_061,
 "LV-062" => LV_062,
-"LV-063" => LV_063,
-"LV-064" => LV_064,
-"LV-065" => LV_065,
-"LV-066" => LV_066,
 "LV-067" => LV_067,
 "LV-068" => LV_068,
-"LV-069" => LV_069,
-"LV-070" => LV_070,
-"LV-071" => LV_071,
-"LV-072" => LV_072,
 "LV-073" => LV_073,
-"LV-074" => LV_074,
-"LV-075" => LV_075,
-"LV-076" => LV_076,
 "LV-077" => LV_077,
-"LV-078" => LV_078,
-"LV-079" => LV_079,
 "LV-080" => LV_080,
-"LV-081" => LV_081,
-"LV-082" => LV_082,
-"LV-083" => LV_083,
-"LV-084" => LV_084,
-"LV-085" => LV_085,
-"LV-086" => LV_086,
 "LV-087" => LV_087,
 "LV-088" => LV_088,
 "LV-089" => LV_089,
-"LV-090" => LV_090,
 "LV-091" => LV_091,
-"LV-092" => LV_092,
-"LV-093" => LV_093,
 "LV-094" => LV_094,
-"LV-095" => LV_095,
-"LV-096" => LV_096,
 "LV-097" => LV_097,
-"LV-098" => LV_098,
 "LV-099" => LV_099,
-"LV-100" => LV_100,
 "LV-101" => LV_101,
 "LV-102" => LV_102,
-"LV-103" => LV_103,
-"LV-104" => LV_104,
-"LV-105" => LV_105,
 "LV-106" => LV_106,
-"LV-107" => LV_107,
-"LV-108" => LV_108,
-"LV-109" => LV_109,
-"LV-110" => LV_110,
+"LV-111" => LV_111,
+"LV-112" => LV_112,
+"LV-113" => LV_113,
 "LV-DGV" => LV_DGV,
 "LV-JEL" => LV_JEL,
-"LV-JKB" => LV_JKB,
 "LV-JUR" => LV_JUR,
 "LV-LPX" => LV_LPX,
 "LV-REZ" => LV_REZ,
 "LV-RIX" => LV_RIX,
 "LV-VEN" => LV_VEN,
-"LV-VMR" => LV_VMR,
 "LB-AK" => LB_AK,
 "LB-AS" => LB_AS,
 "LB-BA" => LB_BA,
@@ -48629,94 +47948,18 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "LT-TE" => LT_TE,
 "LT-UT" => LT_UT,
 "LT-VL" => LT_VL,
-"LU-D" => LU_D,
-"LU-G" => LU_G,
-"LU-L" => LU_L,
-"MO-MO" => MO_MO,
-"MK-01" => MK_01,
-"MK-02" => MK_02,
-"MK-03" => MK_03,
-"MK-04" => MK_04,
-"MK-05" => MK_05,
-"MK-06" => MK_06,
-"MK-07" => MK_07,
-"MK-08" => MK_08,
-"MK-09" => MK_09,
-"MK-10" => MK_10,
-"MK-11" => MK_11,
-"MK-12" => MK_12,
-"MK-13" => MK_13,
-"MK-14" => MK_14,
-"MK-15" => MK_15,
-"MK-16" => MK_16,
-"MK-17" => MK_17,
-"MK-18" => MK_18,
-"MK-19" => MK_19,
-"MK-20" => MK_20,
-"MK-21" => MK_21,
-"MK-22" => MK_22,
-"MK-23" => MK_23,
-"MK-24" => MK_24,
-"MK-25" => MK_25,
-"MK-26" => MK_26,
-"MK-27" => MK_27,
-"MK-28" => MK_28,
-"MK-29" => MK_29,
-"MK-30" => MK_30,
-"MK-31" => MK_31,
-"MK-32" => MK_32,
-"MK-33" => MK_33,
-"MK-34" => MK_34,
-"MK-35" => MK_35,
-"MK-36" => MK_36,
-"MK-37" => MK_37,
-"MK-38" => MK_38,
-"MK-39" => MK_39,
-"MK-40" => MK_40,
-"MK-41" => MK_41,
-"MK-42" => MK_42,
-"MK-43" => MK_43,
-"MK-44" => MK_44,
-"MK-45" => MK_45,
-"MK-46" => MK_46,
-"MK-47" => MK_47,
-"MK-48" => MK_48,
-"MK-49" => MK_49,
-"MK-50" => MK_50,
-"MK-51" => MK_51,
-"MK-52" => MK_52,
-"MK-53" => MK_53,
-"MK-54" => MK_54,
-"MK-55" => MK_55,
-"MK-56" => MK_56,
-"MK-57" => MK_57,
-"MK-58" => MK_58,
-"MK-59" => MK_59,
-"MK-60" => MK_60,
-"MK-61" => MK_61,
-"MK-62" => MK_62,
-"MK-63" => MK_63,
-"MK-64" => MK_64,
-"MK-65" => MK_65,
-"MK-66" => MK_66,
-"MK-67" => MK_67,
-"MK-68" => MK_68,
-"MK-69" => MK_69,
-"MK-70" => MK_70,
-"MK-71" => MK_71,
-"MK-72" => MK_72,
-"MK-73" => MK_73,
-"MK-74" => MK_74,
-"MK-75" => MK_75,
-"MK-76" => MK_76,
-"MK-77" => MK_77,
-"MK-78" => MK_78,
-"MK-79" => MK_79,
-"MK-80" => MK_80,
-"MK-81" => MK_81,
-"MK-82" => MK_82,
-"MK-83" => MK_83,
-"MK-84" => MK_84,
+"LU-CA" => LU_CA,
+"LU-CL" => LU_CL,
+"LU-DI" => LU_DI,
+"LU-EC" => LU_EC,
+"LU-ES" => LU_ES,
+"LU-GR" => LU_GR,
+"LU-LU" => LU_LU,
+"LU-ME" => LU_ME,
+"LU-RD" => LU_RD,
+"LU-RM" => LU_RM,
+"LU-VD" => LU_VD,
+"LU-WI" => LU_WI,
 "MG-A" => MG_A,
 "MG-D" => MG_D,
 "MG-F" => MG_F,
@@ -48741,8 +47984,8 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "MW-MU" => MW_MU,
 "MW-MW" => MW_MW,
 "MW-MZ" => MW_MZ,
-"MW-NB" => MW_NB,
 "MW-N" => MW_N,
+"MW-NB" => MW_NB,
 "MW-NE" => MW_NE,
 "MW-NI" => MW_NI,
 "MW-NK" => MW_NK,
@@ -48750,8 +47993,8 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "MW-NU" => MW_NU,
 "MW-PH" => MW_PH,
 "MW-RU" => MW_RU,
-"MW-SA" => MW_SA,
 "MW-S" => MW_S,
+"MW-SA" => MW_SA,
 "MW-TH" => MW_TH,
 "MW-ZO" => MW_ZO,
 "MY-01" => MY_01,
@@ -48790,15 +48033,9 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "MV-27" => MV_27,
 "MV-28" => MV_28,
 "MV-29" => MV_29,
-"MV-CE" => MV_CE,
 "MV-MLE" => MV_MLE,
-"MV-NC" => MV_NC,
-"MV-NO" => MV_NO,
-"MV-SC" => MV_SC,
-"MV-SU" => MV_SU,
-"MV-UN" => MV_UN,
-"MV-US" => MV_US,
 "ML-1" => ML_1,
+"ML-10" => ML_10,
 "ML-2" => ML_2,
 "ML-3" => ML_3,
 "ML-4" => ML_4,
@@ -48806,6 +48043,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "ML-6" => ML_6,
 "ML-7" => ML_7,
 "ML-8" => ML_8,
+"ML-9" => ML_9,
 "ML-BKO" => ML_BKO,
 "MT-01" => MT_01,
 "MT-02" => MT_02,
@@ -48885,10 +48123,10 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "MH-JAL" => MH_JAL,
 "MH-KIL" => MH_KIL,
 "MH-KWA" => MH_KWA,
+"MH-L" => MH_L,
 "MH-LAE" => MH_LAE,
 "MH-LIB" => MH_LIB,
 "MH-LIK" => MH_LIK,
-"MH-L" => MH_L,
 "MH-MAJ" => MH_MAJ,
 "MH-MAL" => MH_MAL,
 "MH-MEJ" => MH_MEJ,
@@ -48901,7 +48139,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "MH-UTI" => MH_UTI,
 "MH-WTH" => MH_WTH,
 "MH-WTJ" => MH_WTJ,
-"MQ-MQ" => MQ_MQ,
 "MR-01" => MR_01,
 "MR-02" => MR_02,
 "MR-03" => MR_03,
@@ -48914,34 +48151,30 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "MR-10" => MR_10,
 "MR-11" => MR_11,
 "MR-12" => MR_12,
-"MR-NKC" => MR_NKC,
+"MR-13" => MR_13,
+"MR-14" => MR_14,
+"MR-15" => MR_15,
 "MU-AG" => MU_AG,
 "MU-BL" => MU_BL,
-"MU-BR" => MU_BR,
 "MU-CC" => MU_CC,
-"MU-CU" => MU_CU,
 "MU-FL" => MU_FL,
 "MU-GP" => MU_GP,
 "MU-MO" => MU_MO,
 "MU-PA" => MU_PA,
 "MU-PL" => MU_PL,
-"MU-PU" => MU_PU,
 "MU-PW" => MU_PW,
-"MU-QB" => MU_QB,
 "MU-RO" => MU_RO,
 "MU-RR" => MU_RR,
 "MU-SA" => MU_SA,
-"MU-VP" => MU_VP,
-"YT-YT" => YT_YT,
 "MX-AGU" => MX_AGU,
 "MX-BCN" => MX_BCN,
 "MX-BCS" => MX_BCS,
 "MX-CAM" => MX_CAM,
 "MX-CHH" => MX_CHH,
 "MX-CHP" => MX_CHP,
+"MX-CMX" => MX_CMX,
 "MX-COA" => MX_COA,
 "MX-COL" => MX_COL,
-"MX-CMX" => MX_CMX,
 "MX-DUR" => MX_DUR,
 "MX-GRO" => MX_GRO,
 "MX-GUA" => MX_GUA,
@@ -49068,7 +48301,8 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "ME-21" => ME_21,
 "ME-22" => ME_22,
 "ME-23" => ME_23,
-"MS-MS" => MS_MS,
+"ME-24" => ME_24,
+"ME-25" => ME_25,
 "MA-01" => MA_01,
 "MA-02" => MA_02,
 "MA-03" => MA_03,
@@ -49081,10 +48315,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "MA-10" => MA_10,
 "MA-11" => MA_11,
 "MA-12" => MA_12,
-"MA-13" => MA_13,
-"MA-14" => MA_14,
-"MA-15" => MA_15,
-"MA-16" => MA_16,
 "MA-AGD" => MA_AGD,
 "MA-AOU" => MA_AOU,
 "MA-ASZ" => MA_ASZ,
@@ -49094,17 +48324,21 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "MA-BES" => MA_BES,
 "MA-BOD" => MA_BOD,
 "MA-BOM" => MA_BOM,
+"MA-BRR" => MA_BRR,
 "MA-CAS" => MA_CAS,
 "MA-CHE" => MA_CHE,
 "MA-CHI" => MA_CHI,
 "MA-CHT" => MA_CHT,
+"MA-DRI" => MA_DRI,
 "MA-ERR" => MA_ERR,
 "MA-ESI" => MA_ESI,
 "MA-ESM" => MA_ESM,
 "MA-FAH" => MA_FAH,
 "MA-FES" => MA_FES,
 "MA-FIG" => MA_FIG,
+"MA-FQH" => MA_FQH,
 "MA-GUE" => MA_GUE,
+"MA-GUF" => MA_GUF,
 "MA-HAJ" => MA_HAJ,
 "MA-HAO" => MA_HAO,
 "MA-HOC" => MA_HOC,
@@ -49119,10 +48353,11 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "MA-KHO" => MA_KHO,
 "MA-LAA" => MA_LAA,
 "MA-LAR" => MA_LAR,
+"MA-MAR" => MA_MAR,
+"MA-MDF" => MA_MDF,
 "MA-MED" => MA_MED,
 "MA-MEK" => MA_MEK,
-"MA-MMD" => MA_MMD,
-"MA-MMN" => MA_MMN,
+"MA-MID" => MA_MID,
 "MA-MOH" => MA_MOH,
 "MA-MOU" => MA_MOU,
 "MA-NAD" => MA_NAD,
@@ -49130,23 +48365,30 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "MA-OUA" => MA_OUA,
 "MA-OUD" => MA_OUD,
 "MA-OUJ" => MA_OUJ,
+"MA-OUZ" => MA_OUZ,
 "MA-RAB" => MA_RAB,
+"MA-REH" => MA_REH,
 "MA-SAF" => MA_SAF,
 "MA-SAL" => MA_SAL,
 "MA-SEF" => MA_SEF,
 "MA-SET" => MA_SET,
+"MA-SIB" => MA_SIB,
+"MA-SIF" => MA_SIF,
 "MA-SIK" => MA_SIK,
+"MA-SIL" => MA_SIL,
 "MA-SKH" => MA_SKH,
-"MA-SYB" => MA_SYB,
+"MA-TAF" => MA_TAF,
 "MA-TAI" => MA_TAI,
 "MA-TAO" => MA_TAO,
 "MA-TAR" => MA_TAR,
 "MA-TAT" => MA_TAT,
 "MA-TAZ" => MA_TAZ,
 "MA-TET" => MA_TET,
+"MA-TIN" => MA_TIN,
 "MA-TIZ" => MA_TIZ,
 "MA-TNG" => MA_TNG,
 "MA-TNT" => MA_TNT,
+"MA-YUS" => MA_YUS,
 "MA-ZAG" => MA_ZAG,
 "MZ-A" => MZ_A,
 "MZ-B" => MZ_B,
@@ -49202,25 +48444,13 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "NR-12" => NR_12,
 "NR-13" => NR_13,
 "NR-14" => NR_14,
-"NP-1" => NP_1,
-"NP-2" => NP_2,
-"NP-3" => NP_3,
-"NP-4" => NP_4,
-"NP-5" => NP_5,
-"NP-BA" => NP_BA,
-"NP-BH" => NP_BH,
-"NP-DH" => NP_DH,
-"NP-GA" => NP_GA,
-"NP-JA" => NP_JA,
-"NP-KA" => NP_KA,
-"NP-KO" => NP_KO,
-"NP-LU" => NP_LU,
-"NP-MA" => NP_MA,
-"NP-ME" => NP_ME,
-"NP-NA" => NP_NA,
-"NP-RA" => NP_RA,
-"NP-SA" => NP_SA,
-"NP-SE" => NP_SE,
+"NP-P1" => NP_P1,
+"NP-P2" => NP_P2,
+"NP-P3" => NP_P3,
+"NP-P4" => NP_P4,
+"NP-P5" => NP_P5,
+"NP-P6" => NP_P6,
+"NP-P7" => NP_P7,
 "NL-AW" => NL_AW,
 "NL-BQ1" => NL_BQ1,
 "NL-BQ2" => NL_BQ2,
@@ -49239,7 +48469,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "NL-UT" => NL_UT,
 "NL-ZE" => NL_ZE,
 "NL-ZH" => NL_ZH,
-"NC-NC" => NC_NC,
 "NZ-AUK" => NZ_AUK,
 "NZ-BOP" => NZ_BOP,
 "NZ-CAN" => NZ_CAN,
@@ -49248,11 +48477,9 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "NZ-HKB" => NZ_HKB,
 "NZ-MBH" => NZ_MBH,
 "NZ-MWT" => NZ_MWT,
-"NZ-N" => NZ_N,
 "NZ-NSN" => NZ_NSN,
 "NZ-NTL" => NZ_NTL,
 "NZ-OTA" => NZ_OTA,
-"NZ-S" => NZ_S,
 "NZ-STL" => NZ_STL,
 "NZ-TAS" => NZ_TAS,
 "NZ-TKI" => NZ_TKI,
@@ -49276,6 +48503,14 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "NI-NS" => NI_NS,
 "NI-RI" => NI_RI,
 "NI-SJ" => NI_SJ,
+"NE-1" => NE_1,
+"NE-2" => NE_2,
+"NE-3" => NE_3,
+"NE-4" => NE_4,
+"NE-5" => NE_5,
+"NE-6" => NE_6,
+"NE-7" => NE_7,
+"NE-8" => NE_8,
 "NG-AB" => NG_AB,
 "NG-AD" => NG_AD,
 "NG-AK" => NG_AK,
@@ -49313,44 +48548,107 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "NG-TA" => NG_TA,
 "NG-YO" => NG_YO,
 "NG-ZA" => NG_ZA,
-"NE-1" => NE_1,
-"NE-2" => NE_2,
-"NE-3" => NE_3,
-"NE-4" => NE_4,
-"NE-5" => NE_5,
-"NE-6" => NE_6,
-"NE-7" => NE_7,
-"NE-8" => NE_8,
-"NU-NU" => NU_NU,
-"NF-NF" => NF_NF,
-"MP-MP" => MP_MP,
-"NO-01" => NO_01,
-"NO-02" => NO_02,
+"MK-101" => MK_101,
+"MK-102" => MK_102,
+"MK-103" => MK_103,
+"MK-104" => MK_104,
+"MK-105" => MK_105,
+"MK-106" => MK_106,
+"MK-107" => MK_107,
+"MK-108" => MK_108,
+"MK-109" => MK_109,
+"MK-201" => MK_201,
+"MK-202" => MK_202,
+"MK-203" => MK_203,
+"MK-204" => MK_204,
+"MK-205" => MK_205,
+"MK-206" => MK_206,
+"MK-207" => MK_207,
+"MK-208" => MK_208,
+"MK-209" => MK_209,
+"MK-210" => MK_210,
+"MK-211" => MK_211,
+"MK-301" => MK_301,
+"MK-303" => MK_303,
+"MK-304" => MK_304,
+"MK-307" => MK_307,
+"MK-308" => MK_308,
+"MK-310" => MK_310,
+"MK-311" => MK_311,
+"MK-312" => MK_312,
+"MK-313" => MK_313,
+"MK-401" => MK_401,
+"MK-402" => MK_402,
+"MK-403" => MK_403,
+"MK-404" => MK_404,
+"MK-405" => MK_405,
+"MK-406" => MK_406,
+"MK-407" => MK_407,
+"MK-408" => MK_408,
+"MK-409" => MK_409,
+"MK-410" => MK_410,
+"MK-501" => MK_501,
+"MK-502" => MK_502,
+"MK-503" => MK_503,
+"MK-504" => MK_504,
+"MK-505" => MK_505,
+"MK-506" => MK_506,
+"MK-507" => MK_507,
+"MK-508" => MK_508,
+"MK-509" => MK_509,
+"MK-601" => MK_601,
+"MK-602" => MK_602,
+"MK-603" => MK_603,
+"MK-604" => MK_604,
+"MK-605" => MK_605,
+"MK-606" => MK_606,
+"MK-607" => MK_607,
+"MK-608" => MK_608,
+"MK-609" => MK_609,
+"MK-701" => MK_701,
+"MK-702" => MK_702,
+"MK-703" => MK_703,
+"MK-704" => MK_704,
+"MK-705" => MK_705,
+"MK-706" => MK_706,
+"MK-801" => MK_801,
+"MK-802" => MK_802,
+"MK-803" => MK_803,
+"MK-804" => MK_804,
+"MK-805" => MK_805,
+"MK-806" => MK_806,
+"MK-807" => MK_807,
+"MK-808" => MK_808,
+"MK-809" => MK_809,
+"MK-810" => MK_810,
+"MK-811" => MK_811,
+"MK-812" => MK_812,
+"MK-813" => MK_813,
+"MK-814" => MK_814,
+"MK-815" => MK_815,
+"MK-816" => MK_816,
+"MK-817" => MK_817,
 "NO-03" => NO_03,
-"NO-04" => NO_04,
-"NO-05" => NO_05,
-"NO-06" => NO_06,
-"NO-07" => NO_07,
-"NO-08" => NO_08,
-"NO-09" => NO_09,
-"NO-10" => NO_10,
 "NO-11" => NO_11,
-"NO-12" => NO_12,
-"NO-14" => NO_14,
 "NO-15" => NO_15,
-"NO-16" => NO_16,
-"NO-17" => NO_17,
 "NO-18" => NO_18,
-"NO-19" => NO_19,
-"NO-20" => NO_20,
 "NO-21" => NO_21,
 "NO-22" => NO_22,
-"OM-BA" => OM_BA,
+"NO-30" => NO_30,
+"NO-34" => NO_34,
+"NO-38" => NO_38,
+"NO-42" => NO_42,
+"NO-46" => NO_46,
+"NO-50" => NO_50,
+"NO-54" => NO_54,
+"OM-BJ" => OM_BJ,
+"OM-BS" => OM_BS,
 "OM-BU" => OM_BU,
 "OM-DA" => OM_DA,
 "OM-MA" => OM_MA,
 "OM-MU" => OM_MU,
-"OM-SH" => OM_SH,
+"OM-SJ" => OM_SJ,
+"OM-SS" => OM_SS,
 "OM-WU" => OM_WU,
 "OM-ZA" => OM_ZA,
 "OM-ZU" => OM_ZU,
@@ -49361,7 +48659,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "PK-KP" => PK_KP,
 "PK-PB" => PK_PB,
 "PK-SD" => PK_SD,
-"PK-TA" => PK_TA,
 "PW-002" => PW_002,
 "PW-004" => PW_004,
 "PW-010" => PW_010,
@@ -49394,8 +48691,8 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "PS-SLT" => PS_SLT,
 "PS-TBS" => PS_TBS,
 "PS-TKM" => PS_TKM,
-"PA-10" => PA_10,
 "PA-1" => PA_1,
+"PA-10" => PA_10,
 "PA-2" => PA_2,
 "PA-3" => PA_3,
 "PA-4" => PA_4,
@@ -49407,6 +48704,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "PA-EM" => PA_EM,
 "PA-KY" => PA_KY,
 "PA-NB" => PA_NB,
+"PA-NT" => PA_NT,
 "PG-CPK" => PG_CPK,
 "PG-CPM" => PG_CPM,
 "PG-EBR" => PG_EBR,
@@ -49429,6 +48727,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "PG-WBK" => PG_WBK,
 "PG-WHM" => PG_WHM,
 "PG-WPD" => PG_WPD,
+"PY-1" => PY_1,
 "PY-10" => PY_10,
 "PY-11" => PY_11,
 "PY-12" => PY_12,
@@ -49437,7 +48736,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "PY-15" => PY_15,
 "PY-16" => PY_16,
 "PY-19" => PY_19,
-"PY-1" => PY_1,
 "PY-2" => PY_2,
 "PY-3" => PY_3,
 "PY-4" => PY_4,
@@ -49520,6 +48818,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "PH-DAS" => PH_DAS,
 "PH-DAV" => PH_DAV,
 "PH-DIN" => PH_DIN,
+"PH-DVO" => PH_DVO,
 "PH-EAS" => PH_EAS,
 "PH-GUI" => PH_GUI,
 "PH-IFU" => PH_IFU,
@@ -49534,10 +48833,11 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "PH-LEY" => PH_LEY,
 "PH-LUN" => PH_LUN,
 "PH-MAD" => PH_MAD,
-"PH-MAG" => PH_MAG,
 "PH-MAS" => PH_MAS,
 "PH-MDC" => PH_MDC,
 "PH-MDR" => PH_MDR,
+"PH-MGN" => PH_MGN,
+"PH-MGS" => PH_MGS,
 "PH-MOU" => PH_MOU,
 "PH-MSC" => PH_MSC,
 "PH-MSR" => PH_MSR,
@@ -49570,23 +48870,22 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "PH-ZAS" => PH_ZAS,
 "PH-ZMB" => PH_ZMB,
 "PH-ZSI" => PH_ZSI,
-"PN-PN" => PN_PN,
-"PL-DS" => PL_DS,
-"PL-KP" => PL_KP,
-"PL-LB" => PL_LB,
-"PL-LD" => PL_LD,
-"PL-LU" => PL_LU,
-"PL-MA" => PL_MA,
-"PL-MZ" => PL_MZ,
-"PL-OP" => PL_OP,
-"PL-PD" => PL_PD,
-"PL-PK" => PL_PK,
-"PL-PM" => PL_PM,
-"PL-SK" => PL_SK,
-"PL-SL" => PL_SL,
-"PL-WN" => PL_WN,
-"PL-WP" => PL_WP,
-"PL-ZP" => PL_ZP,
+"PL-02" => PL_02,
+"PL-04" => PL_04,
+"PL-06" => PL_06,
+"PL-08" => PL_08,
+"PL-10" => PL_10,
+"PL-12" => PL_12,
+"PL-14" => PL_14,
+"PL-16" => PL_16,
+"PL-18" => PL_18,
+"PL-20" => PL_20,
+"PL-22" => PL_22,
+"PL-24" => PL_24,
+"PL-26" => PL_26,
+"PL-28" => PL_28,
+"PL-30" => PL_30,
+"PL-32" => PL_32,
 "PT-01" => PT_01,
 "PT-02" => PT_02,
 "PT-03" => PT_03,
@@ -49607,15 +48906,14 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "PT-18" => PT_18,
 "PT-20" => PT_20,
 "PT-30" => PT_30,
-"PR-PR" => PR_PR,
 "QA-DA" => QA_DA,
 "QA-KH" => QA_KH,
 "QA-MS" => QA_MS,
 "QA-RA" => QA_RA,
+"QA-SH" => QA_SH,
 "QA-US" => QA_US,
 "QA-WA" => QA_WA,
 "QA-ZA" => QA_ZA,
-"RE-RE" => RE_RE,
 "RO-AB" => RO_AB,
 "RO-AG" => RO_AG,
 "RO-AR" => RO_AR,
@@ -49715,17 +49013,17 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "RU-PSK" => RU_PSK,
 "RU-ROS" => RU_ROS,
 "RU-RYA" => RU_RYA,
+"RU-SA" => RU_SA,
 "RU-SAK" => RU_SAK,
 "RU-SAM" => RU_SAM,
 "RU-SAR" => RU_SAR,
-"RU-SA" => RU_SA,
 "RU-SE" => RU_SE,
 "RU-SMO" => RU_SMO,
 "RU-SPE" => RU_SPE,
 "RU-STA" => RU_STA,
 "RU-SVE" => RU_SVE,
-"RU-TAM" => RU_TAM,
 "RU-TA" => RU_TA,
+"RU-TAM" => RU_TAM,
 "RU-TOM" => RU_TOM,
 "RU-TUL" => RU_TUL,
 "RU-TVE" => RU_TVE,
@@ -49801,8 +49099,13 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "SM-07" => SM_07,
 "SM-08" => SM_08,
 "SM-09" => SM_09,
+"ST-01" => ST_01,
+"ST-02" => ST_02,
+"ST-03" => ST_03,
+"ST-04" => ST_04,
+"ST-05" => ST_05,
+"ST-06" => ST_06,
 "ST-P" => ST_P,
-"ST-S" => ST_S,
 "SA-01" => SA_01,
 "SA-02" => SA_02,
 "SA-03" => SA_03,
@@ -49887,9 +49190,11 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "SC-23" => SC_23,
 "SC-24" => SC_24,
 "SC-25" => SC_25,
-"GS-GS" => GS_GS,
+"SC-26" => SC_26,
+"SC-27" => SC_27,
 "SL-E" => SL_E,
 "SL-N" => SL_N,
+"SL-NW" => SL_NW,
 "SL-S" => SL_S,
 "SL-W" => SL_W,
 "SG-01" => SG_01,
@@ -50116,6 +49421,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "SI-210" => SI_210,
 "SI-211" => SI_211,
 "SI-212" => SI_212,
+"SI-213" => SI_213,
 "SB-CE" => SB_CE,
 "SB-CH" => SB_CH,
 "SB-CT" => SB_CT,
@@ -50146,11 +49452,11 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "SO-WO" => SO_WO,
 "ZA-EC" => ZA_EC,
 "ZA-FS" => ZA_FS,
-"ZA-GT" => ZA_GT,
+"ZA-GP" => ZA_GP,
+"ZA-KZN" => ZA_KZN,
 "ZA-LP" => ZA_LP,
 "ZA-MP" => ZA_MP,
 "ZA-NC" => ZA_NC,
-"ZA-NL" => ZA_NL,
 "ZA-NW" => ZA_NW,
 "ZA-WC" => ZA_WC,
 "SS-BN" => SS_BN,
@@ -50170,12 +49476,12 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "ES-AR" => ES_AR,
 "ES-AS" => ES_AS,
 "ES-AV" => ES_AV,
-"ES-BA" => ES_BA,
 "ES-B" => ES_B,
+"ES-BA" => ES_BA,
 "ES-BI" => ES_BI,
 "ES-BU" => ES_BU,
-"ES-CA" => ES_CA,
 "ES-C" => ES_C,
+"ES-CA" => ES_CA,
 "ES-CB" => ES_CB,
 "ES-CC" => ES_CC,
 "ES-CE" => ES_CE,
@@ -50197,85 +49503,82 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "ES-HU" => ES_HU,
 "ES-IB" => ES_IB,
 "ES-J" => ES_J,
-"ES-LE" => ES_LE,
 "ES-L" => ES_L,
+"ES-LE" => ES_LE,
 "ES-LO" => ES_LO,
 "ES-LU" => ES_LU,
+"ES-M" => ES_M,
 "ES-MA" => ES_MA,
 "ES-MC" => ES_MC,
 "ES-MD" => ES_MD,
 "ES-ML" => ES_ML,
-"ES-M" => ES_M,
 "ES-MU" => ES_MU,
 "ES-NA" => ES_NA,
 "ES-NC" => ES_NC,
 "ES-O" => ES_O,
 "ES-OR" => ES_OR,
+"ES-P" => ES_P,
 "ES-PM" => ES_PM,
 "ES-PO" => ES_PO,
-"ES-P" => ES_P,
 "ES-PV" => ES_PV,
 "ES-RI" => ES_RI,
-"ES-SA" => ES_SA,
 "ES-S" => ES_S,
+"ES-SA" => ES_SA,
 "ES-SE" => ES_SE,
 "ES-SG" => ES_SG,
 "ES-SO" => ES_SO,
 "ES-SS" => ES_SS,
+"ES-T" => ES_T,
 "ES-TE" => ES_TE,
 "ES-TF" => ES_TF,
 "ES-TO" => ES_TO,
-"ES-T" => ES_T,
+"ES-V" => ES_V,
 "ES-VA" => ES_VA,
 "ES-VC" => ES_VC,
 "ES-VI" => ES_VI,
-"ES-V" => ES_V,
-"ES-ZA" => ES_ZA,
 "ES-Z" => ES_Z,
+"ES-ZA" => ES_ZA,
+"LK-1" => LK_1,
 "LK-11" => LK_11,
 "LK-12" => LK_12,
 "LK-13" => LK_13,
-"LK-1" => LK_1,
+"LK-2" => LK_2,
 "LK-21" => LK_21,
 "LK-22" => LK_22,
 "LK-23" => LK_23,
-"LK-2" => LK_2,
+"LK-3" => LK_3,
 "LK-31" => LK_31,
 "LK-32" => LK_32,
 "LK-33" => LK_33,
-"LK-3" => LK_3,
+"LK-4" => LK_4,
 "LK-41" => LK_41,
 "LK-42" => LK_42,
 "LK-43" => LK_43,
 "LK-44" => LK_44,
 "LK-45" => LK_45,
-"LK-4" => LK_4,
+"LK-5" => LK_5,
 "LK-51" => LK_51,
 "LK-52" => LK_52,
 "LK-53" => LK_53,
-"LK-5" => LK_5,
+"LK-6" => LK_6,
 "LK-61" => LK_61,
 "LK-62" => LK_62,
-"LK-6" => LK_6,
+"LK-7" => LK_7,
 "LK-71" => LK_71,
 "LK-72" => LK_72,
-"LK-7" => LK_7,
+"LK-8" => LK_8,
 "LK-81" => LK_81,
 "LK-82" => LK_82,
-"LK-8" => LK_8,
+"LK-9" => LK_9,
 "LK-91" => LK_91,
 "LK-92" => LK_92,
-"LK-9" => LK_9,
-"BL-BL" => BL_BL,
-"SX-SX" => SX_SX,
-"MF-MF" => MF_MF,
-"PM-PM" => PM_PM,
 "SD-DC" => SD_DC,
 "SD-DE" => SD_DE,
 "SD-DN" => SD_DN,
 "SD-DS" => SD_DS,
 "SD-DW" => SD_DW,
 "SD-GD" => SD_GD,
+"SD-GK" => SD_GK,
 "SD-GZ" => SD_GZ,
 "SD-KA" => SD_KA,
 "SD-KH" => SD_KH,
@@ -50297,11 +49600,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "SR-SA" => SR_SA,
 "SR-SI" => SR_SI,
 "SR-WA" => SR_WA,
-"SJ-SJ" => SJ_SJ,
-"SZ-HH" => SZ_HH,
-"SZ-LU" => SZ_LU,
-"SZ-MA" => SZ_MA,
-"SZ-SH" => SZ_SH,
 "SE-AB" => SE_AB,
 "SE-AC" => SE_AC,
 "SE-BD" => SE_BD,
@@ -50372,23 +49670,23 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "TW-ILA" => TW_ILA,
 "TW-KEE" => TW_KEE,
 "TW-KHH" => TW_KHH,
-"TW-KHQ" => TW_KHQ,
+"TW-KIN" => TW_KIN,
+"TW-LIE" => TW_LIE,
 "TW-MIA" => TW_MIA,
 "TW-NAN" => TW_NAN,
+"TW-NWT" => TW_NWT,
 "TW-PEN" => TW_PEN,
 "TW-PIF" => TW_PIF,
 "TW-TAO" => TW_TAO,
 "TW-TNN" => TW_TNN,
-"TW-TNQ" => TW_TNQ,
 "TW-TPE" => TW_TPE,
-"TW-TPQ" => TW_TPQ,
 "TW-TTT" => TW_TTT,
 "TW-TXG" => TW_TXG,
-"TW-TXQ" => TW_TXQ,
 "TW-YUN" => TW_YUN,
 "TJ-DU" => TJ_DU,
 "TJ-GB" => TJ_GB,
 "TJ-KT" => TJ_KT,
+"TJ-RA" => TJ_RA,
 "TJ-SU" => TJ_SU,
 "TZ-01" => TZ_01,
 "TZ-02" => TZ_02,
@@ -50420,6 +49718,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "TZ-28" => TZ_28,
 "TZ-29" => TZ_29,
 "TZ-30" => TZ_30,
+"TZ-31" => TZ_31,
 "TH-10" => TH_10,
 "TH-11" => TH_11,
 "TH-12" => TH_12,
@@ -50516,7 +49815,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "TG-M" => TG_M,
 "TG-P" => TG_P,
 "TG-S" => TG_S,
-"TK-TK" => TK_TK,
 "TO-01" => TO_01,
 "TO-02" => TO_02,
 "TO-03" => TO_03,
@@ -50526,18 +49824,17 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "TT-CHA" => TT_CHA,
 "TT-CTT" => TT_CTT,
 "TT-DMN" => TT_DMN,
-"TT-ETO" => TT_ETO,
+"TT-MRC" => TT_MRC,
 "TT-PED" => TT_PED,
 "TT-POS" => TT_POS,
 "TT-PRT" => TT_PRT,
 "TT-PTF" => TT_PTF,
-"TT-RCM" => TT_RCM,
 "TT-SFO" => TT_SFO,
 "TT-SGE" => TT_SGE,
 "TT-SIP" => TT_SIP,
 "TT-SJL" => TT_SJL,
+"TT-TOB" => TT_TOB,
 "TT-TUP" => TT_TUP,
-"TT-WTO" => TT_WTO,
 "TN-11" => TN_11,
 "TN-12" => TN_12,
 "TN-13" => TN_13,
@@ -50649,7 +49946,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "TM-L" => TM_L,
 "TM-M" => TM_M,
 "TM-S" => TM_S,
-"TC-TC" => TC_TC,
 "TV-FUN" => TV_FUN,
 "TV-NIT" => TV_NIT,
 "TV-NKF" => TV_NKF,
@@ -50682,6 +49978,8 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "UG-122" => UG_122,
 "UG-123" => UG_123,
 "UG-124" => UG_124,
+"UG-125" => UG_125,
+"UG-126" => UG_126,
 "UG-201" => UG_201,
 "UG-202" => UG_202,
 "UG-203" => UG_203,
@@ -50714,6 +50012,11 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "UG-230" => UG_230,
 "UG-231" => UG_231,
 "UG-232" => UG_232,
+"UG-233" => UG_233,
+"UG-234" => UG_234,
+"UG-235" => UG_235,
+"UG-236" => UG_236,
+"UG-237" => UG_237,
 "UG-301" => UG_301,
 "UG-302" => UG_302,
 "UG-303" => UG_303,
@@ -50745,6 +50048,12 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "UG-329" => UG_329,
 "UG-330" => UG_330,
 "UG-331" => UG_331,
+"UG-332" => UG_332,
+"UG-333" => UG_333,
+"UG-334" => UG_334,
+"UG-335" => UG_335,
+"UG-336" => UG_336,
+"UG-337" => UG_337,
 "UG-401" => UG_401,
 "UG-402" => UG_402,
 "UG-403" => UG_403,
@@ -50770,6 +50079,16 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "UG-423" => UG_423,
 "UG-424" => UG_424,
 "UG-425" => UG_425,
+"UG-426" => UG_426,
+"UG-427" => UG_427,
+"UG-428" => UG_428,
+"UG-429" => UG_429,
+"UG-430" => UG_430,
+"UG-431" => UG_431,
+"UG-432" => UG_432,
+"UG-433" => UG_433,
+"UG-434" => UG_434,
+"UG-435" => UG_435,
 "UG-C" => UG_C,
 "UG-E" => UG_E,
 "UG-N" => UG_N,
@@ -50808,16 +50127,17 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "AE-RK" => AE_RK,
 "AE-SH" => AE_SH,
 "AE-UQ" => AE_UQ,
+"GB-ABC" => GB_ABC,
 "GB-ABD" => GB_ABD,
 "GB-ABE" => GB_ABE,
 "GB-AGB" => GB_AGB,
 "GB-AGY" => GB_AGY,
+"GB-AND" => GB_AND,
+"GB-ANN" => GB_ANN,
 "GB-ANS" => GB_ANS,
-"GB-ANT" => GB_ANT,
-"GB-ARD" => GB_ARD,
-"GB-ARM" => GB_ARM,
 "GB-BAS" => GB_BAS,
 "GB-BBD" => GB_BBD,
+"GB-BCP" => GB_BCP,
 "GB-BDF" => GB_BDF,
 "GB-BDG" => GB_BDG,
 "GB-BEN" => GB_BEN,
@@ -50827,10 +50147,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GB-BGW" => GB_BGW,
 "GB-BIR" => GB_BIR,
 "GB-BKM" => GB_BKM,
-"GB-BLA" => GB_BLA,
-"GB-BLY" => GB_BLY,
-"GB-BMH" => GB_BMH,
-"GB-BNB" => GB_BNB,
 "GB-BNE" => GB_BNE,
 "GB-BNH" => GB_BNH,
 "GB-BNS" => GB_BNS,
@@ -50844,15 +50160,12 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GB-CAM" => GB_CAM,
 "GB-CAY" => GB_CAY,
 "GB-CBF" => GB_CBF,
+"GB-CCG" => GB_CCG,
 "GB-CGN" => GB_CGN,
-"GB-CGV" => GB_CGV,
 "GB-CHE" => GB_CHE,
 "GB-CHW" => GB_CHW,
-"GB-CKF" => GB_CKF,
-"GB-CKT" => GB_CKT,
 "GB-CLD" => GB_CLD,
 "GB-CLK" => GB_CLK,
-"GB-CLR" => GB_CLR,
 "GB-CMA" => GB_CMA,
 "GB-CMD" => GB_CMD,
 "GB-CMN" => GB_CMN,
@@ -50860,24 +50173,20 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GB-COV" => GB_COV,
 "GB-CRF" => GB_CRF,
 "GB-CRY" => GB_CRY,
-"GB-CSR" => GB_CSR,
 "GB-CWY" => GB_CWY,
 "GB-DAL" => GB_DAL,
 "GB-DBY" => GB_DBY,
 "GB-DEN" => GB_DEN,
 "GB-DER" => GB_DER,
 "GB-DEV" => GB_DEV,
-"GB-DGN" => GB_DGN,
 "GB-DGY" => GB_DGY,
 "GB-DNC" => GB_DNC,
 "GB-DND" => GB_DND,
 "GB-DOR" => GB_DOR,
-"GB-DOW" => GB_DOW,
-"GB-DRY" => GB_DRY,
+"GB-DRS" => GB_DRS,
 "GB-DUD" => GB_DUD,
 "GB-DUR" => GB_DUR,
 "GB-EAL" => GB_EAL,
-"GB-EAW" => GB_EAW,
 "GB-EAY" => GB_EAY,
 "GB-EDH" => GB_EDH,
 "GB-EDU" => GB_EDU,
@@ -50890,11 +50199,10 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GB-ESS" => GB_ESS,
 "GB-ESX" => GB_ESX,
 "GB-FAL" => GB_FAL,
-"GB-FER" => GB_FER,
 "GB-FIF" => GB_FIF,
 "GB-FLN" => GB_FLN,
+"GB-FMO" => GB_FMO,
 "GB-GAT" => GB_GAT,
-"GB-GBN" => GB_GBN,
 "GB-GLG" => GB_GLG,
 "GB-GLS" => GB_GLS,
 "GB-GRE" => GB_GRE,
@@ -50923,6 +50231,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GB-KTT" => GB_KTT,
 "GB-KWL" => GB_KWL,
 "GB-LAN" => GB_LAN,
+"GB-LBC" => GB_LBC,
 "GB-LBH" => GB_LBH,
 "GB-LCE" => GB_LCE,
 "GB-LDS" => GB_LDS,
@@ -50930,25 +50239,21 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GB-LEW" => GB_LEW,
 "GB-LIN" => GB_LIN,
 "GB-LIV" => GB_LIV,
-"GB-LMV" => GB_LMV,
 "GB-LND" => GB_LND,
-"GB-LRN" => GB_LRN,
-"GB-LSB" => GB_LSB,
 "GB-LUT" => GB_LUT,
 "GB-MAN" => GB_MAN,
 "GB-MDB" => GB_MDB,
 "GB-MDW" => GB_MDW,
-"GB-MFT" => GB_MFT,
+"GB-MEA" => GB_MEA,
 "GB-MIK" => GB_MIK,
 "GB-MLN" => GB_MLN,
 "GB-MON" => GB_MON,
 "GB-MRT" => GB_MRT,
 "GB-MRY" => GB_MRY,
 "GB-MTY" => GB_MTY,
-"GB-MYL" => GB_MYL,
+"GB-MUL" => GB_MUL,
 "GB-NAY" => GB_NAY,
 "GB-NBL" => GB_NBL,
-"GB-NDN" => GB_NDN,
 "GB-NEL" => GB_NEL,
 "GB-NET" => GB_NET,
 "GB-NFK" => GB_NFK,
@@ -50956,24 +50261,21 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GB-NIR" => GB_NIR,
 "GB-NLK" => GB_NLK,
 "GB-NLN" => GB_NLN,
+"GB-NMD" => GB_NMD,
+"GB-NNH" => GB_NNH,
 "GB-NSM" => GB_NSM,
-"GB-NTA" => GB_NTA,
-"GB-NTH" => GB_NTH,
 "GB-NTL" => GB_NTL,
 "GB-NTT" => GB_NTT,
 "GB-NTY" => GB_NTY,
 "GB-NWM" => GB_NWM,
 "GB-NWP" => GB_NWP,
 "GB-NYK" => GB_NYK,
-"GB-NYM" => GB_NYM,
 "GB-OLD" => GB_OLD,
-"GB-OMH" => GB_OMH,
 "GB-ORK" => GB_ORK,
 "GB-OXF" => GB_OXF,
 "GB-PEM" => GB_PEM,
 "GB-PKN" => GB_PKN,
 "GB-PLY" => GB_PLY,
-"GB-POL" => GB_POL,
 "GB-POR" => GB_POR,
 "GB-POW" => GB_POW,
 "GB-PTE" => GB_PTE,
@@ -51005,7 +50307,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GB-SOM" => GB_SOM,
 "GB-SOS" => GB_SOS,
 "GB-SRY" => GB_SRY,
-"GB-STB" => GB_STB,
 "GB-STE" => GB_STE,
 "GB-STG" => GB_STG,
 "GB-STH" => GB_STH,
@@ -51023,7 +50324,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GB-TOF" => GB_TOF,
 "GB-TRF" => GB_TRF,
 "GB-TWH" => GB_TWH,
-"GB-UKM" => GB_UKM,
 "GB-VGL" => GB_VGL,
 "GB-WAR" => GB_WAR,
 "GB-WBK" => GB_WBK,
@@ -51037,6 +50337,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GB-WLS" => GB_WLS,
 "GB-WLV" => GB_WLV,
 "GB-WND" => GB_WND,
+"GB-WNH" => GB_WNH,
 "GB-WNM" => GB_WNM,
 "GB-WOK" => GB_WOK,
 "GB-WOR" => GB_WOR,
@@ -51047,15 +50348,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "GB-WSX" => GB_WSX,
 "GB-YOR" => GB_YOR,
 "GB-ZET" => GB_ZET,
-"UM-67" => UM_67,
-"UM-71" => UM_71,
-"UM-76" => UM_76,
-"UM-79" => UM_79,
-"UM-81" => UM_81,
-"UM-84" => UM_84,
-"UM-86" => UM_86,
-"UM-89" => UM_89,
-"UM-95" => UM_95,
 "US-AK" => US_AK,
 "US-AL" => US_AL,
 "US-AR" => US_AR,
@@ -51113,6 +50405,15 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "US-WI" => US_WI,
 "US-WV" => US_WV,
 "US-WY" => US_WY,
+"UM-67" => UM_67,
+"UM-71" => UM_71,
+"UM-76" => UM_76,
+"UM-79" => UM_79,
+"UM-81" => UM_81,
+"UM-84" => UM_84,
+"UM-86" => UM_86,
+"UM-89" => UM_89,
+"UM-95" => UM_95,
 "UY-AR" => UY_AR,
 "UY-CA" => UY_CA,
 "UY-CL" => UY_CL,
@@ -51152,7 +50453,6 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "VU-SEE" => VU_SEE,
 "VU-TAE" => VU_TAE,
 "VU-TOB" => VU_TOB,
-"VA-VA" => VA_VA,
 "VE-A" => VE_A,
 "VE-B" => VE_B,
 "VE-C" => VE_C,
@@ -51241,10 +50541,9 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "VN-HN" => VN_HN,
 "VN-HP" => VN_HP,
 "VN-SG" => VN_SG,
-"VG-VG" => VG_VG,
-"VI-VI" => VI_VI,
-"WF-WF" => WF_WF,
-"EH-EH" => EH_EH,
+"WF-AL" => WF_AL,
+"WF-SG" => WF_SG,
+"WF-UV" => WF_UV,
 "YE-AB" => YE_AB,
 "YE-AD" => YE_AD,
 "YE-AM" => YE_AM,
@@ -51265,6 +50564,7 @@ pub const SUBDIVISION_MAP: Map<&str, Subdivision> = phf_map! {
 "YE-SD" => YE_SD,
 "YE-SH" => YE_SH,
 "YE-SN" => YE_SN,
+"YE-SU" => YE_SU,
 "YE-TA" => YE_TA,
 "ZM-01" => ZM_01,
 "ZM-02" => ZM_02,
@@ -51329,9 +50629,6 @@ AF_URU,
 AF_WAR,
 AF_ZAB,
 ],
-"AX" => &[
-AX_AX,
-],
 "AL" => &[
 AL_01,
 AL_02,
@@ -51345,42 +50642,6 @@ AL_09,
 AL_10,
 AL_11,
 AL_12,
-AL_BR,
-AL_BU,
-AL_DI,
-AL_DL,
-AL_DR,
-AL_DV,
-AL_EL,
-AL_ER,
-AL_FR,
-AL_GJ,
-AL_GR,
-AL_HA,
-AL_KA,
-AL_KB,
-AL_KC,
-AL_KO,
-AL_KR,
-AL_KU,
-AL_LB,
-AL_LE,
-AL_LU,
-AL_MK,
-AL_MM,
-AL_MR,
-AL_MT,
-AL_PG,
-AL_PQ,
-AL_PR,
-AL_PU,
-AL_SH,
-AL_SK,
-AL_SR,
-AL_TE,
-AL_TP,
-AL_TR,
-AL_VL,
 ],
 "DZ" => &[
 DZ_01,
@@ -51431,9 +50692,16 @@ DZ_45,
 DZ_46,
 DZ_47,
 DZ_48,
-],
-"AS" => &[
-AS_AS,
+DZ_49,
+DZ_50,
+DZ_51,
+DZ_52,
+DZ_53,
+DZ_54,
+DZ_55,
+DZ_56,
+DZ_57,
+DZ_58,
 ],
 "AD" => &[
 AD_02,
@@ -51463,12 +50731,6 @@ AO_MOX,
 AO_NAM,
 AO_UIG,
 AO_ZAI,
-],
-"AI" => &[
-AI_AI,
-],
-"AQ" => &[
-AQ_AQ,
 ],
 "AG" => &[
 AG_03,
@@ -51519,9 +50781,6 @@ AM_SU,
 AM_TV,
 AM_VD,
 ],
-"AW" => &[
-AW_AW,
-],
 "AU" => &[
 AU_ACT,
 AU_NSW,
@@ -51562,8 +50821,8 @@ AZ_CAL,
 AZ_CUL,
 AZ_DAS,
 AZ_FUZ,
-AZ_GAD,
 AZ_GA,
+AZ_GAD,
 AZ_GOR,
 AZ_GOY,
 AZ_GYG,
@@ -51573,8 +50832,8 @@ AZ_ISM,
 AZ_KAL,
 AZ_KAN,
 AZ_KUR,
-AZ_LAC,
 AZ_LA,
+AZ_LAC,
 AZ_LAN,
 AZ_LER,
 AZ_MAS,
@@ -51592,33 +50851,33 @@ AZ_QBA,
 AZ_QBI,
 AZ_QOB,
 AZ_QUS,
+AZ_SA,
 AZ_SAB,
 AZ_SAD,
 AZ_SAH,
 AZ_SAK,
 AZ_SAL,
 AZ_SAR,
-AZ_SA,
 AZ_SAT,
 AZ_SBN,
 AZ_SIY,
 AZ_SKR,
-AZ_SMI,
 AZ_SM,
+AZ_SMI,
 AZ_SMX,
 AZ_SR,
 AZ_SUS,
 AZ_TAR,
 AZ_TOV,
 AZ_UCA,
-AZ_XAC,
 AZ_XA,
+AZ_XAC,
 AZ_XCI,
 AZ_XIZ,
 AZ_XVD,
 AZ_YAR,
-AZ_YEV,
 AZ_YE,
+AZ_YEV,
 AZ_ZAN,
 AZ_ZAQ,
 AZ_ZAR,
@@ -51646,6 +50905,7 @@ BS_MG,
 BS_MI,
 BS_NE,
 BS_NO,
+BS_NP,
 BS_NS,
 BS_RC,
 BS_RI,
@@ -51660,7 +50920,6 @@ BS_WG,
 BH_13,
 BH_14,
 BH_15,
-BH_16,
 BH_17,
 ],
 "BD" => &[
@@ -51735,6 +50994,7 @@ BD_D,
 BD_E,
 BD_F,
 BD_G,
+BD_H,
 ],
 "BB" => &[
 BB_01,
@@ -51795,9 +51055,6 @@ BJ_OU,
 BJ_PL,
 BJ_ZO,
 ],
-"BM" => &[
-BM_BM,
-],
 "BT" => &[
 BT_11,
 BT_12,
@@ -51837,16 +51094,6 @@ BQ_SA,
 BQ_SE,
 ],
 "BA" => &[
-BA_01,
-BA_02,
-BA_03,
-BA_04,
-BA_05,
-BA_06,
-BA_07,
-BA_08,
-BA_09,
-BA_10,
 BA_BIH,
 BA_BRC,
 BA_SRP,
@@ -51868,9 +51115,6 @@ BW_SE,
 BW_SO,
 BW_SP,
 BW_ST,
-],
-"BV" => &[
-BV_BV,
 ],
 "BR" => &[
 BR_AC,
@@ -51900,9 +51144,6 @@ BR_SC,
 BR_SE,
 BR_SP,
 BR_TO,
-],
-"IO" => &[
-IO_IO,
 ],
 "BN" => &[
 BN_BE,
@@ -52016,10 +51257,38 @@ BI_MU,
 BI_MW,
 BI_MY,
 BI_NG,
+BI_RM,
 BI_RT,
 BI_RY,
 ],
+"CV" => &[
+CV_B,
+CV_BR,
+CV_BV,
+CV_CA,
+CV_CF,
+CV_CR,
+CV_MA,
+CV_MO,
+CV_PA,
+CV_PN,
+CV_PR,
+CV_RB,
+CV_RG,
+CV_RS,
+CV_S,
+CV_SD,
+CV_SF,
+CV_SL,
+CV_SM,
+CV_SO,
+CV_SS,
+CV_SV,
+CV_TA,
+CV_TS,
+],
 "KH" => &[
+KH_1,
 KH_10,
 KH_11,
 KH_12,
@@ -52030,13 +51299,13 @@ KH_16,
 KH_17,
 KH_18,
 KH_19,
-KH_1,
+KH_2,
 KH_20,
 KH_21,
 KH_22,
 KH_23,
 KH_24,
-KH_2,
+KH_25,
 KH_3,
 KH_4,
 KH_5,
@@ -52071,41 +51340,6 @@ CA_PE,
 CA_QC,
 CA_SK,
 CA_YT,
-],
-"CV" => &[
-CV_B,
-CV_BR,
-CV_BV,
-CV_CA,
-CV_CF,
-CV_CR,
-CV_MA,
-CV_MO,
-CV_PA,
-CV_PN,
-CV_PR,
-CV_RB,
-CV_RG,
-CV_RS,
-CV_SD,
-CV_SF,
-CV_S,
-CV_SL,
-CV_SM,
-CV_SO,
-CV_SS,
-CV_SV,
-CV_TA,
-CV_TS,
-],
-"KY" => &[
-KY_KY,
-],
-"XC" => &[
-XC_BA,
-XC_GI,
-XC_LL,
-XC_TA,
 ],
 "CF" => &[
 CF_AC,
@@ -52164,51 +51398,46 @@ CL_LL,
 CL_LR,
 CL_MA,
 CL_ML,
+CL_NB,
 CL_RM,
 CL_TA,
 CL_VS,
 ],
 "CN" => &[
-CN_11,
-CN_12,
-CN_13,
-CN_14,
-CN_15,
-CN_21,
-CN_22,
-CN_23,
-CN_31,
-CN_32,
-CN_33,
-CN_34,
-CN_35,
-CN_36,
-CN_37,
-CN_41,
-CN_42,
-CN_43,
-CN_44,
-CN_45,
-CN_46,
-CN_50,
-CN_51,
-CN_52,
-CN_53,
-CN_54,
-CN_61,
-CN_62,
-CN_63,
-CN_64,
-CN_65,
-CN_71,
-CN_91,
-CN_92,
-],
-"CX" => &[
-CX_CX,
-],
-"CC" => &[
-CC_CC,
+CN_AH,
+CN_BJ,
+CN_CQ,
+CN_FJ,
+CN_GD,
+CN_GS,
+CN_GX,
+CN_GZ,
+CN_HA,
+CN_HB,
+CN_HE,
+CN_HI,
+CN_HK,
+CN_HL,
+CN_HN,
+CN_JL,
+CN_JS,
+CN_JX,
+CN_LN,
+CN_MO,
+CN_NM,
+CN_NX,
+CN_QH,
+CN_SC,
+CN_SD,
+CN_SH,
+CN_SN,
+CN_SX,
+CN_TJ,
+CN_TW,
+CN_XJ,
+CN_XZ,
+CN_YN,
+CN_ZJ,
 ],
 "CO" => &[
 CO_AMA,
@@ -52266,19 +51495,31 @@ CG_BZV,
 ],
 "CD" => &[
 CD_BC,
-CD_BN,
+CD_BU,
 CD_EQ,
-CD_KA,
+CD_HK,
+CD_HL,
+CD_HU,
+CD_IT,
+CD_KC,
 CD_KE,
+CD_KG,
+CD_KL,
 CD_KN,
-CD_KW,
+CD_KS,
+CD_LO,
+CD_LU,
 CD_MA,
+CD_MN,
+CD_MO,
 CD_NK,
-CD_OR,
+CD_NU,
+CD_SA,
 CD_SK,
-],
-"CK" => &[
-CK_CK,
+CD_SU,
+CD_TA,
+CD_TO,
+CD_TU,
 ],
 "CR" => &[
 CR_A,
@@ -52290,25 +51531,20 @@ CR_P,
 CR_SJ,
 ],
 "CI" => &[
-CI_01,
-CI_02,
-CI_03,
-CI_04,
-CI_05,
-CI_06,
-CI_07,
-CI_08,
-CI_09,
-CI_10,
-CI_11,
-CI_12,
-CI_13,
-CI_14,
-CI_15,
-CI_16,
-CI_17,
-CI_18,
-CI_19,
+CI_AB,
+CI_BS,
+CI_CM,
+CI_DN,
+CI_GD,
+CI_LC,
+CI_LG,
+CI_MG,
+CI_SM,
+CI_SV,
+CI_VB,
+CI_WR,
+CI_YM,
+CI_ZZ,
 ],
 "HR" => &[
 HR_01,
@@ -52351,9 +51587,6 @@ CU_15,
 CU_16,
 CU_99,
 ],
-"CW" => &[
-CW_CW,
-],
 "CY" => &[
 CY_01,
 CY_02,
@@ -52363,21 +51596,8 @@ CY_05,
 CY_06,
 ],
 "CZ" => &[
-CZ_101,
-CZ_102,
-CZ_103,
-CZ_104,
-CZ_105,
-CZ_106,
-CZ_107,
-CZ_108,
-CZ_109,
-CZ_10A,
-CZ_10B,
-CZ_10C,
-CZ_10D,
-CZ_10E,
-CZ_10F,
+CZ_10,
+CZ_20,
 CZ_201,
 CZ_202,
 CZ_203,
@@ -52390,6 +51610,7 @@ CZ_209,
 CZ_20A,
 CZ_20B,
 CZ_20C,
+CZ_31,
 CZ_311,
 CZ_312,
 CZ_313,
@@ -52397,6 +51618,7 @@ CZ_314,
 CZ_315,
 CZ_316,
 CZ_317,
+CZ_32,
 CZ_321,
 CZ_322,
 CZ_323,
@@ -52404,9 +51626,11 @@ CZ_324,
 CZ_325,
 CZ_326,
 CZ_327,
+CZ_41,
 CZ_411,
 CZ_412,
 CZ_413,
+CZ_42,
 CZ_421,
 CZ_422,
 CZ_423,
@@ -52414,60 +51638,54 @@ CZ_424,
 CZ_425,
 CZ_426,
 CZ_427,
+CZ_51,
 CZ_511,
 CZ_512,
 CZ_513,
 CZ_514,
+CZ_52,
 CZ_521,
 CZ_522,
 CZ_523,
 CZ_524,
 CZ_525,
+CZ_53,
 CZ_531,
 CZ_532,
 CZ_533,
 CZ_534,
-CZ_611,
-CZ_612,
-CZ_613,
-CZ_614,
-CZ_615,
-CZ_621,
-CZ_622,
-CZ_623,
-CZ_624,
-CZ_625,
-CZ_626,
-CZ_627,
+CZ_63,
+CZ_631,
+CZ_632,
+CZ_633,
+CZ_634,
+CZ_635,
+CZ_64,
+CZ_641,
+CZ_642,
+CZ_643,
+CZ_644,
+CZ_645,
+CZ_646,
+CZ_647,
+CZ_71,
 CZ_711,
 CZ_712,
 CZ_713,
 CZ_714,
 CZ_715,
+CZ_72,
 CZ_721,
 CZ_722,
 CZ_723,
 CZ_724,
+CZ_80,
 CZ_801,
 CZ_802,
 CZ_803,
 CZ_804,
 CZ_805,
 CZ_806,
-CZ_JC,
-CZ_JM,
-CZ_KA,
-CZ_KR,
-CZ_LI,
-CZ_MO,
-CZ_OL,
-CZ_PA,
-CZ_PL,
-CZ_PR,
-CZ_ST,
-CZ_US,
-CZ_VY,
-CZ_ZL,
 ],
 "DK" => &[
 DK_81,
@@ -52556,9 +51774,9 @@ EC_N,
 EC_O,
 EC_P,
 EC_R,
+EC_S,
 EC_SD,
 EC_SE,
-EC_S,
 EC_T,
 EC_U,
 EC_W,
@@ -52617,6 +51835,7 @@ GQ_BN,
 GQ_BS,
 GQ_C,
 GQ_CS,
+GQ_DJ,
 GQ_I,
 GQ_KN,
 GQ_LI,
@@ -52631,21 +51850,106 @@ ER_MA,
 ER_SK,
 ],
 "EE" => &[
+EE_130,
+EE_141,
+EE_142,
+EE_171,
+EE_184,
+EE_191,
+EE_198,
+EE_205,
+EE_214,
+EE_245,
+EE_247,
+EE_251,
+EE_255,
+EE_272,
+EE_283,
+EE_284,
+EE_291,
+EE_293,
+EE_296,
+EE_303,
+EE_305,
+EE_317,
+EE_321,
+EE_338,
+EE_353,
 EE_37,
 EE_39,
-EE_44,
-EE_49,
-EE_51,
-EE_57,
-EE_59,
-EE_65,
-EE_67,
-EE_70,
+EE_424,
+EE_430,
+EE_431,
+EE_432,
+EE_441,
+EE_442,
+EE_446,
+EE_45,
+EE_478,
+EE_480,
+EE_486,
+EE_50,
+EE_503,
+EE_511,
+EE_514,
+EE_52,
+EE_528,
+EE_557,
+EE_56,
+EE_567,
+EE_586,
+EE_60,
+EE_615,
+EE_618,
+EE_622,
+EE_624,
+EE_638,
+EE_64,
+EE_651,
+EE_653,
+EE_661,
+EE_663,
+EE_668,
+EE_68,
+EE_689,
+EE_698,
+EE_708,
+EE_71,
+EE_712,
+EE_714,
+EE_719,
+EE_726,
+EE_732,
+EE_735,
 EE_74,
-EE_78,
-EE_82,
+EE_784,
+EE_79,
+EE_792,
+EE_793,
+EE_796,
+EE_803,
+EE_809,
+EE_81,
+EE_824,
+EE_834,
 EE_84,
-EE_86,
+EE_855,
+EE_87,
+EE_890,
+EE_897,
+EE_899,
+EE_901,
+EE_903,
+EE_907,
+EE_917,
+EE_919,
+EE_928,
+],
+"SZ" => &[
+SZ_HH,
+SZ_LU,
+SZ_MA,
+SZ_SH,
 ],
 "ET" => &[
 ET_AA,
@@ -52656,15 +51960,11 @@ ET_DD,
 ET_GA,
 ET_HA,
 ET_OR,
+ET_SI,
 ET_SN,
 ET_SO,
+ET_SW,
 ET_TI,
-],
-"FK" => &[
-FK_FK,
-],
-"FO" => &[
-FO_FO,
 ],
 "FJ" => &[
 FJ_01,
@@ -52728,6 +52028,7 @@ FR_16,
 FR_17,
 FR_18,
 FR_19,
+FR_20R,
 FR_21,
 FR_22,
 FR_23,
@@ -52779,12 +52080,14 @@ FR_66,
 FR_67,
 FR_68,
 FR_69,
+FR_69M,
+FR_6AE,
 FR_70,
 FR_71,
 FR_72,
 FR_73,
 FR_74,
-FR_75,
+FR_75C,
 FR_76,
 FR_77,
 FR_78,
@@ -52805,63 +52108,31 @@ FR_92,
 FR_93,
 FR_94,
 FR_95,
-FR_A,
-FR_B,
-FR_BL,
-FR_C,
-FR_CP,
-FR_D,
-FR_E,
-FR_F,
-FR_G,
-FR_GF,
-FR_GP,
-FR_H,
-FR_I,
-FR_J,
-FR_K,
-FR_L,
-FR_MF,
-FR_M,
-FR_MQ,
-FR_NC,
-FR_N,
-FR_O,
-FR_P,
-FR_PF,
-FR_PM,
-FR_Q,
-FR_RE,
-FR_R,
-FR_S,
-FR_TF,
-FR_T,
-FR_U,
-FR_V,
-FR_WF,
-FR_YT,
+FR_971,
+FR_972,
+FR_973,
+FR_974,
+FR_976,
 FR_ARA,
 FR_BFC,
+FR_BL,
 FR_BRE,
+FR_CP,
 FR_CVL,
-FR_20R,
 FR_GES,
 FR_HDF,
 FR_IDF,
-FR_NOR,
+FR_MF,
 FR_NAQ,
+FR_NC,
+FR_NOR,
 FR_OCC,
-FR_PDL,
 FR_PAC,
-],
-"GF" => &[
-GF_GF,
-],
-"PF" => &[
-PF_PF,
-],
-"TF" => &[
-TF_TF,
+FR_PDL,
+FR_PF,
+FR_PM,
+FR_TF,
+FR_WF,
 ],
 "GA" => &[
 GA_1,
@@ -52916,72 +52187,24 @@ DE_TH,
 ],
 "GH" => &[
 GH_AA,
+GH_AF,
 GH_AH,
-GH_BA,
+GH_BE,
+GH_BO,
 GH_CP,
 GH_EP,
+GH_NE,
 GH_NP,
+GH_OT,
+GH_SV,
 GH_TV,
 GH_UE,
 GH_UW,
+GH_WN,
 GH_WP,
 ],
-"GI" => &[
-GI_GI,
-],
 "GR" => &[
-GR_01,
-GR_03,
-GR_04,
-GR_05,
-GR_06,
-GR_07,
-GR_11,
-GR_12,
-GR_13,
-GR_14,
-GR_15,
-GR_16,
-GR_17,
-GR_21,
-GR_22,
-GR_23,
-GR_24,
-GR_31,
-GR_32,
-GR_33,
-GR_34,
-GR_41,
-GR_42,
-GR_43,
-GR_44,
-GR_51,
-GR_52,
-GR_53,
-GR_54,
-GR_55,
-GR_56,
-GR_57,
-GR_58,
-GR_59,
-GR_61,
-GR_62,
-GR_63,
-GR_64,
 GR_69,
-GR_71,
-GR_72,
-GR_73,
-GR_81,
-GR_82,
-GR_83,
-GR_84,
-GR_85,
-GR_91,
-GR_92,
-GR_93,
-GR_94,
-GR_A1,
 GR_A,
 GR_B,
 GR_C,
@@ -52997,9 +52220,10 @@ GR_L,
 GR_M,
 ],
 "GL" => &[
+GL_AV,
 GL_KU,
-GL_QA,
 GL_QE,
+GL_QT,
 GL_SM,
 ],
 "GD" => &[
@@ -53011,38 +52235,72 @@ GD_05,
 GD_06,
 GD_10,
 ],
-"GP" => &[
-GP_GP,
-],
-"GU" => &[
-GU_GU,
-],
 "GT" => &[
-GT_AV,
-GT_BV,
-GT_CM,
-GT_CQ,
-GT_ES,
-GT_GU,
-GT_HU,
-GT_IZ,
-GT_JA,
-GT_JU,
-GT_PE,
-GT_PR,
-GT_QC,
-GT_QZ,
-GT_RE,
-GT_SA,
-GT_SM,
-GT_SO,
-GT_SR,
-GT_SU,
-GT_TO,
-GT_ZA,
+GT_01,
+GT_02,
+GT_03,
+GT_04,
+GT_05,
+GT_06,
+GT_07,
+GT_08,
+GT_09,
+GT_10,
+GT_11,
+GT_12,
+GT_13,
+GT_14,
+GT_15,
+GT_16,
+GT_17,
+GT_18,
+GT_19,
+GT_20,
+GT_21,
+GT_22,
 ],
-"GG" => &[
-GG_GG,
+"GN" => &[
+GN_B,
+GN_BE,
+GN_BF,
+GN_BK,
+GN_C,
+GN_CO,
+GN_D,
+GN_DB,
+GN_DI,
+GN_DL,
+GN_DU,
+GN_F,
+GN_FA,
+GN_FO,
+GN_FR,
+GN_GA,
+GN_GU,
+GN_K,
+GN_KA,
+GN_KB,
+GN_KD,
+GN_KE,
+GN_KN,
+GN_KO,
+GN_KS,
+GN_L,
+GN_LA,
+GN_LE,
+GN_LO,
+GN_M,
+GN_MC,
+GN_MD,
+GN_ML,
+GN_MM,
+GN_N,
+GN_NZ,
+GN_PI,
+GN_SI,
+GN_TE,
+GN_TO,
+GN_YO,
 ],
 "GW" => &[
 GW_BA,
@@ -53057,49 +52315,6 @@ GW_OI,
 GW_QU,
 GW_S,
 GW_TO,
-],
-"GN" => &[
-GN_B,
-GN_BE,
-GN_BF,
-GN_BK,
-GN_C,
-GN_CO,
-GN_DB,
-GN_DI,
-GN_D,
-GN_DL,
-GN_DU,
-GN_FA,
-GN_F,
-GN_FO,
-GN_FR,
-GN_GA,
-GN_GU,
-GN_KA,
-GN_KB,
-GN_KD,
-GN_KE,
-GN_K,
-GN_KN,
-GN_KO,
-GN_KS,
-GN_LA,
-GN_LE,
-GN_L,
-GN_LO,
-GN_MC,
-GN_MD,
-GN_ML,
-GN_M,
-GN_MM,
-GN_N,
-GN_NZ,
-GN_PI,
-GN_SI,
-GN_TE,
-GN_TO,
-GN_YO,
 ],
 "GY" => &[
 GY_BA,
@@ -53125,9 +52340,6 @@ HT_OU,
 HT_SD,
 HT_SE,
 ],
-"HM" => &[
-HM_HM,
-],
 "HN" => &[
 HN_AT,
 HN_CH,
@@ -53147,9 +52359,6 @@ HN_OL,
 HN_SB,
 HN_VA,
 HN_YO,
-],
-"HK" => &[
-HK_HK,
 ],
 "HU" => &[
 HU_BA,
@@ -53197,7 +52406,6 @@ HU_ZA,
 HU_ZE,
 ],
 "IS" => &[
-IS_0,
 IS_1,
 IS_2,
 IS_3,
@@ -53206,6 +52414,70 @@ IS_5,
 IS_6,
 IS_7,
 IS_8,
+IS_AKN,
+IS_AKU,
+IS_ARN,
+IS_ASA,
+IS_BLA,
+IS_BOG,
+IS_BOL,
+IS_DAB,
+IS_DAV,
+IS_EOM,
+IS_EYF,
+IS_FJD,
+IS_FJL,
+IS_FLA,
+IS_FLR,
+IS_GAR,
+IS_GOG,
+IS_GRN,
+IS_GRU,
+IS_GRY,
+IS_HAF,
+IS_HRG,
+IS_HRU,
+IS_HUG,
+IS_HUV,
+IS_HVA,
+IS_HVE,
+IS_ISA,
+IS_KAL,
+IS_KJO,
+IS_KOP,
+IS_LAN,
+IS_MOS,
+IS_MUL,
+IS_MYR,
+IS_NOR,
+IS_RGE,
+IS_RGY,
+IS_RHH,
+IS_RKN,
+IS_RKV,
+IS_SBT,
+IS_SDN,
+IS_SDV,
+IS_SEL,
+IS_SFA,
+IS_SHF,
+IS_SKF,
+IS_SKG,
+IS_SKO,
+IS_SKR,
+IS_SNF,
+IS_SOG,
+IS_SOL,
+IS_SSS,
+IS_STR,
+IS_STY,
+IS_SVG,
+IS_TAL,
+IS_THG,
+IS_TJO,
+IS_VEM,
+IS_VER,
+IS_VOP,
 ],
 "IN" => &[
 IN_AN,
@@ -53213,11 +52485,10 @@ IN_AP,
 IN_AR,
 IN_AS,
 IN_BR,
+IN_CG,
 IN_CH,
-IN_CT,
-IN_DD,
+IN_DH,
 IN_DL,
-IN_DN,
 IN_GA,
 IN_GJ,
 IN_HP,
@@ -53226,6 +52497,7 @@ IN_JH,
 IN_JK,
 IN_KA,
 IN_KL,
+IN_LA,
 IN_LD,
 IN_MH,
 IN_ML,
@@ -53233,16 +52505,16 @@ IN_MN,
 IN_MP,
 IN_MZ,
 IN_NL,
-IN_OR,
+IN_OD,
 IN_PB,
 IN_PY,
 IN_RJ,
 IN_SK,
-IN_TG,
 IN_TN,
 IN_TR,
+IN_TS,
+IN_UK,
 IN_UP,
-IN_UT,
 IN_WB,
 ],
 "ID" => &[
@@ -53274,7 +52546,11 @@ ID_NT,
 ID_NU,
 ID_PA,
 ID_PB,
+ID_PD,
+ID_PE,
 ID_PP,
+ID_PS,
+ID_PT,
 ID_RI,
 ID_SA,
 ID_SB,
@@ -53289,6 +52565,7 @@ ID_SU,
 ID_YO,
 ],
 "IR" => &[
+IR_00,
 IR_01,
 IR_02,
 IR_03,
@@ -53297,6 +52574,7 @@ IR_05,
 IR_06,
 IR_07,
 IR_08,
+IR_09,
 IR_10,
 IR_11,
 IR_12,
@@ -53318,8 +52596,6 @@ IR_27,
 IR_28,
 IR_29,
 IR_30,
-IR_31,
-IR_32,
 ],
 "IQ" => &[
 IQ_AN,
@@ -53332,6 +52608,7 @@ IQ_DI,
 IQ_DQ,
 IQ_KA,
 IQ_KI,
+IQ_KR,
 IQ_MA,
 IQ_MU,
 IQ_NA,
@@ -53353,10 +52630,10 @@ IE_G,
 IE_KE,
 IE_KK,
 IE_KY,
+IE_L,
 IE_LD,
 IE_LH,
 IE_LK,
-IE_L,
 IE_LM,
 IE_LS,
 IE_M,
@@ -53372,9 +52649,6 @@ IE_WD,
 IE_WH,
 IE_WW,
 IE_WX,
-],
-"IM" => &[
-IM_IM,
 ],
 "IL" => &[
 IL_D,
@@ -53408,7 +52682,6 @@ IT_88,
 IT_AG,
 IT_AL,
 IT_AN,
-IT_AO,
 IT_AP,
 IT_AQ,
 IT_AR,
@@ -53428,7 +52701,6 @@ IT_CA,
 IT_CB,
 IT_CE,
 IT_CH,
-IT_CI,
 IT_CL,
 IT_CN,
 IT_CO,
@@ -53466,9 +52738,7 @@ IT_MT,
 IT_NA,
 IT_NO,
 IT_NU,
-IT_OG,
 IT_OR,
-IT_OT,
 IT_PA,
 IT_PC,
 IT_PD,
@@ -53496,6 +52766,7 @@ IT_SO,
 IT_SP,
 IT_SR,
 IT_SS,
+IT_SU,
 IT_SV,
 IT_TA,
 IT_TE,
@@ -53512,7 +52783,6 @@ IT_VC,
 IT_VE,
 IT_VI,
 IT_VR,
-IT_VS,
 IT_VT,
 IT_VV,
 ],
@@ -53581,9 +52851,6 @@ JP_45,
 JP_46,
 JP_47,
 ],
-"JE" => &[
-JE_JE,
-],
 "JO" => &[
 JO_AJ,
 JO_AM,
@@ -53599,22 +52866,26 @@ JO_MD,
 JO_MN,
 ],
 "KZ" => &[
-KZ_AKM,
-KZ_AKT,
-KZ_ALA,
-KZ_ALM,
-KZ_AST,
-KZ_ATY,
-KZ_KAR,
-KZ_KUS,
-KZ_KZY,
-KZ_MAN,
-KZ_PAV,
-KZ_SEV,
-KZ_VOS,
-KZ_YUZ,
-KZ_ZAP,
-KZ_ZHA,
+KZ_10,
+KZ_11,
+KZ_15,
+KZ_19,
+KZ_23,
+KZ_27,
+KZ_31,
+KZ_33,
+KZ_35,
+KZ_39,
+KZ_43,
+KZ_47,
+KZ_55,
+KZ_59,
+KZ_61,
+KZ_62,
+KZ_63,
+KZ_71,
+KZ_75,
+KZ_79,
 ],
 "KE" => &[
 KE_01,
@@ -53682,6 +52953,8 @@ KP_08,
 KP_09,
 KP_10,
 KP_13,
+KP_14,
+KP_15,
 ],
 "KR" => &[
 KR_11,
@@ -53739,128 +53012,52 @@ LA_VT,
 LA_XA,
 LA_XE,
 LA_XI,
-LA_XN,
+LA_XS,
 ],
 "LV" => &[
-LV_001,
 LV_002,
-LV_003,
-LV_004,
-LV_005,
-LV_006,
 LV_007,
-LV_008,
-LV_009,
-LV_010,
 LV_011,
-LV_012,
-LV_013,
-LV_014,
 LV_015,
 LV_016,
-LV_017,
-LV_018,
-LV_019,
-LV_020,
-LV_021,
 LV_022,
-LV_023,
-LV_024,
-LV_025,
 LV_026,
-LV_027,
-LV_028,
-LV_029,
-LV_030,
-LV_031,
-LV_032,
 LV_033,
-LV_034,
-LV_035,
-LV_036,
-LV_037,
-LV_038,
-LV_039,
-LV_040,
 LV_041,
 LV_042,
-LV_043,
-LV_044,
-LV_045,
-LV_046,
 LV_047,
-LV_048,
-LV_049,
 LV_050,
-LV_051,
 LV_052,
-LV_053,
 LV_054,
-LV_055,
 LV_056,
-LV_057,
 LV_058,
 LV_059,
-LV_060,
-LV_061,
 LV_062,
-LV_063,
-LV_064,
-LV_065,
-LV_066,
 LV_067,
 LV_068,
-LV_069,
-LV_070,
-LV_071,
-LV_072,
 LV_073,
-LV_074,
-LV_075,
-LV_076,
 LV_077,
-LV_078,
-LV_079,
 LV_080,
-LV_081,
-LV_082,
-LV_083,
-LV_084,
-LV_085,
-LV_086,
 LV_087,
 LV_088,
 LV_089,
-LV_090,
 LV_091,
-LV_092,
-LV_093,
 LV_094,
-LV_095,
-LV_096,
 LV_097,
-LV_098,
 LV_099,
-LV_100,
 LV_101,
 LV_102,
-LV_103,
-LV_104,
-LV_105,
 LV_106,
-LV_107,
-LV_108,
-LV_109,
-LV_110,
+LV_111,
+LV_112,
+LV_113,
 LV_DGV,
 LV_JEL,
-LV_JKB,
 LV_JUR,
 LV_LPX,
 LV_REZ,
 LV_RIX,
 LV_VEN,
-LV_VMR,
 ],
 "LB" => &[
 LB_AK,
@@ -54011,98 +53208,18 @@ LT_UT,
 LT_VL,
 ],
 "LU" => &[
-LU_D,
-LU_G,
-LU_L,
-],
-"MO" => &[
-MO_MO,
-],
-"MK" => &[
-MK_01,
-MK_02,
-MK_03,
-MK_04,
-MK_05,
-MK_06,
-MK_07,
-MK_08,
-MK_09,
-MK_10,
-MK_11,
-MK_12,
-MK_13,
-MK_14,
-MK_15,
-MK_16,
-MK_17,
-MK_18,
-MK_19,
-MK_20,
-MK_21,
-MK_22,
-MK_23,
-MK_24,
-MK_25,
-MK_26,
-MK_27,
-MK_28,
-MK_29,
-MK_30,
-MK_31,
-MK_32,
-MK_33,
-MK_34,
-MK_35,
-MK_36,
-MK_37,
-MK_38,
-MK_39,
-MK_40,
-MK_41,
-MK_42,
-MK_43,
-MK_44,
-MK_45,
-MK_46,
-MK_47,
-MK_48,
-MK_49,
-MK_50,
-MK_51,
-MK_52,
-MK_53,
-MK_54,
-MK_55,
-MK_56,
-MK_57,
-MK_58,
-MK_59,
-MK_60,
-MK_61,
-MK_62,
-MK_63,
-MK_64,
-MK_65,
-MK_66,
-MK_67,
-MK_68,
-MK_69,
-MK_70,
-MK_71,
-MK_72,
-MK_73,
-MK_74,
-MK_75,
-MK_76,
-MK_77,
-MK_78,
-MK_79,
-MK_80,
-MK_81,
-MK_82,
-MK_83,
-MK_84,
+LU_CA,
+LU_CL,
+LU_DI,
+LU_EC,
+LU_ES,
+LU_GR,
+LU_LU,
+LU_ME,
+LU_RD,
+LU_RM,
+LU_VD,
+LU_WI,
 ],
 "MG" => &[
 MG_A,
@@ -54131,8 +53248,8 @@ MW_MH,
 MW_MU,
 MW_MW,
 MW_MZ,
-MW_NB,
 MW_N,
+MW_NB,
 MW_NE,
 MW_NI,
 MW_NK,
@@ -54140,8 +53257,8 @@ MW_NS,
 MW_NU,
 MW_PH,
 MW_RU,
-MW_SA,
 MW_S,
+MW_SA,
 MW_TH,
 MW_ZO,
 ],
@@ -54184,17 +53301,11 @@ MV_26,
 MV_27,
 MV_28,
 MV_29,
-MV_CE,
 MV_MLE,
-MV_NC,
-MV_NO,
-MV_SC,
-MV_SU,
-MV_UN,
-MV_US,
 ],
 "ML" => &[
 ML_1,
+ML_10,
 ML_2,
 ML_3,
 ML_4,
@@ -54202,6 +53313,7 @@ ML_5,
 ML_6,
 ML_7,
 ML_8,
+ML_9,
 ML_BKO,
 ],
 "MT" => &[
@@ -54285,10 +53397,10 @@ MH_JAB,
 MH_JAL,
 MH_KIL,
 MH_KWA,
+MH_L,
 MH_LAE,
 MH_LIB,
 MH_LIK,
-MH_L,
 MH_MAJ,
 MH_MAL,
 MH_MEJ,
@@ -54301,9 +53413,6 @@ MH_UJA,
 MH_UTI,
 MH_WTH,
 MH_WTJ,
-],
-"MQ" => &[
-MQ_MQ,
 ],
 "MR" => &[
 MR_01,
@@ -54318,29 +53427,23 @@ MR_09,
 MR_10,
 MR_11,
 MR_12,
-MR_NKC,
+MR_13,
+MR_14,
+MR_15,
 ],
 "MU" => &[
 MU_AG,
 MU_BL,
-MU_BR,
 MU_CC,
-MU_CU,
 MU_FL,
 MU_GP,
 MU_MO,
 MU_PA,
 MU_PL,
-MU_PU,
 MU_PW,
-MU_QB,
 MU_RO,
 MU_RR,
 MU_SA,
-MU_VP,
-],
-"YT" => &[
-YT_YT,
 ],
 "MX" => &[
 MX_AGU,
@@ -54349,9 +53452,9 @@ MX_BCS,
 MX_CAM,
 MX_CHH,
 MX_CHP,
+MX_CMX,
 MX_COA,
 MX_COL,
-MX_CMX,
 MX_DUR,
 MX_GRO,
 MX_GUA,
@@ -54488,9 +53591,8 @@ ME_20,
 ME_21,
 ME_22,
 ME_23,
-],
-"MS" => &[
-MS_MS,
+ME_24,
+ME_25,
 ],
 "MA" => &[
 MA_01,
@@ -54505,10 +53607,6 @@ MA_09,
 MA_10,
 MA_11,
 MA_12,
-MA_13,
-MA_14,
-MA_15,
-MA_16,
 MA_AGD,
 MA_AOU,
 MA_ASZ,
@@ -54518,17 +53616,21 @@ MA_BER,
 MA_BES,
 MA_BOD,
 MA_BOM,
+MA_BRR,
 MA_CAS,
 MA_CHE,
 MA_CHI,
 MA_CHT,
+MA_DRI,
 MA_ERR,
 MA_ESI,
 MA_ESM,
 MA_FAH,
 MA_FES,
 MA_FIG,
+MA_FQH,
 MA_GUE,
+MA_GUF,
 MA_HAJ,
 MA_HAO,
 MA_HOC,
@@ -54543,10 +53645,11 @@ MA_KHN,
 MA_KHO,
 MA_LAA,
 MA_LAR,
+MA_MAR,
+MA_MDF,
 MA_MED,
 MA_MEK,
-MA_MMD,
-MA_MMN,
+MA_MID,
 MA_MOH,
 MA_MOU,
 MA_NAD,
@@ -54554,23 +53657,30 @@ MA_NOU,
 MA_OUA,
 MA_OUD,
 MA_OUJ,
+MA_OUZ,
 MA_RAB,
+MA_REH,
 MA_SAF,
 MA_SAL,
 MA_SEF,
 MA_SET,
+MA_SIB,
+MA_SIF,
 MA_SIK,
+MA_SIL,
 MA_SKH,
-MA_SYB,
+MA_TAF,
 MA_TAI,
 MA_TAO,
 MA_TAR,
 MA_TAT,
 MA_TAZ,
 MA_TET,
+MA_TIN,
 MA_TIZ,
 MA_TNG,
 MA_TNT,
+MA_YUS,
 MA_ZAG,
 ],
 "MZ" => &[
@@ -54636,25 +53746,13 @@ NR_13,
 NR_14,
 ],
 "NP" => &[
-NP_1,
-NP_2,
-NP_3,
-NP_4,
-NP_5,
-NP_BA,
-NP_BH,
-NP_DH,
-NP_GA,
-NP_JA,
-NP_KA,
-NP_KO,
-NP_LU,
-NP_MA,
-NP_ME,
-NP_NA,
-NP_RA,
-NP_SA,
-NP_SE,
+NP_P1,
+NP_P2,
+NP_P3,
+NP_P4,
+NP_P5,
+NP_P6,
+NP_P7,
 ],
 "NL" => &[
 NL_AW,
@@ -54676,9 +53774,6 @@ NL_UT,
 NL_ZE,
 NL_ZH,
 ],
-"NC" => &[
-NC_NC,
-],
 "NZ" => &[
 NZ_AUK,
 NZ_BOP,
@@ -54688,11 +53783,9 @@ NZ_GIS,
 NZ_HKB,
 NZ_MBH,
 NZ_MWT,
-NZ_N,
 NZ_NSN,
 NZ_NTL,
 NZ_OTA,
-NZ_S,
 NZ_STL,
 NZ_TAS,
 NZ_TKI,
@@ -54718,6 +53811,16 @@ NI_MT,
 NI_NS,
 NI_RI,
 NI_SJ,
+],
+"NE" => &[
+NE_1,
+NE_2,
+NE_3,
+NE_4,
+NE_5,
+NE_6,
+NE_7,
+NE_8,
 ],
 "NG" => &[
 NG_AB,
@@ -54758,55 +53861,112 @@ NG_TA,
 NG_YO,
 NG_ZA,
 ],
-"NE" => &[
-NE_1,
-NE_2,
-NE_3,
-NE_4,
-NE_5,
-NE_6,
-NE_7,
-NE_8,
-],
-"NU" => &[
-NU_NU,
-],
-"NF" => &[
-NF_NF,
-],
-"MP" => &[
-MP_MP,
+"MK" => &[
+MK_101,
+MK_102,
+MK_103,
+MK_104,
+MK_105,
+MK_106,
+MK_107,
+MK_108,
+MK_109,
+MK_201,
+MK_202,
+MK_203,
+MK_204,
+MK_205,
+MK_206,
+MK_207,
+MK_208,
+MK_209,
+MK_210,
+MK_211,
+MK_301,
+MK_303,
+MK_304,
+MK_307,
+MK_308,
+MK_310,
+MK_311,
+MK_312,
+MK_313,
+MK_401,
+MK_402,
+MK_403,
+MK_404,
+MK_405,
+MK_406,
+MK_407,
+MK_408,
+MK_409,
+MK_410,
+MK_501,
+MK_502,
+MK_503,
+MK_504,
+MK_505,
+MK_506,
+MK_507,
+MK_508,
+MK_509,
+MK_601,
+MK_602,
+MK_603,
+MK_604,
+MK_605,
+MK_606,
+MK_607,
+MK_608,
+MK_609,
+MK_701,
+MK_702,
+MK_703,
+MK_704,
+MK_705,
+MK_706,
+MK_801,
+MK_802,
+MK_803,
+MK_804,
+MK_805,
+MK_806,
+MK_807,
+MK_808,
+MK_809,
+MK_810,
+MK_811,
+MK_812,
+MK_813,
+MK_814,
+MK_815,
+MK_816,
+MK_817,
 ],
 "NO" => &[
-NO_01,
-NO_02,
 NO_03,
-NO_04,
-NO_05,
-NO_06,
-NO_07,
-NO_08,
-NO_09,
-NO_10,
 NO_11,
-NO_12,
-NO_14,
 NO_15,
-NO_16,
-NO_17,
 NO_18,
-NO_19,
-NO_20,
 NO_21,
 NO_22,
+NO_30,
+NO_34,
+NO_38,
+NO_42,
+NO_46,
+NO_50,
+NO_54,
 ],
 "OM" => &[
-OM_BA,
+OM_BJ,
+OM_BS,
 OM_BU,
 OM_DA,
 OM_MA,
 OM_MU,
-OM_SH,
+OM_SJ,
+OM_SS,
 OM_WU,
 OM_ZA,
 OM_ZU,
@@ -54819,7 +53979,6 @@ PK_JK,
 PK_KP,
 PK_PB,
 PK_SD,
-PK_TA,
 ],
 "PW" => &[
 PW_002,
@@ -54858,8 +54017,8 @@ PS_TBS,
 PS_TKM,
 ],
 "PA" => &[
-PA_10,
 PA_1,
+PA_10,
 PA_2,
 PA_3,
 PA_4,
@@ -54871,6 +54030,7 @@ PA_9,
 PA_EM,
 PA_KY,
 PA_NB,
+PA_NT,
 ],
 "PG" => &[
 PG_CPK,
@@ -54897,6 +54057,7 @@ PG_WHM,
 PG_WPD,
 ],
 "PY" => &[
+PY_1,
 PY_10,
 PY_11,
 PY_12,
@@ -54905,7 +54066,6 @@ PY_14,
 PY_15,
 PY_16,
 PY_19,
-PY_1,
 PY_2,
 PY_3,
 PY_4,
@@ -54992,6 +54152,7 @@ PH_DAO,
 PH_DAS,
 PH_DAV,
 PH_DIN,
+PH_DVO,
 PH_EAS,
 PH_GUI,
 PH_IFU,
@@ -55006,10 +54167,11 @@ PH_LAS,
 PH_LEY,
 PH_LUN,
 PH_MAD,
-PH_MAG,
 PH_MAS,
 PH_MDC,
 PH_MDR,
+PH_MGN,
+PH_MGS,
 PH_MOU,
 PH_MSC,
 PH_MSR,
@@ -55043,26 +54205,23 @@ PH_ZAS,
 PH_ZMB,
 PH_ZSI,
 ],
-"PN" => &[
-PN_PN,
-],
 "PL" => &[
-PL_DS,
-PL_KP,
-PL_LB,
-PL_LD,
-PL_LU,
-PL_MA,
-PL_MZ,
-PL_OP,
-PL_PD,
-PL_PK,
-PL_PM,
-PL_SK,
-PL_SL,
-PL_WN,
-PL_WP,
-PL_ZP,
+PL_02,
+PL_04,
+PL_06,
+PL_08,
+PL_10,
+PL_12,
+PL_14,
+PL_16,
+PL_18,
+PL_20,
+PL_22,
+PL_24,
+PL_26,
+PL_28,
+PL_30,
+PL_32,
 ],
 "PT" => &[
 PT_01,
@@ -55086,20 +54245,15 @@ PT_18,
 PT_20,
 PT_30,
 ],
-"PR" => &[
-PR_PR,
-],
 "QA" => &[
 QA_DA,
 QA_KH,
 QA_MS,
 QA_RA,
+QA_SH,
 QA_US,
 QA_WA,
 QA_ZA,
-],
-"RE" => &[
-RE_RE,
 ],
 "RO" => &[
 RO_AB,
@@ -55203,17 +54357,17 @@ RU_PRI,
 RU_PSK,
 RU_ROS,
 RU_RYA,
+RU_SA,
 RU_SAK,
 RU_SAM,
 RU_SAR,
-RU_SA,
 RU_SE,
 RU_SMO,
 RU_SPE,
 RU_STA,
 RU_SVE,
-RU_TAM,
 RU_TA,
+RU_TAM,
 RU_TOM,
 RU_TUL,
 RU_TVE,
@@ -55305,8 +54459,13 @@ SM_08,
 SM_09,
 ],
 "ST" => &[
+ST_01,
+ST_02,
+ST_03,
+ST_04,
+ST_05,
+ST_06,
 ST_P,
-ST_S,
 ],
 "SA" => &[
 SA_01,
@@ -55399,13 +54558,13 @@ SC_22,
 SC_23,
 SC_24,
 SC_25,
-],
-"GS" => &[
-GS_GS,
+SC_26,
+SC_27,
 ],
 "SL" => &[
 SL_E,
 SL_N,
+SL_NW,
 SL_S,
 SL_W,
 ],
@@ -55638,6 +54797,7 @@ SI_209,
 SI_210,
 SI_211,
 SI_212,
+SI_213,
 ],
 "SB" => &[
 SB_CE,
@@ -55674,11 +54834,11 @@ SO_WO,
 "ZA" => &[
 ZA_EC,
 ZA_FS,
-ZA_GT,
+ZA_GP,
+ZA_KZN,
 ZA_LP,
 ZA_MP,
 ZA_NC,
-ZA_NL,
 ZA_NW,
 ZA_WC,
 ],
@@ -55702,12 +54862,12 @@ ES_AN,
 ES_AR,
 ES_AS,
 ES_AV,
-ES_BA,
 ES_B,
+ES_BA,
 ES_BI,
 ES_BU,
-ES_CA,
 ES_C,
+ES_CA,
 ES_CB,
 ES_CC,
 ES_CE,
@@ -55729,89 +54889,77 @@ ES_H,
 ES_HU,
 ES_IB,
 ES_J,
-ES_LE,
 ES_L,
+ES_LE,
 ES_LO,
 ES_LU,
+ES_M,
 ES_MA,
 ES_MC,
 ES_MD,
 ES_ML,
-ES_M,
 ES_MU,
 ES_NA,
 ES_NC,
 ES_O,
 ES_OR,
+ES_P,
 ES_PM,
 ES_PO,
-ES_P,
 ES_PV,
 ES_RI,
-ES_SA,
 ES_S,
+ES_SA,
 ES_SE,
 ES_SG,
 ES_SO,
 ES_SS,
+ES_T,
 ES_TE,
 ES_TF,
 ES_TO,
-ES_T,
+ES_V,
 ES_VA,
 ES_VC,
 ES_VI,
-ES_V,
-ES_ZA,
 ES_Z,
+ES_ZA,
 ],
 "LK" => &[
+LK_1,
 LK_11,
 LK_12,
 LK_13,
-LK_1,
+LK_2,
 LK_21,
 LK_22,
 LK_23,
-LK_2,
+LK_3,
 LK_31,
 LK_32,
 LK_33,
-LK_3,
+LK_4,
 LK_41,
 LK_42,
 LK_43,
 LK_44,
 LK_45,
-LK_4,
+LK_5,
 LK_51,
 LK_52,
 LK_53,
-LK_5,
+LK_6,
 LK_61,
 LK_62,
-LK_6,
+LK_7,
 LK_71,
 LK_72,
-LK_7,
+LK_8,
 LK_81,
 LK_82,
-LK_8,
+LK_9,
 LK_91,
 LK_92,
-LK_9,
-],
-"BL" => &[
-BL_BL,
-],
-"SX" => &[
-SX_SX,
-],
-"MF" => &[
-MF_MF,
-],
-"PM" => &[
-PM_PM,
 ],
 "SD" => &[
 SD_DC,
@@ -55820,6 +54968,7 @@ SD_DN,
 SD_DS,
 SD_DW,
 SD_GD,
+SD_GK,
 SD_GZ,
 SD_KA,
 SD_KH,
@@ -55843,15 +54992,6 @@ SR_PR,
 SR_SA,
 SR_SI,
 SR_WA,
-],
-"SJ" => &[
-SJ_SJ,
-],
-"SZ" => &[
-SZ_HH,
-SZ_LU,
-SZ_MA,
-SZ_SH,
 ],
 "SE" => &[
 SE_AB,
@@ -55930,25 +55070,25 @@ TW_HUA,
 TW_ILA,
 TW_KEE,
 TW_KHH,
-TW_KHQ,
+TW_KIN,
+TW_LIE,
 TW_MIA,
 TW_NAN,
+TW_NWT,
 TW_PEN,
 TW_PIF,
 TW_TAO,
 TW_TNN,
-TW_TNQ,
 TW_TPE,
-TW_TPQ,
 TW_TTT,
 TW_TXG,
-TW_TXQ,
 TW_YUN,
 ],
 "TJ" => &[
 TJ_DU,
 TJ_GB,
 TJ_KT,
+TJ_RA,
 TJ_SU,
 ],
 "TZ" => &[
@@ -55982,6 +55122,7 @@ TZ_27,
 TZ_28,
 TZ_29,
 TZ_30,
+TZ_31,
 ],
 "TH" => &[
 TH_10,
@@ -56085,9 +55226,6 @@ TG_M,
 TG_P,
 TG_S,
 ],
-"TK" => &[
-TK_TK,
-],
 "TO" => &[
 TO_01,
 TO_02,
@@ -56100,18 +55238,17 @@ TT_ARI,
 TT_CHA,
 TT_CTT,
 TT_DMN,
-TT_ETO,
+TT_MRC,
 TT_PED,
 TT_POS,
 TT_PRT,
 TT_PTF,
-TT_RCM,
 TT_SFO,
 TT_SGE,
 TT_SIP,
 TT_SJL,
+TT_TOB,
 TT_TUP,
-TT_WTO,
 ],
 "TN" => &[
 TN_11,
@@ -56230,9 +55367,6 @@ TM_L,
 TM_M,
 TM_S,
 ],
-"TC" => &[
-TC_TC,
-],
 "TV" => &[
 TV_FUN,
 TV_NIT,
@@ -56268,6 +55402,8 @@ UG_121,
 UG_122,
 UG_123,
 UG_124,
+UG_125,
+UG_126,
 UG_201,
 UG_202,
 UG_203,
@@ -56300,6 +55436,11 @@ UG_229,
 UG_230,
 UG_231,
 UG_232,
+UG_233,
+UG_234,
+UG_235,
+UG_236,
+UG_237,
 UG_301,
 UG_302,
 UG_303,
@@ -56331,6 +55472,12 @@ UG_328,
 UG_329,
 UG_330,
 UG_331,
+UG_332,
+UG_333,
+UG_334,
+UG_335,
+UG_336,
+UG_337,
 UG_401,
 UG_402,
 UG_403,
@@ -56356,6 +55503,16 @@ UG_422,
 UG_423,
 UG_424,
 UG_425,
+UG_426,
+UG_427,
+UG_428,
+UG_429,
+UG_430,
+UG_431,
+UG_432,
+UG_433,
+UG_434,
+UG_435,
 UG_C,
 UG_E,
 UG_N,
@@ -56400,16 +55557,17 @@ AE_SH,
 AE_UQ,
 ],
 "GB" => &[
+GB_ABC,
 GB_ABD,
 GB_ABE,
 GB_AGB,
 GB_AGY,
+GB_AND,
+GB_ANN,
 GB_ANS,
-GB_ANT,
-GB_ARD,
-GB_ARM,
 GB_BAS,
 GB_BBD,
+GB_BCP,
 GB_BDF,
 GB_BDG,
 GB_BEN,
@@ -56419,10 +55577,6 @@ GB_BGE,
 GB_BGW,
 GB_BIR,
 GB_BKM,
-GB_BLA,
-GB_BLY,
-GB_BMH,
-GB_BNB,
 GB_BNE,
 GB_BNH,
 GB_BNS,
@@ -56436,15 +55590,12 @@ GB_BUR,
 GB_CAM,
 GB_CAY,
 GB_CBF,
+GB_CCG,
 GB_CGN,
-GB_CGV,
 GB_CHE,
 GB_CHW,
-GB_CKF,
-GB_CKT,
 GB_CLD,
 GB_CLK,
-GB_CLR,
 GB_CMA,
 GB_CMD,
 GB_CMN,
@@ -56452,24 +55603,20 @@ GB_CON,
 GB_COV,
 GB_CRF,
 GB_CRY,
-GB_CSR,
 GB_CWY,
 GB_DAL,
 GB_DBY,
 GB_DEN,
 GB_DER,
 GB_DEV,
-GB_DGN,
 GB_DGY,
 GB_DNC,
 GB_DND,
 GB_DOR,
-GB_DOW,
-GB_DRY,
+GB_DRS,
 GB_DUD,
 GB_DUR,
 GB_EAL,
-GB_EAW,
 GB_EAY,
 GB_EDH,
 GB_EDU,
@@ -56482,11 +55629,10 @@ GB_ERY,
 GB_ESS,
 GB_ESX,
 GB_FAL,
-GB_FER,
 GB_FIF,
 GB_FLN,
+GB_FMO,
 GB_GAT,
-GB_GBN,
 GB_GLG,
 GB_GLS,
 GB_GRE,
@@ -56515,6 +55661,7 @@ GB_KIR,
 GB_KTT,
 GB_KWL,
 GB_LAN,
+GB_LBC,
 GB_LBH,
 GB_LCE,
 GB_LDS,
@@ -56522,25 +55669,21 @@ GB_LEC,
 GB_LEW,
 GB_LIN,
 GB_LIV,
-GB_LMV,
 GB_LND,
-GB_LRN,
-GB_LSB,
 GB_LUT,
 GB_MAN,
 GB_MDB,
 GB_MDW,
-GB_MFT,
+GB_MEA,
 GB_MIK,
 GB_MLN,
 GB_MON,
 GB_MRT,
 GB_MRY,
 GB_MTY,
-GB_MYL,
+GB_MUL,
 GB_NAY,
 GB_NBL,
-GB_NDN,
 GB_NEL,
 GB_NET,
 GB_NFK,
@@ -56548,24 +55691,21 @@ GB_NGM,
 GB_NIR,
 GB_NLK,
 GB_NLN,
+GB_NMD,
+GB_NNH,
 GB_NSM,
-GB_NTA,
-GB_NTH,
 GB_NTL,
 GB_NTT,
 GB_NTY,
 GB_NWM,
 GB_NWP,
 GB_NYK,
-GB_NYM,
 GB_OLD,
-GB_OMH,
 GB_ORK,
 GB_OXF,
 GB_PEM,
 GB_PKN,
 GB_PLY,
-GB_POL,
 GB_POR,
 GB_POW,
 GB_PTE,
@@ -56597,7 +55737,6 @@ GB_SOL,
 GB_SOM,
 GB_SOS,
 GB_SRY,
-GB_STB,
 GB_STE,
 GB_STG,
 GB_STH,
@@ -56615,7 +55754,6 @@ GB_TOB,
 GB_TOF,
 GB_TRF,
 GB_TWH,
-GB_UKM,
 GB_VGL,
 GB_WAR,
 GB_WBK,
@@ -56629,6 +55767,7 @@ GB_WLN,
 GB_WLS,
 GB_WLV,
 GB_WND,
+GB_WNH,
 GB_WNM,
 GB_WOK,
 GB_WOR,
@@ -56639,17 +55778,6 @@ GB_WSM,
 GB_WSX,
 GB_YOR,
 GB_ZET,
-],
-"UM" => &[
-UM_67,
-UM_71,
-UM_76,
-UM_79,
-UM_81,
-UM_84,
-UM_86,
-UM_89,
-UM_95,
 ],
 "US" => &[
 US_AK,
@@ -56710,6 +55838,17 @@ US_WI,
 US_WV,
 US_WY,
 ],
+"UM" => &[
+UM_67,
+UM_71,
+UM_76,
+UM_79,
+UM_81,
+UM_84,
+UM_86,
+UM_89,
+UM_95,
+],
 "UY" => &[
 UY_AR,
 UY_CA,
@@ -56754,9 +55893,6 @@ VU_SAM,
 VU_SEE,
 VU_TAE,
 VU_TOB,
-],
-"VA" => &[
-VA_VA,
 ],
 "VE" => &[
 VE_A,
@@ -56850,17 +55986,10 @@ VN_HN,
 VN_HP,
 VN_SG,
 ],
-"VG" => &[
-VG_VG,
-],
-"VI" => &[
-VI_VI,
-],
 "WF" => &[
-WF_WF,
-],
-"EH" => &[
-EH_EH,
+WF_AL,
+WF_SG,
+WF_UV,
 ],
 "YE" => &[
 YE_AB,
@@ -56883,6 +56012,7 @@ YE_SA,
 YE_SD,
 YE_SH,
 YE_SN,
+YE_SU,
 YE_TA,
 ],
 "ZM" => &[
