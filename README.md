@@ -35,10 +35,26 @@ A rust crate providing ISO 3166 1, ISO 3166 2, ISO 3166 3  support.
 
 ## Installing
 
-``` sh
+``` toml
 [dependencies]
-rust_iso3166 = "0.1.4"
+rust_iso3166 = "0.2.0"
 ```
+
+## Features
+
+* `serde` — implements `Serialize`/`Deserialize` for `CountryCode`,
+  `iso3166_2::Subdivision` and `iso3166_3::CountryCode3` (each (de)serialises
+  via its canonical code string). Enable with:
+
+  ``` toml
+  rust_iso3166 = { version = "0.2.0", features = ["serde"] }
+  ```
+
+* `cli` — builds the `iso3166` command-line lookup tool (pulls in
+  `prettytable-rs`). Off by default; install with
+  `cargo install rust_iso3166 --features cli`.
+
+The minimum supported Rust version is 1.85.
 
 ## Using
 
